@@ -130,6 +130,7 @@ function listPage({ lang, rows, cats, catLabel }) {
    carries an id, so a reference from anywhere else (a recipe material, a habitat
    requirement, a favourite, a gift) can link straight to it; :target highlights it. */
 const itemById = new Map(items.map(i => [i.id, i]));
+const itemSquashed = new Map(items.map(i => [i.id.replace(/-/g, ''), i]));
 const itemSlug = s => String(s).normalize('NFD').replace(/[̀-ͯ]/g, '')
   .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
@@ -138,8 +139,10 @@ function itemRef(key) {
   if (itemById.has(key)) return itemById.get(key);
   const bare = String(key).replace(/\s*\((?:any|lit)\)/gi, '').replace(/\s*[x×]\s*\d+\s*$/i, '').trim();
   const id = itemSlug(bare);
-  // sources are inconsistent about plurals ("Sea grape" for the item "Sea grapes")
-  return itemById.get(id) || itemById.get(id + 's') || itemById.get(id.replace(/s$/, '')) || null;
+  // sources are inconsistent about plurals ("Sea grape" for the item "Sea grapes") and
+  // about spacing ("Seaglass Fragments" for "Sea glass fragments")
+  return itemById.get(id) || itemById.get(id + 's') || itemById.get(id.replace(/s$/, ''))
+    || itemSquashed.get(id.replace(/-/g, '')) || itemSquashed.get(id.replace(/-/g, '').replace(/s$/, '')) || null;
 }
 const itemHref = (lang, key) => {
   const it = itemRef(key);
@@ -927,6 +930,96 @@ const EXCHANGES = [
   ['rarify', 'Turns Star Pieces into rare Pokémetal.', 'เปลี่ยน Star Piece ให้เป็น Pokémetal หายาก'],
 ];
 
+/* ---------------- dream islands ----------------
+   A Dream Island is generated fresh for each trip and reset at the end of the day, so
+   there is no map to draw and no fixed layout to list — what is knowable is which doll
+   stocks the island with what, which is exactly what the item sources record. */
+function dreamIslandsPage(lang) {
+  const t = T[lang], th = lang === 'th';
+  const sec = (title, count, inner) => `<section><div class="sec-title"><h2>${esc(title)}</h2>${count == null ? '' : `<span>${count}</span>`}</div>${inner}</section>`;
+  const monByName2 = new Map(pokemon.map(p => [p.name.toLowerCase(), p]));
+  const legendChip = name => {
+    const p = monByName2.get(String(name).toLowerCase());
+    return p ? monChip(p.id, name, lang) : esc(name);
+  };
+  const itemGrid = (list, label) => list.length ? `<details class="island-finds">
+    <summary>${esc(label)} <b>${list.length}</b></summary>
+    <div class="fav-items">${list.map(x => itemChip(x.name, lang)).join('')}</div></details>` : '';
+
+  const body = `${crumb(lang, [[t.nav.dreamIslands]])}
+<div class="wrap stack" style="--gap:20px">
+  <h1>${esc(t.nav.dreamIslands)}</h1>
+  <p class="lede">${th
+      ? 'เกาะส่วนตัวที่ไปได้วันละครั้ง เต็มไปด้วยแร่และของหายาก ตุ๊กตาที่คุณวางก่อนออกเดินทางเป็นตัวกำหนดว่าเกาะจะมีอะไร'
+      : 'A private island you can visit once a day, stocked with ore and rare finds. The doll you set down before you leave decides what is on it.'}</p>
+
+  ${sec(th ? 'ไปยังไง' : 'How to get there', null, `<div class="prose">
+    <p>${th
+        ? 'ผูกมิตรกับดริฟลูนก่อน ความถนัด Dream Island ของมันคือประตูไปเกาะ จากนั้นวางตุ๊กตาลงพื้นแล้วกดตรวจดู ดริฟลูนจะลอยมาพาคุณไป'
+        : 'Befriend Drifloon first — its Dream Island specialty is the way there. Then set a doll down and inspect it, and Drifloon floats over to whisk you away.'}</p>
+    <p>${th
+        ? 'ไปได้วันละครั้ง และเกาะจะรีเซ็ตเมื่อจบวัน ของที่ทิ้งไว้บนเกาะจะหายไปเลย เก็บให้หมดก่อนกลับ'
+        : 'One trip per day, and the island resets when the day ends — anything you leave behind is gone for good, so clear it out before you go.'}</p></div>`)}
+
+  ${sec(th ? 'ตุ๊กตาแต่ละตัวพาไปเกาะแบบไหน' : 'What each doll stocks the island with', dreamislands.length, `
+  <p class="note">${th
+      ? 'สามอย่างแรกคือของที่ Serebii ระบุว่าเกาะนั้นเน้นเป็นพิเศษ ส่วนรายการเต็มด้านล่างมาจากแหล่งที่มาของไอเทมแต่ละชิ้น ซึ่งบอกว่าไอเทมนั้นเจอบนเกาะไหน — "ของที่ขึ้นเอง" คือของที่งอกอยู่บนเกาะ ส่วน "ของประจำเกาะ" คือเฟอร์นิเจอร์และของสะสมที่เจอได้เฉพาะเกาะนั้น'
+      : 'The first three are the finds Serebii lists as that island’s focus. The longer lists come from the item sources, which record the island each item spawns on — “grows there” for the natural resources, “exclusive finds” for the furniture and collectibles you only get on that island.'}</p>
+  <div class="islands">${dreamislands.map(d => `<article class="island">
+    <div class="island-head">
+      ${itemPic(d.img) ? `<img class="island-doll" src="${itemPic(d.img)}" alt="" loading="lazy" width="56" height="56" decoding="async">` : ''}
+      <div>
+        <h3>${esc(d.doll)}${th && G(d.doll) ? ` <span class="gloss">${esc(G(d.doll))}</span>` : ''}</h3>
+        ${d.random
+      ? `<p class="island-sub">${th ? 'สุ่มทั้งหมด ไม่เน้นของชนิดไหนเป็นพิเศษ' : 'Entirely random — no particular focus'}</p>`
+      : `<p class="island-sub">${d.natural.length + d.original.length} ${th ? 'อย่างที่เจอได้' : 'things to find'}${d.legendary ? ` · ${th ? 'ลุ้นเจอ' : 'chance of'} ${legendChip(d.legendary)}` : ''}</p>`}
+      </div>
+    </div>
+    ${d.focus.length ? `<div class="fav-items">${d.focus.map(f => ingredient(f.name, lang)).join('')}</div>` : ''}
+    ${itemGrid(d.original, th ? 'ของประจำเกาะ' : 'Exclusive finds')}
+    ${itemGrid(d.natural, th ? 'ของที่ขึ้นเอง' : 'Grows there')}
+  </article>`).join('')}</div>`)}
+
+  ${sec(th ? 'โปเกมอนบนเกาะ' : 'Pokémon on the island', null, `
+  <p class="note note-clay">${th
+      ? 'เกาะแห่งความฝันไม่มีโปเกมอนป่าอยู่เลย — Serebii ระบุไว้ชัดเจน สิ่งเดียวที่เจอได้คือโปเกมอนในตำนาน ซึ่งเป็นโอกาสสุ่ม ไม่ใช่การการันตี'
+      : 'Dream Islands have no wild Pokémon on them at all — Serebii says so plainly. The one exception is a Legendary, and that is a chance, not a guarantee.'}</p>
+  <div class="table-scroll"><table>
+    <thead><tr><th>${th ? 'ตุ๊กตาที่ใช้' : 'Doll'}</th><th>${th ? 'โปเกมอนที่มีโอกาสเจอ' : 'Legendary it favours'}</th><th>${th ? 'วิธีเจอ' : 'How it works'}</th></tr></thead>
+    <tbody>${dreamislands.filter(d => d.legendary).map(d => `<tr>
+      <td>${itemChip(d.doll, lang)}</td><td>${legendChip(d.legendary)}</td>
+      <td>${th ? 'วางตุ๊กตานี้ก่อนออกเดินทางเพื่อเพิ่มโอกาส คุยกับมันบนเกาะแล้วพากลับมาสร้างบ้านให้ได้' : 'Set this doll down before you leave to bias the roll; talk to it on the island and you can bring it home.'}</td></tr>`).join('')}</tbody>
+  </table></div>
+  <p class="note">${th
+      ? 'มิวไม่ได้มาจากเกาะแบบนี้ ต้องเก็บ Mysterious Slate ให้ครบ 27 ชิ้น ซึ่งพบสุ่มตามพื้นที่เป็นประกาย แล้วเอาไปวางให้ตรงช่องที่ซากปรักหักพังใกล้ Pokémon Center ใน Withered Wastelands ให้เป็นรูปมิว'
+      : 'Mew does not come from these islands. Collect all 27 Mysterious Slates — they appear at random in shiny patches of ground — then lay them on the matching tiles at the ruins near the Pokémon Center in the Withered Wastelands to form a picture of Mew.'}</p>`)}
+
+  ${sec(th ? 'ของหายากและเรื่องเล่าบนเกาะ' : 'Rare finds and the lore on them', null, `<div class="prose">
+    <p>${th
+        ? 'นอกจากแร่และวัสดุ แต่ละเกาะยังมีสมุดบันทึกของผู้คนที่เล่าเรื่องเบื้องหลังของเกม ชุดแต่งตัวที่อ้างอิงตัวละครจากภาคหลักอย่าง Blue, Green และ Ethan รวมถึงของหายากอย่าง Pokémetal Ingot'
+        : 'Beyond the ore and materials, each island hides notebooks that fill in the game’s background lore, outfits based on main-series characters such as Blue, Green and Ethan, and rare items like Pokémetal Ingots.'}</p>
+    <p>${th
+        ? 'ทุกทริปยังให้คำใบ้เกี่ยวกับที่อยู่อาศัยที่คุณยังไม่เคยค้นพบด้วย'
+        : 'Every trip also hands you tips towards habitats you have not discovered yet.'}</p></div>`)}
+
+  ${sec(th ? 'ทำไมไม่มีแผนที่เกาะ' : 'Why there is no island map', null, `
+  <p class="note note-clay">${th
+      ? 'เกาะถูกสุ่มสร้างใหม่ทุกครั้งที่ไป และรีเซ็ตทิ้งเมื่อจบวัน หน้าตาภูมิประเทศจึงไม่เหมือนกันสองครั้ง ไม่มีแหล่งข้อมูลไหนเผยแพร่ผังเกาะ เพราะไม่มีผังที่ตายตัวให้เผยแพร่ สิ่งที่คาดเดาได้คือ "ของที่เจอ" ซึ่งขึ้นกับตุ๊กตา ไม่ใช่ "เจอตรงไหน"'
+      : 'The island is generated fresh for every trip and thrown away at the end of the day, so no two look alike. No source publishes a layout because there is no fixed layout to publish — what is predictable is what you find, which the doll decides, not where you find it.'}</p>`)}
+
+  <nav class="grid g-2">
+    <a class="card" href="${BASE}/${lang}/guide/legendary/"><div style="font-size:.8rem;color:var(--muted)">${esc(t.nav.basics)}</div><div style="font-weight:600">${esc(L(lang, GUIDES.find(x => x.slug === 'legendary').title))}</div></a>
+    <a class="card" href="${BASE}/${lang}/collections/"><div style="font-size:.8rem;color:var(--muted)">${esc(t.nav.collections)}</div><div style="font-weight:600">${esc(t.nav.collections)}</div></a>
+  </nav>
+</div>`;
+  return layout({
+    lang, base: BASE, title: t.nav.dreamIslands, path: '/dream-islands/',
+    desc: th ? 'เกาะแห่งความฝันใน Pokémon Pokopia — ตุ๊กตาแต่ละตัวพาไปเกาะแบบไหน เจออะไรได้บ้าง และโปเกมอนในตำนานเจอยังไง'
+      : 'Dream Islands in Pokémon Pokopia — what each doll stocks the island with, everything you can find, and how the Legendaries turn up.',
+    body,
+  });
+}
+
 function collectionsPage(lang) {
   const t = T[lang];
   const sec = (title, count, inner) => `<section><div class="sec-title"><h2>${esc(title)}</h2><span>${count}</span></div>${inner}</section>`;
@@ -959,8 +1052,9 @@ function collectionsPage(lang) {
     <tbody>${emotes.map(e => `<tr><td>${esc(e.name)}</td><td>${esc(e.source)}</td></tr>`).join('')}</tbody></table></div>`)}
 
   ${sec('Dream Islands', dreamislands.length, `<div class="table-scroll"><table>
-    <thead><tr><th>${lang === 'th' ? 'ตุ๊กตาเริ่มต้น' : 'Starting doll'}</th><th>${lang === 'th' ? 'ของหายากที่เน้น' : 'Focused rare finds'}</th></tr></thead>
-    <tbody>${dreamislands.map(d => `<tr><td>${esc(d.doll)}</td><td>${d.finds.map(esc).join(' · ')}</td></tr>`).join('')}</tbody></table></div>`)}
+    <thead><tr><th>${lang === 'th' ? 'ตุ๊กตาเริ่มต้น' : 'Starting doll'}</th><th>${lang === 'th' ? 'ของหายากที่เน้น' : 'Focused rare finds'}</th><th>${lang === 'th' ? 'โปเกมอนในตำนาน' : 'Legendary'}</th></tr></thead>
+    <tbody>${dreamislands.map(d => `<tr><td>${itemChip(d.doll, lang)}</td><td>${d.focus.map(f => ingredient(f.name, lang)).join('') || (lang === 'th' ? 'สุ่มทั้งหมด' : 'all random')}</td><td>${d.legendary ? esc(d.legendary) : '—'}</td></tr>`).join('')}</tbody></table></div>
+    <p class="note"><a href="${BASE}/${lang}/dream-islands/" style="text-decoration:underline">${lang === 'th' ? 'ดูรายละเอียดเกาะแต่ละแบบ ของที่เจอได้ทั้งหมด และวิธีเจอโปเกมอนในตำนาน' : 'See each island in full — everything it stocks, and how the Legendaries turn up'}</a></p>`)}
 
   ${sec('Cloud Islands', cloudislands.length, `<div class="table-scroll"><table>
     <thead><tr><th>${lang === 'th' ? 'เกาะ' : 'Island'}</th><th>${lang === 'th' ? 'โค้ด' : 'Code'}</th></tr></thead>
@@ -1156,6 +1250,7 @@ for (const lang of LANGS) {
   write(`${lang}/building`, buildingPage(lang));
   write(`${lang}/cooking`, cookingPage(lang));
   write(`${lang}/gifts`, giftsPage(lang));
+  write(`${lang}/dream-islands`, dreamIslandsPage(lang));
   write(`${lang}/collections`, collectionsPage(lang));
   write(`${lang}/events`, eventsPage(lang));
   write(`${lang}/updates`, updatesPage(lang));

@@ -289,6 +289,19 @@ td.num { font-variant-numeric: tabular-nums; color: var(--muted); white-space: n
 td .fav-item { margin: 1px 0; }
 td .fav-items { gap: 4px; }
 
+/* dream islands */
+.islands { display: grid; gap: 12px; margin-top: 12px; }
+.island { padding: 14px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); }
+.island-head { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+.island-head h3 { margin: 0; font-size: 1rem; }
+.island-doll { width: 56px; height: 56px; object-fit: contain; flex: none; border-radius: 12px; background: var(--paper-2); }
+.island-sub { margin: 3px 0 0; font-size: .82rem; color: var(--muted); display: flex; align-items: center; gap: 5px; flex-wrap: wrap; }
+.island-finds { margin-top: 10px; border-top: 1px solid var(--line); padding-top: 10px; }
+.island-finds summary { cursor: pointer; font-size: .85rem; font-weight: 600; color: var(--ink-2); }
+.island-finds summary b { color: var(--clay); font-variant-numeric: tabular-nums; }
+.island-finds .fav-items { margin-top: 10px; }
+@media (min-width: 700px) { .islands { grid-template-columns: 1fr 1fr; } }
+
 /* cross-references to an item's row on its category page */
 .item-link { color: inherit; text-decoration: underline; text-decoration-style: dotted;
   text-underline-offset: 2px; text-decoration-color: var(--line-2); }
