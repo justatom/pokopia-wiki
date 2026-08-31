@@ -125,6 +125,29 @@ function listPage({ lang, rows, cats, catLabel }) {
 <p class="sr-empty" id="listEmpty" hidden>${esc(t.noResults)}</p></div>`;
 }
 
+/* Items have no page of their own — they live as rows on their category page. Every row
+   carries an id, so a reference from anywhere else (a recipe material, a habitat
+   requirement, a favourite, a gift) can link straight to it; :target highlights it. */
+const itemById = new Map(items.map(i => [i.id, i]));
+const itemSlug = s => String(s).normalize('NFD').replace(/[̀-ͯ]/g, '')
+  .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+/** resolve a loose reference — an item id, or text like "Tall Grass x 4" or "Hedge (any)" */
+function itemRef(key) {
+  if (itemById.has(key)) return itemById.get(key);
+  const bare = String(key).replace(/\s*\((?:any|lit)\)/gi, '').replace(/\s*[x×]\s*\d+\s*$/i, '').trim();
+  return itemById.get(itemSlug(bare)) || null;
+}
+const itemHref = (lang, key) => {
+  const it = itemRef(key);
+  return it ? `${BASE}/${lang}/items/${catSlug(it.cat)}/#i-${it.id}` : null;
+};
+/** wrap already-escaped label in a link when the reference resolves, else leave it alone */
+const itemLink = (lang, key, label) => {
+  const href = itemHref(lang, key);
+  return href ? `<a class="item-link" href="${href}">${label}</a>` : label;
+};
+
 const cellPic = img => { const u = itemPic(img); return u ? `<img class="cell-ico" src="${u}" alt="" loading="lazy" width="32" height="32" decoding="async">` : ''; };
 const matPic = m => { const u = itemPic(m.img); return u ? `<img class="mat-ico" src="${u}" alt="" loading="lazy" width="18" height="18" decoding="async">` : ''; };
 const rowIcon = (kind, pic) => pic
@@ -160,9 +183,12 @@ function monLikes(p, lang) {
         return `<div class="like-tier">
       <div class="like-head"><h3><b class="fav-no">${i + 1}</b> ${esc(thFav(f, lang))}${th ? ` <span class="gloss">${esc(f)}</span>` : ''}</h3>
         <span>${cat ? `${cat.items.length}${cat.partial ? '+' : ''} ${th ? 'ไอเทม' : 'items'}` : ''}</span></div>
-      ${shown.length ? `<div class="fav-items">${shown.map(it => `<span class="fav-item" title="${esc(it.name)}">
+      ${shown.length ? `<div class="fav-items">${shown.map(it => {
+          const href = itemHref(lang, it.id);
+          return `<${href ? `a class="fav-item" href="${href}"` : 'span class="fav-item"'} title="${esc(it.name)}">
         ${itemPic(it.img) ? `<img src="${itemPic(it.img)}" alt="" loading="lazy" width="34" height="34" decoding="async">` : ''}
-        <span>${esc(it.name)}</span></span>`).join('')}${cat.items.length > FAV_SHOWN
+        <span>${esc(it.name)}</span></${href ? 'a' : 'span'}>`;
+        }).join('')}${cat.items.length > FAV_SHOWN
             ? `<span class="fav-item fav-more">+${cat.items.length - FAV_SHOWN}</span>` : ''}</div>` : ''}
     </div>`;
       }).join('')}
@@ -182,7 +208,7 @@ function monGives(p, lang) {
   return `<section><div class="sec-title"><h2>${th ? 'ของที่มันให้เรา' : 'What it gives you'}</h2><span>${p.litter.length + (p.gift ? 1 : 0)}</span></div>
   <div class="rows">
     ${p.litter.map(x => dataRow({
-        name: x, gloss: G(x), kind: 'box', pic: itemPic(itemImg.get(x.toLowerCase())), lang,
+        name: x, gloss: G(x), kind: 'box', pic: itemPic(itemImg.get(x.toLowerCase())), href: itemHref(lang, x), lang,
         desc: th ? 'ทิ้งไว้ใกล้บ้านของมันเรื่อย ๆ จากความถนัด Litter — ไม่ต้องรอให้สนิท เริ่มตั้งแต่วันที่ย้ายเข้ามา'
           : 'Dropped near its home again and again by the Litter specialty — no friendship needed, it starts the day it moves in.',
         meta: `<span class="tag tag-moss">Litter</span><span>${th ? 'ซ้ำเรื่อย ๆ' : 'Repeats'}</span>`,
@@ -209,15 +235,15 @@ ${pic
   <div class="row-name">#${String(h.no).padStart(3, '0')} ${esc(h.name)}</div>
   ${lang === 'th' && gl ? `<div class="row-th gloss">${esc(gl)}</div>` : ''}
   ${h.desc ? `<div class="row-desc">${esc(h.desc)}</div>` : ''}
-  ${h.req.length ? `<div class="mats">${h.req.map(r => `<span class="mat">${esc(r)}</span>`).join('')}</div>` : ''}
+  ${h.req.length ? `<div class="mats">${h.req.map(r => `<span class="mat">${itemLink(lang, r, esc(r))}</span>`).join('')}</div>` : ''}
   ${mons.length ? `<div class="hab-mons">${mons.map(m => `<a href="${monUrl(lang, m)}" title="${esc(monTitle(m, lang))}"><img src="${sprite(m)}" alt="${esc(monTitle(m, lang))}" loading="lazy" width="40" height="40"><span>${esc(monTitle(m, lang))}</span></a>`).join('')}</div>` : ''}
 </div></article>`;
 }
 
-function dataRow({ name, gloss: gl, desc, meta, mats, cat, kind, pic, lang }) {
-  return `<div class="row" data-cat="${esc(cat || '')}" data-s="${esc((name + ' ' + (gl || '') + ' ' + (desc || '')).toLowerCase())}">
+function dataRow({ name, gloss: gl, desc, meta, mats, cat, kind, pic, id, href, lang }) {
+  return `<div class="row"${id ? ` id="${esc(id)}"` : ''} data-cat="${esc(cat || '')}" data-s="${esc((name + ' ' + (gl || '') + ' ' + (desc || '')).toLowerCase())}">
 ${rowIcon(kind, pic)}
-<div><div class="row-name">${esc(name)}</div>
+<div><div class="row-name">${href ? `<a href="${href}">${esc(name)}</a>` : esc(name)}</div>
 ${lang === 'th' && gl ? `<div class="row-th gloss">${esc(gl)}</div>` : ''}
 ${desc ? `<div class="row-desc">${esc(desc)}</div>` : ''}
 ${mats || ''}
@@ -371,7 +397,7 @@ function pokemonPage(p, lang) {
       <div class="row-name"><a href="${BASE}/${lang}/habitats/#h${h.dex}-${h.no}">#${String(h.no).padStart(3, '0')} ${esc(h.name)}</a>
         <span class="tag ${h.dex === 'basin' ? 'tag-clay' : 'tag-moss'}" style="margin-left:6px">${esc({ main: lang === 'th' ? 'เด็กซ์หลัก' : 'Main', basin: 'Bubbly Basin', event: lang === 'th' ? 'อีเวนต์' : 'Event' }[h.dex])}</span></div>
       ${lang === 'th' && G(h.name) ? `<div class="row-th gloss">${esc(G(h.name))}</div>` : ''}
-      <div class="mats">${h.req.map(r => `<span class="mat">${esc(r)}</span>`).join('')}</div>
+      <div class="mats">${h.req.map(r => `<span class="mat">${itemLink(lang, r, esc(r))}</span>`).join('')}</div>
     </div></article>`).join('')}</div></section>`;
       return `<div class="note note-clay">${lang === 'th'
         ? 'โปเกมอนตัวนี้ไม่ได้มาจากการสร้างที่อยู่อาศัย — ดูวิธีได้มาในคู่มือโปเกมอนในตำนาน'
@@ -436,7 +462,7 @@ function itemsCatPage(cat, lang) {
   const list = items.filter(i => i.cat === cat);
   const rows = list.map(i => ({
     html: dataRow({
-      name: i.name, gloss: G(i.name), desc: i.desc, cat: i.tags[0] || '', kind: 'box', pic: itemPic(i.img), lang,
+      name: i.name, gloss: G(i.name), desc: i.desc, cat: i.tags[0] || '', kind: 'box', pic: itemPic(i.img), id: `i-${i.id}`, lang,
       meta: i.tags.map(x => `<span class="tag tag-clay">${esc(x)}</span>`).join('') +
         (i.sources.length ? `<span>${esc(i.sources.slice(0, 3).join(' · '))}${i.sources.length > 3 ? ' …' : ''}</span>` : ''),
     })
@@ -455,8 +481,8 @@ function recipesCatPage(cat, lang) {
   const list = recipes.filter(r => r.cat === cat);
   const rows = list.map(r => ({
     html: dataRow({
-      name: r.name, gloss: G(r.name), cat: '', kind: 'package', pic: itemPic(r.img), lang,
-      mats: `<div class="mats">${r.materials.map(m => `<span class="mat">${matPic(m)}${esc(m.name)} <b>×${m.qty}</b></span>`).join('')}</div>`,
+      name: r.name, gloss: G(r.name), cat: '', kind: 'package', pic: itemPic(r.img), href: itemHref(lang, r.id), lang,
+      mats: `<div class="mats">${r.materials.map(m => `<span class="mat">${matPic(m)}${itemLink(lang, m.item, esc(m.name))} <b>×${m.qty}</b></span>`).join('')}</div>`,
       meta: r.sources.length ? `<span>${esc(r.sources.join(' · '))}</span>` : '',
     })
   }));
@@ -472,7 +498,7 @@ function furniturePage(lang) {
   const t = T[lang];
   const rows = furniture.map(f => ({
     html: dataRow({
-      name: f.name, gloss: G(f.name), desc: f.desc, cat: f.flags[0] || '', kind: 'home', pic: itemPic(f.img), lang,
+      name: f.name, gloss: G(f.name), desc: f.desc, cat: f.flags[0] || '', kind: 'home', pic: itemPic(f.img), href: itemHref(lang, f.id), lang,
       meta: f.flags.map(x => `<span class="tag tag-moss">${esc(x)}</span>`).join('') +
         f.colour.map(x => `<span class="tag">${esc(x)}</span>`).join('') +
         (f.sources.length ? `<span>${esc(f.sources.slice(0, 4).join(' · '))}</span>` : ''),
@@ -672,7 +698,7 @@ function buildingPage(lang) {
   <div class="prose">${g.blocks.map(bl => `<h2>${esc(L(lang, bl.h))}</h2>${bl.p.map(x => `<p>${esc(L(lang, x))}</p>`).join('')}`).join('')}</div>
   <section>
     <div class="sec-title"><h2>${lang === 'th' ? 'ชุดก่อสร้างทั้งหมด' : 'All building kits'}</h2><span>${buildkits.length}</span></div>
-    <div class="rows">${buildkits.map(k => dataRow({ name: k.name, gloss: G(k.name), desc: k.desc, kind: 'hammer', pic: itemPic(k.img), lang })).join('')}</div>
+    <div class="rows">${buildkits.map(k => dataRow({ name: k.name, gloss: G(k.name), desc: k.desc, kind: 'hammer', pic: itemPic(k.img), href: itemHref(lang, k.id), lang })).join('')}</div>
   </section>
 </div>`;
   return layout({ lang, base: BASE, title: t.nav.building, desc: 'Pokopia building guide', path: '/building/', body });
@@ -692,7 +718,7 @@ function cookingPage(lang) {
       <thead><tr><th>${lang === 'th' ? 'เมนู' : 'Dish'}</th><th>PP</th><th>${lang === 'th' ? 'วัตถุดิบหลัก' : 'Main'}</th><th>${lang === 'th' ? 'วัตถุดิบเสริม' : 'Secondary'}</th></tr></thead>
       <tbody>${cooking.filter(c => c.type === ty).map(c => `<tr>
         <td><div class="cell-item">${cellPic(c.img)}<div><strong>${esc(c.name)}</strong>${lang === 'th' && G(c.name) ? `<div class="gloss">${esc(G(c.name))}</div>` : ''}<div style="font-size:.82rem;color:var(--muted)">${esc(c.desc)}</div></div></div></td>
-        <td class="num">${esc(c.pp)}</td><td>${esc(c.main)}</td><td>${c.secondary.map(esc).join('<br>') || '—'}</td></tr>`).join('')}</tbody>
+        <td class="num">${esc(c.pp)}</td><td>${itemLink(lang, c.main, esc(c.main))}</td><td>${c.secondary.map(x => itemLink(lang, x, esc(x))).join('<br>') || '—'}</td></tr>`).join('')}</tbody>
     </table></div></section>`).join('')}
   <section>
     <div class="sec-title"><h2>${lang === 'th' ? 'รสชาติของอาหารและเบอร์รี' : 'Food & berry flavours'}</h2><span>${flavors.length}</span></div>
@@ -779,7 +805,7 @@ function giftsPage(lang) {
     <thead><tr><th>${th ? 'โปเกมอน' : 'Pokémon'}</th><th>${th ? 'ของที่ได้' : 'Drops'}</th><th>${th ? 'ความถี่' : 'Frequency'}</th></tr></thead>
     <tbody>${litter.map(g => `<tr>
       <td>${monChip(g.mon, g.name, lang)}</td>
-      <td>${g.gives.map(x => `<div class="cell-item">${giftPic(x)}<div><strong>${esc(x)}</strong>${th && G(x) ? `<div class="gloss">${esc(G(x))}</div>` : ''}</div></div>`).join('')}</td>
+      <td>${g.gives.map(x => `<div class="cell-item">${giftPic(x)}<div><strong>${itemLink(lang, x, esc(x))}</strong>${th && G(x) ? `<div class="gloss">${esc(G(x))}</div>` : ''}</div></div>`).join('')}</td>
       <td>${th ? 'ซ้ำเรื่อย ๆ ใกล้บ้าน' : 'Repeats, near its home'}</td></tr>`).join('')}</tbody>
   </table></div>`)}
 
@@ -799,7 +825,7 @@ function giftsPage(lang) {
     <thead><tr><th>${th ? 'ผู้ให้' : 'Giver'}</th><th>${th ? 'ของที่ได้' : 'Gives'}</th><th>${th ? 'ความถี่' : 'Frequency'}</th></tr></thead>
     <tbody>${story.map(g => `<tr>
       <td>${monChip(g.mon, g.name, lang)}</td>
-      <td>${g.gives.map(x => `<div class="cell-item">${giftPic(x)}<div><strong>${esc(x)}</strong></div></div>`).join('')}</td>
+      <td>${g.gives.map(x => `<div class="cell-item">${giftPic(x)}<div><strong>${itemLink(lang, x, esc(x))}</strong></div></div>`).join('')}</td>
       <td>${th ? 'ตามเนื้อเรื่อง' : 'Story-driven'}</td></tr>`).join('')}</tbody>
   </table></div>`) : ''}
 

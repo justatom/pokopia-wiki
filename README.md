@@ -28,6 +28,17 @@ Plus hand-written bilingual guides on habitats and Comfy Level, building rules, 
 electricity, water physics, farming, cooking, friendship and trading, Legendaries,
 collectibles and Cloud Islands.
 
+### Item cross-links
+
+Items have no page of their own — each is a row on its category page carrying an
+`id`, so every reference to one links straight to it (`:target` highlights the row).
+That covers recipe materials, habitat build requirements, favourites, gift drops and
+cooking ingredients: 52,722 links across the site, all verified to resolve at build.
+
+Serebii misspells three material names (`Linestone`, `Iron ignot`, `Stones`); those are
+corrected in `scripts/shape.mjs`. Two upstream entries stay unlinked because there is no
+safe reading of them — a mangled `Pok&eacute` and a stray blank row.
+
 ### Favourites
 
 Every Pokémon page carries the seven things that Pokémon likes: its **ideal habitat**

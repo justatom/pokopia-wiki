@@ -1390,10 +1390,10 @@
   ],
   "materials": [
    {
-    "item": "linestone",
-    "name": "Linestone",
+    "item": "limestone",
+    "name": "Limestone",
     "qty": 2,
-    "img": null
+    "img": "limestone.png"
    },
    {
     "item": "gold-ingot",
@@ -3711,10 +3711,10 @@
   ],
   "materials": [
    {
-    "item": "iron-ignot",
-    "name": "Iron ignot",
+    "item": "iron-ingot",
+    "name": "Iron ingot",
     "qty": 1,
-    "img": null
+    "img": "ironingot.png"
    }
   ]
  },
@@ -10179,10 +10179,10 @@
   ],
   "materials": [
    {
-    "item": "stones",
-    "name": "Stones",
+    "item": "stone",
+    "name": "Stone",
     "qty": 3,
-    "img": null
+    "img": "stone.png"
    }
   ]
  },

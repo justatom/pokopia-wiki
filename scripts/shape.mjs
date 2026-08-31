@@ -237,6 +237,10 @@ for (const s of secs('items')) {
 W('items', items);
 
 /* ---------- recipes ---------- */
+/* Serebii misspells three material names, which otherwise point at items that do not
+   exist. "Pok&eacute" (in Decorative Poké Ball) is mangled upstream too, but there is no
+   safe reading of it, so it is left alone rather than guessed at. */
+const MAT_FIX = { 'Linestone': 'Limestone', 'Iron ignot': 'Iron ingot', 'Stones': 'Stone' };
 const RCATS = { furniture: 'Furniture', 'misc.': 'Misc', outdoor: 'Outdoor', utilities: 'Utilities', buildings: 'Buildings', blocks: 'Blocks', other: 'Other' };
 const recipes = [];
 for (const s of secs('crafting')) {
@@ -245,7 +249,8 @@ for (const s of secs('crafting')) {
     const name = cell(r[1]); if (!name || name === 'Name') continue;
     const mats = list(r[3]).map(t => {
       const m = t.match(/^(.*?)\s*\*\s*(\d+)$/);
-      return m ? { item: slug(m[1]), name: m[1], qty: +m[2] } : { item: slug(t), name: t, qty: 1 };
+      const nm = MAT_FIX[(m ? m[1] : t).trim()] || (m ? m[1] : t);
+      return { item: slug(nm), name: nm, qty: m ? +m[2] : 1 };
     });
     recipes.push({ id: slug(name), name, cat, img: icon(name), sources: list(r[2]), materials: mats.map(m => ({ ...m, img: icon(m.name) })) });
   }

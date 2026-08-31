@@ -245,6 +245,7 @@ td.num { font-variant-numeric: tabular-nums; color: var(--muted); white-space: n
 .hab-mons img { width: 30px; height: 30px; object-fit: contain; flex: none; }
 .row { content-visibility: auto; contain-intrinsic-size: auto 120px; }
 :target.row { outline: 2px solid var(--moss); outline-offset: 3px; }
+.row { scroll-margin-top: 168px; }
 .mat { font-size: .76rem; padding: 3px 9px; border-radius: 8px; background: var(--paper-2); color: var(--ink-2); white-space: nowrap; }
 .mat b { color: var(--clay); font-variant-numeric: tabular-nums; }
 
@@ -275,6 +276,14 @@ td.num { font-variant-numeric: tabular-nums; color: var(--muted); white-space: n
   font-size: .76rem; font-weight: 500; }
 .fav-item img { width: 28px; height: 28px; object-fit: contain; flex: none; }
 .fav-more { padding: 5px 11px; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+/* cross-references to an item's row on its category page */
+.item-link { color: inherit; text-decoration: underline; text-decoration-style: dotted;
+  text-underline-offset: 2px; text-decoration-color: var(--line-2); }
+.item-link:hover { color: var(--moss); text-decoration-color: var(--moss); }
+.mat a.item-link, .row-name a { color: inherit; }
+.row-name a:hover { color: var(--moss); }
+a.fav-item:hover { background: var(--moss-soft); color: var(--moss); }
 .row-wide { grid-template-columns: 96px 1fr; }
 .hab-pic { width: 96px; height: 68px; object-fit: cover; border-radius: 10px; background: var(--paper-2); }
 @media (min-width: 640px) {
