@@ -78,7 +78,7 @@ export function layout({ lang, base, title, desc, path, body, altPath, head = ''
 <link rel="icon" href="${base}/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@400;500;600&family=Noto+Serif+Thai:wght@500;600&family=Noto+Serif:wght@500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;600;700&family=Playpen+Sans+Thai:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="${base}/styles.css">
 ${head}
 <script>try{var m=localStorage.getItem('pkp-theme');if(m)document.documentElement.dataset.theme=m}catch(e){}</script>
