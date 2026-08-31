@@ -417,3 +417,32 @@ W('gifts', gifts);
   W('favorites', favorites);
   console.log(`   ${favorites.reduce((n, f) => n + f.items.length, 0)} item↔category links`);
 }
+
+/* ---------- cookware ----------
+   Which kitchen equipment each kind of meal needs, and whether it has to sit on a heat
+   source. Both facts are written on the items themselves ("Kitchen equipment for making
+   soup. Put this on a stove or campfire"), so they are read off rather than hand-listed. */
+{
+  const FOR = [
+    [/making salads?/i, 'Salad'],
+    [/making soup/i, 'Soup'],
+    [/baking bread/i, 'Bread'],
+    [/making hamburger steak/i, 'Steak'],
+    [/making smoothies?/i, 'Smoothie'],
+  ];
+  const byType = new Map();
+  for (const i of items) {
+    if (!/(kitchen|cooking) equipment/i.test(i.desc)) continue;
+    const hit = FOR.find(([re]) => re.test(i.desc)); if (!hit) continue;
+    const heat = /stove or campfire/i.test(i.desc) ? 'stove'
+      : /light the fire/i.test(i.desc) ? 'lit' : null;
+    const arr = byType.get(hit[1]) || []; arr.push({ id: i.id, name: i.name, img: i.img, desc: i.desc, heat });
+    byType.set(hit[1], arr);
+  }
+  const HEAT = ['Cooking stove', 'Campfire', 'Bonfire'];
+  W('cookware', {
+    types: [...byType].map(([type, tools]) => ({ type, tools, heat: tools.some(t => t.heat) })),
+    heatSources: HEAT.map(n => items.find(i => i.name === n)).filter(Boolean)
+      .map(i => ({ id: i.id, name: i.name, img: i.img, desc: i.desc })),
+  });
+}

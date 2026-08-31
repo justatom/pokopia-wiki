@@ -16,7 +16,8 @@ const pokemon = D('pokemon'), habitats = D('habitats'), items = D('items'), reci
   flavors = D('flavors'), humanrecords = D('humanrecords'), highlightreel = D('highlightreel'),
   dreamislands = D('dreamislands'), cloudislands = D('cloudislands'), envlevel = D('envlevel'),
   patches = D('patches'), events = D('events'), water = D('water'), cooking = D('cooking'),
-  stampcard = D('stampcard'), teamchallenge = D('teamchallenge'), gifts = D('gifts'), favorites = D('favorites');
+  stampcard = D('stampcard'), teamchallenge = D('teamchallenge'), gifts = D('gifts'), favorites = D('favorites'),
+  cookware = D('cookware');
 const THNAMES = D('th/pokemon-names'), TERMS = D('th/terms'),
   THPATCH = D('th/patches'), THM = D('th/misc');
 
@@ -136,7 +137,9 @@ const itemSlug = s => String(s).normalize('NFD').replace(/[̀-ͯ]/g, '')
 function itemRef(key) {
   if (itemById.has(key)) return itemById.get(key);
   const bare = String(key).replace(/\s*\((?:any|lit)\)/gi, '').replace(/\s*[x×]\s*\d+\s*$/i, '').trim();
-  return itemById.get(itemSlug(bare)) || null;
+  const id = itemSlug(bare);
+  // sources are inconsistent about plurals ("Sea grape" for the item "Sea grapes")
+  return itemById.get(id) || itemById.get(id + 's') || itemById.get(id.replace(/s$/, '')) || null;
 }
 const itemHref = (lang, key) => {
   const it = itemRef(key);
@@ -704,22 +707,79 @@ function buildingPage(lang) {
   return layout({ lang, base: BASE, title: t.nav.building, desc: 'Pokopia building guide', path: '/building/', body });
 }
 
+const COOK_TYPES_TH = { Salad: 'สลัด', Soup: 'ซุป', Bread: 'ขนมปัง', Steak: 'สเต๊ก', Smoothie: 'สมูทตี้' };
+const thCookType = (ty, lang) => (lang === 'th' && COOK_TYPES_TH[ty]) || ty;
+
+/** an ingredient or a piece of equipment as an icon chip that links to the item */
+function itemChip(name, lang, cls = 'fav-item') {
+  const it = itemRef(name);
+  const pic = it && itemPic(it.img);
+  const inner = `${pic ? `<img src="${pic}" alt="" loading="lazy" width="34" height="34" decoding="async">` : ''}<span>${esc(name)}</span>`;
+  return it
+    ? `<a class="${cls}" href="${itemHref(lang, it.id)}" title="${esc(it.desc || name)}">${inner}</a>`
+    : `<span class="${cls}" title="${esc(name)}">${inner}</span>`;
+}
+const ingredient = (name, lang) => itemChip(name, lang);
+const equipChip = (x, lang) => itemChip(x.name, lang);
+
+/** the helper specialty a dish needs, linking to the specialty list */
+const specTag = (id, lang) => {
+  if (!id) return `<span style="color:var(--muted)">—</span>`;
+  const s = specialties.find(x => x.name.toLowerCase() === String(id).toLowerCase());
+  return s
+    ? `<a class="tag tag-moss" href="${BASE}/${lang}/specialties/#${s.id}" title="${esc(specDesc(s, lang))}">${esc(specName(s, lang))}</a>`
+    : `<span class="tag tag-moss">${esc(id)}</span>`;
+};
+
 function cookingPage(lang) {
   const t = T[lang];
+  const th = lang === 'th';
+  const sec = (title, count, inner) => `<section><div class="sec-title"><h2>${esc(title)}</h2><span>${count}</span></div>${inner}</section>`;
   const g = GUIDES.find(x => x.slug === 'cooking');
   const types = [...new Set(cooking.map(c => c.type))].filter(Boolean);
   const body = `${crumb(lang, [[t.nav.cooking]])}
 <div class="wrap stack" style="--gap:18px">
   <h1>${esc(t.nav.cooking)}</h1>
   <div class="prose">${g.blocks.map(bl => `<h2>${esc(L(lang, bl.h))}</h2>${bl.p.map(x => `<p>${esc(L(lang, x))}</p>`).join('')}</h2>`).join('')}</div>
-  ${types.map(ty => `<section>
-    <div class="sec-title"><h2>${esc(ty)}</h2><span>${cooking.filter(c => c.type === ty).length}</span></div>
+  ${sec(th ? 'อุปกรณ์ที่ต้องใช้' : 'The equipment you need',
+      cookware.types.reduce((n, x) => n + x.tools.length, 0) + cookware.heatSources.length, `
+  <p class="note">${th
+        ? 'อาหารแต่ละแบบใช้อุปกรณ์คนละอย่าง หม้อ กระทะ และเตาอบขนมปังต้องวางบนแหล่งความร้อนก่อนถึงจะใช้ได้ ส่วนเขียงกับเครื่องปั่นใช้ได้เลยไม่ต้องใช้ไฟ'
+        : 'Each kind of meal needs its own piece of equipment. Pots, pans and the bread oven have to sit on a heat source; the cutting board and blender work as they are.'}</p>
+  <div class="cookware">${cookware.types.map(k => `<div class="cookware-type">
+    <div class="like-head"><h3>${esc(thCookType(k.type, lang))}${th ? ` <span class="gloss">${esc(k.type)}</span>` : ''}</h3>
+      <span>${k.heat ? (th ? 'ต้องมีความร้อน' : 'needs heat') : (th ? 'ไม่ต้องใช้ไฟ' : 'no fire needed')}</span></div>
+    <div class="fav-items">${k.tools.map(x => equipChip(x, lang)).join('')}</div>
+  </div>`).join('')}
+  <div class="cookware-type">
+    <div class="like-head"><h3>${th ? 'แหล่งความร้อน' : 'Heat sources'}</h3>
+      <span>${th ? 'วางหม้อหรือกระทะไว้ข้างบน' : 'put the pot or pan on top'}</span></div>
+    <div class="fav-items">${cookware.heatSources.map(x => equipChip(x, lang)).join('')}</div>
+  </div></div>
+  <p class="note note-clay">${th
+        ? 'เตาอบขนมปังต่างจากอันอื่น ต้องให้โปเกมอนที่มีความถนัด Burn มาจุดไฟให้ และเมนูอีก 8 อย่างก็ต้องพาโปเกมอนที่มีความถนัดตรงตามที่ระบุในตารางไปช่วยด้วย'
+        : 'The bread oven is the odd one out — a Pokémon with the Burn specialty has to light it for you. Eight dishes also need a helper Pokémon with the specialty named in the table.'}</p>`)}
+
+  ${types.map(ty => {
+      const list = cooking.filter(c => c.type === ty);
+      const kit = cookware.types.find(k => k.type === ty);
+      // smoothies power up Surf for a while rather than restoring PP, and Serebii puts
+      // that duration in the same column — so label the column from what is actually in it
+      const timed = list.every(c => /\d+\s*min/i.test(c.pp));
+      return `<section>
+    <div class="sec-title"><h2>${esc(thCookType(ty, lang))}${th ? ` <span class="gloss">${esc(ty)}</span>` : ''}</h2><span>${list.length}</span></div>
+    ${kit ? `<div class="fav-items" style="margin-bottom:10px">${kit.tools.map(x => equipChip(x, lang)).join('')}${kit.heat
+        ? cookware.heatSources.map(x => equipChip(x, lang)).join('') : ''}</div>` : ''}
     <div class="table-scroll"><table>
-      <thead><tr><th>${lang === 'th' ? 'เมนู' : 'Dish'}</th><th>PP</th><th>${lang === 'th' ? 'วัตถุดิบหลัก' : 'Main'}</th><th>${lang === 'th' ? 'วัตถุดิบเสริม' : 'Secondary'}</th></tr></thead>
-      <tbody>${cooking.filter(c => c.type === ty).map(c => `<tr>
-        <td><div class="cell-item">${cellPic(c.img)}<div><strong>${esc(c.name)}</strong>${lang === 'th' && G(c.name) ? `<div class="gloss">${esc(G(c.name))}</div>` : ''}<div style="font-size:.82rem;color:var(--muted)">${esc(c.desc)}</div></div></div></td>
-        <td class="num">${esc(c.pp)}</td><td>${itemLink(lang, c.main, esc(c.main))}</td><td>${c.secondary.map(x => itemLink(lang, x, esc(x))).join('<br>') || '—'}</td></tr>`).join('')}</tbody>
-    </table></div></section>`).join('')}
+      <thead><tr><th>${th ? 'เมนู' : 'Dish'}</th><th>${timed ? (th ? 'ระยะเวลา' : 'Duration') : (th ? 'ฟื้น PP' : 'PP healed')}</th><th>${th ? 'วัตถุดิบหลัก' : 'Main'}</th><th>${th ? 'วัตถุดิบเสริม' : 'Secondary'}</th><th>${th ? 'ต้องมีผู้ช่วย' : 'Helper needed'}</th></tr></thead>
+      <tbody>${list.map(c => `<tr>
+        <td><div class="cell-item">${cellPic(c.img)}<div><strong>${esc(c.name)}</strong>${th && G(c.name) ? `<div class="gloss">${esc(G(c.name))}</div>` : ''}<div style="font-size:.82rem;color:var(--muted)">${esc(c.desc)}</div></div></div></td>
+        <td class="num">${esc(c.pp)}</td>
+        <td>${ingredient(c.main, lang)}</td>
+        <td>${c.secondary.map(x => ingredient(x, lang)).join('') || '—'}</td>
+        <td>${specTag(c.spec, lang)}</td></tr>`).join('')}</tbody>
+    </table></div></section>`;
+    }).join('')}
   <section>
     <div class="sec-title"><h2>${lang === 'th' ? 'รสชาติของอาหารและเบอร์รี' : 'Food & berry flavours'}</h2><span>${flavors.length}</span></div>
     <div class="table-scroll"><table>

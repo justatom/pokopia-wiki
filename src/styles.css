@@ -279,6 +279,12 @@ td.num { font-variant-numeric: tabular-nums; color: var(--muted); white-space: n
 .fav-item img { width: 28px; height: 28px; object-fit: contain; flex: none; }
 .fav-more { padding: 5px 11px; color: var(--muted); font-variant-numeric: tabular-nums; }
 
+/* cooking equipment */
+.cookware { display: grid; gap: 14px; margin-top: 12px; }
+.cookware-type { padding: 12px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); }
+td .fav-item { margin: 1px 0; }
+td .fav-items { gap: 4px; }
+
 /* cross-references to an item's row on its category page */
 .item-link { color: inherit; text-decoration: underline; text-decoration-style: dotted;
   text-underline-offset: 2px; text-decoration-color: var(--line-2); }

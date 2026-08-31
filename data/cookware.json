@@ -1,0 +1,110 @@
+{
+ "types": [
+  {
+   "type": "Salad",
+   "tools": [
+    {
+     "id": "cutting-board",
+     "name": "Cutting board",
+     "img": "cuttingboard.png",
+     "desc": "Kitchen equipment for making salads. Grab some ingredients and make something tasty!",
+     "heat": null
+    }
+   ],
+   "heat": false
+  },
+  {
+   "type": "Steak",
+   "tools": [
+    {
+     "id": "frying-pan",
+     "name": "Frying pan",
+     "img": "fryingpan.png",
+     "desc": "Kitchen equipment for making hamburger steak. Put this on a stove or campfire",
+     "heat": "stove"
+    },
+    {
+     "id": "stylish-frying-pan",
+     "name": "Stylish frying pan",
+     "img": "stylishfryingpan.png",
+     "desc": "Kitchen equipment for making hamburger steak. Put this on a stove or campfire",
+     "heat": "stove"
+    }
+   ],
+   "heat": true
+  },
+  {
+   "type": "Soup",
+   "tools": [
+    {
+     "id": "cooking-pot",
+     "name": "Cooking pot",
+     "img": "cookingpot.png",
+     "desc": "Kitchen equipment for making soup. Put this on a stove or campfire",
+     "heat": "stove"
+    },
+    {
+     "id": "stylish-cooking-pot",
+     "name": "Stylish cooking pot",
+     "img": "stylishcookingpot.png",
+     "desc": "Kitchen equipment for making soup. Put this on a stove or campfire",
+     "heat": "stove"
+    },
+    {
+     "id": "camping-cooking-pot",
+     "name": "Camping cooking pot",
+     "img": "campingcookingpot.png",
+     "desc": "Cooking equipment for making soup. Put this on a stove or campfire",
+     "heat": "stove"
+    }
+   ],
+   "heat": true
+  },
+  {
+   "type": "Bread",
+   "tools": [
+    {
+     "id": "bread-oven",
+     "name": "Bread oven",
+     "img": "breadoven.png",
+     "desc": "Kitchen equipment for baking bread. Have a Pokémon light the fire for you.",
+     "heat": "lit"
+    }
+   ],
+   "heat": true
+  },
+  {
+   "type": "Smoothie",
+   "tools": [
+    {
+     "id": "blender",
+     "name": "Blender",
+     "img": "blender.png",
+     "desc": "Kitchen equipment for making smoothies. Grab some ingredients and make something tasty!",
+     "heat": null
+    }
+   ],
+   "heat": false
+  }
+ ],
+ "heatSources": [
+  {
+   "id": "cooking-stove",
+   "name": "Cooking stove",
+   "img": "cookingstove.png",
+   "desc": "A simple stylish stove. Turn the dial and flames will shoot right out of it"
+  },
+  {
+   "id": "campfire",
+   "name": "Campfire",
+   "img": "campfire.png",
+   "desc": "A campfire made from gathered sticks. When lit, it illuminates the area with a warm light."
+  },
+  {
+   "id": "bonfire",
+   "name": "Bonfire",
+   "img": "bonfire.png",
+   "desc": "When the wood in the center catches fire, this provides warmth and light to a large nearby area"
+  }
+ ]
+}
