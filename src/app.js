@@ -67,25 +67,38 @@
 
   /* ---------- search overlay ---------- */
   const shell = $('#searchShell'), input = $('#searchInput'), results = $('#searchResults');
-  let index = null, loading = false, sel = 0, hits = [];
+  let index = null, failed = false, loading = null, sel = 0, hits = [];
 
-  const openSearch = async () => {
+  /* The index is ~125 KB over the wire, so it can easily still be in flight when someone
+     opens the overlay and types straight away. Start it on the first hint of intent, tell
+     the user it is loading rather than claiming nothing matched, and let a failure be
+     retried — an error used to stick as a permanent empty result until a page reload. */
+  const loadIndex = () => {
+    if (index || loading) return loading;
+    failed = false;
+    loading = fetch(`${BASE}/search-${LANG}.json`)
+      .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(j => { index = j; })
+      .catch(() => { failed = true; })
+      .then(() => { loading = null; if (shell.hasAttribute('data-open')) run(); });
+    return loading;
+  };
+
+  const openSearch = () => {
     shell.setAttribute('data-open', '');
     input.focus();
-    if (!index && !loading) {
-      loading = true;
-      try { index = await (await fetch(`${BASE}/search-${LANG}.json`)).json(); }
-      catch (e) { index = []; }
-      loading = false;
-      if (input.value) run();
-    }
+    loadIndex();
+    run();
   };
   const closeSearch = () => { shell.removeAttribute('data-open'); };
 
   const render = () => {
     if (!hits.length) {
-      results.innerHTML = input.value
-        ? `<p class="sr-empty">${TH ? 'ไม่พบข้อมูล' : 'Nothing found'}</p>` : '';
+      const msg = !input.value ? ''
+        : failed ? (TH ? 'โหลดข้อมูลค้นหาไม่สำเร็จ — พิมพ์อีกครั้งเพื่อลองใหม่' : 'Could not load the search index — type again to retry')
+          : !index ? (TH ? 'กำลังโหลด…' : 'Loading…')
+            : (TH ? 'ไม่พบข้อมูล' : 'Nothing found');
+      results.innerHTML = msg ? `<p class="sr-empty">${msg}</p>` : '';
       return;
     }
     results.innerHTML = hits.map((h, i) => `<a class="sr-item" href="${BASE}${h.u}"${i === sel ? ' data-sel' : ''}>
@@ -111,11 +124,19 @@ ${h.i ? `<img src="${BASE}${h.i}" alt="" loading="lazy" width="34" height="34">`
   };
 
   if (shell) {
-    $('#searchBtn').addEventListener('click', openSearch);
+    const btn = $('#searchBtn');
+    btn.addEventListener('click', openSearch);
+    // start the download on the first sign someone is heading for search, so that by the
+    // time the overlay opens the index is usually already there
+    ['pointerenter', 'touchstart', 'focus'].forEach(ev =>
+      btn.addEventListener(ev, loadIndex, { once: true, passive: true }));
     $('#searchClose').addEventListener('click', closeSearch);
     shell.addEventListener('click', e => { if (e.target === shell) closeSearch(); });
     let t2;
-    input.addEventListener('input', () => { clearTimeout(t2); t2 = setTimeout(run, 90); });
+    input.addEventListener('input', () => {
+      loadIndex();                       // retries if an earlier attempt failed
+      clearTimeout(t2); t2 = setTimeout(run, 90);
+    });
     document.addEventListener('keydown', e => {
       if ((e.key === '/' || (e.key === 'k' && (e.metaKey || e.ctrlKey))) && !/^(INPUT|TEXTAREA)$/.test(document.activeElement.tagName)) {
         e.preventDefault(); openSearch(); return;
