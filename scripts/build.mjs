@@ -113,13 +113,28 @@ function crumb(lang, trail) {
     `</nav>`;
 }
 
+/* Chips wrap rather than scroll sideways, since a horizontal scroller gave no hint that
+   there was anything past the edge. Past this many the rest start folded away behind a
+   toggle — six keeps the bar to one row on a desktop and two on a phone, and only the
+   Pokédex, with one chip per specialty, ever has enough categories to fold any away. */
+const CHIP_LIMIT = 6;
+
+/** the filter chip bar: [All] plus one chip per category, the tail folded behind a toggle */
+function chipBar(lang, cats, catLabel) {
+  const t = T[lang];
+  const hiddenCount = Math.max(0, cats.length - CHIP_LIMIT);
+  return `<div class="chips-scroll" id="listChips">
+    <button class="chip" aria-pressed="true" data-cat="">${esc(t.all)}</button>
+    ${cats.map(([value, label], i) => `<button class="chip${i >= CHIP_LIMIT ? ' chip-extra' : ''}" aria-pressed="false" data-cat="${esc(value)}"${i >= CHIP_LIMIT ? ' hidden' : ''}>${esc(label)}</button>`).join('')}
+    ${hiddenCount ? `<button class="chip-more" id="chipMore" type="button" aria-expanded="false" aria-controls="listChips" data-more="${esc(t.moreFilters(hiddenCount))}" data-less="${esc(t.fewerFilters)}">${esc(t.moreFilters(hiddenCount))}</button>` : ''}
+  </div>`;
+}
+
 function listPage({ lang, rows, cats, catLabel }) {
   const t = T[lang];
-  const chips = [`<button class="chip" aria-pressed="true" data-cat="">${esc(t.all)}</button>`]
-    .concat(cats.map(c => `<button class="chip" aria-pressed="false" data-cat="${esc(c)}">${esc(catLabel ? catLabel(c) : c)}</button>`)).join('');
   return `<div class="toolbar"><div class="wrap">
   <input class="filter-input" id="listFilter" type="search" placeholder="${esc(t.filter)}" autocomplete="off">
-  <div class="chips-scroll" id="listChips">${chips}</div>
+  ${chipBar(lang, cats.map(c => [c, catLabel ? catLabel(c) : c]))}
   <div class="count" id="listCount">${esc(t.results(rows.length))}</div>
 </div></div>
 <div class="wrap"><div class="rows" id="listRows">${rows.map(r => r.html).join('')}</div>
@@ -338,10 +353,7 @@ function pokedexPage(lang) {
 </div>
 <div class="toolbar"><div class="wrap">
   <input class="filter-input" id="listFilter" type="search" placeholder="${esc(t.filter)}" autocomplete="off">
-  <div class="chips-scroll" id="listChips">
-    <button class="chip" aria-pressed="true" data-cat="">${esc(t.all)}</button>
-    ${specialties.map(s => `<button class="chip" aria-pressed="false" data-cat="${esc(s.id)}">${esc(lang === 'th' && thSpec(s.id, 0) ? thSpec(s.id, 0) : s.name)}</button>`).join('')}
-  </div>
+  ${chipBar(lang, specialties.map(s => [s.id, lang === 'th' && thSpec(s.id, 0) ? thSpec(s.id, 0) : s.name]))}
   <div class="count" id="listCount">${esc(t.results(pokemon.length))}</div>
 </div></div>
 <div class="wrap" id="listRows">

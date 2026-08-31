@@ -59,9 +59,22 @@
     });
     if (chipBar) chipBar.addEventListener('click', e => {
       const chip = e.target.closest('.chip'); if (!chip) return;
-      [...chipBar.children].forEach(c => c.setAttribute('aria-pressed', String(c === chip)));
+      chipBar.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed', String(c === chip)));
       cat = chip.dataset.cat || '';
       apply();
+    });
+
+    /* Past CHIP_LIMIT the extra chips are folded away. Expanding caps the bar's height so
+       it cannot swallow a phone screen, and collapsing keeps the selected chip on show. */
+    const moreBtn = $('#chipMore');
+    if (moreBtn && chipBar) moreBtn.addEventListener('click', () => {
+      const open = moreBtn.getAttribute('aria-expanded') === 'true';
+      chipBar.querySelectorAll('.chip-extra').forEach(c => {
+        c.hidden = open && c.getAttribute('aria-pressed') !== 'true';
+      });
+      moreBtn.setAttribute('aria-expanded', String(!open));
+      moreBtn.textContent = open ? moreBtn.dataset.more : moreBtn.dataset.less;
+      chipBar.classList.toggle('chips-open', !open);
     });
   }
 
