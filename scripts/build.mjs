@@ -784,7 +784,7 @@ function cookingPage(lang) {
     <div class="sec-title"><h2>${lang === 'th' ? 'รสชาติของอาหารและเบอร์รี' : 'Food & berry flavours'}</h2><span>${flavors.length}</span></div>
     <div class="table-scroll"><table>
       <thead><tr><th>${lang === 'th' ? 'รส' : 'Flavour'}</th><th>${lang === 'th' ? 'ชื่อ' : 'Name'}</th><th>${lang === 'th' ? 'คำอธิบาย' : 'Description'}</th></tr></thead>
-      <tbody>${flavors.map(f => `<tr><td><span class="tag tag-clay">${esc(thFlavor(f.flavor, lang))}</span></td><td>${esc(f.name)}</td><td>${esc(f.desc)}</td></tr>`).join('')}</tbody>
+      <tbody>${flavors.map(f => `<tr><td><span class="tag tag-clay">${esc(thFlavor(f.flavor, lang))}</span></td><td>${ingredient(f.name, lang)}</td><td>${esc(f.desc)}</td></tr>`).join('')}</tbody>
     </table></div>
   </section>
 </div>`;

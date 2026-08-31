@@ -76,6 +76,10 @@
 
 /* ---------- reset ---------- */
 *, *::before, *::after { box-sizing: border-box; }
+/* The filter hides rows with el.hidden, which only works through the UA rule
+   [hidden]{display:none} — and any author `display` beats that. .row, .rows, .mon,
+   .dex-grid and .sec-title all set one, so filtering silently did nothing without this. */
+[hidden] { display: none !important; }
 html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { animation-duration: .01ms !important; transition-duration: .01ms !important; } }
 

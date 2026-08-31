@@ -5,6 +5,743 @@
    "Twine",
    "Seaglass Fragments",
    "Seashell"
+  ],
+  "id": "pikachu-doll",
+  "img": "pikachudoll.png",
+  "random": false,
+  "legendary": "Raikou",
+  "focus": [
+   {
+    "name": "Twine",
+    "img": "twine.png"
+   },
+   {
+    "name": "Seaglass Fragments",
+    "img": null
+   },
+   {
+    "name": "Seashell",
+    "img": "seashell.png"
+   }
+  ],
+  "natural": [
+   {
+    "id": "small-log",
+    "name": "Small log",
+    "img": "smalllog.png"
+   },
+   {
+    "id": "vine-rope",
+    "name": "Vine rope",
+    "img": "vinerope.png"
+   },
+   {
+    "id": "glowing-mushrooms",
+    "name": "Glowing mushrooms",
+    "img": "glowingmushrooms.png"
+   },
+   {
+    "id": "twine",
+    "name": "Twine",
+    "img": "twine.png"
+   },
+   {
+    "id": "seashell",
+    "name": "Seashell",
+    "img": "seashell.png"
+   },
+   {
+    "id": "nonburnable-garbage",
+    "name": "Nonburnable garbage",
+    "img": "nonburnablegarbage.png"
+   },
+   {
+    "id": "squishy-clay",
+    "name": "Squishy clay",
+    "img": "squishyclay.png"
+   },
+   {
+    "id": "lumber",
+    "name": "Lumber",
+    "img": "lumber.png"
+   },
+   {
+    "id": "stardust",
+    "name": "Stardust",
+    "img": "stardust.png"
+   },
+   {
+    "id": "leppa-berry",
+    "name": "Leppa Berry",
+    "img": "leppaberry.png"
+   },
+   {
+    "id": "chesto-berry",
+    "name": "Chesto Berry",
+    "img": "chestoberry.png"
+   },
+   {
+    "id": "grubby-rags",
+    "name": "Grubby rags",
+    "img": "grubbyrags.png"
+   },
+   {
+    "id": "yellow-tall-grass",
+    "name": "Yellow tall grass",
+    "img": "yellowtallgrass.png"
+   },
+   {
+    "id": "yellow-green-shoots",
+    "name": "Yellow-green shoots",
+    "img": "yellow-greenshoots.png"
+   },
+   {
+    "id": "moss",
+    "name": "Moss",
+    "img": "moss.png"
+   },
+   {
+    "id": "large-palm-tree",
+    "name": "Large palm tree",
+    "img": "largepalmtree.png"
+   },
+   {
+    "id": "seashore-flowers",
+    "name": "Seashore flowers",
+    "img": "seashoreflowers.png"
+   },
+   {
+    "id": "cute-flower",
+    "name": "Cute flower",
+    "img": "cuteflower.png"
+   },
+   {
+    "id": "healthy-hedge",
+    "name": "Healthy hedge",
+    "img": "healthyhedge.png"
+   },
+   {
+    "id": "driftwood",
+    "name": "Driftwood",
+    "img": "driftwood.png"
+   },
+   {
+    "id": "sticky-web",
+    "name": "Sticky web",
+    "img": "stickyweb.png"
+   },
+   {
+    "id": "large-boulder",
+    "name": "Large boulder",
+    "img": "largeboulder.png"
+   },
+   {
+    "id": "mud",
+    "name": "Mud",
+    "img": "mud.png"
+   },
+   {
+    "id": "worn-lumber",
+    "name": "Worn lumber",
+    "img": "wornlumber.png"
+   },
+   {
+    "id": "chesto-tree",
+    "name": "Chesto tree",
+    "img": "chestotree.png"
+   },
+   {
+    "id": "rawst-tree",
+    "name": "Rawst tree",
+    "img": "rawsttree.png"
+   },
+   {
+    "id": "aspear-tree",
+    "name": "Aspear tree",
+    "img": "aspeartree.png"
+   },
+   {
+    "id": "pecha-tree",
+    "name": "Pecha tree",
+    "img": "pechatree.png"
+   },
+   {
+    "id": "lum-tree",
+    "name": "Lum tree",
+    "img": "lumtree.png"
+   },
+   {
+    "id": "dry-yellow-tall-grass",
+    "name": "Dry yellow tall grass",
+    "img": "dryyellowtallgrass.png"
+   },
+   {
+    "id": "vine",
+    "name": "Vine",
+    "img": "vine.png"
+   },
+   {
+    "id": "dry-vine",
+    "name": "Dry vine",
+    "img": "dryvine.png"
+   },
+   {
+    "id": "seashore-flowers-blue",
+    "name": "Seashore flowers (blue)",
+    "img": "seashoreflowers(blue).png"
+   },
+   {
+    "id": "seashore-flowers-orange",
+    "name": "Seashore flowers (orange)",
+    "img": "seashoreflowers(orange).png"
+   },
+   {
+    "id": "seashore-flowers-white",
+    "name": "Seashore flowers (white)",
+    "img": "seashoreflowers(white).png"
+   },
+   {
+    "id": "seashore-flowers-yellow",
+    "name": "Seashore flowers (yellow)",
+    "img": "seashoreflowers(yellow).png"
+   },
+   {
+    "id": "cute-flower-blue",
+    "name": "Cute flower (blue)",
+    "img": "cuteflower(blue).png"
+   },
+   {
+    "id": "cute-flower-pink",
+    "name": "Cute flower (pink)",
+    "img": "cuteflower(pink).png"
+   },
+   {
+    "id": "cute-flower-white",
+    "name": "Cute flower (white)",
+    "img": "cuteflower(white).png"
+   },
+   {
+    "id": "cute-flower-yellow",
+    "name": "Cute flower (yellow)",
+    "img": "cuteflower(yellow).png"
+   },
+   {
+    "id": "healthy-hedge-orange",
+    "name": "Healthy hedge (orange)",
+    "img": "healthyhedge(orange).png"
+   },
+   {
+    "id": "healthy-hedge-pink",
+    "name": "Healthy hedge (pink)",
+    "img": "healthyhedge(pink).png"
+   },
+   {
+    "id": "healthy-hedge-purple",
+    "name": "Healthy hedge (purple)",
+    "img": "healthyhedge(purple).png"
+   },
+   {
+    "id": "healthy-hedge-red",
+    "name": "Healthy hedge (red)",
+    "img": "healthyhedge(red).png"
+   },
+   {
+    "id": "dry-healthy-hedge",
+    "name": "Dry healthy hedge",
+    "img": "dryhealthyhedge.png"
+   },
+   {
+    "id": "pitched-brick-roof",
+    "name": "Pitched brick roof",
+    "img": "pitchedbrickroof.png"
+   },
+   {
+    "id": "iron-beam",
+    "name": "Iron beam",
+    "img": "ironbeam.png"
+   },
+   {
+    "id": "iron-column",
+    "name": "Iron column",
+    "img": "ironcolumn.png"
+   },
+   {
+    "id": "roof-support",
+    "name": "Roof support",
+    "img": "roofsupport.png"
+   },
+   {
+    "id": "stone-brick-wall",
+    "name": "Stone brick wall",
+    "img": "stonebrickwall.png"
+   },
+   {
+    "id": "concrete-wall",
+    "name": "Concrete wall",
+    "img": "concretewall.png"
+   },
+   {
+    "id": "iron-wall",
+    "name": "Iron wall",
+    "img": "ironwall.png"
+   },
+   {
+    "id": "stylish-iron-wall",
+    "name": "Stylish iron wall",
+    "img": "stylishironwall.png"
+   },
+   {
+    "id": "warning-wall",
+    "name": "Warning wall",
+    "img": "warningwall.png"
+   },
+   {
+    "id": "stylish-wall-upper",
+    "name": "Stylish wall (upper)",
+    "img": "stylishwall(upper).png"
+   },
+   {
+    "id": "wooden-pillar-middle",
+    "name": "Wooden pillar (middle)",
+    "img": "woodenpillar(middle).png"
+   },
+   {
+    "id": "wooden-pillar-lower",
+    "name": "Wooden pillar (lower)",
+    "img": "woodenpillar(lower).png"
+   },
+   {
+    "id": "wooden-flooring",
+    "name": "Wooden flooring",
+    "img": "woodenflooring.png"
+   },
+   {
+    "id": "stone-flooring",
+    "name": "Stone flooring",
+    "img": "stoneflooring.png"
+   },
+   {
+    "id": "lined-stone-flooring",
+    "name": "Lined-stone flooring",
+    "img": "lined-stoneflooring.png"
+   },
+   {
+    "id": "iron-plate-flooring",
+    "name": "Iron-plate flooring",
+    "img": "iron-plateflooring.png"
+   },
+   {
+    "id": "neon-flooring",
+    "name": "Neon flooring",
+    "img": "neonflooring.png"
+   },
+   {
+    "id": "cyber-flooring",
+    "name": "Cyber flooring",
+    "img": "cyberflooring.png"
+   },
+   {
+    "id": "square-tiling",
+    "name": "Square tiling",
+    "img": "squaretiling.png"
+   },
+   {
+    "id": "brick-flooring",
+    "name": "Brick flooring",
+    "img": "brickflooring.png"
+   },
+   {
+    "id": "iron-plating",
+    "name": "Iron plating",
+    "img": "ironplating.png"
+   },
+   {
+    "id": "cube-light",
+    "name": "Cube light",
+    "img": "cubelight.png"
+   },
+   {
+    "id": "levee",
+    "name": "Levee",
+    "img": "levee.png"
+   },
+   {
+    "id": "seashore-grass",
+    "name": "Seashore grass",
+    "img": "seashoregrass.png"
+   },
+   {
+    "id": "seashell-soil",
+    "name": "Seashell soil",
+    "img": "seashellsoil.png"
+   },
+   {
+    "id": "clay",
+    "name": "Clay",
+    "img": "clay.png"
+   },
+   {
+    "id": "beach-sand",
+    "name": "Beach sand",
+    "img": "beachsand.png"
+   },
+   {
+    "id": "bumpy-beach-sand",
+    "name": "Bumpy beach sand",
+    "img": "bumpybeachsand.png"
+   },
+   {
+    "id": "red-cliff-rock",
+    "name": "Red cliff rock",
+    "img": "redcliffrock.png"
+   },
+   {
+    "id": "red-spotted-cliff-rock",
+    "name": "Red spotted cliff rock",
+    "img": "redspottedcliffrock.png"
+   },
+   {
+    "id": "coarse-rock",
+    "name": "Coarse rock",
+    "img": "coarserock.png"
+   },
+   {
+    "id": "light-brown-rock",
+    "name": "Light brown rock",
+    "img": "lightbrownrock.png"
+   },
+   {
+    "id": "black-rock",
+    "name": "Black rock",
+    "img": "blackrock.png"
+   },
+   {
+    "id": "mossy-soil",
+    "name": "Mossy soil",
+    "img": "mossysoil.png"
+   },
+   {
+    "id": "cracked-sandstone",
+    "name": "Cracked sandstone",
+    "img": "crackedsandstone.png"
+   },
+   {
+    "id": "rusted-wall",
+    "name": "Rusted Wall",
+    "img": "rustedwall.png"
+   },
+   {
+    "id": "damaged-square-tiling",
+    "name": "Damaged square tiling",
+    "img": "damagedsquaretiling.png"
+   },
+   {
+    "id": "muddy-sand",
+    "name": "Muddy sand",
+    "img": "muddysand.png"
+   },
+   {
+    "id": "muddy-seashell-soil",
+    "name": "Muddy seashell soil",
+    "img": "muddyseashellsoil.png"
+   },
+   {
+    "id": "rusted-iron-plate-flooring",
+    "name": "Rusted iron-plate flooring",
+    "img": "rustediron-plateflooring.png"
+   },
+   {
+    "id": "dry-seashore-grass",
+    "name": "Dry seashore grass",
+    "img": "dryseashoregrass.png"
+   }
+  ],
+  "original": [
+   {
+    "id": "plain-closet",
+    "name": "Plain closet",
+    "img": "plaincloset.png"
+   },
+   {
+    "id": "mysterious-pedestal",
+    "name": "Mysterious pedestal",
+    "img": "mysteriouspedestal.png"
+   },
+   {
+    "id": "plain-table",
+    "name": "Plain table",
+    "img": "plaintable.png"
+   },
+   {
+    "id": "log-chair",
+    "name": "Log chair",
+    "img": "logchair.png"
+   },
+   {
+    "id": "plain-stool",
+    "name": "Plain stool",
+    "img": "plainstool.png"
+   },
+   {
+    "id": "plain-chair",
+    "name": "Plain chair",
+    "img": "plainchair.png"
+   },
+   {
+    "id": "plain-sofa",
+    "name": "Plain sofa",
+    "img": "plainsofa.png"
+   },
+   {
+    "id": "industrial-bench",
+    "name": "Industrial bench",
+    "img": "industrialbench.png"
+   },
+   {
+    "id": "book-pile",
+    "name": "Book pile",
+    "img": "bookpile.png"
+   },
+   {
+    "id": "cd-rack",
+    "name": "CD rack",
+    "img": "cdrack.png"
+   },
+   {
+    "id": "bookcase",
+    "name": "Bookcase",
+    "img": "bookcase.png"
+   },
+   {
+    "id": "castform-weather-charm",
+    "name": "Castform weather charm",
+    "img": "castformweathercharm.png"
+   },
+   {
+    "id": "grubby-letter",
+    "name": "Grubby letter",
+    "img": "grubbyletter.png"
+   },
+   {
+    "id": "grubby-notepad",
+    "name": "Grubby notepad",
+    "img": "grubbynotepad.png"
+   },
+   {
+    "id": "grubby-book",
+    "name": "Grubby book",
+    "img": "grubbybook.png"
+   },
+   {
+    "id": "grubby-papers",
+    "name": "Grubby papers",
+    "img": "grubbypapers.png"
+   },
+   {
+    "id": "grubby-newspaper",
+    "name": "Grubby newspaper",
+    "img": "grubbynewspaper.png"
+   },
+   {
+    "id": "grubby-tablet",
+    "name": "Grubby tablet",
+    "img": "grubbytablet.png"
+   },
+   {
+    "id": "grubby-cell-phone",
+    "name": "Grubby cell phone",
+    "img": "grubbycellphone.png"
+   },
+   {
+    "id": "torch",
+    "name": "Torch",
+    "img": "torch.png"
+   },
+   {
+    "id": "wall-torch",
+    "name": "Wall torch",
+    "img": "walltorch.png"
+   },
+   {
+    "id": "firepit",
+    "name": "Firepit",
+    "img": "firepit.png"
+   },
+   {
+    "id": "vending-machine",
+    "name": "Vending machine",
+    "img": "vendingmachine.png"
+   },
+   {
+    "id": "planter",
+    "name": "Planter",
+    "img": "planter.png"
+   },
+   {
+    "id": "cart",
+    "name": "Cart",
+    "img": "cart.png"
+   },
+   {
+    "id": "worn-wooden-crate",
+    "name": "Worn wooden crate",
+    "img": "wornwoodencrate.png"
+   },
+   {
+    "id": "wooden-crate",
+    "name": "Wooden crate",
+    "img": "woodencrate.png"
+   },
+   {
+    "id": "garbage-bin",
+    "name": "Garbage bin",
+    "img": "garbagebin.png"
+   },
+   {
+    "id": "traffic-cone",
+    "name": "Traffic cone",
+    "img": "trafficcone.png"
+   },
+   {
+    "id": "sandbags",
+    "name": "Sandbags",
+    "img": "sandbags.png"
+   },
+   {
+    "id": "excavation-tools",
+    "name": "Excavation tools",
+    "img": "excavationtools.png"
+   },
+   {
+    "id": "tires",
+    "name": "Tires",
+    "img": "tires.png"
+   },
+   {
+    "id": "metal-drum",
+    "name": "Metal drum",
+    "img": "metaldrum.png"
+   },
+   {
+    "id": "workbench",
+    "name": "Workbench",
+    "img": "workbench.png"
+   },
+   {
+    "id": "utility-pole",
+    "name": "Utility pole",
+    "img": "utilitypole.png"
+   },
+   {
+    "id": "mushroom-lamp",
+    "name": "Mushroom lamp",
+    "img": "mushroomlamp.png"
+   },
+   {
+    "id": "plain-lamp",
+    "name": "Plain lamp",
+    "img": "plainlamp.png"
+   },
+   {
+    "id": "broken-streetlight",
+    "name": "Broken streetlight",
+    "img": "brokenstreetlight.png"
+   },
+   {
+    "id": "stone-steps",
+    "name": "Stone steps",
+    "img": "stonesteps.png"
+   },
+   {
+    "id": "iron-steps",
+    "name": "Iron steps",
+    "img": "ironsteps.png"
+   },
+   {
+    "id": "wooden-ladder",
+    "name": "Wooden ladder",
+    "img": "woodenladder.png"
+   },
+   {
+    "id": "iron-ladder",
+    "name": "Iron ladder",
+    "img": "ironladder.png"
+   },
+   {
+    "id": "rustic-door",
+    "name": "Rustic door",
+    "img": "rusticdoor.png"
+   },
+   {
+    "id": "hatch-window",
+    "name": "Hatch window",
+    "img": "hatchwindow.png"
+   },
+   {
+    "id": "glass-window",
+    "name": "Glass window",
+    "img": "glasswindow.png"
+   },
+   {
+    "id": "pitched-brick-roof",
+    "name": "Pitched brick roof",
+    "img": "pitchedbrickroof.png"
+   },
+   {
+    "id": "dormered-brick-roof",
+    "name": "Dormered brick roof",
+    "img": "dormeredbrickroof.png"
+   },
+   {
+    "id": "brick-hipped-roof",
+    "name": "Brick hipped roof",
+    "img": "brickhippedroof.png"
+   },
+   {
+    "id": "wooden-fencing",
+    "name": "Wooden fencing",
+    "img": "woodenfencing.png"
+   },
+   {
+    "id": "harbor-pole",
+    "name": "Harbor pole",
+    "img": "harborpole.png"
+   },
+   {
+    "id": "walkway",
+    "name": "Walkway",
+    "img": "walkway.png"
+   },
+   {
+    "id": "bridge-planks",
+    "name": "Bridge planks",
+    "img": "bridgeplanks.png"
+   },
+   {
+    "id": "grate-flooring",
+    "name": "Grate flooring",
+    "img": "grateflooring.png"
+   },
+   {
+    "id": "iron-pipe-horizontal",
+    "name": "Iron pipe (horizontal)",
+    "img": "ironpipe(horizontal).png"
+   },
+   {
+    "id": "iron-pipe-downward-curve",
+    "name": "Iron pipe (downward curve)",
+    "img": "ironpipe(downwardcurve).png"
+   },
+   {
+    "id": "iron-pipe-vertical-cross",
+    "name": "Iron pipe (vertical cross)",
+    "img": "ironpipe(verticalcross).png"
+   },
+   {
+    "id": "iron-pipe-vertical",
+    "name": "Iron pipe (vertical)",
+    "img": "ironpipe(vertical).png"
+   }
   ]
  },
  {
@@ -13,6 +750,588 @@
    "Leppa Berry",
    "Vine Rope",
    "Glowing Mushrooms"
+  ],
+  "id": "eevee-doll",
+  "img": "eeveedoll.png",
+  "random": false,
+  "legendary": "Suicune",
+  "focus": [
+   {
+    "name": "Leppa Berry",
+    "img": "leppaberry.png"
+   },
+   {
+    "name": "Vine Rope",
+    "img": "vinerope.png"
+   },
+   {
+    "name": "Glowing Mushrooms",
+    "img": "glowingmushrooms.png"
+   }
+  ],
+  "natural": [
+   {
+    "id": "small-log",
+    "name": "Small log",
+    "img": "smalllog.png"
+   },
+   {
+    "id": "vine-rope",
+    "name": "Vine rope",
+    "img": "vinerope.png"
+   },
+   {
+    "id": "glowing-mushrooms",
+    "name": "Glowing mushrooms",
+    "img": "glowingmushrooms.png"
+   },
+   {
+    "id": "copper-ore",
+    "name": "Copper ore",
+    "img": "copperore.png"
+   },
+   {
+    "id": "rare-pokemetal-fragment",
+    "name": "Rare Pokémetal fragment",
+    "img": "rarepokemetalfragment.png"
+   },
+   {
+    "id": "crystal-fragment",
+    "name": "Crystal fragment",
+    "img": "crystalfragment.png"
+   },
+   {
+    "id": "lumber",
+    "name": "Lumber",
+    "img": "lumber.png"
+   },
+   {
+    "id": "pokemetal",
+    "name": "Pokémetal",
+    "img": "pokemetal.png"
+   },
+   {
+    "id": "stardust",
+    "name": "Stardust",
+    "img": "stardust.png"
+   },
+   {
+    "id": "leppa-berry",
+    "name": "Leppa Berry",
+    "img": "leppaberry.png"
+   },
+   {
+    "id": "chesto-berry",
+    "name": "Chesto Berry",
+    "img": "chestoberry.png"
+   },
+   {
+    "id": "cave-mushrooms",
+    "name": "Cave mushrooms",
+    "img": "cavemushrooms.png"
+   },
+   {
+    "id": "tall-grass",
+    "name": "Tall grass",
+    "img": "tallgrass.png"
+   },
+   {
+    "id": "moss",
+    "name": "Moss",
+    "img": "moss.png"
+   },
+   {
+    "id": "leppa-tree",
+    "name": "Leppa tree",
+    "img": "leppatree.png"
+   },
+   {
+    "id": "wildflowers",
+    "name": "Wildflowers",
+    "img": "wildflowers.png"
+   },
+   {
+    "id": "adorable-hedge",
+    "name": "Adorable hedge",
+    "img": "adorablehedge.png"
+   },
+   {
+    "id": "driftwood",
+    "name": "Driftwood",
+    "img": "driftwood.png"
+   },
+   {
+    "id": "large-boulder",
+    "name": "Large boulder",
+    "img": "largeboulder.png"
+   },
+   {
+    "id": "crystal-cluster",
+    "name": "Crystal cluster",
+    "img": "crystalcluster.png"
+   },
+   {
+    "id": "chesto-tree",
+    "name": "Chesto tree",
+    "img": "chestotree.png"
+   },
+   {
+    "id": "rawst-tree",
+    "name": "Rawst tree",
+    "img": "rawsttree.png"
+   },
+   {
+    "id": "aspear-tree",
+    "name": "Aspear tree",
+    "img": "aspeartree.png"
+   },
+   {
+    "id": "pecha-tree",
+    "name": "Pecha tree",
+    "img": "pechatree.png"
+   },
+   {
+    "id": "lum-tree",
+    "name": "Lum tree",
+    "img": "lumtree.png"
+   },
+   {
+    "id": "dry-leppa-tree",
+    "name": "Dry Leppa tree",
+    "img": "dryleppatree.png"
+   },
+   {
+    "id": "dry-tall-grass",
+    "name": "Dry tall grass",
+    "img": "drytallgrass.png"
+   },
+   {
+    "id": "vine",
+    "name": "Vine",
+    "img": "vine.png"
+   },
+   {
+    "id": "dry-vine",
+    "name": "Dry vine",
+    "img": "dryvine.png"
+   },
+   {
+    "id": "wildflowers-orange",
+    "name": "Wildflowers (orange)",
+    "img": "wildflowers(orange).png"
+   },
+   {
+    "id": "wildflowers-purple",
+    "name": "Wildflowers (purple)",
+    "img": "wildflowers(purple).png"
+   },
+   {
+    "id": "wildflowers-red",
+    "name": "Wildflowers (red)",
+    "img": "wildflowers(red).png"
+   },
+   {
+    "id": "wildflowers-blue",
+    "name": "Wildflowers (blue)",
+    "img": "wildflowers(blue).png"
+   },
+   {
+    "id": "adorable-hedge-blue",
+    "name": "Adorable hedge (blue)",
+    "img": "adorablehedge(blue).png"
+   },
+   {
+    "id": "adorable-hedge-orange",
+    "name": "Adorable hedge (orange)",
+    "img": "adorablehedge(orange).png"
+   },
+   {
+    "id": "adorable-hedge-purple",
+    "name": "Adorable hedge (purple)",
+    "img": "adorablehedge(purple).png"
+   },
+   {
+    "id": "adorable-hedge-red",
+    "name": "Adorable hedge (red)",
+    "img": "adorablehedge(red).png"
+   },
+   {
+    "id": "dry-wildflowers",
+    "name": "Dry wildflowers",
+    "img": "drywildflowers.png"
+   },
+   {
+    "id": "dry-adorable-hedge",
+    "name": "Dry adorable hedge",
+    "img": "dryadorablehedge.png"
+   },
+   {
+    "id": "pitched-brick-roof",
+    "name": "Pitched brick roof",
+    "img": "pitchedbrickroof.png"
+   },
+   {
+    "id": "roof-support",
+    "name": "Roof support",
+    "img": "roofsupport.png"
+   },
+   {
+    "id": "plaster-wall",
+    "name": "Plaster wall",
+    "img": "plasterwall.png"
+   },
+   {
+    "id": "cobblestone-wall",
+    "name": "Cobblestone wall",
+    "img": "cobblestonewall.png"
+   },
+   {
+    "id": "crystal-wall",
+    "name": "Crystal wall",
+    "img": "crystalwall.png"
+   },
+   {
+    "id": "stylish-wall-upper",
+    "name": "Stylish wall (upper)",
+    "img": "stylishwall(upper).png"
+   },
+   {
+    "id": "wooden-pillar-upper",
+    "name": "Wooden pillar (upper)",
+    "img": "woodenpillar(upper).png"
+   },
+   {
+    "id": "wooden-pillar-middle",
+    "name": "Wooden pillar (middle)",
+    "img": "woodenpillar(middle).png"
+   },
+   {
+    "id": "wooden-pillar-lower",
+    "name": "Wooden pillar (lower)",
+    "img": "woodenpillar(lower).png"
+   },
+   {
+    "id": "stone-pillar-upper",
+    "name": "Stone pillar (upper)",
+    "img": "stonepillar(upper).png"
+   },
+   {
+    "id": "stone-pillar-middle",
+    "name": "Stone pillar (middle)",
+    "img": "stonepillar(middle).png"
+   },
+   {
+    "id": "stone-pillar-lower",
+    "name": "Stone pillar (lower)",
+    "img": "stonepillar(lower).png"
+   },
+   {
+    "id": "wooden-flooring",
+    "name": "Wooden flooring",
+    "img": "woodenflooring.png"
+   },
+   {
+    "id": "arched-tiling",
+    "name": "Arched tiling",
+    "img": "archedtiling.png"
+   },
+   {
+    "id": "cube-light",
+    "name": "Cube light",
+    "img": "cubelight.png"
+   },
+   {
+    "id": "ordinary-soil",
+    "name": "Ordinary soil",
+    "img": "ordinarysoil.png"
+   },
+   {
+    "id": "beach-sand",
+    "name": "Beach sand",
+    "img": "beachsand.png"
+   },
+   {
+    "id": "bumpy-beach-sand",
+    "name": "Bumpy beach sand",
+    "img": "bumpybeachsand.png"
+   },
+   {
+    "id": "sandstone",
+    "name": "Sandstone",
+    "img": "sandstone.png"
+   },
+   {
+    "id": "cliff-rock",
+    "name": "Cliff rock",
+    "img": "cliffrock.png"
+   },
+   {
+    "id": "spotted-cliff-rock",
+    "name": "Spotted cliff rock",
+    "img": "spottedcliffrock.png"
+   },
+   {
+    "id": "coarse-rock",
+    "name": "Coarse rock",
+    "img": "coarserock.png"
+   },
+   {
+    "id": "cave-rock",
+    "name": "Cave rock",
+    "img": "caverock.png"
+   },
+   {
+    "id": "copper-deposit-wasteland",
+    "name": "Copper deposit (Wasteland)",
+    "img": "copperdeposit(wasteland).png"
+   },
+   {
+    "id": "copper-deposit-beach",
+    "name": "Copper deposit (Beach)",
+    "img": "copperdeposit(beach).png"
+   },
+   {
+    "id": "pokemetal-deposit",
+    "name": "Pokémetal deposit",
+    "img": "pokemetaldeposit.png"
+   },
+   {
+    "id": "mossy-soil",
+    "name": "Mossy soil",
+    "img": "mossysoil.png"
+   },
+   {
+    "id": "gravel",
+    "name": "Gravel",
+    "img": "gravel.png"
+   },
+   {
+    "id": "ice",
+    "name": "Ice",
+    "img": "ice.png"
+   },
+   {
+    "id": "cracked-sandstone",
+    "name": "Cracked sandstone",
+    "img": "crackedsandstone.png"
+   }
+  ],
+  "original": [
+   {
+    "id": "wooden-table",
+    "name": "Wooden table",
+    "img": "woodentable.png"
+   },
+   {
+    "id": "mysterious-pedestal",
+    "name": "Mysterious pedestal",
+    "img": "mysteriouspedestal.png"
+   },
+   {
+    "id": "log-chair",
+    "name": "Log chair",
+    "img": "logchair.png"
+   },
+   {
+    "id": "wooden-bench",
+    "name": "Wooden bench",
+    "img": "woodenbench.png"
+   },
+   {
+    "id": "book-pile",
+    "name": "Book pile",
+    "img": "bookpile.png"
+   },
+   {
+    "id": "cd-rack",
+    "name": "CD rack",
+    "img": "cdrack.png"
+   },
+   {
+    "id": "bookcase",
+    "name": "Bookcase",
+    "img": "bookcase.png"
+   },
+   {
+    "id": "castform-weather-charm",
+    "name": "Castform weather charm",
+    "img": "castformweathercharm.png"
+   },
+   {
+    "id": "grubby-letter",
+    "name": "Grubby letter",
+    "img": "grubbyletter.png"
+   },
+   {
+    "id": "grubby-notepad",
+    "name": "Grubby notepad",
+    "img": "grubbynotepad.png"
+   },
+   {
+    "id": "grubby-book",
+    "name": "Grubby book",
+    "img": "grubbybook.png"
+   },
+   {
+    "id": "grubby-papers",
+    "name": "Grubby papers",
+    "img": "grubbypapers.png"
+   },
+   {
+    "id": "grubby-newspaper",
+    "name": "Grubby newspaper",
+    "img": "grubbynewspaper.png"
+   },
+   {
+    "id": "grubby-tablet",
+    "name": "Grubby tablet",
+    "img": "grubbytablet.png"
+   },
+   {
+    "id": "grubby-cell-phone",
+    "name": "Grubby cell phone",
+    "img": "grubbycellphone.png"
+   },
+   {
+    "id": "torch",
+    "name": "Torch",
+    "img": "torch.png"
+   },
+   {
+    "id": "wall-torch",
+    "name": "Wall torch",
+    "img": "walltorch.png"
+   },
+   {
+    "id": "firepit",
+    "name": "Firepit",
+    "img": "firepit.png"
+   },
+   {
+    "id": "cart",
+    "name": "Cart",
+    "img": "cart.png"
+   },
+   {
+    "id": "horsea-fountain",
+    "name": "Horsea fountain",
+    "img": "horseafountain.png"
+   },
+   {
+    "id": "worn-wooden-crate",
+    "name": "Worn wooden crate",
+    "img": "wornwoodencrate.png"
+   },
+   {
+    "id": "garbage-bin",
+    "name": "Garbage bin",
+    "img": "garbagebin.png"
+   },
+   {
+    "id": "sandbags",
+    "name": "Sandbags",
+    "img": "sandbags.png"
+   },
+   {
+    "id": "excavation-tools",
+    "name": "Excavation tools",
+    "img": "excavationtools.png"
+   },
+   {
+    "id": "metal-drum",
+    "name": "Metal drum",
+    "img": "metaldrum.png"
+   },
+   {
+    "id": "workbench",
+    "name": "Workbench",
+    "img": "workbench.png"
+   },
+   {
+    "id": "mushroom-streetlight",
+    "name": "Mushroom streetlight",
+    "img": "mushroomstreetlight.png"
+   },
+   {
+    "id": "mushroom-lamp",
+    "name": "Mushroom lamp",
+    "img": "mushroomlamp.png"
+   },
+   {
+    "id": "wooden-steps",
+    "name": "Wooden steps",
+    "img": "woodensteps.png"
+   },
+   {
+    "id": "stone-steps",
+    "name": "Stone steps",
+    "img": "stonesteps.png"
+   },
+   {
+    "id": "wooden-ladder",
+    "name": "Wooden ladder",
+    "img": "woodenladder.png"
+   },
+   {
+    "id": "large-wooden-door",
+    "name": "Large wooden door",
+    "img": "largewoodendoor.png"
+   },
+   {
+    "id": "hatch-window",
+    "name": "Hatch window",
+    "img": "hatchwindow.png"
+   },
+   {
+    "id": "glass-window",
+    "name": "Glass window",
+    "img": "glasswindow.png"
+   },
+   {
+    "id": "sloped-tiled-roof",
+    "name": "Sloped tiled roof",
+    "img": "slopedtiledroof.png"
+   },
+   {
+    "id": "tiled-hipped-roof",
+    "name": "Tiled hipped roof",
+    "img": "tiledhippedroof.png"
+   },
+   {
+    "id": "flat-tiled-roof",
+    "name": "Flat tiled roof",
+    "img": "flattiledroof.png"
+   },
+   {
+    "id": "pitched-brick-roof",
+    "name": "Pitched brick roof",
+    "img": "pitchedbrickroof.png"
+   },
+   {
+    "id": "dormered-brick-roof",
+    "name": "Dormered brick roof",
+    "img": "dormeredbrickroof.png"
+   },
+   {
+    "id": "brick-hipped-roof",
+    "name": "Brick hipped roof",
+    "img": "brickhippedroof.png"
+   },
+   {
+    "id": "wooden-fencing",
+    "name": "Wooden fencing",
+    "img": "woodenfencing.png"
+   },
+   {
+    "id": "walkway",
+    "name": "Walkway",
+    "img": "walkway.png"
+   },
+   {
+    "id": "bridge-planks",
+    "name": "Bridge planks",
+    "img": "bridgeplanks.png"
+   }
   ]
  },
  {
@@ -21,6 +1340,613 @@
    "Cave Mushrooms",
    "Copper Ore",
    "Limestone"
+  ],
+  "id": "clefairy-doll",
+  "img": "clefairydoll.png",
+  "random": false,
+  "legendary": null,
+  "focus": [
+   {
+    "name": "Cave Mushrooms",
+    "img": "cavemushrooms.png"
+   },
+   {
+    "name": "Copper Ore",
+    "img": "copperore.png"
+   },
+   {
+    "name": "Limestone",
+    "img": "limestone.png"
+   }
+  ],
+  "natural": [
+   {
+    "id": "small-log",
+    "name": "Small log",
+    "img": "smalllog.png"
+   },
+   {
+    "id": "vine-rope",
+    "name": "Vine rope",
+    "img": "vinerope.png"
+   },
+   {
+    "id": "glowing-mushrooms",
+    "name": "Glowing mushrooms",
+    "img": "glowingmushrooms.png"
+   },
+   {
+    "id": "copper-ore",
+    "name": "Copper ore",
+    "img": "copperore.png"
+   },
+   {
+    "id": "iron-ore",
+    "name": "Iron ore",
+    "img": "ironore.png"
+   },
+   {
+    "id": "gold-ore",
+    "name": "Gold ore",
+    "img": "goldore.png"
+   },
+   {
+    "id": "pokemetal-fragment",
+    "name": "Pokémetal fragment",
+    "img": "pokemetalfragment.png"
+   },
+   {
+    "id": "rare-pokemetal-fragment",
+    "name": "Rare Pokémetal fragment",
+    "img": "rarepokemetalfragment.png"
+   },
+   {
+    "id": "crystal-fragment",
+    "name": "Crystal fragment",
+    "img": "crystalfragment.png"
+   },
+   {
+    "id": "lumber",
+    "name": "Lumber",
+    "img": "lumber.png"
+   },
+   {
+    "id": "stardust",
+    "name": "Stardust",
+    "img": "stardust.png"
+   },
+   {
+    "id": "chesto-berry",
+    "name": "Chesto Berry",
+    "img": "chestoberry.png"
+   },
+   {
+    "id": "rawst-berry",
+    "name": "Rawst Berry",
+    "img": "rawstberry.png"
+   },
+   {
+    "id": "aspear-berry",
+    "name": "Aspear Berry",
+    "img": "aspearberry.png"
+   },
+   {
+    "id": "pecha-berry",
+    "name": "Pecha Berry",
+    "img": "pechaberry.png"
+   },
+   {
+    "id": "lum-berry",
+    "name": "Lum Berry",
+    "img": "lumberry.png"
+   },
+   {
+    "id": "wheat",
+    "name": "Wheat",
+    "img": "wheat.png"
+   },
+   {
+    "id": "cave-mushrooms",
+    "name": "Cave mushrooms",
+    "img": "cavemushrooms.png"
+   },
+   {
+    "id": "red-tall-grass",
+    "name": "Red tall grass",
+    "img": "redtallgrass.png"
+   },
+   {
+    "id": "moss",
+    "name": "Moss",
+    "img": "moss.png"
+   },
+   {
+    "id": "pointy-tree",
+    "name": "Pointy tree",
+    "img": "pointytree.png"
+   },
+   {
+    "id": "mountain-flowers",
+    "name": "Mountain flowers",
+    "img": "mountainflowers.png"
+   },
+   {
+    "id": "damp-hedge",
+    "name": "Damp hedge",
+    "img": "damphedge.png"
+   },
+   {
+    "id": "large-boulder",
+    "name": "Large boulder",
+    "img": "largeboulder.png"
+   },
+   {
+    "id": "stalagmites",
+    "name": "Stalagmites",
+    "img": "stalagmites.png"
+   },
+   {
+    "id": "icicle",
+    "name": "Icicle",
+    "img": "icicle.png"
+   },
+   {
+    "id": "crystal-cluster",
+    "name": "Crystal cluster",
+    "img": "crystalcluster.png"
+   },
+   {
+    "id": "wood-fragments",
+    "name": "Wood fragments",
+    "img": "woodfragments.png"
+   },
+   {
+    "id": "stone-fragments",
+    "name": "Stone fragments",
+    "img": "stonefragments.png"
+   },
+   {
+    "id": "chesto-tree",
+    "name": "Chesto tree",
+    "img": "chestotree.png"
+   },
+   {
+    "id": "rawst-tree",
+    "name": "Rawst tree",
+    "img": "rawsttree.png"
+   },
+   {
+    "id": "aspear-tree",
+    "name": "Aspear tree",
+    "img": "aspeartree.png"
+   },
+   {
+    "id": "pecha-tree",
+    "name": "Pecha tree",
+    "img": "pechatree.png"
+   },
+   {
+    "id": "lum-tree",
+    "name": "Lum tree",
+    "img": "lumtree.png"
+   },
+   {
+    "id": "dry-red-tall-grass",
+    "name": "Dry red tall grass",
+    "img": "dryredtallgrass.png"
+   },
+   {
+    "id": "dry-pointy-tree",
+    "name": "Dry pointy tree",
+    "img": "drypointytree.png"
+   },
+   {
+    "id": "vine",
+    "name": "Vine",
+    "img": "vine.png"
+   },
+   {
+    "id": "dry-vine",
+    "name": "Dry vine",
+    "img": "dryvine.png"
+   },
+   {
+    "id": "tomato-sprout",
+    "name": "Tomato sprout",
+    "img": "tomatosprout.png"
+   },
+   {
+    "id": "small-wheat-plant",
+    "name": "Small wheat plant",
+    "img": "smallwheatplant.png"
+   },
+   {
+    "id": "dry-bean-plant",
+    "name": "Dry bean plant",
+    "img": "drybeanplant.png"
+   },
+   {
+    "id": "mountain-flowers-pink",
+    "name": "Mountain flowers (pink)",
+    "img": "mountainflowers(pink).png"
+   },
+   {
+    "id": "mountain-flowers-purple",
+    "name": "Mountain flowers (purple)",
+    "img": "mountainflowers(purple).png"
+   },
+   {
+    "id": "mountain-flowers-red",
+    "name": "Mountain flowers (red)",
+    "img": "mountainflowers(red).png"
+   },
+   {
+    "id": "mountain-flowers-white",
+    "name": "Mountain flowers (white)",
+    "img": "mountainflowers(white).png"
+   },
+   {
+    "id": "damp-hedge-blue",
+    "name": "Damp hedge (blue)",
+    "img": "damphedge(blue).png"
+   },
+   {
+    "id": "damp-hedge-pink",
+    "name": "Damp hedge (pink)",
+    "img": "damphedge(pink).png"
+   },
+   {
+    "id": "damp-hedge-red",
+    "name": "Damp hedge (red)",
+    "img": "damphedge(red).png"
+   },
+   {
+    "id": "damp-hedge-white",
+    "name": "Damp hedge (white)",
+    "img": "damphedge(white).png"
+   },
+   {
+    "id": "dry-damp-hedge",
+    "name": "Dry damp hedge",
+    "img": "drydamphedge.png"
+   },
+   {
+    "id": "pitched-brick-roof",
+    "name": "Pitched brick roof",
+    "img": "pitchedbrickroof.png"
+   },
+   {
+    "id": "roof-support",
+    "name": "Roof support",
+    "img": "roofsupport.png"
+   },
+   {
+    "id": "plaster-wall",
+    "name": "Plaster wall",
+    "img": "plasterwall.png"
+   },
+   {
+    "id": "stylish-wall-upper",
+    "name": "Stylish wall (upper)",
+    "img": "stylishwall(upper).png"
+   },
+   {
+    "id": "wooden-pillar-middle",
+    "name": "Wooden pillar (middle)",
+    "img": "woodenpillar(middle).png"
+   },
+   {
+    "id": "wooden-pillar-lower",
+    "name": "Wooden pillar (lower)",
+    "img": "woodenpillar(lower).png"
+   },
+   {
+    "id": "wooden-flooring",
+    "name": "Wooden flooring",
+    "img": "woodenflooring.png"
+   },
+   {
+    "id": "stylish-stone-flooring",
+    "name": "Stylish stone flooring",
+    "img": "stylishstoneflooring.png"
+   },
+   {
+    "id": "hay-pile",
+    "name": "Hay pile",
+    "img": "haypile.png"
+   },
+   {
+    "id": "striped-soil",
+    "name": "Striped soil",
+    "img": "stripedsoil.png"
+   },
+   {
+    "id": "beach-sand",
+    "name": "Beach sand",
+    "img": "beachsand.png"
+   },
+   {
+    "id": "bumpy-beach-sand",
+    "name": "Bumpy beach sand",
+    "img": "bumpybeachsand.png"
+   },
+   {
+    "id": "black-cliff-rock",
+    "name": "Black cliff rock",
+    "img": "blackcliffrock.png"
+   },
+   {
+    "id": "black-spotted-cliff-rock",
+    "name": "Black spotted cliff rock",
+    "img": "blackspottedcliffrock.png"
+   },
+   {
+    "id": "white-rock",
+    "name": "White rock",
+    "img": "whiterock.png"
+   },
+   {
+    "id": "yellow-rock",
+    "name": "Yellow rock",
+    "img": "yellowrock.png"
+   },
+   {
+    "id": "black-rock",
+    "name": "Black rock",
+    "img": "blackrock.png"
+   },
+   {
+    "id": "cave-rock",
+    "name": "Cave rock",
+    "img": "caverock.png"
+   },
+   {
+    "id": "ocean-rock",
+    "name": "Ocean rock",
+    "img": "oceanrock.png"
+   },
+   {
+    "id": "copper-deposit-ridge",
+    "name": "Copper deposit (Ridge)",
+    "img": "copperdeposit(ridge).png"
+   },
+   {
+    "id": "pokemetal-deposit",
+    "name": "Pokémetal deposit",
+    "img": "pokemetaldeposit.png"
+   },
+   {
+    "id": "mossy-soil",
+    "name": "Mossy soil",
+    "img": "mossysoil.png"
+   },
+   {
+    "id": "limestone",
+    "name": "Limestone",
+    "img": "limestone.png"
+   },
+   {
+    "id": "ice",
+    "name": "Ice",
+    "img": "ice.png"
+   },
+   {
+    "id": "cracked-sandstone",
+    "name": "Cracked sandstone",
+    "img": "crackedsandstone.png"
+   }
+  ],
+  "original": [
+   {
+    "id": "iron-stand",
+    "name": "Iron stand",
+    "img": "ironstand.png"
+   },
+   {
+    "id": "industrial-desk",
+    "name": "Industrial desk",
+    "img": "industrialdesk.png"
+   },
+   {
+    "id": "industrial-chair",
+    "name": "Industrial chair",
+    "img": "industrialchair.png"
+   },
+   {
+    "id": "iron-bed",
+    "name": "Iron bed",
+    "img": "ironbed.png"
+   },
+   {
+    "id": "straw-bed",
+    "name": "Straw bed",
+    "img": "strawbed.png"
+   },
+   {
+    "id": "book-pile",
+    "name": "Book pile",
+    "img": "bookpile.png"
+   },
+   {
+    "id": "cd-rack",
+    "name": "CD rack",
+    "img": "cdrack.png"
+   },
+   {
+    "id": "bookcase",
+    "name": "Bookcase",
+    "img": "bookcase.png"
+   },
+   {
+    "id": "television",
+    "name": "Television",
+    "img": "television.png"
+   },
+   {
+    "id": "castform-weather-charm",
+    "name": "Castform weather charm",
+    "img": "castformweathercharm.png"
+   },
+   {
+    "id": "grubby-letter",
+    "name": "Grubby letter",
+    "img": "grubbyletter.png"
+   },
+   {
+    "id": "grubby-notepad",
+    "name": "Grubby notepad",
+    "img": "grubbynotepad.png"
+   },
+   {
+    "id": "grubby-book",
+    "name": "Grubby book",
+    "img": "grubbybook.png"
+   },
+   {
+    "id": "grubby-papers",
+    "name": "Grubby papers",
+    "img": "grubbypapers.png"
+   },
+   {
+    "id": "grubby-newspaper",
+    "name": "Grubby newspaper",
+    "img": "grubbynewspaper.png"
+   },
+   {
+    "id": "grubby-tablet",
+    "name": "Grubby tablet",
+    "img": "grubbytablet.png"
+   },
+   {
+    "id": "grubby-cell-phone",
+    "name": "Grubby cell phone",
+    "img": "grubbycellphone.png"
+   },
+   {
+    "id": "torch",
+    "name": "Torch",
+    "img": "torch.png"
+   },
+   {
+    "id": "cart",
+    "name": "Cart",
+    "img": "cart.png"
+   },
+   {
+    "id": "water-basin",
+    "name": "Water basin",
+    "img": "waterbasin.png"
+   },
+   {
+    "id": "worn-wooden-crate",
+    "name": "Worn wooden crate",
+    "img": "wornwoodencrate.png"
+   },
+   {
+    "id": "garbage-bin",
+    "name": "Garbage bin",
+    "img": "garbagebin.png"
+   },
+   {
+    "id": "sandbags",
+    "name": "Sandbags",
+    "img": "sandbags.png"
+   },
+   {
+    "id": "excavation-tools",
+    "name": "Excavation tools",
+    "img": "excavationtools.png"
+   },
+   {
+    "id": "workbench",
+    "name": "Workbench",
+    "img": "workbench.png"
+   },
+   {
+    "id": "handcar",
+    "name": "Handcar",
+    "img": "handcar.png"
+   },
+   {
+    "id": "lantern",
+    "name": "Lantern",
+    "img": "lantern.png"
+   },
+   {
+    "id": "wooden-steps",
+    "name": "Wooden steps",
+    "img": "woodensteps.png"
+   },
+   {
+    "id": "stone-steps",
+    "name": "Stone steps",
+    "img": "stonesteps.png"
+   },
+   {
+    "id": "wooden-ladder",
+    "name": "Wooden ladder",
+    "img": "woodenladder.png"
+   },
+   {
+    "id": "modern-door",
+    "name": "Modern door",
+    "img": "moderndoor.png"
+   },
+   {
+    "id": "wooden-gate",
+    "name": "Wooden gate",
+    "img": "woodengate.png"
+   },
+   {
+    "id": "hatch-window",
+    "name": "Hatch window",
+    "img": "hatchwindow.png"
+   },
+   {
+    "id": "window-pane",
+    "name": "Window pane",
+    "img": "windowpane.png"
+   },
+   {
+    "id": "sloped-stone-roof",
+    "name": "Sloped stone roof",
+    "img": "slopedstoneroof.png"
+   },
+   {
+    "id": "skylight",
+    "name": "Skylight",
+    "img": "skylight.png"
+   },
+   {
+    "id": "pitched-brick-roof",
+    "name": "Pitched brick roof",
+    "img": "pitchedbrickroof.png"
+   },
+   {
+    "id": "dormered-brick-roof",
+    "name": "Dormered brick roof",
+    "img": "dormeredbrickroof.png"
+   },
+   {
+    "id": "brick-hipped-roof",
+    "name": "Brick hipped roof",
+    "img": "brickhippedroof.png"
+   },
+   {
+    "id": "wooden-fencing",
+    "name": "Wooden fencing",
+    "img": "woodenfencing.png"
+   },
+   {
+    "id": "walkway",
+    "name": "Walkway",
+    "img": "walkway.png"
+   },
+   {
+    "id": "bridge-planks",
+    "name": "Bridge planks",
+    "img": "bridgeplanks.png"
+   }
   ]
  },
  {
@@ -29,6 +1955,693 @@
    "Iron Ore",
    "Gold Ore",
    "Glowing Stone"
+  ],
+  "id": "arcanine-doll",
+  "img": "arcaninedoll.png",
+  "random": false,
+  "legendary": "Entei",
+  "focus": [
+   {
+    "name": "Iron Ore",
+    "img": "ironore.png"
+   },
+   {
+    "name": "Gold Ore",
+    "img": "goldore.png"
+   },
+   {
+    "name": "Glowing Stone",
+    "img": "glowingstone.png"
+   }
+  ],
+  "natural": [
+   {
+    "id": "small-log",
+    "name": "Small log",
+    "img": "smalllog.png"
+   },
+   {
+    "id": "vine-rope",
+    "name": "Vine rope",
+    "img": "vinerope.png"
+   },
+   {
+    "id": "nonburnable-garbage",
+    "name": "Nonburnable garbage",
+    "img": "nonburnablegarbage.png"
+   },
+   {
+    "id": "copper-ore",
+    "name": "Copper ore",
+    "img": "copperore.png"
+   },
+   {
+    "id": "iron-ore",
+    "name": "Iron ore",
+    "img": "ironore.png"
+   },
+   {
+    "id": "gold-ore",
+    "name": "Gold ore",
+    "img": "goldore.png"
+   },
+   {
+    "id": "lumber",
+    "name": "Lumber",
+    "img": "lumber.png"
+   },
+   {
+    "id": "stardust",
+    "name": "Stardust",
+    "img": "stardust.png"
+   },
+   {
+    "id": "chesto-berry",
+    "name": "Chesto Berry",
+    "img": "chestoberry.png"
+   },
+   {
+    "id": "rawst-berry",
+    "name": "Rawst Berry",
+    "img": "rawstberry.png"
+   },
+   {
+    "id": "aspear-berry",
+    "name": "Aspear Berry",
+    "img": "aspearberry.png"
+   },
+   {
+    "id": "pecha-berry",
+    "name": "Pecha Berry",
+    "img": "pechaberry.png"
+   },
+   {
+    "id": "lum-berry",
+    "name": "Lum Berry",
+    "img": "lumberry.png"
+   },
+   {
+    "id": "red-tall-grass",
+    "name": "Red tall grass",
+    "img": "redtallgrass.png"
+   },
+   {
+    "id": "moss",
+    "name": "Moss",
+    "img": "moss.png"
+   },
+   {
+    "id": "fern",
+    "name": "Fern",
+    "img": "fern.png"
+   },
+   {
+    "id": "pointy-tree",
+    "name": "Pointy tree",
+    "img": "pointytree.png"
+   },
+   {
+    "id": "mountain-flowers",
+    "name": "Mountain flowers",
+    "img": "mountainflowers.png"
+   },
+   {
+    "id": "damp-hedge",
+    "name": "Damp hedge",
+    "img": "damphedge.png"
+   },
+   {
+    "id": "driftwood",
+    "name": "Driftwood",
+    "img": "driftwood.png"
+   },
+   {
+    "id": "large-boulder",
+    "name": "Large boulder",
+    "img": "largeboulder.png"
+   },
+   {
+    "id": "molten-rock",
+    "name": "Molten rock",
+    "img": "moltenrock.png"
+   },
+   {
+    "id": "cooled-molten-rock",
+    "name": "Cooled molten rock",
+    "img": "cooledmoltenrock.png"
+   },
+   {
+    "id": "crystal-cluster",
+    "name": "Crystal cluster",
+    "img": "crystalcluster.png"
+   },
+   {
+    "id": "stone-debris",
+    "name": "Stone debris",
+    "img": "stonedebris.png"
+   },
+   {
+    "id": "wood-fragments",
+    "name": "Wood fragments",
+    "img": "woodfragments.png"
+   },
+   {
+    "id": "worn-lumber",
+    "name": "Worn lumber",
+    "img": "wornlumber.png"
+   },
+   {
+    "id": "metal-fragments",
+    "name": "Metal fragments",
+    "img": "metalfragments.png"
+   },
+   {
+    "id": "chesto-tree",
+    "name": "Chesto tree",
+    "img": "chestotree.png"
+   },
+   {
+    "id": "rawst-tree",
+    "name": "Rawst tree",
+    "img": "rawsttree.png"
+   },
+   {
+    "id": "aspear-tree",
+    "name": "Aspear tree",
+    "img": "aspeartree.png"
+   },
+   {
+    "id": "pecha-tree",
+    "name": "Pecha tree",
+    "img": "pechatree.png"
+   },
+   {
+    "id": "lum-tree",
+    "name": "Lum tree",
+    "img": "lumtree.png"
+   },
+   {
+    "id": "dry-red-tall-grass",
+    "name": "Dry red tall grass",
+    "img": "dryredtallgrass.png"
+   },
+   {
+    "id": "dry-pointy-tree",
+    "name": "Dry pointy tree",
+    "img": "drypointytree.png"
+   },
+   {
+    "id": "vine",
+    "name": "Vine",
+    "img": "vine.png"
+   },
+   {
+    "id": "dry-vine",
+    "name": "Dry vine",
+    "img": "dryvine.png"
+   },
+   {
+    "id": "tomato-sprout",
+    "name": "Tomato sprout",
+    "img": "tomatosprout.png"
+   },
+   {
+    "id": "small-wheat-plant",
+    "name": "Small wheat plant",
+    "img": "smallwheatplant.png"
+   },
+   {
+    "id": "dry-bean-plant",
+    "name": "Dry bean plant",
+    "img": "drybeanplant.png"
+   },
+   {
+    "id": "mountain-flowers-pink",
+    "name": "Mountain flowers (pink)",
+    "img": "mountainflowers(pink).png"
+   },
+   {
+    "id": "mountain-flowers-purple",
+    "name": "Mountain flowers (purple)",
+    "img": "mountainflowers(purple).png"
+   },
+   {
+    "id": "mountain-flowers-red",
+    "name": "Mountain flowers (red)",
+    "img": "mountainflowers(red).png"
+   },
+   {
+    "id": "mountain-flowers-white",
+    "name": "Mountain flowers (white)",
+    "img": "mountainflowers(white).png"
+   },
+   {
+    "id": "damp-hedge-blue",
+    "name": "Damp hedge (blue)",
+    "img": "damphedge(blue).png"
+   },
+   {
+    "id": "damp-hedge-pink",
+    "name": "Damp hedge (pink)",
+    "img": "damphedge(pink).png"
+   },
+   {
+    "id": "damp-hedge-red",
+    "name": "Damp hedge (red)",
+    "img": "damphedge(red).png"
+   },
+   {
+    "id": "damp-hedge-white",
+    "name": "Damp hedge (white)",
+    "img": "damphedge(white).png"
+   },
+   {
+    "id": "dry-damp-hedge",
+    "name": "Dry damp hedge",
+    "img": "drydamphedge.png"
+   },
+   {
+    "id": "pitched-brick-roof",
+    "name": "Pitched brick roof",
+    "img": "pitchedbrickroof.png"
+   },
+   {
+    "id": "roof-support",
+    "name": "Roof support",
+    "img": "roofsupport.png"
+   },
+   {
+    "id": "brick-wall",
+    "name": "Brick wall",
+    "img": "brickwall.png"
+   },
+   {
+    "id": "aged-stone-wall",
+    "name": "Aged-stone wall",
+    "img": "aged-stonewall.png"
+   },
+   {
+    "id": "patterned-aged-stone-wall",
+    "name": "Patterned aged-stone wall",
+    "img": "patternedaged-stonewall.png"
+   },
+   {
+    "id": "stylish-wall-upper",
+    "name": "Stylish wall (upper)",
+    "img": "stylishwall(upper).png"
+   },
+   {
+    "id": "wooden-pillar-middle",
+    "name": "Wooden pillar (middle)",
+    "img": "woodenpillar(middle).png"
+   },
+   {
+    "id": "wooden-pillar-lower",
+    "name": "Wooden pillar (lower)",
+    "img": "woodenpillar(lower).png"
+   },
+   {
+    "id": "stylish-brick-wall-middle",
+    "name": "Stylish brick wall (middle)",
+    "img": "stylishbrickwall(middle).png"
+   },
+   {
+    "id": "stone-pillar-middle",
+    "name": "Stone pillar (middle)",
+    "img": "stonepillar(middle).png"
+   },
+   {
+    "id": "wooden-flooring",
+    "name": "Wooden flooring",
+    "img": "woodenflooring.png"
+   },
+   {
+    "id": "extravagant-carpeting",
+    "name": "Extravagant carpeting",
+    "img": "extravagantcarpeting.png"
+   },
+   {
+    "id": "marble",
+    "name": "Marble",
+    "img": "marble.png"
+   },
+   {
+    "id": "stone-flooring",
+    "name": "Stone flooring",
+    "img": "stoneflooring.png"
+   },
+   {
+    "id": "dark-marble-flooring",
+    "name": "Dark marble flooring",
+    "img": "darkmarbleflooring.png"
+   },
+   {
+    "id": "aged-stone-flooring",
+    "name": "Aged-stone flooring",
+    "img": "aged-stoneflooring.png"
+   },
+   {
+    "id": "striped-soil",
+    "name": "Striped soil",
+    "img": "stripedsoil.png"
+   },
+   {
+    "id": "beach-sand",
+    "name": "Beach sand",
+    "img": "beachsand.png"
+   },
+   {
+    "id": "bumpy-beach-sand",
+    "name": "Bumpy beach sand",
+    "img": "bumpybeachsand.png"
+   },
+   {
+    "id": "volcanic-ash",
+    "name": "Volcanic ash",
+    "img": "volcanicash.png"
+   },
+   {
+    "id": "white-rock",
+    "name": "White rock",
+    "img": "whiterock.png"
+   },
+   {
+    "id": "red-rock",
+    "name": "Red rock",
+    "img": "redrock.png"
+   },
+   {
+    "id": "black-rock",
+    "name": "Black rock",
+    "img": "blackrock.png"
+   },
+   {
+    "id": "lava-rock",
+    "name": "Lava rock",
+    "img": "lavarock.png"
+   },
+   {
+    "id": "ocean-rock",
+    "name": "Ocean rock",
+    "img": "oceanrock.png"
+   },
+   {
+    "id": "reddish-brown-cave-rock",
+    "name": "Reddish-brown cave rock",
+    "img": "reddish-browncaverock.png"
+   },
+   {
+    "id": "volcanic-rock",
+    "name": "Volcanic rock",
+    "img": "volcanicrock.png"
+   },
+   {
+    "id": "glowing-stone",
+    "name": "Glowing stone",
+    "img": "glowingstone.png"
+   },
+   {
+    "id": "cracked-sandstone",
+    "name": "Cracked sandstone",
+    "img": "crackedsandstone.png"
+   },
+   {
+    "id": "damaged-stone-flooring",
+    "name": "Damaged stone flooring",
+    "img": "damagedstoneflooring.png"
+   }
+  ],
+  "original": [
+   {
+    "id": "exhibition-stand",
+    "name": "Exhibition stand",
+    "img": "exhibitionstand.png"
+   },
+   {
+    "id": "mysterious-pedestal",
+    "name": "Mysterious pedestal",
+    "img": "mysteriouspedestal.png"
+   },
+   {
+    "id": "log-chair",
+    "name": "Log chair",
+    "img": "logchair.png"
+   },
+   {
+    "id": "tall-potted-plant",
+    "name": "Tall potted plant",
+    "img": "tallpottedplant.png"
+   },
+   {
+    "id": "book-pile",
+    "name": "Book pile",
+    "img": "bookpile.png"
+   },
+   {
+    "id": "cd-rack",
+    "name": "CD rack",
+    "img": "cdrack.png"
+   },
+   {
+    "id": "bookcase",
+    "name": "Bookcase",
+    "img": "bookcase.png"
+   },
+   {
+    "id": "mysterious-statue",
+    "name": "Mysterious statue",
+    "img": "mysteriousstatue.png"
+   },
+   {
+    "id": "castform-weather-charm",
+    "name": "Castform weather charm",
+    "img": "castformweathercharm.png"
+   },
+   {
+    "id": "grubby-letter",
+    "name": "Grubby letter",
+    "img": "grubbyletter.png"
+   },
+   {
+    "id": "grubby-notepad",
+    "name": "Grubby notepad",
+    "img": "grubbynotepad.png"
+   },
+   {
+    "id": "grubby-book",
+    "name": "Grubby book",
+    "img": "grubbybook.png"
+   },
+   {
+    "id": "grubby-papers",
+    "name": "Grubby papers",
+    "img": "grubbypapers.png"
+   },
+   {
+    "id": "grubby-newspaper",
+    "name": "Grubby newspaper",
+    "img": "grubbynewspaper.png"
+   },
+   {
+    "id": "grubby-tablet",
+    "name": "Grubby tablet",
+    "img": "grubbytablet.png"
+   },
+   {
+    "id": "grubby-cell-phone",
+    "name": "Grubby cell phone",
+    "img": "grubbycellphone.png"
+   },
+   {
+    "id": "torch",
+    "name": "Torch",
+    "img": "torch.png"
+   },
+   {
+    "id": "wall-torch",
+    "name": "Wall torch",
+    "img": "walltorch.png"
+   },
+   {
+    "id": "firepit",
+    "name": "Firepit",
+    "img": "firepit.png"
+   },
+   {
+    "id": "cart",
+    "name": "Cart",
+    "img": "cart.png"
+   },
+   {
+    "id": "worn-wooden-crate",
+    "name": "Worn wooden crate",
+    "img": "wornwoodencrate.png"
+   },
+   {
+    "id": "garbage-bin",
+    "name": "Garbage bin",
+    "img": "garbagebin.png"
+   },
+   {
+    "id": "sandbags",
+    "name": "Sandbags",
+    "img": "sandbags.png"
+   },
+   {
+    "id": "metal-drum",
+    "name": "Metal drum",
+    "img": "metaldrum.png"
+   },
+   {
+    "id": "workbench",
+    "name": "Workbench",
+    "img": "workbench.png"
+   },
+   {
+    "id": "railway-track",
+    "name": "Railway track",
+    "img": "railwaytrack.png"
+   },
+   {
+    "id": "crossing-gate",
+    "name": "Crossing gate",
+    "img": "crossinggate.png"
+   },
+   {
+    "id": "handcar",
+    "name": "Handcar",
+    "img": "handcar.png"
+   },
+   {
+    "id": "mushroom-lamp",
+    "name": "Mushroom lamp",
+    "img": "mushroomlamp.png"
+   },
+   {
+    "id": "lantern",
+    "name": "Lantern",
+    "img": "lantern.png"
+   },
+   {
+    "id": "pop-art-lamp",
+    "name": "Pop art lamp",
+    "img": "popartlamp.png"
+   },
+   {
+    "id": "surface-light",
+    "name": "Surface light",
+    "img": "surfacelight.png"
+   },
+   {
+    "id": "wooden-steps",
+    "name": "Wooden steps",
+    "img": "woodensteps.png"
+   },
+   {
+    "id": "stone-steps",
+    "name": "Stone steps",
+    "img": "stonesteps.png"
+   },
+   {
+    "id": "wooden-ladder",
+    "name": "Wooden ladder",
+    "img": "woodenladder.png"
+   },
+   {
+    "id": "wooden-gate",
+    "name": "Wooden gate",
+    "img": "woodengate.png"
+   },
+   {
+    "id": "hatch-window",
+    "name": "Hatch window",
+    "img": "hatchwindow.png"
+   },
+   {
+    "id": "window-pane",
+    "name": "Window pane",
+    "img": "windowpane.png"
+   },
+   {
+    "id": "stained-glass-window-upper",
+    "name": "Stained-glass window (upper)",
+    "img": "stained-glasswindow(upper).png"
+   },
+   {
+    "id": "stained-glass-window-middle",
+    "name": "Stained-glass window (middle)",
+    "img": "stained-glasswindow(middle).png"
+   },
+   {
+    "id": "stained-glass-window-lower",
+    "name": "Stained-glass window (lower)",
+    "img": "stained-glasswindow(lower).png"
+   },
+   {
+    "id": "sloped-stone-roof",
+    "name": "Sloped stone roof",
+    "img": "slopedstoneroof.png"
+   },
+   {
+    "id": "skylight",
+    "name": "Skylight",
+    "img": "skylight.png"
+   },
+   {
+    "id": "flat-stone-roof",
+    "name": "Flat stone roof",
+    "img": "flatstoneroof.png"
+   },
+   {
+    "id": "pitched-brick-roof",
+    "name": "Pitched brick roof",
+    "img": "pitchedbrickroof.png"
+   },
+   {
+    "id": "dormered-brick-roof",
+    "name": "Dormered brick roof",
+    "img": "dormeredbrickroof.png"
+   },
+   {
+    "id": "brick-hipped-roof",
+    "name": "Brick hipped roof",
+    "img": "brickhippedroof.png"
+   },
+   {
+    "id": "wooden-fencing",
+    "name": "Wooden fencing",
+    "img": "woodenfencing.png"
+   },
+   {
+    "id": "wooden-handrail",
+    "name": "Wooden handrail",
+    "img": "woodenhandrail.png"
+   },
+   {
+    "id": "walkway",
+    "name": "Walkway",
+    "img": "walkway.png"
+   },
+   {
+    "id": "bridge-planks",
+    "name": "Bridge planks",
+    "img": "bridgeplanks.png"
+   },
+   {
+    "id": "extravagant-pillar-upper",
+    "name": "Extravagant pillar (upper)",
+    "img": "extravagantpillar(upper).png"
+   },
+   {
+    "id": "extravagant-pillar-middle",
+    "name": "Extravagant pillar (middle)",
+    "img": "extravagantpillar(middle).png"
+   },
+   {
+    "id": "extravagant-pillar-lower",
+    "name": "Extravagant pillar (lower)",
+    "img": "extravagantpillar(lower).png"
+   }
   ]
  },
  {
@@ -37,6 +2650,788 @@
    "Wastepaper",
    "PokéMetal",
    "Crystal Fragment"
+  ],
+  "id": "dragonite-doll",
+  "img": "dragonitedoll.png",
+  "random": false,
+  "legendary": "Mewtwo",
+  "focus": [
+   {
+    "name": "Wastepaper",
+    "img": "wastepaper.png"
+   },
+   {
+    "name": "PokéMetal",
+    "img": "pokemetal.png"
+   },
+   {
+    "name": "Crystal Fragment",
+    "img": "crystalfragment.png"
+   }
+  ],
+  "natural": [
+   {
+    "id": "small-log",
+    "name": "Small log",
+    "img": "smalllog.png"
+   },
+   {
+    "id": "vine-rope",
+    "name": "Vine rope",
+    "img": "vinerope.png"
+   },
+   {
+    "id": "glowing-mushrooms",
+    "name": "Glowing mushrooms",
+    "img": "glowingmushrooms.png"
+   },
+   {
+    "id": "nonburnable-garbage",
+    "name": "Nonburnable garbage",
+    "img": "nonburnablegarbage.png"
+   },
+   {
+    "id": "wastepaper",
+    "name": "Wastepaper",
+    "img": "wastepaper.png"
+   },
+   {
+    "id": "copper-ore",
+    "name": "Copper ore",
+    "img": "copperore.png"
+   },
+   {
+    "id": "iron-ore",
+    "name": "Iron ore",
+    "img": "ironore.png"
+   },
+   {
+    "id": "gold-ore",
+    "name": "Gold ore",
+    "img": "goldore.png"
+   },
+   {
+    "id": "pokemetal-fragment",
+    "name": "Pokémetal fragment",
+    "img": "pokemetalfragment.png"
+   },
+   {
+    "id": "rare-pokemetal-fragment",
+    "name": "Rare Pokémetal fragment",
+    "img": "rarepokemetalfragment.png"
+   },
+   {
+    "id": "lumber",
+    "name": "Lumber",
+    "img": "lumber.png"
+   },
+   {
+    "id": "stardust",
+    "name": "Stardust",
+    "img": "stardust.png"
+   },
+   {
+    "id": "chesto-berry",
+    "name": "Chesto Berry",
+    "img": "chestoberry.png"
+   },
+   {
+    "id": "rawst-berry",
+    "name": "Rawst Berry",
+    "img": "rawstberry.png"
+   },
+   {
+    "id": "aspear-berry",
+    "name": "Aspear Berry",
+    "img": "aspearberry.png"
+   },
+   {
+    "id": "pecha-berry",
+    "name": "Pecha Berry",
+    "img": "pechaberry.png"
+   },
+   {
+    "id": "lum-berry",
+    "name": "Lum Berry",
+    "img": "lumberry.png"
+   },
+   {
+    "id": "potato",
+    "name": "Potato",
+    "img": "potato.png"
+   },
+   {
+    "id": "cave-mushrooms",
+    "name": "Cave mushrooms",
+    "img": "cavemushrooms.png"
+   },
+   {
+    "id": "grubby-rags",
+    "name": "Grubby rags",
+    "img": "grubbyrags.png"
+   },
+   {
+    "id": "dense-vines",
+    "name": "Dense vines",
+    "img": "densevines.png"
+   },
+   {
+    "id": "moss",
+    "name": "Moss",
+    "img": "moss.png"
+   },
+   {
+    "id": "pointy-tree",
+    "name": "Pointy tree",
+    "img": "pointytree.png"
+   },
+   {
+    "id": "skyland-flowers",
+    "name": "Skyland flowers",
+    "img": "skylandflowers.png"
+   },
+   {
+    "id": "cute-flower",
+    "name": "Cute flower",
+    "img": "cuteflower.png"
+   },
+   {
+    "id": "robust-flower",
+    "name": "Robust flower",
+    "img": "robustflower.png"
+   },
+   {
+    "id": "stylish-hedge",
+    "name": "Stylish hedge",
+    "img": "stylishhedge.png"
+   },
+   {
+    "id": "driftwood",
+    "name": "Driftwood",
+    "img": "driftwood.png"
+   },
+   {
+    "id": "sticky-web",
+    "name": "Sticky web",
+    "img": "stickyweb.png"
+   },
+   {
+    "id": "large-boulder",
+    "name": "Large boulder",
+    "img": "largeboulder.png"
+   },
+   {
+    "id": "crystal-cluster",
+    "name": "Crystal cluster",
+    "img": "crystalcluster.png"
+   },
+   {
+    "id": "worn-lumber",
+    "name": "Worn lumber",
+    "img": "wornlumber.png"
+   },
+   {
+    "id": "dry-pink-tall-grass",
+    "name": "Dry pink tall grass",
+    "img": "drypinktallgrass.png"
+   },
+   {
+    "id": "dry-pointy-tree",
+    "name": "Dry pointy tree",
+    "img": "drypointytree.png"
+   },
+   {
+    "id": "vine",
+    "name": "Vine",
+    "img": "vine.png"
+   },
+   {
+    "id": "dry-vine",
+    "name": "Dry vine",
+    "img": "dryvine.png"
+   },
+   {
+    "id": "potato-sprout",
+    "name": "Potato sprout",
+    "img": "potatosprout.png"
+   },
+   {
+    "id": "blooming-potato-plant",
+    "name": "Blooming potato plant",
+    "img": "bloomingpotatoplant.png"
+   },
+   {
+    "id": "ripe-potato-plant",
+    "name": "Ripe potato plant",
+    "img": "ripepotatoplant.png"
+   },
+   {
+    "id": "dry-potato-plant",
+    "name": "Dry potato plant",
+    "img": "drypotatoplant.png"
+   },
+   {
+    "id": "skyland-flowers-blue",
+    "name": "Skyland flowers (blue)",
+    "img": "skylandflowers(blue).png"
+   },
+   {
+    "id": "skyland-flowers-orange",
+    "name": "Skyland flowers (orange)",
+    "img": "skylandflowers(orange).png"
+   },
+   {
+    "id": "skyland-flowers-pink",
+    "name": "Skyland flowers (pink)",
+    "img": "skylandflowers(pink).png"
+   },
+   {
+    "id": "skyland-flowers-yellow",
+    "name": "Skyland flowers (yellow)",
+    "img": "skylandflowers(yellow).png"
+   },
+   {
+    "id": "cute-flower-blue",
+    "name": "Cute flower (blue)",
+    "img": "cuteflower(blue).png"
+   },
+   {
+    "id": "cute-flower-pink",
+    "name": "Cute flower (pink)",
+    "img": "cuteflower(pink).png"
+   },
+   {
+    "id": "cute-flower-white",
+    "name": "Cute flower (white)",
+    "img": "cuteflower(white).png"
+   },
+   {
+    "id": "cute-flower-yellow",
+    "name": "Cute flower (yellow)",
+    "img": "cuteflower(yellow).png"
+   },
+   {
+    "id": "stylish-hedge-blue",
+    "name": "Stylish hedge (blue)",
+    "img": "stylishhedge(blue).png"
+   },
+   {
+    "id": "stylish-hedge-orange",
+    "name": "Stylish hedge (orange)",
+    "img": "stylishhedge(orange).png"
+   },
+   {
+    "id": "stylish-hedge-purple",
+    "name": "Stylish hedge (purple)",
+    "img": "stylishhedge(purple).png"
+   },
+   {
+    "id": "stylish-hedge-white",
+    "name": "Stylish hedge (white)",
+    "img": "stylishhedge(white).png"
+   },
+   {
+    "id": "dry-stylish-hedge",
+    "name": "Dry stylish hedge",
+    "img": "drystylishhedge.png"
+   },
+   {
+    "id": "protruding-wall",
+    "name": "Protruding wall",
+    "img": "protrudingwall.png"
+   },
+   {
+    "id": "rough-wall",
+    "name": "Rough wall",
+    "img": "roughwall.png"
+   },
+   {
+    "id": "stone-pillar-upper",
+    "name": "Stone pillar (upper)",
+    "img": "stonepillar(upper).png"
+   },
+   {
+    "id": "stone-pillar-middle",
+    "name": "Stone pillar (middle)",
+    "img": "stonepillar(middle).png"
+   },
+   {
+    "id": "stone-pillar-lower",
+    "name": "Stone pillar (lower)",
+    "img": "stonepillar(lower).png"
+   },
+   {
+    "id": "pokemon-center-wall-trim",
+    "name": "Pokémon Center wall (trim)",
+    "img": "pokemoncenterwall(trim).png"
+   },
+   {
+    "id": "diagonal-wooden-flooring",
+    "name": "Diagonal wooden flooring",
+    "img": "diagonalwoodenflooring.png"
+   },
+   {
+    "id": "woven-carpeting",
+    "name": "Woven carpeting",
+    "img": "wovencarpeting.png"
+   },
+   {
+    "id": "iron-tiling",
+    "name": "Iron tiling",
+    "img": "irontiling.png"
+   },
+   {
+    "id": "cyber-flooring",
+    "name": "Cyber flooring",
+    "img": "cyberflooring.png"
+   },
+   {
+    "id": "cube-light",
+    "name": "Cube light",
+    "img": "cubelight.png"
+   },
+   {
+    "id": "foundation",
+    "name": "Foundation",
+    "img": "foundation.png"
+   },
+   {
+    "id": "scrap-cube",
+    "name": "Scrap cube",
+    "img": "scrapcube.png"
+   },
+   {
+    "id": "sky-high-grass",
+    "name": "Sky-high grass",
+    "img": "sky-highgrass.png"
+   },
+   {
+    "id": "pure-white-soil",
+    "name": "Pure-white soil",
+    "img": "pure-whitesoil.png"
+   },
+   {
+    "id": "ordinary-sand",
+    "name": "Ordinary sand",
+    "img": "ordinarysand.png"
+   },
+   {
+    "id": "skyland-sand",
+    "name": "Skyland sand",
+    "img": "skylandsand.png"
+   },
+   {
+    "id": "skyland-sandstone",
+    "name": "Skyland sandstone",
+    "img": "skylandsandstone.png"
+   },
+   {
+    "id": "skyland-cliff-rock",
+    "name": "Skyland cliff rock",
+    "img": "skylandcliffrock.png"
+   },
+   {
+    "id": "skyland-spotted-cliff-rock",
+    "name": "Skyland spotted cliff rock",
+    "img": "skylandspottedcliffrock.png"
+   },
+   {
+    "id": "coarse-rock",
+    "name": "Coarse rock",
+    "img": "coarserock.png"
+   },
+   {
+    "id": "cave-rock",
+    "name": "Cave rock",
+    "img": "caverock.png"
+   },
+   {
+    "id": "ocean-rock",
+    "name": "Ocean rock",
+    "img": "oceanrock.png"
+   },
+   {
+    "id": "copper-deposit-skyland",
+    "name": "Copper deposit (Skyland)",
+    "img": "copperdeposit(skyland).png"
+   },
+   {
+    "id": "pokemetal-deposit",
+    "name": "Pokémetal deposit",
+    "img": "pokemetaldeposit.png"
+   },
+   {
+    "id": "mossy-soil",
+    "name": "Mossy soil",
+    "img": "mossysoil.png"
+   },
+   {
+    "id": "mysterious-stone",
+    "name": "Mysterious stone",
+    "img": "mysteriousstone.png"
+   },
+   {
+    "id": "cracked-sandstone",
+    "name": "Cracked sandstone",
+    "img": "crackedsandstone.png"
+   },
+   {
+    "id": "muddy-pure-white-soil",
+    "name": "Muddy pure-white soil",
+    "img": "muddypure-whitesoil.png"
+   },
+   {
+    "id": "rusted-iron-plate-flooring",
+    "name": "Rusted iron-plate flooring",
+    "img": "rustediron-plateflooring.png"
+   },
+   {
+    "id": "barren-pure-white-soil",
+    "name": "Barren pure-white soil",
+    "img": "barrenpure-whitesoil.png"
+   }
+  ],
+  "original": [
+   {
+    "id": "office-cabinet",
+    "name": "Office cabinet",
+    "img": "officecabinet.png"
+   },
+   {
+    "id": "office-locker",
+    "name": "Office locker",
+    "img": "officelocker.png"
+   },
+   {
+    "id": "office-shelf",
+    "name": "Office shelf",
+    "img": "officeshelf.png"
+   },
+   {
+    "id": "straw-table",
+    "name": "Straw table",
+    "img": "strawtable.png"
+   },
+   {
+    "id": "mysterious-pedestal",
+    "name": "Mysterious pedestal",
+    "img": "mysteriouspedestal.png"
+   },
+   {
+    "id": "office-desk",
+    "name": "Office desk",
+    "img": "officedesk.png"
+   },
+   {
+    "id": "office-table",
+    "name": "Office table",
+    "img": "officetable.png"
+   },
+   {
+    "id": "straw-stool",
+    "name": "Straw stool",
+    "img": "strawstool.png"
+   },
+   {
+    "id": "log-chair",
+    "name": "Log chair",
+    "img": "logchair.png"
+   },
+   {
+    "id": "plain-chair",
+    "name": "Plain chair",
+    "img": "plainchair.png"
+   },
+   {
+    "id": "chic-chair",
+    "name": "Chic chair",
+    "img": "chicchair.png"
+   },
+   {
+    "id": "office-chair",
+    "name": "Office chair",
+    "img": "officechair.png"
+   },
+   {
+    "id": "plain-sofa",
+    "name": "Plain sofa",
+    "img": "plainsofa.png"
+   },
+   {
+    "id": "mug",
+    "name": "Mug",
+    "img": "mug.png"
+   },
+   {
+    "id": "twisted-potted-plant",
+    "name": "Twisted potted plant",
+    "img": "twistedpottedplant.png"
+   },
+   {
+    "id": "book-pile",
+    "name": "Book pile",
+    "img": "bookpile.png"
+   },
+   {
+    "id": "cd-rack",
+    "name": "CD rack",
+    "img": "cdrack.png"
+   },
+   {
+    "id": "bookcase",
+    "name": "Bookcase",
+    "img": "bookcase.png"
+   },
+   {
+    "id": "computer",
+    "name": "Computer",
+    "img": "computer.png"
+   },
+   {
+    "id": "first-aid-kit",
+    "name": "First aid kit",
+    "img": "firstaidkit.png"
+   },
+   {
+    "id": "balloons",
+    "name": "Balloons",
+    "img": "balloons.png"
+   },
+   {
+    "id": "whiteboard",
+    "name": "Whiteboard",
+    "img": "whiteboard.png"
+   },
+   {
+    "id": "antique-clock",
+    "name": "Antique clock",
+    "img": "antiqueclock.png"
+   },
+   {
+    "id": "castform-weather-charm",
+    "name": "Castform weather charm",
+    "img": "castformweathercharm.png"
+   },
+   {
+    "id": "grubby-letter",
+    "name": "Grubby letter",
+    "img": "grubbyletter.png"
+   },
+   {
+    "id": "grubby-notepad",
+    "name": "Grubby notepad",
+    "img": "grubbynotepad.png"
+   },
+   {
+    "id": "grubby-book",
+    "name": "Grubby book",
+    "img": "grubbybook.png"
+   },
+   {
+    "id": "grubby-papers",
+    "name": "Grubby papers",
+    "img": "grubbypapers.png"
+   },
+   {
+    "id": "grubby-newspaper",
+    "name": "Grubby newspaper",
+    "img": "grubbynewspaper.png"
+   },
+   {
+    "id": "grubby-tablet",
+    "name": "Grubby tablet",
+    "img": "grubbytablet.png"
+   },
+   {
+    "id": "grubby-cell-phone",
+    "name": "Grubby cell phone",
+    "img": "grubbycellphone.png"
+   },
+   {
+    "id": "torch",
+    "name": "Torch",
+    "img": "torch.png"
+   },
+   {
+    "id": "firepit",
+    "name": "Firepit",
+    "img": "firepit.png"
+   },
+   {
+    "id": "planter",
+    "name": "Planter",
+    "img": "planter.png"
+   },
+   {
+    "id": "cart",
+    "name": "Cart",
+    "img": "cart.png"
+   },
+   {
+    "id": "worn-wooden-crate",
+    "name": "Worn wooden crate",
+    "img": "wornwoodencrate.png"
+   },
+   {
+    "id": "garbage-bags",
+    "name": "Garbage bags",
+    "img": "garbagebags.png"
+   },
+   {
+    "id": "garbage-bin",
+    "name": "Garbage bin",
+    "img": "garbagebin.png"
+   },
+   {
+    "id": "traffic-cone",
+    "name": "Traffic cone",
+    "img": "trafficcone.png"
+   },
+   {
+    "id": "fire-hydrant",
+    "name": "Fire hydrant",
+    "img": "firehydrant.png"
+   },
+   {
+    "id": "sandbags",
+    "name": "Sandbags",
+    "img": "sandbags.png"
+   },
+   {
+    "id": "excavation-tools",
+    "name": "Excavation tools",
+    "img": "excavationtools.png"
+   },
+   {
+    "id": "tires",
+    "name": "Tires",
+    "img": "tires.png"
+   },
+   {
+    "id": "metal-drum",
+    "name": "Metal drum",
+    "img": "metaldrum.png"
+   },
+   {
+    "id": "large-ventilation-fan",
+    "name": "Large ventilation fan",
+    "img": "largeventilationfan.png"
+   },
+   {
+    "id": "workbench",
+    "name": "Workbench",
+    "img": "workbench.png"
+   },
+   {
+    "id": "mushroom-lamp",
+    "name": "Mushroom lamp",
+    "img": "mushroomlamp.png"
+   },
+   {
+    "id": "spotlight",
+    "name": "Spotlight",
+    "img": "spotlight.png"
+   },
+   {
+    "id": "wooden-steps",
+    "name": "Wooden steps",
+    "img": "woodensteps.png"
+   },
+   {
+    "id": "stylish-steps",
+    "name": "Stylish steps",
+    "img": "stylishsteps.png"
+   },
+   {
+    "id": "concrete-steps",
+    "name": "Concrete steps",
+    "img": "concretesteps.png"
+   },
+   {
+    "id": "iron-steps",
+    "name": "Iron steps",
+    "img": "ironsteps.png"
+   },
+   {
+    "id": "wooden-ladder",
+    "name": "Wooden ladder",
+    "img": "woodenladder.png"
+   },
+   {
+    "id": "iron-ladder",
+    "name": "Iron ladder",
+    "img": "ironladder.png"
+   },
+   {
+    "id": "stylish-door",
+    "name": "Stylish door",
+    "img": "stylishdoor.png"
+   },
+   {
+    "id": "wooden-gate",
+    "name": "Wooden gate",
+    "img": "woodengate.png"
+   },
+   {
+    "id": "hatch-window",
+    "name": "Hatch window",
+    "img": "hatchwindow.png"
+   },
+   {
+    "id": "window-pane",
+    "name": "Window pane",
+    "img": "windowpane.png"
+   },
+   {
+    "id": "pitched-brick-roof",
+    "name": "Pitched brick roof",
+    "img": "pitchedbrickroof.png"
+   },
+   {
+    "id": "dormered-brick-roof",
+    "name": "Dormered brick roof",
+    "img": "dormeredbrickroof.png"
+   },
+   {
+    "id": "brick-hipped-roof",
+    "name": "Brick hipped roof",
+    "img": "brickhippedroof.png"
+   },
+   {
+    "id": "wooden-fencing",
+    "name": "Wooden fencing",
+    "img": "woodenfencing.png"
+   },
+   {
+    "id": "wooden-partition",
+    "name": "Wooden partition",
+    "img": "woodenpartition.png"
+   },
+   {
+    "id": "walkway",
+    "name": "Walkway",
+    "img": "walkway.png"
+   },
+   {
+    "id": "bridge-planks",
+    "name": "Bridge planks",
+    "img": "bridgeplanks.png"
+   },
+   {
+    "id": "grate-flooring",
+    "name": "Grate flooring",
+    "img": "grateflooring.png"
+   },
+   {
+    "id": "roof-support",
+    "name": "Roof support",
+    "img": "roofsupport.png"
+   },
+   {
+    "id": "broken-window-pane",
+    "name": "Broken Window Pane",
+    "img": "brokenwindowpane.png"
+   }
   ]
  },
  {
@@ -45,18 +3440,659 @@
    "Sea grapes",
    "Small coral",
    "Grubby pearl"
+  ],
+  "id": "starmie-doll",
+  "img": "starmiedoll.png",
+  "random": false,
+  "legendary": "Phione",
+  "focus": [
+   {
+    "name": "Sea grapes",
+    "img": "seagrapes.png"
+   },
+   {
+    "name": "Small coral",
+    "img": "smallcoral.png"
+   },
+   {
+    "name": "Grubby pearl",
+    "img": "grubbypearl.png"
+   }
+  ],
+  "natural": [
+   {
+    "id": "sturdy-stick",
+    "name": "Sturdy stick",
+    "img": "sturdystick.png"
+   },
+   {
+    "id": "stone",
+    "name": "Stone",
+    "img": "stone.png"
+   },
+   {
+    "id": "vine-rope",
+    "name": "Vine rope",
+    "img": "vinerope.png"
+   },
+   {
+    "id": "sea-glass-fragments",
+    "name": "Sea glass fragments",
+    "img": "seaglassfragments.png"
+   },
+   {
+    "id": "seashell",
+    "name": "Seashell",
+    "img": "seashell.png"
+   },
+   {
+    "id": "iron-ore",
+    "name": "Iron ore",
+    "img": "ironore.png"
+   },
+   {
+    "id": "gold-ore",
+    "name": "Gold ore",
+    "img": "goldore.png"
+   },
+   {
+    "id": "lumber",
+    "name": "Lumber",
+    "img": "lumber.png"
+   },
+   {
+    "id": "stardust",
+    "name": "Stardust",
+    "img": "stardust.png"
+   },
+   {
+    "id": "grubby-pearl",
+    "name": "Grubby pearl",
+    "img": "grubbypearl.png"
+   },
+   {
+    "id": "chesto-berry",
+    "name": "Chesto Berry",
+    "img": "chestoberry.png"
+   },
+   {
+    "id": "rawst-berry",
+    "name": "Rawst Berry",
+    "img": "rawstberry.png"
+   },
+   {
+    "id": "aspear-berry",
+    "name": "Aspear Berry",
+    "img": "aspearberry.png"
+   },
+   {
+    "id": "lum-berry",
+    "name": "Lum Berry",
+    "img": "lumberry.png"
+   },
+   {
+    "id": "seaweed",
+    "name": "Seaweed",
+    "img": "seaweed.png"
+   },
+   {
+    "id": "heat-rock",
+    "name": "Heat Rock",
+    "img": "heatrock.png"
+   },
+   {
+    "id": "icy-rock",
+    "name": "Icy Rock",
+    "img": "icyrock.png"
+   },
+   {
+    "id": "smooth-rock",
+    "name": "Smooth Rock",
+    "img": "smoothrock.png"
+   },
+   {
+    "id": "damp-rock",
+    "name": "Damp Rock",
+    "img": "damprock.png"
+   },
+   {
+    "id": "driftwood",
+    "name": "Driftwood",
+    "img": "driftwood.png"
+   },
+   {
+    "id": "mossy-boulder",
+    "name": "Mossy boulder",
+    "img": "mossyboulder.png"
+   },
+   {
+    "id": "wood-fragments",
+    "name": "Wood fragments",
+    "img": "woodfragments.png"
+   },
+   {
+    "id": "chesto-tree",
+    "name": "Chesto tree",
+    "img": "chestotree.png"
+   },
+   {
+    "id": "rawst-tree",
+    "name": "Rawst tree",
+    "img": "rawsttree.png"
+   },
+   {
+    "id": "aspear-tree",
+    "name": "Aspear tree",
+    "img": "aspeartree.png"
+   },
+   {
+    "id": "lum-tree",
+    "name": "Lum tree",
+    "img": "lumtree.png"
+   },
+   {
+    "id": "vine",
+    "name": "Vine",
+    "img": "vine.png"
+   },
+   {
+    "id": "seabed-tall-grass",
+    "name": "Seabed tall grass",
+    "img": "seabedtallgrass.png"
+   },
+   {
+    "id": "sea-moss",
+    "name": "Sea moss",
+    "img": "seamoss.png"
+   },
+   {
+    "id": "lush-seaweed",
+    "name": "Lush seaweed",
+    "img": "lushseaweed.png"
+   },
+   {
+    "id": "seabed-flowers",
+    "name": "Seabed flowers",
+    "img": "seabedflowers.png"
+   },
+   {
+    "id": "white-driftwood",
+    "name": "White driftwood",
+    "img": "whitedriftwood.png"
+   },
+   {
+    "id": "mossy-ocean-boulder",
+    "name": "Mossy ocean boulder",
+    "img": "mossyoceanboulder.png"
+   },
+   {
+    "id": "chimney-rocks",
+    "name": "Chimney rocks",
+    "img": "chimneyrocks.png"
+   },
+   {
+    "id": "small-coral",
+    "name": "Small coral",
+    "img": "smallcoral.png"
+   },
+   {
+    "id": "small-coral-red",
+    "name": "Small coral (Red)",
+    "img": "smallcoral(red).png"
+   },
+   {
+    "id": "small-coral-green",
+    "name": "Small coral (Green)",
+    "img": "smallcoral(green).png"
+   },
+   {
+    "id": "tall-coral",
+    "name": "Tall coral",
+    "img": "tallcoral.png"
+   },
+   {
+    "id": "tall-coral-purple",
+    "name": "Tall coral (Purple)",
+    "img": "tallcoral(purple).png"
+   },
+   {
+    "id": "colorful-corals",
+    "name": "Colorful corals",
+    "img": "colorfulcorals.png"
+   },
+   {
+    "id": "twisty-waterweed",
+    "name": "Twisty waterweed",
+    "img": "twistywaterweed.png"
+   },
+   {
+    "id": "beach-sand",
+    "name": "Beach sand",
+    "img": "beachsand.png"
+   },
+   {
+    "id": "white-rock",
+    "name": "White rock",
+    "img": "whiterock.png"
+   },
+   {
+    "id": "ocean-rock",
+    "name": "Ocean rock",
+    "img": "oceanrock.png"
+   },
+   {
+    "id": "seafloor-algae",
+    "name": "Seafloor algae",
+    "img": "seaflooralgae.png"
+   },
+   {
+    "id": "blue-rock",
+    "name": "Blue rock",
+    "img": "bluerock.png"
+   },
+   {
+    "id": "mossy-ocean-soil",
+    "name": "Mossy ocean soil",
+    "img": "mossyoceansoil.png"
+   },
+   {
+    "id": "star-spotted-rock",
+    "name": "Star-spotted rock",
+    "img": "star-spottedrock.png"
+   }
+  ],
+  "original": [
+   {
+    "id": "pokemetal",
+    "name": "Pokémetal",
+    "img": "pokemetal.png"
+   },
+   {
+    "id": "mysterious-pedestal",
+    "name": "Mysterious pedestal",
+    "img": "mysteriouspedestal.png"
+   },
+   {
+    "id": "office-desk",
+    "name": "Office desk",
+    "img": "officedesk.png"
+   },
+   {
+    "id": "office-chair",
+    "name": "Office chair",
+    "img": "officechair.png"
+   },
+   {
+    "id": "marine-table",
+    "name": "Marine table",
+    "img": "marinetable.png"
+   },
+   {
+    "id": "ornate-stand",
+    "name": "Ornate stand",
+    "img": "ornatestand.png"
+   },
+   {
+    "id": "ornate-table",
+    "name": "Ornate table",
+    "img": "ornatetable.png"
+   },
+   {
+    "id": "marine-chair",
+    "name": "Marine chair",
+    "img": "marinechair.png"
+   },
+   {
+    "id": "ornate-chair",
+    "name": "Ornate chair",
+    "img": "ornatechair.png"
+   },
+   {
+    "id": "whiteboard",
+    "name": "Whiteboard",
+    "img": "whiteboard.png"
+   },
+   {
+    "id": "castform-weather-charm",
+    "name": "Castform weather charm",
+    "img": "castformweathercharm.png"
+   },
+   {
+    "id": "grubby-newspaper",
+    "name": "Grubby newspaper",
+    "img": "grubbynewspaper.png"
+   },
+   {
+    "id": "ornate-decorative-shelf",
+    "name": "Ornate decorative shelf",
+    "img": "ornatedecorativeshelf.png"
+   },
+   {
+    "id": "metronome",
+    "name": "Metronome",
+    "img": "metronome.png"
+   },
+   {
+    "id": "harp",
+    "name": "Harp",
+    "img": "harp.png"
+   },
+   {
+    "id": "wall-plant",
+    "name": "Wall plant",
+    "img": "wallplant.png"
+   },
+   {
+    "id": "wall-mounted-tools",
+    "name": "Wall-mounted tools",
+    "img": "wall-mountedtools.png"
+   },
+   {
+    "id": "torch",
+    "name": "Torch",
+    "img": "torch.png"
+   },
+   {
+    "id": "worn-wooden-crate",
+    "name": "Worn wooden crate",
+    "img": "wornwoodencrate.png"
+   },
+   {
+    "id": "sandbags",
+    "name": "Sandbags",
+    "img": "sandbags.png"
+   },
+   {
+    "id": "hanging-sign",
+    "name": "Hanging sign",
+    "img": "hangingsign.png"
+   },
+   {
+    "id": "stone-sign",
+    "name": "Stone sign",
+    "img": "stonesign.png"
+   },
+   {
+    "id": "slim-information-board",
+    "name": "Slim information board",
+    "img": "sliminformationboard.png"
+   },
+   {
+    "id": "workbench",
+    "name": "Workbench",
+    "img": "workbench.png"
+   },
+   {
+    "id": "shell-lamp",
+    "name": "Shell lamp",
+    "img": "shelllamp.png"
+   },
+   {
+    "id": "pearl-streetlight",
+    "name": "Pearl streetlight",
+    "img": "pearlstreetlight.png"
+   },
+   {
+    "id": "lampion",
+    "name": "Lampion",
+    "img": "lampion.png"
+   },
+   {
+    "id": "stone-steps",
+    "name": "Stone steps",
+    "img": "stonesteps.png"
+   },
+   {
+    "id": "wooden-ladder",
+    "name": "Wooden ladder",
+    "img": "woodenladder.png"
+   },
+   {
+    "id": "hatch-window",
+    "name": "Hatch window",
+    "img": "hatchwindow.png"
+   },
+   {
+    "id": "window-pane",
+    "name": "Window pane",
+    "img": "windowpane.png"
+   },
+   {
+    "id": "pitched-brick-roof",
+    "name": "Pitched brick roof",
+    "img": "pitchedbrickroof.png"
+   },
+   {
+    "id": "dormered-brick-roof",
+    "name": "Dormered brick roof",
+    "img": "dormeredbrickroof.png"
+   },
+   {
+    "id": "brick-hipped-roof",
+    "name": "Brick hipped roof",
+    "img": "brickhippedroof.png"
+   },
+   {
+    "id": "wooden-fencing",
+    "name": "Wooden fencing",
+    "img": "woodenfencing.png"
+   },
+   {
+    "id": "walkway",
+    "name": "Walkway",
+    "img": "walkway.png"
+   },
+   {
+    "id": "bridge-planks",
+    "name": "Bridge planks",
+    "img": "bridgeplanks.png"
+   },
+   {
+    "id": "iron-pipe-horizontal",
+    "name": "Iron pipe (horizontal)",
+    "img": "ironpipe(horizontal).png"
+   },
+   {
+    "id": "iron-pipe-vertical-t",
+    "name": "Iron pipe (vertical T)",
+    "img": "ironpipe(verticalt).png"
+   },
+   {
+    "id": "iron-pipe-downward-t",
+    "name": "Iron pipe (downward T)",
+    "img": "ironpipe(downwardt).png"
+   },
+   {
+    "id": "iron-pipe-horizontal-curve",
+    "name": "Iron pipe (horizontal curve)",
+    "img": "ironpipe(horizontalcurve).png"
+   },
+   {
+    "id": "glass-pane",
+    "name": "Glass pane",
+    "img": "glasspane.png"
+   },
+   {
+    "id": "glass-pane-horizontal",
+    "name": "Glass pane (horizontal)",
+    "img": "glasspane(horizontal).png"
+   },
+   {
+    "id": "iron-support",
+    "name": "Iron support",
+    "img": "ironsupport.png"
+   },
+   {
+    "id": "interior-door",
+    "name": "Interior door",
+    "img": "interiordoor.png"
+   },
+   {
+    "id": "submarine-door",
+    "name": "Submarine door",
+    "img": "submarinedoor.png"
+   },
+   {
+    "id": "ornate-door",
+    "name": "Ornate door",
+    "img": "ornatedoor.png"
+   },
+   {
+    "id": "decorative-cloth",
+    "name": "Decorative cloth",
+    "img": "decorativecloth.png"
+   },
+   {
+    "id": "ornate-window",
+    "name": "Ornate window",
+    "img": "ornatewindow.png"
+   },
+   {
+    "id": "sloped-scale-roof",
+    "name": "Sloped scale roof",
+    "img": "slopedscaleroof.png"
+   },
+   {
+    "id": "scale-hipped-roof",
+    "name": "Scale hipped roof",
+    "img": "scalehippedroof.png"
+   },
+   {
+    "id": "twisty-pillar-upper",
+    "name": "Twisty pillar (upper)",
+    "img": "twistypillar(upper).png"
+   },
+   {
+    "id": "twisty-pillar-middle",
+    "name": "Twisty pillar (middle)",
+    "img": "twistypillar(middle).png"
+   },
+   {
+    "id": "twisty-pillar-lower",
+    "name": "Twisty pillar (lower)",
+    "img": "twistypillar(lower).png"
+   },
+   {
+    "id": "plaster-wall",
+    "name": "Plaster wall",
+    "img": "plasterwall.png"
+   },
+   {
+    "id": "stone-brick-wall",
+    "name": "Stone brick wall",
+    "img": "stonebrickwall.png"
+   },
+   {
+    "id": "rough-wall",
+    "name": "Rough wall",
+    "img": "roughwall.png"
+   },
+   {
+    "id": "extravagant-carpeting",
+    "name": "Extravagant carpeting",
+    "img": "extravagantcarpeting.png"
+   },
+   {
+    "id": "lacquered-wall",
+    "name": "Lacquered wall",
+    "img": "lacqueredwall.png"
+   },
+   {
+    "id": "ornate-wall",
+    "name": "Ornate wall",
+    "img": "ornatewall.png"
+   },
+   {
+    "id": "stone-accent-wall",
+    "name": "Stone-accent wall",
+    "img": "stone-accentwall.png"
+   },
+   {
+    "id": "stately-flooring",
+    "name": "Stately flooring",
+    "img": "statelyflooring.png"
+   },
+   {
+    "id": "colorful-fish-scale-tiling",
+    "name": "Colorful fish-scale tiling",
+    "img": "colorfulfish-scaletiling.png"
+   },
+   {
+    "id": "battle-poster",
+    "name": "Battle poster",
+    "img": "battleposter.png"
+   },
+   {
+    "id": "thunder-wave-poster",
+    "name": "Thunder Wave poster",
+    "img": "thunderwaveposter.png"
+   },
+   {
+    "id": "beach-poster",
+    "name": "Beach poster",
+    "img": "beachposter.png"
+   },
+   {
+    "id": "surprise-poster",
+    "name": "Surprise poster",
+    "img": "surpriseposter.png"
+   },
+   {
+    "id": "security-poster",
+    "name": "Security poster",
+    "img": "securityposter.png"
+   },
+   {
+    "id": "safari-poster",
+    "name": "Safari poster",
+    "img": "safariposter.png"
+   },
+   {
+    "id": "sunset-poster",
+    "name": "Sunset poster",
+    "img": "sunsetposter.png"
+   },
+   {
+    "id": "fighting-poster",
+    "name": "Fighting poster",
+    "img": "fightingposter.png"
+   },
+   {
+    "id": "raging-sea-poster",
+    "name": "Raging sea poster",
+    "img": "ragingseaposter.png"
+   },
+   {
+    "id": "roaring-flame-poster",
+    "name": "Roaring flame poster",
+    "img": "roaringflameposter.png"
+   }
   ]
  },
  {
   "doll": "Ditto Doll",
   "finds": [
    "Random"
-  ]
+  ],
+  "id": "ditto-doll",
+  "img": "dittodoll.png",
+  "random": true,
+  "legendary": null,
+  "focus": [],
+  "natural": [],
+  "original": []
  },
  {
   "doll": "Substitute Doll",
   "finds": [
    "Random"
-  ]
+  ],
+  "id": "substitute-doll",
+  "img": "substitutedoll.png",
+  "random": true,
+  "legendary": null,
+  "focus": [],
+  "natural": [],
+  "original": []
  }
 ]

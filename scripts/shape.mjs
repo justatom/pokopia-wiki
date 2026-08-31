@@ -301,7 +301,34 @@ W('flavors', flavors);
 
 W('humanrecords', table(sec('humanrecords', 'image').rows, 5).map(r => ({ name: cell(r[1]), desc: cell(r[2]), location: cell(r[3]), reward: cell(r[4]) })).filter(x => x.name && x.name !== 'Name'));
 W('highlightreel', table(sec('highlightreel').rows, 5).map(r => ({ name: cell(r[0]), pokemon: cell(r[1]), items: list(r[2]), time: cell(r[3]), reward: cell(r[4]) })).filter(x => x.name && x.name !== 'Name'));
-W('dreamislands', table(sec('dreamislands').rows, 4).map(r => ({ doll: cell(r[0]), finds: [cell(r[1]), cell(r[2]), cell(r[3])].filter(Boolean) })).filter(x => x.doll && x.doll !== 'Doll'));
+/* ---------- dream islands ----------
+   The doll you set down decides what the island is stocked with. Serebii's own table gives
+   three "focus" materials per doll; the far longer per-island lists come from the item
+   sources, which tag every item with the island it spawns on — Natural for things that
+   grow there, Original for the furniture and relics unique to it.
+   The Legendary each doll biases towards is from Serebii's Legendary page; it is a bias,
+   not a guarantee, and the Clefairy doll has none. */
+const DOLL_LEGENDARY = {
+  'Pikachu Doll': 'Raikou', 'Eevee Doll': 'Suicune', 'Arcanine Doll': 'Entei',
+  'Dragonite Doll': 'Mewtwo', 'Starmie Doll': 'Phione',
+};
+W('dreamislands', table(sec('dreamislands').rows, 4)
+  .map(r => ({ doll: cell(r[0]), finds: [cell(r[1]), cell(r[2]), cell(r[3])].filter(Boolean) }))
+  .filter(x => x.doll && x.doll !== 'Doll')
+  .map(x => {
+    const on = kind => items.filter(i => i.sources.includes(`${x.doll} Dream Island (${kind})`))
+      .map(i => ({ id: i.id, name: i.name, img: i.img }));
+    return {
+      ...x,
+      id: slug(x.doll),
+      img: icon(x.doll),
+      random: x.finds[0] === 'Random',
+      legendary: DOLL_LEGENDARY[x.doll] || null,
+      focus: x.finds.filter(f => f !== 'Random').map(f => ({ name: f, img: icon(f) })),
+      natural: on('Natural'),
+      original: on('Original'),
+    };
+  }));
 W('cloudislands', table(sec('cloudislands').rows, 3).map(r => ({ desc: cell(r[1]), code: cell(r[2]) })).filter(x => /^[A-Z0-9]{4} [A-Z0-9]{4}$/.test(x.code)));
 W('litter', [...litter].map(([name, items]) => ({ name, items })));
 
