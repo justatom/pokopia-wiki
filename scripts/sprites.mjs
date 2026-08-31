@@ -5,6 +5,7 @@
 //   art/       PokéAPI official artwork    downloaded  (~46 MB)
 //   items/     item icon per item id       downloaded  (~45 MB)
 //   habitats/  habitat-dex picture         downloaded  (~15 MB)
+//   outfits/   outfit thumbnail            downloaded
 //
 // Everything is skip-if-present, so a re-run only fetches what is missing.
 import fs from 'node:fs';
@@ -86,6 +87,14 @@ const SB = { 'User-Agent': UA, Referer: `${SEREBII}/items.shtml` };
   const files = [...new Set(j('data/habitats.json').map(h => h.img).filter(Boolean))];
   await run('habitats', files.map(f =>
     () => grab(`${SEREBII}/habitatdex/th/${f}`, path.join(out, f), SB)), 4);
+}
+
+/* ---------- outfit thumbnails ---------- */
+{
+  const out = dir('src/sprites/outfits');
+  const files = [...new Set(j('data/outfits.json').map(o => o.img).filter(Boolean))];
+  await run('outfits ', files.map(f =>
+    () => grab(`${SEREBII}/custom/th/${f}`, path.join(out, f), SB)), 4);
 }
 
 console.log(`downloaded ${(bytes / 1e6).toFixed(1)}MB${missed ? `, ${missed} missing` : ''}`);

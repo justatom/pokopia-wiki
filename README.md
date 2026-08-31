@@ -19,6 +19,7 @@ Static site, **zero runtime dependencies**, mobile-first. Node 20+ is the only r
 | Building kits | 56 |
 | Dishes | 34 |
 | Music CDs / Lost Relics / Human Records | 53 / 103 / 163 |
+| Outfits, hairstyles and accessories, with pictures and sources | 203 |
 | Documented gifts Pokémon give you (Litter drops, emotes, story items) | 57 |
 | Pokémon with favourites recorded (ideal habitat + 5 categories + flavour) | 366 |
 | Item ↔ favourite-category links across the 43 categories | 2,356 |
@@ -118,7 +119,7 @@ scripts/
 src/
   styles.css        design system (light + dark, mobile-first)
   app.js            search, list filtering, nav drawer, theme toggle
-  sprites/          small/ is committed; art/, items/ and habitats/ are downloaded (see .gitignore)
+  sprites/          small/ is committed; art/, items/, habitats/ and outfits/ are downloaded
 _research/          scraped source data and the parsers that produced data/
 ```
 

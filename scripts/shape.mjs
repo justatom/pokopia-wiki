@@ -473,3 +473,34 @@ W('gifts', gifts);
       .map(i => ({ id: i.id, name: i.name, img: i.img, desc: i.desc })),
   });
 }
+
+/* ---------- outfits ----------
+   Ditto's wardrobe. Serebii lays it out as seven tables — Outfit, Hair, Tops, Pants, Hat,
+   Bags, Shoes — each with a picture, a name and where the magazine that teaches it is
+   found. The heading sits in the section before its table, except "Hat": the scraper drops
+   text shorter than four characters, so that one falls back to its place in the order. */
+{
+  const ORDER = ['Outfit', 'Hair', 'Tops', 'Pants', 'Hat', 'Bags', 'Shoes'];
+  const outfits = [];
+  const secsC = R.customisation.secs;
+  let n = 0;
+  for (let i = 0; i < secsC.length; i++) {
+    const rows = secsC[i].rows || [];
+    if (!rows.some(r => r.length === 4 && cell(r[0]) === 'Picture')) continue;
+    const heading = ((secsC[i - 1] || {}).text || []).slice(-1)[0];
+    const cat = ORDER.includes(heading) ? heading : ORDER[n];
+    n++;
+    for (const r of rows) {
+      if (r.length !== 4) continue;
+      const name = cell(r[1]); if (!name || name === 'Name') continue;
+      outfits.push({
+        cat, name,
+        img: ((r[0].i || [])[0] || '').replace(/^.*\//, '') || null,
+        style: cell(r[2]) || null,
+        sources: list(r[3]),
+      });
+    }
+  }
+  if (n !== ORDER.length) console.log(`   ! expected ${ORDER.length} outfit tables, found ${n}`);
+  W('outfits', outfits);
+}

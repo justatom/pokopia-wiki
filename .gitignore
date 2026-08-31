@@ -20,3 +20,6 @@ src/sprites/habitats/
 # whole Bulbapedia species pages, fetched only to fill the Basin gaps in likes.json —
 # the parsed _research/likes.json is committed, these 2 MB of source are not
 _research/bulba_spin_*.json
+
+# outfit thumbnails — re-downloaded by `npm run sprites`
+src/sprites/outfits/

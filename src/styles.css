@@ -314,6 +314,12 @@ td .fav-items { gap: 4px; }
 .island-finds .fav-items { margin-top: 10px; }
 @media (min-width: 700px) { .islands { grid-template-columns: 1fr 1fr; } }
 
+/* outfits */
+.outfit { grid-template-columns: 72px 1fr; align-items: center; }
+.outfit-pic { width: 72px; height: 72px; object-fit: cover; object-position: top center;
+  border-radius: 10px; background: var(--paper-2); }
+@media (min-width: 640px) { .outfit { grid-template-columns: 96px 1fr; } .outfit-pic { width: 96px; height: 96px; } }
+
 /* cross-references to an item's row on its category page */
 .item-link { color: inherit; text-decoration: underline; text-decoration-style: dotted;
   text-underline-offset: 2px; text-decoration-color: var(--line-2); }

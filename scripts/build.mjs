@@ -17,7 +17,7 @@ const pokemon = D('pokemon'), habitats = D('habitats'), items = D('items'), reci
   dreamislands = D('dreamislands'), cloudislands = D('cloudislands'), envlevel = D('envlevel'),
   patches = D('patches'), events = D('events'), water = D('water'), cooking = D('cooking'),
   stampcard = D('stampcard'), teamchallenge = D('teamchallenge'), gifts = D('gifts'), favorites = D('favorites'),
-  cookware = D('cookware');
+  cookware = D('cookware'), outfits = D('outfits');
 const THNAMES = D('th/pokemon-names'), TERMS = D('th/terms'),
   THPATCH = D('th/patches'), THM = D('th/misc');
 
@@ -942,6 +942,65 @@ const EXCHANGES = [
   ['rarify', 'Turns Star Pieces into rare Pokémetal.', 'เปลี่ยน Star Piece ให้เป็น Pokémetal หายาก'],
 ];
 
+/* ---------------- outfits ----------------
+   Ditto has no shop to buy clothes from: it learns a look by reading a magazine, and the
+   Location column is where that magazine is. Most of them are lying around a Dream Island,
+   which is why the two pages point at each other. */
+const OUTFIT_CATS_TH = {
+  Outfit: 'ชุดเต็มตัว', Hair: 'ทรงผม', Tops: 'เสื้อ', Pants: 'กางเกง',
+  Hat: 'หมวก', Bags: 'กระเป๋า', Shoes: 'รองเท้า',
+};
+const OUTFIT_PICS = picsIn('outfits');
+const outfitPic = img => img && OUTFIT_PICS.has(img) ? `${BASE}/sprites/outfits/${encodeURIComponent(img)}` : null;
+
+/** where the magazine is: a plain label, but Dream Island entries link to that page */
+function outfitSource(src, lang) {
+  const dream = /^Dream Island/i.test(src);
+  const dlc = /Expansion Pass/i.test(src);
+  const cls = dlc ? 'tag tag-clay' : dream ? 'tag tag-moss' : 'tag';
+  return dream
+    ? `<a class="${cls}" href="${BASE}/${lang}/dream-islands/">${esc(src)}</a>`
+    : `<span class="${cls}">${esc(src)}</span>`;
+}
+
+function outfitsPage(lang) {
+  const t = T[lang], th = lang === 'th';
+  const cats = [...new Set(outfits.map(o => o.cat))];
+  const label = c => (th && OUTFIT_CATS_TH[c]) || c;
+  const fromDream = outfits.filter(o => o.sources.some(s => /^Dream Island/i.test(s))).length;
+  const rows = outfits.map(o => ({
+    html: `<div class="row outfit" data-cat="${esc(o.cat)}" data-s="${esc((o.name + ' ' + label(o.cat) + ' ' + o.sources.join(' ')).toLowerCase())}">
+      ${outfitPic(o.img)
+        ? `<img class="outfit-pic" src="${outfitPic(o.img)}" alt="${esc(o.name)}" loading="lazy" width="96" height="96" decoding="async">`
+        : rowIcon('sparkles')}
+      <div>
+        <div class="row-name">${esc(o.name)}</div>
+        <div class="row-th gloss">${esc(label(o.cat))}${th ? ` · ${esc(o.cat)}` : ''}</div>
+        ${o.style ? `<div class="row-desc">${esc(o.style)}</div>` : ''}
+        <div class="row-meta">${o.sources.map(s => outfitSource(s, lang)).join('')}</div>
+      </div></div>`,
+  }));
+
+  const body = `${crumb(lang, [[t.nav.outfits]])}
+<div class="wrap stack"><h1>${esc(t.nav.outfits)}</h1>
+<p class="lede">${th
+      ? `เสื้อผ้า ทรงผม หมวก กระเป๋า และรองเท้าทั้ง ${outfits.length} แบบที่ดิตโต้เปลี่ยนได้ พร้อมรูปและที่มาของแต่ละแบบ`
+      : `All ${outfits.length} looks Ditto can take — clothes, hair, hats, bags and shoes — each with a picture and where it comes from.`}</p>
+<p class="note">${th
+      ? 'คันโตหลังภัยพิบัติไม่มีร้านขายเสื้อผ้าให้ซื้อ ดิตโต้จึงเรียนรู้ลุคใหม่จากการอ่านนิตยสารที่พูดถึงเทรนเนอร์จากทั่วโลก ช่องที่บอกที่มาคือจุดที่นิตยสารเล่มนั้นอยู่ เปลี่ยนลุคได้ทุกเมื่อที่กระจกบานใหญ่ ไม่ว่าจะวางไว้ตรงไหน'
+      : 'Post-disaster Kanto has no clothes shop. Ditto learns a new look by reading a magazine about trainers from around the world, so the source is where that magazine is lying. You can change at any large mirror, wherever you have put it.'}</p>
+<p class="note note-clay">${th
+      ? `${fromDream} จาก ${outfits.length} แบบมาจากนิตยสารที่พบระหว่างไปเกาะแห่งความฝัน ซึ่งสุ่มทุกครั้ง ถ้ายังขาดอยู่ก็ต้องไปเรื่อย ๆ วันละครั้ง`
+      : `${fromDream} of the ${outfits.length} come from magazines found on Dream Island trips, which are randomised — if one is still missing, it is a matter of going back, once a day.`}</p></div>
+${listPage({ lang, rows, cats, catLabel: label })}`;
+  return layout({
+    lang, base: BASE, title: t.nav.outfits, path: '/outfits/',
+    desc: th ? `เครื่องแต่งกายทั้ง ${outfits.length} แบบใน Pokémon Pokopia พร้อมรูปและวิธีได้มา`
+      : `All ${outfits.length} outfits, hairstyles and accessories in Pokémon Pokopia, with pictures and how to unlock each one.`,
+    body,
+  });
+}
+
 /* ---------------- dream islands ----------------
    A Dream Island is generated fresh for each trip and reset at the end of the day, so
    there is no map to draw and no fixed layout to list — what is knowable is which doll
@@ -1217,6 +1276,16 @@ function searchIndex(lang) {
   moves.forEach(m => out.push({ n: moveName(m, lang), s: moveEffect(m, lang), u: `/${lang}/moves/#${m.id}`, k: t.nav.moves, q: moveName(m, lang).toLowerCase() }));
   specialties.forEach(s => out.push({ n: specName(s, lang), s: specDesc(s, lang), u: `/${lang}/specialties/#${s.id}`, k: t.nav.specialties, q: specName(s, lang).toLowerCase() }));
   GUIDES.forEach(g => out.push({ n: L(lang, g.title), s: L(lang, g.summary), u: `/${lang}/guide/${g.slug}/`, k: t.nav.basics, q: L(lang, g.title).toLowerCase() }));
+  outfits.forEach(o => out.push({
+    n: o.name, s: (lang === 'th' && OUTFIT_CATS_TH[o.cat]) || o.cat, u: `/${lang}/outfits/`, k: t.nav.outfits,
+    ...(outfitPic(o.img) ? { i: `/sprites/outfits/${encodeURIComponent(o.img)}` } : {}),
+    q: (o.name + ' ' + o.cat + ' ' + ((lang === 'th' && OUTFIT_CATS_TH[o.cat]) || '')).toLowerCase(),
+  }));
+  out.push({
+    n: t.nav.dreamIslands, u: `/${lang}/dream-islands/`, k: t.nav.basics,
+    s: lang === 'th' ? 'ตุ๊กตาไหนพาไปเกาะแบบไหน' : 'What each doll stocks the island with',
+    q: (t.nav.dreamIslands + ' dream island doll เกาะ ตุ๊กตา').toLowerCase(),
+  });
   out.push({
     n: t.nav.gifts, u: `/${lang}/gifts/`, k: t.nav.basics,
     s: lang === 'th' ? 'ใครให้อะไร ตอนไหน และบ่อยแค่ไหน' : 'Who gives what, at which stage, and how often',
@@ -1263,6 +1332,7 @@ for (const lang of LANGS) {
   write(`${lang}/cooking`, cookingPage(lang));
   write(`${lang}/gifts`, giftsPage(lang));
   write(`${lang}/dream-islands`, dreamIslandsPage(lang));
+  write(`${lang}/outfits`, outfitsPage(lang));
   write(`${lang}/collections`, collectionsPage(lang));
   write(`${lang}/events`, eventsPage(lang));
   write(`${lang}/updates`, updatesPage(lang));

@@ -1,0 +1,1855 @@
+[
+ {
+  "cat": "Outfit",
+  "name": "Familiar Outfit 1",
+  "img": "1.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Outfit",
+  "name": "Familiar Outfit 2",
+  "img": "2.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Outfit",
+  "name": "Team Rocket Outfit",
+  "img": "3.jpg",
+  "style": null,
+  "sources": [
+   "Sparkling Skylands - Northwest Island"
+  ]
+ },
+ {
+  "cat": "Outfit",
+  "name": "Rock-solid Outfit",
+  "img": "4.jpg",
+  "style": null,
+  "sources": [
+   "Rocky Ridges"
+  ]
+ },
+ {
+  "cat": "Outfit",
+  "name": "Ranger Outfit",
+  "img": "5.jpg",
+  "style": null,
+  "sources": [
+   "Bleak Beach"
+  ]
+ },
+ {
+  "cat": "Outfit",
+  "name": "Ninja Outfit",
+  "img": "6.jpg",
+  "style": null,
+  "sources": [
+   "Withered Wasteland"
+  ]
+ },
+ {
+  "cat": "Outfit",
+  "name": "Psychic Master",
+  "img": "7.jpg",
+  "style": null,
+  "sources": [
+   "Sparkling Skylands - Northeast Island"
+  ]
+ },
+ {
+  "cat": "Outfit",
+  "name": "Black Belt Outfit",
+  "img": "8.jpg",
+  "style": null,
+  "sources": [
+   "Sparkling Skylands - North island"
+  ]
+ },
+ {
+  "cat": "Outfit",
+  "name": "Sailor Outfit",
+  "img": "9.jpg",
+  "style": null,
+  "sources": [
+   "Bleak Beach - SS Anne"
+  ]
+ },
+ {
+  "cat": "Outfit",
+  "name": "Super Nerd Outfit",
+  "img": "10.jpg",
+  "style": null,
+  "sources": [
+   "Rocky Ridges"
+  ]
+ },
+ {
+  "cat": "Outfit",
+  "name": "Roughneck Outfit",
+  "img": "11.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Outfit",
+  "name": "Red Outfit",
+  "img": "12.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Outfit",
+  "name": "Cool Outfit",
+  "img": "13.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Outfit",
+  "name": "Rascal Outfit",
+  "img": "14.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Outfit",
+  "name": "Chic Outfit",
+  "img": "15.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Outfit",
+  "name": "Pokémon Center outfit",
+  "img": "148.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Outfit",
+  "name": "Sightseer Outfit",
+  "img": "149.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Outfit",
+  "name": "Bird Keeper Outfit",
+  "img": "150.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Outfit",
+  "name": "Cozy outfit",
+  "img": "151.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Outfit",
+  "name": "Sporty outfit",
+  "img": "152.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Outfit",
+  "name": "Professor outfit",
+  "img": "153.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Outfit",
+  "name": "Fresh outfit",
+  "img": "175.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Outfit",
+  "name": "Mermaid outfit",
+  "img": "189.jpg",
+  "style": null,
+  "sources": [
+   "Bubbly Basin - In Cerulean Gym",
+   "Expansion Pass"
+  ]
+ },
+ {
+  "cat": "Outfit",
+  "name": "Preschooler outfit",
+  "img": "190.jpg",
+  "style": null,
+  "sources": [
+   "Bubbly Basin - By playground in the north",
+   "Expansion Pass"
+  ]
+ },
+ {
+  "cat": "Outfit",
+  "name": "Rad outfit",
+  "img": "191.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island (Starmie)",
+   "Expansion Pass"
+  ]
+ },
+ {
+  "cat": "Outfit",
+  "name": "Cheerful outfit",
+  "img": "192.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island (Starmie)",
+   "Expansion Pass"
+  ]
+ },
+ {
+  "cat": "Outfit",
+  "name": "Triathlete outfit",
+  "img": "193.jpg",
+  "style": null,
+  "sources": [
+   "Bubbly Basin",
+   "Expansion Pass"
+  ]
+ },
+ {
+  "cat": "Hair",
+  "name": "Short",
+  "img": "135.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Hair",
+  "name": "Pigtails",
+  "img": "136.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Hair",
+  "name": "Buns",
+  "img": "137.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Hair",
+  "name": "Two-block cut",
+  "img": "138.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Hair",
+  "name": "Braided pigtails",
+  "img": "139.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Hair",
+  "name": "Locs",
+  "img": "140.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Hair",
+  "name": "Curly",
+  "img": "141.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Hair",
+  "name": "Shaved",
+  "img": "142.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Hair",
+  "name": "Parted",
+  "img": "143.jpg",
+  "style": null,
+  "sources": [
+   "Withered Wasteland"
+  ]
+ },
+ {
+  "cat": "Hair",
+  "name": "Fluffy",
+  "img": "144.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Hair",
+  "name": "Mermaid",
+  "img": "145.jpg",
+  "style": null,
+  "sources": [
+   "Withered Wasteland"
+  ]
+ },
+ {
+  "cat": "Hair",
+  "name": "Winged pigtails",
+  "img": "146.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Hair",
+  "name": "Long bangs",
+  "img": "147.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Hair",
+  "name": "Simple",
+  "img": "154.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Hair",
+  "name": "Sideswept",
+  "img": "174.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Hair",
+  "name": "Long",
+  "img": "184.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island (Starmie)",
+   "Expansion Pass"
+  ]
+ },
+ {
+  "cat": "Hair",
+  "name": "Crested",
+  "img": "185.jpg",
+  "style": null,
+  "sources": [
+   "Bubbly Basin - On an island",
+   "Expansion Pass"
+  ]
+ },
+ {
+  "cat": "Hair",
+  "name": "Ponytail",
+  "img": "186.jpg",
+  "style": null,
+  "sources": [
+   "Bubbly Basin - In house on island above water",
+   "Expansion Pass"
+  ]
+ },
+ {
+  "cat": "Hair",
+  "name": "Messy short",
+  "img": "187.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island (Starmie)",
+   "Expansion Pass"
+  ]
+ },
+ {
+  "cat": "Hair",
+  "name": "Side tails",
+  "img": "188.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island (Starmie)",
+   "Expansion Pass"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Familiar Top #1",
+  "img": "16.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Familiar Top #1",
+  "img": "17.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Familiar Top #1",
+  "img": "18.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Familiar Top #1",
+  "img": "19.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Familiar Top #1",
+  "img": "20.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Familiar Top #1",
+  "img": "21.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Familiar Top #1",
+  "img": "22.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Familiar Top #1",
+  "img": "23.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Familiar Top #2",
+  "img": "24.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Familiar Top #2",
+  "img": "25.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Familiar Top #2",
+  "img": "26.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Familiar Top #2",
+  "img": "27.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Familiar Top #2",
+  "img": "28.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Familiar Top #2",
+  "img": "29.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Familiar Top #2",
+  "img": "30.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Familiar Top #2",
+  "img": "31.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Team Rocket Top",
+  "img": "32.jpg",
+  "style": null,
+  "sources": [
+   "Sparkling Skylands - Northwest Island"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Rock-solid Top",
+  "img": "33.jpg",
+  "style": null,
+  "sources": [
+   "Rocky Ridges"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Ranger Top",
+  "img": "34.jpg",
+  "style": null,
+  "sources": [
+   "Bleak Beach"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Ninja Top",
+  "img": "35.jpg",
+  "style": null,
+  "sources": [
+   "Withered Wasteland"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Psychic Master",
+  "img": "36.jpg",
+  "style": null,
+  "sources": [
+   "Sparkling Skylands - Northeast Island"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Black Belt Top",
+  "img": "37.jpg",
+  "style": null,
+  "sources": [
+   "Sparkling Skylands - North island"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Sailor Top",
+  "img": "38.jpg",
+  "style": null,
+  "sources": [
+   "Bleak Beach - SS Anne"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Super Nerd Top",
+  "img": "39.jpg",
+  "style": null,
+  "sources": [
+   "Rocky Ridges"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Roughneck Top",
+  "img": "40.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Red Top",
+  "img": "41.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Cool Top",
+  "img": "42.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Rascal Top",
+  "img": "43.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Chic Top",
+  "img": "44.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Cozy top",
+  "img": "155.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Sporty top",
+  "img": "156.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Professor Top",
+  "img": "157.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Birdkeeper Top",
+  "img": "158.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Pokémon Center top",
+  "img": "170.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Fresh top",
+  "img": "176.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Sightseer top",
+  "img": "177.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Mermaid top",
+  "img": "194.jpg",
+  "style": null,
+  "sources": [
+   "Bubbly Basin - In Cerulean Gym",
+   "Expansion Pass"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Preschooler top",
+  "img": "195.jpg",
+  "style": null,
+  "sources": [
+   "Bubbly Basin - By playground in the north",
+   "Expansion Pass"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Rad top",
+  "img": "196.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island (Starmie)",
+   "Expansion Pass"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Cheerful top",
+  "img": "197.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island (Starmie)",
+   "Expansion Pass"
+  ]
+ },
+ {
+  "cat": "Tops",
+  "name": "Triathlete top",
+  "img": "198.jpg",
+  "style": null,
+  "sources": [
+   "Bubbly Basin",
+   "Expansion Pass"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Familiar Pants #1",
+  "img": "45.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Familiar Pants #1",
+  "img": "46.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Familiar Pants #1",
+  "img": "47.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Familiar Pants #1",
+  "img": "48.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Familiar Pants #1",
+  "img": "49.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Familiar Pants #1",
+  "img": "50.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Familiar Pants #1",
+  "img": "51.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Familiar Pants #1",
+  "img": "52.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Familiar Pants #2",
+  "img": "53.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Familiar Pants #2",
+  "img": "54.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Familiar Pants #2",
+  "img": "55.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Familiar Pants #2",
+  "img": "56.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Familiar Pants #2",
+  "img": "57.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Familiar Pants #2",
+  "img": "58.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Familiar Pants #2",
+  "img": "59.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Familiar Pants #2",
+  "img": "60.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Team Rocket Pants",
+  "img": "61.jpg",
+  "style": null,
+  "sources": [
+   "Sparkling Skylands - Northwest Island"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Rock-solid Pants",
+  "img": "62.jpg",
+  "style": null,
+  "sources": [
+   "Rocky Ridges"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Ranger Pants",
+  "img": "63.jpg",
+  "style": null,
+  "sources": [
+   "Bleak Beach"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Ninja Pants",
+  "img": "64.jpg",
+  "style": null,
+  "sources": [
+   "Withered Wasteland"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Psychic Master",
+  "img": "65.jpg",
+  "style": null,
+  "sources": [
+   "Sparkling Skylands - Northeast Island"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Black Belt Pants",
+  "img": "66.jpg",
+  "style": null,
+  "sources": [
+   "Sparkling Skylands - North island"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Sailor Pants",
+  "img": "67.jpg",
+  "style": null,
+  "sources": [
+   "Bleak Beach - SS Anne"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Super Nerd Pants",
+  "img": "68.jpg",
+  "style": null,
+  "sources": [
+   "Rocky Ridges"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Roughneck Pants",
+  "img": "69.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Red Pants",
+  "img": "70.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Cool Pants",
+  "img": "71.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Rascal Pants",
+  "img": "72.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Chic Pants",
+  "img": "73.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Birdkeeper Pants",
+  "img": "159.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Cozy pants",
+  "img": "160.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Sporty pants",
+  "img": "161.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Professor Pants",
+  "img": "162.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Pokémon Center pants",
+  "img": "171.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Fresh pants",
+  "img": "178.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Sightseer pants",
+  "img": "179.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Mermaid pants",
+  "img": "199.jpg",
+  "style": null,
+  "sources": [
+   "Bubbly Basin - In Cerulean Gym",
+   "Expansion Pass"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Preschooler pants",
+  "img": "200.jpg",
+  "style": null,
+  "sources": [
+   "Bubbly Basin - By playground in the north",
+   "Expansion Pass"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Rad pants",
+  "img": "201.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island (Starmie)",
+   "Expansion Pass"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Cheerful pants",
+  "img": "202.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island (Starmie)",
+   "Expansion Pass"
+  ]
+ },
+ {
+  "cat": "Pants",
+  "name": "Triathlete pants",
+  "img": "203.jpg",
+  "style": null,
+  "sources": [
+   "Bubbly Basin",
+   "Expansion Pass"
+  ]
+ },
+ {
+  "cat": "Hat",
+  "name": "Familiar Hat #1",
+  "img": "74.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Hat",
+  "name": "Familiar Hat #1",
+  "img": "75.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Hat",
+  "name": "Familiar Hat #1",
+  "img": "76.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Hat",
+  "name": "Familiar Hat #1",
+  "img": "77.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Hat",
+  "name": "Familiar Hat #1",
+  "img": "78.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Hat",
+  "name": "Familiar Hat #1",
+  "img": "79.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Hat",
+  "name": "Familiar Hat #1",
+  "img": "80.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Hat",
+  "name": "Familiar Hat #1",
+  "img": "81.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Hat",
+  "name": "Familiar Hat #2",
+  "img": "82.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Hat",
+  "name": "Familiar Hat #2",
+  "img": "83.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Hat",
+  "name": "Familiar Hat #2",
+  "img": "84.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Hat",
+  "name": "Familiar Hat #2",
+  "img": "85.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Hat",
+  "name": "Familiar Hat #2",
+  "img": "86.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Hat",
+  "name": "Familiar Hat #2",
+  "img": "87.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Hat",
+  "name": "Familiar Hat #2",
+  "img": "88.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Hat",
+  "name": "Familiar Hat #2",
+  "img": "89.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Hat",
+  "name": "Team RocketHat",
+  "img": "90.jpg",
+  "style": null,
+  "sources": [
+   "Sparkling Skylands - Northwest Island"
+  ]
+ },
+ {
+  "cat": "Hat",
+  "name": "Black Belt Headband",
+  "img": "91.jpg",
+  "style": null,
+  "sources": [
+   "Sparkling Skylands - North island"
+  ]
+ },
+ {
+  "cat": "Hat",
+  "name": "Sailor Hat",
+  "img": "92.jpg",
+  "style": null,
+  "sources": [
+   "Bleak Beach - SS Anne"
+  ]
+ },
+ {
+  "cat": "Hat",
+  "name": "Super Nerd glasses",
+  "img": "93.jpg",
+  "style": null,
+  "sources": [
+   "Rocky Ridges"
+  ]
+ },
+ {
+  "cat": "Hat",
+  "name": "Red hat",
+  "img": "94.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Hat",
+  "name": "Rascal hat",
+  "img": "95.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Bags",
+  "name": "Familiar Bag #1",
+  "img": "96.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Bags",
+  "name": "Familiar Bag #1",
+  "img": "97.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Bags",
+  "name": "Familiar Bag #1",
+  "img": "98.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Bags",
+  "name": "Familiar Bag #1",
+  "img": "99.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Bags",
+  "name": "Familiar Bag #1",
+  "img": "100.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Bags",
+  "name": "Familiar Bag #1",
+  "img": "101.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Bags",
+  "name": "Familiar Bag #1",
+  "img": "102.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Bags",
+  "name": "Familiar Bag #1",
+  "img": "103.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Bags",
+  "name": "Familiar Bag #2",
+  "img": "104.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Bags",
+  "name": "Familiar Bag #2",
+  "img": "105.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Bags",
+  "name": "Familiar Bag #2",
+  "img": "106.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Bags",
+  "name": "Familiar Bag #2",
+  "img": "107.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Bags",
+  "name": "Familiar Bag #2",
+  "img": "108.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Bags",
+  "name": "Familiar Bag #2",
+  "img": "109.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Bags",
+  "name": "Familiar Bag #2",
+  "img": "110.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Bags",
+  "name": "Familiar Bag #2",
+  "img": "111.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Bags",
+  "name": "Red bag",
+  "img": "112.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Bags",
+  "name": "Rascal bag",
+  "img": "113.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Bags",
+  "name": "Rad bag",
+  "img": "208.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island (Starmie)",
+   "Expansion Pass"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Familiar Sneakers",
+  "img": "114.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Familiar Sneakers",
+  "img": "115.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Familiar Sneakers",
+  "img": "116.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Familiar Sneakers",
+  "img": "117.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Familiar Sneakers",
+  "img": "118.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Familiar Sneakers",
+  "img": "119.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Familiar Sneakers",
+  "img": "120.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Familiar Sneakers",
+  "img": "121.jpg",
+  "style": null,
+  "sources": [
+   "Beginning"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Team Rocket Shoes",
+  "img": "122.jpg",
+  "style": null,
+  "sources": [
+   "Sparkling Skylands - Northwest Island"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Rock-solid Shoes",
+  "img": "123.jpg",
+  "style": null,
+  "sources": [
+   "Rocky Ridges"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Ranger Shoes",
+  "img": "124.jpg",
+  "style": null,
+  "sources": [
+   "Bleak Beach"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Ninja Shoes",
+  "img": "125.jpg",
+  "style": null,
+  "sources": [
+   "Withered Wasteland"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Psychic Master",
+  "img": "126.jpg",
+  "style": null,
+  "sources": [
+   "Sparkling Skylands - Northeast Island"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Black Belt Shoes",
+  "img": "127.jpg",
+  "style": null,
+  "sources": [
+   "Sparkling Skylands - North island"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Sailor Shoes",
+  "img": "128.jpg",
+  "style": null,
+  "sources": [
+   "Bleak Beach - SS Anne"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Super Nerd Shoes",
+  "img": "129.jpg",
+  "style": null,
+  "sources": [
+   "Rocky Ridges"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Roughneck Shoes",
+  "img": "130.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Red Shoes",
+  "img": "131.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Cool Shoes",
+  "img": "132.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Rascal Shoes",
+  "img": "133.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Chic Shoes",
+  "img": "134.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Bird Keeper shoes",
+  "img": "166.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Cozy shoes",
+  "img": "167.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Sporty shoes",
+  "img": "168.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Professor shoes",
+  "img": "169.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Pokémon Center shoes",
+  "img": "173.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Fresh shoes",
+  "img": "182.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Sightseer shoes",
+  "img": "183.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Mermaid shoes",
+  "img": "209.jpg",
+  "style": null,
+  "sources": [
+   "Bubbly Basin - In Cerulean Gym",
+   "Expansion Pass"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Preschooler shoes",
+  "img": "210.jpg",
+  "style": null,
+  "sources": [
+   "Bubbly Basin - By playground in the north",
+   "Expansion Pass"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Rad shoes",
+  "img": "211.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island (Starmie)",
+   "Expansion Pass"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Cheerful shoes",
+  "img": "212.jpg",
+  "style": null,
+  "sources": [
+   "Dream Island (Starmie)",
+   "Expansion Pass"
+  ]
+ },
+ {
+  "cat": "Shoes",
+  "name": "Triathlete shoes",
+  "img": "213.jpg",
+  "style": null,
+  "sources": [
+   "Bubbly Basin",
+   "Expansion Pass"
+  ]
+ }
+]
