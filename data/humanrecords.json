@@ -1,0 +1,980 @@
+[
+ {
+  "name": "Road Closure Announcement",
+  "desc": "",
+  "location": "Withered Wasteland",
+  "reward": ""
+ },
+ {
+  "name": "The Legendary Ninja Family",
+  "desc": "",
+  "location": "Withered Wasteland",
+  "reward": "Ninja outfit"
+ },
+ {
+  "name": "Recycling Slogan Contest (Youth)",
+  "desc": "",
+  "location": "Bleak Beach",
+  "reward": ""
+ },
+ {
+  "name": "Vermilion Ranks No. 1 for 4th Year!",
+  "desc": "",
+  "location": "Bleak Beach",
+  "reward": ""
+ },
+ {
+  "name": "Artificial Hot Spring Now Open!",
+  "desc": "",
+  "location": "Rocky Ridges",
+  "reward": ""
+ },
+ {
+  "name": "Celadon Department Store Reopens",
+  "desc": "",
+  "location": "Sparkling Skylands",
+  "reward": "Psychic Master outfit"
+ },
+ {
+  "name": "Big Bargain Sale!",
+  "desc": "",
+  "location": "Sparkling Skylands",
+  "reward": ""
+ },
+ {
+  "name": "Sabrina Sets Sights on Big Screen!",
+  "desc": "",
+  "location": "Sparkling Skylands",
+  "reward": ""
+ },
+ {
+  "name": "This Week's Must-See Highlights",
+  "desc": "",
+  "location": "Sparkling Skylands",
+  "reward": ""
+ },
+ {
+  "name": "Weather Report (December 4)",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": ""
+ },
+ {
+  "name": "March Issue Preview",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": ""
+ },
+ {
+  "name": "TV Schedule: April 12 (Tuesday)",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": ""
+ },
+ {
+  "name": "Kenan's diary",
+  "desc": "",
+  "location": "Withered Wasteland",
+  "reward": ""
+ },
+ {
+  "name": "Sailor Dylan's Diary",
+  "desc": "",
+  "location": "Bleak Beach",
+  "reward": ""
+ },
+ {
+  "name": "Katie's journal",
+  "desc": "",
+  "location": "Rocky Ridges",
+  "reward": ""
+ },
+ {
+  "name": "Hacker's confessions #1",
+  "desc": "",
+  "location": "Bleak Beach",
+  "reward": ""
+ },
+ {
+  "name": "Hacker's confessions #2",
+  "desc": "",
+  "location": "Bleak Beach",
+  "reward": ""
+ },
+ {
+  "name": "Hacker's confessions #3",
+  "desc": "",
+  "location": "Bleak Beach",
+  "reward": ""
+ },
+ {
+  "name": "Hacker's confessions #4",
+  "desc": "",
+  "location": "Withered Wasteland",
+  "reward": ""
+ },
+ {
+  "name": "Hacker's confessions #5",
+  "desc": "",
+  "location": "Rocky Ridges",
+  "reward": ""
+ },
+ {
+  "name": "Hacker's confessions #6",
+  "desc": "",
+  "location": "Sparkling Skylands",
+  "reward": ""
+ },
+ {
+  "name": "Professor's diary #1",
+  "desc": "",
+  "location": "Withered Wasteland",
+  "reward": ""
+ },
+ {
+  "name": "Professor's diary #2",
+  "desc": "",
+  "location": "Withered Wasteland",
+  "reward": ""
+ },
+ {
+  "name": "Professor's diary #3",
+  "desc": "",
+  "location": "Bleak Beach",
+  "reward": ""
+ },
+ {
+  "name": "Professor's diary #4",
+  "desc": "",
+  "location": "Rocky Ridges",
+  "reward": ""
+ },
+ {
+  "name": "Professor's diary #5",
+  "desc": "",
+  "location": "Sparkling Skylands",
+  "reward": ""
+ },
+ {
+  "name": "Professor's diary #6",
+  "desc": "",
+  "location": "Sparkling Skylands",
+  "reward": ""
+ },
+ {
+  "name": "Chef's diary",
+  "desc": "",
+  "location": "Rocky Ridges",
+  "reward": ""
+ },
+ {
+  "name": "Message from the Poké Mart",
+  "desc": "",
+  "location": "Withered Wasteland",
+  "reward": ""
+ },
+ {
+  "name": "A Surprise in the Garden",
+  "desc": "",
+  "location": "Withered Wasteland",
+  "reward": ""
+ },
+ {
+  "name": "Selection of Pokémon Greetings",
+  "desc": "",
+  "location": "Withered Wasteland",
+  "reward": ""
+ },
+ {
+  "name": "This Year's Top Trend!",
+  "desc": "",
+  "location": "Withered Wasteland",
+  "reward": ""
+ },
+ {
+  "name": "Unmasking the True Misty!",
+  "desc": "",
+  "location": "Withered Wasteland",
+  "reward": "Mermaid hair"
+ },
+ {
+  "name": "Interview for the Ages!",
+  "desc": "",
+  "location": "Bleak Beach",
+  "reward": ""
+ },
+ {
+  "name": "Recruiting New Members!",
+  "desc": "",
+  "location": "Bleak Beach",
+  "reward": ""
+ },
+ {
+  "name": "Unmasking the True Lt. Surge!",
+  "desc": "",
+  "location": "Bleak Beach",
+  "reward": "Ranger outfit"
+ },
+ {
+  "name": "Contest Winner!",
+  "desc": "",
+  "location": "Bleak Beach",
+  "reward": ""
+ },
+ {
+  "name": "Solo Nighttime Strollers, Beware!",
+  "desc": "",
+  "location": "Bleak Beach",
+  "reward": "Goodbye emote"
+ },
+ {
+  "name": "Enjoy an Extravagant Voyage",
+  "desc": "",
+  "location": "Bleak Beach",
+  "reward": "Sailor outfit"
+ },
+ {
+  "name": "Seize the Week (Vol. 8)",
+  "desc": "",
+  "location": "Rocky Ridges",
+  "reward": "Smile emote"
+ },
+ {
+  "name": "Opthalmology Journal (Spring)",
+  "desc": "",
+  "location": "Rocky Ridges",
+  "reward": "Super Nerd outfit"
+ },
+ {
+  "name": "Comfy Living (Vol. 866)",
+  "desc": "",
+  "location": "Rocky Ridges",
+  "reward": ""
+ },
+ {
+  "name": "Bug Love (September Issue)",
+  "desc": "",
+  "location": "Rocky Ridges",
+  "reward": ""
+ },
+ {
+  "name": "Gym Leader Montly (July Issue)",
+  "desc": "",
+  "location": "Rocky Ridges",
+  "reward": "Rock-solid Outfit"
+ },
+ {
+  "name": "Message from the Game Corner",
+  "desc": "",
+  "location": "Sparkling Skylands",
+  "reward": "Team Rocket outfit"
+ },
+ {
+  "name": "Black Belt Weekly (Vol. 48)",
+  "desc": "",
+  "location": "Sparkling Skylands",
+  "reward": "Black Belt outfit"
+ },
+ {
+  "name": "Career Monthly (Vol. 111)",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": "Pokémon Center outfit"
+ },
+ {
+  "name": "Music & Living (September Issue)",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": "Clap emote"
+ },
+ {
+  "name": "Comfy Living (Vol. 2)",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": ""
+ },
+ {
+  "name": "PokéQuiz! Question 34",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": "Thinking emote"
+ },
+ {
+  "name": "DELUXE Alola! (February Issue)",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": "Long bangs hair"
+ },
+ {
+  "name": "Alola! (May Issue)",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": "Sightseer outfit"
+ },
+ {
+  "name": "Alola! (January Issue)",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": "Fluffy hair"
+ },
+ {
+  "name": "Pocket World Weekly #38",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": "Roughneck outfit"
+ },
+ {
+  "name": "Gym Leader Monthly (June Issue)",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": "Curly hair"
+ },
+ {
+  "name": "Bird Pokémon Montly (Anniv. Issue)",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": "Bird Keeper outfit"
+ },
+ {
+  "name": "Poké TV (July Issue)",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": "Professor outfit"
+ },
+ {
+  "name": "Angler Monthly (Special Edition)",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": "Locs hair"
+ },
+ {
+  "name": "New Bark Bulletin (February)",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": "Sideswept hair"
+ },
+ {
+  "name": "Saffron City Press Release",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": "Simple hair"
+ },
+ {
+  "name": "PokéWeek (Issue 122)",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": "Red outfit"
+ },
+ {
+  "name": "Gym Leader Monthly (March Issue)",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": "Cool outfit"
+ },
+ {
+  "name": "Island Monthly (May Issue)",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": "Fresh outfit"
+ },
+ {
+  "name": "Pocket World Weekly #18",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": "Rascal outfit"
+ },
+ {
+  "name": "Pokémon Breeder Monthly #37",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": "Cozy outfit"
+ },
+ {
+  "name": "Information wanted",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": "Chic outfit"
+ },
+ {
+  "name": "Archeology Magazine #12",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": "Sport outfit"
+ },
+ {
+  "name": "Comfy Living (Vol. 36)",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": ""
+ },
+ {
+  "name": "Team R Grunt's journal #1",
+  "desc": "",
+  "location": "Withered Wasteland",
+  "reward": ""
+ },
+ {
+  "name": "Team R Grunt's journal #2",
+  "desc": "",
+  "location": "Bleak Beach",
+  "reward": ""
+ },
+ {
+  "name": "Team R Grunt's journal #3",
+  "desc": "",
+  "location": "Bleak Beach",
+  "reward": ""
+ },
+ {
+  "name": "Team R Grunt's journal #4",
+  "desc": "",
+  "location": "Rocky Ridges",
+  "reward": ""
+ },
+ {
+  "name": "Team R Grunt's journal #5",
+  "desc": "",
+  "location": "Rocky Ridges",
+  "reward": ""
+ },
+ {
+  "name": "Team R Grunt's journal #6",
+  "desc": "",
+  "location": "Sparkling Skylands",
+  "reward": ""
+ },
+ {
+  "name": "Team R Grunt's journal #7",
+  "desc": "",
+  "location": "Sparkling Skylands",
+  "reward": ""
+ },
+ {
+  "name": "Team R Grunt's journal #8",
+  "desc": "",
+  "location": "Withered Wasteland",
+  "reward": ""
+ },
+ {
+  "name": "Poké Life Dev Diary #1",
+  "desc": "",
+  "location": "Withered Wasteland",
+  "reward": ""
+ },
+ {
+  "name": "Poké Life Dev Diary #2",
+  "desc": "",
+  "location": "Rocky Ridges",
+  "reward": ""
+ },
+ {
+  "name": "Poké Life Dev Diary #3",
+  "desc": "",
+  "location": "Bleak Beach",
+  "reward": ""
+ },
+ {
+  "name": "Poké Life Dev Diary #4",
+  "desc": "",
+  "location": "Rocky Ridges",
+  "reward": ""
+ },
+ {
+  "name": "Poké Life Dev Diary #5",
+  "desc": "",
+  "location": "Sparkling Skylands",
+  "reward": ""
+ },
+ {
+  "name": "Improving Your Quality of Life",
+  "desc": "",
+  "location": "Withered Wasteland",
+  "reward": ""
+ },
+ {
+  "name": "How to Open a Shop",
+  "desc": "",
+  "location": "Bleak Beach",
+  "reward": ""
+ },
+ {
+  "name": "Tomorrow's meals",
+  "desc": "",
+  "location": "Rocky Ridges",
+  "reward": ""
+ },
+ {
+  "name": "Observation notes",
+  "desc": "",
+  "location": "Sparkling Skylands",
+  "reward": ""
+ },
+ {
+  "name": "Shopping list",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": ""
+ },
+ {
+  "name": "Schedule Management Notes",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": ""
+ },
+ {
+  "name": "Someone's journal #1",
+  "desc": "",
+  "location": "Withered Wasteland",
+  "reward": ""
+ },
+ {
+  "name": "Someone's journal #2",
+  "desc": "",
+  "location": "Bleak Beach",
+  "reward": ""
+ },
+ {
+  "name": "Someone's journal #3",
+  "desc": "",
+  "location": "Rocky Ridges",
+  "reward": ""
+ },
+ {
+  "name": "Someone's journal #4",
+  "desc": "",
+  "location": "Sparkling Skylands",
+  "reward": ""
+ },
+ {
+  "name": "Grunt's journal (brainstorming)",
+  "desc": "",
+  "location": "Withered Wasteland",
+  "reward": ""
+ },
+ {
+  "name": "Dear Elena",
+  "desc": "",
+  "location": "Withered Wasteland",
+  "reward": ""
+ },
+ {
+  "name": "To my fishing fanatic big bro",
+  "desc": "",
+  "location": "Withered Wasteland",
+  "reward": ""
+ },
+ {
+  "name": "To my fishing fanatic little bro",
+  "desc": "",
+  "location": "Bleak Beach",
+  "reward": ""
+ },
+ {
+  "name": "Post from July 30: 6:00pm",
+  "desc": "",
+  "location": "Bleak Beach",
+  "reward": ""
+ },
+ {
+  "name": "You've Been Selected!",
+  "desc": "",
+  "location": "Rocky Ridges",
+  "reward": ""
+ },
+ {
+  "name": "To Harry",
+  "desc": "",
+  "location": "Rocky Ridges",
+  "reward": ""
+ },
+ {
+  "name": "Heya, Kaz!",
+  "desc": "",
+  "location": "Rocky Ridges",
+  "reward": ""
+ },
+ {
+  "name": "Dear Douglas",
+  "desc": "",
+  "location": "Sparkling Skylands",
+  "reward": ""
+ },
+ {
+  "name": "I wanna go swimming!",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": ""
+ },
+ {
+  "name": "R&D Deep Dive (February Issue)",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": ""
+ },
+ {
+  "name": "I need your advice..",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": ""
+ },
+ {
+  "name": "Hi, Dad!",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": ""
+ },
+ {
+  "name": "Shellos report",
+  "desc": "",
+  "location": "Withered Wasteland",
+  "reward": ""
+ },
+ {
+  "name": "Project Cancellation Proposal",
+  "desc": "",
+  "location": "Rocky Ridges",
+  "reward": ""
+ },
+ {
+  "name": "Daily Porygon2 notes",
+  "desc": "",
+  "location": "Sparkling Skylands",
+  "reward": ""
+ },
+ {
+  "name": "New Plan Proposal (name TBD)",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": ""
+ },
+ {
+  "name": "Photo #1",
+  "desc": "",
+  "location": "Withered Wasteland",
+  "reward": ""
+ },
+ {
+  "name": "Photo #2",
+  "desc": "",
+  "location": "Withered Wasteland",
+  "reward": ""
+ },
+ {
+  "name": "Photo #3",
+  "desc": "",
+  "location": "Bleak Beach",
+  "reward": ""
+ },
+ {
+  "name": "Photo #4",
+  "desc": "",
+  "location": "Rocky Ridges",
+  "reward": ""
+ },
+ {
+  "name": "Photo #5",
+  "desc": "",
+  "location": "Rocky Ridges",
+  "reward": ""
+ },
+ {
+  "name": "Photo #6",
+  "desc": "",
+  "location": "Sparkling Skylands",
+  "reward": ""
+ },
+ {
+  "name": "Photo #7",
+  "desc": "",
+  "location": "Sparkling Skylands",
+  "reward": ""
+ },
+ {
+  "name": "Photo #8",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": ""
+ },
+ {
+  "name": "Perculiar pattern",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": "Pattern when shown to Smearguru"
+ },
+ {
+  "name": "Perculiar pattern",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": "Pattern when shown to Smearguru"
+ },
+ {
+  "name": "Perculiar pattern",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": "Pattern when shown to Smearguru"
+ },
+ {
+  "name": "Perculiar pattern",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": "Pattern when shown to Smearguru"
+ },
+ {
+  "name": "Perculiar pattern",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": "Pattern when shown to Smearguru"
+ },
+ {
+  "name": "Perculiar pattern",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": "Pattern when shown to Smearguru"
+ },
+ {
+  "name": "Perculiar pattern",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": "Pattern when shown to Smearguru"
+ },
+ {
+  "name": "Perculiar pattern",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": "Pattern when shown to Smearguru"
+ },
+ {
+  "name": "Perculiar pattern",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": "Pattern when shown to Smearguru"
+ },
+ {
+  "name": "Perculiar pattern",
+  "desc": "",
+  "location": "Dream Island",
+  "reward": "Pattern when shown to Smearguru"
+ },
+ {
+  "name": "Hearthome Journal",
+  "desc": "",
+  "location": "Bleak Beach",
+  "reward": "Lie Down emote"
+ },
+ {
+  "name": "Pocket World Weekly #76",
+  "desc": "",
+  "location": "Bleak Beach",
+  "reward": ""
+ },
+ {
+  "name": "Comfort Café Now Open!",
+  "desc": "",
+  "location": "Bubbly Basin",
+  "reward": ""
+ },
+ {
+  "name": "Request to Residents",
+  "desc": "",
+  "location": "Bubbly Basin",
+  "reward": ""
+ },
+ {
+  "name": "New Products in Stock!",
+  "desc": "",
+  "location": "Bubbly Basin",
+  "reward": ""
+ },
+ {
+  "name": "Get Gems at Cerulean Jewelers!",
+  "desc": "",
+  "location": "Bubbly Basin",
+  "reward": ""
+ },
+ {
+  "name": "Bike Catalog",
+  "desc": "",
+  "location": "Bubbly Basin",
+  "reward": ""
+ },
+ {
+  "name": "Subsea Power Grid in Development",
+  "desc": "",
+  "location": "Bubbly Basin",
+  "reward": ""
+ },
+ {
+  "name": "Pool Open to the Public",
+  "desc": "",
+  "location": "Bubbly Basin",
+  "reward": "Warm-up Stretches Emote"
+ },
+ {
+  "name": "New Product Announcement",
+  "desc": "",
+  "location": "Dream Island - Starmie",
+  "reward": "Side tails hair"
+ },
+ {
+  "name": "Comfy Living (Vol. 11)",
+  "desc": "",
+  "location": "Bubbly Basin",
+  "reward": ""
+ },
+ {
+  "name": "Cerulean City Press Release",
+  "desc": "",
+  "location": "Bubbly Basin",
+  "reward": ""
+ },
+ {
+  "name": "Kanto Montly (February Issue)",
+  "desc": "",
+  "location": "Bubbly Basin",
+  "reward": "Crested hair"
+ },
+ {
+  "name": "Sevii Islands Bulletin",
+  "desc": "",
+  "location": "Bubbly Basin",
+  "reward": "Ponytail Hair"
+ },
+ {
+  "name": "Comfy Living (Vol. 11)",
+  "desc": "",
+  "location": "Bubbly Basin",
+  "reward": "Mermaid outfit"
+ },
+ {
+  "name": "Pokémon Fitness Monthly (Sept.)",
+  "desc": "",
+  "location": "Bubbly Basin",
+  "reward": "Triathlete Outfit"
+ },
+ {
+  "name": "Galaxy Monthly (Survey Results)",
+  "desc": "",
+  "location": "Bubbly Basin",
+  "reward": ""
+ },
+ {
+  "name": "Dowsing Digest",
+  "desc": "",
+  "location": "Bubbly Basin",
+  "reward": ""
+ },
+ {
+  "name": "PokéWeek (Issue 146)",
+  "desc": "",
+  "location": "Dream Island - Starmie",
+  "reward": "Messy Short Hair"
+ },
+ {
+  "name": "The PokéBlock Party Returns",
+  "desc": "",
+  "location": "Dream Island - Starmie",
+  "reward": "Rad Outfit"
+ },
+ {
+  "name": "This Week in Lilycove City",
+  "desc": "",
+  "location": "Dream Island - Starmie",
+  "reward": "Cheerful Outfit"
+ },
+ {
+  "name": "PokéWeek (Issue 37)",
+  "desc": "",
+  "location": "Dream Island - Starmie",
+  "reward": "Hooray emote"
+ },
+ {
+  "name": "Selection of Pokémon Scare Tactics",
+  "desc": "",
+  "location": "Dream Island - Starmie",
+  "reward": "Roar emotre"
+ },
+ {
+  "name": "Taylor's diary",
+  "desc": "",
+  "location": "Bubbly Basin",
+  "reward": ""
+ },
+ {
+  "name": "Found: Wimpod",
+  "desc": "",
+  "location": "Bubbly Basin",
+  "reward": ""
+ },
+ {
+  "name": "New Summer Menu Ideas",
+  "desc": "",
+  "location": "Bubbly Basin",
+  "reward": ""
+ },
+ {
+  "name": "Survey Notes (Team Member A)",
+  "desc": "",
+  "location": "Bubbly Basin",
+  "reward": ""
+ },
+ {
+  "name": "Survey Notes #1 (Team Member B)",
+  "desc": "",
+  "location": "Bubbly Basin",
+  "reward": ""
+ },
+ {
+  "name": "Survey Notes #2 (Team Member B)",
+  "desc": "",
+  "location": "Bubbly Basin",
+  "reward": ""
+ },
+ {
+  "name": "All Smiles Update",
+  "desc": "",
+  "location": "Bubbly Basin",
+  "reward": "Preschooler outfit"
+ },
+ {
+  "name": "Post from October 25, 2:00 p.m.",
+  "desc": "",
+  "location": "Bubbly Basin",
+  "reward": "Hehehe emote"
+ },
+ {
+  "name": "Treasure Map #1",
+  "desc": "",
+  "location": "Bubbly Basin",
+  "reward": ""
+ },
+ {
+  "name": "Treasure Map #2",
+  "desc": "",
+  "location": "Bubbly Basin",
+  "reward": ""
+ },
+ {
+  "name": "Treasure Map #3",
+  "desc": "",
+  "location": "Bubbly Basin",
+  "reward": ""
+ },
+ {
+  "name": "Treasure Map #4",
+  "desc": "",
+  "location": "Bubbly Basin",
+  "reward": ""
+ },
+ {
+  "name": "Treasure Map #5",
+  "desc": "",
+  "location": "Bubbly Basin",
+  "reward": ""
+ },
+ {
+  "name": "Treasure Map #6",
+  "desc": "",
+  "location": "Bubbly Basin",
+  "reward": ""
+ }
+]

@@ -1,0 +1,27 @@
+[
+ {
+  "name": "Water",
+  "desc": "Standard water. Allows for Sparkling Ripples to appear",
+  "item": "Fresh Water"
+ },
+ {
+  "name": "Ocean Water",
+  "desc": "Sparkling sea water. Ripples cannot appear here",
+  "item": "Soda Pop"
+ },
+ {
+  "name": "Muddy Water",
+  "desc": "Muddy water. Ripples cannot appear here\nDoes not hydrate the area",
+  "item": "Moomoo Milk Coffee"
+ },
+ {
+  "name": "Hot Spring Water",
+  "desc": "Hot water. Pokémon may enter pools of this to relax. Ripples cannot appear here",
+  "item": "Roserade Tea"
+ },
+ {
+  "name": "Lava",
+  "desc": "Lava. Does not hydrate the area. Damages Ditto if touched\nUse Water Gun on the Lava to turn it into Black Rock",
+  "item": "Chili Sauce"
+ }
+]

@@ -1,0 +1,15 @@
+# build output
+dist/
+
+# large PokéAPI artwork — re-downloaded by `npm run sprites` (see scripts/sprites.mjs)
+src/sprites/art/
+
+# raw scrape cache: the parsed JSON in _research/ is committed, the source HTML is not
+_research/serebii/
+_research/*.html
+_research/tsv/
+_research/received.json
+
+node_modules/
+.DS_Store
+Thumbs.db

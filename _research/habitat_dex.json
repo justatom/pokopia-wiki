@@ -1,0 +1,3454 @@
+[
+ {
+  "no": 1,
+  "name": "Tall Grass",
+  "req": [
+   "Tall Grass x 4"
+  ],
+  "mons": [
+   "Bulbasaur",
+   "Squirtle",
+   "Charmander",
+   "Geodude",
+   "Oddish",
+   "Charizard"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 2,
+  "name": "Tree-shaded Tall Grass",
+  "req": [
+   "Large Tree (any) x 1",
+   "Tall Grass x 4"
+  ],
+  "mons": [
+   "Scyther",
+   "Scizor",
+   "Pinsir",
+   "Bellsprout",
+   "Skwovet",
+   "Heracross"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 3,
+  "name": "Boulder-shaded Tall Grass",
+  "req": [
+   "Tall Grass x 4",
+   "Large Boulder x 1"
+  ],
+  "mons": [
+   "Timburr",
+   "Machop",
+   "Gurdurr"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 4,
+  "name": "Hydrated Tall Grass",
+  "req": [
+   "Tall Grass x 4",
+   "Water x 2"
+  ],
+  "mons": [
+   "Squirtle",
+   "Sliggoo",
+   "Blastoise",
+   "Cramorant",
+   "Wartortle"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 5,
+  "name": "Seaside Tall Grass",
+  "req": [
+   "Tall Grass x 4",
+   "Ocean Water x 2"
+  ],
+  "mons": [
+   "Slowpoke",
+   "Slowbro",
+   "Slowking"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 6,
+  "name": "Elevated Tall Grass",
+  "req": [
+   "Tall Grass x 4",
+   "High-up Location"
+  ],
+  "mons": [
+   "Pidgey",
+   "Pidgeotto",
+   "Hoothoot",
+   "Noctowl"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 7,
+  "name": "Illuminated Tall Grass",
+  "req": [
+   "Tall Grass x 4",
+   "Lighting (any) x 1"
+  ],
+  "mons": [
+   "Venonat",
+   "Venomoth"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 8,
+  "name": "Pretty Flower Bed",
+  "req": [
+   "Wildflowers x 4"
+  ],
+  "mons": [
+   "Pidgey",
+   "Combee",
+   "Eevee",
+   "Hoothoot",
+   "Magby",
+   "Pidgeotto"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 9,
+  "name": "Tree-shaded Flower Bed",
+  "req": [
+   "Wildflowers x 4",
+   "Berry tree (any) x 1"
+  ],
+  "mons": [
+   "Goomy",
+   "Cacturne",
+   "Vikavolt"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 10,
+  "name": "Hydrated Flower Bed",
+  "req": [
+   "Wildflowers x 4",
+   "Water x 2"
+  ],
+  "mons": [
+   "Volbeat",
+   "Illumise"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 11,
+  "name": "Field of Flowers",
+  "req": [
+   "Wildflowers x 8"
+  ],
+  "mons": [
+   "Vespiquen",
+   "Ivysaur",
+   "Venusaur"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 12,
+  "name": "Elevated Flower Bed",
+  "req": [
+   "Wildflowers x 4",
+   "High-up location"
+  ],
+  "mons": [
+   "Paras",
+   "Parasect"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 13,
+  "name": "Grave with Flowers",
+  "req": [
+   "Wildflowers x 4",
+   "Gravestone x 1"
+  ],
+  "mons": [
+   "Cubone",
+   "Marowak"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 14,
+  "name": "Flower garden",
+  "req": [
+   "Wildflowers x 4",
+   "Hedge (any) x 4"
+  ],
+  "mons": [
+   "Paras",
+   "Parasect"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 15,
+  "name": "Fresh Veggie Field",
+  "req": [
+   "Vegetable field (any) x 8"
+  ],
+  "mons": [
+   "Drilbur",
+   "Rowlet",
+   "Excadrill"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 16,
+  "name": "Riding Warm Updrafts",
+  "req": [
+   "Campfire (lit) x 3"
+  ],
+  "mons": [
+   "Drifloon"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 17,
+  "name": "Campsite",
+  "req": [
+   "Campfire (lit) x 1",
+   "Straw Table x 1",
+   "Straw Stool x 1"
+  ],
+  "mons": [
+   "Charmeleon"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 18,
+  "name": "Training waterfall",
+  "req": [
+   "Set (any) x 1",
+   "Water x 2",
+   "Waterfall"
+  ],
+  "mons": [
+   "Tyrogue"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 19,
+  "name": "Tantalizing Dining Set",
+  "req": [
+   "Seat (any) x 1",
+   "Plated Food x 1",
+   "Table (any) x 1"
+  ],
+  "mons": [
+   "Gulpin"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 20,
+  "name": "Picnic Set",
+  "req": [
+   "Seast (any) x 2",
+   "Table (any) x 1",
+   "Picnic Basket x 1"
+  ],
+  "mons": [
+   "Pichu",
+   "Pikachu"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 21,
+  "name": "Flowery Table",
+  "req": [
+   "Seast (any) x 1",
+   "Table (any) x 1",
+   "Smalle Vase x 1"
+  ],
+  "mons": [
+   "Weepinbell",
+   "Victreebel"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 22,
+  "name": "Bench with Greenery",
+  "req": [
+   "Seat (wide) x 1",
+   "Hedge (any) x 2"
+  ],
+  "mons": [
+   "Bulbasaur",
+   "Ivysaur"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 23,
+  "name": "Illuminated bench",
+  "req": [
+   "Seat (wide) x 1",
+   "Streetlight (any) x 1"
+  ],
+  "mons": [
+   "Venonat",
+   "Venomoth"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 24,
+  "name": "Exercise Resting Spot",
+  "req": [
+   "Seat (any) x 1",
+   "Punching bag x 1"
+  ],
+  "mons": [
+   "Hitmonchan"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 25,
+  "name": "Urgent Care",
+  "req": [
+   "Seat (any) x 1",
+   "Table (any) x 1",
+   "First Aid Kit x 1"
+  ],
+  "mons": [
+   "Hitmonlee"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 26,
+  "name": "Gym First Aid",
+  "req": [
+   "Punching bag x 1",
+   "Table (any) x 1",
+   "First Aid Kit x 1"
+  ],
+  "mons": [
+   "Hitmontop"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 27,
+  "name": "Road Sign",
+  "req": [
+   "Arrow Sign x 1",
+   "Wooden Path x 3"
+  ],
+  "mons": [
+   "Shellos (west)Shellos (east)"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 28,
+  "name": "Large Luggage Carrier",
+  "req": [
+   "Cart x 1",
+   "Wooden Crate x 2"
+  ],
+  "mons": [
+   "Tinkatink",
+   "Gurdurr",
+   "Tinkatuff"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 29,
+  "name": "Lumberjack's Workplace",
+  "req": [
+   "Log Chair x 1",
+   "Log Table x 1",
+   "Cart x 1",
+   "Tree Stump x 1"
+  ],
+  "mons": [
+   "Axew",
+   "Fraxure",
+   "Haxorus"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 30,
+  "name": "Bed with a plush",
+  "req": [
+   "Bed (any) x 1",
+   "Doll (any) x 1"
+  ],
+  "mons": [
+   "Drifloon",
+   "Slowbro",
+   "Slowking",
+   "Munchlax"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 31,
+  "name": "Gently Lit bed",
+  "req": [
+   "Bed (any) x 1",
+   "Table (any) x 1",
+   "Slender Candle (lit) x 1"
+  ],
+  "mons": [
+   "Hoothoot",
+   "Noctowl"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 32,
+  "name": "Grave offering",
+  "req": [
+   "Gravestone x 1",
+   "plated food x 1",
+   "slender candles x 2"
+  ],
+  "mons": [
+   "Litwick",
+   "Lampent"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 33,
+  "name": "Creepy Grave Offering",
+  "req": [
+   "Eerie Candle (Lit) x 1",
+   "Gravestone x 1",
+   "Plated Food x 1"
+  ],
+  "mons": [
+   "Litwick",
+   "Lampent",
+   "Chandelure"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 34,
+  "name": "Chansey Resting Area",
+  "req": [
+   "Hedge (any) x 6",
+   "Seat (wide) x 1",
+   "Chansey Plant x 1"
+  ],
+  "mons": [
+   "Vileplume",
+   "Bellossom"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 35,
+  "name": "Irresistible scent and glow",
+  "req": [
+   "Pitcher-plant pot x 1",
+   "Mushroom lamp x 1",
+   "Plated food x 1"
+  ],
+  "mons": [
+   "Weepinbell",
+   "Victreebel"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 36,
+  "name": "Floating in the shade",
+  "req": [
+   "Inflatable boat x 1",
+   "Beach parasol x 1",
+   "Water x 2"
+  ],
+  "mons": [
+   "Blastoise"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 37,
+  "name": "Smooth Tall Grass",
+  "req": [
+   "Dry tall grass x 4",
+   "Smooth Rock x 1"
+  ],
+  "mons": [
+   "Onix"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 38,
+  "name": "Factory Storage",
+  "req": [
+   "Streetlight (any) x 1",
+   "Metal drum x 1",
+   "Control unit x 1",
+   "Jumbled cords x 1"
+  ],
+  "mons": [
+   "Magnemite"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 39,
+  "name": "Luxury chirp-chirp meal",
+  "req": [
+   "Wooden birdhouse x 1",
+   "Berry Basket x 1"
+  ],
+  "mons": [
+   "Pidgeot"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 40,
+  "name": "Berry-feast campsite",
+  "req": [
+   "Castform weather charm (sun) x 2",
+   "Berry Basket x 1",
+   "Bonfire (lit) x 1",
+   "High up location"
+  ],
+  "mons": [
+   "Charizard"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 41,
+  "name": "Rain Dance Site",
+  "req": [
+   "Castform Weather Charm (rain) x 2",
+   "Plated food x 1"
+  ],
+  "mons": [
+   "Goomy"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 42,
+  "name": "Sunny Day Site",
+  "req": [
+   "Castform Weather Charm (sun) x 2",
+   "Plated food x 1"
+  ],
+  "mons": [
+   "Cacnea"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 43,
+  "name": "Professor's Treasure Trove",
+  "req": [
+   "Professor's Treasure Trove x 1",
+   "Bed (any) x 1",
+   "Lost relic (large) x 4"
+  ],
+  "mons": [
+   "Tangrowth"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 44,
+  "name": "Cozy log handicrafts",
+  "req": [
+   "Log chair x 1",
+   "Log table x 1",
+   "Log bed x 1"
+  ],
+  "mons": [
+   "Axew",
+   "Fraxure",
+   "Haxorus"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 45,
+  "name": "Very-berry space",
+  "req": [
+   "Berry chair x 1",
+   "Berry table x 1",
+   "Berry bed x 1",
+   "Berry table lamp x 1"
+  ],
+  "mons": [
+   "Goodra"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 46,
+  "name": "Garden Terrace",
+  "req": [
+   "Wildflowers x 4",
+   "Garden Light x 1",
+   "Garden chair x 1",
+   "Garden table x 1"
+  ],
+  "mons": [
+   "Venusaur"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 47,
+  "name": "Tree-shaded Snoozing Snorlax",
+  "req": [
+   "Large tree (any) x 1",
+   "Naptime bed x 1"
+  ],
+  "mons": [
+   "Munchlax",
+   "Snorlax"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 48,
+  "name": "Good Old-fashioned Antiques",
+  "req": [
+   "Antique Closet x 1",
+   "Antique Bed x 1",
+   "Antique Dresser x 1",
+   "Antique Chair x 1"
+  ],
+  "mons": [
+   "Weezing",
+   "Snorlax"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 49,
+  "name": "Nothin' but Poke Balls",
+  "req": [
+   "Poke Ball sofa x 1",
+   "Poke Ball table x 1",
+   "Poke Ball bed x 1",
+   "Poke Ball light x 1"
+  ],
+  "mons": [
+   "Tangela"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 50,
+  "name": "Yellow tall grass",
+  "req": [
+   "Yellow tall grass x 4"
+  ],
+  "mons": [
+   "Spinarak",
+   "Grubbin",
+   "Ariados"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 51,
+  "name": "Tree-shaded Yellow tall grass",
+  "req": [
+   "Yellow tall grass x 4",
+   "Large tree (any) x 1"
+  ],
+  "mons": [
+   "Zubat",
+   "Golbat",
+   "Makuhita",
+   "Hariyama"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 52,
+  "name": "Elevated Yellow tall grass",
+  "req": [
+   "Yellow tall grass x 4",
+   "High-up location"
+  ],
+  "mons": [
+   "Wingull",
+   "Pelipper",
+   "Crobat"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 53,
+  "name": "Hydrated Yellow tall grass",
+  "req": [
+   "Yellow tall grass x 4",
+   "Water x 2"
+  ],
+  "mons": [
+   "Azurill",
+   "Marill",
+   "Piplup",
+   "Prinplup"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 54,
+  "name": "Marshy tall grass",
+  "req": [
+   "Yellow tall grass x 4",
+   "Muddy water x 2"
+  ],
+  "mons": [
+   "Wooper",
+   "Clodsire"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 55,
+  "name": "Overgrowth Vending Machine",
+  "req": [
+   "Yellow tall grass x 4",
+   "Vending Machine (powered) x 1"
+  ],
+  "mons": [
+   "Mareep"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 56,
+  "name": "Breezy Flower Bed",
+  "req": [
+   "Seashore Flowers x 4"
+  ],
+  "mons": [
+   "Pawmi",
+   "Zorua",
+   "Zoroark"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 57,
+  "name": "Tropical Vibes",
+  "req": [
+   "Seashore Flowers x 4",
+   "Large Palm Tree x 1"
+  ],
+  "mons": [
+   "Gloom",
+   "Exeggcute",
+   "Exeggutor"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 58,
+  "name": "Windy Flower Bed",
+  "req": [
+   "Seashore Flowers x 4",
+   "Windmill x 1"
+  ],
+  "mons": [
+   "Wingull",
+   "Pelipper"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 59,
+  "name": "Shaded beach",
+  "req": [
+   "Large Palm Tree x 1",
+   "Beach chair x 1"
+  ],
+  "mons": [
+   "Exeggcute",
+   "Exeggutor"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 60,
+  "name": "Tropical Seaside",
+  "req": [
+   "Large Palm Tree x 1",
+   "Hedge (any) x 4",
+   "Ocean Water x 2"
+  ],
+  "mons": [
+   "Lapras"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 61,
+  "name": "Resting Spot",
+  "req": [
+   "Cardboard boxes x 1",
+   "Straw bed x 1"
+  ],
+  "mons": [
+   "Meowth"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 62,
+  "name": "Perpetual Mess",
+  "req": [
+   "Cardboard boxes x 1",
+   "Toy (any) x 2"
+  ],
+  "mons": [
+   "Growlithe",
+   "Azurill"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 63,
+  "name": "Trash Collection Site",
+  "req": [
+   "Wste bin (any) x 1",
+   "Garbage bags x 1",
+   "Sign (any) x 1"
+  ],
+  "mons": [
+   "Trubbish",
+   "Koffing",
+   "Weezing",
+   "Garbodor"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 64,
+  "name": "Trash Can Central",
+  "req": [
+   "Garbage bins x 4"
+  ],
+  "mons": [
+   "Magneton",
+   "Electabuzz",
+   "Magnezone"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 65,
+  "name": "Trash Disposal Site",
+  "req": [
+   "Utility Pole x 1",
+   "Garbage bags x 1"
+  ],
+  "mons": [
+   "Crobat"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 66,
+  "name": "Park bench",
+  "req": [
+   "Seat (wide) x 1",
+   "Garbage bin x 1"
+  ],
+  "mons": [
+   "Zubat",
+   "Voltorb",
+   "Electrode"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 67,
+  "name": "Tantalizing Restaurant",
+  "req": [
+   "Seat (any) x 1",
+   "Table (any) x 1",
+   "Menu Board x 1",
+   "Plated food x 1"
+  ],
+  "mons": [
+   "Pawmo",
+   "Pawmi"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 68,
+  "name": "Tableside delivery cart",
+  "req": [
+   "Chic chair x 2",
+   "Chic table x 1",
+   "Small vase x 1",
+   "Push cart x 1",
+   "Plated food x 1"
+  ],
+  "mons": [
+   "Empoleon"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 69,
+  "name": "Chirp-chirp meal",
+  "req": [
+   "Wooden Birdhouse x 1",
+   "Plated food x 1",
+   "Tabled (any) x 1"
+  ],
+  "mons": [
+   "Torchic",
+   "Blaziken"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 70,
+  "name": "Cafe Space",
+  "req": [
+   "Seat (Any) x 2",
+   "Potted Plant (Any) x 1",
+   "Counter) x 2",
+   "Mug x 1",
+   "Menu Board x 1"
+  ],
+  "mons": [
+   "Pawmo",
+   "Pawmot"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 71,
+  "name": "Beach set",
+  "req": [
+   "Beach Chair x 1",
+   "Side table x 1",
+   "Beach parasol x 1"
+  ],
+  "mons": [
+   "Tatsugiri"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 72,
+  "name": "Light-Up stage",
+  "req": [
+   "Small stage x 1",
+   "Spotlights x 2"
+  ],
+  "mons": [
+   "Electabuzz",
+   "Electivire"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 73,
+  "name": "Surprise in store",
+  "req": [
+   "Balloons x 2",
+   "Boo-in-the-box x 1"
+  ],
+  "mons": [
+   "Zoroark",
+   "Haunter",
+   "Gengar"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 74,
+  "name": "Night Festival Venue",
+  "req": [
+   "Balloons x 2",
+   "Raichu sign x 1"
+  ],
+  "mons": [
+   "Flaaffy"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 75,
+  "name": "Changing Area",
+  "req": [
+   "Closet (any) x 1",
+   "Mirror (large) x 1"
+  ],
+  "mons": [
+   "Minccino"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 76,
+  "name": "Private makeup stand",
+  "req": [
+   "Partitions (any) x 2",
+   "Closet (any) x 1",
+   "dresser (any) x 1"
+  ],
+  "mons": [
+   "Minccino",
+   "Cinccino"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 77,
+  "name": "Knitting Station",
+  "req": [
+   "Seat (any) x 1",
+   "Table (any) x 1",
+   "Knitting supplies x 1"
+  ],
+  "mons": [
+   "Mareep",
+   "Flaaffy"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 78,
+  "name": "Hot-Spring Shower",
+  "req": [
+   "Shower x 1",
+   "Seat (any) x 1",
+   "Hot-spring water x 2"
+  ],
+  "mons": [
+   "Psyduck",
+   "Golduck"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 79,
+  "name": "Resort Meal Prep",
+  "req": [
+   "Large Plam Tree x 1",
+   "Seat (any) x 1",
+   "Plated food x 1",
+   "Campfire (lit) x 1"
+  ],
+  "mons": [
+   "Growlithe",
+   "Torchic",
+   "Combusken"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 80,
+  "name": "All Packed Up",
+  "req": [
+   "Cart x 1",
+   "Cardboard boxes x 2"
+  ],
+  "mons": [
+   "Farfetch'd",
+   "Makuhita",
+   "Hariyama"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 81,
+  "name": "Full Recovery",
+  "req": [
+   "Bed (any) x 1",
+   "First aid kit x 1",
+   "Plain chest x 1"
+  ],
+  "mons": [
+   "Chansey",
+   "Peakychu"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 82,
+  "name": "Alarm clock sleep zone",
+  "req": [
+   "Bed (any) x 1",
+   "Table (any) x 1",
+   "Alarm Clock x 1"
+  ],
+  "mons": [
+   "Happiny"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 83,
+  "name": "Vending machine break area",
+  "req": [
+   "Vending Machine x 1",
+   "Seat (wide) x 1"
+  ],
+  "mons": [
+   "Grubbin",
+   "Charjabug"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 84,
+  "name": "Vending machine set",
+  "req": [
+   "Vending machine x 1",
+   "Watee bin (any) x 1"
+  ],
+  "mons": [
+   "Elekid",
+   "Electivire"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 85,
+  "name": "Mini Game Corner",
+  "req": [
+   "Arcade Machine x 1",
+   "Punching Game x 1",
+   "Seat (any) x 1"
+  ],
+  "mons": [
+   "Magneton",
+   "Magnezone"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 86,
+  "name": "Waterwheel Spot",
+  "req": [
+   "Waterwheel x 1",
+   "Waterfall x 1",
+   "Water x 2"
+  ],
+  "mons": [
+   "Prinplup",
+   "Empoleon"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 87,
+  "name": "Furnace Spot",
+  "req": [
+   "Metal Drum x 1",
+   "Furnace x 1"
+  ],
+  "mons": [
+   "Combusken",
+   "Blaziken"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 88,
+  "name": "Dock",
+  "req": [
+   "Walkway x 4",
+   "Streetlight x 1",
+   "Ocean water x 2"
+  ],
+  "mons": [
+   "Marill",
+   "Azumarill"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 89,
+  "name": "Spooky Study",
+  "req": [
+   "Bookcase x 1",
+   "Chic Sofa x 1",
+   "Plain table x 1",
+   "Slender candle x 1"
+  ],
+  "mons": [
+   "Gastly",
+   "Haunter"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 90,
+  "name": "Playing Pirate",
+  "req": [
+   "Bareel x 2",
+   "Cannon x 2",
+   "Ship's wheel x 1"
+  ],
+  "mons": [
+   "Voltorb",
+   "Electrode"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 91,
+  "name": "Working the register",
+  "req": [
+   "Table (any) x 2",
+   "Cash Register x 1"
+  ],
+  "mons": [
+   "Meowth",
+   "Audino",
+   "Mawile",
+   "Happiny"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 92,
+  "name": "Tiny Atelier",
+  "req": [
+   "Canvas x 1",
+   "Seat (any) x 1"
+  ],
+  "mons": [
+   "Smeargle"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 93,
+  "name": "Gourmet's Altar",
+  "req": [
+   "Offering dish x 1"
+  ],
+  "mons": [
+   "Mosslax"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 94,
+  "name": "Pikachu Space",
+  "req": [
+   "Pikachu sofa x 1",
+   "Pikachu doll x 1"
+  ],
+  "mons": [
+   "Mimikyu"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 95,
+  "name": "Cuteness overload",
+  "req": [
+   "Cute sofa x 1",
+   "Cute lamp x 1",
+   "Cute dresser x 1",
+   "Cute table x 1",
+   "Cute bed x 1"
+  ],
+  "mons": [
+   "Blissey"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 96,
+  "name": "Welcoming resort",
+  "req": [
+   "Resort sofa x 1",
+   "Resort hammock x 1",
+   "Resort table x 1",
+   "Resort light x 1"
+  ],
+  "mons": [
+   "Absol"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 97,
+  "name": "Plain Life",
+  "req": [
+   "Plain bed x 1",
+   "Plain lamp x 1",
+   "Plain sofa x 1",
+   "Plain table x 1"
+  ],
+  "mons": [
+   "Ampharos"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 98,
+  "name": "Red Tall Grass",
+  "req": [
+   "Red tall grass x 4"
+  ],
+  "mons": [
+   "Scorbunny",
+   "Cinderace",
+   "Riolu",
+   "Kricketot",
+   "Kricketune"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 99,
+  "name": "Tree-shaded Red Tall Grass",
+  "req": [
+   "Large tree (any) x 1",
+   "Red tall grass x 4"
+  ],
+  "mons": [
+   "Diglett",
+   "Dugtrio",
+   "Bonsly",
+   "Sudowoodo"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 100,
+  "name": "Pointy tree-shaded rocky tall grass",
+  "req": [
+   "Pointy tree x 1",
+   "Large boulder x 1",
+   "Red tall grass x 4"
+  ],
+  "mons": [
+   "Dartrix",
+   "Decidueye"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 101,
+  "name": "Hydrated Red Tall Grass",
+  "req": [
+   "Red Tall Grass x 4",
+   "Water x 2"
+  ],
+  "mons": [
+   "Lotad",
+   "Lombre"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 102,
+  "name": "Elevated Red Tall Grass",
+  "req": [
+   "Red Tall Grass x 4",
+   "High-up location"
+  ],
+  "mons": [
+   "Murkow",
+   "Honchkrow",
+   "Chatot"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 103,
+  "name": "Grassy training field",
+  "req": [
+   "Sandbags x 2",
+   "Red Tall Grass x 4"
+  ],
+  "mons": [
+   "Machoke",
+   "Machamp"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 104,
+  "name": "Graceful flower bed",
+  "req": [
+   "Mountain flowers x 4"
+  ],
+  "mons": [
+   "Fidough",
+   "Dachsbun",
+   "Cleffa",
+   "Clefairy",
+   "Clefable"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 105,
+  "name": "Tree-shaded Graceful flower bed",
+  "req": [
+   "Pointy tree x 1",
+   "Mountain flowers x 4"
+  ],
+  "mons": [
+   "Murkow",
+   "Larvesta",
+   "Volcarona"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 106,
+  "name": "Hydrated Graceful flower bed",
+  "req": [
+   "Mountain flowers x 4",
+   "Water x 2"
+  ],
+  "mons": [
+   "Ekans",
+   "Arbok",
+   "Politoed"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 107,
+  "name": "Flower garden stump stage",
+  "req": [
+   "Mountain flowers x 4",
+   "Mushroom lamp x 2",
+   "Tree stump (any) x 1"
+  ],
+  "mons": [
+   "Igglybuff",
+   "Jigglypuff",
+   "Politoed"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 108,
+  "name": "Toil in the soil",
+  "req": [
+   "Vegetable fields (any) x 4",
+   "Wheelbarrow x 1"
+  ],
+  "mons": [
+   "Tyranitar"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 109,
+  "name": "Uplifting Duckweed",
+  "req": [
+   "Duckweed x 4",
+   "Water x 2"
+  ],
+  "mons": [
+   "Lotad",
+   "Ludicolo"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 110,
+  "name": "Mossy rest spot",
+  "req": [
+   "Moss x 4"
+  ],
+  "mons": [
+   "Larvitar",
+   "Tyranitar"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 111,
+  "name": "Mossy Boulder",
+  "req": [
+   "Moss x 4",
+   "Mossy boulder x 1"
+  ],
+  "mons": [
+   "Graveler",
+   "Golem"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 112,
+  "name": "Mossy hot spring",
+  "req": [
+   "Moss x 4",
+   "Hot-spring water x 2"
+  ],
+  "mons": [
+   "Torkoal"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 113,
+  "name": "Open-air bath",
+  "req": [
+   "Hot-spring spout x 1",
+   "Hot spring water x 2"
+  ],
+  "mons": [
+   "Raboot"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 114,
+  "name": "Harmonious hot spring",
+  "req": [
+   "Hot spring spout x 1",
+   "Water basin x 1",
+   "Hot-spring water x 2"
+  ],
+  "mons": [
+   "Politoed"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 115,
+  "name": "Piping-hot lava",
+  "req": [
+   "Molten rock x 1",
+   "Lava x 2"
+  ],
+  "mons": [
+   "Charcadet",
+   "Volcarona"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 116,
+  "name": "Digging and burning",
+  "req": [
+   "Wheelbarrow x 1",
+   "Excavatin tools x 1",
+   "Smelting furnace x 1"
+  ],
+  "mons": [
+   "Magmar"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 117,
+  "name": "Clink-clang iron construction",
+  "req": [
+   "Iron beam or column x 3",
+   "Wheelbarrow x 1",
+   "Sandbags x 1",
+   "Excavation tools x 1"
+  ],
+  "mons": [
+   "Steelix",
+   "Machamp"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 118,
+  "name": "Creepy white rocks",
+  "req": [
+   "Stalagmites x 1",
+   "Moss x 4",
+   "Wooden crate x 1",
+   "Lantern x 1"
+  ],
+  "mons": [
+   "Glimmet",
+   "Glimmora"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 119,
+  "name": "Container snacking",
+  "req": [
+   "Barrel x 1",
+   "Wooden crate x 1",
+   "Lantern x 1",
+   "Plated food x 1"
+  ],
+  "mons": [
+   "Diglett",
+   "Glimmet",
+   "Glimmora"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 120,
+  "name": "Dinner table surprise",
+  "req": [
+   "Seat (wide) x 2",
+   "Table (large) x 1",
+   "Party platter x 4"
+  ],
+  "mons": [
+   "Swalot"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 121,
+  "name": "Best Bread bakery",
+  "req": [
+   "Bread oven x 1",
+   "Counter x 2",
+   "Plated food x 1"
+  ],
+  "mons": [
+   "Fidough",
+   "Dachsbun"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 122,
+  "name": "Mini Kitchen",
+  "req": [
+   "Kitchen table x 1",
+   "Cooking stove x 1",
+   "Frying pan (any) x 1",
+   "Modern sink x 1"
+  ],
+  "mons": [
+   "Magmortar"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 123,
+  "name": "House party",
+  "req": [
+   "Food counter x 1",
+   "Paper party cups x 1",
+   "Plated food x 1"
+  ],
+  "mons": [
+   "Dugtrio",
+   "Sudowoodo"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 124,
+  "name": "Lazy photo-album scrolling",
+  "req": [
+   "Tablet x 1",
+   "Paper Party cups x 1"
+  ],
+  "mons": [
+   "Toxel"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 125,
+  "name": "Chirping recital",
+  "req": [
+   "Perch x 1",
+   "Standing mic x 1"
+  ],
+  "mons": [
+   "Chatot",
+   "Honchkrow"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 126,
+  "name": "Recital Stage",
+  "req": [
+   "Speaker x 2",
+   "Small stage x 1",
+   "Standing mic x 1"
+  ],
+  "mons": [
+   "Jigglypuff",
+   "Wigglytuff"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 127,
+  "name": "Box to the rhythm",
+  "req": [
+   "Punching bag x 1",
+   "CD Player x 1",
+   "Table (any) x 1"
+  ],
+  "mons": [
+   "Machoke",
+   "Riolu",
+   "Lucario"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 128,
+  "name": "Music and magazines",
+  "req": [
+   "CD Player x 1",
+   "Magazine rack x 1",
+   "CD rack x 1"
+  ],
+  "mons": [
+   "Kricketot",
+   "Kricketune",
+   "DJ Rotom"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 129,
+  "name": "Mini museum",
+  "req": [
+   "Post (any) x 3",
+   "Lost relic (large) x 1",
+   "Pedestal / exhibition stand x 1"
+  ],
+  "mons": [
+   "Gimmighoul",
+   "Arcanine"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 130,
+  "name": "Refreshing locker room",
+  "req": [
+   "Office locker x 2",
+   "Potted plant (any) x 1",
+   "Seat (wide) x 1",
+   "Punching game x 1"
+  ],
+  "mons": [
+   "Raboot",
+   "Cinderace"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 131,
+  "name": "Bronze Landmark",
+  "req": [
+   "Hedge (any) x 4",
+   "Sign x 1",
+   "Moonlight dance statue x 1"
+  ],
+  "mons": [
+   "Clefairy",
+   "Clefable"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 132,
+  "name": "Railroad crossing",
+  "req": [
+   "Railway track x 1",
+   "Crossing gate x 1"
+  ],
+  "mons": [
+   "Rolycoly",
+   "Carkol",
+   "Coalossal"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 133,
+  "name": "Chef's kitchen",
+  "req": [
+   "Cooking stove x 1",
+   "Modern sink x 1",
+   "Plain table x 1",
+   "Cutting board x 1",
+   "Stylish cooking pot x 1",
+   "Plated food x 1"
+  ],
+  "mons": [
+   "Chef Dente (Greedent)"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 134,
+  "name": "Absolute Luxury",
+  "req": [
+   "Luxury Bed x 1",
+   "Luxury Sofa x 1",
+   "Luxury Table x 1",
+   "Luxury Lamp x 1"
+  ],
+  "mons": [
+   "Gholdengo"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 135,
+  "name": "Heavy Iron",
+  "req": [
+   "Iron bed x 1",
+   "Iron chair x 1",
+   "Iron table x 1",
+   "Lantern x 1"
+  ],
+  "mons": [
+   "Coalossal"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 136,
+  "name": "Modern Living",
+  "req": [
+   "Industrial bed x 1",
+   "Industrial chair x 1",
+   "Industrial desk x 1"
+  ],
+  "mons": [
+   "Decidueye"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 137,
+  "name": "Pink tall grass",
+  "req": [
+   "Pink tall grass x 4"
+  ],
+  "mons": [
+   "Trapinch",
+   "Vibrava",
+   "Flygon",
+   "Swablu",
+   "Duskull"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 138,
+  "name": "Tree-shaded Pink tall grass",
+  "req": [
+   "Pink tall grass x 4",
+   "Large tree (any) x 1"
+  ],
+  "mons": [
+   "Sprigatito",
+   "Dreepy",
+   "Drakloak",
+   "Pupitar"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 139,
+  "name": "Hydrated Pink tall grass",
+  "req": [
+   "Pink tall grass x 4",
+   "Water x 2"
+  ],
+  "mons": [
+   "Froakie",
+   "Frogadier",
+   "Greninja"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 140,
+  "name": "Elevated Pink tall grass",
+  "req": [
+   "Pink tall grass x 4",
+   "High-up locations"
+  ],
+  "mons": [
+   "Corvisquire",
+   "Corviknight",
+   "Wattrel",
+   "Kilowattrel"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 141,
+  "name": "Concrete pipe secret base",
+  "req": [
+   "Concrete pipe x 3",
+   "Tall grass (any) x 4"
+  ],
+  "mons": [
+   "Cyndaquil",
+   "Quilava"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 142,
+  "name": "Fluffy flower bed",
+  "req": [
+   "Skyland flowers x 4"
+  ],
+  "mons": [
+   "Vulpix",
+   "Ninetails",
+   "Rookidee",
+   "Misdreavus",
+   "Mismagius"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 143,
+  "name": "Tree-shaded Fluffy flower bed",
+  "req": [
+   "Skyland flowers x 4",
+   "Large tree (any) x 1"
+  ],
+  "mons": [
+   "Servine",
+   "Serperior",
+   "Girafarig",
+   "Farigiraf"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 144,
+  "name": "Hydrated Fluffy flower bed",
+  "req": [
+   "Skyland flowers x 4",
+   "Water x 2"
+  ],
+  "mons": [
+   "Dratini",
+   "Dragonair",
+   "Poliwhirl"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 145,
+  "name": "Waterside dinghy",
+  "req": [
+   "Canoe x 1",
+   "Duckweed x 2",
+   "Water x 2",
+   "High-up location"
+  ],
+  "mons": [
+   "Dragonite"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 146,
+  "name": "Illuminated Waterfall",
+  "req": [
+   "Stepping Stones x 3",
+   "Water x 3",
+   "Waterfall x 1",
+   "Torch x 2"
+  ],
+  "mons": [
+   "Gyarados"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 147,
+  "name": "Birdsong garden",
+  "req": [
+   "Stylish hedge x 1",
+   "Wooden birdhouse x 1"
+  ],
+  "mons": [
+   "Altaria"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 148,
+  "name": "Simple bathroom",
+  "req": [
+   "Shower x 1",
+   "Bathtub x 1"
+  ],
+  "mons": [
+   "Dratini",
+   "Dragonair"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 149,
+  "name": "Cycling rest stop",
+  "req": [
+   "Bike x 1",
+   "Vending machine x 1"
+  ],
+  "mons": [
+   "Beldum"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 150,
+  "name": "Fireplace nap spot",
+  "req": [
+   "Stone fireplace (lit) x 1",
+   "Seat (wide) x 1"
+  ],
+  "mons": [
+   "Quilava",
+   "Typhlosion"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 151,
+  "name": "Surging psychic power",
+  "req": [
+   "Simple cushion x 1",
+   "Crystal ball x 1"
+  ],
+  "mons": [
+   "Abra",
+   "Alakazam"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 152,
+  "name": "Fortune-teller's table",
+  "req": [
+   "Seat (any) x 2",
+   "Table (any) x 1",
+   "Crystal Ball x 1"
+  ],
+  "mons": [
+   "Abra",
+   "Kadabra"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 153,
+  "name": "Trash site TV",
+  "req": [
+   "Garbage bags x 2",
+   "Telvision x 1"
+  ],
+  "mons": [
+   "Dusclops",
+   "Dusknoir"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 154,
+  "name": "Oversized Dumping Ground",
+  "req": [
+   "Tires x 1",
+   "Iron beam or column x 3",
+   "Waste bin (any) x 1",
+   "Microwave oven x 1"
+  ],
+  "mons": [
+   "Tinkatink",
+   "Tinkaton"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 155,
+  "name": "Interrogation desk",
+  "req": [
+   "Arcanine doll x 1",
+   "Folding chair x 2",
+   "Industrial desk x 1",
+   "Desk light x 1"
+  ],
+  "mons": [
+   "Sprigatito",
+   "Floragato"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 156,
+  "name": "Sewer-hole inspection",
+  "req": [
+   "Iron pipes x 1",
+   "Sewer hold cover x 1",
+   "Excavation tools x 1",
+   "Traffic cone x 1"
+  ],
+  "mons": [
+   "Tinkatuff",
+   "Corviknight",
+   "Poliwrath"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 157,
+  "name": "Spotless Washing Station",
+  "req": [
+   "Towel Rack x 1",
+   "Wall mirror x 1",
+   "Sink x 1"
+  ],
+  "mons": [
+   "Mime Jr.",
+   "Mr. Mime"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 158,
+  "name": "Home Theater",
+  "req": [
+   "Speaker x 2",
+   "Stand x 1",
+   "Television x 1"
+  ],
+  "mons": [
+   "Mismagius"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 159,
+  "name": "Study Area",
+  "req": [
+   "Bookcase x 1",
+   "Stead (any) x 1",
+   "Tabled (any) x 1",
+   "Pencil holder x 1"
+  ],
+  "mons": [
+   "Ralts",
+   "Kirlia"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 160,
+  "name": "Rhythmic living room",
+  "req": [
+   "Speaker x 2",
+   "Music mat (any) x 4",
+   "Television x 1"
+  ],
+  "mons": [
+   "Noibat",
+   "Noivern"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 161,
+  "name": "Squeaky clean",
+  "req": [
+   "Bathtub x 1",
+   "Cleaning supplies x 1"
+  ],
+  "mons": [
+   "Poliwag"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 162,
+  "name": "Moisturizing makeup stand",
+  "req": [
+   "Dresser (any) x 1",
+   "Seat (any) x 1",
+   "humidifier x 1"
+  ],
+  "mons": [
+   "Kirlia",
+   "Gardevoir"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 163,
+  "name": "Mini Library",
+  "req": [
+   "Bookcase x 1",
+   "Step Stool x 1",
+   "Table (any) x 1",
+   "Lighting (any) x 1"
+  ],
+  "mons": [
+   "Gardevoir"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 164,
+  "name": "Game corner battle zone",
+  "req": [
+   "Arcade Machine x 2",
+   "seat (any) x 2"
+  ],
+  "mons": [
+   "Porygon-Z"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 165,
+  "name": "Playland",
+  "req": [
+   "Slide x 1",
+   "Toy (any) x 1"
+  ],
+  "mons": [
+   "Snivy"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 166,
+  "name": "Work Desk",
+  "req": [
+   "Mug x 1",
+   "Laptop x 1",
+   "Office Desk x 1",
+   "Office chair x 1"
+  ],
+  "mons": [
+   "Porygon2"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 167,
+  "name": "Office storeroom",
+  "req": [
+   "Office shelf x 1",
+   "Step stool x 1",
+   "Cardboard boxes x 1"
+  ],
+  "mons": [
+   "Misdreavus",
+   "Mismagius",
+   "Drakloak",
+   "Dragapult"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 168,
+  "name": "Experiment space",
+  "req": [
+   "Science experiment x 1",
+   "Papers x 1",
+   "Microscope x 1"
+  ],
+  "mons": [
+   "Alakazam"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 169,
+  "name": "Professor's apprentice program",
+  "req": [
+   "Whiteboard x 1",
+   "Table (any) x 1",
+   "Jumbled cords x 1",
+   "Laptop x 1"
+  ],
+  "mons": [
+   "Metang"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 170,
+  "name": "Researcher's desk",
+  "req": [
+   "Table (any) x 2",
+   "Science experiment x 1",
+   "Computer x 1"
+  ],
+  "mons": [
+   "Porygon"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 171,
+  "name": "Public reading material",
+  "req": [
+   "Magzine Rack x 1",
+   "Newspaper x 1"
+  ],
+  "mons": [
+   "Mime Jr.",
+   "Serperior"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 172,
+  "name": "Heart-pounding surprise box",
+  "req": [
+   "Spotlight x 2",
+   "Boo-in-the-box x 1",
+   "Big drum x 1"
+  ],
+  "mons": [
+   "Meowscarada"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 173,
+  "name": "Prank button",
+  "req": [
+   "Floor switch",
+   "boo-in-the-box"
+  ],
+  "mons": [
+   "Frogadier",
+   "Greninja"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 174,
+  "name": "Picturesque photo cutout board",
+  "req": [
+   "Photo cutout board x 1",
+   "Spotlight x 2",
+   "High-up location"
+  ],
+  "mons": [
+   "Plusle",
+   "Minun"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 175,
+  "name": "Tire park",
+  "req": [
+   "Slide x 1",
+   "Tires x 1",
+   "Tire Toy x 2"
+  ],
+  "mons": [
+   "Dedenne"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 176,
+  "name": "Nature's market",
+  "req": [
+   "Large tree (any) x 1",
+   "Large boulder x 1",
+   "Table (any) x 2",
+   "Cash register x 1"
+  ],
+  "mons": [
+   "Raichu"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 177,
+  "name": "Construction-site Generator",
+  "req": [
+   "Furnace x 1",
+   "Iron scaffolding x 2",
+   "Iron pipes x 1"
+  ],
+  "mons": [
+   "Conkeldurr"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 178,
+  "name": "Dojo Training",
+  "req": [
+   "Hnaging scroll x 2",
+   "Strength rock x 2"
+  ],
+  "mons": [
+   "Poliwrath",
+   "Gallade"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 179,
+  "name": "Evil organization HQ",
+  "req": [
+   "Potted plant (any) x 2",
+   "Luxury sofa x 1",
+   "Team Rocket wall hanging x 1"
+  ],
+  "mons": [
+   "Persian"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 180,
+  "name": "Nine flames",
+  "req": [
+   "Fire pit x 9"
+  ],
+  "mons": [
+   "Ninetales"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 181,
+  "name": "Plush central",
+  "req": [
+   "Arcanine doll x 1",
+   "Pikachu doll x 1",
+   "Dragonite doll x 1",
+   "Eevee doll x 1"
+  ],
+  "mons": [
+   "Drifloon",
+   "Drifblim"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 182,
+  "name": "Gamer's paradise",
+  "req": [
+   "Gaming bed x 1",
+   "Gaming PC x 1",
+   "Gaming chair x 1",
+   "Table (any) x 1",
+   "Gaming fridge x 1"
+  ],
+  "mons": [
+   "Metagross"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 183,
+  "name": "Top pop",
+  "req": [
+   "Pop art bed x 1",
+   "Pop art table x 1",
+   "Pop art sofa x 1"
+  ],
+  "mons": [
+   "Typhlosion"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 184,
+  "name": "Fishing pond",
+  "req": [
+   "Fishing rod x 1",
+   "Seat (any) x 1",
+   "Water x 1"
+  ],
+  "mons": [
+   "Slowbro",
+   "Slowking"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 185,
+  "name": "Ocean fishing spot",
+  "req": [
+   "Fishing rod x 1",
+   "Seat (any) x 1",
+   "Ocean Water x 1"
+  ],
+  "mons": [
+   "Magikarp",
+   "Gastrodon"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 186,
+  "name": "Marsh fishing spot",
+  "req": [
+   "Fishing rod x 1",
+   "Seat (any) x 1",
+   "Muddy Water x 1"
+  ],
+  "mons": [
+   "Grimer",
+   "Muk",
+   "Clodsire"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 187,
+  "name": "Hot-spring fishing spot",
+  "req": [
+   "Fishing rod x 1",
+   "Seat (any) x 1",
+   "Hot-spring Water x 1"
+  ],
+  "mons": [
+   "Lotad",
+   "Lombre"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 188,
+  "name": "Magma fishing spot",
+  "req": [
+   "Fishing rod x 1",
+   "Lava x 1",
+   "Seat (any) x 1"
+  ],
+  "mons": [
+   "Arcanine"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 189,
+  "name": "Amped rock stage",
+  "req": [
+   "Small stage x 1",
+   "Speaker x 2",
+   "Standing Mic x 1",
+   "Cool electric guitar x 1"
+  ],
+  "mons": [
+   "Toxtricity"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 190,
+  "name": "Low-key rock stage",
+  "req": [
+   "Small stage x 1",
+   "Speaker x 2",
+   "Standing Mic x 1",
+   "Cool bass guitar x 1"
+  ],
+  "mons": [
+   "Toxtricity"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 191,
+  "name": "Malicious Knight's shrine",
+  "req": [
+   "Pedestal / exhibition stand x 1",
+   "Stepping stones x 2",
+   "Malicious armor x 1",
+   "Firepit x 2"
+  ],
+  "mons": [
+   "Ceruledge"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 192,
+  "name": "Auspicious Knight's shrine",
+  "req": [
+   "Pedestal / exhibition stand x 1",
+   "Stepping stones x 2",
+   "Auspicious armor x 1",
+   "Firepit x 2"
+  ],
+  "mons": [
+   "Armarouge"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 193,
+  "name": "Wing Fossil Display",
+  "req": [
+   "Pedestal / Exhibition stand x 1",
+   "Wing Fossil body",
+   "Wing fossil head",
+   "Wing fossil tail",
+   "Wing fossil right wing",
+   "Wing fossil left wing"
+  ],
+  "mons": [
+   "Aerodactyl"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 194,
+  "name": "Skull Fossil Display",
+  "req": [
+   "Pedestal / Exhibition stand x 1",
+   "Skull Fossil x 1"
+  ],
+  "mons": [
+   "Cranidos"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 195,
+  "name": "Headbutt Fossil Display",
+  "req": [
+   "Pedestal / Exhibition stand x 1",
+   "Headbutt Fossil body",
+   "Headbutt fossil head",
+   "Headbutt fossil tail"
+  ],
+  "mons": [
+   "Rampardos"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 196,
+  "name": "Armor Fossil Display",
+  "req": [
+   "Pedestal / Exhibition stand x 1",
+   "Armor Fossil x 1"
+  ],
+  "mons": [
+   "Shieldon"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 197,
+  "name": "Shield Fossil Display",
+  "req": [
+   "Pedestal / Exhibition stand x 2",
+   "Shield Fossil body",
+   "Shield fossil head",
+   "Shield fossil tail"
+  ],
+  "mons": [
+   "Bastiodon"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 198,
+  "name": "Jaw Fossil Display",
+  "req": [
+   "Pedestal / Exhibition stand x 1",
+   "Jaw Fossil x 1"
+  ],
+  "mons": [
+   "Tyrunt"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 199,
+  "name": "Despot Fossil Display",
+  "req": [
+   "Pedestal / Exhibition stand x 2",
+   "Despot Fossil body",
+   "Despot fossil head",
+   "Despot fossil tail",
+   "Despot fossil legs"
+  ],
+  "mons": [
+   "Tyrantrum"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 200,
+  "name": "Sail Fossil Display",
+  "req": [
+   "Pedestal / Exhibition stand x 1",
+   "Sail Fossil x 1"
+  ],
+  "mons": [
+   "Amaura"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 201,
+  "name": "Tundra Fossil Display",
+  "req": [
+   "Pedestal / Exhibition stand x 2",
+   "Tundra Fossil body",
+   "Tundra fossil head",
+   "Tundra fossil tail"
+  ],
+  "mons": [
+   "Aurorus"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 202,
+  "name": "Boundless blue beverage",
+  "req": [
+   "Seat (any) x 1",
+   "Table (any) x 1",
+   "Soda Float x 1"
+  ],
+  "mons": [
+   "Vaporeon"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 203,
+  "name": "Electrifying Potatoes",
+  "req": [
+   "Seat (any) x 1",
+   "Table (any) x 1",
+   "Fried Potatoes x 1"
+  ],
+  "mons": [
+   "Jolteon"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 204,
+  "name": "Burning-hot Spice",
+  "req": [
+   "Seat (any) x 1",
+   "Table (any) x 1",
+   "Pizza x 1"
+  ],
+  "mons": [
+   "Flareon"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 205,
+  "name": "Elegant daytime treats",
+  "req": [
+   "Seat (any) x 1",
+   "Table (any) x 1",
+   "Afternoon tea set x 1"
+  ],
+  "mons": [
+   "Espeon"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 206,
+  "name": "Dark-chocolate cookies",
+  "req": [
+   "Seat (any) x 1",
+   "Table (any) x 1",
+   "Chocolate cookies x 1"
+  ],
+  "mons": [
+   "Umbreon"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 207,
+  "name": "Leafy green sandwich",
+  "req": [
+   "Seat (any) x 1",
+   "Table (any) x 1",
+   "Sandwiches x 1"
+  ],
+  "mons": [
+   "Leafeon"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 208,
+  "name": "Chilly shaved ice",
+  "req": [
+   "Seat (any) x 1",
+   "Table (any) x 1",
+   "Shaved Ice x 1"
+  ],
+  "mons": [
+   "Glaceon"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 209,
+  "name": "Lovely ribbon cake",
+  "req": [
+   "Seat (any) x 1",
+   "Table (any) x 1",
+   "Ribbon cake x 1"
+  ],
+  "mons": [
+   "Sylveon"
+  ],
+  "dex": "main"
+ },
+ {
+  "no": 1,
+  "name": "Basin Tall Grass",
+  "req": [
+   "Seabed tall grass x 4"
+  ],
+  "mons": [
+   "Mudkip",
+   "Buizel",
+   "Totodile",
+   "Feraligatr"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 2,
+  "name": "Basin Tall Grass and Coral",
+  "req": [
+   "Seabed tall grass x 4",
+   "Small coral x1",
+   "Tall coral x1"
+  ],
+  "mons": [
+   "Corsola",
+   "Shellder",
+   "Swampert"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 3,
+  "name": "Swaying Flower Bed",
+  "req": [
+   "Seabed flowers x4"
+  ],
+  "mons": [
+   "Stunfisk",
+   "Popplio",
+   "Staryu",
+   "Finneon"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 4,
+  "name": "Swaying Flower Bed and Coral",
+  "req": [
+   "Colorful corals x1",
+   "Seabed flowers x4"
+  ],
+  "mons": [
+   "Mareanie",
+   "Luvdisc",
+   "Golisopod"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 5,
+  "name": "Swaying Flower Bed and Seaweed",
+  "req": [
+   "Chimney rocks x1",
+   "Seabed flowers x4",
+   "Lush seaweed x2"
+  ],
+  "mons": [
+   "Cloyster",
+   "Lumineon"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 6,
+  "name": "Seaweed and Netting",
+  "req": [
+   "Netting x4",
+   "Lush seaweed x2"
+  ],
+  "mons": [
+   "Carvanha",
+   "Stunfisk"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 7,
+  "name": "Coral Congregation",
+  "req": [
+   "Colorful corals x1",
+   "Small coral x1",
+   "Tall coral x1"
+  ],
+  "mons": [
+   "Horsea",
+   "Seadra",
+   "Kingdra",
+   "Corsola"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 8,
+  "name": "Sandy Basin Tall Grass",
+  "req": [
+   "Sandpile x1",
+   "Seabed tall grass x4"
+  ],
+  "mons": [
+   "Corphish"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 9,
+  "name": "Sandy Digging Spot",
+  "req": [
+   "Sandpile x1",
+   "Sandtoys x1"
+  ],
+  "mons": [
+   "Shellder",
+   "Corphish",
+   "Crawdaunt"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 10,
+  "name": "Sandy Speech",
+  "req": [
+   "Sandpile x1",
+   "Table (any) x1",
+   "Tabletop mic x1"
+  ],
+  "mons": [
+   "Barboach",
+   "Wiglett"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 11,
+  "name": "Biteable Punching Bag",
+  "req": [
+   "Sandpile x1",
+   "Punching bag x1",
+   "Table (any) x1",
+   "Gold teeth x1"
+  ],
+  "mons": [
+   "Feraligatr"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 12,
+  "name": "Marine Mossy Rest Spot",
+  "req": [
+   "Sea moss x4"
+  ],
+  "mons": [
+   "Finneon",
+   "Lumineon",
+   "Veluza"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 13,
+  "name": "Molten Mossy Rest Spot",
+  "req": [
+   "Molten rock x1",
+   "Sea moss x4"
+  ],
+  "mons": [
+   "Bruxish"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 14,
+  "name": "Creepy Chimney Rocks",
+  "req": [
+   "Sea moss x4",
+   "Chimney rocks x1",
+   "Barrel x1",
+   "Lantern (powered) x1"
+  ],
+  "mons": [
+   "Pincurchin",
+   "Marshtomp"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 15,
+  "name": "Chimney Rocks Dig Site",
+  "req": [
+   "Chimney rocks x1",
+   "Wheelbarrow x1",
+   "Excavation tools x1",
+   "Traffic cone x1"
+  ],
+  "mons": [
+   "Sharpedo",
+   "Croconaw"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 16,
+  "name": "Discarded Treasure",
+  "req": [
+   "Big treasure chest x1",
+   "Waste bin (any) x1",
+   "Garbage bags x1"
+  ],
+  "mons": [
+   "Wimpod",
+   "Golisopod"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 17,
+  "name": "Playing Sailor",
+  "req": [
+   "Big treasure chest x1",
+   "Ship's wheel x1",
+   "Wooden crate x1",
+   "Bottled ship x1"
+  ],
+  "mons": [
+   "Frillish (Female)",
+   "Frillish (Male)",
+   "Dhelmise"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 18,
+  "name": "Treasure Chest and Sparkling Jewels",
+  "req": [
+   "Big treasure chest x1",
+   "Sparkling jewelry x1",
+   "Lantern (powered) x1"
+  ],
+  "mons": [
+   "Luvdisc",
+   "Toxapex"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 19,
+  "name": "Ocean Rest Spot",
+  "req": [
+   "Small coral x1",
+   "Seashell seat x1",
+   "Lampion x1"
+  ],
+  "mons": [
+   "Barboach"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 20,
+  "name": "Marine Shop",
+  "req": [
+   "Cash register (powered) x1",
+   "Table (any) x2",
+   "Water x1"
+  ],
+  "mons": [
+   "Floatzel"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 21,
+  "name": "Ocean Treasures",
+  "req": [
+   "Marine chest x1",
+   "Sparkling jewelry x1",
+   "Bottled ship x1"
+  ],
+  "mons": [
+   "Frillish (Male)",
+   "Frillish (Female)",
+   "Alomomola"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 22,
+  "name": "Smoothie-making Spot",
+  "req": [
+   "Blender x1",
+   "Plated food x1",
+   "Table (any) x1"
+  ],
+  "mons": [
+   "Buizel",
+   "Chewtle"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 23,
+  "name": "Fluffy Relaxation",
+  "req": [
+   "Cushion bed x1",
+   "Lightning (any) x1",
+   "Doll (any) x1"
+  ],
+  "mons": [
+   "Chinchou",
+   "Mudkip",
+   "Luvdisc"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 24,
+  "name": "Canoe Dock",
+  "req": [
+   "Canoe x1",
+   "Floating logs x2",
+   "Water x2"
+  ],
+  "mons": [
+   "Totodile",
+   "Croconaw",
+   "Drednaw"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 25,
+  "name": "Muddy Playtime",
+  "req": [
+   "Windup Inkay x1",
+   "Towel rack x1",
+   "Floating logs x1",
+   "Muddy water x2"
+  ],
+  "mons": [
+   "Marshtomp",
+   "Barboach",
+   "Inkay"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 26,
+  "name": "Muddy Spa",
+  "req": [
+   "Seat (wide) x1",
+   "Gyarados fountain x1",
+   "Bathtime set x1",
+   "Muddy water x2"
+  ],
+  "mons": [
+   "Swampert"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 27,
+  "name": "Topsy-turvy",
+  "req": [
+   "Lampion x3"
+  ],
+  "mons": [
+   "Malamar"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 28,
+  "name": "Bubbly Bathtub",
+  "req": [
+   "Bathtub x1",
+   "Bubble machine x1 (powered)"
+  ],
+  "mons": [
+   "Totodile"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 29,
+  "name": "Bubbly Stage",
+  "req": [
+   "Small stage (powered) x1",
+   "Bubble machine (powered) x2"
+  ],
+  "mons": [
+   "Popplio",
+   "Brionne"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 30,
+  "name": "Glowing Stage for Three",
+  "req": [
+   "Standing mic x3",
+   "Wireless power-transmitter post (powered) x3"
+  ],
+  "mons": [
+   "Wugtrio"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 31,
+  "name": "Elegant Concert",
+  "req": [
+   "Harp x1",
+   "Marine chair x1",
+   "Shell lamp (powered) x2"
+  ],
+  "mons": [
+   "Primarina"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 32,
+  "name": "Maritime Teatime",
+  "req": [
+   "Chic table x1",
+   "Chic chair x2",
+   "Push cart x1",
+   "Bottled ship x1",
+   "Tea set (any) x1"
+  ],
+  "mons": [
+   "Jellicent (Male)",
+   "Jellicent (Female)"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 33,
+  "name": "Nostalgia Zone",
+  "req": [
+   "Antique chest x1",
+   "Music box x1",
+   "Photo frame x1",
+   "Wooden crate x1",
+   "Lantern (powered) x1",
+   "Sea moss x2"
+  ],
+  "mons": [
+   "Lanturn"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 34,
+  "name": "Marine Makeup Stand",
+  "req": [
+   "Marine closet x1",
+   "Marine dresser x1",
+   "Marine chair x1"
+  ],
+  "mons": [
+   "Kingdra"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 35,
+  "name": "Gorgeous Sleeping Area",
+  "req": [
+   "Ornate partition x1",
+   "Ornate bed x1",
+   "Ornate stand x1"
+  ],
+  "mons": [
+   "Whiscash"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 36,
+  "name": "Mermaid's Gym",
+  "req": [
+   "Decorative Great Ball",
+   "Decorative Heal Ball",
+   "Decorative Dive Ball",
+   "Decorative Net Ball",
+   "Decorative Lure Ball",
+   "Decorative Quick Ball"
+  ],
+  "mons": [
+   "Starmie"
+  ],
+  "dex": "basin"
+ },
+ {
+  "no": 1,
+  "name": "Yellow Carpet",
+  "req": [
+   "Dandy Flowers x 4"
+  ],
+  "mons": [
+   "Hoppip",
+   "Jumpluff",
+   "Skiploom"
+  ],
+  "dex": "event"
+ },
+ {
+  "no": 2,
+  "name": "Field-trip Friends",
+  "req": [
+   "Flower Backpack x 1",
+   "Hoppip Water Bottle x 1",
+   "Lunch Box x 1"
+  ],
+  "mons": [
+   "Skiploom"
+  ],
+  "dex": "event"
+ },
+ {
+  "no": 3,
+  "name": "Dandelion Lunchtime",
+  "req": [
+   "Dandy flowers x 1",
+   "Lunch box x 1",
+   "Flower cushion x 1",
+   "Flowery table setting x 1"
+  ],
+  "mons": [
+   "Jumpluff"
+  ],
+  "dex": "event"
+ },
+ {
+  "no": 4,
+  "name": "Treasure-hunting Set",
+  "req": [
+   "Adventure kit x 1",
+   "Map and compass x 1",
+   "Treasure x 1"
+  ],
+  "mons": [
+   "Sableye"
+  ],
+  "dex": "event"
+ },
+ {
+  "no": 5,
+  "name": "Surrounded by Stars",
+  "req": [
+   "Star closet x 1",
+   "Starry-sky bed x 1",
+   "Cloud table x 1",
+   "Jirachi lamp x 1"
+  ],
+  "mons": [
+   "Jirachi"
+  ],
+  "dex": "event"
+ },
+ {
+  "no": 6,
+  "name": "Exciting Beach",
+  "req": [
+   "Sand bed x1",
+   "Big swim ring x1"
+  ],
+  "mons": [
+   "Feebas"
+  ],
+  "dex": "event"
+ },
+ {
+  "no": 7,
+  "name": "Marine Leisure Activities",
+  "req": [
+   "Swim ring x1",
+   "Cooler x1",
+   "Beach volleyball set x1"
+  ],
+  "mons": [
+   "Milotic"
+  ],
+  "dex": "event"
+ }
+]

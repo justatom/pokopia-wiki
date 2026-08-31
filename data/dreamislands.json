@@ -1,0 +1,62 @@
+[
+ {
+  "doll": "Pikachu Doll",
+  "finds": [
+   "Twine",
+   "Seaglass Fragments",
+   "Seashell"
+  ]
+ },
+ {
+  "doll": "Eevee Doll",
+  "finds": [
+   "Leppa Berry",
+   "Vine Rope",
+   "Glowing Mushrooms"
+  ]
+ },
+ {
+  "doll": "Clefairy Doll",
+  "finds": [
+   "Cave Mushrooms",
+   "Copper Ore",
+   "Limestone"
+  ]
+ },
+ {
+  "doll": "Arcanine Doll",
+  "finds": [
+   "Iron Ore",
+   "Gold Ore",
+   "Glowing Stone"
+  ]
+ },
+ {
+  "doll": "Dragonite Doll",
+  "finds": [
+   "Wastepaper",
+   "PokéMetal",
+   "Crystal Fragment"
+  ]
+ },
+ {
+  "doll": "Starmie Doll",
+  "finds": [
+   "Sea grapes",
+   "Small coral",
+   "Grubby pearl"
+  ]
+ },
+ {
+  "doll": "Ditto Doll",
+  "finds": [
+   "Random"
+  ]
+ },
+ {
+  "doll": "Substitute Doll",
+  "finds": [
+   "Random"
+  ]
+ }
+]

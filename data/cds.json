@@ -1,0 +1,491 @@
+[
+ {
+  "name": "Title Screen",
+  "desc": "Music CD #1 If you have a music player, you can listen to an exciting tune",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Red/Green"
+ },
+ {
+  "name": "Pallet Town",
+  "desc": "Music CD #2 If you have a music player, you can listen to a tune for a tranquil town",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Red/Green"
+ },
+ {
+  "name": "Oak's Lab",
+  "desc": "Music CD #3 If you have a music player, you can listen to a tune that reminds you of research!",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Red/Green"
+ },
+ {
+  "name": "Road to Viridian City",
+  "desc": "Music CD #4 If you have a music player, you can listen to an uplifting tune",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Red/Green"
+ },
+ {
+  "name": "Pewter City Theme",
+  "desc": "Music CD #5 If you have a music player, you can listen to a tune for a bustling town",
+  "sources": [
+   "In Pewter Museum in Rocky Ridges",
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Red/Green"
+ },
+ {
+  "name": "Pokémon Center",
+  "desc": "Music CD #6 If you have a music player, you can listen to a tune that puts your mind at ease",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Red/Green"
+ },
+ {
+  "name": "Caves of Mt. Moon",
+  "desc": "Music CD #7 If you have a music player, you can listen to a mystifying tune",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Red/Green"
+ },
+ {
+  "name": "Road to Cerulean City",
+  "desc": "Music CD #8 If you have a music player, you can listen to a lighthearted tuune.",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Red/Green"
+ },
+ {
+  "name": "Fuchsia City Theme",
+  "desc": "Music CD #9 If you have a music player, you can listen to for a refreshing town",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Red/Green"
+ },
+ {
+  "name": "Pokémon Gym",
+  "desc": "Music CD #10 If you have a music player, you can listen to a powerful tune",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Red/Green"
+ },
+ {
+  "name": "Road to Bill",
+  "desc": "Music CD #11 If you have a music player, you can listen to a valiant tune",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Red/Green"
+ },
+ {
+  "name": "Vermilion City Theme",
+  "desc": "Music CD #12 If you have a music player, you can listen to for a town chock-full of energy",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Red/Green"
+ },
+ {
+  "name": "The S.S. Anne",
+  "desc": "Music CD #13 If you have a music player, you can listen to a tune that reminds you of luxury",
+  "sources": [
+   "Aboard the S.S. Anne in Bleak Beach",
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Red/Green"
+ },
+ {
+  "name": "Rocket Hideout",
+  "desc": "Music CD #14 If you have a music player, you can listen to a terrifying tune",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Red/Green"
+ },
+ {
+  "name": "Silph Co.",
+  "desc": "Music CD #15 If you have a music player, you can listen to a suspicious tune",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Red/Green"
+ },
+ {
+  "name": "Battle! (Gym Leader Battle)",
+  "desc": "Music CD #16 If you have a music player, you can listen to a heart-pumping tune",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Red/Green"
+ },
+ {
+  "name": "Union Cave",
+  "desc": "Music CD #17 If you have a music player, you can listen to an eerie tune",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Gold/Silver"
+ },
+ {
+  "name": "Ecruteak City",
+  "desc": "Music CD #18 If you have a music player, you can listen to a graceful turne.",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Gold/Silver"
+ },
+ {
+  "name": "Bell Tower",
+  "desc": "Music CD #19 If you have a music player, you can listen to a dignified tune",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Gold/Silver"
+ },
+ {
+  "name": "Fortree City",
+  "desc": "Music CD #20 If you have a music player, you can listen to a low-key tune",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Ruby/Sapphire"
+ },
+ {
+  "name": "Sootopolis City",
+  "desc": "Music CD #21 If you have a music player, you can listen to a dreamy tune.",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Ruby/Sapphire"
+ },
+ {
+  "name": "Route 209 (Day)",
+  "desc": "Music CD #22 If you have a music player, you can listen to a nostalgic tune",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Diamond/Pearl"
+ },
+ {
+  "name": "Mt. Coronet",
+  "desc": "Music CD #23 If you have a music player, you can listen to a celestial tune",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Diamond/Pearl"
+ },
+ {
+  "name": "Game Corner",
+  "desc": "Music CD #24 If you have a music player, you can listen to an upbeat, fast-paced tune",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Diamond/Pearl"
+ },
+ {
+  "name": "Driftveil City",
+  "desc": "Music CD #25 If you have a music player, you can listen to a nautical tune",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Black/White"
+ },
+ {
+  "name": "Route 10 (Unova)",
+  "desc": "Music CD #26 If you have a music player, you can listen to a tense tune",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Black/White"
+ },
+ {
+  "name": "Dress Up With Props",
+  "desc": "Music CD #27 If you have a music player, you can listen to a cutesy pop tune",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Black/White"
+ },
+ {
+  "name": "Snowbelle City",
+  "desc": "Music CD #28 If you have a music player, you can listen to a melancholy tune.",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon X/Y"
+ },
+ {
+  "name": "Boutique",
+  "desc": "Music CD #29 If you have a music player, you can listen to",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon X/Y"
+ },
+ {
+  "name": "Super Training!",
+  "desc": "Music CD #30 If you have a music player, you can listen to an energetic tune",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon X/Y"
+ },
+ {
+  "name": "Contest Spectacular",
+  "desc": "Music CD #31 If you have a music player, you can listen to a fune tune.",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Omega Ruby / Alpha Sapphire"
+ },
+ {
+  "name": "Hau'oli City (Day)",
+  "desc": "Music CD #32 If you have a music player, you can listen to a tropical tune",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Sun/Moon"
+ },
+ {
+  "name": "Aether Paradise",
+  "desc": "Music CD #33 If you have a music player, you can listen to a mysterious tune",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Sun/Moon"
+ },
+ {
+  "name": "Ultra Ruin",
+  "desc": "Music CD #34 If you have a music player, you can listen to a tune full of static and jumbled noises",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Sun/Moon"
+ },
+ {
+  "name": "Wild Area (North)",
+  "desc": "Music CD #35 If you have a music player, you can listen to a dynamic tune.",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Sword/Shield"
+ },
+ {
+  "name": "Wyndon",
+  "desc": "Music CD #36 If you have a music player, you can listen to",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Sword/Shield"
+ },
+ {
+  "name": "Rose Tower",
+  "desc": "Music CD #37 If you have a music player, you can listen to a high-tempo tune.",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Sword/Shield"
+ },
+ {
+  "name": "Battle! (Gym Leader) 1",
+  "desc": "Music CD #38 If you have a music player, you can listen to an invigorating tune.",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Sword/Shield"
+ },
+ {
+  "name": "Jubilife Village",
+  "desc": "Music CD #39 If you have a music player, you can listen to a warm, nostalgic tune",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Legends: Arceus"
+ },
+ {
+  "name": "South Province",
+  "desc": "Music CD #40 If you have a music player, you can listen to",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Scarlet/Violet"
+ },
+ {
+  "name": "The Academy",
+  "desc": "Music CD #41 If you have a music player, you can listen to",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Scarlet/Violet"
+ },
+ {
+  "name": "Area Zero",
+  "desc": "Music CD #42 If you have a music player, you can listen to that feels special somehow",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Scarlet/Violet"
+ },
+ {
+  "name": "Battle! (Gym Leader) 2",
+  "desc": "Music CD #43 If you have a music player, you can listen to that fills you with courage",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands"
+  ],
+  "game": "Pokémon Scarlet/Violet"
+ },
+ {
+  "name": "The Sea",
+  "desc": "Music CD #100. If you have a music player, you can listen to a chill tune.",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands",
+   "Requires Expansion Pass"
+  ],
+  "game": "Pokémon Pokémon Red & Green"
+ },
+ {
+  "name": "Violet City",
+  "desc": "Music CD #101. If you have a music player, you can listen to a tune for a good old-fashion town",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands",
+   "Requires Expansion Pass"
+  ],
+  "game": "Pokémon Pokémon Gold & Silver"
+ },
+ {
+  "name": "Dive",
+  "desc": "Music CD #102. If you have a music player, you can listen to an engimatic tune.",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands",
+   "Requires Expansion Pass"
+  ],
+  "game": "Pokémon Pokémon Ruby & Sapphire"
+ },
+ {
+  "name": "Canalave City (Night)",
+  "desc": "Music CD #103. If you have a music player, you can listen to a wistful tune.",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands",
+   "Requires Expansion Pass"
+  ],
+  "game": "Pokémon Pokémon Diamond & Pearl"
+ },
+ {
+  "name": "Undella Town (Summer)",
+  "desc": "Music CD #104. If you have a music player, you can listen to a beachy tune.",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands",
+   "Requires Expansion Pass"
+  ],
+  "game": "Pokémon Pokémon Black & White"
+ },
+ {
+  "name": "Lumiose City",
+  "desc": "Music CD #105. If you have a music player, you can listen to a bustling tune",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands",
+   "Requires Expansion Pass"
+  ],
+  "game": "Pokémon"
+ },
+ {
+  "name": "Po Town",
+  "desc": "Music CD #106. If you have a music player, you can listen to a creepy tune.",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands",
+   "Requires Expansion Pass"
+  ],
+  "game": "Pokémon Pokémon Sun & Moon"
+ },
+ {
+  "name": "Stow-on-Side",
+  "desc": "Music CD #107. If you have a music player, you can listen to an old-fashinoed tune.",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands",
+   "Requires Expansion Pass"
+  ],
+  "game": "Pokémon Pokémon Sword & Shield"
+ },
+ {
+  "name": "Cascarrafa",
+  "desc": "Music CD #108. If you have a music player, you can listen to a tune for a lively town.",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands",
+   "Requires Expansion Pass"
+  ],
+  "game": "Pokémon Pokémon Scarlet & Violet"
+ },
+ {
+  "name": "Hotel Z",
+  "desc": "Music CD #109. If you have a music player, you can listen to a relaxed tune.",
+  "sources": [
+   "In glowing terrain",
+   "Dream Islands",
+   "Requires Expansion Pass"
+  ],
+  "game": "Pokémon Pokémon Legends: Z-A"
+ }
+]

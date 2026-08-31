@@ -1,0 +1,8975 @@
+[
+ {
+  "dex": "main",
+  "no": 1,
+  "natdex": 1,
+  "id": "001-bulbasaur",
+  "name": "Bulbasaur",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Grass",
+   "Poison"
+  ],
+  "ja": "フシギダネ",
+  "genus": "Seed Pokémon",
+  "color": "green",
+  "gen": "generation-i",
+  "specialties": [
+   "grow"
+  ],
+  "litter": [],
+  "habitats": [
+   "001-tall-grass",
+   "022-bench-with-greenery"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 2,
+  "natdex": 2,
+  "id": "002-ivysaur",
+  "name": "Ivysaur",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Grass",
+   "Poison"
+  ],
+  "ja": "フシギソウ",
+  "genus": "Seed Pokémon",
+  "color": "green",
+  "gen": "generation-i",
+  "specialties": [
+   "grow"
+  ],
+  "litter": [],
+  "habitats": [
+   "011-field-of-flowers",
+   "022-bench-with-greenery"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 3,
+  "natdex": 3,
+  "id": "003-venusaur",
+  "name": "Venusaur",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Grass",
+   "Poison"
+  ],
+  "ja": "フシギバナ",
+  "genus": "Seed Pokémon",
+  "color": "green",
+  "gen": "generation-i",
+  "specialties": [
+   "grow",
+   "litter"
+  ],
+  "litter": [
+   "Leaf"
+  ],
+  "habitats": [
+   "011-field-of-flowers",
+   "046-garden-terrace"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 4,
+  "natdex": 4,
+  "id": "004-charmander",
+  "name": "Charmander",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fire"
+  ],
+  "ja": "ヒトカゲ",
+  "genus": "Lizard Pokémon",
+  "color": "red",
+  "gen": "generation-i",
+  "specialties": [
+   "burn"
+  ],
+  "litter": [],
+  "habitats": [
+   "001-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 5,
+  "natdex": 5,
+  "id": "005-charmeleon",
+  "name": "Charmeleon",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fire"
+  ],
+  "ja": "リザード",
+  "genus": "Flame Pokémon",
+  "color": "red",
+  "gen": "generation-i",
+  "specialties": [
+   "burn"
+  ],
+  "litter": [],
+  "habitats": [
+   "017-campsite"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 6,
+  "natdex": 6,
+  "id": "006-charizard",
+  "name": "Charizard",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fire",
+   "Flying"
+  ],
+  "ja": "リザードン",
+  "genus": "Flame Pokémon",
+  "color": "red",
+  "gen": "generation-i",
+  "specialties": [
+   "burn",
+   "fly"
+  ],
+  "litter": [],
+  "habitats": [
+   "001-tall-grass",
+   "040-berry-feast-campsite"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 7,
+  "natdex": 7,
+  "id": "007-squirtle",
+  "name": "Squirtle",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "ゼニガメ",
+  "genus": "Tiny Turtle Pokémon",
+  "color": "blue",
+  "gen": "generation-i",
+  "specialties": [
+   "water"
+  ],
+  "litter": [],
+  "habitats": [
+   "001-tall-grass",
+   "004-hydrated-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 8,
+  "natdex": 8,
+  "id": "008-wartortle",
+  "name": "Wartortle",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "カメール",
+  "genus": "Turtle Pokémon",
+  "color": "blue",
+  "gen": "generation-i",
+  "specialties": [
+   "water"
+  ],
+  "litter": [],
+  "habitats": [
+   "004-hydrated-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 9,
+  "natdex": 9,
+  "id": "009-blastoise",
+  "name": "Blastoise",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "カメックス",
+  "genus": "Shellfish Pokémon",
+  "color": "blue",
+  "gen": "generation-i",
+  "specialties": [
+   "water",
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "004-hydrated-tall-grass",
+   "036-floating-in-the-shade"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 10,
+  "natdex": 16,
+  "id": "010-pidgey",
+  "name": "Pidgey",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Normal",
+   "Flying"
+  ],
+  "ja": "ポッポ",
+  "genus": "Tiny Bird Pokémon",
+  "color": "brown",
+  "gen": "generation-i",
+  "specialties": [
+   "fly",
+   "search"
+  ],
+  "litter": [],
+  "habitats": [
+   "006-elevated-tall-grass",
+   "008-pretty-flower-bed"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 11,
+  "natdex": 17,
+  "id": "011-pidgeotto",
+  "name": "Pidgeotto",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Normal",
+   "Flying"
+  ],
+  "ja": "ピジョン",
+  "genus": "Bird Pokémon",
+  "color": "brown",
+  "gen": "generation-i",
+  "specialties": [
+   "fly",
+   "search"
+  ],
+  "litter": [],
+  "habitats": [
+   "006-elevated-tall-grass",
+   "008-pretty-flower-bed"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 12,
+  "natdex": 18,
+  "id": "012-pidgeot",
+  "name": "Pidgeot",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Normal",
+   "Flying"
+  ],
+  "ja": "ピジョット",
+  "genus": "Bird Pokémon",
+  "color": "brown",
+  "gen": "generation-i",
+  "specialties": [
+   "fly",
+   "chop"
+  ],
+  "litter": [],
+  "habitats": [
+   "039-luxury-chirp-chirp-meal"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 13,
+  "natdex": 43,
+  "id": "013-oddish",
+  "name": "Oddish",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Grass",
+   "Poison"
+  ],
+  "ja": "ナゾノクサ",
+  "genus": "Weed Pokémon",
+  "color": "blue",
+  "gen": "generation-i",
+  "specialties": [
+   "grow"
+  ],
+  "litter": [],
+  "habitats": [
+   "001-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 14,
+  "natdex": 44,
+  "id": "014-gloom",
+  "name": "Gloom",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Grass",
+   "Poison"
+  ],
+  "ja": "クサイハナ",
+  "genus": "Weed Pokémon",
+  "color": "blue",
+  "gen": "generation-i",
+  "specialties": [
+   "grow"
+  ],
+  "litter": [],
+  "habitats": [
+   "057-tropical-vibes"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 15,
+  "natdex": 45,
+  "id": "015-vileplume",
+  "name": "Vileplume",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Grass",
+   "Poison"
+  ],
+  "ja": "ラフレシア",
+  "genus": "Flower Pokémon",
+  "color": "red",
+  "gen": "generation-i",
+  "specialties": [
+   "grow",
+   "litter"
+  ],
+  "litter": [
+   "Leaf"
+  ],
+  "habitats": [
+   "034-chansey-resting-area"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 16,
+  "natdex": 182,
+  "id": "016-bellossom",
+  "name": "Bellossom",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Grass"
+  ],
+  "ja": "キレイハナ",
+  "genus": "Flower Pokémon",
+  "color": "green",
+  "gen": "generation-ii",
+  "specialties": [
+   "grow",
+   "hype"
+  ],
+  "litter": [],
+  "habitats": [
+   "034-chansey-resting-area"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 17,
+  "natdex": 46,
+  "id": "017-paras",
+  "name": "Paras",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Bug",
+   "Grass"
+  ],
+  "ja": "パラス",
+  "genus": "Mushroom Pokémon",
+  "color": "red",
+  "gen": "generation-i",
+  "specialties": [
+   "search"
+  ],
+  "litter": [],
+  "habitats": [
+   "012-elevated-flower-bed",
+   "014-flower-garden"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 18,
+  "natdex": 47,
+  "id": "018-parasect",
+  "name": "Parasect",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Bug",
+   "Grass"
+  ],
+  "ja": "パラセクト",
+  "genus": "Mushroom Pokémon",
+  "color": "red",
+  "gen": "generation-i",
+  "specialties": [
+   "search"
+  ],
+  "litter": [],
+  "habitats": [
+   "012-elevated-flower-bed",
+   "014-flower-garden"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 19,
+  "natdex": 48,
+  "id": "019-venonat",
+  "name": "Venonat",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Bug",
+   "Poison"
+  ],
+  "ja": "コンパン",
+  "genus": "Insect Pokémon",
+  "color": "purple",
+  "gen": "generation-i",
+  "specialties": [
+   "search"
+  ],
+  "litter": [],
+  "habitats": [
+   "007-illuminated-tall-grass",
+   "023-illuminated-bench"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 20,
+  "natdex": 49,
+  "id": "020-venomoth",
+  "name": "Venomoth",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Bug",
+   "Poison"
+  ],
+  "ja": "モルフォン",
+  "genus": "Poison Moth Pokémon",
+  "color": "purple",
+  "gen": "generation-i",
+  "specialties": [
+   "search"
+  ],
+  "litter": [],
+  "habitats": [
+   "007-illuminated-tall-grass",
+   "023-illuminated-bench"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 21,
+  "natdex": 69,
+  "id": "021-bellsprout",
+  "name": "Bellsprout",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Grass",
+   "Poison"
+  ],
+  "ja": "マダツボミ",
+  "genus": "Flower Pokémon",
+  "color": "green",
+  "gen": "generation-i",
+  "specialties": [
+   "grow",
+   "litter"
+  ],
+  "litter": [
+   "Vine Rope"
+  ],
+  "habitats": [
+   "002-tree-shaded-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 22,
+  "natdex": 70,
+  "id": "022-weepinbell",
+  "name": "Weepinbell",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Grass",
+   "Poison"
+  ],
+  "ja": "ウツドン",
+  "genus": "Flycatcher Pokémon",
+  "color": "green",
+  "gen": "generation-i",
+  "specialties": [
+   "grow",
+   "litter"
+  ],
+  "litter": [
+   "Vine Rope"
+  ],
+  "habitats": [
+   "021-flowery-table",
+   "035-irresistible-scent-and-glow"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 23,
+  "natdex": 71,
+  "id": "023-victreebel",
+  "name": "Victreebel",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Grass",
+   "Poison"
+  ],
+  "ja": "ウツボット",
+  "genus": "Flycatcher Pokémon",
+  "color": "green",
+  "gen": "generation-i",
+  "specialties": [
+   "grow",
+   "chop"
+  ],
+  "litter": [],
+  "habitats": [
+   "021-flowery-table",
+   "035-irresistible-scent-and-glow"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 24,
+  "natdex": 79,
+  "id": "024-slowpoke",
+  "name": "Slowpoke",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Psychic"
+  ],
+  "ja": "ヤドン",
+  "genus": "Dopey Pokémon",
+  "color": "pink",
+  "gen": "generation-i",
+  "specialties": [
+   "water",
+   "yawn"
+  ],
+  "litter": [],
+  "habitats": [
+   "005-seaside-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 25,
+  "natdex": 80,
+  "id": "025-slowbro",
+  "name": "Slowbro",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Psychic"
+  ],
+  "ja": "ヤドラン",
+  "genus": "Hermit Crab Pokémon",
+  "color": "pink",
+  "gen": "generation-i",
+  "specialties": [
+   "water",
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "005-seaside-tall-grass",
+   "030-bed-with-a-plush",
+   "184-fishing-pond"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 26,
+  "natdex": 199,
+  "id": "026-slowking",
+  "name": "Slowking",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Psychic"
+  ],
+  "ja": "ヤドキング",
+  "genus": "Royal Pokémon",
+  "color": "pink",
+  "gen": "generation-ii",
+  "specialties": [
+   "water",
+   "teleport"
+  ],
+  "litter": [],
+  "habitats": [
+   "005-seaside-tall-grass",
+   "030-bed-with-a-plush",
+   "184-fishing-pond"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 27,
+  "natdex": 81,
+  "id": "027-magnemite",
+  "name": "Magnemite",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Electric",
+   "Steel"
+  ],
+  "ja": "コイル",
+  "genus": "Magnet Pokémon",
+  "color": "gray",
+  "gen": "generation-i",
+  "specialties": [
+   "generate"
+  ],
+  "litter": [],
+  "habitats": [
+   "038-factory-storage"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 28,
+  "natdex": 82,
+  "id": "028-magneton",
+  "name": "Magneton",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Electric",
+   "Steel"
+  ],
+  "ja": "レアコイル",
+  "genus": "Magnet Pokémon",
+  "color": "gray",
+  "gen": "generation-i",
+  "specialties": [
+   "generate"
+  ],
+  "litter": [],
+  "habitats": [
+   "064-trash-can-central",
+   "085-mini-game-corner"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 29,
+  "natdex": 462,
+  "id": "029-magnezone",
+  "name": "Magnezone",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Electric",
+   "Steel"
+  ],
+  "ja": "ジバコイル",
+  "genus": "Magnet Area Pokémon",
+  "color": "gray",
+  "gen": "generation-iv",
+  "specialties": [
+   "generate",
+   "recycle"
+  ],
+  "litter": [],
+  "habitats": [
+   "064-trash-can-central",
+   "085-mini-game-corner"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 30,
+  "natdex": 95,
+  "id": "030-onix",
+  "name": "Onix",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Rock",
+   "Ground"
+  ],
+  "ja": "イワーク",
+  "genus": "Rock Snake Pokémon",
+  "color": "gray",
+  "gen": "generation-i",
+  "specialties": [
+   "crush",
+   "bulldoze"
+  ],
+  "litter": [],
+  "habitats": [
+   "037-smooth-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 31,
+  "natdex": 208,
+  "id": "031-steelix",
+  "name": "Steelix",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Steel",
+   "Ground"
+  ],
+  "ja": "ハガネール",
+  "genus": "Iron Snake Pokémon",
+  "color": "gray",
+  "gen": "generation-ii",
+  "specialties": [
+   "crush",
+   "bulldoze"
+  ],
+  "litter": [],
+  "habitats": [
+   "117-clink-clang-iron-construction"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 32,
+  "natdex": 104,
+  "id": "032-cubone",
+  "name": "Cubone",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Ground"
+  ],
+  "ja": "カラカラ",
+  "genus": "Lonely Pokémon",
+  "color": "brown",
+  "gen": "generation-i",
+  "specialties": [
+   "build"
+  ],
+  "litter": [],
+  "habitats": [
+   "013-grave-with-flowers"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 33,
+  "natdex": 105,
+  "id": "033-marowak",
+  "name": "Marowak",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Ground"
+  ],
+  "ja": "ガラガラ",
+  "genus": "Bone Keeper Pokémon",
+  "color": "brown",
+  "gen": "generation-i",
+  "specialties": [
+   "build"
+  ],
+  "litter": [],
+  "habitats": [
+   "013-grave-with-flowers"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 34,
+  "natdex": 236,
+  "id": "034-tyrogue",
+  "name": "Tyrogue",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fighting"
+  ],
+  "ja": "バルキー",
+  "genus": "Scuffle Pokémon",
+  "color": "purple",
+  "gen": "generation-ii",
+  "specialties": [
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "018-training-waterfall"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 35,
+  "natdex": 106,
+  "id": "035-hitmonlee",
+  "name": "Hitmonlee",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fighting"
+  ],
+  "ja": "サワムラー",
+  "genus": "Kicking Pokémon",
+  "color": "brown",
+  "gen": "generation-i",
+  "specialties": [
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "025-urgent-care"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 36,
+  "natdex": 107,
+  "id": "036-hitmonchan",
+  "name": "Hitmonchan",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fighting"
+  ],
+  "ja": "エビワラー",
+  "genus": "Punching Pokémon",
+  "color": "brown",
+  "gen": "generation-i",
+  "specialties": [
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "024-exercise-resting-spot"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 37,
+  "natdex": 237,
+  "id": "037-hitmontop",
+  "name": "Hitmontop",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fighting"
+  ],
+  "ja": "カポエラー",
+  "genus": "Handstand Pokémon",
+  "color": "brown",
+  "gen": "generation-ii",
+  "specialties": [
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "026-gym-first-aid"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 38,
+  "natdex": 109,
+  "id": "038-koffing",
+  "name": "Koffing",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Poison"
+  ],
+  "ja": "ドガース",
+  "genus": "Poison Gas Pokémon",
+  "color": "purple",
+  "gen": "generation-i",
+  "specialties": [
+   "recycle"
+  ],
+  "litter": [],
+  "habitats": [
+   "063-trash-collection-site"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 39,
+  "natdex": 110,
+  "id": "039-weezing",
+  "name": "Weezing",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Poison"
+  ],
+  "ja": "マタドガス",
+  "genus": "Poison Gas Pokémon",
+  "color": "purple",
+  "gen": "generation-i",
+  "specialties": [
+   "recycle"
+  ],
+  "litter": [],
+  "habitats": [
+   "048-good-old-fashioned-antiques",
+   "063-trash-collection-site"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 40,
+  "natdex": 114,
+  "id": "040-tangela",
+  "name": "Tangela",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Grass"
+  ],
+  "ja": "モンジャラ",
+  "genus": "Vine Pokémon",
+  "color": "blue",
+  "gen": "generation-i",
+  "specialties": [
+   "grow",
+   "litter"
+  ],
+  "litter": [
+   "Vine Rope"
+  ],
+  "habitats": [
+   "049-nothin-but-poke-balls"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 41,
+  "natdex": 465,
+  "id": "041-tangrowth",
+  "name": "Tangrowth",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Grass"
+  ],
+  "ja": "モジャンボ",
+  "genus": "Vine Pokémon",
+  "color": "blue",
+  "gen": "generation-iv",
+  "specialties": [
+   "grow",
+   "litter"
+  ],
+  "litter": [
+   "Vine Rope"
+  ],
+  "habitats": []
+ },
+ {
+  "dex": "main",
+  "no": 41,
+  "natdex": 465,
+  "id": "041-tangrowth-professor",
+  "name": "Tangrowth",
+  "form": "Professor",
+  "alias": "Professor Tangrowth",
+  "types": [
+   "Grass"
+  ],
+  "ja": "モジャンボ",
+  "genus": "Vine Pokémon",
+  "color": "blue",
+  "gen": "generation-iv",
+  "specialties": [
+   "appraise"
+  ],
+  "litter": [
+   "Vine Rope"
+  ],
+  "habitats": [
+   "043-professor-s-treasure-trove"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 42,
+  "natdex": 123,
+  "id": "042-scyther",
+  "name": "Scyther",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Bug",
+   "Flying"
+  ],
+  "ja": "ストライク",
+  "genus": "Mantis Pokémon",
+  "color": "green",
+  "gen": "generation-i",
+  "specialties": [
+   "chop"
+  ],
+  "litter": [],
+  "habitats": [
+   "002-tree-shaded-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 43,
+  "natdex": 212,
+  "id": "043-scizor",
+  "name": "Scizor",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Bug",
+   "Steel"
+  ],
+  "ja": "ハッサム",
+  "genus": "Pincer Pokémon",
+  "color": "red",
+  "gen": "generation-ii",
+  "specialties": [
+   "chop"
+  ],
+  "litter": [],
+  "habitats": [
+   "002-tree-shaded-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 44,
+  "natdex": 127,
+  "id": "044-pinsir",
+  "name": "Pinsir",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Bug"
+  ],
+  "ja": "カイロス",
+  "genus": "Stag Beetle Pokémon",
+  "color": "brown",
+  "gen": "generation-i",
+  "specialties": [
+   "chop",
+   "build"
+  ],
+  "litter": [],
+  "habitats": [
+   "002-tree-shaded-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 45,
+  "natdex": 129,
+  "id": "045-magikarp",
+  "name": "Magikarp",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "コイキング",
+  "genus": "Fish Pokémon",
+  "color": "red",
+  "gen": "generation-i",
+  "specialties": [],
+  "litter": [],
+  "habitats": [
+   "185-ocean-fishing-spot"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 46,
+  "natdex": 130,
+  "id": "046-gyarados",
+  "name": "Gyarados",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Flying"
+  ],
+  "ja": "ギャラドス",
+  "genus": "Atrocious Pokémon",
+  "color": "blue",
+  "gen": "generation-i",
+  "specialties": [
+   "water"
+  ],
+  "litter": [],
+  "habitats": [
+   "146-illuminated-waterfall"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 47,
+  "natdex": 132,
+  "id": "047-ditto",
+  "name": "Ditto",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Normal"
+  ],
+  "ja": "メタモン",
+  "genus": "Transform Pokémon",
+  "color": "purple",
+  "gen": "generation-i",
+  "specialties": [
+   "transform"
+  ],
+  "litter": [],
+  "habitats": []
+ },
+ {
+  "dex": "main",
+  "no": 48,
+  "natdex": 163,
+  "id": "048-hoothoot",
+  "name": "Hoothoot",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Normal",
+   "Flying"
+  ],
+  "ja": "ホーホー",
+  "genus": "Owl Pokémon",
+  "color": "brown",
+  "gen": "generation-ii",
+  "specialties": [
+   "trade",
+   "fly"
+  ],
+  "litter": [],
+  "habitats": [
+   "006-elevated-tall-grass",
+   "008-pretty-flower-bed",
+   "031-gently-lit-bed"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 49,
+  "natdex": 164,
+  "id": "049-noctowl",
+  "name": "Noctowl",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Normal",
+   "Flying"
+  ],
+  "ja": "ヨルノズク",
+  "genus": "Owl Pokémon",
+  "color": "brown",
+  "gen": "generation-ii",
+  "specialties": [
+   "trade",
+   "fly"
+  ],
+  "litter": [],
+  "habitats": [
+   "006-elevated-tall-grass",
+   "031-gently-lit-bed"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 50,
+  "natdex": 214,
+  "id": "050-heracross",
+  "name": "Heracross",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Bug",
+   "Fighting"
+  ],
+  "ja": "ヘラクロス",
+  "genus": "Single Horn Pokémon",
+  "color": "blue",
+  "gen": "generation-ii",
+  "specialties": [
+   "chop",
+   "build"
+  ],
+  "litter": [],
+  "habitats": [
+   "002-tree-shaded-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 51,
+  "natdex": 313,
+  "id": "051-volbeat",
+  "name": "Volbeat",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Bug"
+  ],
+  "ja": "バルビート",
+  "genus": "Firefly Pokémon",
+  "color": "gray",
+  "gen": "generation-iii",
+  "specialties": [
+   "hype"
+  ],
+  "litter": [],
+  "habitats": [
+   "010-hydrated-flower-bed"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 52,
+  "natdex": 314,
+  "id": "052-illumise",
+  "name": "Illumise",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Bug"
+  ],
+  "ja": "イルミーゼ",
+  "genus": "Firefly Pokémon",
+  "color": "purple",
+  "gen": "generation-iii",
+  "specialties": [
+   "hype"
+  ],
+  "litter": [],
+  "habitats": [
+   "010-hydrated-flower-bed"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 53,
+  "natdex": 316,
+  "id": "053-gulpin",
+  "name": "Gulpin",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Poison"
+  ],
+  "ja": "ゴクリン",
+  "genus": "Stomach Pokémon",
+  "color": "green",
+  "gen": "generation-iii",
+  "specialties": [
+   "storage"
+  ],
+  "litter": [],
+  "habitats": [
+   "019-tantalizing-dining-set"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 54,
+  "natdex": 317,
+  "id": "054-swalot",
+  "name": "Swalot",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Poison"
+  ],
+  "ja": "マルノーム",
+  "genus": "Poison Bag Pokémon",
+  "color": "purple",
+  "gen": "generation-iii",
+  "specialties": [
+   "storage"
+  ],
+  "litter": [],
+  "habitats": [
+   "120-dinner-table-surprise"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 55,
+  "natdex": 331,
+  "id": "055-cacnea",
+  "name": "Cacnea",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Grass"
+  ],
+  "ja": "サボネア",
+  "genus": "Cactus Pokémon",
+  "color": "green",
+  "gen": "generation-iii",
+  "specialties": [
+   "grow"
+  ],
+  "litter": [],
+  "habitats": [
+   "042-sunny-day-site"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 56,
+  "natdex": 332,
+  "id": "056-cacturne",
+  "name": "Cacturne",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Grass",
+   "Dark"
+  ],
+  "ja": "ノクタス",
+  "genus": "Scarecrow Pokémon",
+  "color": "green",
+  "gen": "generation-iii",
+  "specialties": [
+   "grow",
+   "litter"
+  ],
+  "litter": [
+   "Sturdy Stick"
+  ],
+  "habitats": [
+   "009-tree-shaded-flower-bed"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 57,
+  "natdex": 415,
+  "id": "057-combee",
+  "name": "Combee",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Bug",
+   "Flying"
+  ],
+  "ja": "ミツハニー",
+  "genus": "Tiny Bee Pokémon",
+  "color": "yellow",
+  "gen": "generation-iv",
+  "specialties": [
+   "litter"
+  ],
+  "litter": [
+   "Honey"
+  ],
+  "habitats": [
+   "008-pretty-flower-bed"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 58,
+  "natdex": 416,
+  "id": "058-vespiquen",
+  "name": "Vespiquen",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Bug",
+   "Flying"
+  ],
+  "ja": "ビークイン",
+  "genus": "Beehive Pokémon",
+  "color": "yellow",
+  "gen": "generation-iv",
+  "specialties": [
+   "gather-honey",
+   "search"
+  ],
+  "litter": [],
+  "habitats": [
+   "011-field-of-flowers"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 59,
+  "natdex": 422,
+  "id": "059-shellos-west-sea",
+  "name": "Shellos",
+  "form": "West Sea",
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "カラナクシ",
+  "genus": "Sea Slug Pokémon",
+  "color": "purple",
+  "gen": "generation-iv",
+  "specialties": [
+   "water"
+  ],
+  "litter": [],
+  "habitats": [
+   "027-road-sign"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 59,
+  "natdex": 422,
+  "id": "059-shellos-east-sea",
+  "name": "Shellos",
+  "form": "East Sea",
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "カラナクシ",
+  "genus": "Sea Slug Pokémon",
+  "color": "purple",
+  "gen": "generation-iv",
+  "specialties": [
+   "water"
+  ],
+  "litter": [],
+  "habitats": [
+   "027-road-sign"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 60,
+  "natdex": 423,
+  "id": "060-gastrodon-west-sea",
+  "name": "Gastrodon",
+  "form": "West Sea",
+  "alias": null,
+  "types": [
+   "Water",
+   "Ground"
+  ],
+  "ja": "トリトドン",
+  "genus": "Sea Slug Pokémon",
+  "color": "purple",
+  "gen": "generation-iv",
+  "specialties": [
+   "water",
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "185-ocean-fishing-spot"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 60,
+  "natdex": 423,
+  "id": "060-gastrodon-east-sea",
+  "name": "Gastrodon",
+  "form": "East Sea",
+  "alias": null,
+  "types": [
+   "Water",
+   "Ground"
+  ],
+  "ja": "トリトドン",
+  "genus": "Sea Slug Pokémon",
+  "color": "purple",
+  "gen": "generation-iv",
+  "specialties": [
+   "water",
+   "trade"
+  ],
+  "litter": [],
+  "habitats": []
+ },
+ {
+  "dex": "main",
+  "no": 61,
+  "natdex": 425,
+  "id": "061-drifloon",
+  "name": "Drifloon",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Ghost",
+   "Flying"
+  ],
+  "ja": "フワンテ",
+  "genus": "Balloon Pokémon",
+  "color": "purple",
+  "gen": "generation-iv",
+  "specialties": [
+   "dream-island"
+  ],
+  "litter": [],
+  "habitats": [
+   "016-riding-warm-updrafts",
+   "030-bed-with-a-plush",
+   "181-plush-central"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 62,
+  "natdex": 426,
+  "id": "062-drifblim",
+  "name": "Drifblim",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Ghost",
+   "Flying"
+  ],
+  "ja": "フワライド",
+  "genus": "Blimp Pokémon",
+  "color": "purple",
+  "gen": "generation-iv",
+  "specialties": [
+   "fly",
+   "gather"
+  ],
+  "litter": [],
+  "habitats": [
+   "181-plush-central"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 63,
+  "natdex": 529,
+  "id": "063-drilbur",
+  "name": "Drilbur",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Ground"
+  ],
+  "ja": "モグリュー",
+  "genus": "Mole Pokémon",
+  "color": "gray",
+  "gen": "generation-v",
+  "specialties": [
+   "search"
+  ],
+  "litter": [],
+  "habitats": [
+   "015-fresh-veggie-field"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 64,
+  "natdex": 530,
+  "id": "064-excadrill",
+  "name": "Excadrill",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Ground",
+   "Steel"
+  ],
+  "ja": "ドリュウズ",
+  "genus": "Subterrene Pokémon",
+  "color": "gray",
+  "gen": "generation-v",
+  "specialties": [
+   "search",
+   "chop"
+  ],
+  "litter": [],
+  "habitats": [
+   "015-fresh-veggie-field"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 65,
+  "natdex": 532,
+  "id": "065-timburr",
+  "name": "Timburr",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fighting"
+  ],
+  "ja": "ドッコラー",
+  "genus": "Muscular Pokémon",
+  "color": "gray",
+  "gen": "generation-v",
+  "specialties": [
+   "build"
+  ],
+  "litter": [],
+  "habitats": [
+   "003-boulder-shaded-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 66,
+  "natdex": 533,
+  "id": "066-gurdurr",
+  "name": "Gurdurr",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fighting"
+  ],
+  "ja": "ドテッコツ",
+  "genus": "Muscular Pokémon",
+  "color": "gray",
+  "gen": "generation-v",
+  "specialties": [
+   "build"
+  ],
+  "litter": [],
+  "habitats": [
+   "003-boulder-shaded-tall-grass",
+   "028-large-luggage-carrier"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 67,
+  "natdex": 534,
+  "id": "067-conkeldurr",
+  "name": "Conkeldurr",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fighting"
+  ],
+  "ja": "ローブシン",
+  "genus": "Muscular Pokémon",
+  "color": "brown",
+  "gen": "generation-v",
+  "specialties": [
+   "build",
+   "crush"
+  ],
+  "litter": [],
+  "habitats": [
+   "177-construction-site-generator"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 68,
+  "natdex": 607,
+  "id": "068-litwick",
+  "name": "Litwick",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Ghost",
+   "Fire"
+  ],
+  "ja": "ヒトモシ",
+  "genus": "Candle Pokémon",
+  "color": "white",
+  "gen": "generation-v",
+  "specialties": [
+   "burn"
+  ],
+  "litter": [],
+  "habitats": [
+   "032-grave-offering",
+   "033-creepy-grave-offering"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 69,
+  "natdex": 608,
+  "id": "069-lampent",
+  "name": "Lampent",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Ghost",
+   "Fire"
+  ],
+  "ja": "ランプラー",
+  "genus": "Lamp Pokémon",
+  "color": "black",
+  "gen": "generation-v",
+  "specialties": [
+   "burn"
+  ],
+  "litter": [],
+  "habitats": [
+   "032-grave-offering",
+   "033-creepy-grave-offering"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 70,
+  "natdex": 609,
+  "id": "070-chandelure",
+  "name": "Chandelure",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Ghost",
+   "Fire"
+  ],
+  "ja": "シャンデラ",
+  "genus": "Luring Pokémon",
+  "color": "black",
+  "gen": "generation-v",
+  "specialties": [
+   "burn"
+  ],
+  "litter": [],
+  "habitats": [
+   "033-creepy-grave-offering"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 71,
+  "natdex": 610,
+  "id": "071-axew",
+  "name": "Axew",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Dragon"
+  ],
+  "ja": "キバゴ",
+  "genus": "Tusk Pokémon",
+  "color": "green",
+  "gen": "generation-v",
+  "specialties": [
+   "chop"
+  ],
+  "litter": [],
+  "habitats": [
+   "029-lumberjack-s-workplace",
+   "044-cozy-log-handicrafts"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 72,
+  "natdex": 611,
+  "id": "072-fraxure",
+  "name": "Fraxure",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Dragon"
+  ],
+  "ja": "オノンド",
+  "genus": "Axe Jaw Pokémon",
+  "color": "green",
+  "gen": "generation-v",
+  "specialties": [
+   "chop"
+  ],
+  "litter": [],
+  "habitats": [
+   "029-lumberjack-s-workplace",
+   "044-cozy-log-handicrafts"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 73,
+  "natdex": 612,
+  "id": "073-haxorus",
+  "name": "Haxorus",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Dragon"
+  ],
+  "ja": "オノノクス",
+  "genus": "Axe Jaw Pokémon",
+  "color": "yellow",
+  "gen": "generation-v",
+  "specialties": [
+   "chop",
+   "litter"
+  ],
+  "litter": [
+   "Small log"
+  ],
+  "habitats": [
+   "029-lumberjack-s-workplace",
+   "044-cozy-log-handicrafts"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 74,
+  "natdex": 704,
+  "id": "074-goomy",
+  "name": "Goomy",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Dragon"
+  ],
+  "ja": "ヌメラ",
+  "genus": "Soft Tissue Pokémon",
+  "color": "purple",
+  "gen": "generation-vi",
+  "specialties": [
+   "water"
+  ],
+  "litter": [],
+  "habitats": [
+   "009-tree-shaded-flower-bed",
+   "041-rain-dance-site"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 75,
+  "natdex": 705,
+  "id": "075-sliggoo",
+  "name": "Sliggoo",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Dragon"
+  ],
+  "ja": "ヌメイル",
+  "genus": "Soft Tissue Pokémon",
+  "color": "purple",
+  "gen": "generation-vi",
+  "specialties": [
+   "water"
+  ],
+  "litter": [],
+  "habitats": [
+   "004-hydrated-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 76,
+  "natdex": 706,
+  "id": "076-goodra",
+  "name": "Goodra",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Dragon"
+  ],
+  "ja": "ヌメルゴン",
+  "genus": "Dragon Pokémon",
+  "color": "purple",
+  "gen": "generation-vi",
+  "specialties": [
+   "water",
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "045-very-berry-space"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 77,
+  "natdex": 845,
+  "id": "077-cramorant",
+  "name": "Cramorant",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Flying",
+   "Water"
+  ],
+  "ja": "ウッウ",
+  "genus": "Gulp Pokémon",
+  "color": "blue",
+  "gen": "generation-viii",
+  "specialties": [
+   "fly",
+   "water"
+  ],
+  "litter": [],
+  "habitats": [
+   "004-hydrated-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 78,
+  "natdex": 172,
+  "id": "078-pichu",
+  "name": "Pichu",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Electric"
+  ],
+  "ja": "ピチュー",
+  "genus": "Tiny Mouse Pokémon",
+  "color": "yellow",
+  "gen": "generation-ii",
+  "specialties": [
+   "generate"
+  ],
+  "litter": [],
+  "habitats": [
+   "020-picnic-set"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 79,
+  "natdex": 25,
+  "id": "079-pikachu",
+  "name": "Pikachu",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Electric"
+  ],
+  "ja": "ピカチュウ",
+  "genus": "Mouse Pokémon",
+  "color": "yellow",
+  "gen": "generation-i",
+  "specialties": [
+   "generate"
+  ],
+  "litter": [],
+  "habitats": [
+   "020-picnic-set"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 79,
+  "natdex": 25,
+  "id": "079-pikachu-pale",
+  "name": "Pikachu",
+  "form": "Pale",
+  "alias": "Peakychu",
+  "types": [
+   "Electric"
+  ],
+  "ja": "ピカチュウ",
+  "genus": "Mouse Pokémon",
+  "color": "yellow",
+  "gen": "generation-i",
+  "specialties": [
+   "illuminate"
+  ],
+  "litter": [],
+  "habitats": [
+   "081-full-recovery"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 80,
+  "natdex": 26,
+  "id": "080-raichu",
+  "name": "Raichu",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Electric"
+  ],
+  "ja": "ライチュウ",
+  "genus": "Mouse Pokémon",
+  "color": "yellow",
+  "gen": "generation-i",
+  "specialties": [
+   "generate",
+   "hype"
+  ],
+  "litter": [],
+  "habitats": [
+   "176-nature-s-market"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 81,
+  "natdex": 41,
+  "id": "081-zubat",
+  "name": "Zubat",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Poison",
+   "Flying"
+  ],
+  "ja": "ズバット",
+  "genus": "Bat Pokémon",
+  "color": "purple",
+  "gen": "generation-i",
+  "specialties": [
+   "search"
+  ],
+  "litter": [],
+  "habitats": [
+   "051-tree-shaded-yellow-tall-grass",
+   "066-park-bench"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 82,
+  "natdex": 42,
+  "id": "082-golbat",
+  "name": "Golbat",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Poison",
+   "Flying"
+  ],
+  "ja": "ゴルバット",
+  "genus": "Bat Pokémon",
+  "color": "purple",
+  "gen": "generation-i",
+  "specialties": [
+   "search"
+  ],
+  "litter": [],
+  "habitats": [
+   "051-tree-shaded-yellow-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 83,
+  "natdex": 169,
+  "id": "083-crobat",
+  "name": "Crobat",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Poison",
+   "Flying"
+  ],
+  "ja": "クロバット",
+  "genus": "Bat Pokémon",
+  "color": "purple",
+  "gen": "generation-ii",
+  "specialties": [
+   "search",
+   "chop"
+  ],
+  "litter": [],
+  "habitats": [
+   "052-elevated-yellow-tall-grass",
+   "065-trash-disposal-site"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 84,
+  "natdex": 52,
+  "id": "084-meowth",
+  "name": "Meowth",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Normal"
+  ],
+  "ja": "ニャース",
+  "genus": "Scratch Cat Pokémon",
+  "color": "yellow",
+  "gen": "generation-i",
+  "specialties": [
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "061-resting-spot",
+   "091-working-the-register"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 85,
+  "natdex": 53,
+  "id": "085-persian",
+  "name": "Persian",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Normal"
+  ],
+  "ja": "ペルシアン",
+  "genus": "Classy Cat Pokémon",
+  "color": "yellow",
+  "gen": "generation-i",
+  "specialties": [
+   "trade",
+   "search"
+  ],
+  "litter": [],
+  "habitats": [
+   "179-evil-organization-hq"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 86,
+  "natdex": 54,
+  "id": "086-psyduck",
+  "name": "Psyduck",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "コダック",
+  "genus": "Duck Pokémon",
+  "color": "yellow",
+  "gen": "generation-i",
+  "specialties": [
+   "search"
+  ],
+  "litter": [],
+  "habitats": [
+   "078-hot-spring-shower"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 87,
+  "natdex": 55,
+  "id": "087-golduck",
+  "name": "Golduck",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "ゴルダック",
+  "genus": "Duck Pokémon",
+  "color": "blue",
+  "gen": "generation-i",
+  "specialties": [
+   "search"
+  ],
+  "litter": [],
+  "habitats": [
+   "078-hot-spring-shower"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 88,
+  "natdex": 58,
+  "id": "088-growlithe",
+  "name": "Growlithe",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fire"
+  ],
+  "ja": "ガーディ",
+  "genus": "Puppy Pokémon",
+  "color": "brown",
+  "gen": "generation-i",
+  "specialties": [
+   "burn",
+   "search"
+  ],
+  "litter": [],
+  "habitats": [
+   "062-perpetual-mess",
+   "079-resort-meal-prep"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 89,
+  "natdex": 59,
+  "id": "089-arcanine",
+  "name": "Arcanine",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fire"
+  ],
+  "ja": "ウインディ",
+  "genus": "Legendary Pokémon",
+  "color": "brown",
+  "gen": "generation-i",
+  "specialties": [
+   "burn",
+   "search"
+  ],
+  "litter": [],
+  "habitats": [
+   "129-mini-museum",
+   "188-magma-fishing-spot"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 90,
+  "natdex": 83,
+  "id": "090-farfetch-d",
+  "name": "Farfetch'd",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Normal",
+   "Flying"
+  ],
+  "ja": "カモネギ",
+  "genus": "Wild Duck Pokémon",
+  "color": "brown",
+  "gen": "generation-i",
+  "specialties": [
+   "chop",
+   "build"
+  ],
+  "litter": [],
+  "habitats": [
+   "080-all-packed-up"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 91,
+  "natdex": 88,
+  "id": "091-grimer",
+  "name": "Grimer",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Poison"
+  ],
+  "ja": "ベトベター",
+  "genus": "Sludge Pokémon",
+  "color": "purple",
+  "gen": "generation-i",
+  "specialties": [
+   "litter"
+  ],
+  "litter": [
+   "Nonburnable Garbage"
+  ],
+  "habitats": [
+   "186-marsh-fishing-spot"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 92,
+  "natdex": 89,
+  "id": "092-muk",
+  "name": "Muk",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Poison"
+  ],
+  "ja": "ベトベトン",
+  "genus": "Sludge Pokémon",
+  "color": "purple",
+  "gen": "generation-i",
+  "specialties": [
+   "litter"
+  ],
+  "litter": [
+   "Nonburnable Garbage"
+  ],
+  "habitats": [
+   "186-marsh-fishing-spot"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 93,
+  "natdex": 92,
+  "id": "093-gastly",
+  "name": "Gastly",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Ghost",
+   "Poison"
+  ],
+  "ja": "ゴース",
+  "genus": "Gas Pokémon",
+  "color": "purple",
+  "gen": "generation-i",
+  "specialties": [
+   "gather",
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "089-spooky-study"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 94,
+  "natdex": 93,
+  "id": "094-haunter",
+  "name": "Haunter",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Ghost",
+   "Poison"
+  ],
+  "ja": "ゴースト",
+  "genus": "Gas Pokémon",
+  "color": "purple",
+  "gen": "generation-i",
+  "specialties": [
+   "gather",
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "073-surprise-in-store",
+   "089-spooky-study"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 95,
+  "natdex": 94,
+  "id": "095-gengar",
+  "name": "Gengar",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Ghost",
+   "Poison"
+  ],
+  "ja": "ゲンガー",
+  "genus": "Shadow Pokémon",
+  "color": "purple",
+  "gen": "generation-i",
+  "specialties": [
+   "gather",
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "073-surprise-in-store"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 96,
+  "natdex": 100,
+  "id": "096-voltorb",
+  "name": "Voltorb",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Electric"
+  ],
+  "ja": "ビリリダマ",
+  "genus": "Ball Pokémon",
+  "color": "red",
+  "gen": "generation-i",
+  "specialties": [
+   "generate",
+   "explode"
+  ],
+  "litter": [],
+  "habitats": [
+   "066-park-bench",
+   "090-playing-pirate"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 97,
+  "natdex": 101,
+  "id": "097-electrode",
+  "name": "Electrode",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Electric"
+  ],
+  "ja": "マルマイン",
+  "genus": "Ball Pokémon",
+  "color": "red",
+  "gen": "generation-i",
+  "specialties": [
+   "generate",
+   "explode"
+  ],
+  "litter": [],
+  "habitats": [
+   "066-park-bench",
+   "090-playing-pirate"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 98,
+  "natdex": 102,
+  "id": "098-exeggcute",
+  "name": "Exeggcute",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Grass",
+   "Psychic"
+  ],
+  "ja": "タマタマ",
+  "genus": "Egg Pokémon",
+  "color": "pink",
+  "gen": "generation-i",
+  "specialties": [
+   "grow",
+   "teleport"
+  ],
+  "litter": [],
+  "habitats": [
+   "057-tropical-vibes",
+   "059-shaded-beach"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 99,
+  "natdex": 103,
+  "id": "099-exeggutor",
+  "name": "Exeggutor",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Grass",
+   "Psychic"
+  ],
+  "ja": "ナッシー",
+  "genus": "Coconut Pokémon",
+  "color": "yellow",
+  "gen": "generation-i",
+  "specialties": [
+   "grow",
+   "teleport"
+  ],
+  "litter": [],
+  "habitats": [
+   "057-tropical-vibes",
+   "059-shaded-beach"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 100,
+  "natdex": 440,
+  "id": "100-happiny",
+  "name": "Happiny",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Normal"
+  ],
+  "ja": "ピンプク",
+  "genus": "Playhouse Pokémon",
+  "color": "pink",
+  "gen": "generation-iv",
+  "specialties": [
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "082-alarm-clock-sleep-zone",
+   "091-working-the-register"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 101,
+  "natdex": 113,
+  "id": "101-chansey",
+  "name": "Chansey",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Normal"
+  ],
+  "ja": "ラッキー",
+  "genus": "Egg Pokémon",
+  "color": "pink",
+  "gen": "generation-i",
+  "specialties": [
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "081-full-recovery"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 102,
+  "natdex": 242,
+  "id": "102-blissey",
+  "name": "Blissey",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Normal"
+  ],
+  "ja": "ハピナス",
+  "genus": "Happiness Pokémon",
+  "color": "pink",
+  "gen": "generation-ii",
+  "specialties": [
+   "trade",
+   "litter"
+  ],
+  "litter": [
+   "Stone"
+  ],
+  "habitats": [
+   "095-cuteness-overload"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 103,
+  "natdex": 239,
+  "id": "103-elekid",
+  "name": "Elekid",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Electric"
+  ],
+  "ja": "エレキッド",
+  "genus": "Electric Pokémon",
+  "color": "yellow",
+  "gen": "generation-ii",
+  "specialties": [
+   "generate"
+  ],
+  "litter": [],
+  "habitats": [
+   "084-vending-machine-set"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 104,
+  "natdex": 125,
+  "id": "104-electabuzz",
+  "name": "Electabuzz",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Electric"
+  ],
+  "ja": "エレブー",
+  "genus": "Electric Pokémon",
+  "color": "yellow",
+  "gen": "generation-i",
+  "specialties": [
+   "generate"
+  ],
+  "litter": [],
+  "habitats": [
+   "064-trash-can-central",
+   "072-light-up-stage"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 105,
+  "natdex": 466,
+  "id": "105-electivire",
+  "name": "Electivire",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Electric"
+  ],
+  "ja": "エレキブル",
+  "genus": "Thunderbolt Pokémon",
+  "color": "yellow",
+  "gen": "generation-iv",
+  "specialties": [
+   "generate",
+   "crush"
+  ],
+  "litter": [],
+  "habitats": [
+   "072-light-up-stage",
+   "084-vending-machine-set"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 106,
+  "natdex": 131,
+  "id": "106-lapras",
+  "name": "Lapras",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Ice"
+  ],
+  "ja": "ラプラス",
+  "genus": "Transport Pokémon",
+  "color": "blue",
+  "gen": "generation-i",
+  "specialties": [
+   "water"
+  ],
+  "litter": [],
+  "habitats": [
+   "060-tropical-seaside"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 107,
+  "natdex": 446,
+  "id": "107-munchlax",
+  "name": "Munchlax",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Normal"
+  ],
+  "ja": "ゴンベ",
+  "genus": "Big Eater Pokémon",
+  "color": "black",
+  "gen": "generation-iv",
+  "specialties": [
+   "bulldoze"
+  ],
+  "litter": [],
+  "habitats": [
+   "030-bed-with-a-plush",
+   "047-tree-shaded-snoozing-snorlax"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 108,
+  "natdex": 143,
+  "id": "108-snorlax",
+  "name": "Snorlax",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Normal"
+  ],
+  "ja": "カビゴン",
+  "genus": "Sleeping Pokémon",
+  "color": "black",
+  "gen": "generation-i",
+  "specialties": [
+   "trade",
+   "bulldoze"
+  ],
+  "litter": [],
+  "habitats": [
+   "047-tree-shaded-snoozing-snorlax",
+   "048-good-old-fashioned-antiques"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 108,
+  "natdex": 143,
+  "id": "108-snorlax-mossy",
+  "name": "Snorlax",
+  "form": "Mossy",
+  "alias": "Mosslax",
+  "types": [
+   "Normal"
+  ],
+  "ja": "カビゴン",
+  "genus": "Sleeping Pokémon",
+  "color": "black",
+  "gen": "generation-i",
+  "specialties": [
+   "eat"
+  ],
+  "litter": [],
+  "habitats": [
+   "093-gourmet-s-altar"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 109,
+  "natdex": 167,
+  "id": "109-spinarak",
+  "name": "Spinarak",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Bug",
+   "Poison"
+  ],
+  "ja": "イトマル",
+  "genus": "String Spit Pokémon",
+  "color": "green",
+  "gen": "generation-ii",
+  "specialties": [
+   "litter"
+  ],
+  "litter": [
+   "Twine"
+  ],
+  "habitats": [
+   "050-yellow-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 110,
+  "natdex": 168,
+  "id": "110-ariados",
+  "name": "Ariados",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Bug",
+   "Poison"
+  ],
+  "ja": "アリアドス",
+  "genus": "Long Leg Pokémon",
+  "color": "red",
+  "gen": "generation-ii",
+  "specialties": [
+   "litter"
+  ],
+  "litter": [
+   "Twine"
+  ],
+  "habitats": [
+   "050-yellow-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 111,
+  "natdex": 179,
+  "id": "111-mareep",
+  "name": "Mareep",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Electric"
+  ],
+  "ja": "メリープ",
+  "genus": "Wool Pokémon",
+  "color": "white",
+  "gen": "generation-ii",
+  "specialties": [
+   "generate",
+   "litter"
+  ],
+  "litter": [
+   "Fluff"
+  ],
+  "habitats": [
+   "055-overgrowth-vending-machine",
+   "077-knitting-station"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 112,
+  "natdex": 180,
+  "id": "112-flaaffy",
+  "name": "Flaaffy",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Electric"
+  ],
+  "ja": "モココ",
+  "genus": "Wool Pokémon",
+  "color": "pink",
+  "gen": "generation-ii",
+  "specialties": [
+   "generate",
+   "litter"
+  ],
+  "litter": [
+   "Fluff"
+  ],
+  "habitats": [
+   "074-night-festival-venue",
+   "077-knitting-station"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 113,
+  "natdex": 181,
+  "id": "113-ampharos",
+  "name": "Ampharos",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Electric"
+  ],
+  "ja": "デンリュウ",
+  "genus": "Light Pokémon",
+  "color": "yellow",
+  "gen": "generation-ii",
+  "specialties": [
+   "generate",
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "097-plain-life"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 114,
+  "natdex": 298,
+  "id": "114-azurill",
+  "name": "Azurill",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Normal",
+   "Fairy"
+  ],
+  "ja": "ルリリ",
+  "genus": "Polka Dot Pokémon",
+  "color": "blue",
+  "gen": "generation-iii",
+  "specialties": [
+   "water",
+   "hype"
+  ],
+  "litter": [],
+  "habitats": [
+   "053-hydrated-yellow-tall-grass",
+   "062-perpetual-mess"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 115,
+  "natdex": 183,
+  "id": "115-marill",
+  "name": "Marill",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Fairy"
+  ],
+  "ja": "マリル",
+  "genus": "Aqua Mouse Pokémon",
+  "color": "blue",
+  "gen": "generation-ii",
+  "specialties": [
+   "water",
+   "hype"
+  ],
+  "litter": [],
+  "habitats": [
+   "053-hydrated-yellow-tall-grass",
+   "088-dock"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 116,
+  "natdex": 184,
+  "id": "116-azumarill",
+  "name": "Azumarill",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Fairy"
+  ],
+  "ja": "マリルリ",
+  "genus": "Aqua Rabbit Pokémon",
+  "color": "blue",
+  "gen": "generation-ii",
+  "specialties": [
+   "water",
+   "build"
+  ],
+  "litter": [],
+  "habitats": [
+   "088-dock"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 117,
+  "natdex": 194,
+  "id": "117-wooper-paldean-form",
+  "name": "Wooper",
+  "form": "Paldean Form",
+  "alias": null,
+  "types": [
+   "Poison",
+   "Ground"
+  ],
+  "ja": "ウパー",
+  "genus": "Water Fish Pokémon",
+  "color": "blue",
+  "gen": "generation-ii",
+  "specialties": [
+   "litter"
+  ],
+  "litter": [
+   "Squishy Clay"
+  ],
+  "habitats": [
+   "054-marshy-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 118,
+  "natdex": 980,
+  "id": "118-clodsire",
+  "name": "Clodsire",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Poison",
+   "Ground"
+  ],
+  "ja": "ドオー",
+  "genus": "Spiny Fish Pokémon",
+  "color": "brown",
+  "gen": "generation-ix",
+  "specialties": [
+   "litter",
+   "bulldoze"
+  ],
+  "litter": [
+   "Squishy Clay"
+  ],
+  "habitats": [
+   "054-marshy-tall-grass",
+   "186-marsh-fishing-spot"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 119,
+  "natdex": 235,
+  "id": "119-smeargle-decorator",
+  "name": "Smeargle",
+  "form": "Decorator",
+  "alias": "Smearguru",
+  "types": [
+   "Normal"
+  ],
+  "ja": "ドーブル",
+  "genus": "Painter Pokémon",
+  "color": "white",
+  "gen": "generation-ii",
+  "specialties": [
+   "paint"
+  ],
+  "litter": [],
+  "habitats": [
+   "092-tiny-atelier"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 120,
+  "natdex": 255,
+  "id": "120-torchic",
+  "name": "Torchic",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fire"
+  ],
+  "ja": "アチャモ",
+  "genus": "Chick Pokémon",
+  "color": "red",
+  "gen": "generation-iii",
+  "specialties": [
+   "burn"
+  ],
+  "litter": [],
+  "habitats": [
+   "069-chirp-chirp-meal",
+   "079-resort-meal-prep"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 121,
+  "natdex": 256,
+  "id": "121-combusken",
+  "name": "Combusken",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fire",
+   "Fighting"
+  ],
+  "ja": "ワカシャモ",
+  "genus": "Young Fowl Pokémon",
+  "color": "red",
+  "gen": "generation-iii",
+  "specialties": [
+   "burn",
+   "build"
+  ],
+  "litter": [],
+  "habitats": [
+   "079-resort-meal-prep",
+   "087-furnace-spot"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 122,
+  "natdex": 257,
+  "id": "122-blaziken",
+  "name": "Blaziken",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fire",
+   "Fighting"
+  ],
+  "ja": "バシャーモ",
+  "genus": "Blaze Pokémon",
+  "color": "red",
+  "gen": "generation-iii",
+  "specialties": [
+   "burn",
+   "build"
+  ],
+  "litter": [],
+  "habitats": [
+   "069-chirp-chirp-meal",
+   "087-furnace-spot"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 123,
+  "natdex": 278,
+  "id": "123-wingull",
+  "name": "Wingull",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Flying"
+  ],
+  "ja": "キャモメ",
+  "genus": "Seagull Pokémon",
+  "color": "white",
+  "gen": "generation-iii",
+  "specialties": [
+   "water",
+   "fly"
+  ],
+  "litter": [],
+  "habitats": [
+   "052-elevated-yellow-tall-grass",
+   "058-windy-flower-bed"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 124,
+  "natdex": 279,
+  "id": "124-pelipper",
+  "name": "Pelipper",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Flying"
+  ],
+  "ja": "ペリッパー",
+  "genus": "Water Bird Pokémon",
+  "color": "yellow",
+  "gen": "generation-iii",
+  "specialties": [
+   "water",
+   "fly"
+  ],
+  "litter": [],
+  "habitats": [
+   "052-elevated-yellow-tall-grass",
+   "058-windy-flower-bed"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 125,
+  "natdex": 296,
+  "id": "125-makuhita",
+  "name": "Makuhita",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fighting"
+  ],
+  "ja": "マクノシタ",
+  "genus": "Guts Pokémon",
+  "color": "yellow",
+  "gen": "generation-iii",
+  "specialties": [
+   "build",
+   "bulldoze"
+  ],
+  "litter": [],
+  "habitats": [
+   "051-tree-shaded-yellow-tall-grass",
+   "080-all-packed-up"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 126,
+  "natdex": 297,
+  "id": "126-hariyama",
+  "name": "Hariyama",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fighting"
+  ],
+  "ja": "ハリテヤマ",
+  "genus": "Arm Thrust Pokémon",
+  "color": "brown",
+  "gen": "generation-iii",
+  "specialties": [
+   "build",
+   "bulldoze"
+  ],
+  "litter": [],
+  "habitats": [
+   "051-tree-shaded-yellow-tall-grass",
+   "080-all-packed-up"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 127,
+  "natdex": 359,
+  "id": "127-absol",
+  "name": "Absol",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Dark"
+  ],
+  "ja": "アブソル",
+  "genus": "Disaster Pokémon",
+  "color": "white",
+  "gen": "generation-iii",
+  "specialties": [
+   "chop"
+  ],
+  "litter": [],
+  "habitats": [
+   "096-welcoming-resort"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 128,
+  "natdex": 393,
+  "id": "128-piplup",
+  "name": "Piplup",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "ポッチャマ",
+  "genus": "Penguin Pokémon",
+  "color": "blue",
+  "gen": "generation-iv",
+  "specialties": [
+   "water"
+  ],
+  "litter": [],
+  "habitats": [
+   "053-hydrated-yellow-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 129,
+  "natdex": 394,
+  "id": "129-prinplup",
+  "name": "Prinplup",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "ポッタイシ",
+  "genus": "Penguin Pokémon",
+  "color": "blue",
+  "gen": "generation-iv",
+  "specialties": [
+   "water",
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "053-hydrated-yellow-tall-grass",
+   "086-waterwheel-spot"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 130,
+  "natdex": 395,
+  "id": "130-empoleon",
+  "name": "Empoleon",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Steel"
+  ],
+  "ja": "エンペルト",
+  "genus": "Emperor Pokémon",
+  "color": "blue",
+  "gen": "generation-iv",
+  "specialties": [
+   "water",
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "068-tableside-delivery-cart",
+   "086-waterwheel-spot"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 131,
+  "natdex": 531,
+  "id": "131-audino",
+  "name": "Audino",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Normal"
+  ],
+  "ja": "タブンネ",
+  "genus": "Hearing Pokémon",
+  "color": "pink",
+  "gen": "generation-v",
+  "specialties": [
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "091-working-the-register"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 132,
+  "natdex": 568,
+  "id": "132-trubbish",
+  "name": "Trubbish",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Poison"
+  ],
+  "ja": "ヤブクロン",
+  "genus": "Trash Bag Pokémon",
+  "color": "green",
+  "gen": "generation-v",
+  "specialties": [
+   "recycle"
+  ],
+  "litter": [],
+  "habitats": [
+   "063-trash-collection-site"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 133,
+  "natdex": 569,
+  "id": "133-garbodor",
+  "name": "Garbodor",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Poison"
+  ],
+  "ja": "ダストダス",
+  "genus": "Trash Heap Pokémon",
+  "color": "green",
+  "gen": "generation-v",
+  "specialties": [
+   "recycle",
+   "litter"
+  ],
+  "litter": [
+   "Nonburnable Garbage"
+  ],
+  "habitats": [
+   "063-trash-collection-site"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 134,
+  "natdex": 570,
+  "id": "134-zorua",
+  "name": "Zorua",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Dark"
+  ],
+  "ja": "ゾロア",
+  "genus": "Tricky Fox Pokémon",
+  "color": "gray",
+  "gen": "generation-v",
+  "specialties": [
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "056-breezy-flower-bed"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 135,
+  "natdex": 571,
+  "id": "135-zoroark",
+  "name": "Zoroark",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Dark"
+  ],
+  "ja": "ゾロアーク",
+  "genus": "Illusion Fox Pokémon",
+  "color": "gray",
+  "gen": "generation-v",
+  "specialties": [
+   "trade",
+   "chop"
+  ],
+  "litter": [],
+  "habitats": [
+   "056-breezy-flower-bed",
+   "073-surprise-in-store"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 136,
+  "natdex": 572,
+  "id": "136-minccino",
+  "name": "Minccino",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Normal"
+  ],
+  "ja": "チラーミィ",
+  "genus": "Chinchilla Pokémon",
+  "color": "gray",
+  "gen": "generation-v",
+  "specialties": [
+   "gather"
+  ],
+  "litter": [],
+  "habitats": [
+   "075-changing-area",
+   "076-private-makeup-stand"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 137,
+  "natdex": 573,
+  "id": "137-cinccino",
+  "name": "Cinccino",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Normal"
+  ],
+  "ja": "チラチーノ",
+  "genus": "Scarf Pokémon",
+  "color": "gray",
+  "gen": "generation-v",
+  "specialties": [
+   "gather",
+   "recycle"
+  ],
+  "litter": [],
+  "habitats": [
+   "076-private-makeup-stand"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 138,
+  "natdex": 736,
+  "id": "138-grubbin",
+  "name": "Grubbin",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Bug"
+  ],
+  "ja": "アゴジムシ",
+  "genus": "Larva Pokémon",
+  "color": "gray",
+  "gen": "generation-vii",
+  "specialties": [
+   "chop"
+  ],
+  "litter": [],
+  "habitats": [
+   "050-yellow-tall-grass",
+   "083-vending-machine-break-area"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 139,
+  "natdex": 737,
+  "id": "139-charjabug",
+  "name": "Charjabug",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Bug",
+   "Electric"
+  ],
+  "ja": "デンヂムシ",
+  "genus": "Battery Pokémon",
+  "color": "green",
+  "gen": "generation-vii",
+  "specialties": [
+   "generate",
+   "chop"
+  ],
+  "litter": [],
+  "habitats": [
+   "083-vending-machine-break-area"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 140,
+  "natdex": 738,
+  "id": "140-vikavolt",
+  "name": "Vikavolt",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Bug",
+   "Electric"
+  ],
+  "ja": "クワガノン",
+  "genus": "Stag Beetle Pokémon",
+  "color": "blue",
+  "gen": "generation-vii",
+  "specialties": [
+   "generate",
+   "chop"
+  ],
+  "litter": [],
+  "habitats": [
+   "009-tree-shaded-flower-bed"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 141,
+  "natdex": 778,
+  "id": "141-mimikyu",
+  "name": "Mimikyu",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Ghost",
+   "Fairy"
+  ],
+  "ja": "ミミッキュ",
+  "genus": "Disguise Pokémon",
+  "color": "yellow",
+  "gen": "generation-vii",
+  "specialties": [
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "094-pikachu-space"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 142,
+  "natdex": 921,
+  "id": "142-pawmi",
+  "name": "Pawmi",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Electric"
+  ],
+  "ja": "パモ",
+  "genus": "Mouse Pokémon",
+  "color": "yellow",
+  "gen": "generation-ix",
+  "specialties": [
+   "generate"
+  ],
+  "litter": [],
+  "habitats": [
+   "056-breezy-flower-bed",
+   "067-tantalizing-restaurant"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 143,
+  "natdex": 922,
+  "id": "143-pawmo",
+  "name": "Pawmo",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Electric",
+   "Fighting"
+  ],
+  "ja": "パモット",
+  "genus": "Mouse Pokémon",
+  "color": "yellow",
+  "gen": "generation-ix",
+  "specialties": [
+   "generate",
+   "crush"
+  ],
+  "litter": [],
+  "habitats": [
+   "067-tantalizing-restaurant",
+   "070-cafe-space"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 144,
+  "natdex": 923,
+  "id": "144-pawmot",
+  "name": "Pawmot",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Electric",
+   "Fighting"
+  ],
+  "ja": "パーモット",
+  "genus": "Hands-On Pokémon",
+  "color": "yellow",
+  "gen": "generation-ix",
+  "specialties": [
+   "generate",
+   "crush"
+  ],
+  "litter": [],
+  "habitats": [
+   "070-cafe-space"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 145,
+  "natdex": 978,
+  "id": "145-tatsugiri-curly-form",
+  "name": "Tatsugiri",
+  "form": "Curly Form",
+  "alias": null,
+  "types": [
+   "Dragon",
+   "Water"
+  ],
+  "ja": "シャリタツ",
+  "genus": "Mimicry Pokémon",
+  "color": "pink",
+  "gen": "generation-ix",
+  "specialties": [
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "071-beach-set"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 145,
+  "natdex": 978,
+  "id": "145-tatsugiri-droopy-form",
+  "name": "Tatsugiri",
+  "form": "Droopy Form",
+  "alias": null,
+  "types": [
+   "Dragon",
+   "Water"
+  ],
+  "ja": "シャリタツ",
+  "genus": "Mimicry Pokémon",
+  "color": "pink",
+  "gen": "generation-ix",
+  "specialties": [
+   "trade"
+  ],
+  "litter": [],
+  "habitats": []
+ },
+ {
+  "dex": "main",
+  "no": 145,
+  "natdex": 978,
+  "id": "145-tatsugiri-stretchy-form",
+  "name": "Tatsugiri",
+  "form": "Stretchy Form",
+  "alias": null,
+  "types": [
+   "Dragon",
+   "Water"
+  ],
+  "ja": "シャリタツ",
+  "genus": "Mimicry Pokémon",
+  "color": "pink",
+  "gen": "generation-ix",
+  "specialties": [
+   "trade"
+  ],
+  "litter": [],
+  "habitats": []
+ },
+ {
+  "dex": "main",
+  "no": 146,
+  "natdex": 23,
+  "id": "146-ekans",
+  "name": "Ekans",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Poison"
+  ],
+  "ja": "アーボ",
+  "genus": "Snake Pokémon",
+  "color": "purple",
+  "gen": "generation-i",
+  "specialties": [
+   "search"
+  ],
+  "litter": [],
+  "habitats": [
+   "106-hydrated-graceful-flower-bed"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 147,
+  "natdex": 24,
+  "id": "147-arbok",
+  "name": "Arbok",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Poison"
+  ],
+  "ja": "アーボック",
+  "genus": "Cobra Pokémon",
+  "color": "purple",
+  "gen": "generation-i",
+  "specialties": [
+   "search"
+  ],
+  "litter": [],
+  "habitats": [
+   "106-hydrated-graceful-flower-bed"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 148,
+  "natdex": 173,
+  "id": "148-cleffa",
+  "name": "Cleffa",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fairy"
+  ],
+  "ja": "ピィ",
+  "genus": "Star Shape Pokémon",
+  "color": "pink",
+  "gen": "generation-ii",
+  "specialties": [
+   "hype"
+  ],
+  "litter": [],
+  "habitats": [
+   "104-graceful-flower-bed"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 149,
+  "natdex": 35,
+  "id": "149-clefairy",
+  "name": "Clefairy",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fairy"
+  ],
+  "ja": "ピッピ",
+  "genus": "Fairy Pokémon",
+  "color": "pink",
+  "gen": "generation-i",
+  "specialties": [
+   "hype"
+  ],
+  "litter": [],
+  "habitats": [
+   "104-graceful-flower-bed",
+   "131-bronze-landmark"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 150,
+  "natdex": 36,
+  "id": "150-clefable",
+  "name": "Clefable",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fairy"
+  ],
+  "ja": "ピクシー",
+  "genus": "Fairy Pokémon",
+  "color": "pink",
+  "gen": "generation-i",
+  "specialties": [
+   "hype",
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "104-graceful-flower-bed",
+   "131-bronze-landmark"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 151,
+  "natdex": 174,
+  "id": "151-igglybuff",
+  "name": "Igglybuff",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Normal",
+   "Fairy"
+  ],
+  "ja": "ププリン",
+  "genus": "Balloon Pokémon",
+  "color": "pink",
+  "gen": "generation-ii",
+  "specialties": [
+   "hype"
+  ],
+  "litter": [],
+  "habitats": [
+   "107-flower-garden-stump-stage"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 152,
+  "natdex": 39,
+  "id": "152-jigglypuff",
+  "name": "Jigglypuff",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Normal",
+   "Fairy"
+  ],
+  "ja": "プリン",
+  "genus": "Balloon Pokémon",
+  "color": "pink",
+  "gen": "generation-i",
+  "specialties": [
+   "hype"
+  ],
+  "litter": [],
+  "habitats": [
+   "107-flower-garden-stump-stage",
+   "126-recital-stage"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 153,
+  "natdex": 40,
+  "id": "153-wigglytuff",
+  "name": "Wigglytuff",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Normal",
+   "Fairy"
+  ],
+  "ja": "プクリン",
+  "genus": "Balloon Pokémon",
+  "color": "pink",
+  "gen": "generation-i",
+  "specialties": [
+   "hype",
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "126-recital-stage"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 154,
+  "natdex": 50,
+  "id": "154-diglett",
+  "name": "Diglett",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Ground"
+  ],
+  "ja": "ディグダ",
+  "genus": "Mole Pokémon",
+  "color": "brown",
+  "gen": "generation-i",
+  "specialties": [
+   "hype"
+  ],
+  "litter": [],
+  "habitats": [
+   "099-tree-shaded-red-tall-grass",
+   "119-container-snacking"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 155,
+  "natdex": 51,
+  "id": "155-dugtrio",
+  "name": "Dugtrio",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Ground"
+  ],
+  "ja": "ダグトリオ",
+  "genus": "Mole Pokémon",
+  "color": "brown",
+  "gen": "generation-i",
+  "specialties": [
+   "hype",
+   "crush"
+  ],
+  "litter": [],
+  "habitats": [
+   "099-tree-shaded-red-tall-grass",
+   "123-house-party"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 156,
+  "natdex": 66,
+  "id": "156-machop",
+  "name": "Machop",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fighting"
+  ],
+  "ja": "ワンリキー",
+  "genus": "Superpower Pokémon",
+  "color": "gray",
+  "gen": "generation-i",
+  "specialties": [
+   "build",
+   "gather"
+  ],
+  "litter": [],
+  "habitats": [
+   "003-boulder-shaded-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 157,
+  "natdex": 67,
+  "id": "157-machoke",
+  "name": "Machoke",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fighting"
+  ],
+  "ja": "ゴーリキー",
+  "genus": "Superpower Pokémon",
+  "color": "gray",
+  "gen": "generation-i",
+  "specialties": [
+   "build",
+   "gather"
+  ],
+  "litter": [],
+  "habitats": [
+   "103-grassy-training-field",
+   "127-box-to-the-rhythm"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 158,
+  "natdex": 68,
+  "id": "158-machamp",
+  "name": "Machamp",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fighting"
+  ],
+  "ja": "カイリキー",
+  "genus": "Superpower Pokémon",
+  "color": "gray",
+  "gen": "generation-i",
+  "specialties": [
+   "build",
+   "gather"
+  ],
+  "litter": [],
+  "habitats": [
+   "103-grassy-training-field",
+   "117-clink-clang-iron-construction"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 159,
+  "natdex": 74,
+  "id": "159-geodude",
+  "name": "Geodude",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Rock",
+   "Ground"
+  ],
+  "ja": "イシツブテ",
+  "genus": "Rock Pokémon",
+  "color": "brown",
+  "gen": "generation-i",
+  "specialties": [
+   "crush"
+  ],
+  "litter": [],
+  "habitats": [
+   "001-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 160,
+  "natdex": 75,
+  "id": "160-graveler",
+  "name": "Graveler",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Rock",
+   "Ground"
+  ],
+  "ja": "ゴローン",
+  "genus": "Rock Pokémon",
+  "color": "brown",
+  "gen": "generation-i",
+  "specialties": [
+   "crush"
+  ],
+  "litter": [],
+  "habitats": [
+   "111-mossy-boulder"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 161,
+  "natdex": 76,
+  "id": "161-golem",
+  "name": "Golem",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Rock",
+   "Ground"
+  ],
+  "ja": "ゴローニャ",
+  "genus": "Megaton Pokémon",
+  "color": "brown",
+  "gen": "generation-i",
+  "specialties": [
+   "crush",
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "111-mossy-boulder"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 162,
+  "natdex": 240,
+  "id": "162-magby",
+  "name": "Magby",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fire"
+  ],
+  "ja": "ブビィ",
+  "genus": "Live Coal Pokémon",
+  "color": "red",
+  "gen": "generation-ii",
+  "specialties": [
+   "burn"
+  ],
+  "litter": [],
+  "habitats": [
+   "008-pretty-flower-bed"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 163,
+  "natdex": 126,
+  "id": "163-magmar",
+  "name": "Magmar",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fire"
+  ],
+  "ja": "ブーバー",
+  "genus": "Spitfire Pokémon",
+  "color": "red",
+  "gen": "generation-i",
+  "specialties": [
+   "burn"
+  ],
+  "litter": [],
+  "habitats": [
+   "116-digging-and-burning"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 164,
+  "natdex": 467,
+  "id": "164-magmortar",
+  "name": "Magmortar",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fire"
+  ],
+  "ja": "ブーバーン",
+  "genus": "Blast Pokémon",
+  "color": "red",
+  "gen": "generation-iv",
+  "specialties": [
+   "burn",
+   "crush"
+  ],
+  "litter": [],
+  "habitats": [
+   "122-mini-kitchen"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 165,
+  "natdex": 438,
+  "id": "165-bonsly",
+  "name": "Bonsly",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Rock"
+  ],
+  "ja": "ウソハチ",
+  "genus": "Bonsai Pokémon",
+  "color": "brown",
+  "gen": "generation-iv",
+  "specialties": [
+   "bulldoze"
+  ],
+  "litter": [],
+  "habitats": [
+   "099-tree-shaded-red-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 166,
+  "natdex": 185,
+  "id": "166-sudowoodo",
+  "name": "Sudowoodo",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Rock"
+  ],
+  "ja": "ウソッキー",
+  "genus": "Imitation Pokémon",
+  "color": "brown",
+  "gen": "generation-ii",
+  "specialties": [
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "099-tree-shaded-red-tall-grass",
+   "123-house-party"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 167,
+  "natdex": 198,
+  "id": "167-murkrow",
+  "name": "Murkrow",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Dark",
+   "Flying"
+  ],
+  "ja": "ヤミカラス",
+  "genus": "Darkness Pokémon",
+  "color": "black",
+  "gen": "generation-ii",
+  "specialties": [
+   "trade",
+   "fly"
+  ],
+  "litter": [],
+  "habitats": [
+   "102-elevated-red-tall-grass",
+   "105-tree-shaded-graceful-flower-bed"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 168,
+  "natdex": 430,
+  "id": "168-honchkrow",
+  "name": "Honchkrow",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Dark",
+   "Flying"
+  ],
+  "ja": "ドンカラス",
+  "genus": "Big Boss Pokémon",
+  "color": "black",
+  "gen": "generation-iv",
+  "specialties": [
+   "trade",
+   "fly"
+  ],
+  "litter": [],
+  "habitats": [
+   "102-elevated-red-tall-grass",
+   "125-chirping-recital"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 169,
+  "natdex": 246,
+  "id": "169-larvitar",
+  "name": "Larvitar",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Rock",
+   "Ground"
+  ],
+  "ja": "ヨーギラス",
+  "genus": "Rock Skin Pokémon",
+  "color": "green",
+  "gen": "generation-ii",
+  "specialties": [
+   "crush",
+   "bulldoze"
+  ],
+  "litter": [],
+  "habitats": [
+   "110-mossy-rest-spot"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 170,
+  "natdex": 247,
+  "id": "170-pupitar",
+  "name": "Pupitar",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Rock",
+   "Ground"
+  ],
+  "ja": "サナギラス",
+  "genus": "Hard Shell Pokémon",
+  "color": "gray",
+  "gen": "generation-ii",
+  "specialties": [
+   "crush",
+   "bulldoze"
+  ],
+  "litter": [],
+  "habitats": [
+   "138-tree-shaded-pink-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 171,
+  "natdex": 248,
+  "id": "171-tyranitar",
+  "name": "Tyranitar",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Rock",
+   "Dark"
+  ],
+  "ja": "バンギラス",
+  "genus": "Armor Pokémon",
+  "color": "green",
+  "gen": "generation-ii",
+  "specialties": [
+   "crush",
+   "bulldoze"
+  ],
+  "litter": [],
+  "habitats": [
+   "108-toil-in-the-soil",
+   "110-mossy-rest-spot"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 172,
+  "natdex": 270,
+  "id": "172-lotad",
+  "name": "Lotad",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Grass"
+  ],
+  "ja": "ハスボー",
+  "genus": "Water Weed Pokémon",
+  "color": "green",
+  "gen": "generation-iii",
+  "specialties": [
+   "water"
+  ],
+  "litter": [],
+  "habitats": [
+   "101-hydrated-red-tall-grass",
+   "109-uplifting-duckweed",
+   "187-hot-spring-fishing-spot"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 173,
+  "natdex": 271,
+  "id": "173-lombre",
+  "name": "Lombre",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Grass"
+  ],
+  "ja": "ハスブレロ",
+  "genus": "Jolly Pokémon",
+  "color": "green",
+  "gen": "generation-iii",
+  "specialties": [
+   "water"
+  ],
+  "litter": [],
+  "habitats": [
+   "101-hydrated-red-tall-grass",
+   "187-hot-spring-fishing-spot"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 174,
+  "natdex": 272,
+  "id": "174-ludicolo",
+  "name": "Ludicolo",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Grass"
+  ],
+  "ja": "ルンパッパ",
+  "genus": "Carefree Pokémon",
+  "color": "green",
+  "gen": "generation-iii",
+  "specialties": [
+   "water",
+   "hype"
+  ],
+  "litter": [],
+  "habitats": [
+   "109-uplifting-duckweed"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 175,
+  "natdex": 303,
+  "id": "175-mawile",
+  "name": "Mawile",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Steel",
+   "Fairy"
+  ],
+  "ja": "クチート",
+  "genus": "Deceiver Pokémon",
+  "color": "black",
+  "gen": "generation-iii",
+  "specialties": [
+   "trade",
+   "build"
+  ],
+  "litter": [],
+  "habitats": [
+   "091-working-the-register"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 176,
+  "natdex": 324,
+  "id": "176-torkoal",
+  "name": "Torkoal",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fire"
+  ],
+  "ja": "コータス",
+  "genus": "Coal Pokémon",
+  "color": "brown",
+  "gen": "generation-iii",
+  "specialties": [
+   "burn"
+  ],
+  "litter": [],
+  "habitats": [
+   "112-mossy-hot-spring"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 177,
+  "natdex": 401,
+  "id": "177-kricketot",
+  "name": "Kricketot",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Bug"
+  ],
+  "ja": "コロボーシ",
+  "genus": "Cricket Pokémon",
+  "color": "red",
+  "gen": "generation-iv",
+  "specialties": [
+   "hype"
+  ],
+  "litter": [],
+  "habitats": [
+   "098-red-tall-grass",
+   "128-music-and-magazines"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 178,
+  "natdex": 402,
+  "id": "178-kricketune",
+  "name": "Kricketune",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Bug"
+  ],
+  "ja": "コロトック",
+  "genus": "Cricket Pokémon",
+  "color": "red",
+  "gen": "generation-iv",
+  "specialties": [
+   "hype"
+  ],
+  "litter": [],
+  "habitats": [
+   "098-red-tall-grass",
+   "128-music-and-magazines"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 179,
+  "natdex": 441,
+  "id": "179-chatot",
+  "name": "Chatot",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Normal",
+   "Flying"
+  ],
+  "ja": "ペラップ",
+  "genus": "Music Note Pokémon",
+  "color": "black",
+  "gen": "generation-iv",
+  "specialties": [
+   "hype",
+   "fly"
+  ],
+  "litter": [],
+  "habitats": [
+   "102-elevated-red-tall-grass",
+   "125-chirping-recital"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 180,
+  "natdex": 447,
+  "id": "180-riolu",
+  "name": "Riolu",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fighting"
+  ],
+  "ja": "リオル",
+  "genus": "Emanation Pokémon",
+  "color": "blue",
+  "gen": "generation-iv",
+  "specialties": [
+   "build"
+  ],
+  "litter": [],
+  "habitats": [
+   "098-red-tall-grass",
+   "127-box-to-the-rhythm"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 181,
+  "natdex": 448,
+  "id": "181-lucario",
+  "name": "Lucario",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fighting",
+   "Steel"
+  ],
+  "ja": "ルカリオ",
+  "genus": "Aura Pokémon",
+  "color": "blue",
+  "gen": "generation-iv",
+  "specialties": [
+   "build"
+  ],
+  "litter": [],
+  "habitats": [
+   "127-box-to-the-rhythm"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 182,
+  "natdex": 479,
+  "id": "182-rotom-stereo-rotom",
+  "name": "Rotom",
+  "form": "Stereo Rotom",
+  "alias": "DJ Rotom",
+  "types": [
+   "Electric",
+   "Normal"
+  ],
+  "ja": "ロトム",
+  "genus": "Plasma Pokémon",
+  "color": "red",
+  "gen": "generation-iv",
+  "specialties": [
+   "dj"
+  ],
+  "litter": [],
+  "habitats": [
+   "128-music-and-magazines"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 183,
+  "natdex": 636,
+  "id": "183-larvesta",
+  "name": "Larvesta",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Bug",
+   "Fire"
+  ],
+  "ja": "メラルバ",
+  "genus": "Torch Pokémon",
+  "color": "white",
+  "gen": "generation-v",
+  "specialties": [
+   "burn",
+   "litter"
+  ],
+  "litter": [
+   "Twine"
+  ],
+  "habitats": [
+   "105-tree-shaded-graceful-flower-bed"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 184,
+  "natdex": 637,
+  "id": "184-volcarona",
+  "name": "Volcarona",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Bug",
+   "Fire"
+  ],
+  "ja": "ウルガモス",
+  "genus": "Sun Pokémon",
+  "color": "white",
+  "gen": "generation-v",
+  "specialties": [
+   "burn",
+   "litter"
+  ],
+  "litter": [
+   "Twine"
+  ],
+  "habitats": [
+   "105-tree-shaded-graceful-flower-bed",
+   "115-piping-hot-lava"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 185,
+  "natdex": 722,
+  "id": "185-rowlet",
+  "name": "Rowlet",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Grass",
+   "Flying"
+  ],
+  "ja": "モクロー",
+  "genus": "Grass Quill Pokémon",
+  "color": "brown",
+  "gen": "generation-vii",
+  "specialties": [
+   "grow"
+  ],
+  "litter": [],
+  "habitats": [
+   "015-fresh-veggie-field"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 186,
+  "natdex": 723,
+  "id": "186-dartrix",
+  "name": "Dartrix",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Grass",
+   "Flying"
+  ],
+  "ja": "フクスロー",
+  "genus": "Blade Quill Pokémon",
+  "color": "brown",
+  "gen": "generation-vii",
+  "specialties": [
+   "grow",
+   "chop"
+  ],
+  "litter": [],
+  "habitats": [
+   "100-pointy-tree-shaded-rocky-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 187,
+  "natdex": 724,
+  "id": "187-decidueye",
+  "name": "Decidueye",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Grass",
+   "Ghost"
+  ],
+  "ja": "ジュナイパー",
+  "genus": "Arrow Quill Pokémon",
+  "color": "brown",
+  "gen": "generation-vii",
+  "specialties": [
+   "grow",
+   "chop"
+  ],
+  "litter": [],
+  "habitats": [
+   "100-pointy-tree-shaded-rocky-tall-grass",
+   "136-modern-living"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 188,
+  "natdex": 813,
+  "id": "188-scorbunny",
+  "name": "Scorbunny",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fire"
+  ],
+  "ja": "ヒバニー",
+  "genus": "Rabbit Pokémon",
+  "color": "white",
+  "gen": "generation-viii",
+  "specialties": [
+   "burn"
+  ],
+  "litter": [],
+  "habitats": [
+   "098-red-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 189,
+  "natdex": 814,
+  "id": "189-raboot",
+  "name": "Raboot",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fire"
+  ],
+  "ja": "ラビフット",
+  "genus": "Rabbit Pokémon",
+  "color": "gray",
+  "gen": "generation-viii",
+  "specialties": [
+   "burn"
+  ],
+  "litter": [],
+  "habitats": [
+   "113-open-air-bath",
+   "130-refreshing-locker-room"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 190,
+  "natdex": 815,
+  "id": "190-cinderace",
+  "name": "Cinderace",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fire"
+  ],
+  "ja": "エースバーン",
+  "genus": "Striker Pokémon",
+  "color": "white",
+  "gen": "generation-viii",
+  "specialties": [
+   "burn",
+   "hype"
+  ],
+  "litter": [],
+  "habitats": [
+   "098-red-tall-grass",
+   "130-refreshing-locker-room"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 191,
+  "natdex": 819,
+  "id": "191-skwovet",
+  "name": "Skwovet",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Normal"
+  ],
+  "ja": "ホシガリス",
+  "genus": "Cheeky Pokémon",
+  "color": "brown",
+  "gen": "generation-viii",
+  "specialties": [
+   "search",
+   "hype"
+  ],
+  "litter": [],
+  "habitats": [
+   "002-tree-shaded-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 192,
+  "natdex": 820,
+  "id": "192-greedent-cook",
+  "name": "Greedent",
+  "form": "Cook",
+  "alias": "Chef Dente",
+  "types": [
+   "Normal"
+  ],
+  "ja": "ヨクバリス",
+  "genus": "Greedy Pokémon",
+  "color": "brown",
+  "gen": "generation-viii",
+  "specialties": [
+   "party"
+  ],
+  "litter": [],
+  "habitats": [
+   "133-chef-s-kitchen"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 193,
+  "natdex": 837,
+  "id": "193-rolycoly",
+  "name": "Rolycoly",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Rock"
+  ],
+  "ja": "タンドン",
+  "genus": "Coal Pokémon",
+  "color": "black",
+  "gen": "generation-viii",
+  "specialties": [
+   "burn",
+   "gather"
+  ],
+  "litter": [],
+  "habitats": [
+   "132-railroad-crossing"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 194,
+  "natdex": 838,
+  "id": "194-carkol",
+  "name": "Carkol",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Rock",
+   "Fire"
+  ],
+  "ja": "トロッゴン",
+  "genus": "Coal Pokémon",
+  "color": "black",
+  "gen": "generation-viii",
+  "specialties": [
+   "burn",
+   "gather"
+  ],
+  "litter": [],
+  "habitats": [
+   "132-railroad-crossing"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 195,
+  "natdex": 839,
+  "id": "195-coalossal",
+  "name": "Coalossal",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Rock",
+   "Fire"
+  ],
+  "ja": "セキタンザン",
+  "genus": "Coal Pokémon",
+  "color": "black",
+  "gen": "generation-viii",
+  "specialties": [
+   "burn",
+   "gather"
+  ],
+  "litter": [],
+  "habitats": [
+   "132-railroad-crossing",
+   "135-heavy-iron"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 196,
+  "natdex": 848,
+  "id": "196-toxel",
+  "name": "Toxel",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Electric",
+   "Poison"
+  ],
+  "ja": "エレズン",
+  "genus": "Baby Pokémon",
+  "color": "purple",
+  "gen": "generation-viii",
+  "specialties": [
+   "generate"
+  ],
+  "litter": [],
+  "habitats": [
+   "124-lazy-photo-album-scrolling"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 197,
+  "natdex": 849,
+  "id": "197-toxtricity-amped-form",
+  "name": "Toxtricity",
+  "form": "Amped Form",
+  "alias": null,
+  "types": [
+   "Electric",
+   "Poison"
+  ],
+  "ja": "ストリンダー",
+  "genus": "Punk Pokémon",
+  "color": "purple",
+  "gen": "generation-viii",
+  "specialties": [
+   "generate",
+   "hype"
+  ],
+  "litter": [],
+  "habitats": [
+   "189-amped-rock-stage"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 197,
+  "natdex": 849,
+  "id": "197-toxtricity-low-key-form",
+  "name": "Toxtricity",
+  "form": "Low Key Form",
+  "alias": null,
+  "types": [
+   "Electric",
+   "Poison"
+  ],
+  "ja": "ストリンダー",
+  "genus": "Punk Pokémon",
+  "color": "purple",
+  "gen": "generation-viii",
+  "specialties": [
+   "generate",
+   "hype"
+  ],
+  "litter": [],
+  "habitats": [
+   "190-low-key-rock-stage"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 198,
+  "natdex": 926,
+  "id": "198-fidough",
+  "name": "Fidough",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fairy"
+  ],
+  "ja": "パピモッチ",
+  "genus": "Puppy Pokémon",
+  "color": "yellow",
+  "gen": "generation-ix",
+  "specialties": [
+   "search"
+  ],
+  "litter": [],
+  "habitats": [
+   "104-graceful-flower-bed",
+   "121-best-bread-bakery"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 199,
+  "natdex": 927,
+  "id": "199-dachsbun",
+  "name": "Dachsbun",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fairy"
+  ],
+  "ja": "バウッツェル",
+  "genus": "Dog Pokémon",
+  "color": "brown",
+  "gen": "generation-ix",
+  "specialties": [
+   "search",
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "104-graceful-flower-bed",
+   "121-best-bread-bakery"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 200,
+  "natdex": 935,
+  "id": "200-charcadet",
+  "name": "Charcadet",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fire"
+  ],
+  "ja": "カルボウ",
+  "genus": "Fire Child Pokémon",
+  "color": "red",
+  "gen": "generation-ix",
+  "specialties": [
+   "burn"
+  ],
+  "litter": [],
+  "habitats": [
+   "115-piping-hot-lava"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 201,
+  "natdex": 936,
+  "id": "201-armarouge",
+  "name": "Armarouge",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fire",
+   "Psychic"
+  ],
+  "ja": "グレンアルマ",
+  "genus": "Fire Warrior Pokémon",
+  "color": "red",
+  "gen": "generation-ix",
+  "specialties": [
+   "burn",
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "192-auspicious-knight-s-shrine"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 202,
+  "natdex": 937,
+  "id": "202-ceruledge",
+  "name": "Ceruledge",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fire",
+   "Ghost"
+  ],
+  "ja": "ソウブレイズ",
+  "genus": "Fire Blades Pokémon",
+  "color": "blue",
+  "gen": "generation-ix",
+  "specialties": [
+   "burn",
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "191-malicious-knight-s-shrine"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 203,
+  "natdex": 969,
+  "id": "203-glimmet",
+  "name": "Glimmet",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Rock",
+   "Poison"
+  ],
+  "ja": "キラーメ",
+  "genus": "Ore Pokémon",
+  "color": "blue",
+  "gen": "generation-ix",
+  "specialties": [
+   "litter"
+  ],
+  "litter": [
+   "Iron Ore"
+  ],
+  "habitats": [
+   "118-creepy-white-rocks",
+   "119-container-snacking"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 204,
+  "natdex": 970,
+  "id": "204-glimmora",
+  "name": "Glimmora",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Rock",
+   "Poison"
+  ],
+  "ja": "キラフロル",
+  "genus": "Ore Pokémon",
+  "color": "blue",
+  "gen": "generation-ix",
+  "specialties": [
+   "litter"
+  ],
+  "litter": [
+   "Iron Ore"
+  ],
+  "habitats": [
+   "118-creepy-white-rocks",
+   "119-container-snacking"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 205,
+  "natdex": 999,
+  "id": "205-gimmighoul",
+  "name": "Gimmighoul",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Ghost"
+  ],
+  "ja": "コレクレー",
+  "genus": "Coin Chest Pokémon",
+  "color": "brown",
+  "gen": "generation-ix",
+  "specialties": [
+   "collect"
+  ],
+  "litter": [],
+  "habitats": [
+   "129-mini-museum"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 206,
+  "natdex": 1000,
+  "id": "206-gholdengo",
+  "name": "Gholdengo",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Steel",
+   "Ghost"
+  ],
+  "ja": "サーフゴー",
+  "genus": "Coin Entity Pokémon",
+  "color": "yellow",
+  "gen": "generation-ix",
+  "specialties": [
+   "collect"
+  ],
+  "litter": [],
+  "habitats": [
+   "134-absolute-luxury"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 207,
+  "natdex": 37,
+  "id": "207-vulpix",
+  "name": "Vulpix",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fire"
+  ],
+  "ja": "ロコン",
+  "genus": "Fox Pokémon",
+  "color": "brown",
+  "gen": "generation-i",
+  "specialties": [
+   "burn"
+  ],
+  "litter": [],
+  "habitats": [
+   "142-fluffy-flower-bed"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 208,
+  "natdex": 38,
+  "id": "208-ninetales",
+  "name": "Ninetales",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fire"
+  ],
+  "ja": "キュウコン",
+  "genus": "Fox Pokémon",
+  "color": "yellow",
+  "gen": "generation-i",
+  "specialties": [
+   "burn"
+  ],
+  "litter": [],
+  "habitats": [
+   "142-fluffy-flower-bed",
+   "180-nine-flames"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 209,
+  "natdex": 60,
+  "id": "209-poliwag",
+  "name": "Poliwag",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "ニョロモ",
+  "genus": "Tadpole Pokémon",
+  "color": "blue",
+  "gen": "generation-i",
+  "specialties": [
+   "water"
+  ],
+  "litter": [],
+  "habitats": [
+   "161-squeaky-clean"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 210,
+  "natdex": 61,
+  "id": "210-poliwhirl",
+  "name": "Poliwhirl",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "ニョロゾ",
+  "genus": "Tadpole Pokémon",
+  "color": "blue",
+  "gen": "generation-i",
+  "specialties": [
+   "water"
+  ],
+  "litter": [],
+  "habitats": [
+   "144-hydrated-fluffy-flower-bed"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 211,
+  "natdex": 62,
+  "id": "211-poliwrath",
+  "name": "Poliwrath",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Fighting"
+  ],
+  "ja": "ニョロボン",
+  "genus": "Tadpole Pokémon",
+  "color": "blue",
+  "gen": "generation-i",
+  "specialties": [
+   "water",
+   "build"
+  ],
+  "litter": [],
+  "habitats": [
+   "156-sewer-hole-inspection",
+   "178-dojo-training"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 212,
+  "natdex": 186,
+  "id": "212-politoed",
+  "name": "Politoed",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "ニョロトノ",
+  "genus": "Frog Pokémon",
+  "color": "green",
+  "gen": "generation-ii",
+  "specialties": [
+   "water",
+   "hype"
+  ],
+  "litter": [],
+  "habitats": [
+   "106-hydrated-graceful-flower-bed",
+   "107-flower-garden-stump-stage",
+   "114-harmonious-hot-spring"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 213,
+  "natdex": 63,
+  "id": "213-abra",
+  "name": "Abra",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Psychic"
+  ],
+  "ja": "ケーシィ",
+  "genus": "Psi Pokémon",
+  "color": "brown",
+  "gen": "generation-i",
+  "specialties": [
+   "teleport"
+  ],
+  "litter": [],
+  "habitats": [
+   "151-surging-psychic-power",
+   "152-fortune-teller-s-table"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 214,
+  "natdex": 64,
+  "id": "214-kadabra",
+  "name": "Kadabra",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Psychic"
+  ],
+  "ja": "ユンゲラー",
+  "genus": "Psi Pokémon",
+  "color": "brown",
+  "gen": "generation-i",
+  "specialties": [
+   "teleport"
+  ],
+  "litter": [],
+  "habitats": [
+   "152-fortune-teller-s-table"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 215,
+  "natdex": 65,
+  "id": "215-alakazam",
+  "name": "Alakazam",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Psychic"
+  ],
+  "ja": "フーディン",
+  "genus": "Psi Pokémon",
+  "color": "brown",
+  "gen": "generation-i",
+  "specialties": [
+   "teleport",
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "151-surging-psychic-power",
+   "168-experiment-space"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 216,
+  "natdex": 439,
+  "id": "216-mime-jr",
+  "name": "Mime Jr.",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Psychic",
+   "Fairy"
+  ],
+  "ja": "マネネ",
+  "genus": "Mime Pokémon",
+  "color": "pink",
+  "gen": "generation-iv",
+  "specialties": [
+   "gather"
+  ],
+  "litter": [],
+  "habitats": [
+   "157-spotless-washing-station",
+   "171-public-reading-material"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 217,
+  "natdex": 122,
+  "id": "217-mr-mime",
+  "name": "Mr. Mime",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Psychic",
+   "Fairy"
+  ],
+  "ja": "バリヤード",
+  "genus": "Barrier Pokémon",
+  "color": "pink",
+  "gen": "generation-i",
+  "specialties": [
+   "gather",
+   "build"
+  ],
+  "litter": [],
+  "habitats": [
+   "157-spotless-washing-station"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 218,
+  "natdex": 137,
+  "id": "218-porygon",
+  "name": "Porygon",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Normal"
+  ],
+  "ja": "ポリゴン",
+  "genus": "Virtual Pokémon",
+  "color": "pink",
+  "gen": "generation-i",
+  "specialties": [
+   "recycle"
+  ],
+  "litter": [],
+  "habitats": [
+   "170-researcher-s-desk"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 219,
+  "natdex": 233,
+  "id": "219-porygon2",
+  "name": "Porygon2",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Normal"
+  ],
+  "ja": "ポリゴン２",
+  "genus": "Virtual Pokémon",
+  "color": "red",
+  "gen": "generation-ii",
+  "specialties": [
+   "recycle"
+  ],
+  "litter": [],
+  "habitats": [
+   "166-work-desk"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 220,
+  "natdex": 474,
+  "id": "220-porygon-z",
+  "name": "Porygon-Z",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Normal"
+  ],
+  "ja": "ポリゴンＺ",
+  "genus": "Virtual Pokémon",
+  "color": "red",
+  "gen": "generation-iv",
+  "specialties": [
+   "rarify"
+  ],
+  "litter": [],
+  "habitats": [
+   "164-game-corner-battle-zone"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 221,
+  "natdex": 147,
+  "id": "221-dratini",
+  "name": "Dratini",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Dragon"
+  ],
+  "ja": "ミニリュウ",
+  "genus": "Dragon Pokémon",
+  "color": "blue",
+  "gen": "generation-i",
+  "specialties": [
+   "water"
+  ],
+  "litter": [],
+  "habitats": [
+   "144-hydrated-fluffy-flower-bed",
+   "148-simple-bathroom"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 222,
+  "natdex": 148,
+  "id": "222-dragonair",
+  "name": "Dragonair",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Dragon"
+  ],
+  "ja": "ハクリュー",
+  "genus": "Dragon Pokémon",
+  "color": "blue",
+  "gen": "generation-i",
+  "specialties": [
+   "water"
+  ],
+  "litter": [],
+  "habitats": [
+   "144-hydrated-fluffy-flower-bed",
+   "148-simple-bathroom"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 223,
+  "natdex": 149,
+  "id": "223-dragonite",
+  "name": "Dragonite",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Dragon",
+   "Flying"
+  ],
+  "ja": "カイリュー",
+  "genus": "Dragon Pokémon",
+  "color": "brown",
+  "gen": "generation-i",
+  "specialties": [
+   "water",
+   "fly"
+  ],
+  "litter": [],
+  "habitats": [
+   "145-waterside-dinghy"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 224,
+  "natdex": 155,
+  "id": "224-cyndaquil",
+  "name": "Cyndaquil",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fire"
+  ],
+  "ja": "ヒノアラシ",
+  "genus": "Fire Mouse Pokémon",
+  "color": "yellow",
+  "gen": "generation-ii",
+  "specialties": [
+   "burn"
+  ],
+  "litter": [],
+  "habitats": [
+   "141-concrete-pipe-secret-base"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 225,
+  "natdex": 156,
+  "id": "225-quilava",
+  "name": "Quilava",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fire"
+  ],
+  "ja": "マグマラシ",
+  "genus": "Volcano Pokémon",
+  "color": "yellow",
+  "gen": "generation-ii",
+  "specialties": [
+   "burn"
+  ],
+  "litter": [],
+  "habitats": [
+   "141-concrete-pipe-secret-base",
+   "150-fireplace-nap-spot"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 226,
+  "natdex": 157,
+  "id": "226-typhlosion",
+  "name": "Typhlosion",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fire"
+  ],
+  "ja": "バクフーン",
+  "genus": "Volcano Pokémon",
+  "color": "yellow",
+  "gen": "generation-ii",
+  "specialties": [
+   "burn",
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "150-fireplace-nap-spot",
+   "183-top-pop"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 227,
+  "natdex": 200,
+  "id": "227-misdreavus",
+  "name": "Misdreavus",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Ghost"
+  ],
+  "ja": "ムウマ",
+  "genus": "Screech Pokémon",
+  "color": "gray",
+  "gen": "generation-ii",
+  "specialties": [
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "142-fluffy-flower-bed",
+   "167-office-storeroom"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 228,
+  "natdex": 429,
+  "id": "228-mismagius",
+  "name": "Mismagius",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Ghost"
+  ],
+  "ja": "ムウマージ",
+  "genus": "Magical Pokémon",
+  "color": "purple",
+  "gen": "generation-iv",
+  "specialties": [
+   "gather",
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "142-fluffy-flower-bed",
+   "158-home-theater",
+   "167-office-storeroom"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 229,
+  "natdex": 203,
+  "id": "229-girafarig",
+  "name": "Girafarig",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Normal",
+   "Psychic"
+  ],
+  "ja": "キリンリキ",
+  "genus": "Long Neck Pokémon",
+  "color": "yellow",
+  "gen": "generation-ii",
+  "specialties": [
+   "gather"
+  ],
+  "litter": [],
+  "habitats": [
+   "143-tree-shaded-fluffy-flower-bed"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 230,
+  "natdex": 981,
+  "id": "230-farigiraf",
+  "name": "Farigiraf",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Normal",
+   "Psychic"
+  ],
+  "ja": "リキキリン",
+  "genus": "Long Neck Pokémon",
+  "color": "brown",
+  "gen": "generation-ix",
+  "specialties": [
+   "gather",
+   "search"
+  ],
+  "litter": [],
+  "habitats": [
+   "143-tree-shaded-fluffy-flower-bed"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 231,
+  "natdex": 280,
+  "id": "231-ralts",
+  "name": "Ralts",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Psychic",
+   "Fairy"
+  ],
+  "ja": "ラルトス",
+  "genus": "Feeling Pokémon",
+  "color": "white",
+  "gen": "generation-iii",
+  "specialties": [
+   "teleport"
+  ],
+  "litter": [],
+  "habitats": [
+   "159-study-area"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 232,
+  "natdex": 281,
+  "id": "232-kirlia",
+  "name": "Kirlia",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Psychic",
+   "Fairy"
+  ],
+  "ja": "キルリア",
+  "genus": "Emotion Pokémon",
+  "color": "white",
+  "gen": "generation-iii",
+  "specialties": [
+   "teleport"
+  ],
+  "litter": [],
+  "habitats": [
+   "159-study-area",
+   "162-moisturizing-makeup-stand"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 233,
+  "natdex": 282,
+  "id": "233-gardevoir",
+  "name": "Gardevoir",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Psychic",
+   "Fairy"
+  ],
+  "ja": "サーナイト",
+  "genus": "Embrace Pokémon",
+  "color": "white",
+  "gen": "generation-iii",
+  "specialties": [
+   "teleport",
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "162-moisturizing-makeup-stand",
+   "163-mini-library"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 234,
+  "natdex": 475,
+  "id": "234-gallade",
+  "name": "Gallade",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Psychic",
+   "Fighting"
+  ],
+  "ja": "エルレイド",
+  "genus": "Blade Pokémon",
+  "color": "white",
+  "gen": "generation-iv",
+  "specialties": [
+   "teleport",
+   "build"
+  ],
+  "litter": [],
+  "habitats": [
+   "178-dojo-training"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 235,
+  "natdex": 311,
+  "id": "235-plusle",
+  "name": "Plusle",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Electric"
+  ],
+  "ja": "プラスル",
+  "genus": "Cheering Pokémon",
+  "color": "yellow",
+  "gen": "generation-iii",
+  "specialties": [
+   "generate"
+  ],
+  "litter": [],
+  "habitats": [
+   "174-picturesque-photo-cutout-board"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 236,
+  "natdex": 312,
+  "id": "236-minun",
+  "name": "Minun",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Electric"
+  ],
+  "ja": "マイナン",
+  "genus": "Cheering Pokémon",
+  "color": "yellow",
+  "gen": "generation-iii",
+  "specialties": [
+   "generate"
+  ],
+  "litter": [],
+  "habitats": [
+   "174-picturesque-photo-cutout-board"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 237,
+  "natdex": 328,
+  "id": "237-trapinch",
+  "name": "Trapinch",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Ground"
+  ],
+  "ja": "ナックラー",
+  "genus": "Ant Pit Pokémon",
+  "color": "brown",
+  "gen": "generation-iii",
+  "specialties": [
+   "bulldoze",
+   "litter"
+  ],
+  "litter": [
+   "Squishy Clay"
+  ],
+  "habitats": [
+   "137-pink-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 238,
+  "natdex": 329,
+  "id": "238-vibrava",
+  "name": "Vibrava",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Ground",
+   "Dragon"
+  ],
+  "ja": "ビブラーバ",
+  "genus": "Vibration Pokémon",
+  "color": "green",
+  "gen": "generation-iii",
+  "specialties": [
+   "bulldoze",
+   "fly"
+  ],
+  "litter": [],
+  "habitats": [
+   "137-pink-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 239,
+  "natdex": 330,
+  "id": "239-flygon",
+  "name": "Flygon",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Ground",
+   "Dragon"
+  ],
+  "ja": "フライゴン",
+  "genus": "Mystic Pokémon",
+  "color": "green",
+  "gen": "generation-iii",
+  "specialties": [
+   "bulldoze",
+   "fly"
+  ],
+  "litter": [],
+  "habitats": [
+   "137-pink-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 240,
+  "natdex": 333,
+  "id": "240-swablu",
+  "name": "Swablu",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Normal",
+   "Flying"
+  ],
+  "ja": "チルット",
+  "genus": "Cotton Bird Pokémon",
+  "color": "blue",
+  "gen": "generation-iii",
+  "specialties": [
+   "litter"
+  ],
+  "litter": [
+   "Fluff"
+  ],
+  "habitats": [
+   "137-pink-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 241,
+  "natdex": 334,
+  "id": "241-altaria",
+  "name": "Altaria",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Dragon",
+   "Flying"
+  ],
+  "ja": "チルタリス",
+  "genus": "Humming Pokémon",
+  "color": "blue",
+  "gen": "generation-iii",
+  "specialties": [
+   "litter",
+   "fly"
+  ],
+  "litter": [
+   "Fluff"
+  ],
+  "habitats": [
+   "147-birdsong-garden"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 242,
+  "natdex": 355,
+  "id": "242-duskull",
+  "name": "Duskull",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Ghost"
+  ],
+  "ja": "ヨマワル",
+  "genus": "Requiem Pokémon",
+  "color": "black",
+  "gen": "generation-iii",
+  "specialties": [
+   "gather"
+  ],
+  "litter": [],
+  "habitats": [
+   "137-pink-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 243,
+  "natdex": 356,
+  "id": "243-dusclops",
+  "name": "Dusclops",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Ghost"
+  ],
+  "ja": "サマヨール",
+  "genus": "Beckon Pokémon",
+  "color": "black",
+  "gen": "generation-iii",
+  "specialties": [
+   "gather"
+  ],
+  "litter": [],
+  "habitats": [
+   "153-trash-site-tv"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 244,
+  "natdex": 477,
+  "id": "244-dusknoir",
+  "name": "Dusknoir",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Ghost"
+  ],
+  "ja": "ヨノワール",
+  "genus": "Gripper Pokémon",
+  "color": "black",
+  "gen": "generation-iv",
+  "specialties": [
+   "gather",
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "153-trash-site-tv"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 245,
+  "natdex": 374,
+  "id": "245-beldum",
+  "name": "Beldum",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Steel",
+   "Psychic"
+  ],
+  "ja": "ダンバル",
+  "genus": "Iron Ball Pokémon",
+  "color": "blue",
+  "gen": "generation-iii",
+  "specialties": [
+   "recycle"
+  ],
+  "litter": [],
+  "habitats": [
+   "149-cycling-rest-stop"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 246,
+  "natdex": 375,
+  "id": "246-metang",
+  "name": "Metang",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Steel",
+   "Psychic"
+  ],
+  "ja": "メタング",
+  "genus": "Iron Claw Pokémon",
+  "color": "blue",
+  "gen": "generation-iii",
+  "specialties": [
+   "recycle"
+  ],
+  "litter": [],
+  "habitats": [
+   "169-professor-s-apprentice-program"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 247,
+  "natdex": 376,
+  "id": "247-metagross",
+  "name": "Metagross",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Steel",
+   "Psychic"
+  ],
+  "ja": "メタグロス",
+  "genus": "Iron Leg Pokémon",
+  "color": "blue",
+  "gen": "generation-iii",
+  "specialties": [
+   "recycle",
+   "crush"
+  ],
+  "litter": [],
+  "habitats": [
+   "182-gamer-s-paradise"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 248,
+  "natdex": 495,
+  "id": "248-snivy",
+  "name": "Snivy",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Grass"
+  ],
+  "ja": "ツタージャ",
+  "genus": "Grass Snake Pokémon",
+  "color": "green",
+  "gen": "generation-v",
+  "specialties": [
+   "grow",
+   "litter"
+  ],
+  "litter": [
+   "Vine Rope"
+  ],
+  "habitats": [
+   "165-playland"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 249,
+  "natdex": 496,
+  "id": "249-servine",
+  "name": "Servine",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Grass"
+  ],
+  "ja": "ジャノビー",
+  "genus": "Grass Snake Pokémon",
+  "color": "green",
+  "gen": "generation-v",
+  "specialties": [
+   "grow",
+   "litter"
+  ],
+  "litter": [
+   "Vine Rope"
+  ],
+  "habitats": [
+   "143-tree-shaded-fluffy-flower-bed"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 250,
+  "natdex": 497,
+  "id": "250-serperior",
+  "name": "Serperior",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Grass"
+  ],
+  "ja": "ジャローダ",
+  "genus": "Regal Pokémon",
+  "color": "green",
+  "gen": "generation-v",
+  "specialties": [
+   "grow",
+   "litter"
+  ],
+  "litter": [
+   "Vine Rope"
+  ],
+  "habitats": [
+   "143-tree-shaded-fluffy-flower-bed",
+   "171-public-reading-material"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 251,
+  "natdex": 656,
+  "id": "251-froakie",
+  "name": "Froakie",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "ケロマツ",
+  "genus": "Bubble Frog Pokémon",
+  "color": "blue",
+  "gen": "generation-vi",
+  "specialties": [
+   "water"
+  ],
+  "litter": [],
+  "habitats": [
+   "139-hydrated-pink-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 252,
+  "natdex": 657,
+  "id": "252-frogadier",
+  "name": "Frogadier",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "ゲコガシラ",
+  "genus": "Bubble Frog Pokémon",
+  "color": "blue",
+  "gen": "generation-vi",
+  "specialties": [
+   "water"
+  ],
+  "litter": [],
+  "habitats": [
+   "139-hydrated-pink-tall-grass",
+   "173-prank-button"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 253,
+  "natdex": 658,
+  "id": "253-greninja",
+  "name": "Greninja",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Dark"
+  ],
+  "ja": "ゲッコウガ",
+  "genus": "Ninja Pokémon",
+  "color": "blue",
+  "gen": "generation-vi",
+  "specialties": [
+   "water",
+   "chop"
+  ],
+  "litter": [],
+  "habitats": [
+   "139-hydrated-pink-tall-grass",
+   "173-prank-button"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 254,
+  "natdex": 702,
+  "id": "254-dedenne",
+  "name": "Dedenne",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Electric",
+   "Fairy"
+  ],
+  "ja": "デデンネ",
+  "genus": "Antenna Pokémon",
+  "color": "yellow",
+  "gen": "generation-vi",
+  "specialties": [
+   "search"
+  ],
+  "litter": [],
+  "habitats": [
+   "175-tire-park"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 255,
+  "natdex": 714,
+  "id": "255-noibat",
+  "name": "Noibat",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Flying",
+   "Dragon"
+  ],
+  "ja": "オンバット",
+  "genus": "Sound Wave Pokémon",
+  "color": "purple",
+  "gen": "generation-vi",
+  "specialties": [
+   "search"
+  ],
+  "litter": [],
+  "habitats": [
+   "160-rhythmic-living-room"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 256,
+  "natdex": 715,
+  "id": "256-noivern",
+  "name": "Noivern",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Flying",
+   "Dragon"
+  ],
+  "ja": "オンバーン",
+  "genus": "Sound Wave Pokémon",
+  "color": "purple",
+  "gen": "generation-vi",
+  "specialties": [
+   "search",
+   "fly"
+  ],
+  "litter": [],
+  "habitats": [
+   "160-rhythmic-living-room"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 257,
+  "natdex": 821,
+  "id": "257-rookidee",
+  "name": "Rookidee",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Flying"
+  ],
+  "ja": "ココガラ",
+  "genus": "Tiny Bird Pokémon",
+  "color": "blue",
+  "gen": "generation-viii",
+  "specialties": [
+   "chop"
+  ],
+  "litter": [],
+  "habitats": [
+   "142-fluffy-flower-bed"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 258,
+  "natdex": 822,
+  "id": "258-corvisquire",
+  "name": "Corvisquire",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Flying"
+  ],
+  "ja": "アオガラス",
+  "genus": "Raven Pokémon",
+  "color": "blue",
+  "gen": "generation-viii",
+  "specialties": [
+   "chop"
+  ],
+  "litter": [],
+  "habitats": [
+   "140-elevated-pink-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 259,
+  "natdex": 823,
+  "id": "259-corviknight",
+  "name": "Corviknight",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Flying",
+   "Steel"
+  ],
+  "ja": "アーマーガア",
+  "genus": "Raven Pokémon",
+  "color": "purple",
+  "gen": "generation-viii",
+  "specialties": [
+   "chop",
+   "fly"
+  ],
+  "litter": [],
+  "habitats": [
+   "140-elevated-pink-tall-grass",
+   "156-sewer-hole-inspection"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 260,
+  "natdex": 885,
+  "id": "260-dreepy",
+  "name": "Dreepy",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Dragon",
+   "Ghost"
+  ],
+  "ja": "ドラメシヤ",
+  "genus": "Lingering Pokémon",
+  "color": "green",
+  "gen": "generation-viii",
+  "specialties": [
+   "gather",
+   "search"
+  ],
+  "litter": [],
+  "habitats": [
+   "138-tree-shaded-pink-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 261,
+  "natdex": 886,
+  "id": "261-drakloak",
+  "name": "Drakloak",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Dragon",
+   "Ghost"
+  ],
+  "ja": "ドロンチ",
+  "genus": "Caretaker Pokémon",
+  "color": "green",
+  "gen": "generation-viii",
+  "specialties": [
+   "gather",
+   "search"
+  ],
+  "litter": [],
+  "habitats": [
+   "138-tree-shaded-pink-tall-grass",
+   "167-office-storeroom"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 262,
+  "natdex": 887,
+  "id": "262-dragapult",
+  "name": "Dragapult",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Dragon",
+   "Ghost"
+  ],
+  "ja": "ドラパルト",
+  "genus": "Stealth Pokémon",
+  "color": "green",
+  "gen": "generation-viii",
+  "specialties": [
+   "gather",
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "167-office-storeroom"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 263,
+  "natdex": 906,
+  "id": "263-sprigatito",
+  "name": "Sprigatito",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Grass"
+  ],
+  "ja": "ニャオハ",
+  "genus": "Grass Cat Pokémon",
+  "color": "green",
+  "gen": "generation-ix",
+  "specialties": [
+   "grow"
+  ],
+  "litter": [],
+  "habitats": [
+   "138-tree-shaded-pink-tall-grass",
+   "155-interrogation-desk"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 264,
+  "natdex": 907,
+  "id": "264-floragato",
+  "name": "Floragato",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Grass"
+  ],
+  "ja": "ニャローテ",
+  "genus": "Grass Cat Pokémon",
+  "color": "green",
+  "gen": "generation-ix",
+  "specialties": [
+   "grow"
+  ],
+  "litter": [],
+  "habitats": [
+   "155-interrogation-desk"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 265,
+  "natdex": 908,
+  "id": "265-meowscarada",
+  "name": "Meowscarada",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Grass",
+   "Dark"
+  ],
+  "ja": "マスカーニャ",
+  "genus": "Magician Pokémon",
+  "color": "green",
+  "gen": "generation-ix",
+  "specialties": [
+   "grow",
+   "hype"
+  ],
+  "litter": [],
+  "habitats": [
+   "172-heart-pounding-surprise-box"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 266,
+  "natdex": 940,
+  "id": "266-wattrel",
+  "name": "Wattrel",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Electric",
+   "Flying"
+  ],
+  "ja": "カイデン",
+  "genus": "Storm Petrel Pokémon",
+  "color": "black",
+  "gen": "generation-ix",
+  "specialties": [
+   "generate"
+  ],
+  "litter": [],
+  "habitats": [
+   "140-elevated-pink-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 267,
+  "natdex": 941,
+  "id": "267-kilowattrel",
+  "name": "Kilowattrel",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Electric",
+   "Flying"
+  ],
+  "ja": "タイカイデン",
+  "genus": "Frigatebird Pokémon",
+  "color": "yellow",
+  "gen": "generation-ix",
+  "specialties": [
+   "generate",
+   "fly"
+  ],
+  "litter": [],
+  "habitats": [
+   "140-elevated-pink-tall-grass"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 268,
+  "natdex": 957,
+  "id": "268-tinkatink",
+  "name": "Tinkatink",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fairy",
+   "Steel"
+  ],
+  "ja": "カヌチャン",
+  "genus": "Metalsmith Pokémon",
+  "color": "pink",
+  "gen": "generation-ix",
+  "specialties": [
+   "build"
+  ],
+  "litter": [],
+  "habitats": [
+   "028-large-luggage-carrier",
+   "154-oversized-dumping-ground"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 269,
+  "natdex": 958,
+  "id": "269-tinkatuff",
+  "name": "Tinkatuff",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fairy",
+   "Steel"
+  ],
+  "ja": "ナカヌチャン",
+  "genus": "Hammer Pokémon",
+  "color": "pink",
+  "gen": "generation-ix",
+  "specialties": [
+   "build"
+  ],
+  "litter": [],
+  "habitats": [
+   "028-large-luggage-carrier",
+   "156-sewer-hole-inspection"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 270,
+  "natdex": 959,
+  "id": "270-tinkaton-supervisor",
+  "name": "Tinkaton",
+  "form": "Supervisor",
+  "alias": "Tinkmaster",
+  "types": [
+   "Fairy",
+   "Steel"
+  ],
+  "ja": "デカヌチャン",
+  "genus": "Hammer Pokémon",
+  "color": "pink",
+  "gen": "generation-ix",
+  "specialties": [
+   "engineer"
+  ],
+  "litter": [],
+  "habitats": [
+   "154-oversized-dumping-ground"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 271,
+  "natdex": 142,
+  "id": "271-aerodactyl",
+  "name": "Aerodactyl",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Rock",
+   "Flying"
+  ],
+  "ja": "プテラ",
+  "genus": "Fossil Pokémon",
+  "color": "purple",
+  "gen": "generation-i",
+  "specialties": [
+   "fly"
+  ],
+  "litter": [],
+  "habitats": [
+   "193-wing-fossil-display"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 272,
+  "natdex": 408,
+  "id": "272-cranidos",
+  "name": "Cranidos",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Rock"
+  ],
+  "ja": "ズガイドス",
+  "genus": "Head Butt Pokémon",
+  "color": "blue",
+  "gen": "generation-iv",
+  "specialties": [
+   "crush"
+  ],
+  "litter": [],
+  "habitats": [
+   "194-skull-fossil-display"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 273,
+  "natdex": 409,
+  "id": "273-rampardos",
+  "name": "Rampardos",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Rock"
+  ],
+  "ja": "ラムパルド",
+  "genus": "Head Butt Pokémon",
+  "color": "blue",
+  "gen": "generation-iv",
+  "specialties": [
+   "crush",
+   "litter"
+  ],
+  "litter": [
+   "Stone"
+  ],
+  "habitats": [
+   "195-headbutt-fossil-display"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 274,
+  "natdex": 410,
+  "id": "274-shieldon",
+  "name": "Shieldon",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Rock",
+   "Steel"
+  ],
+  "ja": "タテトプス",
+  "genus": "Shield Pokémon",
+  "color": "gray",
+  "gen": "generation-iv",
+  "specialties": [
+   "crush"
+  ],
+  "litter": [],
+  "habitats": [
+   "196-armor-fossil-display"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 275,
+  "natdex": 411,
+  "id": "275-bastiodon",
+  "name": "Bastiodon",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Rock",
+   "Steel"
+  ],
+  "ja": "トリデプス",
+  "genus": "Shield Pokémon",
+  "color": "gray",
+  "gen": "generation-iv",
+  "specialties": [
+   "crush",
+   "litter"
+  ],
+  "litter": [
+   "Stone"
+  ],
+  "habitats": [
+   "197-shield-fossil-display"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 276,
+  "natdex": 696,
+  "id": "276-tyrunt",
+  "name": "Tyrunt",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Rock",
+   "Dragon"
+  ],
+  "ja": "チゴラス",
+  "genus": "Royal Heir Pokémon",
+  "color": "brown",
+  "gen": "generation-vi",
+  "specialties": [
+   "crush"
+  ],
+  "litter": [],
+  "habitats": [
+   "198-jaw-fossil-display"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 277,
+  "natdex": 697,
+  "id": "277-tyrantrum",
+  "name": "Tyrantrum",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Rock",
+   "Dragon"
+  ],
+  "ja": "ガチゴラス",
+  "genus": "Despot Pokémon",
+  "color": "red",
+  "gen": "generation-vi",
+  "specialties": [
+   "crush",
+   "litter"
+  ],
+  "litter": [
+   "Stone"
+  ],
+  "habitats": [
+   "199-despot-fossil-display"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 278,
+  "natdex": 698,
+  "id": "278-amaura",
+  "name": "Amaura",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Rock",
+   "Ice"
+  ],
+  "ja": "アマルス",
+  "genus": "Tundra Pokémon",
+  "color": "blue",
+  "gen": "generation-vi",
+  "specialties": [
+   "crush"
+  ],
+  "litter": [],
+  "habitats": [
+   "200-sail-fossil-display"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 279,
+  "natdex": 699,
+  "id": "279-aurorus",
+  "name": "Aurorus",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Rock",
+   "Ice"
+  ],
+  "ja": "アマルルガ",
+  "genus": "Tundra Pokémon",
+  "color": "blue",
+  "gen": "generation-vi",
+  "specialties": [
+   "crush",
+   "litter"
+  ],
+  "litter": [
+   "Stone"
+  ],
+  "habitats": [
+   "201-tundra-fossil-display"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 280,
+  "natdex": 133,
+  "id": "280-eevee",
+  "name": "Eevee",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Normal"
+  ],
+  "ja": "イーブイ",
+  "genus": "Evolution Pokémon",
+  "color": "brown",
+  "gen": "generation-i",
+  "specialties": [
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "008-pretty-flower-bed"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 281,
+  "natdex": 134,
+  "id": "281-vaporeon",
+  "name": "Vaporeon",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "シャワーズ",
+  "genus": "Bubble Jet Pokémon",
+  "color": "blue",
+  "gen": "generation-i",
+  "specialties": [
+   "water"
+  ],
+  "litter": [],
+  "habitats": [
+   "202-boundless-blue-beverage"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 282,
+  "natdex": 135,
+  "id": "282-jolteon",
+  "name": "Jolteon",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Electric"
+  ],
+  "ja": "サンダース",
+  "genus": "Lightning Pokémon",
+  "color": "yellow",
+  "gen": "generation-i",
+  "specialties": [
+   "generate"
+  ],
+  "litter": [],
+  "habitats": [
+   "203-electrifying-potatoes"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 283,
+  "natdex": 136,
+  "id": "283-flareon",
+  "name": "Flareon",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fire"
+  ],
+  "ja": "ブースター",
+  "genus": "Flame Pokémon",
+  "color": "red",
+  "gen": "generation-i",
+  "specialties": [
+   "burn"
+  ],
+  "litter": [],
+  "habitats": [
+   "204-burning-hot-spice"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 284,
+  "natdex": 196,
+  "id": "284-espeon",
+  "name": "Espeon",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Psychic"
+  ],
+  "ja": "エーフィ",
+  "genus": "Sun Pokémon",
+  "color": "purple",
+  "gen": "generation-ii",
+  "specialties": [
+   "gather"
+  ],
+  "litter": [],
+  "habitats": [
+   "205-elegant-daytime-treats"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 285,
+  "natdex": 197,
+  "id": "285-umbreon",
+  "name": "Umbreon",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Dark"
+  ],
+  "ja": "ブラッキー",
+  "genus": "Moonlight Pokémon",
+  "color": "black",
+  "gen": "generation-ii",
+  "specialties": [
+   "search"
+  ],
+  "litter": [],
+  "habitats": [
+   "206-dark-chocolate-cookies"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 286,
+  "natdex": 470,
+  "id": "286-leafeon",
+  "name": "Leafeon",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Grass"
+  ],
+  "ja": "リーフィア",
+  "genus": "Verdant Pokémon",
+  "color": "green",
+  "gen": "generation-iv",
+  "specialties": [
+   "grow"
+  ],
+  "litter": [],
+  "habitats": [
+   "207-leafy-greens-sandwich"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 287,
+  "natdex": 471,
+  "id": "287-glaceon",
+  "name": "Glaceon",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Ice"
+  ],
+  "ja": "グレイシア",
+  "genus": "Fresh Snow Pokémon",
+  "color": "blue",
+  "gen": "generation-iv",
+  "specialties": [
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "208-chilly-shaved-ice"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 288,
+  "natdex": 700,
+  "id": "288-sylveon",
+  "name": "Sylveon",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fairy"
+  ],
+  "ja": "ニンフィア",
+  "genus": "Intertwining Pokémon",
+  "color": "pink",
+  "gen": "generation-vi",
+  "specialties": [
+   "hype"
+  ],
+  "litter": [],
+  "habitats": [
+   "209-lovely-ribbon-cake"
+  ]
+ },
+ {
+  "dex": "main",
+  "no": 289,
+  "natdex": 382,
+  "id": "289-kyogre",
+  "name": "Kyogre",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "カイオーガ",
+  "genus": "Sea Basin Pokémon",
+  "color": "blue",
+  "gen": "generation-iii",
+  "specialties": [],
+  "litter": [],
+  "habitats": []
+ },
+ {
+  "dex": "main",
+  "no": 290,
+  "natdex": 243,
+  "id": "290-raikou",
+  "name": "Raikou",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Electric"
+  ],
+  "ja": "ライコウ",
+  "genus": "Thunder Pokémon",
+  "color": "yellow",
+  "gen": "generation-ii",
+  "specialties": [
+   "generate"
+  ],
+  "litter": [],
+  "habitats": []
+ },
+ {
+  "dex": "main",
+  "no": 291,
+  "natdex": 244,
+  "id": "291-entei",
+  "name": "Entei",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fire"
+  ],
+  "ja": "エンテイ",
+  "genus": "Volcano Pokémon",
+  "color": "brown",
+  "gen": "generation-ii",
+  "specialties": [
+   "burn"
+  ],
+  "litter": [],
+  "habitats": []
+ },
+ {
+  "dex": "main",
+  "no": 292,
+  "natdex": 245,
+  "id": "292-suicune",
+  "name": "Suicune",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "スイクン",
+  "genus": "Aurora Pokémon",
+  "color": "blue",
+  "gen": "generation-ii",
+  "specialties": [
+   "water"
+  ],
+  "litter": [],
+  "habitats": []
+ },
+ {
+  "dex": "main",
+  "no": 293,
+  "natdex": 721,
+  "id": "293-volcanion",
+  "name": "Volcanion",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fire",
+   "Water"
+  ],
+  "ja": "ボルケニオン",
+  "genus": "Steam Pokémon",
+  "color": "brown",
+  "gen": "generation-vi",
+  "specialties": [
+   "burn"
+  ],
+  "litter": [],
+  "habitats": []
+ },
+ {
+  "dex": "main",
+  "no": 294,
+  "natdex": 144,
+  "id": "294-articuno",
+  "name": "Articuno",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Ice",
+   "Flying"
+  ],
+  "ja": "フリーザー",
+  "genus": "Freeze Pokémon",
+  "color": "blue",
+  "gen": "generation-i",
+  "specialties": [
+   "fly"
+  ],
+  "litter": [],
+  "habitats": []
+ },
+ {
+  "dex": "main",
+  "no": 295,
+  "natdex": 145,
+  "id": "295-zapdos",
+  "name": "Zapdos",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Electric",
+   "Flying"
+  ],
+  "ja": "サンダー",
+  "genus": "Electric Pokémon",
+  "color": "yellow",
+  "gen": "generation-i",
+  "specialties": [
+   "fly"
+  ],
+  "litter": [],
+  "habitats": []
+ },
+ {
+  "dex": "main",
+  "no": 296,
+  "natdex": 146,
+  "id": "296-moltres",
+  "name": "Moltres",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fire",
+   "Flying"
+  ],
+  "ja": "ファイヤー",
+  "genus": "Flame Pokémon",
+  "color": "yellow",
+  "gen": "generation-i",
+  "specialties": [
+   "fly"
+  ],
+  "litter": [],
+  "habitats": []
+ },
+ {
+  "dex": "main",
+  "no": 297,
+  "natdex": 249,
+  "id": "297-lugia",
+  "name": "Lugia",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Psychic",
+   "Flying"
+  ],
+  "ja": "ルギア",
+  "genus": "Diving Pokémon",
+  "color": "white",
+  "gen": "generation-ii",
+  "specialties": [],
+  "litter": [],
+  "habitats": []
+ },
+ {
+  "dex": "main",
+  "no": 298,
+  "natdex": 250,
+  "id": "298-ho-oh",
+  "name": "Ho-Oh",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Fire",
+   "Flying"
+  ],
+  "ja": "ホウオウ",
+  "genus": "Rainbow Pokémon",
+  "color": "red",
+  "gen": "generation-ii",
+  "specialties": [],
+  "litter": [],
+  "habitats": []
+ },
+ {
+  "dex": "main",
+  "no": 299,
+  "natdex": 150,
+  "id": "299-mewtwo",
+  "name": "Mewtwo",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Psychic"
+  ],
+  "ja": "ミュウツー",
+  "genus": "Genetic Pokémon",
+  "color": "purple",
+  "gen": "generation-i",
+  "specialties": [
+   "teleport"
+  ],
+  "litter": [],
+  "habitats": []
+ },
+ {
+  "dex": "main",
+  "no": 300,
+  "natdex": 151,
+  "id": "300-mew",
+  "name": "Mew",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Psychic"
+  ],
+  "ja": "ミュウ",
+  "genus": "New Species Pokémon",
+  "color": "pink",
+  "gen": "generation-i",
+  "specialties": [
+   "teleport"
+  ],
+  "litter": [],
+  "habitats": []
+ },
+ {
+  "dex": "basin",
+  "no": 1,
+  "natdex": 90,
+  "id": "basin-001-shellder",
+  "name": "Shellder",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "シェルダー",
+  "genus": "Bivalve Pokémon",
+  "color": "purple",
+  "gen": "generation-i",
+  "specialties": [
+   "scrub",
+   "litter"
+  ],
+  "litter": [
+   "Seashell"
+  ],
+  "habitats": [
+   "basin-002-basin-tall-grass-and-coral",
+   "basin-009-sandy-digging-spot"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 2,
+  "natdex": 91,
+  "id": "basin-002-cloyster",
+  "name": "Cloyster",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Ice"
+  ],
+  "ja": "パルシェン",
+  "genus": "Bivalve Pokémon",
+  "color": "purple",
+  "gen": "generation-i",
+  "specialties": [
+   "scrub",
+   "litter"
+  ],
+  "litter": [
+   "Seashell"
+  ],
+  "habitats": [
+   "basin-005-swaying-flower-bed-and-seaweed"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 3,
+  "natdex": 116,
+  "id": "basin-003-horsea",
+  "name": "Horsea",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "タッツー",
+  "genus": "Dragon Pokémon",
+  "color": "blue",
+  "gen": "generation-i",
+  "specialties": [
+   "water"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-007-coral-congregation"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 4,
+  "natdex": 117,
+  "id": "basin-004-seadra",
+  "name": "Seadra",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "シードラ",
+  "genus": "Dragon Pokémon",
+  "color": "blue",
+  "gen": "generation-i",
+  "specialties": [
+   "water",
+   "litter"
+  ],
+  "litter": [
+   "Black Paint"
+  ],
+  "habitats": [
+   "basin-007-coral-congregation"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 5,
+  "natdex": 230,
+  "id": "basin-005-kingdra",
+  "name": "Kingdra",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Dragon"
+  ],
+  "ja": "キングドラ",
+  "genus": "Dragon Pokémon",
+  "color": "blue",
+  "gen": "generation-ii",
+  "specialties": [
+   "water",
+   "litter"
+  ],
+  "litter": [
+   "Black Paint"
+  ],
+  "habitats": [
+   "basin-007-coral-congregation",
+   "basin-034-marine-makeup-stand"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 6,
+  "natdex": 120,
+  "id": "basin-006-staryu",
+  "name": "Staryu",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "ヒトデマン",
+  "genus": "Star Shape Pokémon",
+  "color": "brown",
+  "gen": "generation-i",
+  "specialties": [
+   "teleport"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-003-swaying-flower-bed"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 7,
+  "natdex": 121,
+  "id": "basin-007-starmie",
+  "name": "Starmie",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Psychic"
+  ],
+  "ja": "スターミー",
+  "genus": "Mysterious Pokémon",
+  "color": "purple",
+  "gen": "generation-i",
+  "specialties": [
+   "teleport",
+   "gather"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-036-mermaid-s-gym"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 8,
+  "natdex": 158,
+  "id": "basin-008-totodile",
+  "name": "Totodile",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "ワニノコ",
+  "genus": "Big Jaw Pokémon",
+  "color": "blue",
+  "gen": "generation-ii",
+  "specialties": [
+   "chop"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-001-basin-tall-grass",
+   "basin-024-canoe-dock",
+   "basin-028-bubbly-bathtub"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 9,
+  "natdex": 159,
+  "id": "basin-009-croconaw",
+  "name": "Croconaw",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "アリゲイツ",
+  "genus": "Big Jaw Pokémon",
+  "color": "blue",
+  "gen": "generation-ii",
+  "specialties": [
+   "chop",
+   "crush"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-015-chimney-rocks-dig-site",
+   "basin-024-canoe-dock"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 10,
+  "natdex": 160,
+  "id": "basin-010-feraligatr",
+  "name": "Feraligatr",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "オーダイル",
+  "genus": "Big Jaw Pokémon",
+  "color": "blue",
+  "gen": "generation-ii",
+  "specialties": [
+   "chop",
+   "crush"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-001-basin-tall-grass",
+   "basin-011-biteable-punching-bag"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 11,
+  "natdex": 170,
+  "id": "basin-011-chinchou",
+  "name": "Chinchou",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Electric"
+  ],
+  "ja": "チョンチー",
+  "genus": "Angler Pokémon",
+  "color": "blue",
+  "gen": "generation-ii",
+  "specialties": [
+   "generate"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-023-fluffy-relaxation"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 12,
+  "natdex": 171,
+  "id": "basin-012-lanturn",
+  "name": "Lanturn",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Electric"
+  ],
+  "ja": "ランターン",
+  "genus": "Light Pokémon",
+  "color": "blue",
+  "gen": "generation-ii",
+  "specialties": [
+   "generate",
+   "water"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-033-nostalgia-zone"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 13,
+  "natdex": 222,
+  "id": "basin-013-corsola",
+  "name": "Corsola",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Rock"
+  ],
+  "ja": "サニーゴ",
+  "genus": "Coral Pokémon",
+  "color": "pink",
+  "gen": "generation-ii",
+  "specialties": [
+   "grow"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-002-basin-tall-grass-and-coral",
+   "basin-007-coral-congregation"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 14,
+  "natdex": 258,
+  "id": "basin-014-mudkip",
+  "name": "Mudkip",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "ミズゴロウ",
+  "genus": "Mud Fish Pokémon",
+  "color": "blue",
+  "gen": "generation-iii",
+  "specialties": [
+   "water"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-001-basin-tall-grass",
+   "basin-023-fluffy-relaxation"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 15,
+  "natdex": 259,
+  "id": "basin-015-marshtomp",
+  "name": "Marshtomp",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Ground"
+  ],
+  "ja": "ヌマクロー",
+  "genus": "Mud Fish Pokémon",
+  "color": "blue",
+  "gen": "generation-iii",
+  "specialties": [
+   "water",
+   "build"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-014-creepy-chimney-rocks",
+   "basin-025-muddy-playtime"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 16,
+  "natdex": 260,
+  "id": "basin-016-swampert",
+  "name": "Swampert",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Ground"
+  ],
+  "ja": "ラグラージ",
+  "genus": "Mud Fish Pokémon",
+  "color": "blue",
+  "gen": "generation-iii",
+  "specialties": [
+   "build",
+   "bulldoze"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-002-basin-tall-grass-and-coral",
+   "basin-026-muddy-spa"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 17,
+  "natdex": 318,
+  "id": "basin-017-carvanha",
+  "name": "Carvanha",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Dark"
+  ],
+  "ja": "キバニア",
+  "genus": "Savage Pokémon",
+  "color": "red",
+  "gen": "generation-iii",
+  "specialties": [
+   "chop"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-006-seaweed-and-netting"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 18,
+  "natdex": 319,
+  "id": "basin-018-sharpedo",
+  "name": "Sharpedo",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Dark"
+  ],
+  "ja": "サメハダー",
+  "genus": "Brutal Pokémon",
+  "color": "blue",
+  "gen": "generation-iii",
+  "specialties": [
+   "crush",
+   "scrub"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-015-chimney-rocks-dig-site"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 19,
+  "natdex": 339,
+  "id": "basin-019-barboach",
+  "name": "Barboach",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Ground"
+  ],
+  "ja": "ドジョッチ",
+  "genus": "Whiskers Pokémon",
+  "color": "gray",
+  "gen": "generation-iii",
+  "specialties": [
+   "search"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-010-sandy-speech",
+   "basin-019-ocean-rest-spot",
+   "basin-025-muddy-playtime"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 20,
+  "natdex": 340,
+  "id": "basin-020-whiscash",
+  "name": "Whiscash",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Ground"
+  ],
+  "ja": "ナマズン",
+  "genus": "Whiskers Pokémon",
+  "color": "blue",
+  "gen": "generation-iii",
+  "specialties": [
+   "search",
+   "bulldoze"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-035-gorgeous-sleeping-area"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 21,
+  "natdex": 341,
+  "id": "basin-021-corphish",
+  "name": "Corphish",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "ヘイガニ",
+  "genus": "Ruffian Pokémon",
+  "color": "red",
+  "gen": "generation-iii",
+  "specialties": [
+   "build"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-008-sandy-basin-tall-grass",
+   "basin-009-sandy-digging-spot"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 22,
+  "natdex": 342,
+  "id": "basin-022-crawdaunt",
+  "name": "Crawdaunt",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Dark"
+  ],
+  "ja": "シザリガー",
+  "genus": "Rogue Pokémon",
+  "color": "red",
+  "gen": "generation-iii",
+  "specialties": [
+   "build",
+   "crush"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-009-sandy-digging-spot"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 23,
+  "natdex": 370,
+  "id": "basin-023-luvdisc",
+  "name": "Luvdisc",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "ラブカス",
+  "genus": "Rendezvous Pokémon",
+  "color": "pink",
+  "gen": "generation-iii",
+  "specialties": [
+   "hype"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-004-swaying-flower-bed-and-coral",
+   "basin-018-treasure-chest-and-sparkling-jewels",
+   "basin-023-fluffy-relaxation"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 24,
+  "natdex": 418,
+  "id": "basin-024-buizel",
+  "name": "Buizel",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "ブイゼル",
+  "genus": "Sea Weasel Pokémon",
+  "color": "brown",
+  "gen": "generation-iv",
+  "specialties": [
+   "chop",
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-001-basin-tall-grass",
+   "basin-022-smoothie-making-spot"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 25,
+  "natdex": 419,
+  "id": "basin-025-floatzel",
+  "name": "Floatzel",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "フローゼル",
+  "genus": "Sea Weasel Pokémon",
+  "color": "brown",
+  "gen": "generation-iv",
+  "specialties": [
+   "trade",
+   "build"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-020-marine-shop"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 26,
+  "natdex": 456,
+  "id": "basin-026-finneon",
+  "name": "Finneon",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "ケイコウオ",
+  "genus": "Wing Fish Pokémon",
+  "color": "blue",
+  "gen": "generation-iv",
+  "specialties": [
+   "hype"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-003-swaying-flower-bed",
+   "basin-012-marine-mossy-rest-spot"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 27,
+  "natdex": 457,
+  "id": "basin-027-lumineon",
+  "name": "Lumineon",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "ネオラント",
+  "genus": "Neon Pokémon",
+  "color": "blue",
+  "gen": "generation-iv",
+  "specialties": [
+   "hype",
+   "water"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-005-swaying-flower-bed-and-seaweed",
+   "basin-012-marine-mossy-rest-spot"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 28,
+  "natdex": 592,
+  "id": "basin-028-frillish-male",
+  "name": "Frillish",
+  "form": "Male",
+  "alias": null,
+  "types": [
+   "Water",
+   "Ghost"
+  ],
+  "ja": "プルリル",
+  "genus": "Floating Pokémon",
+  "color": "white",
+  "gen": "generation-v",
+  "specialties": [
+   "search",
+   "burn"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-017-playing-sailor",
+   "basin-021-ocean-treasures"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 28,
+  "natdex": 592,
+  "id": "basin-028-frillish-female",
+  "name": "Frillish",
+  "form": "Female",
+  "alias": null,
+  "types": [
+   "Water",
+   "Ghost"
+  ],
+  "ja": "プルリル",
+  "genus": "Floating Pokémon",
+  "color": "white",
+  "gen": "generation-v",
+  "specialties": [
+   "search",
+   "burn"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-017-playing-sailor",
+   "basin-021-ocean-treasures"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 29,
+  "natdex": 593,
+  "id": "basin-029-jellicent-male",
+  "name": "Jellicent",
+  "form": "Male",
+  "alias": null,
+  "types": [
+   "Water",
+   "Ghost"
+  ],
+  "ja": "ブルンゲル",
+  "genus": "Floating Pokémon",
+  "color": "white",
+  "gen": "generation-v",
+  "specialties": [
+   "search",
+   "burn"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-032-marine-teatime"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 29,
+  "natdex": 593,
+  "id": "basin-029-jellicent-female",
+  "name": "Jellicent",
+  "form": "Female",
+  "alias": null,
+  "types": [
+   "Water",
+   "Ghost"
+  ],
+  "ja": "ブルンゲル",
+  "genus": "Floating Pokémon",
+  "color": "white",
+  "gen": "generation-v",
+  "specialties": [
+   "search",
+   "burn"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-032-marine-teatime"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 30,
+  "natdex": 594,
+  "id": "basin-030-alomomola",
+  "name": "Alomomola",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "ママンボウ",
+  "genus": "Caring Pokémon",
+  "color": "pink",
+  "gen": "generation-v",
+  "specialties": [
+   "water",
+   "scrub"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-021-ocean-treasures"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 31,
+  "natdex": 618,
+  "id": "basin-031-stunfisk",
+  "name": "Stunfisk",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Ground",
+   "Electric"
+  ],
+  "ja": "マッギョ",
+  "genus": "Trap Pokémon",
+  "color": "brown",
+  "gen": "generation-v",
+  "specialties": [
+   "generate",
+   "bulldoze"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-003-swaying-flower-bed",
+   "basin-006-seaweed-and-netting"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 32,
+  "natdex": 686,
+  "id": "basin-032-inkay",
+  "name": "Inkay",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Dark",
+   "Psychic"
+  ],
+  "ja": "マーイーカ",
+  "genus": "Revolving Pokémon",
+  "color": "blue",
+  "gen": "generation-vi",
+  "specialties": [
+   "gather",
+   "teleport"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-025-muddy-playtime"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 33,
+  "natdex": 687,
+  "id": "basin-033-malamar",
+  "name": "Malamar",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Dark",
+   "Psychic"
+  ],
+  "ja": "カラマネロ",
+  "genus": "Overturning Pokémon",
+  "color": "blue",
+  "gen": "generation-vi",
+  "specialties": [
+   "gather",
+   "teleport"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-027-topsy-turvy"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 34,
+  "natdex": 728,
+  "id": "basin-034-popplio",
+  "name": "Popplio",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "アシマリ",
+  "genus": "Sea Lion Pokémon",
+  "color": "blue",
+  "gen": "generation-vii",
+  "specialties": [
+   "hype",
+   "water"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-003-swaying-flower-bed",
+   "basin-029-bubbly-stage"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 35,
+  "natdex": 729,
+  "id": "basin-035-brionne",
+  "name": "Brionne",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "オシャマリ",
+  "genus": "Pop Star Pokémon",
+  "color": "blue",
+  "gen": "generation-vii",
+  "specialties": [
+   "hype",
+   "trade"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-029-bubbly-stage"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 36,
+  "natdex": 730,
+  "id": "basin-036-primarina",
+  "name": "Primarina",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Fairy"
+  ],
+  "ja": "アシレーヌ",
+  "genus": "Soloist Pokémon",
+  "color": "blue",
+  "gen": "generation-vii",
+  "specialties": [
+   "hype",
+   "scrub"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-031-elegant-concert"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 37,
+  "natdex": 747,
+  "id": "basin-037-mareanie",
+  "name": "Mareanie",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Poison",
+   "Water"
+  ],
+  "ja": "ヒドイデ",
+  "genus": "Brutal Star Pokémon",
+  "color": "blue",
+  "gen": "generation-vii",
+  "specialties": [
+   "recycle"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-004-swaying-flower-bed-and-coral"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 38,
+  "natdex": 748,
+  "id": "basin-038-toxapex",
+  "name": "Toxapex",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Poison",
+   "Water"
+  ],
+  "ja": "ドヒドイデ",
+  "genus": "Brutal Star Pokémon",
+  "color": "blue",
+  "gen": "generation-vii",
+  "specialties": [
+   "recycle",
+   "build"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-018-treasure-chest-and-sparkling-jewels"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 39,
+  "natdex": 767,
+  "id": "basin-039-wimpod",
+  "name": "Wimpod",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Bug",
+   "Water"
+  ],
+  "ja": "コソクムシ",
+  "genus": "Turn Tail Pokémon",
+  "color": "gray",
+  "gen": "generation-vii",
+  "specialties": [
+   "recycle"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-016-discarded-treasure"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 40,
+  "natdex": 768,
+  "id": "basin-040-golisopod",
+  "name": "Golisopod",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Bug",
+   "Water"
+  ],
+  "ja": "グソクムシャ",
+  "genus": "Hard Scale Pokémon",
+  "color": "gray",
+  "gen": "generation-vii",
+  "specialties": [
+   "recycle",
+   "chop"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-004-swaying-flower-bed-and-coral",
+   "basin-016-discarded-treasure"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 41,
+  "natdex": 779,
+  "id": "basin-041-bruxish",
+  "name": "Bruxish",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Psychic"
+  ],
+  "ja": "ハギギシリ",
+  "genus": "Gnash Teeth Pokémon",
+  "color": "pink",
+  "gen": "generation-vii",
+  "specialties": [
+   "gather",
+   "teleport"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-013-molten-mossy-rest-spot"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 42,
+  "natdex": 781,
+  "id": "basin-042-dhelmise",
+  "name": "Dhelmise",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Ghost",
+   "Grass"
+  ],
+  "ja": "ダダリン",
+  "genus": "Sea Creeper Pokémon",
+  "color": "green",
+  "gen": "generation-vii",
+  "specialties": [
+   "grow",
+   "litter"
+  ],
+  "litter": [
+   "Nonburnable Garbage"
+  ],
+  "habitats": [
+   "basin-017-playing-sailor"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 43,
+  "natdex": 833,
+  "id": "basin-043-chewtle",
+  "name": "Chewtle",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "カムカメ",
+  "genus": "Snapping Pokémon",
+  "color": "green",
+  "gen": "generation-viii",
+  "specialties": [
+   "chop"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-022-smoothie-making-spot"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 44,
+  "natdex": 834,
+  "id": "basin-044-drednaw",
+  "name": "Drednaw",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Rock"
+  ],
+  "ja": "カジリガメ",
+  "genus": "Bite Pokémon",
+  "color": "green",
+  "gen": "generation-viii",
+  "specialties": [
+   "chop",
+   "bulldoze"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-024-canoe-dock"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 45,
+  "natdex": 871,
+  "id": "basin-045-pincurchin",
+  "name": "Pincurchin",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Electric"
+  ],
+  "ja": "バチンウニ",
+  "genus": "Sea Urchin Pokémon",
+  "color": "purple",
+  "gen": "generation-viii",
+  "specialties": [
+   "generate"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-014-creepy-chimney-rocks"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 46,
+  "natdex": 960,
+  "id": "basin-046-wiglett",
+  "name": "Wiglett",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "ウミディグダ",
+  "genus": "Garden Eel Pokémon",
+  "color": "white",
+  "gen": "generation-ix",
+  "specialties": [
+   "bulldoze"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-010-sandy-speech"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 47,
+  "natdex": 961,
+  "id": "basin-047-wugtrio",
+  "name": "Wugtrio",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "ウミトリオ",
+  "genus": "Garden Eel Pokémon",
+  "color": "red",
+  "gen": "generation-ix",
+  "specialties": [
+   "bulldoze",
+   "search"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-030-glowing-stage-for-three"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 48,
+  "natdex": 976,
+  "id": "basin-048-veluza",
+  "name": "Veluza",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water",
+   "Psychic"
+  ],
+  "ja": "ミガルーサ",
+  "genus": "Jettison Pokémon",
+  "color": "gray",
+  "gen": "generation-ix",
+  "specialties": [
+   "gather",
+   "teleport"
+  ],
+  "litter": [],
+  "habitats": [
+   "basin-012-marine-mossy-rest-spot"
+  ]
+ },
+ {
+  "dex": "basin",
+  "no": 49,
+  "natdex": 489,
+  "id": "basin-049-phione",
+  "name": "Phione",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "フィオネ",
+  "genus": "Sea Drifter Pokémon",
+  "color": "blue",
+  "gen": "generation-iv",
+  "specialties": [
+   "trade"
+  ],
+  "litter": [],
+  "habitats": []
+ },
+ {
+  "dex": "basin",
+  "no": 50,
+  "natdex": 490,
+  "id": "basin-050-manaphy",
+  "name": "Manaphy",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "マナフィ",
+  "genus": "Seafaring Pokémon",
+  "color": "blue",
+  "gen": "generation-iv",
+  "specialties": [
+   "trade",
+   "hype"
+  ],
+  "litter": [],
+  "habitats": []
+ },
+ {
+  "dex": "event",
+  "no": 1,
+  "natdex": 187,
+  "id": "event-001-hoppip",
+  "name": "Hoppip",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Grass",
+   "Flying"
+  ],
+  "ja": "ハネッコ",
+  "genus": "Cottonweed Pokémon",
+  "color": "pink",
+  "gen": "generation-ii",
+  "specialties": [
+   "grow"
+  ],
+  "litter": [],
+  "habitats": [
+   "event-001-yellow-carpet"
+  ]
+ },
+ {
+  "dex": "event",
+  "no": 2,
+  "natdex": 188,
+  "id": "event-002-skiploom",
+  "name": "Skiploom",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Grass",
+   "Flying"
+  ],
+  "ja": "ポポッコ",
+  "genus": "Cottonweed Pokémon",
+  "color": "green",
+  "gen": "generation-ii",
+  "specialties": [
+   "grow"
+  ],
+  "litter": [],
+  "habitats": [
+   "event-001-yellow-carpet",
+   "event-002-field-trip-friends"
+  ]
+ },
+ {
+  "dex": "event",
+  "no": 3,
+  "natdex": 189,
+  "id": "event-003-jumpluff",
+  "name": "Jumpluff",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Grass",
+   "Flying"
+  ],
+  "ja": "ワタッコ",
+  "genus": "Cottonweed Pokémon",
+  "color": "blue",
+  "gen": "generation-ii",
+  "specialties": [
+   "grow",
+   "litter"
+  ],
+  "litter": [
+   "Fluff"
+  ],
+  "habitats": [
+   "event-001-yellow-carpet",
+   "event-003-dandelion-lunchtime"
+  ]
+ },
+ {
+  "dex": "event",
+  "no": 4,
+  "natdex": 302,
+  "id": "event-004-sableye",
+  "name": "Sableye",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Dark",
+   "Ghost"
+  ],
+  "ja": "ヤミラミ",
+  "genus": "Darkness Pokémon",
+  "color": "purple",
+  "gen": "generation-iii",
+  "specialties": [
+   "search"
+  ],
+  "litter": [],
+  "habitats": [
+   "event-004-treasure-hunting-set"
+  ]
+ },
+ {
+  "dex": "event",
+  "no": 5,
+  "natdex": 385,
+  "id": "event-005-jirachi",
+  "name": "Jirachi",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Steel",
+   "Psychic"
+  ],
+  "ja": "ジラーチ",
+  "genus": "Wish Pokémon",
+  "color": "yellow",
+  "gen": "generation-iii",
+  "specialties": [
+   "litter"
+  ],
+  "litter": [
+   "Stardust"
+  ],
+  "habitats": [
+   "event-005-surrounded-by-stars"
+  ]
+ },
+ {
+  "dex": "event",
+  "no": 6,
+  "natdex": 349,
+  "id": "event-006-feebas",
+  "name": "Feebas",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "ヒンバス",
+  "genus": "Fish Pokémon",
+  "color": "brown",
+  "gen": "generation-iii",
+  "specialties": [
+   "water"
+  ],
+  "litter": [],
+  "habitats": [
+   "event-006-exciting-beach"
+  ]
+ },
+ {
+  "dex": "event",
+  "no": 7,
+  "natdex": 350,
+  "id": "event-007-milotic",
+  "name": "Milotic",
+  "form": null,
+  "alias": null,
+  "types": [
+   "Water"
+  ],
+  "ja": "ミロカロス",
+  "genus": "Tender Pokémon",
+  "color": "pink",
+  "gen": "generation-iii",
+  "specialties": [
+   "water",
+   "hype"
+  ],
+  "litter": [],
+  "habitats": [
+   "event-007-marine-leisure-activities"
+  ]
+ }
+]

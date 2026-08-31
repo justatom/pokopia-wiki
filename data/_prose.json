@@ -1,0 +1,514 @@
+{
+ "abilities": [
+  "Ditto",
+  "As you play as Ditto throughout the game, you need to learn various moves to help you progress. These require you to befriend various Pokémon in order to unleash the move. Each move uses PP and cannot be used continually without rest.\nIn addition to the main moves, there are some smaller moves that Ditto can learn through out the game that can help you in many ways.",
+  "Powering Up Moves",
+  "After you reach Rocky Ridges and meet Chef Dente, you will be able to cook various meals. When you eat these meals, it will power up the moves Cut, Rock Smash, Leafage and Water Gun for a small period. These will have their own PP meter that depletes separately\nMeal\nMove\nEffect\nSalad\nLeafage\nHold down to increase amount of grass unleashed\nCan create Moss on rocks and Duckweed on water\nBread\nCut\nHold down to increase the size of the cut\nCan cut stronger items\nSteak\nRock Smash\nWorks quicker on rocks\nCan break tougher rocks\nSoup\nWater Gun\nHold down to increase amount of water unleashed\nSmoothie\nSurf\nSurf as Lapras underwater\nCan break rocks while Lapras",
+  "Primary Moves",
+  "Secondary Moves"
+ ],
+ "availablepokemon": [
+  "The Available Pokémon",
+  "Pokémon Pokopia has got a variety of Pokémon that will come to your town and can help out in various ways including teaching Ditto some moves. This page is to detail all available Pokémon."
+ ],
+ "basinpokedex": [
+  "The PokéDex (Basin)",
+  "The Bubbly Basin has got its own Pokédex of 50 Pokémon. These can all be found primarily in Bubbly Basin but their habitats can be set up elsewhere if needs be. You cannot obtain them if you have not purchased the xpansion pass"
+ ],
+ "building": [
+  "Building",
+  "Creating your own area is a fundamental element of Pokémon Pokopia and beyond just a Pokémon's habitat, you can do a lot of building using various tiles and materials to your own desires. As long as there's four walls and a door, something can be a home for a Pokémon.\nThis allows for you to create a house for any Pokémon and even create habitats within buildings so long as it has four walls and a door. There is a limit on the size of a structure for it to be considered as a place for a Pokémon. If you exceed an 11x12 size structure on width versus depth then it will stop being classed as a habitat. No matter the size of the self built habitats, you will be able to house four Pokémon within, but Pokémon will not move in unless there's 3 unique pieces of furniture.",
+  "Building Kits",
+  "However, beyond that there are several kits that you can buy in the store in order to build either an entire dwelling, which can be an internal one like a house which is much larger for decorating, or a bespoke building that can be a home for a Pokémon but doesn't have much space. There are also various decorations that can be built, as well as buildings, machines and even entire concepts which will be filled with rare items such as Stereos.\nEach building has a certain size that needs to be taken, and the space that you need to build it can be increased by 1 in order to give room to build.\nIn addition to that, you can purchase kits to help move or destroy a previously built kit\nIf you use Tinkaton for building the kits, it reduces the time significantly and a Next Day build becomes just 1 hour.\nIn each area, there's a tally of 40 building \"points\" that you can have. Each build takes either 1 or 2 points, depending on their size, towards this tally and once it hits 40, you will be unable to build any more building kits in the area."
+ ],
+ "cds": [
+  "CDs",
+  "Hidden throughout the game there are 43 CDs. These can be found in glowing blocks around the regions rotating daily, or some can be found in CD racks in choice areas like the S.S. Anne and Pewter Museum. The CDs contain classic Pokémon music and allow for you to play them so you can hear the music\nTo play the music, you need a CD player and when placed, you can put a CD into the CD player and hear the music when you're within a short range of the CD player.\nAlternatively, DJ Rotom can be found in the Rocky Ridges and allows for you to store up to 5 CDs in it. It will then play the soundtrack on loop from those 5 CDs whenever you're around it. If you have DJ Rotom follow you, you will be able to constantly hear the music."
+ ],
+ "cloudislands": [
+  "Cloud Islands",
+  "Cloud Islands are a unique online mode where you get a special Cloud Island that you can sculpt with as you please. You have the ability to create your own island to share and to invite people in, as well as being able to join other people's islands. This requires a Nintendo Switch Online subscription\nThe islands are basically a reset and one giant map for you to create whatever you want. All your items from the main story do not carry over and so it is starting anew, but your Pokédex and recipes lists remain. The island you enter is its own thing and has materials from every area and biome in the game allowing for you to use them how you see fit.\nAll Pokémon can be summoned in the area, including standard Tangrowth and the Pokémon Center has a Pokédex within which to track your Pokédex. Like the other areas, it also has its own shop and Environment Level.\nAny items you procure during the Cloud Island will remain there, even if they are done by your friends",
+  "Virtual Islands Islands",
+  "Some Cloud Islands are essentially read only, offering a virtual way to look through them and explore so that other players can go in, not interact with eachother and you can basically explore the island without damaging it. To do this, you need to purchase the Mysterious Goggles item from the shop and use them. From there, you can explore the islands virtually. When you create a Cloud Island, you have the ability to set it to be a Virtual Island as well.\nPeriodically, official Cloud Islands are released to explore by The Pokémon Company."
+ ],
+ "collect": [
+  "Collect",
+  "With the Rainbow and Silver Feathers you find, after you have crafted the Clear Bell and Tidal Bell, there isn't usually that much to do with them. However, with Gimmighoul and Gholdengo's Collect Specialty, you can do something with them.\nIf you find Gimmighoul and Gholdengo, you will have the ability to trade them these feathers. In exchange, you will get rare items including Gamer items, Luxury items, Poké Ball items, Cute items, Antique items as well as Music mats and rare materials such as the Strange Strings.\nIf you have any appraised Lost Relics that you don't want, you can also exchange them here to get some of the items as well."
+ ],
+ "cooking": [
+  "Cooking",
+  "After you reach the Rocky Ridge, you will follow a questline that helps you rescue Chef Dente from a barrel. Once done, they will teach you how to use the various ingredients in order to cook meals using ingredients and Pokémon helpers. These meals will then boost up the strength of your moves.\nMeal\nMove\nEffect\nSalad\nLeafage\nHold down to increase amount of grass unleashed\nCan create Moss on rocks and Duckweed on water\nBread\nCut\nHold down to increase the size of the cut\nCan cut stronger items\nSteak\nRock Smash\nWorks quicker on rocks\nCan break tougher rocks\nSoup\nWater Gun\nHold down to increase amount of water unleashed\nSmoothie\nSurf\nAllows for Surf underwater\nBreak blocks. Hold for more vertical damage\nHowever, there's more to it than the simple meals. With different ingredients, and sometimes different Pokémon specialities as your Helper Pokémon, you can craft ones with different tastes. These can then be given to Pokémon in order to help boost their Comfort Level at a higher rate than giving them simple berries.\nIf you cook with Chef Dente as your partner, then frequently you will get double the meal as they will give you the ones they cooked."
+ ],
+ "crafting": [
+  "Crafting & Recipes",
+  "Although you will find many items throughout the region, and you can trade for some, and purchase for others with daily specials on what you can buy, a big way to get the items you need is to craft them. However, in order to do so, you need to have the recipe.\nRecipes can be found in a myriad of ways; the PC Shop has a batch with more unlocking as you increase your environment level in each area, others are founda s part of the story and the rest are found randomly in ripples of water which reset each day.\nOnce you have the recipe, you can go to any work bench and, if you have the required materials, you can build the item and you can even build multiple of them at the same time if you have the materials.",
+  "Blocks"
+ ],
+ "customisation": [
+  "Ditto Selection",
+  "When you start the game, like recent Pokémon games, you will start off by selecting your base Ditto between the two options. From there, you have the ability to change the look, hair and skin colour of your Ditto. This can be done at any time whenever you go to a large mirror no matter where it is placed.",
+  "Outfits",
+  "As the game takes place in the Kanto region long after a catastrophe hits, there are few shops for you to go to. Instead, Ditto learns various outfits from looking at magazines talking about various trainers from around the world\nSome of these magazines can be found in the locations in Kanto while many are randomly found during excursions to Dream Islands"
+ ],
+ "dive": [
+  "Dive",
+  "In the Version 2.0 update, the ability to dive underwater and swim was given to all players after helping Manaphy in Bleak Beach. This mechanic is different to the usual movement and has you able to go up and down with the shoulder buttons, or swim by holding B.\nIn addition to this, you have the ability to go to Bubbly Basin which is almost entirely underwater, and so various mechanics exist. If you go too deep underwater, it will go completely dark requiring illumination to be able to see.\nYou can grow crops underwater, but you need to have a Pokémon with Water Specialty, or use a Bubble Machine, to make bubbles to surround the plants else they will not grow.\nYou can build at various levitations without a connecting platform if you have buoyant blocks. These can be placed wherever in water and can then be built upon.",
+  "Boosted Lapras",
+  "If you eat a smoothie, you will be able to have boosted Lapras power. While it lasts, you will be able to swim as Lapras underwater meaning you can go a lot faster<. Using its abilities, you can also break rocks using Rock Smash while you're transformed into Lapras. This can be charged up to take out multiple blocks in a row.",
+  "Phione"
+ ],
+ "dreamislands": [],
+ "electricity": [
+  "Electricity",
+  "As you have a task to rebuild the cities and areas within the game, it soon becomes clear that a lot of the items throughout the game require electricity to run. This includes items needed for habitats and the habitats need the electricity for them. This is intrudced in Bleak Beach when you need to use the elctricity to lighten the town.\nThere are multiple items that can be used to generate electrictiy; one can be crafted by you and placed anywhere, the others require kits to build with various Pokémon. Some will perpetually generate electricity, while others such as the Furnace will require you to periodically put items in to burn to generate.\nEvery item that requires electricity will require 1 unit of electricity except for a couple which require it but use 0 units such as String Lights and Surface Lights. However, if you overload and have too many items requiring electricity and not enough being generated, it will cause a short and all items will lose power in the circuit until another additional electricity generator is added.\nThere is a limit to the amount of generation you can have in any location. You can have no more than 64 in any combination of Mini Generators, Windmills, Waterwheels or Furnaces. Once you reach that many, you'll be unable to place any more. This means you can generate anywhere from 320 to 1920 units of energy depending on the combination of items you make, but you cannot have more than 1024 electric items at any one time.",
+  "Transmitting Electricity",
+  "Once the electricity is generated, you then need to be able to bring it to items. There are two ways to do this. First is the Utility Pole, introduced in Bleak Beach. This is a large pole that is used to transmit electricity, but takes up a lot of vertical and visual space.\nAfter befriending Porygon in Sparkling Skylands and accepting its request, you will be able to craft Wireless power transmitters. This is a 1x1x1 block which allows for electricity to be transmitted over long distance, and unlike Utility Poles can have the transmission of electricity go through objects. Alongside this, you can craft a Switch which can be activated/deactivated to stop and start electricity transmission to any items directly connected to it.\nEach Utility pole or Wireless transmitter can connect to up to 20 things at once, and can only connect to one generator at a time directly, but power strength from multiple generators can be carried along a utility pole if it meets others from another source.\nDistance is determined based on horizontal and vertical distance with diagonal counting using manhattan geometry where it counts going one way and then the other, so going precisely diagonally with two wireless transmitters would run 8 blocks. This means that the distance travelled for the electricity would always be the same amount of blocks in a three-dimensional setup. However, the power generated cannot go more than 5 vertical blocks up or down at any one time\nThere is also a limit to the amount of transmitters that will work. When you have placed over 256 transmitters in an area, any subsequently placed transmitter, whether it be a utility pole or wireless transmitter, then the subsequently placed transmitters will no longer work and you'll get a notice saying there's no point placing any more of them.\nIn addition to this, some elements need electricity. Pikachu fountain requires a unit of power to activate. Dens and huts won't be connected to electricity naturally, though a Mini generator inside will power all objects inside. Cottages and houses, however, will have all items within powered when connected to electricity.",
+  "Charging Station",
+  "Charging Stations are another element in the electricity element. This item that can be built which shows how many units of electricity are connected to it. It can display up to 40 units of electricity with each light showing it has 8 units of electricity stored."
+ ],
+ "emotes": [
+  "Emotes",
+  "Within the game you can obtain a variety of different emotes. These emotes can be obtained through a variety of means including through Human Records, as well as gifts from Pokémon. Some are also exclusive to inviting certain species of Pokémon to your island from other players islands, either locally or online or via Cloud Island\nYou can bring up the emotes by pressing Down on the D-Pad and running through several options. These can then be used to communicate with other players, or to set up photos.",
+  "Emote",
+  "Celebrate",
+  "Cry",
+  "Shocked",
+  "Beckon",
+  "Bow",
+  "Sleepy",
+  "Point Here",
+  "Greetings",
+  "Smile",
+  "Thumbs-Up",
+  "Goodbye",
+  "Applause",
+  "Think",
+  "Thankful",
+  "Bashful",
+  "High-Five",
+  "Happy",
+  "Proud",
+  "Let's Go!",
+  "Yes",
+  "Twirl",
+  "Tantrum",
+  "Despair",
+  "Huh?",
+  "Peekaboo!",
+  "Angry",
+  "Guide",
+  "Rock Solid",
+  "Mermaid",
+  "Lieutenant",
+  "Princess",
+  "Ninja Descendant",
+  "Psychic Master",
+  "Quiz Master",
+  "Big Bad Boss",
+  "Ice Queen",
+  "Karate King",
+  "Madame Ghost!",
+  "Dragon-type Champ",
+  "Lie Down",
+  "Ready, Set, Go!",
+  "Warm-Up Stretches",
+  "Hooray",
+  "Roar",
+  "Hehehe",
+  "Step Dance"
+ ],
+ "environmentlevel": [
+  "Environment Level",
+  "The Environment Level is a main factor showcasing the progression of your rebuild of each area. Each area has got its own Environment Level starting with 1 and gooing up to Level 10.\nWith each Environment Level increase, you will get new challenges in the Poké Life PC and more items will be made available at the shop, with each area having different items made available. At Environment Level 5 and Level 10 you will also get a special gift of certain items at Level 5 and recipes at Level 10\nTo get your Environment Level up, you need to basically make as many Pokémon in the area happy. This is done through a variety of things to raise their Comfy Level. There are other ways, however, completing Requests will also raise it such as Restoring the Pokémon Center. If you add buildings and other kits, it will also help raise it even if a Pokémon doesn't immediately live there.\nHaving a Legendary or Mythical Pokémon in the area and increasing their Comfy Level will make the Environment Level increase quicker.\nIf you remove Pokémon from an area, it will cause the overall score to go down which can result in your Environment Level being lowered. If it does, then all unpurchased items that unlock at that level in the shop are locked again and any challenges from that level are locked once more.",
+  "Comfy Level",
+  "Each Pokémon has got its own Comfy Level. This is determined based on how happy they are in the area. This can be increased in many ways. First, a Pokémon needs to have a habitat or home to live in. If they don't have one, then their Comfy Level is seen as 0.\nWhen a Pokémon has a habitat, you can ask them how their comfy level is doing and they will often give a specific desire such as food, or a decoration for their habitat. If you give them what they want, this will increase their level. If you then continue giving them gifts every day and talking to them, then their comfy level will increase further.\nYour Pokémon friends' habitats are also a factor in this. Each Pokémon has got its own preferred habitat such as Warm, Humid, Dark and so if you give them a habitat that meets their need, their Comfort level will increase. Their Comfort level will decrease if you put things they dislike near to their habitat.\nThere are 5 different Comfy Levels that a Pokémon can have\nAwesome\nGreat\nNice\nAverage\nIffy\nIf a Pokémon is in a built house rather than just a habitat, their Comfy Level will increase quicker than if they are just in a habitat.\nThere is also a new feature added alongside Bubbly Basin where a Pokémon with the Scrub specialty will, if following you, clean a Pokémon that you encounter which boosts its comfy level and friendship.",
+  "All items purchased here will remain in Cloud Island"
+ ],
+ "eventpokedex": [
+  "The PokéDex (Event)",
+  "In addition to the standard Pokédex, the game has got a second Pokédex which can be tabbed between which keeps track of all Pokémon that are obtained only via Special Events</P."
+ ],
+ "events": [],
+ "expansionpass": [
+  "Pokémon Pokopia Expansion Pass",
+  "Details\nRelease Date\nAugust 2026\nPrice\n£29.99 / €34.99 / $34.99\nThe Pokémon Pokopia Expansion Pass was revealed and released in June 2026 and features three additional packs released over time adding two new towns and a variety of new features\nThe purchase will provide players with all three packs as they release.",
+  "Dynamic Ditto",
+  "Release Date\nJune 9th 2026\nDetails\nThe Pokémon Pokopia Expansion pass released with a special item available. This item is the special Dynamic Ditto pattern for both block and wallpapers",
+  "Bubbly Basin",
+  "Release Date\nAugust 2026\nDetails\nBubbly Basin is a new area introduced in the first paid DLC pack for Pokémon Pokopia. This area is underwater and features a variety of underwater Pokémon and the Mythical Pokémon Manaphy",
+  "Pack 2",
+  "Release Date\nLate 2026\nDetails\nPack 2 features a variety of new features. Currently these features are not clear",
+  "Pack 3",
+  "Release Date\n2027\nDetails\nPack 3 features anothuer new town for you all to explore"
+ ],
+ "exp_bubblybasin": [
+  "Pokémon Pokopia Expansion Pass Part 1 Bubbly Basin",
+  "Release Date\nAugust 2026\nDetails\nBubbly Basin is a new area introduced in the first paid DLC pack for Pokémon Pokopia. This area is underwater and features a variety of underwater Pokémon and the Mythical Pokémon Manaphy"
+ ],
+ "favorites": [
+  "Favorites",
+  "With each Pokémon, they have a certain set of favorite things. Every item in the game fits in to several of these categories.\nWhen a Pokémon has a favorite, it can impact things heavily. First, if you give them an item that matches it, then it will increase their friendship with you at a higher level. If you also decorate their home or habitat with these items, then they will also have their Comfy Level increase at a higher rate. You will notice this as it puts down a bigger sparkle when you put it down on the floor in their home.\nFinally, there's another element, specifically for Pokémon with the Trade Specialty. If you have an item that matches their likes when you go to trade with them, it has a 50% increase in its worth to the Pokémon.",
+  "Favorites",
+  "Blocky stuff",
+  "Cleanliness",
+  "Colorful stuff",
+  "Complicated stuff",
+  "Construction",
+  "Containers",
+  "Cute stuff",
+  "Electronics",
+  "Exercise",
+  "Fabric",
+  "Garbage",
+  "Gatherings",
+  "Glass stuff",
+  "Group Activities",
+  "Hard stuff",
+  "Healing",
+  "Letters and words",
+  "Looks like food",
+  "Lots of dirt",
+  "Lots of fire",
+  "Lots of nature",
+  "Lots of water",
+  "Luxury",
+  "Metal stuff",
+  "Nice breezes",
+  "Noisy stuff",
+  "Ocean vibes",
+  "Play spaces",
+  "Pretty flowers",
+  "Rides",
+  "Round stuff",
+  "Sharp stuff",
+  "Shiny stuff",
+  "Slender objects",
+  "Soft stuff",
+  "Spinning stuff",
+  "Spooky stuff",
+  "Stone stuff",
+  "Strange stuff",
+  "Symbols",
+  "Watching stuff",
+  "Wobbly stuff",
+  "Wooden stuff"
+ ],
+ "flavors": [
+  "Flavors",
+  "As with all Pokémon games since Pokémon Ruby & Sapphire, the food you give your Pokémon all has a specific flavor and in this game, each Pokémon has got a preferred flavor. If you give a Pokémon some food of the flavor that it likes, it will increase their comfy level and bond with you\nPokémon Flavour Preferences\nBitter\nDry\nSweet\nSour\nSpicy"
+ ],
+ "flowers": [
+  "Flowers & Plants",
+  "Throughout the game, there are numerous plants, berries and hedges that you can find in each of the areas. While there is a standard Berry or a standard colour for each, you may find a second berry and a different colour of each plant. However, these aren't the only variants of the plants available. There are a total of five different colours of each plant and five berries to find within the game.\nWith this, as you chop down trees or remove ground you will get seeds for them to grow them. Using a Pokémon with Grow, you can speed this up. A tree would take 4 days as standard to grow, or shorter with a Pokémon using Grow, and Flowers would take a day, or are instant if you have a Pokémon with Grow.\nThere is a twist, however. With each save file, every player gets the standard or each, and one random berry and one random colour of each of the plant variant. These are the ones that grow natively in your game.\nThere are ways to get the others. The most obvious one is by going to other people's islands or Cloud Islands, taking a picture and 3D Printing them. However, in addition to that, on the odd occasion, a Pokémon will be willing to trade a specific berry, and the Daily Shop at the PC has a chance of providing one of the other variants of the plants. Sometimes, Pokémon will also give you seeds for the other variants as well.\nIn each area, you can place a combined 1024 flower seeds, tree seeds or vegetable plants at any one time. Fully grown flowers, bushes and trees do not count to this limit. In addition to that, dry plants also do not count for the limit.",
+  "List of Standard Plants & Berry Trees",
+  "Stylish hedge",
+  "Berry Tree Options",
+  "Lum tree",
+  "Wildflowers Options",
+  "Seashore flowers Options",
+  "Mountain flowers Options",
+  "Skyland flowers Options",
+  "Beautiful flower Options",
+  "Cute flower Options",
+  "Elegant flower Options",
+  "Robust flower Options",
+  "Adorable hedge Options",
+  "Healthy hedge Options",
+  "Damp hedge Options",
+  "Stylish hedge Options",
+  "Stylish hedge Options",
+  "Seabed flowers Options"
+ ],
+ "friendship": [
+  "Friendship",
+  "As with all Pokémon games, Pokémon Pokopia has a friendship system with the Pokémon in the game. This is different to the Comfort Level that they have, though their friendship can affect the growth of that as well.\nGetting a Pokémon happy is fairly simple. If they come to you with a request, if you complete it their friendship gauge will increase. If you give them a gift, their friendship level will also increase.\nThere is also a new feature added alongside Bubbly Basin where a Pokémon with the Scrub specialty will, if following you, clean a Pokémon that you encounter which boosts its comfy level and friendship.\nAs a Pokémon's friendship level with you increases, they will start to be happy seeing you around, and will even sometimes give you gifts of various materials they have found. As it approaches the highest level, the Pokémon will start to call you by your given name rather than Ditto.",
+  "Games",
+  "Periodically, a Pokémon will come to you asking if you'd like to play a game. This can be a quiz, typically about another Pokémon that the Pokémon is friends with, or it can be a game like Look This Way\nLook This Way has you have to pick what way the opponent is going to look. If you get it right, you win a point. If you get it wrong, the Pokémon wins the point. The most points after three rounds wins\nWith the game, you will always get a friendship boost for playing, but if you win the friendship will increase even more.",
+  "Best Friends",
+  "Once you have reached maximum friendship, the Pokémon will come to you and announce that it is your best friend. Now it will always be happy to see you and, in addition to that, it will give a special mark on the Pokémon's Pokédex entry indicating that it is a Best Friend."
+ ],
+ "furniture": [
+  "Furniture",
+  "As you decorate your house and the various islands and dwellings throughout the region, furniture is often requested. Some of the furniture has the Relaxation and Decoration flags which some Pokémon may request to increase their Comfy Level while others are mostly there for utility and to look good.\nFurniture can frequently be found in the stores in the daily specials, or at vaarious Trade Outposts, as well as left around the ruins of the old Kanto cities for you to pick up. All the furniture can also have recipes found throughout the region such as in ripples and more. You can also 3D Print them all to get more.\nMany of the furniture can also have their colourings changed by Smeargle, either once or in two different parts allowing for you to fully customise the items how you see fit."
+ ],
+ "gameplay": [
+  "Create Habitats",
+  "When in the overworld, you will be able to fully craft the island to your desires including building paths, bridges and buildings. With this, you can also create habitats that can lure the various Pokémon in the wild to come to your island\nThis is frequently done through a variety of moves that you can learn from the various Pokémon you bring into the island. When you befriend them, you can learn moves such as Water Gun, Cut, Ember and more. Some Pokémon have Special Moves that will allow for you to transform into them",
+  "Crafting",
+  "In order to build the town, including buildings inside, you have the ability to Craft various items. These items require a variety of materials in order to be created and once you're ready, you can go to a qwork bench and craft whatever you live.\nYou have the ability to craft multiple of an item at once.",
+  "Use Pokémon",
+  "In addition for using Pokémon for Ditto to learn moves, you can have the Pokémon throughout the island. With their moves, you can have them help do things including use their electricity to power things, use their flames to set a fire and more."
+ ],
+ "habitats": [],
+ "hideandsneak": [
+  "Hide-and-Sneak",
+  "One of the unique games that you can play is Hide-and-Sneak. When you befriend Zorua, you will gain the Camouflage ability which lets you turn into any nearby item. With this, you can ask Zorua to play, or sometimes another Pokémon will ask you to play, you will be sent away from the Pokémon Center and given the task to get to the PC without being detected. You have 3 mintues to do so\nIn addition to the main Pokémon, there will be another Pokémon playing and looking for you. If they detect movement, they will investigate and if they spot it, they have found you which causes you to reset to a new location\nIf you play multiplayer, you can play hide and seek with up to 3 other people and you all have to try and get to the PC and the winner is the first one to get to the PC."
+ ],
+ "highlightreel": [
+  "Highlight Reel",
+  "As you are going around your usual activities, you may get a notification saying that a photo opportunity is happening nearby. If you get your camera out, you will find that a frame is hovvering over a nearby area. This photo opportunity is one of several dozen Highlight Reel options that can appear in your Collection\nEach option has got a specific requirement, such as a specific Pokémon (or group of Pokémon), a specific item or both. If there's an item involved, then the item needs to be active in order to activate the photo opportunity.\nSome photo opportunities will reward special items or frames for completion.",
+  "Main",
+  "Bubbly Basin"
+ ],
+ "humanrecords": [
+  "Human Records",
+  "As humans cannot be found anywhere around, it's up to you and Professor Tangrowth to piece together what happened to the humans and why they are no longer there but the Pokémon still are. This is done by finding Human Records. These are records found on grubby letters, magazines and tablets throughout the regions and show a sparkly as you approach them\nSome of the records provide a variety of clues about the past, and with that, others can give rewards such as new outfits and patterns.",
+  "Newspaper",
+  "Diary Entries",
+  "Magazines",
+  "Notes",
+  "Letters",
+  "Papers",
+  "Photos",
+  "Version 2.0 update",
+  "Magazines",
+  "Newspapers",
+  "Magazines",
+  "Notes",
+  "Letters",
+  "Treasure Maps"
+ ],
+ "importantrequests": [
+  "Important Requests",
+  "Throughout the game, you will work with Professor Tangrowth and the Pokémon in each area to fulfill Important Requests. These are the story of the game and have you help out the various Pokémon in each area to help bring the environment level up and your Trainer Rank. With each completion, your Trainer Rank will increased further.\nEach area also has an Important Request to rebuild the Pokémon Center.",
+  "Yawn Up A Storm",
+  "As you work through restoring the Withered Wastelands, it's noted that it hasn't rained in the area in so long and so it's suggested to find a Pokémon that can make it rain. This Pokémon is Slowpoke and you need to set up the habitat for Slowpoke to appear.\nWhen done, Slowpoke will offer its assistance but note that in order to make it rain, the humidity of the area has to reach a point that its yawn will cause the rain. To do so, you will need to do the following: You will need to use Water Gun to liven up the water as much as possible in the area. You can break rocks to create rivers that help increase the mmoisture. Create various flower patches to help increase the humidity too.\nOnce the humidity reaches 100, get Slowpoke to yawn. It will cause a small amount of rain but it won't last. However, a noise is heard from the coast. Go there and you will find Kyogre, who got alerted by your attempt to make it rain and has arrived and will make it rain entirely, which moistens up the entire surrounding area as the rain hits.",
+  "Do the...Team Initiation Challenge",
+  "As you progress through the story, you learn of the Team Intiiation Challenge,a strange building on the coast of the Withered Wastelands. A machine on the building will give you a variety of tasks for you to complete and is part of the \"Do the Team Initation Challenge request\nThere are nine different challenges to go through which require bringing a variety of items to the building, typically items found as you progres through the game. Each time you complete it, you will get a badge.\nClick here for full details",
+  "Brighten Things Up",
+  "In Bleak Beach, there is perpetual darkness regardless of if it is day or night. After helping Meowth with a few tasks to help brighten the area using Generate with Pawmi. Soon, Trubbish will hear a noise behind a wall. Break it down and you'll find Mosslax\nTrubbish will recommend that Professor Tangrowth's help on how to wake it up. Bring Tangrowth and it will postulate that the reason Snorlax hasn't woken up is because it is too dark and recommends you start brightening the area up. Start lighting the area up to bring it up and you can check with Tangrowth to see how bright it is.\nOnce you've helped Torchic with another task, you will find the Charging Station. Get the brightness up enough and two flowers will bloom on Snorlax's head and Tangrowth feels the task here is working and to get more flowers to bloom will wake it up. Soon after, a wounded Pokémon is found nearby, a pale Pikachu called Peakychu. Peakychu is confused as to where it is and wonders where its friends are but comes over to help and suggests makig seashell lamps in the cave to lighten it up even more.\nPeakychu will say that if there's enough power, it will be able to illuminate the area and brings you to a windmill to help connect the town up to fully brighten it up. Connect power stations up and activate furnaces and water wheels to generate enough power. When enough power is generated, Peakychu will use Illuminate to finally brighten up the area. This attracts the attention of Raikou which unleashes a thunder which wakes Mosslax up.",
+  "Time To Party",
+  "In Rocky Ridges, after you have rescued Chef Dente from the barrel it was stuck in, and have found DJ Rotom in a cave, Rotom will be excited about building a town with fun vibes and the two figure out the way to bring Pokémon would be to have a big party, and the request begins. As you get a Party Pot, you need to bring the mood of the area up to 100.\nYour first task given by DJ Rotom is to find a CD, which can be found around the area. Bring the CD to DJ Rotom and it will play it. Then, Professor Tangrowth will ask for you to find a Lost Relic (Large) for him to appraise. When appraised, it will ask for you to place it as a decoration for the party.\nNext, Rotom suggests finding a Pokémon with the Hype ability such as Ludicolo. Go make the habitat for Ludicolo and bring Ludicolo to the party. With that, Chef Dente then suggests making a Party Platter, so offers the recipe to make it, and asks for you to make 5 with varied meals within. Bring the Party Platters to the Party pot and place them with the food.\nThe final task is to bring the Mood up to 100. Keep checking with Rotom to find the mood, and keep adding more Lost Relics around, as well as items such as Balloons and even finding more Pokémon with Hype to help bring the points up.\nWhen the mood is there, it's time to cook the meal, which requires you to bring 15 Leppa Berry, 15 Wheat, 15 Beans and 5 Honey, then bring 5 Pokémon including Chef Dente. The party will begin and Volcanion will appear, surprised. It will be happy at the festivities and set off fireworks.",
+  "Rebuild the Huge Building",
+  "In Sparkling Skylands, you will find a lot of scrap areas and eventually find Tinkamaster, a Tinkaton that is veru curious about machines from humans and thinks it can fix up a massive broken building in the Skylands. It asks for your help in creating things for it. It starts off needing concrete which you can get from Conkeldurr with the mixing machine. When done, Tinkaton will want your help to get the lifts working in the area and gives Tinkagears to help.\nSoon, you will get to the building where Tinkaton thinks it will be able to build, but to do so as with all buildings you will need to get resources. To build 2F you need 25 Concrete, 10 Glass, 5 Pokémetal and 10 Iron Ingots, as well as 6 Pokémon which include Professor Tangrowth.\nBuild that and your next task is to build the third floor which needs 25 Concrete, 10 Glass, 10 GLowing Stone and 15 Copper Ingots, as well as 10 Pokémon with a recommendation that you also bring Chef Dente to help out set up a restaurant for Pokémon and people to enjoy.\nFinally, the fourth floor requires 40 Concrete, 15 Glass, 10 Paper, 10 Brick and 20 Lumber, as well as 15 Pokémon including the recommendation of Peakychu to come as it's considered an outgoing Pokémon. Build it and the floor is complete\nAfter completion, a noise is heard on the roof as a portal seems to appear. Go to the roof and you find a Master Ball which soon opens to unleash Mewtwo, who is surprised at no humans being around as it was concerned they were back, but is impressed that you managed to build the skycraper",
+  "Build the Beautiful Building",
+  "In Bubbly Basin, after you have made the area reach Environment Level 3, Popplio will come to you and say it has an idea for something for the area. It will take you to a large area and start building the Ocean Temple\nIn addition to clearing out the large area Popplio asks for it to go, this build requires 50 Star-spotted rock, 30 Stone, 25 Seashell, 10 Shiny Pearl, 10 Seashell Fencing and 2 Ocean Doors to build. However, there are further tasks required as Popplio wants specific Pokémon to help out: The one with coral horns, the one who is good with their claws, the shy spiky one, the one with the big huge mouth, the one with the charming whiskers and the floaty pink one\nSome may have already been found at this point. Coral horns is Corsola, the shy spiky one is Mareanie, the one good with their claws is Corphish, the one with the big huge mouth is Totodile, the one with the charming whiskers is Barboach and the floaty pink one is Frillish.\nTotodile can be found near the play area after this. It will ask for you to play with it. You start with which way, play hide and seek and then go to a bathroom where it wants to play with a Bubble Machine. Power it up and it will thank you and then come with you to Popplio's build.\nBarboach can be found near the Imperial houses by the planned temple area. It will mention that its Seashell Seat is in the dark valley and that it's too scared to go get it. Go further underwater and retrieve it and Barboach will join you.\nFrillish can be found near a cave entrance towards the north of the area and will ask for help finding a Starmie Doll. Go through the Cerulean Cave with it and a Dowsing Machine to find the Starmie Doll in some rocks near a Crystal Cluster. It will then join you to the build.\nOnce the temple is built, you can enter it where you will find that Manaphy has appeared inside and will stay in the area after thanking for the prior help in Bleak Beach."
+ ],
+ "internetevents": [],
+ "items": [],
+ "jumprope": [
+  "Jump Rope",
+  "One of the unique games that you can play is Jump Rope. When you befriend Bulbasaur and have rebuilt the Pokémon Center, you will be able to ask Bulbasaur to play Jump Rope. The task is simple, you have to jump over Bulbasaur's vines until they hit you.\nAs you get further, Bulbasaur will start increasing the speed of the jump every 10 successful jumps, but once you reach 50 then Bulbasaur's speed andd pace will be erratic and inconsistent",
+  "Jump Rope Contests",
+  "Periodically, Bulbasaur will be at the Pokémon Center and mention that it will be doing a Jump Rope contest. This contest runs exactly the same as the standard Jump Rope contest. This is a special one for one day where you tryand get the highest score you can. If you reach over 50, you will get a special trophy which you can display which will state the date of the contest as well as your biggest jumps.\nThese contests will re-run periodically on set dates."
+ ],
+ "legendary": [
+  "Legendary Pokémon",
+  "As with many Pokémon games, Legendary Pokémon can be found throughout the game. In Pokémon Pokopia, they act much like other Pokémon with their own specialties, desires and so forth but there are a few changes\nLegendary and Mythical Pokémon have a greater effect on the Environment level of the area you bring them to. As you improve their comfort level, it becomes easier to raise the entire environment level of the area",
+  "Dream Islands",
+  "Several of the Legendary Pokémon can be obtained by going through various Dream Islands. If you go to some Dream Islands, you will have a chance of getting the Legendary Beasts and Mewtwo. You can fine tune the islands you get using certain dolls to start your journey but it isn't a guarantee.\nEevee Doll: Suicune\nPikachu Doll: Raikou\nArcanine Doll: Entei\nDragonite Doll: Mewtwo\nStarmie Doll: Phione\nOnce you have spoken to the Pokémon, you will be able to bring them back to the region and set them up in a home.",
+  "Palette Town",
+  "In Palette Town, you will be able to find three special kits around the area. If you go to build these kits, they will require 15 Pokémon as well as a substantial amont of resources. When built, you will find the Legenday Bird Pokémon within\n>\nKitLegendary PokémonRequirements\nFreezing ChambersArticuno50 Stone\n50 Ice\n10 Crystal Fragments\n10 PokéMetal\nAbandoned Power PlantZapdos50 Copper Ingot\n50 Iron Ingot\n50 Sea Glass Fragments\n50 Brick\n10 PokéMetal\nAltar of the FlameMoltres50 Copper Ingot\n50 Gold Ignot\n50 Lava Block\n10 PokéMetal",
+  "Ho-Oh & Lugia",
+  "Throughout your gameplay, you will be seeing Ho-Oh and Lugia flying overhead. If you wait for them to leave, they will drop off a Rainbow Feather or Silver Feather respectively.\nAfter you have befriended Articuno, Zapdos and Moltres, you will get a recipe for a Tidal Bell which requires 5 Rare PokéMetal and 5 Silver Feather to make, and if you befriend Raikou, Entei & Suicune you'll get the recipe for the Clear Bell which requires 5 Rare PokéMetal and 5 Rainbow Feather to make.\nWith these items in hand, when Ho-Oh or Lugia fly overhead, you can place those items and ring the bell to get them to come down to talk and befriend.",
+  "Volcanion",
+  "After you have finished Rocky Ridges, you will be able to befriend Volcanion. To get it to reappear so it can move in, you will need to set up a second party in Rocky Ridges which involves getting the mood up to 100 again. Then, when the party is finished, load up a cannon and some fireworks and Volcanion will appear again and ask to join as the parties always seem fun. From here, it will now live in Rocky Ridges.",
+  "Mew",
+  "Mew is a bit different in how it is found. Unlike the random ones found in the Dream Island from the get-go, or the ones that you find in the story before finding them in Dream Island, here you need to find 27 different Mysterious Slates. These can be found randomly in shiny patches of ground. Then, take then to the ruins near the Pokémon Center in the Withered Wastelands. Put the blocks on the corresponding tile to make a Mew picture and Mew will then be available to find."
+ ],
+ "litter": [
+  "Litter",
+  "Litter is one of the various Specialties Pokémon have in this game, but is arguably one of the most useful. While many of the others can convert materials into other materials, the Litter Specialty can have Pokémon bring items from nowhere. As time passes, each Pokémon will bring an item, and the item varies depending on the Pokémon.\nThe higher the Pokémon comfort level, the more items that get brought"
+ ],
+ "locations": [
+  "Picture"
+ ],
+ "loc_bleakbeach": [
+  "Filters",
+  "Armor fragment"
+ ],
+ "loc_bubblybasin": [
+  "Filters",
+  "Leaf",
+  "Clustered corals print",
+  "Overlapping waves print (wallpaper) Recipe",
+  "Quantity: 1"
+ ],
+ "loc_palettetown": [
+  "Filters",
+  "List of Exclusive Pokémon",
+  "Sylveon",
+  "Windmill kit"
+ ],
+ "loc_rockyridges": [
+  "Filters",
+  "Strange strings"
+ ],
+ "loc_sparklingskylands": [
+  "Filters",
+  "Public seat",
+  "Armor fragment"
+ ],
+ "loc_witheredwastelands": [
+  "Filters",
+  "Pokémetal fragment",
+  "Strange strings"
+ ],
+ "lostrelics": [
+  "Lost Relics",
+  "As you explore the various areas in the game, you will sometimes find blocks that are glowing. If you destroy these blocks, you have a chance of finding rare items liuke Mysterious Slabs, Fossils or the Lost Relics, though sometimes they may end up preparing to explode, requiring you to cool them first.\nLost Relics are items of old that you need to show to Professor Tangrowth to get him to Appraise it and when you do, you will get an item. These items are rare and typically exclusive to this, though you may find a few of them out and about.\nLarge Relics are generally larger items that can be displayed on their own, with several being required for various habitats. Small Relics will require being put in a frame if you wish to put them on display.\nYou will have the ability to 3D Print the Large Relics, but they will require 5 Rare PokéMetal Ingots to create."
+ ],
+ "magnetrise": [
+  "Magnet Rise",
+  "After finishing the story, you can find Magnemite hidden under the rocket that left the Withered Wastelands. This Magnemite will teach you the new transformation, Magnet Rise. This transformation is one of the most important in the game as it has some great versatlitiy\nWith this, you have the ability to fly anywhere, adjust rotation etc., but it does use PP for each use",
+  "Building",
+  "One of the key elements of Magnet Rise is the building feature. While as your standard human form you can place one block at a time, in Magnet Rise Ditto can place up to 9 blocks in one go\nWith this, you can rotate it to be vertical and horizontal, and you can also set it to replace blocks so if there's 9 Cliff Rocks in front of you, but you wish to replace them with Field Grass, you can select the Replace mode and will switch the blocks over, and put the Cliff Rock in your back.",
+  "Magnet Rise",
+  "The other feature is the Break featuee. If you press Y by an item, it will break it up and give you the resource. If it's a plant or a hedge, it will give you the seeds and other items such as Worn lumber will become Lumber. This uses less PP in general than using Rock Smash or Cut to do it, and is a lot quicker\nHowever, if you hold the button and charge it, it will take the entire item and place it in your bag. This means various materials such as Stone debris, Broken Streetlights etc. which can either be not picked up, or have to be broken down into different materials will be able to be placed in your bag. This also includes partially grown plants and more,"
+ ],
+ "mosslaxboosts": [
+  "Mosslax's Boosts",
+  "After you have finished the story in Bleak Beach, you will be able to befriend Mosslax full. While you do this, you will be able to create its habitat, the Gourmet's Offering. Once done, you have the ability to use Mosslax's specialty to your advantage.\nThe specialty, Eat, will give you a special boost based on the food that you offer Mosslax. Each food's flavour will provide a different effect so use of different berries and meals can help you get the effects that you desire.\nThe effect is also adjusted based on if you use a Berry or a fully cooked meal. A fully cooked meal will provide a larger boost than giving a berry. There's three different tiers of strength of effect\nEffect StrengthFood Items\nWeakestBerries\nDrinks\nVegetables\nStandardSimple Salad\nSimple Soup,\nSimple Bread\nSimple hamburger\nStrongestVibrant hamburger steak\nBitter hamburger steak\nCrushed-berry Salad\nFlavorful Soup\nCrouton salad\nBread bowl\nHealthy Soup\nFluffy bread\nExplosive hamburger steak\nCoffe Parfait smoothie\nRefreshing soda smoothie\nThese effects run until the end of the in-game day which resets at 05:00 local time."
+ ],
+ "paint": [
+  "Painting",
+  "Once you reach Bleak Beach, you will be able to meet with Smearguru. Smearguru has got the unique Specialty of Paint which allows for it to paint various items. Throughout the game, a number of the items you receive will be able to be customised using a variety of paint. Paint can be obtained by having a Pokémon with the Crush specialty crush berries, or by purchasing it in the shop\nBerryCommonBonus\nLeppa Berry\nRed Paint\nWhite Paint\nChesto Berry\nBlue Paint\nWhite Paint\nPecha Berry\nPink Paint\nBlack Paint\nRawst Berry\nCyan Paint\nBlack Paint\nAspear Berry\nYellow Paint\nBlack Paint\nLum Berry\nGreen Paint\nWhite Paint\nYou can also buy paint balloons in the shop and craft them in order to be able to throw the paint at the items in question yourself.\nSome items can also be painted in two different parts rather than just one allowing for you to mix and match with colours how you see fit.\nThere are 18 different colours you can paint things in.\nPictureColourCost\nWhite\nWhite Paint * 2\nRed\nRed Paint * 2\nBlue\nBlue Paint * 2\nYellow\nYellow Paint * 2\nGreen\nGreen paint * 2\nAquamarine\nGreen paint * 1\nCyan paint * 1\nOrange\nRed Paint * 1\nYellow paint * 1\nPurple\nPink paint * 1\nBlue paint * 1\nBrown\nRed Paint * 1\nGreen paint * 1\nCyan\nCyan paint * 2\nRose\nRed Paint * 1\nPink paint * 1\nLime\nGreen paint * 1\nYellow paint * 1\nBeige\nWhite Paint * 1\nBlack paint * 1\nPlum\nRed Paint * 1\nBlue paint * 1\nNavy\nBlue Paint * 1\nBlack paint * 1\nBlack\nBlack paint * 2\nGray\nBlue Paint * 1\nWhite paint * 1\nPink\nPink paint * 2",
+  "Patterns",
+  "In addition to paint, some items will be able to have specific patterns painted on. While Smearguru will know some patterns from the beginning, you'll be able to find 22 more patterns as you travel through Dream Islands.\nThese patternpatterns require a larger amount of paint and will typically only go on the fabric areas of any given item.\nIn addition to finding them in the Dream Islands, if you exchange Honey with Vespiquen, you will get an item with a pattern including unique patterns exclusive to the items. You may also get items with patterns available in the in-game daily shop. Show Smearguru them and you will get access to them later. T"
+ ],
+ "patch": [
+  "Version 2.0.0",
+  "Release Dates:\nAugust 5th 2026\nAdditions\nAdded all content for the Expansion Pass - Bubbly Basin\nAdded the move Dive, allowing players to move freely underwater.\nThe Build specialty can now be used to build houses underwater.\nAdded new items such as the portal pod and safe.\nAdded the new pattern, dynamic Ditto print.\nAdded new emotes: Lie Down and Ready, Set, Go!\nAdded five new hair colors: orange, light pink, yellow-green, blue-green, and brown.\nAdded a function to move items in bulk between the storage box and bag.\nAdded a function to delete items placed inside objects such as the garbage bin.\nAdded the ability to fine-tune depth placement when placing windows, doors, and similar items.\nAdded an option in Settings to hide the confirmation message shown when canceling Magnet Rise.\nAdded an option in Settings allowing movement while the move wheel is open.\nAdded motion-sickness reduction settings for the camera.\nThe following items can now be painted: stylish stool, handrail, metal chain, workbench, vending machine, bike, bookcase, Pokémon Center counter, arrow sign, rope.\nImprovements\nEven if a Pokémon's habitat is destroyed, it will move back in if the same habitat is rebuilt within a certain area.\nPokémon that are sad because furniture was removed will now notice more quickly when the same furniture is replaced.\nPokémon that taught you an emote will now respond with the same emote when you use it.\nIf a Pokémon being searched for in the Pokédex is in another town, you can now travel to that town using Return Home.\nReduced ordinary conversation indicators so that special Pokémon conversations and requests directed at Ditto stand out more clearly.\nLost relics can now be appraised in batches of up to 10 at a time.\nPaint, Gather Honey, and Collect can now be performed multiple times in the same interaction.\nDuring crafting, materials in the storage box next to the workbench will be consumed before materials in the bag.\nIncreased the placement limit for power generators (excluding furnaces) from 64 to 128.\nIncreased the number of different photos that can be displayed in a town from 10 to 40.\nWhen sucking up liquid, a short press of the move button to hold liquids in Ditto's mouth will allow liquid to be held in their mouth without removing it from the environment.\nWhen releasing stored water, adjusted water levels now automatically match nearby water levels.\nSmearguru can now learn patterns from photos stored in References.\nImproved visibility of the target item when painting with paint balloons.\nIncreased the amount of treasure discoverable with the Dowsing Machine on Dream Islands.\nPokémon companions can now follow you while moving with Surf, Glide, Rollout, or Magnet Rise.\nInhaling items and opening the bag are now possible while rolling using Rollout.\nRollout can now destroy certain natural objects such as large boulders.\nSurf can now be activated on land by pressing the Surf button while holding the focus button.\nImproved activation conditions for Surf and Waterfall so they occur more smoothly.\nLeafage can now be used on farm soil to revert it to a normal soil block.\nStrength can now be used underwater.\nAdded an All tab to both the Pokédex and Habitat Dex.\nMade it clearer that buildings can still be remodeled even when items such as the Ditto Flag are attached to roofs or walls.\nDuring construction, any Pokémon not assigned to the Build role in a building project can now help with cooking.\nPrevented treasures in Sparkling Skylands from appearing when using the Dowsing Machine in locations where breaking terrain would cause them to fall.\nImproved messaging when there are insufficient materials for copying items using the 3D Printer.\nItems can now be placed on top of square plants.\nHide-and-sneak can now be canceled midway.\nAdjusted in-game event notifications shown at startup so they are displayed only during specific remaining-day periods.\nCertain roof items now block water.\nIncreased output when crafting curved eaves to 10.\nTidal Bell and Clear Bell can now be triggered using laser sensors and switches.\nAdjusted sound effects for camping chair and sleeping bag.\nImproved performance for certain rendering processes.\nFixes\nWhen talking to a Pokémon that is currently assigned to construct buildings, options such as \"Follow me!\" may sometimes fail to appear.\nSuicune and Gholdengo may be unable to travel across water.\nPokémon may occasionally fall into the ocean or off cliffs when appearing from their habitats.\nEven when using honey, Pokémon may sometimes fail to return to their habitats.\nUsing Magnet Rise may occasionally cause Pokémon to scold or warn the player.\nPokémon that dislike water may sometimes be unable to move across duckweed and flowering duckweed on the water's surface.\nRequests from Pokémon may occasionally ask for items that the requesting Pokémon actually dislikes.\nWhen processing berries in the community box, paint may not be produced correctly.\nThe timing of the note played by the music mat (high Do) is offset incorrectly.\nCertain furniture can be painted through specific procedures even on parts where the colors are not actually changeable.\nPainting certain items may use more paint than intended.\nThe light color of a painted surface light may fail to change correctly.\nUnder specific conditions, it is possible to place more than one party cooking pot in the same town.\nSome items may display unnaturally when viewed from a distance.\nFor some items, visual effects may disappear when viewed through glass.\nUnder certain conditions during multiplayer, building may become impossible to complete or cancel.\nIn certain situations, it may be unclear why actions such as building or relocation cannot be performed.\nOn Cloud Islands, players other than the administrator may be able to place a relocation kit.\nUnder certain conditions, a building kit may become unrecoverable when remodeling a house.\nUnder certain conditions, painted portions of the sand house may be reset.\nUsing Rock Smash while falling may cause Ditto's position or height to become significantly displaced.\nDuring the Withered Wasteland request \"Clear the path!\" Slowpoke may stop moving partway through.\nDuring the Sparkling Skylands request \"Follow Tinkmaster!\" certain actions may prevent the request from progressing.\nDuring the Sparkling Skylands request \"Pokémon Center tour guide!\" searching for Tinkmaster in the Pokédex may guide the player to the town containing their habitat rather than the town where they are currently located.\nLoading may occasionally fail to finish when returning from a Dream Island.\nReturning from a Dream Island may incorrectly send the player to Palette Town.\nUnder certain conditions when an online session ends, the player may be transported to a Dream Island.\nOn the Cloud Island loading screen, the player's gender pronoun may sometimes be displayed incorrectly in some languages.\nNotes\nThis update is required for your game to go online.",
+  "Version 1.1.1",
+  "Release Dates:\nJune 19th 2026\nFixes:\nThe following issues have been fixed\nFixed an issue areas may not act correctly if too many items over a limit are placed\nFixed an issue where Ditto may not change expressions in photo mode when using an emote.\nNotes\nThis update is required for your game to go online.",
+  "Version 1.1.0",
+  "Release Dates:\nJune 9th 2026\nAdds ability to purchase Pokémon Pokopia's Expansion Pass\nAdds the Dynamic Ditto Print & Dynamic Ditto Print (Wallpaper) items\nAdded new conversation variations between Pokémon.\nAdded and adjusted conversation variations for Pokémon with a \"...\" speech bubble.\nPokémon accompanying Ditto can now use chairs and beds together where possible.\nVaporeon, Jolteon, Flareon, Espeon, Umbreon, Glaceon, and Sylveon will now sleep at the edge of sofas, similar to Leafeon.\nPokémon accompanying Ditto will now avoid the placement preview area when objects are being placed.\nWhen moving Pokémon into a two-storey house, players can now choose the destination floor while indoors.\nPokémon processing materials at the community box or furnace will now prioritise locations closer to their own habitat.\nIf Ditto's transformation wears off while falling, pressing the Run or Jump button will return Ditto to human form and restore control.\nIncreased the placement limit for items that use electricity from 512 to 1,024.\nThe laser sensor item now displays its detection range when being placed.\nFixes:\nThe following issues have been fixed\nFixed an issue where Pokémon could stop partway through processing materials from the community box.\nFixed an issue where transactions at the Pokémon Center or Poké Mart could end immediately.\nFixed an issue where Hoppip, Skiploom, and Jumpluff could be unable to move through the air.\nFixed clipping issues at the Chansey resting area habitat.\nFixed an issue where Pokémon did not react to the hot spring in the hot-spring shower habitat.\nFixed an issue where doors and windows could not be opened during hide-and-sneak.\nFixed an issue where learning an emote could cause a Pokémon to fall.\nFixed camera-related expression issues when setting Ditto's expression to default.\nFixed an issue where some Pokémon were less likely to appear in town without a habitat.\nFixed an issue where a Pokémon brought from another town could be unable to move into a block house.\nNotes\nThis update is required for your game to go online.",
+  "Version 1.0.4",
+  "Release Dates:\nApril 23rd 2026\nNow allows for you to move Pokémon Centers while a special event is happening\nFixes:\nThe following issues have been fixed\nIn Bleak Beach, the request \"Wanted: Food!\" could not be progressed under certain conditions.\nIn Bleak Beach, performing certain actions would prevent the request \"Pool repair needed!\" from appearing.\nIn Bleak Beach, after completing the request \"Pool repair needed!\" it was sometimes impossible for the player to have Happiny accompany them.\nIn the Sparkling Skylands, during the request \"Pokémon Center tour guide!\" performing certain actions could prevent the player from having Tinkmaster accompany them, making the request impossible to progress.\nPerforming certain actions would cause Professor Tangrowth to stop appearing.\nIf certain Pokémon were waiting to appear, other Pokémon would sometimes also fail to appear.\nPerforming certain actions could make Peakychu, Chef Dente, and Tinkmaster unable to leave town, preventing requests from being progressed.\nUnder certain conditions, picking up a relocation kit (prepare) would leave behind indestructible platforms.\nAccessing the Pokémon Center PC with certain save data would cause the game to freeze.\nDuring in-game events, rebuilding a Pokémon Center using certain actions would cause its decorations to appear floating.\nDuring in-game events, trades could not be conducted at the Pokémon Centers on Cloud Islands.\nOther various bug Fixes\nNotes\nThis update is required for your game to go online.",
+  "Version 1.0.3",
+  "Release Dates:\nApril 9th 2026\nFixes:\nFixes an issue where you couldn't find Pokémon without habitats with the Search function\nFixed an issue where travelling to a Dream Island could send players to Palette Town\nFixed an issue where the screen stayed dark when the in-game date change\nFixed an issue that made it impossible to move habitats\nFixed an issue where construction wouldn't finish until the date changed\nFixed a progresion issue with Power up the charging station\nFixed an issue where Pokémon needed in the story in Sparkling Skylands would disappear\nFixed an issue that caused Pokémon to disappear from Cloud Islands\nFixed an issue preventing new Cloud Islands from being made\nOther various bug Fixes\nNotes\nThis update is required for your game to go online.",
+  "Version 1.0.2",
+  "Release Dates:\nMarch 4th 2026\nFixes:\nImproves \"Rock Smash your way to treasure\" to make it so it's easier to understand how to progress if other blocks are placed over the cracked sandstone\nImproves \"To Snrolax\" if the player places other blocks over cracked sandstone near Snorlax\nIn Help make a home!, prevents Squirtle moving on top of a tree and impossible to talk to\nIn Bleak Beach's Find the Pokémon Center, fixes an issue where Tangrowth can't cross a bridge if the cracked sandstone is broken before Tangrowth crosses\nIn Bleak Beach's Find the Pokémon Center, fixes an issue where Tangrowth's bridge repair request doesn't activate\nIn Rocky Ridges, prevents an issue that prevented the player from meeting DJ Rotom if a specific sequence of actions occur\nIn Clear off the path in Rocky Ridges, fixes an issue that prevented the request from progressing\nFixed Spinarak's type in the Pokédex\nOther various bug Fixes\nNotes\nThis update is required for your game to go online.",
+  "Version 1.0.1",
+  "Release Dates:\nMarch 4th 2026\nFixes:\nActivates online features\nBug Fixes\nNotes\nThis update is required for your game to go online."
+ ],
+ "pokedexcompletion": [
+  "Pokédex Completion",
+  "As with most Pokémon games, Pokémon Pokopia has got a Pokédex to complete. This features 300 Pokémon requiring you to build habitats to get them to appear. As you complete your Pokédex, you will get various item rewards of recipes to create items\nOnce you have all 300 Pokémon, however, there's a special bonus to unlock.",
+  "Developer Room",
+  "Once you have crafted the Neo Dowsing Machine, Professor Tangrowth recommends you take it to the Sparkling Skylands. Go there and take a Pokémon with Search to the northwestern island. When there, you will start searching and the Pokémon will tell you when there is something beneath you. Dig down and you will find another scanner like the scanner at the gates.\nScan your Pokédex at the gate and it will unlock (if you have a full Pokédex). Inside is the developer room from Celadon City where you will get Recipes for a Printer, a shutter and a card reader, allowing for you to build rooms with similar locking mechanisms.\nAt the printer, you will be able to scan your Pokédex where a Diploma will be printed, which you can display wherever you want.",
+  "Number",
+  "Main Pokédex",
+  "6 Registered",
+  "15 Registered",
+  "20 Registered",
+  "25 Registered",
+  "30 Registered",
+  "35 Registered",
+  "40 Registered",
+  "45 Registered",
+  "50 Registered",
+  "55 Registered",
+  "60 Registered",
+  "65 Registered",
+  "70 Registered",
+  "75 Registered",
+  "80 Registered",
+  "85 Registered",
+  "90 Registered",
+  "95 Registered",
+  "100 Registered",
+  "110 Registered",
+  "120 Registered",
+  "130 Registered",
+  "140 Registered",
+  "150 Registered",
+  "160 Registered",
+  "170 Registered",
+  "180 Registered",
+  "190 Registered",
+  "200 Registered",
+  "210 Registered",
+  "220 Registered",
+  "230 Registered",
+  "240 Registered",
+  "250 Registered",
+  "260 Registered",
+  "270 Registered",
+  "290 Registered",
+  "300 Registered",
+  "Pokédex (Basin)",
+  "5 Registered",
+  "10 Registered",
+  "15 Registered",
+  "25 Registered",
+  "35 Registered",
+  "50 Registered"
+ ],
+ "pokemoncenter": [
+  "Pokémon Center",
+  "As you enter each area, you will notice that the Pokémon Center has been destroyed and Professor Tangrowth gives you the task of rebuilding it. To do this, you need to purchase the Pokémon Center kit in the PC store which becomes available after you have reached Environment Level 3 in the specific area.\nOnce you have the kit, you can build the Pokémon Center. Each one has specific requirements of resources that can be found around the area and you'll bneed Pokémon with Build, Bulldoze and Chop to do it\n>\nAreaRequirementsPokémon Required\nWithered Wastelands10 Lumber\n20 Stones\n10 Leaves\n10 Vines8\nBleak Beach10 Twine\n30 Bricks\n10 Sea Glass\n5 Iron Ore8\nRocky Ridges25 Stones\n25 Iron Ignot\n25 Copper Ignot\n5 Crystal Fragments8\nSparkling Skylands25 PokéMetal Ingot\n25 Concrete\n25 Glass\n25 Gold8\nBubbly Basin25 Star-spotted rock\n5 Shiny pearl\n10 Seashell\n10 Sea glass fragments8",
+  "Inside Pokémon Center",
+  "The Pokémon Center functions a little differently compared to Pokémon games and has three different areas for it. The first in off to the right where you can heal your Pokémon, specifically restore your PP if it's low. This can be done once per Pokémon Center per day.\nAt the main stand, if you have a Pokémon with the Trade Specialty near your Pokémon Center, they will occasionally set up shop inside the Pokémon Center to trade an assortment of random items that vary based on the day.",
+  "3D Printing",
+  "The leftmost stand is the most useful one, however. Here, is the 3D Printer. If you take a picture of almost any item in the game and switch it to Reference mode with the Y button, you'll be able to bring the reference picture to the 3D Printter. Using that reference picture, you have the ability to print a duplicate of the item.\nEach item has got a specific cost and it always costs between 1 and 10 PokéMetal Ingot or 1 and 5 Rare PokéMetal Ingot depending on the item. The rarer and more intricate the item, the bigger the cost; like when you craft an item\nIf you have not purchased the Pokémon Pokopia Expansion Pass, you will be unable to 3D Print any of the items that are exclusive to the packs such as the Starmie Doll unless you purchase the expansion pass. Even if you see the items on a Cloud Island, you will be unable to print them."
+ ],
+ "specialty": [],
+ "stampcard": [
+  "Stamp Card",
+  "Each day, when you go to the PC, you will get a special stamp and a stamp card. This runs over a week and allows for you to put stamps on to try and fill the card by logging in. These are then redeemed for rwards every Friday. There are four different styles of stamps that you can get, all which have a different value: Basic Pokémon, Evolved Pokémon, Legendary Pokémon and Mew. Then, when you go to exchange in the week following, you will get Life Coins as reward.\nIf you fill up the stamp card before the redemption period, you will be able to exchange one of the existing stamp for the day's stamp if you do so wish. You can also get stamps when visiting friends islands and checking their PC, so you can fill them all out in a day by going to 4 friends islands. However, the stamp will only be accessible to 10 unique people on an island in a day..\nIf you manage to then get all 5 stamps filled on the card, you will also get an additional 1,500 Life Coins"
+ ],
+ "teaminitiationchallenge": [
+  "Team Initiation Challenge",
+  "As you progress through the story, you learn of the Team Intiiation Challenge,a strange building on the coast of the Withered Wastelands. A machine on the building will give you a variety of tasks for you to complete and is part of the \"Do the Team Initation Challenge request\nThere are nine different challenges to go through which require bringing a variety of items to the building, typically items found as you progres through the game. Each time you complete it, you will get a badge.",
+  "Finale",
+  "With everything in hand, the building starts to shake and it turns out that it is a Rocket, one that according to the logs found around was made by Team Rocket separately from the other evacuations. The rocket shoots off to space while everyone watches\nAfter it is gone and the game returns, you can explore underneath the rocket's area to a spceial hideout"
+ ],
+ "trade": [
+  "Trade",
+  "Amongst all the Pokémon in the game, there are many which have the Trade specialty. With this specialty, a Pokémon will set up shop at any place there's a powered cash register and a table, including the PokéMart when built and the Pokémon Center when there is no special event currently happening.\nThen, based on the size of the countertop available, a certain amount of items will be put out. There's typically an item a Pokémon will also bring such as Lum Berry with Zorua or Rawst Berry with Chansey, and items such as PokéMetal are also frequent. The other items can be aything from materials, to crafted items and even some items only found as Lost Relics.\nWhen a Pokémon is at a cash register for trade, you have the capability of getting it to end trading but you cannot force a Pokémon to start trading",
+  "Making the Trade",
+  "When you have selected an item to trade, you will get a scale. The item will be given a weighted price based on what it is and quantity by the Pokémon and your task is to match or exceed the desired value using up to four different items, though you can use more than 4 of each individual item, from your bag. Each item has got its own value based on what it is.\nIn addition to this, if the item has characteristics that match the Pokémon doing the trading's favourite things, they will get a 50% increase on the points. For example, Chansey likes Fluffy things, Round things and so forth and when trading with it, an Eevee Doll which typically would be worth 1,000 Points for the trade is instead worth 1,500. The same with CDs increasing from 500 Points to 750 Points. These items have their values coloured in orange to differentiate\nWith this in mind, the trading can be controlled so that items the Pokémon like can be given and you get more for less so you need to double check the Pokémon's likes before entering the trade."
+ ],
+ "treasuremaps": [
+  "Treasure Maps",
+  "In the Bubbly Basin, alongside the Lost Relics and CDs that are found in hidden spots each day, you will also find the 6 Treasure Maps. These maps give a basic design of Cerulean City how it was and shows where treasure was placed.\nWith this, you can take a Pokémon with the Search Specialty and the Dowsing Machine and can go and find each of the items. These items are all required for the final habitat, Mermaid's Gym\nAfter you have first obtained them, you will them be able to get recipes to create them in the daily shop specials.",
+  "Map 1 - Great Ball",
+  "Treasure Map #1 will lead you towards the Decorative Great Ball. This can be found behind the building to the west of the Pokémon Center. When you go around near the water wheel, you can knock out the wall to the east to find the room which has the Great Ball.",
+  "Map 2 - Heal Ball",
+  "Treasure Map #2 will lead you towards the Decorative Heal Ball. This is located to the east of the main area. In the area, you will find a pagoda with a windmill on top that breaks through the waterline. This is the key point of interest. If you go along the path towards the west, you will be able to break downwards to find the room with the Heal Ball",
+  "Map 3 - Dive Ball",
+  "Treasure Map #3 will lead you towards the Decorative Dive Ball. This is located next to the main area alongside Cerulean City's former gym. Next to the gym are a lot of Star-spotted rocks. If you break through them, you will find the entrance which leads you to the room with the Dive Ball",
+  "Map 4 - Net Ball",
+  "Treasure Map #4 will lead you towards the Decorative Net Ball. This is located in the cave you first found Frillish in during the game's story towards the north of the area. Follow the cave through to the mines and go east of where the giant crystal is. Break through the rock and you will find a room with the Net",
+  "Map 5 - Lure Ball",
+  "Treasure Map #5 will lead you towards the Decorative Lure Ball. This is located in the north of the area near Bill's House, the only house with a green roof. If you go west and go to the sole Talll Grass next to the cliffs and dig down, you will find the room which contains the Lure Ball",
+  "Map 6 - Quick Ball",
+  "Treasure Map #5 will lead you towards the Decorative QuickBall. This is located in the main area just north of the Gate that brought you into the area. If you go left, alongside the ruins of a building you'll find a wall with Star-spotted rocks. Smash the rocks and you'll find a path to the room with the Quick Ball"
+ ],
+ "uniquepokemon": [
+  "Professor Tangrowth",
+  "Professor Tangrowth is a guide to Ditto. It has been living in a place where humans and Pokémon once lived, all alone with nobody around and decides to ask for your help as a Ditto to rebuild the area into a thriving places for Pokémon.",
+  "Peakychu",
+  "Peakychu is an unusual pale Pikachu. Its ears are more droopy than standard Pikachu.",
+  "Mosslax",
+  "Mosslax is a variant of the Pokémon Snorlax which has had Moss grow on its body and a flower on its head as if it has been asleep for a long time..",
+  "Smearguru",
+  "Smearguru is a renowned painter and has paint colours all over its body.."
+ ],
+ "vegetables": [
+  "Vegetables",
+  "Vegetables are a core part of the game as not only do they increase the PP when eaten, they can be used as ingredients for making meals which can boost the strength of your moves, as well as maximising PP and getting boosts from Mosslax.\nAs such, in this game you have the ability to grow vegetables. To do this, you need to start with a seed and plant it in soil that has had Rototiller used on it. From there, you will be able to grow vegetables.\nUsing Rototiller or a charged Magnet Rise, you will also be able to pick up and move the plant if you need to.",
+  "Growing Vegetables",
+  "With vegetables, they will go through a stage of growth each day, however this requires for the area to be hydrated. This can be done by having water next to the soil, or you can use a Sprinkler. A Sprinkler works in a diamond which reaches out 5 squares horizontally and vertically and in the tiles diagonally between them, covering up to 60 blocks\nHowever, if a plant is submerged in water, it will not grow. Being near lava will also prevent it from being hydrated, but it won't dry it out.\nWith this, each day the plant should move to the next stage, or refresh the yield of the vegetables. However, this can be accelerated through using a Pokémon with the Grow specialty. Once a day, you can use Grow on the plants and it will move forward a stage, or regenerate one vegetable. However, this can only be done on each plant once a day and it will sparkle to show that it has been done.",
+  "Bean Stages",
+  "Tomato Stages",
+  "Potato Stages",
+  "Wheat Stages",
+  "Watermelon Stages"
+ ],
+ "water": [
+  "Water",
+  "Water is one of the fundamental elements of each location. Not only does it provide an aesthetic, it has many uses such as hydrating the nearby area for plants. There are five different kinds of water in the game, each with their own unique features.\nWhile there's natural water in each area, you also have the ability to generate your own water after completing Piplup's request with Paldean Wooper in Bleak Beacj by using a variety of drinks obtained at vending machines. Each drink gives a different kind of water and you get an infinite amount of spit outs of the water to create the flow that you desire. You can hold ZL to adjust the height of the placement of the water, but it will need to be attached to something to start such as being next to a block or another bit of water.\nYou can also suck up water after this request. Hold Y to suck in and press ZR and it will suck in any nearby water, sometimes even removing it.\nIf a plant is submerged, it will no longer grow while under water. Fire will also be put out. Any water placed near other water that would flow after it replaces the water. For example if you put Ocean Water on a cliff above Fresh Water, it will overwrite some of the Fresh Water. If you then remove the Fresh Water, it will then take the area for the Ocean Water. However, you cannot directly overwrite water sources with any other water.",
+  "Generating Water",
+  "When you place water down, its movement is decided in a very unique way. If the entire area around it is flat with no drops or walls nearby nearby, then it will spread out in a puddle leading out in a circle in 6 tile directions.\nLava has different properties to water, however, and goes half the distance and move a lot slower, but it has different properties entirely when going towards cliffs.\nHowever, if the water is funnelled with some walls, the distance it can go from one drop of water is basically 25 blocks along a trench, or 12 blocks for Lava. However, for each side that it goes off, it will decrease in length by two until it's around a 6x6 area. It can also go through small diagonal gaps when there is a diagonal gap between two bricks, meaning it can flow in all 8 directions as long as the adjacent tile is a gap off the same level as it\nAll of this comes off from the specific water source. There are two different kinds of Water Sources\nPrimary source: This is from where all the water begins. Remove this and all the water will vanish\nSecondary source: After a drop and the water hits the ground, it will act as a secondary source. From here, the water will act just like it does from a primary source, but removing it will not permanently remove the water. If a bit of water goes 23 blocks, hits a drop and then starts again, it will act fresh and go however far it can based on the standard mechanics of water.\nThe sources all act the same around each area",
+  "Water along cliffs",
+  "There is something that changes how water flows however, and that's a drop. If you place a water source within 4 spaces of a cliff, or a drop of any sort, rather than the water spreading out as it does on a flat surface, the water will instead go towards that drop. Even if the drop is not directly within but requires going over four spaces to get to, it will do that and take two blocks width to hit it. This causes a complete straight line with the water and it will not spread out\nIf there are multiple different drops equidistant to the water source, then it will go to all of the drops at the same time.\nAs the water drops, it will continue to spread out like all sources until it hits the final flat area and spreads out as far as it can.",
+  "Lava along cliffs",
+  "Lava reacts a little differently than normal water in this regard. Instead of just beelining in a straight line towards the drop, it will start to go to the drop, but then on the second tile, it will start to spread out again as it heads out to the cliff creating a small puddle like the ones it normally would. This puddle doesn't wrap back round to behind the primary source\nDue to this, on areas where there's higher concentration of drops, rather than just go for the nearest cliff, as it spreads out following the first tile, it will potentially hit even more drops and surface area despite Lava having a shorter reach as standard.\nThe below examples show a comparison of the area in Sparkling Skylands after several water and lava sources are created alongside the peak as seen below. This showcases the different lengths that water will go",
+  "Water Start Point",
+  "Water Final Coverage",
+  "Water Levels",
+  "There is a small element which changes how this works as well, the Water Levels. When you have water in your mouth, if you hold down ZL you can then adjust the water level between the standard, and low level. This will adjust the height the water takes in the block and comes with a few changes from how water normally works.\nFirst, when you drop down the water and lava, it will take up half the amount of space. This means the puddle for water will only be in a circle 7 blocks wide, or for Lava it will only be 5 blocks wide. When going through a trench, the furthest distance it will go is 12 blocks for water and 6 for lava.\nIn addition to that, water with a low water level will never aim for the nearest cliff. Instead, no matter how close it is to an edge, it will spread out in a circle, hitting the cliff and continuing down. All secondary sources at the bottom of each drop will also have this low water level and low distance."
+ ]
+}

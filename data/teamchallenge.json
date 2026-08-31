@@ -1,0 +1,86 @@
+[
+ {
+  "no": "1",
+  "requirements": [
+   "5 Leppa Berry"
+  ],
+  "notes": "",
+  "reward": "Bouldery Badge"
+ },
+ {
+  "no": "2",
+  "requirements": [
+   "10 Beans",
+   "10 Tomatoes",
+   "10 Wheat"
+  ],
+  "notes": "",
+  "reward": "Cascade-like Badge"
+ },
+ {
+  "no": "3",
+  "requirements": [
+   "20 Lumber",
+   "5 Fluff",
+   "10 Paper"
+  ],
+  "notes": "Fluff can be obtained around the home of Pokémon such as Swablu and Mareep\nPaper can be obtained from giving Pokémon with Recycle Wastepaper",
+  "reward": "Thunderish Badge"
+ },
+ {
+  "no": "4",
+  "requirements": [
+   "40 Bricks",
+   "20 Gold Ingots",
+   "50 Concrete"
+  ],
+  "notes": "Bricks are obtained from giving Pokémon with Burn Solid Clay\nGold requires processing\nConcrete requires processing",
+  "reward": "Rainbowish Badge"
+ },
+ {
+  "no": "5",
+  "requirements": [
+   "50 Electricity",
+   "10 Crystal Fragments",
+   "5 Tinkagears"
+  ],
+  "notes": "Electricity is needed to be connected to the building. A Furnace provides 30 & a Windmill 10\nTinkagears are made by giving the Tinkmaster Iron Ignots",
+  "reward": "Soul-like Badge"
+ },
+ {
+  "no": "6",
+  "requirements": [
+   "4 Industrial Beds",
+   "4 Resort Lights",
+   "4 Office Desks"
+  ],
+  "notes": "",
+  "reward": "Marshy Badge"
+ },
+ {
+  "no": "7",
+  "requirements": [
+   "Washing Machine",
+   "Refrigerator",
+   "Game Boy"
+  ],
+  "notes": "Reach Environment Level 5 in Bleak Beach\nReach Environment Level 5 in Rocky Ridges\nReach Environment Level 5 in Sparkling Skylands",
+  "reward": "Volcanoey Badge"
+ },
+ {
+  "no": "8",
+  "requirements": [
+   "Cherished Photo"
+  ],
+  "notes": "Deposit a photo, any photo",
+  "reward": "Earth Badge"
+ },
+ {
+  "no": "9",
+  "requirements": [
+   "2 Party Poppers"
+  ],
+  "notes": "Reach Environment Level 5 in Withered Wastelands",
+  "reward": ""
+ }
+]

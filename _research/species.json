@@ -1,0 +1,2858 @@
+{
+ "1": {
+  "en": "Bulbasaur",
+  "ja": "フシギダネ",
+  "romaji": null,
+  "genus": "Seed Pokémon",
+  "color": "green",
+  "gen": "generation-i"
+ },
+ "2": {
+  "en": "Ivysaur",
+  "ja": "フシギソウ",
+  "romaji": null,
+  "genus": "Seed Pokémon",
+  "color": "green",
+  "gen": "generation-i"
+ },
+ "3": {
+  "en": "Venusaur",
+  "ja": "フシギバナ",
+  "romaji": null,
+  "genus": "Seed Pokémon",
+  "color": "green",
+  "gen": "generation-i"
+ },
+ "4": {
+  "en": "Charmander",
+  "ja": "ヒトカゲ",
+  "romaji": null,
+  "genus": "Lizard Pokémon",
+  "color": "red",
+  "gen": "generation-i"
+ },
+ "5": {
+  "en": "Charmeleon",
+  "ja": "リザード",
+  "romaji": null,
+  "genus": "Flame Pokémon",
+  "color": "red",
+  "gen": "generation-i"
+ },
+ "6": {
+  "en": "Charizard",
+  "ja": "リザードン",
+  "romaji": null,
+  "genus": "Flame Pokémon",
+  "color": "red",
+  "gen": "generation-i"
+ },
+ "7": {
+  "en": "Squirtle",
+  "ja": "ゼニガメ",
+  "romaji": null,
+  "genus": "Tiny Turtle Pokémon",
+  "color": "blue",
+  "gen": "generation-i"
+ },
+ "8": {
+  "en": "Wartortle",
+  "ja": "カメール",
+  "romaji": null,
+  "genus": "Turtle Pokémon",
+  "color": "blue",
+  "gen": "generation-i"
+ },
+ "9": {
+  "en": "Blastoise",
+  "ja": "カメックス",
+  "romaji": null,
+  "genus": "Shellfish Pokémon",
+  "color": "blue",
+  "gen": "generation-i"
+ },
+ "16": {
+  "en": "Pidgey",
+  "ja": "ポッポ",
+  "romaji": null,
+  "genus": "Tiny Bird Pokémon",
+  "color": "brown",
+  "gen": "generation-i"
+ },
+ "17": {
+  "en": "Pidgeotto",
+  "ja": "ピジョン",
+  "romaji": null,
+  "genus": "Bird Pokémon",
+  "color": "brown",
+  "gen": "generation-i"
+ },
+ "18": {
+  "en": "Pidgeot",
+  "ja": "ピジョット",
+  "romaji": null,
+  "genus": "Bird Pokémon",
+  "color": "brown",
+  "gen": "generation-i"
+ },
+ "23": {
+  "en": "Ekans",
+  "ja": "アーボ",
+  "romaji": null,
+  "genus": "Snake Pokémon",
+  "color": "purple",
+  "gen": "generation-i"
+ },
+ "24": {
+  "en": "Arbok",
+  "ja": "アーボック",
+  "romaji": null,
+  "genus": "Cobra Pokémon",
+  "color": "purple",
+  "gen": "generation-i"
+ },
+ "25": {
+  "en": "Pikachu",
+  "ja": "ピカチュウ",
+  "romaji": null,
+  "genus": "Mouse Pokémon",
+  "color": "yellow",
+  "gen": "generation-i"
+ },
+ "26": {
+  "en": "Raichu",
+  "ja": "ライチュウ",
+  "romaji": null,
+  "genus": "Mouse Pokémon",
+  "color": "yellow",
+  "gen": "generation-i"
+ },
+ "35": {
+  "en": "Clefairy",
+  "ja": "ピッピ",
+  "romaji": null,
+  "genus": "Fairy Pokémon",
+  "color": "pink",
+  "gen": "generation-i"
+ },
+ "36": {
+  "en": "Clefable",
+  "ja": "ピクシー",
+  "romaji": null,
+  "genus": "Fairy Pokémon",
+  "color": "pink",
+  "gen": "generation-i"
+ },
+ "37": {
+  "en": "Vulpix",
+  "ja": "ロコン",
+  "romaji": null,
+  "genus": "Fox Pokémon",
+  "color": "brown",
+  "gen": "generation-i"
+ },
+ "38": {
+  "en": "Ninetales",
+  "ja": "キュウコン",
+  "romaji": null,
+  "genus": "Fox Pokémon",
+  "color": "yellow",
+  "gen": "generation-i"
+ },
+ "39": {
+  "en": "Jigglypuff",
+  "ja": "プリン",
+  "romaji": null,
+  "genus": "Balloon Pokémon",
+  "color": "pink",
+  "gen": "generation-i"
+ },
+ "40": {
+  "en": "Wigglytuff",
+  "ja": "プクリン",
+  "romaji": null,
+  "genus": "Balloon Pokémon",
+  "color": "pink",
+  "gen": "generation-i"
+ },
+ "41": {
+  "en": "Zubat",
+  "ja": "ズバット",
+  "romaji": null,
+  "genus": "Bat Pokémon",
+  "color": "purple",
+  "gen": "generation-i"
+ },
+ "42": {
+  "en": "Golbat",
+  "ja": "ゴルバット",
+  "romaji": null,
+  "genus": "Bat Pokémon",
+  "color": "purple",
+  "gen": "generation-i"
+ },
+ "43": {
+  "en": "Oddish",
+  "ja": "ナゾノクサ",
+  "romaji": null,
+  "genus": "Weed Pokémon",
+  "color": "blue",
+  "gen": "generation-i"
+ },
+ "44": {
+  "en": "Gloom",
+  "ja": "クサイハナ",
+  "romaji": null,
+  "genus": "Weed Pokémon",
+  "color": "blue",
+  "gen": "generation-i"
+ },
+ "45": {
+  "en": "Vileplume",
+  "ja": "ラフレシア",
+  "romaji": null,
+  "genus": "Flower Pokémon",
+  "color": "red",
+  "gen": "generation-i"
+ },
+ "46": {
+  "en": "Paras",
+  "ja": "パラス",
+  "romaji": null,
+  "genus": "Mushroom Pokémon",
+  "color": "red",
+  "gen": "generation-i"
+ },
+ "47": {
+  "en": "Parasect",
+  "ja": "パラセクト",
+  "romaji": null,
+  "genus": "Mushroom Pokémon",
+  "color": "red",
+  "gen": "generation-i"
+ },
+ "48": {
+  "en": "Venonat",
+  "ja": "コンパン",
+  "romaji": null,
+  "genus": "Insect Pokémon",
+  "color": "purple",
+  "gen": "generation-i"
+ },
+ "49": {
+  "en": "Venomoth",
+  "ja": "モルフォン",
+  "romaji": null,
+  "genus": "Poison Moth Pokémon",
+  "color": "purple",
+  "gen": "generation-i"
+ },
+ "50": {
+  "en": "Diglett",
+  "ja": "ディグダ",
+  "romaji": null,
+  "genus": "Mole Pokémon",
+  "color": "brown",
+  "gen": "generation-i"
+ },
+ "51": {
+  "en": "Dugtrio",
+  "ja": "ダグトリオ",
+  "romaji": null,
+  "genus": "Mole Pokémon",
+  "color": "brown",
+  "gen": "generation-i"
+ },
+ "52": {
+  "en": "Meowth",
+  "ja": "ニャース",
+  "romaji": null,
+  "genus": "Scratch Cat Pokémon",
+  "color": "yellow",
+  "gen": "generation-i"
+ },
+ "53": {
+  "en": "Persian",
+  "ja": "ペルシアン",
+  "romaji": null,
+  "genus": "Classy Cat Pokémon",
+  "color": "yellow",
+  "gen": "generation-i"
+ },
+ "54": {
+  "en": "Psyduck",
+  "ja": "コダック",
+  "romaji": null,
+  "genus": "Duck Pokémon",
+  "color": "yellow",
+  "gen": "generation-i"
+ },
+ "55": {
+  "en": "Golduck",
+  "ja": "ゴルダック",
+  "romaji": null,
+  "genus": "Duck Pokémon",
+  "color": "blue",
+  "gen": "generation-i"
+ },
+ "58": {
+  "en": "Growlithe",
+  "ja": "ガーディ",
+  "romaji": null,
+  "genus": "Puppy Pokémon",
+  "color": "brown",
+  "gen": "generation-i"
+ },
+ "59": {
+  "en": "Arcanine",
+  "ja": "ウインディ",
+  "romaji": null,
+  "genus": "Legendary Pokémon",
+  "color": "brown",
+  "gen": "generation-i"
+ },
+ "60": {
+  "en": "Poliwag",
+  "ja": "ニョロモ",
+  "romaji": null,
+  "genus": "Tadpole Pokémon",
+  "color": "blue",
+  "gen": "generation-i"
+ },
+ "61": {
+  "en": "Poliwhirl",
+  "ja": "ニョロゾ",
+  "romaji": null,
+  "genus": "Tadpole Pokémon",
+  "color": "blue",
+  "gen": "generation-i"
+ },
+ "62": {
+  "en": "Poliwrath",
+  "ja": "ニョロボン",
+  "romaji": null,
+  "genus": "Tadpole Pokémon",
+  "color": "blue",
+  "gen": "generation-i"
+ },
+ "63": {
+  "en": "Abra",
+  "ja": "ケーシィ",
+  "romaji": null,
+  "genus": "Psi Pokémon",
+  "color": "brown",
+  "gen": "generation-i"
+ },
+ "64": {
+  "en": "Kadabra",
+  "ja": "ユンゲラー",
+  "romaji": null,
+  "genus": "Psi Pokémon",
+  "color": "brown",
+  "gen": "generation-i"
+ },
+ "65": {
+  "en": "Alakazam",
+  "ja": "フーディン",
+  "romaji": null,
+  "genus": "Psi Pokémon",
+  "color": "brown",
+  "gen": "generation-i"
+ },
+ "66": {
+  "en": "Machop",
+  "ja": "ワンリキー",
+  "romaji": null,
+  "genus": "Superpower Pokémon",
+  "color": "gray",
+  "gen": "generation-i"
+ },
+ "67": {
+  "en": "Machoke",
+  "ja": "ゴーリキー",
+  "romaji": null,
+  "genus": "Superpower Pokémon",
+  "color": "gray",
+  "gen": "generation-i"
+ },
+ "68": {
+  "en": "Machamp",
+  "ja": "カイリキー",
+  "romaji": null,
+  "genus": "Superpower Pokémon",
+  "color": "gray",
+  "gen": "generation-i"
+ },
+ "69": {
+  "en": "Bellsprout",
+  "ja": "マダツボミ",
+  "romaji": null,
+  "genus": "Flower Pokémon",
+  "color": "green",
+  "gen": "generation-i"
+ },
+ "70": {
+  "en": "Weepinbell",
+  "ja": "ウツドン",
+  "romaji": null,
+  "genus": "Flycatcher Pokémon",
+  "color": "green",
+  "gen": "generation-i"
+ },
+ "71": {
+  "en": "Victreebel",
+  "ja": "ウツボット",
+  "romaji": null,
+  "genus": "Flycatcher Pokémon",
+  "color": "green",
+  "gen": "generation-i"
+ },
+ "74": {
+  "en": "Geodude",
+  "ja": "イシツブテ",
+  "romaji": null,
+  "genus": "Rock Pokémon",
+  "color": "brown",
+  "gen": "generation-i"
+ },
+ "75": {
+  "en": "Graveler",
+  "ja": "ゴローン",
+  "romaji": null,
+  "genus": "Rock Pokémon",
+  "color": "brown",
+  "gen": "generation-i"
+ },
+ "76": {
+  "en": "Golem",
+  "ja": "ゴローニャ",
+  "romaji": null,
+  "genus": "Megaton Pokémon",
+  "color": "brown",
+  "gen": "generation-i"
+ },
+ "79": {
+  "en": "Slowpoke",
+  "ja": "ヤドン",
+  "romaji": null,
+  "genus": "Dopey Pokémon",
+  "color": "pink",
+  "gen": "generation-i"
+ },
+ "80": {
+  "en": "Slowbro",
+  "ja": "ヤドラン",
+  "romaji": null,
+  "genus": "Hermit Crab Pokémon",
+  "color": "pink",
+  "gen": "generation-i"
+ },
+ "81": {
+  "en": "Magnemite",
+  "ja": "コイル",
+  "romaji": null,
+  "genus": "Magnet Pokémon",
+  "color": "gray",
+  "gen": "generation-i"
+ },
+ "82": {
+  "en": "Magneton",
+  "ja": "レアコイル",
+  "romaji": null,
+  "genus": "Magnet Pokémon",
+  "color": "gray",
+  "gen": "generation-i"
+ },
+ "83": {
+  "en": "Farfetch’d",
+  "ja": "カモネギ",
+  "romaji": null,
+  "genus": "Wild Duck Pokémon",
+  "color": "brown",
+  "gen": "generation-i"
+ },
+ "88": {
+  "en": "Grimer",
+  "ja": "ベトベター",
+  "romaji": null,
+  "genus": "Sludge Pokémon",
+  "color": "purple",
+  "gen": "generation-i"
+ },
+ "89": {
+  "en": "Muk",
+  "ja": "ベトベトン",
+  "romaji": null,
+  "genus": "Sludge Pokémon",
+  "color": "purple",
+  "gen": "generation-i"
+ },
+ "90": {
+  "en": "Shellder",
+  "ja": "シェルダー",
+  "romaji": null,
+  "genus": "Bivalve Pokémon",
+  "color": "purple",
+  "gen": "generation-i"
+ },
+ "91": {
+  "en": "Cloyster",
+  "ja": "パルシェン",
+  "romaji": null,
+  "genus": "Bivalve Pokémon",
+  "color": "purple",
+  "gen": "generation-i"
+ },
+ "92": {
+  "en": "Gastly",
+  "ja": "ゴース",
+  "romaji": null,
+  "genus": "Gas Pokémon",
+  "color": "purple",
+  "gen": "generation-i"
+ },
+ "93": {
+  "en": "Haunter",
+  "ja": "ゴースト",
+  "romaji": null,
+  "genus": "Gas Pokémon",
+  "color": "purple",
+  "gen": "generation-i"
+ },
+ "94": {
+  "en": "Gengar",
+  "ja": "ゲンガー",
+  "romaji": null,
+  "genus": "Shadow Pokémon",
+  "color": "purple",
+  "gen": "generation-i"
+ },
+ "95": {
+  "en": "Onix",
+  "ja": "イワーク",
+  "romaji": null,
+  "genus": "Rock Snake Pokémon",
+  "color": "gray",
+  "gen": "generation-i"
+ },
+ "100": {
+  "en": "Voltorb",
+  "ja": "ビリリダマ",
+  "romaji": null,
+  "genus": "Ball Pokémon",
+  "color": "red",
+  "gen": "generation-i"
+ },
+ "101": {
+  "en": "Electrode",
+  "ja": "マルマイン",
+  "romaji": null,
+  "genus": "Ball Pokémon",
+  "color": "red",
+  "gen": "generation-i"
+ },
+ "102": {
+  "en": "Exeggcute",
+  "ja": "タマタマ",
+  "romaji": null,
+  "genus": "Egg Pokémon",
+  "color": "pink",
+  "gen": "generation-i"
+ },
+ "103": {
+  "en": "Exeggutor",
+  "ja": "ナッシー",
+  "romaji": null,
+  "genus": "Coconut Pokémon",
+  "color": "yellow",
+  "gen": "generation-i"
+ },
+ "104": {
+  "en": "Cubone",
+  "ja": "カラカラ",
+  "romaji": null,
+  "genus": "Lonely Pokémon",
+  "color": "brown",
+  "gen": "generation-i"
+ },
+ "105": {
+  "en": "Marowak",
+  "ja": "ガラガラ",
+  "romaji": null,
+  "genus": "Bone Keeper Pokémon",
+  "color": "brown",
+  "gen": "generation-i"
+ },
+ "106": {
+  "en": "Hitmonlee",
+  "ja": "サワムラー",
+  "romaji": null,
+  "genus": "Kicking Pokémon",
+  "color": "brown",
+  "gen": "generation-i"
+ },
+ "107": {
+  "en": "Hitmonchan",
+  "ja": "エビワラー",
+  "romaji": null,
+  "genus": "Punching Pokémon",
+  "color": "brown",
+  "gen": "generation-i"
+ },
+ "109": {
+  "en": "Koffing",
+  "ja": "ドガース",
+  "romaji": null,
+  "genus": "Poison Gas Pokémon",
+  "color": "purple",
+  "gen": "generation-i"
+ },
+ "110": {
+  "en": "Weezing",
+  "ja": "マタドガス",
+  "romaji": null,
+  "genus": "Poison Gas Pokémon",
+  "color": "purple",
+  "gen": "generation-i"
+ },
+ "113": {
+  "en": "Chansey",
+  "ja": "ラッキー",
+  "romaji": null,
+  "genus": "Egg Pokémon",
+  "color": "pink",
+  "gen": "generation-i"
+ },
+ "114": {
+  "en": "Tangela",
+  "ja": "モンジャラ",
+  "romaji": null,
+  "genus": "Vine Pokémon",
+  "color": "blue",
+  "gen": "generation-i"
+ },
+ "116": {
+  "en": "Horsea",
+  "ja": "タッツー",
+  "romaji": null,
+  "genus": "Dragon Pokémon",
+  "color": "blue",
+  "gen": "generation-i"
+ },
+ "117": {
+  "en": "Seadra",
+  "ja": "シードラ",
+  "romaji": null,
+  "genus": "Dragon Pokémon",
+  "color": "blue",
+  "gen": "generation-i"
+ },
+ "120": {
+  "en": "Staryu",
+  "ja": "ヒトデマン",
+  "romaji": null,
+  "genus": "Star Shape Pokémon",
+  "color": "brown",
+  "gen": "generation-i"
+ },
+ "121": {
+  "en": "Starmie",
+  "ja": "スターミー",
+  "romaji": null,
+  "genus": "Mysterious Pokémon",
+  "color": "purple",
+  "gen": "generation-i"
+ },
+ "122": {
+  "en": "Mr. Mime",
+  "ja": "バリヤード",
+  "romaji": null,
+  "genus": "Barrier Pokémon",
+  "color": "pink",
+  "gen": "generation-i"
+ },
+ "123": {
+  "en": "Scyther",
+  "ja": "ストライク",
+  "romaji": null,
+  "genus": "Mantis Pokémon",
+  "color": "green",
+  "gen": "generation-i"
+ },
+ "125": {
+  "en": "Electabuzz",
+  "ja": "エレブー",
+  "romaji": null,
+  "genus": "Electric Pokémon",
+  "color": "yellow",
+  "gen": "generation-i"
+ },
+ "126": {
+  "en": "Magmar",
+  "ja": "ブーバー",
+  "romaji": null,
+  "genus": "Spitfire Pokémon",
+  "color": "red",
+  "gen": "generation-i"
+ },
+ "127": {
+  "en": "Pinsir",
+  "ja": "カイロス",
+  "romaji": null,
+  "genus": "Stag Beetle Pokémon",
+  "color": "brown",
+  "gen": "generation-i"
+ },
+ "129": {
+  "en": "Magikarp",
+  "ja": "コイキング",
+  "romaji": null,
+  "genus": "Fish Pokémon",
+  "color": "red",
+  "gen": "generation-i"
+ },
+ "130": {
+  "en": "Gyarados",
+  "ja": "ギャラドス",
+  "romaji": null,
+  "genus": "Atrocious Pokémon",
+  "color": "blue",
+  "gen": "generation-i"
+ },
+ "131": {
+  "en": "Lapras",
+  "ja": "ラプラス",
+  "romaji": null,
+  "genus": "Transport Pokémon",
+  "color": "blue",
+  "gen": "generation-i"
+ },
+ "132": {
+  "en": "Ditto",
+  "ja": "メタモン",
+  "romaji": null,
+  "genus": "Transform Pokémon",
+  "color": "purple",
+  "gen": "generation-i"
+ },
+ "133": {
+  "en": "Eevee",
+  "ja": "イーブイ",
+  "romaji": null,
+  "genus": "Evolution Pokémon",
+  "color": "brown",
+  "gen": "generation-i"
+ },
+ "134": {
+  "en": "Vaporeon",
+  "ja": "シャワーズ",
+  "romaji": null,
+  "genus": "Bubble Jet Pokémon",
+  "color": "blue",
+  "gen": "generation-i"
+ },
+ "135": {
+  "en": "Jolteon",
+  "ja": "サンダース",
+  "romaji": null,
+  "genus": "Lightning Pokémon",
+  "color": "yellow",
+  "gen": "generation-i"
+ },
+ "136": {
+  "en": "Flareon",
+  "ja": "ブースター",
+  "romaji": null,
+  "genus": "Flame Pokémon",
+  "color": "red",
+  "gen": "generation-i"
+ },
+ "137": {
+  "en": "Porygon",
+  "ja": "ポリゴン",
+  "romaji": null,
+  "genus": "Virtual Pokémon",
+  "color": "pink",
+  "gen": "generation-i"
+ },
+ "142": {
+  "en": "Aerodactyl",
+  "ja": "プテラ",
+  "romaji": null,
+  "genus": "Fossil Pokémon",
+  "color": "purple",
+  "gen": "generation-i"
+ },
+ "143": {
+  "en": "Snorlax",
+  "ja": "カビゴン",
+  "romaji": null,
+  "genus": "Sleeping Pokémon",
+  "color": "black",
+  "gen": "generation-i"
+ },
+ "144": {
+  "en": "Articuno",
+  "ja": "フリーザー",
+  "romaji": null,
+  "genus": "Freeze Pokémon",
+  "color": "blue",
+  "gen": "generation-i"
+ },
+ "145": {
+  "en": "Zapdos",
+  "ja": "サンダー",
+  "romaji": null,
+  "genus": "Electric Pokémon",
+  "color": "yellow",
+  "gen": "generation-i"
+ },
+ "146": {
+  "en": "Moltres",
+  "ja": "ファイヤー",
+  "romaji": null,
+  "genus": "Flame Pokémon",
+  "color": "yellow",
+  "gen": "generation-i"
+ },
+ "147": {
+  "en": "Dratini",
+  "ja": "ミニリュウ",
+  "romaji": null,
+  "genus": "Dragon Pokémon",
+  "color": "blue",
+  "gen": "generation-i"
+ },
+ "148": {
+  "en": "Dragonair",
+  "ja": "ハクリュー",
+  "romaji": null,
+  "genus": "Dragon Pokémon",
+  "color": "blue",
+  "gen": "generation-i"
+ },
+ "149": {
+  "en": "Dragonite",
+  "ja": "カイリュー",
+  "romaji": null,
+  "genus": "Dragon Pokémon",
+  "color": "brown",
+  "gen": "generation-i"
+ },
+ "150": {
+  "en": "Mewtwo",
+  "ja": "ミュウツー",
+  "romaji": null,
+  "genus": "Genetic Pokémon",
+  "color": "purple",
+  "gen": "generation-i"
+ },
+ "151": {
+  "en": "Mew",
+  "ja": "ミュウ",
+  "romaji": null,
+  "genus": "New Species Pokémon",
+  "color": "pink",
+  "gen": "generation-i"
+ },
+ "155": {
+  "en": "Cyndaquil",
+  "ja": "ヒノアラシ",
+  "romaji": null,
+  "genus": "Fire Mouse Pokémon",
+  "color": "yellow",
+  "gen": "generation-ii"
+ },
+ "156": {
+  "en": "Quilava",
+  "ja": "マグマラシ",
+  "romaji": null,
+  "genus": "Volcano Pokémon",
+  "color": "yellow",
+  "gen": "generation-ii"
+ },
+ "157": {
+  "en": "Typhlosion",
+  "ja": "バクフーン",
+  "romaji": null,
+  "genus": "Volcano Pokémon",
+  "color": "yellow",
+  "gen": "generation-ii"
+ },
+ "158": {
+  "en": "Totodile",
+  "ja": "ワニノコ",
+  "romaji": null,
+  "genus": "Big Jaw Pokémon",
+  "color": "blue",
+  "gen": "generation-ii"
+ },
+ "159": {
+  "en": "Croconaw",
+  "ja": "アリゲイツ",
+  "romaji": null,
+  "genus": "Big Jaw Pokémon",
+  "color": "blue",
+  "gen": "generation-ii"
+ },
+ "160": {
+  "en": "Feraligatr",
+  "ja": "オーダイル",
+  "romaji": null,
+  "genus": "Big Jaw Pokémon",
+  "color": "blue",
+  "gen": "generation-ii"
+ },
+ "163": {
+  "en": "Hoothoot",
+  "ja": "ホーホー",
+  "romaji": null,
+  "genus": "Owl Pokémon",
+  "color": "brown",
+  "gen": "generation-ii"
+ },
+ "164": {
+  "en": "Noctowl",
+  "ja": "ヨルノズク",
+  "romaji": null,
+  "genus": "Owl Pokémon",
+  "color": "brown",
+  "gen": "generation-ii"
+ },
+ "167": {
+  "en": "Spinarak",
+  "ja": "イトマル",
+  "romaji": null,
+  "genus": "String Spit Pokémon",
+  "color": "green",
+  "gen": "generation-ii"
+ },
+ "168": {
+  "en": "Ariados",
+  "ja": "アリアドス",
+  "romaji": null,
+  "genus": "Long Leg Pokémon",
+  "color": "red",
+  "gen": "generation-ii"
+ },
+ "169": {
+  "en": "Crobat",
+  "ja": "クロバット",
+  "romaji": null,
+  "genus": "Bat Pokémon",
+  "color": "purple",
+  "gen": "generation-ii"
+ },
+ "170": {
+  "en": "Chinchou",
+  "ja": "チョンチー",
+  "romaji": null,
+  "genus": "Angler Pokémon",
+  "color": "blue",
+  "gen": "generation-ii"
+ },
+ "171": {
+  "en": "Lanturn",
+  "ja": "ランターン",
+  "romaji": null,
+  "genus": "Light Pokémon",
+  "color": "blue",
+  "gen": "generation-ii"
+ },
+ "172": {
+  "en": "Pichu",
+  "ja": "ピチュー",
+  "romaji": null,
+  "genus": "Tiny Mouse Pokémon",
+  "color": "yellow",
+  "gen": "generation-ii"
+ },
+ "173": {
+  "en": "Cleffa",
+  "ja": "ピィ",
+  "romaji": null,
+  "genus": "Star Shape Pokémon",
+  "color": "pink",
+  "gen": "generation-ii"
+ },
+ "174": {
+  "en": "Igglybuff",
+  "ja": "ププリン",
+  "romaji": null,
+  "genus": "Balloon Pokémon",
+  "color": "pink",
+  "gen": "generation-ii"
+ },
+ "179": {
+  "en": "Mareep",
+  "ja": "メリープ",
+  "romaji": null,
+  "genus": "Wool Pokémon",
+  "color": "white",
+  "gen": "generation-ii"
+ },
+ "180": {
+  "en": "Flaaffy",
+  "ja": "モココ",
+  "romaji": null,
+  "genus": "Wool Pokémon",
+  "color": "pink",
+  "gen": "generation-ii"
+ },
+ "181": {
+  "en": "Ampharos",
+  "ja": "デンリュウ",
+  "romaji": null,
+  "genus": "Light Pokémon",
+  "color": "yellow",
+  "gen": "generation-ii"
+ },
+ "182": {
+  "en": "Bellossom",
+  "ja": "キレイハナ",
+  "romaji": null,
+  "genus": "Flower Pokémon",
+  "color": "green",
+  "gen": "generation-ii"
+ },
+ "183": {
+  "en": "Marill",
+  "ja": "マリル",
+  "romaji": null,
+  "genus": "Aqua Mouse Pokémon",
+  "color": "blue",
+  "gen": "generation-ii"
+ },
+ "184": {
+  "en": "Azumarill",
+  "ja": "マリルリ",
+  "romaji": null,
+  "genus": "Aqua Rabbit Pokémon",
+  "color": "blue",
+  "gen": "generation-ii"
+ },
+ "185": {
+  "en": "Sudowoodo",
+  "ja": "ウソッキー",
+  "romaji": null,
+  "genus": "Imitation Pokémon",
+  "color": "brown",
+  "gen": "generation-ii"
+ },
+ "186": {
+  "en": "Politoed",
+  "ja": "ニョロトノ",
+  "romaji": null,
+  "genus": "Frog Pokémon",
+  "color": "green",
+  "gen": "generation-ii"
+ },
+ "187": {
+  "en": "Hoppip",
+  "ja": "ハネッコ",
+  "romaji": null,
+  "genus": "Cottonweed Pokémon",
+  "color": "pink",
+  "gen": "generation-ii"
+ },
+ "188": {
+  "en": "Skiploom",
+  "ja": "ポポッコ",
+  "romaji": null,
+  "genus": "Cottonweed Pokémon",
+  "color": "green",
+  "gen": "generation-ii"
+ },
+ "189": {
+  "en": "Jumpluff",
+  "ja": "ワタッコ",
+  "romaji": null,
+  "genus": "Cottonweed Pokémon",
+  "color": "blue",
+  "gen": "generation-ii"
+ },
+ "194": {
+  "en": "Wooper",
+  "ja": "ウパー",
+  "romaji": null,
+  "genus": "Water Fish Pokémon",
+  "color": "blue",
+  "gen": "generation-ii"
+ },
+ "196": {
+  "en": "Espeon",
+  "ja": "エーフィ",
+  "romaji": null,
+  "genus": "Sun Pokémon",
+  "color": "purple",
+  "gen": "generation-ii"
+ },
+ "197": {
+  "en": "Umbreon",
+  "ja": "ブラッキー",
+  "romaji": null,
+  "genus": "Moonlight Pokémon",
+  "color": "black",
+  "gen": "generation-ii"
+ },
+ "198": {
+  "en": "Murkrow",
+  "ja": "ヤミカラス",
+  "romaji": null,
+  "genus": "Darkness Pokémon",
+  "color": "black",
+  "gen": "generation-ii"
+ },
+ "199": {
+  "en": "Slowking",
+  "ja": "ヤドキング",
+  "romaji": null,
+  "genus": "Royal Pokémon",
+  "color": "pink",
+  "gen": "generation-ii"
+ },
+ "200": {
+  "en": "Misdreavus",
+  "ja": "ムウマ",
+  "romaji": null,
+  "genus": "Screech Pokémon",
+  "color": "gray",
+  "gen": "generation-ii"
+ },
+ "203": {
+  "en": "Girafarig",
+  "ja": "キリンリキ",
+  "romaji": null,
+  "genus": "Long Neck Pokémon",
+  "color": "yellow",
+  "gen": "generation-ii"
+ },
+ "208": {
+  "en": "Steelix",
+  "ja": "ハガネール",
+  "romaji": null,
+  "genus": "Iron Snake Pokémon",
+  "color": "gray",
+  "gen": "generation-ii"
+ },
+ "212": {
+  "en": "Scizor",
+  "ja": "ハッサム",
+  "romaji": null,
+  "genus": "Pincer Pokémon",
+  "color": "red",
+  "gen": "generation-ii"
+ },
+ "214": {
+  "en": "Heracross",
+  "ja": "ヘラクロス",
+  "romaji": null,
+  "genus": "Single Horn Pokémon",
+  "color": "blue",
+  "gen": "generation-ii"
+ },
+ "222": {
+  "en": "Corsola",
+  "ja": "サニーゴ",
+  "romaji": null,
+  "genus": "Coral Pokémon",
+  "color": "pink",
+  "gen": "generation-ii"
+ },
+ "230": {
+  "en": "Kingdra",
+  "ja": "キングドラ",
+  "romaji": null,
+  "genus": "Dragon Pokémon",
+  "color": "blue",
+  "gen": "generation-ii"
+ },
+ "233": {
+  "en": "Porygon2",
+  "ja": "ポリゴン２",
+  "romaji": null,
+  "genus": "Virtual Pokémon",
+  "color": "red",
+  "gen": "generation-ii"
+ },
+ "235": {
+  "en": "Smeargle",
+  "ja": "ドーブル",
+  "romaji": null,
+  "genus": "Painter Pokémon",
+  "color": "white",
+  "gen": "generation-ii"
+ },
+ "236": {
+  "en": "Tyrogue",
+  "ja": "バルキー",
+  "romaji": null,
+  "genus": "Scuffle Pokémon",
+  "color": "purple",
+  "gen": "generation-ii"
+ },
+ "237": {
+  "en": "Hitmontop",
+  "ja": "カポエラー",
+  "romaji": null,
+  "genus": "Handstand Pokémon",
+  "color": "brown",
+  "gen": "generation-ii"
+ },
+ "239": {
+  "en": "Elekid",
+  "ja": "エレキッド",
+  "romaji": null,
+  "genus": "Electric Pokémon",
+  "color": "yellow",
+  "gen": "generation-ii"
+ },
+ "240": {
+  "en": "Magby",
+  "ja": "ブビィ",
+  "romaji": null,
+  "genus": "Live Coal Pokémon",
+  "color": "red",
+  "gen": "generation-ii"
+ },
+ "242": {
+  "en": "Blissey",
+  "ja": "ハピナス",
+  "romaji": null,
+  "genus": "Happiness Pokémon",
+  "color": "pink",
+  "gen": "generation-ii"
+ },
+ "243": {
+  "en": "Raikou",
+  "ja": "ライコウ",
+  "romaji": null,
+  "genus": "Thunder Pokémon",
+  "color": "yellow",
+  "gen": "generation-ii"
+ },
+ "244": {
+  "en": "Entei",
+  "ja": "エンテイ",
+  "romaji": null,
+  "genus": "Volcano Pokémon",
+  "color": "brown",
+  "gen": "generation-ii"
+ },
+ "245": {
+  "en": "Suicune",
+  "ja": "スイクン",
+  "romaji": null,
+  "genus": "Aurora Pokémon",
+  "color": "blue",
+  "gen": "generation-ii"
+ },
+ "246": {
+  "en": "Larvitar",
+  "ja": "ヨーギラス",
+  "romaji": null,
+  "genus": "Rock Skin Pokémon",
+  "color": "green",
+  "gen": "generation-ii"
+ },
+ "247": {
+  "en": "Pupitar",
+  "ja": "サナギラス",
+  "romaji": null,
+  "genus": "Hard Shell Pokémon",
+  "color": "gray",
+  "gen": "generation-ii"
+ },
+ "248": {
+  "en": "Tyranitar",
+  "ja": "バンギラス",
+  "romaji": null,
+  "genus": "Armor Pokémon",
+  "color": "green",
+  "gen": "generation-ii"
+ },
+ "249": {
+  "en": "Lugia",
+  "ja": "ルギア",
+  "romaji": null,
+  "genus": "Diving Pokémon",
+  "color": "white",
+  "gen": "generation-ii"
+ },
+ "250": {
+  "en": "Ho-Oh",
+  "ja": "ホウオウ",
+  "romaji": null,
+  "genus": "Rainbow Pokémon",
+  "color": "red",
+  "gen": "generation-ii"
+ },
+ "255": {
+  "en": "Torchic",
+  "ja": "アチャモ",
+  "romaji": null,
+  "genus": "Chick Pokémon",
+  "color": "red",
+  "gen": "generation-iii"
+ },
+ "256": {
+  "en": "Combusken",
+  "ja": "ワカシャモ",
+  "romaji": null,
+  "genus": "Young Fowl Pokémon",
+  "color": "red",
+  "gen": "generation-iii"
+ },
+ "257": {
+  "en": "Blaziken",
+  "ja": "バシャーモ",
+  "romaji": null,
+  "genus": "Blaze Pokémon",
+  "color": "red",
+  "gen": "generation-iii"
+ },
+ "258": {
+  "en": "Mudkip",
+  "ja": "ミズゴロウ",
+  "romaji": null,
+  "genus": "Mud Fish Pokémon",
+  "color": "blue",
+  "gen": "generation-iii"
+ },
+ "259": {
+  "en": "Marshtomp",
+  "ja": "ヌマクロー",
+  "romaji": null,
+  "genus": "Mud Fish Pokémon",
+  "color": "blue",
+  "gen": "generation-iii"
+ },
+ "260": {
+  "en": "Swampert",
+  "ja": "ラグラージ",
+  "romaji": null,
+  "genus": "Mud Fish Pokémon",
+  "color": "blue",
+  "gen": "generation-iii"
+ },
+ "270": {
+  "en": "Lotad",
+  "ja": "ハスボー",
+  "romaji": null,
+  "genus": "Water Weed Pokémon",
+  "color": "green",
+  "gen": "generation-iii"
+ },
+ "271": {
+  "en": "Lombre",
+  "ja": "ハスブレロ",
+  "romaji": null,
+  "genus": "Jolly Pokémon",
+  "color": "green",
+  "gen": "generation-iii"
+ },
+ "272": {
+  "en": "Ludicolo",
+  "ja": "ルンパッパ",
+  "romaji": null,
+  "genus": "Carefree Pokémon",
+  "color": "green",
+  "gen": "generation-iii"
+ },
+ "278": {
+  "en": "Wingull",
+  "ja": "キャモメ",
+  "romaji": null,
+  "genus": "Seagull Pokémon",
+  "color": "white",
+  "gen": "generation-iii"
+ },
+ "279": {
+  "en": "Pelipper",
+  "ja": "ペリッパー",
+  "romaji": null,
+  "genus": "Water Bird Pokémon",
+  "color": "yellow",
+  "gen": "generation-iii"
+ },
+ "280": {
+  "en": "Ralts",
+  "ja": "ラルトス",
+  "romaji": null,
+  "genus": "Feeling Pokémon",
+  "color": "white",
+  "gen": "generation-iii"
+ },
+ "281": {
+  "en": "Kirlia",
+  "ja": "キルリア",
+  "romaji": null,
+  "genus": "Emotion Pokémon",
+  "color": "white",
+  "gen": "generation-iii"
+ },
+ "282": {
+  "en": "Gardevoir",
+  "ja": "サーナイト",
+  "romaji": null,
+  "genus": "Embrace Pokémon",
+  "color": "white",
+  "gen": "generation-iii"
+ },
+ "296": {
+  "en": "Makuhita",
+  "ja": "マクノシタ",
+  "romaji": null,
+  "genus": "Guts Pokémon",
+  "color": "yellow",
+  "gen": "generation-iii"
+ },
+ "297": {
+  "en": "Hariyama",
+  "ja": "ハリテヤマ",
+  "romaji": null,
+  "genus": "Arm Thrust Pokémon",
+  "color": "brown",
+  "gen": "generation-iii"
+ },
+ "298": {
+  "en": "Azurill",
+  "ja": "ルリリ",
+  "romaji": null,
+  "genus": "Polka Dot Pokémon",
+  "color": "blue",
+  "gen": "generation-iii"
+ },
+ "302": {
+  "en": "Sableye",
+  "ja": "ヤミラミ",
+  "romaji": null,
+  "genus": "Darkness Pokémon",
+  "color": "purple",
+  "gen": "generation-iii"
+ },
+ "303": {
+  "en": "Mawile",
+  "ja": "クチート",
+  "romaji": null,
+  "genus": "Deceiver Pokémon",
+  "color": "black",
+  "gen": "generation-iii"
+ },
+ "311": {
+  "en": "Plusle",
+  "ja": "プラスル",
+  "romaji": null,
+  "genus": "Cheering Pokémon",
+  "color": "yellow",
+  "gen": "generation-iii"
+ },
+ "312": {
+  "en": "Minun",
+  "ja": "マイナン",
+  "romaji": null,
+  "genus": "Cheering Pokémon",
+  "color": "yellow",
+  "gen": "generation-iii"
+ },
+ "313": {
+  "en": "Volbeat",
+  "ja": "バルビート",
+  "romaji": null,
+  "genus": "Firefly Pokémon",
+  "color": "gray",
+  "gen": "generation-iii"
+ },
+ "314": {
+  "en": "Illumise",
+  "ja": "イルミーゼ",
+  "romaji": null,
+  "genus": "Firefly Pokémon",
+  "color": "purple",
+  "gen": "generation-iii"
+ },
+ "316": {
+  "en": "Gulpin",
+  "ja": "ゴクリン",
+  "romaji": null,
+  "genus": "Stomach Pokémon",
+  "color": "green",
+  "gen": "generation-iii"
+ },
+ "317": {
+  "en": "Swalot",
+  "ja": "マルノーム",
+  "romaji": null,
+  "genus": "Poison Bag Pokémon",
+  "color": "purple",
+  "gen": "generation-iii"
+ },
+ "318": {
+  "en": "Carvanha",
+  "ja": "キバニア",
+  "romaji": null,
+  "genus": "Savage Pokémon",
+  "color": "red",
+  "gen": "generation-iii"
+ },
+ "319": {
+  "en": "Sharpedo",
+  "ja": "サメハダー",
+  "romaji": null,
+  "genus": "Brutal Pokémon",
+  "color": "blue",
+  "gen": "generation-iii"
+ },
+ "324": {
+  "en": "Torkoal",
+  "ja": "コータス",
+  "romaji": null,
+  "genus": "Coal Pokémon",
+  "color": "brown",
+  "gen": "generation-iii"
+ },
+ "328": {
+  "en": "Trapinch",
+  "ja": "ナックラー",
+  "romaji": null,
+  "genus": "Ant Pit Pokémon",
+  "color": "brown",
+  "gen": "generation-iii"
+ },
+ "329": {
+  "en": "Vibrava",
+  "ja": "ビブラーバ",
+  "romaji": null,
+  "genus": "Vibration Pokémon",
+  "color": "green",
+  "gen": "generation-iii"
+ },
+ "330": {
+  "en": "Flygon",
+  "ja": "フライゴン",
+  "romaji": null,
+  "genus": "Mystic Pokémon",
+  "color": "green",
+  "gen": "generation-iii"
+ },
+ "331": {
+  "en": "Cacnea",
+  "ja": "サボネア",
+  "romaji": null,
+  "genus": "Cactus Pokémon",
+  "color": "green",
+  "gen": "generation-iii"
+ },
+ "332": {
+  "en": "Cacturne",
+  "ja": "ノクタス",
+  "romaji": null,
+  "genus": "Scarecrow Pokémon",
+  "color": "green",
+  "gen": "generation-iii"
+ },
+ "333": {
+  "en": "Swablu",
+  "ja": "チルット",
+  "romaji": null,
+  "genus": "Cotton Bird Pokémon",
+  "color": "blue",
+  "gen": "generation-iii"
+ },
+ "334": {
+  "en": "Altaria",
+  "ja": "チルタリス",
+  "romaji": null,
+  "genus": "Humming Pokémon",
+  "color": "blue",
+  "gen": "generation-iii"
+ },
+ "339": {
+  "en": "Barboach",
+  "ja": "ドジョッチ",
+  "romaji": null,
+  "genus": "Whiskers Pokémon",
+  "color": "gray",
+  "gen": "generation-iii"
+ },
+ "340": {
+  "en": "Whiscash",
+  "ja": "ナマズン",
+  "romaji": null,
+  "genus": "Whiskers Pokémon",
+  "color": "blue",
+  "gen": "generation-iii"
+ },
+ "341": {
+  "en": "Corphish",
+  "ja": "ヘイガニ",
+  "romaji": null,
+  "genus": "Ruffian Pokémon",
+  "color": "red",
+  "gen": "generation-iii"
+ },
+ "342": {
+  "en": "Crawdaunt",
+  "ja": "シザリガー",
+  "romaji": null,
+  "genus": "Rogue Pokémon",
+  "color": "red",
+  "gen": "generation-iii"
+ },
+ "349": {
+  "en": "Feebas",
+  "ja": "ヒンバス",
+  "romaji": null,
+  "genus": "Fish Pokémon",
+  "color": "brown",
+  "gen": "generation-iii"
+ },
+ "350": {
+  "en": "Milotic",
+  "ja": "ミロカロス",
+  "romaji": null,
+  "genus": "Tender Pokémon",
+  "color": "pink",
+  "gen": "generation-iii"
+ },
+ "355": {
+  "en": "Duskull",
+  "ja": "ヨマワル",
+  "romaji": null,
+  "genus": "Requiem Pokémon",
+  "color": "black",
+  "gen": "generation-iii"
+ },
+ "356": {
+  "en": "Dusclops",
+  "ja": "サマヨール",
+  "romaji": null,
+  "genus": "Beckon Pokémon",
+  "color": "black",
+  "gen": "generation-iii"
+ },
+ "359": {
+  "en": "Absol",
+  "ja": "アブソル",
+  "romaji": null,
+  "genus": "Disaster Pokémon",
+  "color": "white",
+  "gen": "generation-iii"
+ },
+ "370": {
+  "en": "Luvdisc",
+  "ja": "ラブカス",
+  "romaji": null,
+  "genus": "Rendezvous Pokémon",
+  "color": "pink",
+  "gen": "generation-iii"
+ },
+ "374": {
+  "en": "Beldum",
+  "ja": "ダンバル",
+  "romaji": null,
+  "genus": "Iron Ball Pokémon",
+  "color": "blue",
+  "gen": "generation-iii"
+ },
+ "375": {
+  "en": "Metang",
+  "ja": "メタング",
+  "romaji": null,
+  "genus": "Iron Claw Pokémon",
+  "color": "blue",
+  "gen": "generation-iii"
+ },
+ "376": {
+  "en": "Metagross",
+  "ja": "メタグロス",
+  "romaji": null,
+  "genus": "Iron Leg Pokémon",
+  "color": "blue",
+  "gen": "generation-iii"
+ },
+ "382": {
+  "en": "Kyogre",
+  "ja": "カイオーガ",
+  "romaji": null,
+  "genus": "Sea Basin Pokémon",
+  "color": "blue",
+  "gen": "generation-iii"
+ },
+ "385": {
+  "en": "Jirachi",
+  "ja": "ジラーチ",
+  "romaji": null,
+  "genus": "Wish Pokémon",
+  "color": "yellow",
+  "gen": "generation-iii"
+ },
+ "393": {
+  "en": "Piplup",
+  "ja": "ポッチャマ",
+  "romaji": null,
+  "genus": "Penguin Pokémon",
+  "color": "blue",
+  "gen": "generation-iv"
+ },
+ "394": {
+  "en": "Prinplup",
+  "ja": "ポッタイシ",
+  "romaji": null,
+  "genus": "Penguin Pokémon",
+  "color": "blue",
+  "gen": "generation-iv"
+ },
+ "395": {
+  "en": "Empoleon",
+  "ja": "エンペルト",
+  "romaji": null,
+  "genus": "Emperor Pokémon",
+  "color": "blue",
+  "gen": "generation-iv"
+ },
+ "401": {
+  "en": "Kricketot",
+  "ja": "コロボーシ",
+  "romaji": null,
+  "genus": "Cricket Pokémon",
+  "color": "red",
+  "gen": "generation-iv"
+ },
+ "402": {
+  "en": "Kricketune",
+  "ja": "コロトック",
+  "romaji": null,
+  "genus": "Cricket Pokémon",
+  "color": "red",
+  "gen": "generation-iv"
+ },
+ "408": {
+  "en": "Cranidos",
+  "ja": "ズガイドス",
+  "romaji": null,
+  "genus": "Head Butt Pokémon",
+  "color": "blue",
+  "gen": "generation-iv"
+ },
+ "409": {
+  "en": "Rampardos",
+  "ja": "ラムパルド",
+  "romaji": null,
+  "genus": "Head Butt Pokémon",
+  "color": "blue",
+  "gen": "generation-iv"
+ },
+ "410": {
+  "en": "Shieldon",
+  "ja": "タテトプス",
+  "romaji": null,
+  "genus": "Shield Pokémon",
+  "color": "gray",
+  "gen": "generation-iv"
+ },
+ "411": {
+  "en": "Bastiodon",
+  "ja": "トリデプス",
+  "romaji": null,
+  "genus": "Shield Pokémon",
+  "color": "gray",
+  "gen": "generation-iv"
+ },
+ "415": {
+  "en": "Combee",
+  "ja": "ミツハニー",
+  "romaji": null,
+  "genus": "Tiny Bee Pokémon",
+  "color": "yellow",
+  "gen": "generation-iv"
+ },
+ "416": {
+  "en": "Vespiquen",
+  "ja": "ビークイン",
+  "romaji": null,
+  "genus": "Beehive Pokémon",
+  "color": "yellow",
+  "gen": "generation-iv"
+ },
+ "418": {
+  "en": "Buizel",
+  "ja": "ブイゼル",
+  "romaji": null,
+  "genus": "Sea Weasel Pokémon",
+  "color": "brown",
+  "gen": "generation-iv"
+ },
+ "419": {
+  "en": "Floatzel",
+  "ja": "フローゼル",
+  "romaji": null,
+  "genus": "Sea Weasel Pokémon",
+  "color": "brown",
+  "gen": "generation-iv"
+ },
+ "422": {
+  "en": "Shellos",
+  "ja": "カラナクシ",
+  "romaji": null,
+  "genus": "Sea Slug Pokémon",
+  "color": "purple",
+  "gen": "generation-iv"
+ },
+ "423": {
+  "en": "Gastrodon",
+  "ja": "トリトドン",
+  "romaji": null,
+  "genus": "Sea Slug Pokémon",
+  "color": "purple",
+  "gen": "generation-iv"
+ },
+ "425": {
+  "en": "Drifloon",
+  "ja": "フワンテ",
+  "romaji": null,
+  "genus": "Balloon Pokémon",
+  "color": "purple",
+  "gen": "generation-iv"
+ },
+ "426": {
+  "en": "Drifblim",
+  "ja": "フワライド",
+  "romaji": null,
+  "genus": "Blimp Pokémon",
+  "color": "purple",
+  "gen": "generation-iv"
+ },
+ "429": {
+  "en": "Mismagius",
+  "ja": "ムウマージ",
+  "romaji": null,
+  "genus": "Magical Pokémon",
+  "color": "purple",
+  "gen": "generation-iv"
+ },
+ "430": {
+  "en": "Honchkrow",
+  "ja": "ドンカラス",
+  "romaji": null,
+  "genus": "Big Boss Pokémon",
+  "color": "black",
+  "gen": "generation-iv"
+ },
+ "438": {
+  "en": "Bonsly",
+  "ja": "ウソハチ",
+  "romaji": null,
+  "genus": "Bonsai Pokémon",
+  "color": "brown",
+  "gen": "generation-iv"
+ },
+ "439": {
+  "en": "Mime Jr.",
+  "ja": "マネネ",
+  "romaji": null,
+  "genus": "Mime Pokémon",
+  "color": "pink",
+  "gen": "generation-iv"
+ },
+ "440": {
+  "en": "Happiny",
+  "ja": "ピンプク",
+  "romaji": null,
+  "genus": "Playhouse Pokémon",
+  "color": "pink",
+  "gen": "generation-iv"
+ },
+ "441": {
+  "en": "Chatot",
+  "ja": "ペラップ",
+  "romaji": null,
+  "genus": "Music Note Pokémon",
+  "color": "black",
+  "gen": "generation-iv"
+ },
+ "446": {
+  "en": "Munchlax",
+  "ja": "ゴンベ",
+  "romaji": null,
+  "genus": "Big Eater Pokémon",
+  "color": "black",
+  "gen": "generation-iv"
+ },
+ "447": {
+  "en": "Riolu",
+  "ja": "リオル",
+  "romaji": null,
+  "genus": "Emanation Pokémon",
+  "color": "blue",
+  "gen": "generation-iv"
+ },
+ "448": {
+  "en": "Lucario",
+  "ja": "ルカリオ",
+  "romaji": null,
+  "genus": "Aura Pokémon",
+  "color": "blue",
+  "gen": "generation-iv"
+ },
+ "456": {
+  "en": "Finneon",
+  "ja": "ケイコウオ",
+  "romaji": null,
+  "genus": "Wing Fish Pokémon",
+  "color": "blue",
+  "gen": "generation-iv"
+ },
+ "457": {
+  "en": "Lumineon",
+  "ja": "ネオラント",
+  "romaji": null,
+  "genus": "Neon Pokémon",
+  "color": "blue",
+  "gen": "generation-iv"
+ },
+ "462": {
+  "en": "Magnezone",
+  "ja": "ジバコイル",
+  "romaji": null,
+  "genus": "Magnet Area Pokémon",
+  "color": "gray",
+  "gen": "generation-iv"
+ },
+ "465": {
+  "en": "Tangrowth",
+  "ja": "モジャンボ",
+  "romaji": null,
+  "genus": "Vine Pokémon",
+  "color": "blue",
+  "gen": "generation-iv"
+ },
+ "466": {
+  "en": "Electivire",
+  "ja": "エレキブル",
+  "romaji": null,
+  "genus": "Thunderbolt Pokémon",
+  "color": "yellow",
+  "gen": "generation-iv"
+ },
+ "467": {
+  "en": "Magmortar",
+  "ja": "ブーバーン",
+  "romaji": null,
+  "genus": "Blast Pokémon",
+  "color": "red",
+  "gen": "generation-iv"
+ },
+ "470": {
+  "en": "Leafeon",
+  "ja": "リーフィア",
+  "romaji": null,
+  "genus": "Verdant Pokémon",
+  "color": "green",
+  "gen": "generation-iv"
+ },
+ "471": {
+  "en": "Glaceon",
+  "ja": "グレイシア",
+  "romaji": null,
+  "genus": "Fresh Snow Pokémon",
+  "color": "blue",
+  "gen": "generation-iv"
+ },
+ "474": {
+  "en": "Porygon-Z",
+  "ja": "ポリゴンＺ",
+  "romaji": null,
+  "genus": "Virtual Pokémon",
+  "color": "red",
+  "gen": "generation-iv"
+ },
+ "475": {
+  "en": "Gallade",
+  "ja": "エルレイド",
+  "romaji": null,
+  "genus": "Blade Pokémon",
+  "color": "white",
+  "gen": "generation-iv"
+ },
+ "477": {
+  "en": "Dusknoir",
+  "ja": "ヨノワール",
+  "romaji": null,
+  "genus": "Gripper Pokémon",
+  "color": "black",
+  "gen": "generation-iv"
+ },
+ "479": {
+  "en": "Rotom",
+  "ja": "ロトム",
+  "romaji": null,
+  "genus": "Plasma Pokémon",
+  "color": "red",
+  "gen": "generation-iv"
+ },
+ "489": {
+  "en": "Phione",
+  "ja": "フィオネ",
+  "romaji": null,
+  "genus": "Sea Drifter Pokémon",
+  "color": "blue",
+  "gen": "generation-iv"
+ },
+ "490": {
+  "en": "Manaphy",
+  "ja": "マナフィ",
+  "romaji": null,
+  "genus": "Seafaring Pokémon",
+  "color": "blue",
+  "gen": "generation-iv"
+ },
+ "495": {
+  "en": "Snivy",
+  "ja": "ツタージャ",
+  "romaji": null,
+  "genus": "Grass Snake Pokémon",
+  "color": "green",
+  "gen": "generation-v"
+ },
+ "496": {
+  "en": "Servine",
+  "ja": "ジャノビー",
+  "romaji": null,
+  "genus": "Grass Snake Pokémon",
+  "color": "green",
+  "gen": "generation-v"
+ },
+ "497": {
+  "en": "Serperior",
+  "ja": "ジャローダ",
+  "romaji": null,
+  "genus": "Regal Pokémon",
+  "color": "green",
+  "gen": "generation-v"
+ },
+ "529": {
+  "en": "Drilbur",
+  "ja": "モグリュー",
+  "romaji": null,
+  "genus": "Mole Pokémon",
+  "color": "gray",
+  "gen": "generation-v"
+ },
+ "530": {
+  "en": "Excadrill",
+  "ja": "ドリュウズ",
+  "romaji": null,
+  "genus": "Subterrene Pokémon",
+  "color": "gray",
+  "gen": "generation-v"
+ },
+ "531": {
+  "en": "Audino",
+  "ja": "タブンネ",
+  "romaji": null,
+  "genus": "Hearing Pokémon",
+  "color": "pink",
+  "gen": "generation-v"
+ },
+ "532": {
+  "en": "Timburr",
+  "ja": "ドッコラー",
+  "romaji": null,
+  "genus": "Muscular Pokémon",
+  "color": "gray",
+  "gen": "generation-v"
+ },
+ "533": {
+  "en": "Gurdurr",
+  "ja": "ドテッコツ",
+  "romaji": null,
+  "genus": "Muscular Pokémon",
+  "color": "gray",
+  "gen": "generation-v"
+ },
+ "534": {
+  "en": "Conkeldurr",
+  "ja": "ローブシン",
+  "romaji": null,
+  "genus": "Muscular Pokémon",
+  "color": "brown",
+  "gen": "generation-v"
+ },
+ "568": {
+  "en": "Trubbish",
+  "ja": "ヤブクロン",
+  "romaji": null,
+  "genus": "Trash Bag Pokémon",
+  "color": "green",
+  "gen": "generation-v"
+ },
+ "569": {
+  "en": "Garbodor",
+  "ja": "ダストダス",
+  "romaji": null,
+  "genus": "Trash Heap Pokémon",
+  "color": "green",
+  "gen": "generation-v"
+ },
+ "570": {
+  "en": "Zorua",
+  "ja": "ゾロア",
+  "romaji": null,
+  "genus": "Tricky Fox Pokémon",
+  "color": "gray",
+  "gen": "generation-v"
+ },
+ "571": {
+  "en": "Zoroark",
+  "ja": "ゾロアーク",
+  "romaji": null,
+  "genus": "Illusion Fox Pokémon",
+  "color": "gray",
+  "gen": "generation-v"
+ },
+ "572": {
+  "en": "Minccino",
+  "ja": "チラーミィ",
+  "romaji": null,
+  "genus": "Chinchilla Pokémon",
+  "color": "gray",
+  "gen": "generation-v"
+ },
+ "573": {
+  "en": "Cinccino",
+  "ja": "チラチーノ",
+  "romaji": null,
+  "genus": "Scarf Pokémon",
+  "color": "gray",
+  "gen": "generation-v"
+ },
+ "592": {
+  "en": "Frillish",
+  "ja": "プルリル",
+  "romaji": null,
+  "genus": "Floating Pokémon",
+  "color": "white",
+  "gen": "generation-v"
+ },
+ "593": {
+  "en": "Jellicent",
+  "ja": "ブルンゲル",
+  "romaji": null,
+  "genus": "Floating Pokémon",
+  "color": "white",
+  "gen": "generation-v"
+ },
+ "594": {
+  "en": "Alomomola",
+  "ja": "ママンボウ",
+  "romaji": null,
+  "genus": "Caring Pokémon",
+  "color": "pink",
+  "gen": "generation-v"
+ },
+ "607": {
+  "en": "Litwick",
+  "ja": "ヒトモシ",
+  "romaji": null,
+  "genus": "Candle Pokémon",
+  "color": "white",
+  "gen": "generation-v"
+ },
+ "608": {
+  "en": "Lampent",
+  "ja": "ランプラー",
+  "romaji": null,
+  "genus": "Lamp Pokémon",
+  "color": "black",
+  "gen": "generation-v"
+ },
+ "609": {
+  "en": "Chandelure",
+  "ja": "シャンデラ",
+  "romaji": null,
+  "genus": "Luring Pokémon",
+  "color": "black",
+  "gen": "generation-v"
+ },
+ "610": {
+  "en": "Axew",
+  "ja": "キバゴ",
+  "romaji": null,
+  "genus": "Tusk Pokémon",
+  "color": "green",
+  "gen": "generation-v"
+ },
+ "611": {
+  "en": "Fraxure",
+  "ja": "オノンド",
+  "romaji": null,
+  "genus": "Axe Jaw Pokémon",
+  "color": "green",
+  "gen": "generation-v"
+ },
+ "612": {
+  "en": "Haxorus",
+  "ja": "オノノクス",
+  "romaji": null,
+  "genus": "Axe Jaw Pokémon",
+  "color": "yellow",
+  "gen": "generation-v"
+ },
+ "618": {
+  "en": "Stunfisk",
+  "ja": "マッギョ",
+  "romaji": null,
+  "genus": "Trap Pokémon",
+  "color": "brown",
+  "gen": "generation-v"
+ },
+ "636": {
+  "en": "Larvesta",
+  "ja": "メラルバ",
+  "romaji": null,
+  "genus": "Torch Pokémon",
+  "color": "white",
+  "gen": "generation-v"
+ },
+ "637": {
+  "en": "Volcarona",
+  "ja": "ウルガモス",
+  "romaji": null,
+  "genus": "Sun Pokémon",
+  "color": "white",
+  "gen": "generation-v"
+ },
+ "656": {
+  "en": "Froakie",
+  "ja": "ケロマツ",
+  "romaji": null,
+  "genus": "Bubble Frog Pokémon",
+  "color": "blue",
+  "gen": "generation-vi"
+ },
+ "657": {
+  "en": "Frogadier",
+  "ja": "ゲコガシラ",
+  "romaji": null,
+  "genus": "Bubble Frog Pokémon",
+  "color": "blue",
+  "gen": "generation-vi"
+ },
+ "658": {
+  "en": "Greninja",
+  "ja": "ゲッコウガ",
+  "romaji": null,
+  "genus": "Ninja Pokémon",
+  "color": "blue",
+  "gen": "generation-vi"
+ },
+ "686": {
+  "en": "Inkay",
+  "ja": "マーイーカ",
+  "romaji": null,
+  "genus": "Revolving Pokémon",
+  "color": "blue",
+  "gen": "generation-vi"
+ },
+ "687": {
+  "en": "Malamar",
+  "ja": "カラマネロ",
+  "romaji": null,
+  "genus": "Overturning Pokémon",
+  "color": "blue",
+  "gen": "generation-vi"
+ },
+ "696": {
+  "en": "Tyrunt",
+  "ja": "チゴラス",
+  "romaji": null,
+  "genus": "Royal Heir Pokémon",
+  "color": "brown",
+  "gen": "generation-vi"
+ },
+ "697": {
+  "en": "Tyrantrum",
+  "ja": "ガチゴラス",
+  "romaji": null,
+  "genus": "Despot Pokémon",
+  "color": "red",
+  "gen": "generation-vi"
+ },
+ "698": {
+  "en": "Amaura",
+  "ja": "アマルス",
+  "romaji": null,
+  "genus": "Tundra Pokémon",
+  "color": "blue",
+  "gen": "generation-vi"
+ },
+ "699": {
+  "en": "Aurorus",
+  "ja": "アマルルガ",
+  "romaji": null,
+  "genus": "Tundra Pokémon",
+  "color": "blue",
+  "gen": "generation-vi"
+ },
+ "700": {
+  "en": "Sylveon",
+  "ja": "ニンフィア",
+  "romaji": null,
+  "genus": "Intertwining Pokémon",
+  "color": "pink",
+  "gen": "generation-vi"
+ },
+ "702": {
+  "en": "Dedenne",
+  "ja": "デデンネ",
+  "romaji": null,
+  "genus": "Antenna Pokémon",
+  "color": "yellow",
+  "gen": "generation-vi"
+ },
+ "704": {
+  "en": "Goomy",
+  "ja": "ヌメラ",
+  "romaji": null,
+  "genus": "Soft Tissue Pokémon",
+  "color": "purple",
+  "gen": "generation-vi"
+ },
+ "705": {
+  "en": "Sliggoo",
+  "ja": "ヌメイル",
+  "romaji": null,
+  "genus": "Soft Tissue Pokémon",
+  "color": "purple",
+  "gen": "generation-vi"
+ },
+ "706": {
+  "en": "Goodra",
+  "ja": "ヌメルゴン",
+  "romaji": null,
+  "genus": "Dragon Pokémon",
+  "color": "purple",
+  "gen": "generation-vi"
+ },
+ "714": {
+  "en": "Noibat",
+  "ja": "オンバット",
+  "romaji": null,
+  "genus": "Sound Wave Pokémon",
+  "color": "purple",
+  "gen": "generation-vi"
+ },
+ "715": {
+  "en": "Noivern",
+  "ja": "オンバーン",
+  "romaji": null,
+  "genus": "Sound Wave Pokémon",
+  "color": "purple",
+  "gen": "generation-vi"
+ },
+ "721": {
+  "en": "Volcanion",
+  "ja": "ボルケニオン",
+  "romaji": null,
+  "genus": "Steam Pokémon",
+  "color": "brown",
+  "gen": "generation-vi"
+ },
+ "722": {
+  "en": "Rowlet",
+  "ja": "モクロー",
+  "romaji": null,
+  "genus": "Grass Quill Pokémon",
+  "color": "brown",
+  "gen": "generation-vii"
+ },
+ "723": {
+  "en": "Dartrix",
+  "ja": "フクスロー",
+  "romaji": null,
+  "genus": "Blade Quill Pokémon",
+  "color": "brown",
+  "gen": "generation-vii"
+ },
+ "724": {
+  "en": "Decidueye",
+  "ja": "ジュナイパー",
+  "romaji": null,
+  "genus": "Arrow Quill Pokémon",
+  "color": "brown",
+  "gen": "generation-vii"
+ },
+ "728": {
+  "en": "Popplio",
+  "ja": "アシマリ",
+  "romaji": null,
+  "genus": "Sea Lion Pokémon",
+  "color": "blue",
+  "gen": "generation-vii"
+ },
+ "729": {
+  "en": "Brionne",
+  "ja": "オシャマリ",
+  "romaji": null,
+  "genus": "Pop Star Pokémon",
+  "color": "blue",
+  "gen": "generation-vii"
+ },
+ "730": {
+  "en": "Primarina",
+  "ja": "アシレーヌ",
+  "romaji": null,
+  "genus": "Soloist Pokémon",
+  "color": "blue",
+  "gen": "generation-vii"
+ },
+ "736": {
+  "en": "Grubbin",
+  "ja": "アゴジムシ",
+  "romaji": null,
+  "genus": "Larva Pokémon",
+  "color": "gray",
+  "gen": "generation-vii"
+ },
+ "737": {
+  "en": "Charjabug",
+  "ja": "デンヂムシ",
+  "romaji": null,
+  "genus": "Battery Pokémon",
+  "color": "green",
+  "gen": "generation-vii"
+ },
+ "738": {
+  "en": "Vikavolt",
+  "ja": "クワガノン",
+  "romaji": null,
+  "genus": "Stag Beetle Pokémon",
+  "color": "blue",
+  "gen": "generation-vii"
+ },
+ "747": {
+  "en": "Mareanie",
+  "ja": "ヒドイデ",
+  "romaji": null,
+  "genus": "Brutal Star Pokémon",
+  "color": "blue",
+  "gen": "generation-vii"
+ },
+ "748": {
+  "en": "Toxapex",
+  "ja": "ドヒドイデ",
+  "romaji": null,
+  "genus": "Brutal Star Pokémon",
+  "color": "blue",
+  "gen": "generation-vii"
+ },
+ "767": {
+  "en": "Wimpod",
+  "ja": "コソクムシ",
+  "romaji": null,
+  "genus": "Turn Tail Pokémon",
+  "color": "gray",
+  "gen": "generation-vii"
+ },
+ "768": {
+  "en": "Golisopod",
+  "ja": "グソクムシャ",
+  "romaji": null,
+  "genus": "Hard Scale Pokémon",
+  "color": "gray",
+  "gen": "generation-vii"
+ },
+ "778": {
+  "en": "Mimikyu",
+  "ja": "ミミッキュ",
+  "romaji": null,
+  "genus": "Disguise Pokémon",
+  "color": "yellow",
+  "gen": "generation-vii"
+ },
+ "779": {
+  "en": "Bruxish",
+  "ja": "ハギギシリ",
+  "romaji": null,
+  "genus": "Gnash Teeth Pokémon",
+  "color": "pink",
+  "gen": "generation-vii"
+ },
+ "781": {
+  "en": "Dhelmise",
+  "ja": "ダダリン",
+  "romaji": null,
+  "genus": "Sea Creeper Pokémon",
+  "color": "green",
+  "gen": "generation-vii"
+ },
+ "813": {
+  "en": "Scorbunny",
+  "ja": "ヒバニー",
+  "romaji": null,
+  "genus": "Rabbit Pokémon",
+  "color": "white",
+  "gen": "generation-viii"
+ },
+ "814": {
+  "en": "Raboot",
+  "ja": "ラビフット",
+  "romaji": null,
+  "genus": "Rabbit Pokémon",
+  "color": "gray",
+  "gen": "generation-viii"
+ },
+ "815": {
+  "en": "Cinderace",
+  "ja": "エースバーン",
+  "romaji": null,
+  "genus": "Striker Pokémon",
+  "color": "white",
+  "gen": "generation-viii"
+ },
+ "819": {
+  "en": "Skwovet",
+  "ja": "ホシガリス",
+  "romaji": null,
+  "genus": "Cheeky Pokémon",
+  "color": "brown",
+  "gen": "generation-viii"
+ },
+ "820": {
+  "en": "Greedent",
+  "ja": "ヨクバリス",
+  "romaji": null,
+  "genus": "Greedy Pokémon",
+  "color": "brown",
+  "gen": "generation-viii"
+ },
+ "821": {
+  "en": "Rookidee",
+  "ja": "ココガラ",
+  "romaji": null,
+  "genus": "Tiny Bird Pokémon",
+  "color": "blue",
+  "gen": "generation-viii"
+ },
+ "822": {
+  "en": "Corvisquire",
+  "ja": "アオガラス",
+  "romaji": null,
+  "genus": "Raven Pokémon",
+  "color": "blue",
+  "gen": "generation-viii"
+ },
+ "823": {
+  "en": "Corviknight",
+  "ja": "アーマーガア",
+  "romaji": null,
+  "genus": "Raven Pokémon",
+  "color": "purple",
+  "gen": "generation-viii"
+ },
+ "833": {
+  "en": "Chewtle",
+  "ja": "カムカメ",
+  "romaji": null,
+  "genus": "Snapping Pokémon",
+  "color": "green",
+  "gen": "generation-viii"
+ },
+ "834": {
+  "en": "Drednaw",
+  "ja": "カジリガメ",
+  "romaji": null,
+  "genus": "Bite Pokémon",
+  "color": "green",
+  "gen": "generation-viii"
+ },
+ "837": {
+  "en": "Rolycoly",
+  "ja": "タンドン",
+  "romaji": null,
+  "genus": "Coal Pokémon",
+  "color": "black",
+  "gen": "generation-viii"
+ },
+ "838": {
+  "en": "Carkol",
+  "ja": "トロッゴン",
+  "romaji": null,
+  "genus": "Coal Pokémon",
+  "color": "black",
+  "gen": "generation-viii"
+ },
+ "839": {
+  "en": "Coalossal",
+  "ja": "セキタンザン",
+  "romaji": null,
+  "genus": "Coal Pokémon",
+  "color": "black",
+  "gen": "generation-viii"
+ },
+ "845": {
+  "en": "Cramorant",
+  "ja": "ウッウ",
+  "romaji": null,
+  "genus": "Gulp Pokémon",
+  "color": "blue",
+  "gen": "generation-viii"
+ },
+ "848": {
+  "en": "Toxel",
+  "ja": "エレズン",
+  "romaji": null,
+  "genus": "Baby Pokémon",
+  "color": "purple",
+  "gen": "generation-viii"
+ },
+ "849": {
+  "en": "Toxtricity",
+  "ja": "ストリンダー",
+  "romaji": null,
+  "genus": "Punk Pokémon",
+  "color": "purple",
+  "gen": "generation-viii"
+ },
+ "871": {
+  "en": "Pincurchin",
+  "ja": "バチンウニ",
+  "romaji": null,
+  "genus": "Sea Urchin Pokémon",
+  "color": "purple",
+  "gen": "generation-viii"
+ },
+ "885": {
+  "en": "Dreepy",
+  "ja": "ドラメシヤ",
+  "romaji": null,
+  "genus": "Lingering Pokémon",
+  "color": "green",
+  "gen": "generation-viii"
+ },
+ "886": {
+  "en": "Drakloak",
+  "ja": "ドロンチ",
+  "romaji": null,
+  "genus": "Caretaker Pokémon",
+  "color": "green",
+  "gen": "generation-viii"
+ },
+ "887": {
+  "en": "Dragapult",
+  "ja": "ドラパルト",
+  "romaji": null,
+  "genus": "Stealth Pokémon",
+  "color": "green",
+  "gen": "generation-viii"
+ },
+ "906": {
+  "en": "Sprigatito",
+  "ja": "ニャオハ",
+  "romaji": null,
+  "genus": "Grass Cat Pokémon",
+  "color": "green",
+  "gen": "generation-ix"
+ },
+ "907": {
+  "en": "Floragato",
+  "ja": "ニャローテ",
+  "romaji": null,
+  "genus": "Grass Cat Pokémon",
+  "color": "green",
+  "gen": "generation-ix"
+ },
+ "908": {
+  "en": "Meowscarada",
+  "ja": "マスカーニャ",
+  "romaji": null,
+  "genus": "Magician Pokémon",
+  "color": "green",
+  "gen": "generation-ix"
+ },
+ "921": {
+  "en": "Pawmi",
+  "ja": "パモ",
+  "romaji": null,
+  "genus": "Mouse Pokémon",
+  "color": "yellow",
+  "gen": "generation-ix"
+ },
+ "922": {
+  "en": "Pawmo",
+  "ja": "パモット",
+  "romaji": null,
+  "genus": "Mouse Pokémon",
+  "color": "yellow",
+  "gen": "generation-ix"
+ },
+ "923": {
+  "en": "Pawmot",
+  "ja": "パーモット",
+  "romaji": null,
+  "genus": "Hands-On Pokémon",
+  "color": "yellow",
+  "gen": "generation-ix"
+ },
+ "926": {
+  "en": "Fidough",
+  "ja": "パピモッチ",
+  "romaji": null,
+  "genus": "Puppy Pokémon",
+  "color": "yellow",
+  "gen": "generation-ix"
+ },
+ "927": {
+  "en": "Dachsbun",
+  "ja": "バウッツェル",
+  "romaji": null,
+  "genus": "Dog Pokémon",
+  "color": "brown",
+  "gen": "generation-ix"
+ },
+ "935": {
+  "en": "Charcadet",
+  "ja": "カルボウ",
+  "romaji": null,
+  "genus": "Fire Child Pokémon",
+  "color": "red",
+  "gen": "generation-ix"
+ },
+ "936": {
+  "en": "Armarouge",
+  "ja": "グレンアルマ",
+  "romaji": null,
+  "genus": "Fire Warrior Pokémon",
+  "color": "red",
+  "gen": "generation-ix"
+ },
+ "937": {
+  "en": "Ceruledge",
+  "ja": "ソウブレイズ",
+  "romaji": null,
+  "genus": "Fire Blades Pokémon",
+  "color": "blue",
+  "gen": "generation-ix"
+ },
+ "940": {
+  "en": "Wattrel",
+  "ja": "カイデン",
+  "romaji": null,
+  "genus": "Storm Petrel Pokémon",
+  "color": "black",
+  "gen": "generation-ix"
+ },
+ "941": {
+  "en": "Kilowattrel",
+  "ja": "タイカイデン",
+  "romaji": null,
+  "genus": "Frigatebird Pokémon",
+  "color": "yellow",
+  "gen": "generation-ix"
+ },
+ "957": {
+  "en": "Tinkatink",
+  "ja": "カヌチャン",
+  "romaji": null,
+  "genus": "Metalsmith Pokémon",
+  "color": "pink",
+  "gen": "generation-ix"
+ },
+ "958": {
+  "en": "Tinkatuff",
+  "ja": "ナカヌチャン",
+  "romaji": null,
+  "genus": "Hammer Pokémon",
+  "color": "pink",
+  "gen": "generation-ix"
+ },
+ "959": {
+  "en": "Tinkaton",
+  "ja": "デカヌチャン",
+  "romaji": null,
+  "genus": "Hammer Pokémon",
+  "color": "pink",
+  "gen": "generation-ix"
+ },
+ "960": {
+  "en": "Wiglett",
+  "ja": "ウミディグダ",
+  "romaji": null,
+  "genus": "Garden Eel Pokémon",
+  "color": "white",
+  "gen": "generation-ix"
+ },
+ "961": {
+  "en": "Wugtrio",
+  "ja": "ウミトリオ",
+  "romaji": null,
+  "genus": "Garden Eel Pokémon",
+  "color": "red",
+  "gen": "generation-ix"
+ },
+ "969": {
+  "en": "Glimmet",
+  "ja": "キラーメ",
+  "romaji": null,
+  "genus": "Ore Pokémon",
+  "color": "blue",
+  "gen": "generation-ix"
+ },
+ "970": {
+  "en": "Glimmora",
+  "ja": "キラフロル",
+  "romaji": null,
+  "genus": "Ore Pokémon",
+  "color": "blue",
+  "gen": "generation-ix"
+ },
+ "976": {
+  "en": "Veluza",
+  "ja": "ミガルーサ",
+  "romaji": null,
+  "genus": "Jettison Pokémon",
+  "color": "gray",
+  "gen": "generation-ix"
+ },
+ "978": {
+  "en": "Tatsugiri",
+  "ja": "シャリタツ",
+  "romaji": null,
+  "genus": "Mimicry Pokémon",
+  "color": "pink",
+  "gen": "generation-ix"
+ },
+ "980": {
+  "en": "Clodsire",
+  "ja": "ドオー",
+  "romaji": null,
+  "genus": "Spiny Fish Pokémon",
+  "color": "brown",
+  "gen": "generation-ix"
+ },
+ "981": {
+  "en": "Farigiraf",
+  "ja": "リキキリン",
+  "romaji": null,
+  "genus": "Long Neck Pokémon",
+  "color": "brown",
+  "gen": "generation-ix"
+ },
+ "999": {
+  "en": "Gimmighoul",
+  "ja": "コレクレー",
+  "romaji": null,
+  "genus": "Coin Chest Pokémon",
+  "color": "brown",
+  "gen": "generation-ix"
+ },
+ "1000": {
+  "en": "Gholdengo",
+  "ja": "サーフゴー",
+  "romaji": null,
+  "genus": "Coin Entity Pokémon",
+  "color": "yellow",
+  "gen": "generation-ix"
+ }
+}

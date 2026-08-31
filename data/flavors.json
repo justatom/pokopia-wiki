@@ -1,0 +1,282 @@
+[
+ {
+  "flavor": "none",
+  "name": "Leppa Berry",
+  "desc": "A berry with a rather unremarkable flavor. Restores some PP when eaten."
+ },
+ {
+  "flavor": "none",
+  "name": "Lum Berry",
+  "desc": "A berry that has a well-balanced flavor. Restores some PP when eaten."
+ },
+ {
+  "flavor": "none",
+  "name": "Simple salad",
+  "desc": "An ordinary salad made with leaves. Powers up Leafage when eaten."
+ },
+ {
+  "flavor": "none",
+  "name": "Simple soup",
+  "desc": "An ordinary soup made with Fresh Water. Powers up Water Gun when eaten."
+ },
+ {
+  "flavor": "none",
+  "name": "Simple bread",
+  "desc": "Ordinary wheat bread. Powers up Cut when eaten."
+ },
+ {
+  "flavor": "none",
+  "name": "Simple hamburger steak",
+  "desc": "An ordinary hamburger steak, made with beans. Powers up Rock Smash when eaten."
+ },
+ {
+  "flavor": "none",
+  "name": "Vibrant hamburger steak",
+  "desc": "A hamburger steak made with lots of ingredients. Powers up Rock Smash a lot when eaten"
+ },
+ {
+  "flavor": "none",
+  "name": "Fresh Water",
+  "desc": "Delicious water that's perfect for making soup. Drink some and spit it out to make things wet."
+ },
+ {
+  "flavor": "none",
+  "name": "Bruised berry",
+  "desc": "A bruised berry you got from Chef Dente. Restores a bit of PP when eaten"
+ },
+ {
+  "flavor": "none",
+  "name": "Curry and rice",
+  "desc": "An absolutely essential meal for any party. Enjoy some tasty food alongside other Pokémon!"
+ },
+ {
+  "flavor": "bitter",
+  "name": "Rawst Berry",
+  "desc": "The longer and more curled the leaves are, the more bitter this berry tastes. Restores some PP when eaten"
+ },
+ {
+  "flavor": "bitter",
+  "name": "Potato",
+  "desc": "A delicious potato-even with the skin still on! Restores some PP when eaten"
+ },
+ {
+  "flavor": "bitter",
+  "name": "Seaweed",
+  "desc": "Seaweed that has washed ashore. Restores some PP when eaten"
+ },
+ {
+  "flavor": "bitter",
+  "name": "Seaweed salad",
+  "desc": "A bitter-tasting salad made with seaweed. Powers up Leafage when eaten."
+ },
+ {
+  "flavor": "bitter",
+  "name": "Seaweed soup",
+  "desc": "A bitter-tasting soup made with seaweed.. Powers up Water Gun when eaten."
+ },
+ {
+  "flavor": "bitter",
+  "name": "Recycled bread",
+  "desc": "Bitter-tasting bread made by reusing other bread. Powers up Cut when eaten"
+ },
+ {
+  "flavor": "bitter",
+  "name": "Bitter hamburger steak",
+  "desc": "A bitter-tasting hamberuger steak topped with leaves. Powers up Rock Smash when eaten"
+ },
+ {
+  "flavor": "bitter",
+  "name": "Sea grapes",
+  "desc": "A type of faintly bitter sewaeed found in the ocean. Restores some PP when eaten."
+ },
+ {
+  "flavor": "bitter",
+  "name": "Popping salad",
+  "desc": "A bitter salad made with plenty of sea grapes. Powers up Leafage when eaten"
+ },
+ {
+  "flavor": "bitter",
+  "name": "Popping soup",
+  "desc": "A bitter soup that smells of the sea. Powers up Water Gun when eaten"
+ },
+ {
+  "flavor": "bitter",
+  "name": "Coffee parfait smoothie",
+  "desc": "A bitter smoothie with a rich depth of flavor. Drink one to power up Surf."
+ },
+ {
+  "flavor": "dry",
+  "name": "Chesto Berry",
+  "desc": "A rock-hard berry with a dry flavor. Restores some PP when eaten"
+ },
+ {
+  "flavor": "dry",
+  "name": "Wheat",
+  "desc": "They're actually edible raw! Restores some PP when eaten."
+ },
+ {
+  "flavor": "dry",
+  "name": "Cave mushrooms",
+  "desc": "Mushrooms that grow in damp places such as caves or under shady trees. Restores some PP when eaten"
+ },
+ {
+  "flavor": "dry",
+  "name": "Crushed-berry salad",
+  "desc": "A salad with a dry flavor, made with crushed Chesto Berries. Powers up Leafage when eaten."
+ },
+ {
+  "flavor": "dry",
+  "name": "Mushroom soup",
+  "desc": "A soup with a dry flavor made with mushroom broth.. Powers up Water Gun when eaten."
+ },
+ {
+  "flavor": "dry",
+  "name": "Mushroom hamburger steak",
+  "desc": "A hamburger steak with an intensely dry, mushroomy flavor. Powers up Rock Smash when eaten."
+ },
+ {
+  "flavor": "dry",
+  "name": "Roserade Tea",
+  "desc": "Tea with a delicate, elegant aroma. If you take a sip and spit it out, it becomes a hot spring!"
+ },
+ {
+  "flavor": "dry",
+  "name": "Sea grape smoothie",
+  "desc": "A dry-tasting smoothie with a springy, popping texture. Drink one to power up Surf."
+ },
+ {
+  "flavor": "sour",
+  "name": "Aspear Berry",
+  "desc": "This berry has a distinctively sharp sour taste. Restores some PP when eaten."
+ },
+ {
+  "flavor": "sour",
+  "name": "Tomato",
+  "desc": "A round, tasty-looking tomato. Restores some PP when eaten"
+ },
+ {
+  "flavor": "sour",
+  "name": "Shredded salad",
+  "desc": "A sour salad made with finely chopped leaves. Powers up Leafage when eaten."
+ },
+ {
+  "flavor": "sour",
+  "name": "Flavorful soup",
+  "desc": "A sour soup bursting with flavor. Powers up Water Gun when eaten."
+ },
+ {
+  "flavor": "sour",
+  "name": "Leppa bread",
+  "desc": "Sour-tasting bread made with Leppa Berry jam.. Powers up Cut when eaten."
+ },
+ {
+  "flavor": "sour",
+  "name": "Tomato hamburger steak",
+  "desc": "A hamburger steak that brings out the sour flavor of its ingredients.. Powers up Rock Smash when eaten."
+ },
+ {
+  "flavor": "sour",
+  "name": "Soda Pop",
+  "desc": "Fizzy, sparkling soda. If you take a sip and spit it out, it becomes seawater"
+ },
+ {
+  "flavor": "sour",
+  "name": "Refreshing soda smoothie",
+  "desc": "A sour, highly carbonated smoothie. Drink one to power up Surf."
+ },
+ {
+  "flavor": "spicy",
+  "name": "Fresh carrot",
+  "desc": "You can harvest these spicy carrots by pulling up on their leaves. Restores some PP when eaten."
+ },
+ {
+  "flavor": "spicy",
+  "name": "Crouton salad",
+  "desc": "A spicy salad with a delightfully crunchy texture. Powers up Leafage when eaten."
+ },
+ {
+  "flavor": "spicy",
+  "name": "Electrifying soup",
+  "desc": "A shockingly spicy soup.. Powers up Water Gun when eaten."
+ },
+ {
+  "flavor": "spicy",
+  "name": "Healthy soup",
+  "desc": "A spicy soup with an aromatic bean flavor.. Powers up Water Gun when eaten."
+ },
+ {
+  "flavor": "spicy",
+  "name": "Carrot bread",
+  "desc": "Spicy bread with an intense carrot flavor. Powers up Cut when eaten."
+ },
+ {
+  "flavor": "spicy",
+  "name": "Bread bowl",
+  "desc": "Spicy bread that's delicious even when burnt. Powers up Cut when eaten."
+ },
+ {
+  "flavor": "spicy",
+  "name": "Chili sauce",
+  "desc": "Sauce with an enticingly spicy flavor. If you take a sip and spit it out, it becomes lava!"
+ },
+ {
+  "flavor": "spicy",
+  "name": "Explosive hamburger steak",
+  "desc": "A hamburger steak so spicy you'll leap out of your seat. Powers up Rock Smash a lot when eaten!"
+ },
+ {
+  "flavor": "spicy",
+  "name": "Red-hot smoothie",
+  "desc": "A smoothie so spicy it nearly burns your tongue. Drink one to power up Surf."
+ },
+ {
+  "flavor": "sweet",
+  "name": "Pecha Berry",
+  "desc": "A sweet, delicious berry. Restores some PP when eaten."
+ },
+ {
+  "flavor": "sweet",
+  "name": "Bean",
+  "desc": "Small beans that are jam-packed with nutrients. Restores some PP when eaten"
+ },
+ {
+  "flavor": "sweet",
+  "name": "Leppa salad",
+  "desc": "A sweet salad made with Leppa Berries. Powers up Leafage when eaten."
+ },
+ {
+  "flavor": "sweet",
+  "name": "Fluffy bread",
+  "desc": "Sweet bread made with Pecha Berries. Powers up cut when eaten."
+ },
+ {
+  "flavor": "sweet",
+  "name": "Potato hamburger steak",
+  "desc": "A satisfyingly sweet hamburger steak. Powers up Rock Smash a lot when eaten."
+ },
+ {
+  "flavor": "sweet",
+  "name": "Moomoo Milk Coffee",
+  "desc": "Milky coffee with a comfortingly sweet taste. If you take a sip and spit it out, it becomes muddy water!"
+ },
+ {
+  "flavor": "sweet",
+  "name": "Watermelon slice",
+  "desc": "A sweet slice of watermelon. Restores some PP when eaten"
+ },
+ {
+  "flavor": "sweet",
+  "name": "Watermelon smoothie",
+  "desc": "A smoothie made with watermelon. Drink one to power up Surf."
+ },
+ {
+  "flavor": "sweet",
+  "name": "Watermelon bread",
+  "desc": "Sweet bread made with watermelon. Powers up Cut when eaten"
+ },
+ {
+  "flavor": "sweet",
+  "name": "Leppa smoothie",
+  "desc": "A sweet smoothie made with Leppa Berries. Drink one to power up Surf"
+ }
+]

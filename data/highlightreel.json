@@ -1,0 +1,422 @@
+[
+ {
+  "name": "Toasty Warm by the Campfire",
+  "pokemon": "Any",
+  "items": [
+   "Campfire"
+  ],
+  "time": "",
+  "reward": "Fire Spin Photo Frame"
+ },
+ {
+  "name": "A Gust of Wind to Get It Spinning",
+  "pokemon": "Flying-type Pokémon",
+  "items": [
+   "Pinwheels"
+  ],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "Punching Past the Sound Barrier",
+  "pokemon": "Hitmonchan",
+  "items": [
+   "Punching Bag"
+  ],
+  "time": "",
+  "reward": "Impact Photo Frame"
+ },
+ {
+  "name": "Spacious Slumber Party",
+  "pokemon": "Any 2 Pokémon",
+  "items": [
+   "Bed (any large)"
+  ],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "Greetings from Beyond the Grave",
+  "pokemon": "Any Ghost-type Pokémon",
+  "items": [
+   "Gravestone"
+  ],
+  "time": "Night",
+  "reward": "Mysterious Photo Frame"
+ },
+ {
+  "name": "Drawn to the Light",
+  "pokemon": "Venomoth",
+  "items": [
+   "Streetlight (Any - Needs to be lit)"
+  ],
+  "time": "Night",
+  "reward": "Neon Photo Frame"
+ },
+ {
+  "name": "A Graceful Dance Among Flowers",
+  "pokemon": "Bellossom",
+  "items": [
+   "Wildflowers"
+  ],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "Fun in the Sand",
+  "pokemon": "Any",
+  "items": [
+   "Sandbox"
+  ],
+  "time": "",
+  "reward": "Dusty Cloud Photo Frame"
+ },
+ {
+  "name": "Found Some Delicious... Trash?",
+  "pokemon": "Trubbish",
+  "items": [
+   "Garbage Can"
+  ],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "Nothing Like a Quick Dip!",
+  "pokemon": "Any",
+  "items": [
+   "Shower"
+  ],
+  "time": "",
+  "reward": "Bubbles Photo Frame"
+ },
+ {
+  "name": "Stacking Blocks, Psychic Style",
+  "pokemon": "Any Psychic-type Pokémon",
+  "items": [
+   "Toy Blocks"
+  ],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "Battin' Around the Old Yarn",
+  "pokemon": "Cat Pokémon",
+  "items": [
+   "Knitting Supplies"
+  ],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "A Cool, Gentle Breeze",
+  "pokemon": "Any Pokémon",
+  "items": [
+   "Fan"
+  ],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "Anything for a Headache in Here?",
+  "pokemon": "Psyduck",
+  "items": [
+   "First aid kit"
+  ],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "Looking Pretty Swole",
+  "pokemon": "Machoke or Machamp",
+  "items": [
+   "Large mirror"
+  ],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "Roost and Rest",
+  "pokemon": "Any Flying-type Pokémon",
+  "items": [
+   "Perch"
+  ],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "This is the Life",
+  "pokemon": "Any Non-Fire, Rock or Ground-type Pokémon",
+  "items": [
+   "Hot-Spring Water"
+  ],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "Just Chillin'",
+  "pokemon": "Any Ice-type Pokémon",
+  "items": [
+   "Icy Rock"
+  ],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "Dance Around the Bonfire!",
+  "pokemon": "Pokémon with the Hype Specialty",
+  "items": [
+   "Bonfire"
+  ],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "Let's Get Some Paint On This Canvas",
+  "pokemon": "Smearguru",
+  "items": [
+   "Blank canvas"
+  ],
+  "time": "",
+  "reward": "Paint Photo Frame"
+ },
+ {
+  "name": "I Can See Your Future",
+  "pokemon": "Abra, Kadabra or Alakazam",
+  "items": [
+   "Crystal ball"
+  ],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "Sweet Dreams with a Mossy Pillow",
+  "pokemon": "Larvitar",
+  "items": [
+   "Mossy Boulder"
+  ],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "It Just Needs a Good Smack, and-Oops!",
+  "pokemon": "Professor Tangrowth",
+  "items": [
+   "Computer"
+  ],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "Open it Up, and-Boo!",
+  "pokemon": "Any Pokémon",
+  "items": [
+   "Boo-in-the Box"
+  ],
+  "time": "",
+  "reward": "Keep Out Photo Frame"
+ },
+ {
+  "name": "Crazy for Coins",
+  "pokemon": "Gimmighoul",
+  "items": [
+   "Munna bank"
+  ],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "Like Clockwork",
+  "pokemon": "Rowlet",
+  "items": [
+   "Rowlet clock"
+  ],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "Funky Fume Diffusion",
+  "pokemon": "Koffing or Weezing",
+  "items": [
+   "Funky Diffuser"
+  ],
+  "time": "",
+  "reward": "Photo Frame"
+ },
+ {
+  "name": "Martial Arts Training Montage",
+  "pokemon": "Hitmonchan & Hitmonlee",
+  "items": [],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "Squishy Cheeks and Paws",
+  "pokemon": "Peakychu & Pawmi",
+  "items": [],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "The Skyland Specialists",
+  "pokemon": "Tinkmaster & Conkeldurr",
+  "items": [],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "Creepy Catapult Time",
+  "pokemon": "Dragapult & Any",
+  "items": [],
+  "time": "",
+  "reward": "Draco Meteor Photo Frame"
+ },
+ {
+  "name": "Psychic Siblings!",
+  "pokemon": "Gardevoir & Gallade",
+  "items": [],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "Eevee's Friends",
+  "pokemon": "Eevee and 1 of its evolutions",
+  "items": [],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "It's Like Looking in a Mirror!",
+  "pokemon": "Pikachu & Mimikyu",
+  "items": [],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "Some Shared Genes",
+  "pokemon": "Mew & Mewtwo",
+  "items": [],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "Brought Together by a Sweet Scent",
+  "pokemon": "Volbeat & Illumise",
+  "items": [],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "No, My Horns Are Better!",
+  "pokemon": "Pinsir & Heracross",
+  "items": [],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "A Plus-and-Minus Cheering Squad!",
+  "pokemon": "Plusle & Minun",
+  "items": [],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "Donning Different Armor",
+  "pokemon": "Armarouge & Ceruledge",
+  "items": [],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "Step Right Up, Step Right Up!",
+  "pokemon": "Pokémon with the Trade Specialty",
+  "items": [
+   "Cash Register"
+  ],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "A Hypnotising Lullaby",
+  "pokemon": "Jigglypuff",
+  "items": [
+   "CD Player"
+  ],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "A Cook's Gotta Eat Too!",
+  "pokemon": "Chef Dente",
+  "items": [
+   "Cooked food"
+  ],
+  "time": "",
+  "reward": "Cooking Photo Frame"
+ },
+ {
+  "name": "A Head Full of Blooming Flowers",
+  "pokemon": "Mosslax & Peakychu",
+  "items": [
+   "Charging Station"
+  ],
+  "time": "",
+  "reward": "BAM! Photo Frame"
+ },
+ {
+  "name": "DJ Droppin'the Beats!",
+  "pokemon": "DJ Rotom",
+  "items": [
+   "CD"
+  ],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "A Closed Mouth Catches No Z's",
+  "pokemon": "Any Pokémon",
+  "items": [
+   "Submarine kit (Built)"
+  ],
+  "time": "",
+  "reward": "Sunlight Photo Frame"
+ },
+ {
+  "name": "Statuesque Songstress Set",
+  "pokemon": "Primarina",
+  "items": [
+   "Primarina statue"
+  ],
+  "time": "",
+  "reward": "Romantic Photo Frame"
+ },
+ {
+  "name": "Squidding Image",
+  "pokemon": "Inkay",
+  "items": [
+   "Wind-up Inkay"
+  ],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "Noth-ink to Sneeze At",
+  "pokemon": "Horsea & another Pokémon",
+  "items": [],
+  "time": "",
+  "reward": "Comic Photo Frame"
+ },
+ {
+  "name": "Coral Me Pink",
+  "pokemon": "Corsola & Mareanie/Toxapex",
+  "items": [],
+  "time": "",
+  "reward": ""
+ },
+ {
+  "name": "Similar Seafarers",
+  "pokemon": "Phione & Manaphy",
+  "items": [],
+  "time": "",
+  "reward": ""
+ }
+]
