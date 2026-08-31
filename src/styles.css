@@ -329,6 +329,9 @@ td .fav-items { gap: 4px; }
 .move-ico { width: 52px; height: 52px; object-fit: contain; flex: none; border-radius: 12px; background: var(--paper-2); }
 .move-ico-blank { display: grid; place-items: center; color: var(--muted); }
 .move-ico-blank svg { width: 24px; height: 24px; }
+.move-ico-mon { display: grid; place-items: center; padding: 2px; }
+.move-ico-mon img { width: 46px; height: 46px; object-fit: contain; }
+.move-ico-mon:hover { background: var(--moss-soft); }
 .move-unlock { display: flex; align-items: flex-start; gap: 6px; font-size: .8rem; color: var(--muted); margin: 10px 0 0; }
 .move-unlock svg { width: 15px; height: 15px; flex: none; margin-top: 2px; }
 .move-unlock a { color: var(--moss); font-weight: 600; }

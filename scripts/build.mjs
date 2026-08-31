@@ -539,19 +539,27 @@ ${listPage({ lang, rows, cats })}`;
 const MOVE_PICS = picsIn('moves');
 const movePic = img => img && MOVE_PICS.has(img) ? `${BASE}/sprites/moves/${encodeURIComponent(img)}` : null;
 
-/** "Befriend Scyther" / "ผูกมิตรกับไซเธอร์" — link whichever Pokémon the line names.
+/** which Pokémon an unlock line names, and where in the escaped string it sits.
     Thai has no word boundaries, so the Thai reading is matched as a plain substring. */
-function linkMons(text, lang) {
+function unlockMon(text, lang) {
   const out = esc(text);
   for (const p of MON_BY_NAME_DESC) {
-    const label = lang === 'th' ? (monNames(p).thEn || p.name) : p.name;
-    const at = out.indexOf(esc(label));
+    const label = esc(lang === 'th' ? (monNames(p).thEn || p.name) : p.name);
+    const at = out.indexOf(label);
     if (at < 0) continue;
     // in English insist on a word boundary, so "Wooper" does not match inside another name
     if (lang !== 'th' && /[A-Za-z]/.test(out.charAt(at + label.length))) continue;
-    return out.slice(0, at) + `<a href="${monUrl(lang, p)}">${esc(label)}</a>` + out.slice(at + esc(label).length);
+    return { mon: p, at, label };
   }
-  return out;
+  return null;
+}
+
+/** "Befriend Scyther" / "ผูกมิตรกับไซเธอร์" — link whichever Pokémon the line names */
+function linkMons(text, lang) {
+  const out = esc(text), hit = unlockMon(text, lang);
+  return hit
+    ? out.slice(0, hit.at) + `<a href="${monUrl(lang, hit.mon)}">${hit.label}</a>` + out.slice(hit.at + hit.label.length)
+    : out;
 }
 
 function movesPage(lang) {
@@ -565,14 +573,23 @@ function movesPage(lang) {
       ? 'ดิตโต้ไม่ต่อสู้ — ท่าทุกท่าในเกมนี้คือเครื่องมือปรับภูมิประเทศที่ยืมมาจากโปเกมอนที่คุณผูกมิตรด้วย เรียนแล้วติดตัวถาวรและสลับใช้ได้ตลอด'
       : 'Ditto never battles. Every move here is a terraforming tool borrowed from a Pokémon you befriended — learned permanently, switchable at any time.'}</p>
   ${groups.map(([grp, label]) => `
-  <div class="sec-title"><h2>${esc(label)}</h2></div>
+  <div class="sec-title"><h2>${esc(label)}</h2><span>${moves.filter(m => m.group === grp).length}</span></div>
+  ${grp === 'Secondary' ? `<p class="note">${th
+        ? 'ท่ารองไม่มีไอคอนของตัวเองในเกม รูปที่เห็นจึงเป็นสไปรท์ของโปเกมอนที่ยืมท่ามา กดที่รูปเพื่อไปหน้าโปเกมอนตัวนั้นได้'
+        : 'The secondary moves have no icon of their own, so each card shows the Pokémon the move is borrowed from instead — click it to open that Pokémon.'}</p>` : ''}
   <div class="grid g-3">${moves.filter(m => m.group === grp).map(m => {
         const boost = boostFor(m.name);
         return `<div class="card move-card" id="${m.id}">
       <div class="move-head">
-        ${movePic(m.img)
-            ? `<img class="move-ico" src="${movePic(m.img)}" alt="" loading="lazy" width="52" height="52" decoding="async">`
-            : `<div class="move-ico move-ico-blank">${icon('bolt')}</div>`}
+        ${(() => {
+            if (movePic(m.img)) return `<img class="move-ico" src="${movePic(m.img)}" alt="" loading="lazy" width="52" height="52" decoding="async">`;
+            // the five secondary moves have no icon upstream (Serebii 404s on them), so
+            // stand in the Pokémon the move is borrowed from — which is the same idea
+            const hit = unlockMon(m.unlock, 'en');
+            return hit
+              ? `<a class="move-ico move-ico-mon" href="${monUrl(lang, hit.mon)}" title="${esc(monTitle(hit.mon, lang))}"><img src="${sprite(hit.mon)}" alt="${esc(monTitle(hit.mon, lang))}" loading="lazy" width="52" height="52" decoding="async"></a>`
+              : `<div class="move-ico move-ico-blank">${icon('bolt')}</div>`;
+          })()}
         <h3>${esc(moveName(m, lang))}</h3>
       </div>
       <p style="font-size:.9rem;color:var(--ink-2);margin:10px 0 0">${esc(moveEffect(m, lang))}</p>
