@@ -125,17 +125,30 @@ const moves = [];
     if (r.length === 1) { const t = cell(r[0]); if (/^(Primary|Secondary) Moves$/.test(t)) group = t.split(' ')[0]; continue; }
     if (r.length !== 4) continue;
     const name = cell(r[1]); if (!name || name === 'Move') continue;
-    moves.push({ id: slug(name), name, group, effect: cell(r[2]), unlock: cell(r[3]) });
+    moves.push({
+      id: slug(name), name, group, effect: cell(r[2]), unlock: cell(r[3]),
+      img: ((r[0].i || [])[0] || '').replace(/^.*\//, '') || null,
+    });
   }
 }
 W('moves', moves);
-W('moveboosts', [
-  { meal: 'Salad', move: 'Leafage', effect: 'Hold to spread more grass; can grow Moss on rock and Duckweed on water' },
-  { meal: 'Bread', move: 'Cut', effect: 'Hold to widen the cut; can cut through tougher objects' },
-  { meal: 'Steak', move: 'Rock Smash', effect: 'Breaks rock faster; can break tougher rock' },
-  { meal: 'Soup', move: 'Water Gun', effect: 'Hold to release more water' },
-  { meal: 'Smoothie', move: 'Surf / Dive', effect: 'Move as a boosted Lapras — much faster in water, and Rock Smash works while diving' },
-]);
+/* Eating a meal powers up one move for a while, on its own PP meter. Serebii's table is
+   flattened into a single cell by the scraper, so read it back as "meal, move, then one or
+   two effect lines" — the meal names are the only fixed markers in it. */
+{
+  const MEALS = ['Salad', 'Bread', 'Steak', 'Soup', 'Smoothie'];
+  const flat = sec('abilities').rows.map(r => list(r[0]))
+    .find(t => t.includes('Meal') && MEALS.every(m => t.includes(m))) || [];
+  const boosts = [];
+  for (let i = 0; i < flat.length; i++) {
+    if (!MEALS.includes(flat[i]) || !flat[i + 1]) continue;
+    const effects = [];
+    for (let k = i + 2; k < flat.length && !MEALS.includes(flat[k]); k++) effects.push(flat[k]);
+    boosts.push({ meal: flat[i], move: flat[i + 1], effects });
+  }
+  if (boosts.length !== MEALS.length) console.log(`   ! expected ${MEALS.length} move boosts, found ${boosts.length}`);
+  W('moveboosts', boosts);
+}
 
 /* ---------- habitats ---------- */
 const habitats = [];

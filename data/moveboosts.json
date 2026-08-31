@@ -2,26 +2,40 @@
  {
   "meal": "Salad",
   "move": "Leafage",
-  "effect": "Hold to spread more grass; can grow Moss on rock and Duckweed on water"
+  "effects": [
+   "Hold down to increase amount of grass unleashed",
+   "Can create Moss on rocks and Duckweed on water"
+  ]
  },
  {
   "meal": "Bread",
   "move": "Cut",
-  "effect": "Hold to widen the cut; can cut through tougher objects"
+  "effects": [
+   "Hold down to increase the size of the cut",
+   "Can cut stronger items"
+  ]
  },
  {
   "meal": "Steak",
   "move": "Rock Smash",
-  "effect": "Breaks rock faster; can break tougher rock"
+  "effects": [
+   "Works quicker on rocks",
+   "Can break tougher rocks"
+  ]
  },
  {
   "meal": "Soup",
   "move": "Water Gun",
-  "effect": "Hold to release more water"
+  "effects": [
+   "Hold down to increase amount of water unleashed"
+  ]
  },
  {
   "meal": "Smoothie",
-  "move": "Surf / Dive",
-  "effect": "Move as a boosted Lapras — much faster in water, and Rock Smash works while diving"
+  "move": "Surf",
+  "effects": [
+   "Surf as Lapras underwater",
+   "Can break rocks while Lapras"
+  ]
  }
 ]

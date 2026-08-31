@@ -6,6 +6,7 @@
 //   items/     item icon per item id       downloaded  (~45 MB)
 //   habitats/  habitat-dex picture         downloaded  (~15 MB)
 //   outfits/   outfit thumbnail            downloaded
+//   moves/     Ditto's move icon           downloaded
 //
 // Everything is skip-if-present, so a re-run only fetches what is missing.
 import fs from 'node:fs';
@@ -87,6 +88,14 @@ const SB = { 'User-Agent': UA, Referer: `${SEREBII}/items.shtml` };
   const files = [...new Set(j('data/habitats.json').map(h => h.img).filter(Boolean))];
   await run('habitats', files.map(f =>
     () => grab(`${SEREBII}/habitatdex/th/${f}`, path.join(out, f), SB)), 4);
+}
+
+/* ---------- Ditto's move icons ---------- */
+{
+  const out = dir('src/sprites/moves');
+  const files = [...new Set(j('data/moves.json').map(m => m.img).filter(Boolean))];
+  await run('moves   ', files.map(f =>
+    () => grab(`${SEREBII}/ditto/${f}`, path.join(out, f), SB)), 4);
 }
 
 /* ---------- outfit thumbnails ---------- */

@@ -176,6 +176,8 @@ const rowIcon = (kind, pic) => pic
   : `<div class="row-ico">${icon(kind)}</div>`;
 
 const monById = new Map(pokemon.map(p => [p.id, p]));
+/* longest name first, so an unlock line saying "Paldean Wooper" is not matched as "Wooper" */
+const MON_BY_NAME_DESC = [...pokemon].sort((a, b) => b.name.length - a.name.length);
 
 const thAmb = (a, lang) => (lang === 'th' && THM.ambience[a]) || a;
 const thFav = (f, lang) => (lang === 'th' && THM.favorites[f]) || f;
@@ -532,9 +534,30 @@ ${listPage({ lang, rows, cats })}`;
   return layout({ lang, base: BASE, title: t.nav.furniture, desc: 'Pokopia furniture list', path: '/furniture/', body });
 }
 
+/* Ditto's move icons, downloaded alongside the other artwork. Only the ten primary moves
+   have one; the five secondary moves are icon-less upstream and fall back to a line icon. */
+const MOVE_PICS = picsIn('moves');
+const movePic = img => img && MOVE_PICS.has(img) ? `${BASE}/sprites/moves/${encodeURIComponent(img)}` : null;
+
+/** "Befriend Scyther" / "ผูกมิตรกับไซเธอร์" — link whichever Pokémon the line names.
+    Thai has no word boundaries, so the Thai reading is matched as a plain substring. */
+function linkMons(text, lang) {
+  const out = esc(text);
+  for (const p of MON_BY_NAME_DESC) {
+    const label = lang === 'th' ? (monNames(p).thEn || p.name) : p.name;
+    const at = out.indexOf(esc(label));
+    if (at < 0) continue;
+    // in English insist on a word boundary, so "Wooper" does not match inside another name
+    if (lang !== 'th' && /[A-Za-z]/.test(out.charAt(at + label.length))) continue;
+    return out.slice(0, at) + `<a href="${monUrl(lang, p)}">${esc(label)}</a>` + out.slice(at + esc(label).length);
+  }
+  return out;
+}
+
 function movesPage(lang) {
-  const t = T[lang];
-  const groups = [['Primary', lang === 'th' ? 'ท่าหลัก' : 'Primary moves'], ['Secondary', lang === 'th' ? 'ท่ารอง' : 'Secondary moves']];
+  const t = T[lang], th = lang === 'th';
+  const boostFor = name => moveboosts.find(b => b.move.toLowerCase() === String(name).toLowerCase());
+  const groups = [['Primary', th ? 'ท่าหลัก' : 'Primary moves'], ['Secondary', th ? 'ท่ารอง' : 'Secondary moves']];
   const body = `${crumb(lang, [[t.nav.moves]])}
 <div class="wrap stack">
   <h1>${esc(t.nav.moves)}</h1>
@@ -543,17 +566,37 @@ function movesPage(lang) {
       : 'Ditto never battles. Every move here is a terraforming tool borrowed from a Pokémon you befriended — learned permanently, switchable at any time.'}</p>
   ${groups.map(([grp, label]) => `
   <div class="sec-title"><h2>${esc(label)}</h2></div>
-  <div class="grid g-4">${moves.filter(m => m.group === grp).map(m => `
-    <div class="card" id="${m.id}">
-      <h3>${esc(moveName(m, lang))}</h3>
-      <p style="font-size:.9rem;color:var(--ink-2);margin:8px 0">${esc(moveEffect(m, lang))}</p>
-      <p style="font-size:.8rem;color:var(--muted);margin:0">${icon('sparkles')} ${esc(moveUnlock(m, lang))}</p>
-    </div>`).join('')}</div>`).join('')}
+  <div class="grid g-3">${moves.filter(m => m.group === grp).map(m => {
+        const boost = boostFor(m.name);
+        return `<div class="card move-card" id="${m.id}">
+      <div class="move-head">
+        ${movePic(m.img)
+            ? `<img class="move-ico" src="${movePic(m.img)}" alt="" loading="lazy" width="52" height="52" decoding="async">`
+            : `<div class="move-ico move-ico-blank">${icon('bolt')}</div>`}
+        <h3>${esc(moveName(m, lang))}</h3>
+      </div>
+      <p style="font-size:.9rem;color:var(--ink-2);margin:10px 0 0">${esc(moveEffect(m, lang))}</p>
+      <p class="move-unlock">${icon('sparkles')} <span>${linkMons(moveUnlock(m, lang), lang)}</span></p>
+      ${boost ? `<div class="move-boost">
+        <span class="tag tag-clay">${esc(thCookType(boost.meal, lang))}</span>
+        <span>${boost.effects.map(esc).join(' · ')}</span>
+      </div>` : ''}
+    </div>`;
+      }).join('')}</div>`).join('')}
 
-  <div class="sec-title"><h2>${lang === 'th' ? 'การอัปเกรดท่าด้วยอาหาร' : 'Powering up moves with food'}</h2></div>
+  <div class="sec-title"><h2>${th ? 'การอัปเกรดท่าด้วยอาหาร' : 'Powering up moves with food'}</h2><span>${moveboosts.length}</span></div>
+  <p class="note">${th
+      ? 'หลังไปถึง Rocky Ridges และเจอเชฟเดนเต้ คุณจะทำอาหารได้ กินแล้วท่าที่ตรงกันจะแรงขึ้นชั่วคราว โดยใช้มิเตอร์ PP แยกจากของเดิม เลือกได้ว่าจะใช้ท่าปกติหรือท่าที่บัฟไว้'
+      : 'Once you reach Rocky Ridges and meet Chef Dente you can cook. Eating a meal powers up its move for a while on a separate PP meter, so the boosted version runs alongside the ordinary one rather than replacing it.'}</p>
   <div class="table-scroll"><table>
-    <thead><tr><th>${lang === 'th' ? 'อาหาร' : 'Meal'}</th><th>${lang === 'th' ? 'ท่า' : 'Move'}</th><th>${lang === 'th' ? 'ผล' : 'Effect'}</th></tr></thead>
-    <tbody>${moveboosts.map(m => `<tr><td>${esc(m.meal)}</td><td><strong>${esc(m.move)}</strong></td><td>${esc(m.effect)}</td></tr>`).join('')}</tbody>
+    <thead><tr><th>${th ? 'อาหาร' : 'Meal'}</th><th>${th ? 'ท่า' : 'Move'}</th><th>${th ? 'ผลที่ได้' : 'What it adds'}</th></tr></thead>
+    <tbody>${moveboosts.map(b => {
+        const mv = moves.find(m => m.name.toLowerCase() === b.move.toLowerCase());
+        return `<tr>
+      <td><a class="tag tag-clay" href="${BASE}/${lang}/cooking/">${esc(thCookType(b.meal, lang))}</a></td>
+      <td><div class="cell-item">${mv && movePic(mv.img) ? `<img class="cell-ico" src="${movePic(mv.img)}" alt="" loading="lazy" width="32" height="32" decoding="async">` : ''}<div><strong>${mv ? `<a href="${BASE}/${lang}/moves/#${mv.id}">${esc(moveName(mv, lang))}</a>` : esc(b.move)}</strong></div></div></td>
+      <td>${b.effects.map(e => `<div>${esc(e)}</div>`).join('')}</td></tr>`;
+      }).join('')}</tbody>
   </table></div>
 </div>`;
   return layout({ lang, base: BASE, title: t.nav.moves, desc: 'Pokopia move list', path: '/moves/', body });

@@ -4,104 +4,119 @@
   "name": "Camouflage",
   "group": "Primary",
   "effect": "Turn into the object in front of you",
-  "unlock": "Befriend Zorua in Bleak Beach"
+  "unlock": "Befriend Zorua in Bleak Beach",
+  "img": "camouflage.png"
  },
  {
   "id": "cut",
   "name": "Cut",
   "group": "Primary",
   "effect": "Cuts down grass and trees",
-  "unlock": "Befriend Scyther"
+  "unlock": "Befriend Scyther",
+  "img": "cut.png"
  },
  {
   "id": "leafage",
   "name": "Leafage",
   "group": "Primary",
   "effect": "Creates grass on the ground",
-  "unlock": "Befriend Bulbasaur"
+  "unlock": "Befriend Bulbasaur",
+  "img": "leafage.png"
  },
  {
   "id": "glide",
   "name": "Glide",
   "group": "Primary",
   "effect": "Press R when in the air to glide quickly through the sky",
-  "unlock": "Befriend Dragonite in Sparkling Skylands"
+  "unlock": "Befriend Dragonite in Sparkling Skylands",
+  "img": "glide.png"
  },
  {
   "id": "magnet-rise",
   "name": "Magnet Rise",
   "group": "Primary",
   "effect": "Fly through the sky quickly. Adjust height with L / R. Use the Y button in front of an object to break it down",
-  "unlock": "Befriend Magnemite in post-game"
+  "unlock": "Befriend Magnemite in post-game",
+  "img": "magnetrise.png"
  },
  {
   "id": "rock-smash",
   "name": "Rock Smash",
   "group": "Primary",
   "effect": "Breaks the rocks in front of you",
-  "unlock": "Befriend Hitmonchan"
+  "unlock": "Befriend Hitmonchan",
+  "img": "rocksmash.png"
  },
  {
   "id": "rollout",
   "name": "Rollout",
   "group": "Primary",
   "effect": "Roll quickly forwards. Uses Rock Smash's meter when breaking rocks",
-  "unlock": "Befriend Graveler in Rocky Ridges"
+  "unlock": "Befriend Graveler in Rocky Ridges",
+  "img": "rollout.png"
  },
  {
   "id": "rototiller",
   "name": "Rototiller",
   "group": "Primary",
   "effect": "Tills soil to allow for the planting of seeds",
-  "unlock": "Befriend Drilbur"
+  "unlock": "Befriend Drilbur",
+  "img": "rototiller.png"
  },
  {
   "id": "surf",
   "name": "Surf",
   "group": "Primary",
   "effect": "Press B when in the water to surf through it",
-  "unlock": "Befriend Lapras in Bleak Beach"
+  "unlock": "Befriend Lapras in Bleak Beach",
+  "img": "surf.png"
  },
  {
   "id": "water-gun",
   "name": "Water Gun",
   "group": "Primary",
   "effect": "Press A to hydrate in a + shape",
-  "unlock": "Befriend Squirtle in Withered Wastelands"
+  "unlock": "Befriend Squirtle in Withered Wastelands",
+  "img": "watergun.png"
  },
  {
   "id": "splash",
   "name": "Splash",
   "group": "Secondary",
   "effect": "Press R to Jump",
-  "unlock": "Befriend Magikarp in Withered Wastelands"
+  "unlock": "Befriend Magikarp in Withered Wastelands",
+  "img": null
  },
  {
   "id": "strength",
   "name": "Strength",
   "group": "Secondary",
   "effect": "Press A to push objects",
-  "unlock": "Befriend Machoke in Rocky Ridges"
+  "unlock": "Befriend Machoke in Rocky Ridges",
+  "img": null
  },
  {
   "id": "stockpile-water",
   "name": "Stockpile Water",
   "group": "Secondary",
   "effect": "Press ZR while in water and sucking in with Y to move water around to create ponds and waterfalls",
-  "unlock": "Complete Piplup's request, and befriend Paldean Wooper"
+  "unlock": "Complete Piplup's request, and befriend Paldean Wooper",
+  "img": null
  },
  {
   "id": "waterfall",
   "name": "Waterfall",
   "group": "Secondary",
   "effect": "Press A at a Waterfall to climb to the top",
-  "unlock": "Befriend Gyarados in Sparkling Skylands"
+  "unlock": "Befriend Gyarados in Sparkling Skylands",
+  "img": null
  },
  {
   "id": "dive",
   "name": "Dive",
   "group": "Secondary",
   "effect": "Be able to swim underwater",
-  "unlock": "Help Manaphy in Bleak Beach"
+  "unlock": "Help Manaphy in Bleak Beach",
+  "img": null
  }
 ]

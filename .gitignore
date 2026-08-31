@@ -23,3 +23,6 @@ _research/bulba_spin_*.json
 
 # outfit thumbnails — re-downloaded by `npm run sprites`
 src/sprites/outfits/
+
+# Ditto move icons — re-downloaded by `npm run sprites`
+src/sprites/moves/
