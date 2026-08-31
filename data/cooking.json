@@ -3,6 +3,7 @@
   "type": "Salad",
   "name": "Simple salad",
   "desc": "An ordinary salad made with leaves. Powers up Leafage when eaten.",
+  "img": "simplesalad.png",
   "pp": "40",
   "main": "Leaf",
   "secondary": [],
@@ -12,6 +13,7 @@
   "type": "Salad",
   "name": "Leppa salad",
   "desc": "A sweet salad made with Leppa Berries. Powers up Leafage when eaten.",
+  "img": "leppasalad.png",
   "pp": "20",
   "main": "Leaf",
   "secondary": [
@@ -23,6 +25,7 @@
   "type": "Salad",
   "name": "Seaweed salad",
   "desc": "A bitter-tasting salad made with seaweed. Powers up Leafage when eaten.",
+  "img": "seaweedsalad.png",
   "pp": "60",
   "main": "Leaf",
   "secondary": [
@@ -34,6 +37,7 @@
   "type": "Salad",
   "name": "Shredded salad",
   "desc": "A sour salad made with finely chopped leaves. Powers up Leafage when eaten.",
+  "img": "shreddedsalad.png",
   "pp": "60",
   "main": "Leaf",
   "secondary": [],
@@ -43,6 +47,7 @@
   "type": "Salad",
   "name": "Crushed-berry salad",
   "desc": "A salad with a dry flavor, made with crushed Chesto Berries. Powers up Leafage when eaten.",
+  "img": "crushed-berrysalad.png",
   "pp": "80",
   "main": "Leaf",
   "secondary": [
@@ -54,6 +59,7 @@
   "type": "Salad",
   "name": "Crouton salad",
   "desc": "A spicy salad with a delightfully crunchy texture. Powers up Leafage when eaten.",
+  "img": "croutonsalad.png",
   "pp": "80",
   "main": "Leaf",
   "secondary": [
@@ -65,6 +71,7 @@
   "type": "Salad",
   "name": "Popping salad",
   "desc": "A bitter salad made with plenty of sea grapes. Powers up Leafage when eaten",
+  "img": "poppingsalad.png",
   "pp": "60",
   "main": "Leaf",
   "secondary": [
@@ -76,6 +83,7 @@
   "type": "Soup",
   "name": "Simple soup",
   "desc": "An ordinary soup made with Fresh Water. Powers up Water Gun when eaten.",
+  "img": "simplesoup.png",
   "pp": "40",
   "main": "Fresh Water",
   "secondary": [],
@@ -85,6 +93,7 @@
   "type": "Soup",
   "name": "Seaweed soup",
   "desc": "A bitter-tasting soup made with seaweed.. Powers up Water Gun when eaten.",
+  "img": "seaweedsoup.png",
   "pp": "20",
   "main": "Fresh Water",
   "secondary": [
@@ -96,6 +105,7 @@
   "type": "Soup",
   "name": "Mushroom soup",
   "desc": "A soup with a dry flavor made with mushroom broth.. Powers up Water Gun when eaten.",
+  "img": "mushroomsoup.png",
   "pp": "60",
   "main": "Fresh Water",
   "secondary": [
@@ -107,6 +117,7 @@
   "type": "Soup",
   "name": "Electrifying soup",
   "desc": "A shockingly spicy soup.. Powers up Water Gun when eaten.",
+  "img": "electrifyingsoup.png",
   "pp": "60",
   "main": "Fresh Water",
   "secondary": [],
@@ -116,6 +127,7 @@
   "type": "Soup",
   "name": "Healthy soup",
   "desc": "A spicy soup with an aromatic bean flavor.. Powers up Water Gun when eaten.",
+  "img": "healthysoup.png",
   "pp": "80",
   "main": "Fresh Water",
   "secondary": [
@@ -128,6 +140,7 @@
   "type": "Soup",
   "name": "Flavorful soup",
   "desc": "A sour soup bursting with flavor. Powers up Water Gun when eaten.",
+  "img": "flavorfulsoup.png",
   "pp": "80",
   "main": "Fresh Water",
   "secondary": [
@@ -140,6 +153,7 @@
   "type": "Soup",
   "name": "Popping soup",
   "desc": "A bitter soup that smells of the sea. Powers up Water Gun when eaten",
+  "img": "poppingsoup.png",
   "pp": "20",
   "main": "Fresh Water",
   "secondary": [
@@ -151,6 +165,7 @@
   "type": "Bread",
   "name": "Simple bread",
   "desc": "Ordinary wheat bread. Powers up Cut when eaten.",
+  "img": "simplebread.png",
   "pp": "60",
   "main": "Wheat",
   "secondary": [],
@@ -160,6 +175,7 @@
   "type": "Bread",
   "name": "Leppa bread",
   "desc": "Sour-tasting bread made with Leppa Berry jam.. Powers up Cut when eaten.",
+  "img": "leppabread.png",
   "pp": "20",
   "main": "Wheat",
   "secondary": [
@@ -171,6 +187,7 @@
   "type": "Bread",
   "name": "Carrot bread",
   "desc": "Spicy bread with an intense carrot flavor. Powers up Cut when eaten.",
+  "img": "carrotbread.png",
   "pp": "90",
   "main": "Wheat",
   "secondary": [
@@ -182,6 +199,7 @@
   "type": "Bread",
   "name": "Recycled bread",
   "desc": "Bitter-tasting bread made by reusing other bread. Powers up Cut when eaten",
+  "img": "recycledbread.png",
   "pp": "90",
   "main": "Wheat",
   "secondary": [
@@ -193,6 +211,7 @@
   "type": "Bread",
   "name": "Fluffy bread",
   "desc": "Sweet bread made with Pecha Berries. Powers up cut when eaten.",
+  "img": "fluffybread.png",
   "pp": "120",
   "main": "Wheat",
   "secondary": [
@@ -204,6 +223,7 @@
   "type": "Bread",
   "name": "Bread bowl",
   "desc": "Spicy bread that's delicious even when burnt. Powers up Cut when eaten.",
+  "img": "breadbowl.png",
   "pp": "120",
   "main": "Wheat",
   "secondary": [
@@ -215,6 +235,7 @@
   "type": "Bread",
   "name": "Watermelon bread",
   "desc": "Sweet bread made with watermelon. Powers up Cut when eaten",
+  "img": "watermelonbread.png",
   "pp": "90",
   "main": "Wheat",
   "secondary": [
@@ -226,6 +247,7 @@
   "type": "Steak",
   "name": "Simple hamburger steak",
   "desc": "An ordinary hamburger steak, made with beans. Powers up Rock Smash when eaten.",
+  "img": "simplehamburgersteak.png",
   "pp": "350",
   "main": "Bean",
   "secondary": [],
@@ -235,6 +257,7 @@
   "type": "Steak",
   "name": "Mushroom hamburger steak",
   "desc": "A hamburger steak with an intensely dry, mushroomy flavor. Powers up Rock Smash when eaten.",
+  "img": "mushroomhamburgersteak.png",
   "pp": "240",
   "main": "Bean",
   "secondary": [
@@ -246,6 +269,7 @@
   "type": "Steak",
   "name": "Tomato hamburger steak",
   "desc": "A hamburger steak that brings out the sour flavor of its ingredients.. Powers up Rock Smash when eaten.",
+  "img": "tomatohamburgersteak.png",
   "pp": "500",
   "main": "Bean",
   "secondary": [
@@ -257,6 +281,7 @@
   "type": "Steak",
   "name": "Potato hamburger steak",
   "desc": "A satisfyingly sweet hamburger steak. Powers up Rock Smash a lot when eaten.",
+  "img": "potatohamburgersteak.png",
   "pp": "500",
   "main": "Bean",
   "secondary": [
@@ -268,6 +293,7 @@
   "type": "Steak",
   "name": "Bitter hamburger steak",
   "desc": "A bitter-tasting hamberuger steak topped with leaves. Powers up Rock Smash when eaten",
+  "img": "bitterhamburgersteak.png",
   "pp": "650",
   "main": "Bean",
   "secondary": [
@@ -280,6 +306,7 @@
   "type": "Steak",
   "name": "Vibrant hamburger steak",
   "desc": "A hamburger steak made with lots of ingredients. Powers up Rock Smash a lot when eaten",
+  "img": "vibranthamburgersteak.png",
   "pp": "650",
   "main": "Bean",
   "secondary": [
@@ -292,6 +319,7 @@
   "type": "Steak",
   "name": "Explosive hamburger steak",
   "desc": "A hamburger steak so spicy you'll leap out of your seat. Powers up Rock Smash a lot when eaten!",
+  "img": "explosivehamburgersteak.png",
   "pp": "650",
   "main": "Bean",
   "secondary": [
@@ -304,6 +332,7 @@
   "type": "Smoothie",
   "name": "Watermelon smoothie",
   "desc": "A smoothie made with watermelon. Drink one to power up Surf.",
+  "img": "watermelonsmoothie.png",
   "pp": "20 min 20 seconds",
   "main": "Watermelon slice",
   "secondary": [],
@@ -313,6 +342,7 @@
   "type": "Smoothie",
   "name": "Sea grape smoothie",
   "desc": "A dry-tasting smoothie with a springy, popping texture. Drink one to power up Surf.",
+  "img": "seagrapesmoothie.png",
   "pp": "22 min 20 seconds",
   "main": "Watermelon slice",
   "secondary": [
@@ -324,6 +354,7 @@
   "type": "Smoothie",
   "name": "Leppa smoothie",
   "desc": "A sweet smoothie made with Leppa Berries. Drink one to power up Surf",
+  "img": "leppasmoothie.png",
   "pp": "22 min 20 seconds",
   "main": "Watermelon slice",
   "secondary": [
@@ -335,6 +366,7 @@
   "type": "Smoothie",
   "name": "Red-hot smoothie",
   "desc": "A smoothie so spicy it nearly burns your tongue. Drink one to power up Surf.",
+  "img": "red-hotsmoothie.png",
   "pp": "24 min 20 seconds",
   "main": "Watermelon slice",
   "secondary": [
@@ -346,6 +378,7 @@
   "type": "Smoothie",
   "name": "Refreshing soda smoothie",
   "desc": "A sour, highly carbonated smoothie. Drink one to power up Surf.",
+  "img": "refreshingsodasmoothie.png",
   "pp": "26 min 20 seconds",
   "main": "Watermelon slice",
   "secondary": [
@@ -358,6 +391,7 @@
   "type": "Smoothie",
   "name": "Coffee parfait smoothie",
   "desc": "A bitter smoothie with a rich depth of flavor. Drink one to power up Surf.",
+  "img": "coffeeparfaitsmoothie.png",
   "pp": "26 min 20 seconds",
   "main": "Watermelon slice",
   "secondary": [

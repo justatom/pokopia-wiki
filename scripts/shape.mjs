@@ -11,6 +11,27 @@ const list = c => (c?.t || []).filter(Boolean);
 const SKIP = ['picture', 'no.', 'name', 'emote', 'challenge number', 'favorites', 'example picture', 'doll', 'anchors', 'stamp'];
 const table = (rows, n) => rows.filter(r => r.length === n).filter(r => !SKIP.includes(cell(r[0]).toLowerCase()));
 
+/* ---------- item pictures ----------
+   Serebii reuses one icon per item on every page it appears on, so index the whole
+   scrape once: a picture cell (image, no text of its own) is always followed by the
+   cell naming what it shows. Gives 100% coverage of items, furniture and recipes. */
+const ICONS = new Map();
+for (const page of Object.keys(R)) {
+  for (const s of (R[page].secs || [])) for (const r of (s.rows || [])) {
+    for (let i = 0; i < r.length - 1; i++) {
+      if ((r[i].t || []).length) continue;
+      const src = (r[i].i || []).find(x => /(^|\/)items\/[^/]+\.png$/.test(x));
+      const nm = list(r[i + 1]);
+      if (!src || nm.length !== 1) continue;
+      const name = nm[0];
+      const id = slug(name); if (!id || ICONS.has(id)) continue;
+      ICONS.set(id, src.replace(/^.*items\//, ''));
+    }
+  }
+}
+const icon = name => ICONS.get(slug(name)) || null;
+console.log(String(ICONS.size).padStart(5), 'item icons indexed');
+
 /* ---------- specialties ---------- */
 const specialties = table(sec('specialty').rows, 3).map(r => ({
   id: slug(cell(r[1])), name: cell(r[1]), desc: cell(r[2])
@@ -64,6 +85,17 @@ for (const s of R.litter.secs) for (const r of s.rows) {
   litter.set(cell(r[2]).toLowerCase(), list(r[4]));
 }
 
+/* ideal habitat, five favourite categories and a flavour, from Bulbapedia. Keyed by
+   Pokopia dex number + national number + form, because Shellos, Tatsugiri and the unique
+   story Pokémon each share a dex number with their base form. */
+const LIKES = fs.existsSync('_research/likes.json') ? j('_research/likes.json') : {};
+/* the dex writes DJ Rotom's form as "Stereo Rotom" where Bulbapedia labels it "Stereo" */
+const likesOf = p => {
+  const form = String(p.form || '');
+  const short = form.endsWith(` ${p.name}`) ? form.slice(0, -(p.name.length + 1)) : form;
+  return LIKES[`${p.no}|${p.natdex}|${form}`] || LIKES[`${p.no}|${p.natdex}|${short}`] || {};
+};
+
 const pokedexes = [['main', DEX.main, spMain], ['basin', DEX.basin, spBasin], ['event', DEX.event, spEvent]];
 const pokemon = [];
 for (const [dex, rows, spmap] of pokedexes) {
@@ -79,6 +111,7 @@ for (const [dex, rows, spmap] of pokedexes) {
       ja: s.ja || null, genus: s.genus || null, color: s.color || null, gen: s.gen || null,
       specialties: row ? row.specs : [],
       litter: litter.get(serebiiName.toLowerCase()) || litter.get(p.name.toLowerCase()) || [],
+      ...(({ ambience = null, favorites = [], flavor = null }) => ({ ambience, favorites, flavor }))(likesOf(p)),
     });
   }
 }
@@ -109,7 +142,8 @@ const habitats = [];
 for (const a of ['main', 'basin', 'event']) {
   for (const r of table(sec('habitats', a).rows, 4)) {
     const no = cell(r[0]).match(/#(\d+)/); if (!no) continue;
-    habitats.push({ dex: a, no: +no[1], id: `${a === 'main' ? '' : a + '-'}${String(+no[1]).padStart(3, '0')}-${slug(cell(r[2]))}`, name: cell(r[2]), desc: cell(r[3]), req: [], mons: [] });
+    const pic = (r[1].i || [])[0] || '';
+    habitats.push({ dex: a, no: +no[1], id: `${a === 'main' ? '' : a + '-'}${String(+no[1]).padStart(3, '0')}-${slug(cell(r[2]))}`, name: cell(r[2]), desc: cell(r[3]), img: pic.replace(/^.*\//, '') || null, req: [], mons: [] });
   }
 }
 
@@ -197,7 +231,7 @@ for (const s of secs('items')) {
   for (const r of table(s.rows, 5)) {
     const name = cell(r[1]); if (!name) continue;
     const id = slug(name); if (itemSeen.has(id)) continue; itemSeen.add(id);
-    items.push({ id, name, cat, desc: cell(r[2]), tags: list(r[3]), sources: list(r[4]) });
+    items.push({ id, name, cat, desc: cell(r[2]), img: icon(name), tags: list(r[3]), sources: list(r[4]) });
   }
 }
 W('items', items);
@@ -213,22 +247,23 @@ for (const s of secs('crafting')) {
       const m = t.match(/^(.*?)\s*\*\s*(\d+)$/);
       return m ? { item: slug(m[1]), name: m[1], qty: +m[2] } : { item: slug(t), name: t, qty: 1 };
     });
-    recipes.push({ id: slug(name), name, cat, sources: list(r[2]), materials: mats });
+    recipes.push({ id: slug(name), name, cat, img: icon(name), sources: list(r[2]), materials: mats.map(m => ({ ...m, img: icon(m.name) })) });
   }
 }
 W('recipes', recipes);
 
 /* ---------- furniture ---------- */
 W('furniture', table(sec('furniture').rows, 6).map(r => ({
-  id: slug(cell(r[1])), name: cell(r[1]), desc: cell(r[2]), sources: list(r[3]), flags: list(r[4]), colour: list(r[5])
+  id: slug(cell(r[1])), name: cell(r[1]), desc: cell(r[2]), img: icon(cell(r[1])), sources: list(r[3]), flags: list(r[4]), colour: list(r[5])
 })).filter(x => x.name));
 
 /* ---------- build kits ---------- */
-W('buildkits', table(sec('building').rows, 3).map(r => ({ id: slug(cell(r[1])), name: cell(r[1]), desc: cell(r[2]) })).filter(x => x.name && x.name !== 'Name'));
+W('buildkits', table(sec('building').rows, 3).map(r => ({ id: slug(cell(r[1])), name: cell(r[1]), desc: cell(r[2]), img: icon(cell(r[1])) })).filter(x => x.name && x.name !== 'Name'));
 
 /* ---------- simple tables ---------- */
-W('cds', table(sec('cds').rows, 5).map(r => ({ name: cell(r[1]), desc: cell(r[2]), sources: list(r[3]), game: cell(r[4]) })).filter(x => x.name && x.name !== 'Name'));
-W('emotes', table(sec('emotes').rows, 2).map(r => ({ name: cell(r[0]), source: cell(r[1]) })).filter(x => x.name && x.name !== 'Emote'));
+W('cds', table(sec('cds').rows, 5).map(r => ({ name: cell(r[1]), desc: cell(r[2]), img: icon(cell(r[1])), sources: list(r[3]), game: cell(r[4]) })).filter(x => x.name && x.name !== 'Name'));
+const emotes = table(sec('emotes').rows, 2).map(r => ({ name: cell(r[0]), source: cell(r[1]) })).filter(x => x.name && x.name !== 'Emote');
+W('emotes', emotes);
 W('stampcard', table(sec('stampcard').rows, 3).map(r => ({ name: cell(r[1]), coins: cell(r[2]) })).filter(x => x.name && x.name !== 'Stamp'));
 W('teamchallenge', table(sec('teaminitiationchallenge').rows, 4).map(r => ({ no: cell(r[0]), requirements: list(r[1]), notes: cell(r[2]), reward: cell(r[3]) })).filter(x => /^\d+$/.test(x.no)));
 W('events', table(sec('events').rows, 3).map(r => ({ name: cell(r[1]), duration: cell(r[2]) })).filter(x => x.name && x.name !== 'Name'));
@@ -242,7 +277,7 @@ const cooking = [];
     if (r.length === 8 && cell(r[0])) type = cell(r[0]);
     const name = cell(c[0]); if (!name || SKIP.includes(name.toLowerCase())) continue;
     cooking.push({
-      type, name, desc: cell(c[1]), pp: cell(c[2]), main: cell(c[3]),
+      type, name, desc: cell(c[1]), img: icon(name), pp: cell(c[2]), main: cell(c[3]),
       secondary: [...list(c[4]), ...list(c[5])], spec: cell(c[6])
     });
   }
@@ -251,7 +286,7 @@ W('cooking', cooking);
 
 const relics = [];
 for (const [a, kind] of [['large', 'Large'], ['larges', 'Large (Sunken)'], ['small', 'Small']])
-  for (const r of table(sec('lostrelics', a).rows, 3)) if (cell(r[1])) relics.push({ kind, name: cell(r[1]), desc: cell(r[2]) });
+  for (const r of table(sec('lostrelics', a).rows, 3)) if (cell(r[1])) relics.push({ kind, name: cell(r[1]), desc: cell(r[2]), img: icon(cell(r[1])) });
 W('lostrelics', relics);
 
 const flavors = [];
@@ -296,3 +331,84 @@ for (const [k, v] of Object.entries(R)) {
 }
 fs.writeFileSync('data/_prose.json', JSON.stringify(prose, null, 1));
 console.log('   ok _prose');
+
+/* ---------- gifts ----------
+   The inverse of the Favourites system: what a Pokémon hands *you*. Three channels are
+   documented per-species, so only those are indexed here.
+
+     litter    Pokémon with the Litter specialty drop a fixed material near their home,
+               over and over, for as long as they live there.
+     emote     Fifteen species hand over one specific emote as a friendship gift. One-off.
+     item      A named story character gives a fixed item.
+
+   Serebii also notes that any Pokémon starts handing over random materials as friendship
+   climbs, but publishes no drop table and no rate — so nothing here invents one, and the
+   guide text says as much rather than guessing a number. */
+const monByName = new Map();
+for (const p of pokemon) {
+  if (p.alias) monByName.set(p.alias.toLowerCase(), p);
+  if (!monByName.has(p.name.toLowerCase())) monByName.set(p.name.toLowerCase(), p);
+}
+const gifts = [];
+const pushGift = (name, g) => {
+  const p = monByName.get(String(name).toLowerCase());
+  gifts.push({ mon: p ? p.id : null, natdex: p ? p.natdex : null, name: p ? (p.alias || p.name) : name, ...g });
+};
+for (const p of pokemon) if (p.litter.length) {
+  pushGift(p.name, { kind: 'litter', gives: p.litter, trigger: 'specialty', rate: 'repeat' });
+}
+for (const e of emotes) {
+  const m = e.source.match(/^Gift (?:from|by) (.+)$/i); if (!m) continue;
+  pushGift(m[1], { kind: 'emote', gives: [e.name], trigger: 'friendship', rate: 'once' });
+}
+{
+  const byGiver = new Map();
+  for (const i of items) for (const s of i.sources) {
+    const m = s.match(/^Gift from (.+)$/i); if (!m) continue;
+    const arr = byGiver.get(m[1]) || []; arr.push(i.name); byGiver.set(m[1], arr);
+  }
+  for (const [who, got] of byGiver) pushGift(who, { kind: 'item', gives: got, trigger: 'story', rate: 'once' });
+}
+gifts.sort((a, b) => (a.natdex || 9999) - (b.natdex || 9999) || a.name.localeCompare(b.name));
+W('gifts', gifts);
+
+/* the emote gift is worth showing on the Pokémon's own page too */
+{
+  const emoteGift = new Map(gifts.filter(g => g.kind === 'emote' && g.mon).map(g => [g.mon, g.gives[0]]));
+  for (const p of pokemon) p.gift = emoteGift.get(p.id) || null;
+  W('pokemon', pokemon);
+}
+
+/* ---------- favourite categories ----------
+   One Serebii subpage per category, each listing the items in it and the Pokémon that
+   like it. Serebii flags the item halves as work in progress, so `partial` is recorded
+   and the site says the counts are a floor rather than a total. */
+{
+  const favorites = [];
+  for (const page of Object.keys(R).filter(k => k.startsWith('fav_'))) {
+    const name = (R[page].heads || [])[0];
+    if (!name) continue;
+    const secItems = R[page].secs.find(s => s.rows.some(r => r.length === 4 && cell(r[0]) === 'Picture'));
+    const secMons = R[page].secs.find(s => s.rows.some(r => r.length === 5 && cell(r[0]) === 'No.'));
+    const its = [];
+    for (const r of (secItems ? secItems.rows : [])) {
+      if (r.length !== 4) continue;
+      const nm = cell(r[1]); if (!nm || nm === 'Name') continue;
+      its.push({ id: slug(nm), name: nm, img: ((r[0].i || [])[0] || '').replace(/^.*items\//, '') || icon(nm) });
+    }
+    const mons = [];
+    for (const r of (secMons ? secMons.rows : [])) {
+      if (r.length !== 5) continue;
+      const nm = cell(r[2]); if (!nm || nm === 'Name') continue;
+      mons.push(nm);
+    }
+    favorites.push({
+      id: slug(name), name,
+      partial: (R[page].secs[0].text || []).some(t => /work in progress/i.test(t)),
+      items: its, mons,
+    });
+  }
+  favorites.sort((a, b) => a.name.localeCompare(b.name));
+  W('favorites', favorites);
+  console.log(`   ${favorites.reduce((n, f) => n + f.items.length, 0)} item↔category links`);
+}

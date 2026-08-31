@@ -2,281 +2,337 @@
  {
   "id": "leaf-den-kit",
   "name": "Leaf den kit",
-  "desc": "Gather some Pokémon and build away! This makes a den for medium-sized Pokémon or smaller"
+  "desc": "Gather some Pokémon and build away! This makes a den for medium-sized Pokémon or smaller",
+  "img": "leafdenkit.png"
  },
  {
   "id": "leaf-hut-kit",
   "name": "Leaf hut kit",
-  "desc": "Gather some Pokémon and build away! This makes a hut that any Pokémon could easily live in"
+  "desc": "Gather some Pokémon and build away! This makes a hut that any Pokémon could easily live in",
+  "img": "leafhutkit.png"
  },
  {
   "id": "leaf-cottage-kit",
   "name": "Leaf cottage kit",
-  "desc": "Gather some Pokémon and build away! This makes a place where two Pokémon can relax."
+  "desc": "Gather some Pokémon and build away! This makes a place where two Pokémon can relax.",
+  "img": "leafcottagekit.png"
  },
  {
   "id": "leaf-house-kit",
   "name": "Leaf house kit",
-  "desc": "Gather some Pokémon and build away! Let's make a ginormous house where everyone can live together"
+  "desc": "Gather some Pokémon and build away! Let's make a ginormous house where everyone can live together",
+  "img": "leafhousekit.png"
  },
  {
   "id": "sand-den-kit",
   "name": "Sand den kit",
-  "desc": "Gather some Pokémon and build away! This makes a den for medium-sized Pokémon or smaller"
+  "desc": "Gather some Pokémon and build away! This makes a den for medium-sized Pokémon or smaller",
+  "img": "sanddenkit.png"
  },
  {
   "id": "sand-hut-kit",
   "name": "Sand hut kit",
-  "desc": "Gather some Pokémon and build away! This makes a hut that any Pokémon could easily live in"
+  "desc": "Gather some Pokémon and build away! This makes a hut that any Pokémon could easily live in",
+  "img": "sandhutkit.png"
  },
  {
   "id": "sand-cottage-kit",
   "name": "Sand cottage kit",
-  "desc": "Gather some Pokémon and build away! This makes a place where two Pokémon can relax."
+  "desc": "Gather some Pokémon and build away! This makes a place where two Pokémon can relax.",
+  "img": "sandcottagekit.png"
  },
  {
   "id": "sand-house-kit",
   "name": "Sand house kit",
-  "desc": "Gather some Pokémon and build away! Let's make a ginormous house where everyone can live together"
+  "desc": "Gather some Pokémon and build away! Let's make a ginormous house where everyone can live together",
+  "img": "sandhousekit.png"
  },
  {
   "id": "stone-den-kit",
   "name": "Stone den kit",
-  "desc": "Gather some Pokémon and build away! This makes a den for medium-sized Pokémon or smaller"
+  "desc": "Gather some Pokémon and build away! This makes a den for medium-sized Pokémon or smaller",
+  "img": "stonedenkit.png"
  },
  {
   "id": "stone-hut-kit",
   "name": "Stone hut kit",
-  "desc": "Gather some Pokémon and build away! This makes a hut that any Pokémon could easily live in"
+  "desc": "Gather some Pokémon and build away! This makes a hut that any Pokémon could easily live in",
+  "img": "stonehutkit.png"
  },
  {
   "id": "stone-cottage-kit",
   "name": "Stone cottage kit",
-  "desc": "Gather some Pokémon and build away! This makes a place where two Pokémon can relax."
+  "desc": "Gather some Pokémon and build away! This makes a place where two Pokémon can relax.",
+  "img": "stonecottagekit.png"
  },
  {
   "id": "stone-house-kit",
   "name": "Stone house kit",
-  "desc": "Gather some Pokémon and build away! Let's make a ginormous house where everyone can live together"
+  "desc": "Gather some Pokémon and build away! Let's make a ginormous house where everyone can live together",
+  "img": "stonehousekit.png"
  },
  {
   "id": "city-den-kit",
   "name": "City den kit",
-  "desc": "Gather some Pokémon and build away! This makes a den for medium-sized Pokémon or smaller"
+  "desc": "Gather some Pokémon and build away! This makes a den for medium-sized Pokémon or smaller",
+  "img": "citydenkit.png"
  },
  {
   "id": "city-hut-kit",
   "name": "City hut kit",
-  "desc": "Gather some Pokémon and build away! This makes a hut that any Pokémon could easily live in"
+  "desc": "Gather some Pokémon and build away! This makes a hut that any Pokémon could easily live in",
+  "img": "cityhutkit.png"
  },
  {
   "id": "city-cottage-kit",
   "name": "City cottage kit",
-  "desc": "Gather some Pokémon and build away! This makes a place where two Pokémon can relax."
+  "desc": "Gather some Pokémon and build away! This makes a place where two Pokémon can relax.",
+  "img": "citycottagekit.png"
  },
  {
   "id": "city-house-kit",
   "name": "City house kit",
-  "desc": "Gather some Pokémon and build away! Let's make a ginormous house where everyone can live together"
+  "desc": "Gather some Pokémon and build away! Let's make a ginormous house where everyone can live together",
+  "img": "cityhousekit.png"
  },
  {
   "id": "poke-ball-house-kit",
   "name": "Poké Ball house kit",
-  "desc": "Gather some Pokémon and build away! This makes a house that looks like a giant Poké Ball."
+  "desc": "Gather some Pokémon and build away! This makes a house that looks like a giant Poké Ball.",
+  "img": "pokeballhousekit.png"
  },
  {
   "id": "poke-mart-kit",
   "name": "Poké Mart kit",
-  "desc": "Gather some Pokémon and build away! This makes a store that somehow always feels a little exciting"
+  "desc": "Gather some Pokémon and build away! This makes a store that somehow always feels a little exciting",
+  "img": "pokemartkit.png"
  },
  {
   "id": "wasteland-pokemon-center-kit",
   "name": "Wasteland Pokémon Center kit",
-  "desc": "Use this to remodel a Pokémon Center to make it look just like the Wasteland Pokémon Center"
+  "desc": "Use this to remodel a Pokémon Center to make it look just like the Wasteland Pokémon Center",
+  "img": "wastelandpokemoncenterkit.png"
  },
  {
   "id": "beach-pokemon-center-kit",
   "name": "Beach Pokémon Center kit",
-  "desc": "Use this to remodel a Pokémon Center to make it look just like the Beach Pokémon Center"
+  "desc": "Use this to remodel a Pokémon Center to make it look just like the Beach Pokémon Center",
+  "img": "beachpokemoncenterkit.png"
  },
  {
   "id": "ridge-pokemon-center-kit",
   "name": "Ridge Pokémon Center kit",
-  "desc": "Use this to remodel a Pokémon Center to make it look just like the Ridge Pokémon Center"
+  "desc": "Use this to remodel a Pokémon Center to make it look just like the Ridge Pokémon Center",
+  "img": "ridgepokemoncenterkit.png"
  },
  {
   "id": "skyland-pokemon-center-kit",
   "name": "Skyland Pokémon Center kit",
-  "desc": "Use this to remodel a Pokémon Center to make it look just like the Skyland Pokémon Center"
+  "desc": "Use this to remodel a Pokémon Center to make it look just like the Skyland Pokémon Center",
+  "img": "skylandpokemoncenterkit.png"
  },
  {
   "id": "windmill-kit",
   "name": "Windmill kit",
-  "desc": "Gather some Pokémon and build away! This makes a generator that turns wind energy into loads of power"
+  "desc": "Gather some Pokémon and build away! This makes a generator that turns wind energy into loads of power",
+  "img": "windmillkit.png"
  },
  {
   "id": "waterwheel-kit",
   "name": "Waterwheel kit",
-  "desc": "Gather some Pokémon and build away! This makes a generator that uses water to produce tons of power"
+  "desc": "Gather some Pokémon and build away! This makes a generator that uses water to produce tons of power",
+  "img": "waterwheelkit.png"
  },
  {
   "id": "furnace-kit",
   "name": "Furnace kit",
-  "desc": "Gather some Pokémon and build away! This makes a generator that burns stuff to produce heaps of power"
+  "desc": "Gather some Pokémon and build away! This makes a generator that burns stuff to produce heaps of power",
+  "img": "furnacekit.png"
  },
  {
   "id": "charging-station-kit",
   "name": "Charging station kit",
-  "desc": "Gather some Pokémon and build away! This makes a device that's perfect for charging things up"
+  "desc": "Gather some Pokémon and build away! This makes a device that's perfect for charging things up",
+  "img": "chargingstationkit.png"
  },
  {
   "id": "pikachu-fountain-kit",
   "name": "Pikachu fountain kit",
-  "desc": "Gather some Pokémon and build away! This makes a found that would look great all lit up"
+  "desc": "Gather some Pokémon and build away! This makes a found that would look great all lit up",
+  "img": "pikachufountainkit.png"
  },
  {
   "id": "moonlight-dance-statue-kit",
   "name": "Moonlight dance statue kit",
-  "desc": "Gather some Pokémon and build away! This will make you want to dance as you're building it"
+  "desc": "Gather some Pokémon and build away! This will make you want to dance as you're building it",
+  "img": "moonlightdancestatuekit.png"
  },
  {
   "id": "pink-hut-kit",
   "name": "Pink hut kit",
-  "desc": "Gather some Pokémon and build away! This makes a cute plaster house"
+  "desc": "Gather some Pokémon and build away! This makes a cute plaster house",
+  "img": "pinkhutkit.png"
  },
  {
   "id": "pink-cottage-kit",
   "name": "Pink cottage kit",
-  "desc": "Gather some Pokémon and build away! This makes a cute retro house"
+  "desc": "Gather some Pokémon and build away! This makes a cute retro house",
+  "img": "pinkcottagekit.png"
  },
  {
   "id": "orange-hut-kit",
   "name": "Orange hut kit",
-  "desc": "Gather some Pokémon and build away! This makes a fancy brick house"
+  "desc": "Gather some Pokémon and build away! This makes a fancy brick house",
+  "img": "orangehutkit.png"
  },
  {
   "id": "orange-cottage-kit",
   "name": "Orange cottage kit",
-  "desc": "Gather some Pokémon and build away! This makes a vibrant house where you can enjoy resort vibes."
+  "desc": "Gather some Pokémon and build away! This makes a vibrant house where you can enjoy resort vibes.",
+  "img": "orangecottagekit.png"
  },
  {
   "id": "gray-hut-kit",
   "name": "Gray hut kit",
-  "desc": "Gather some Pokémon and build away! This makes a cool stone house"
+  "desc": "Gather some Pokémon and build away! This makes a cool stone house",
+  "img": "grayhutkit.png"
  },
  {
   "id": "gray-cottage-kit",
   "name": "Gray cottage kit",
-  "desc": "A high-class house with a seren atmosphere. It's full of luxurious furniture"
+  "desc": "A high-class house with a seren atmosphere. It's full of luxurious furniture",
+  "img": "graycottagekit.png"
  },
  {
   "id": "yellow-hut-kit",
   "name": "Yellow hut kit",
-  "desc": "Gather some Pokémon and build away! This makes a flashy concrete house"
+  "desc": "Gather some Pokémon and build away! This makes a flashy concrete house",
+  "img": "yellowhutkit.png"
  },
  {
   "id": "yellow-cottage-kit",
   "name": "Yellow cottage kit",
-  "desc": "Gather some Pokémon and build away! This makes a stylish concrete house"
+  "desc": "Gather some Pokémon and build away! This makes a stylish concrete house",
+  "img": "yellowcottagekit.png"
  },
  {
   "id": "log-cabin-kit",
   "name": "Log cabin kit",
-  "desc": "Gather some Pokémon and build away! This makes a house that has a pleasing woodsy aroma"
+  "desc": "Gather some Pokémon and build away! This makes a house that has a pleasing woodsy aroma",
+  "img": "logcabinkit.png"
  },
  {
   "id": "small-office-kit",
   "name": "Small office kit",
-  "desc": "Gather some Pokémon and build away! This makes a place where you can really focus on your work"
+  "desc": "Gather some Pokémon and build away! This makes a place where you can really focus on your work",
+  "img": "smallofficekit.png"
  },
  {
   "id": "relaxing-park-kit",
   "name": "Relaxing park kit",
-  "desc": "Gather some Pokémon and build away! This makes a park with an iconic Chansey tree"
+  "desc": "Gather some Pokémon and build away! This makes a park with an iconic Chansey tree",
+  "img": "relaxingparkkit.png"
  },
  {
   "id": "stylish-cafe-kit",
   "name": "Stylish Café kit",
-  "desc": "Gather some Pokémon and build away! This makes a lovely café where you can take a little breather."
+  "desc": "Gather some Pokémon and build away! This makes a lovely café where you can take a little breather.",
+  "img": "stylishcafekit.png"
  },
  {
   "id": "concert-stage-kit",
   "name": "Concert stage kit",
-  "desc": "Gather some Pokémon and build away! This makes a stage big enough to hold all your friends"
+  "desc": "Gather some Pokémon and build away! This makes a stage big enough to hold all your friends",
+  "img": "concertstagekit.png"
  },
  {
   "id": "fountain-plaza-kit",
   "name": "Fountain plaza kit",
-  "desc": "Gather some Pokémon and build away! This makes a plaza that's perfect for meetups"
+  "desc": "Gather some Pokémon and build away! This makes a plaza that's perfect for meetups",
+  "img": "fountainplazakit.png"
  },
  {
   "id": "altar-of-flame-kit",
   "name": "Altar of Flame kit",
-  "desc": "Gather some Pokémon and build away! This makes an altar accompanied by roaring flames"
+  "desc": "Gather some Pokémon and build away! This makes an altar accompanied by roaring flames",
+  "img": "altarofflamekit.png"
  },
  {
   "id": "abandoned-power-plant-kit",
   "name": "Abandoned Power Plant kit",
-  "desc": "Gather some Pokémon and build away! This makes an abandoned power plant teeming with electricity."
+  "desc": "Gather some Pokémon and build away! This makes an abandoned power plant teeming with electricity.",
+  "img": "abandonedpowerplantkit.png"
  },
  {
   "id": "freezing-chambers-kit",
   "name": "Freezing Chambers kit",
-  "desc": "Gather some Pokémon and build away! This makes frozen mountains with a mystical atmosphere"
+  "desc": "Gather some Pokémon and build away! This makes frozen mountains with a mystical atmosphere",
+  "img": "freezingchamberskit.png"
  },
  {
   "id": "mysterious-mural-kit",
   "name": "Mysterious mural kit",
-  "desc": "A mural that once depicted a Pokémon. If you could find the scattered pieces and reconstruct it...."
+  "desc": "A mural that once depicted a Pokémon. If you could find the scattered pieces and reconstruct it....",
+  "img": "mysteriousmuralkit.png"
  },
  {
   "id": "tent-kit",
   "name": "Tent kit",
-  "desc": "Gather some Pokémon and build away This makes a house that repels rain and wind. Great for camping!"
+  "desc": "Gather some Pokémon and build away This makes a house that repels rain and wind. Great for camping!",
+  "img": "tentkit.png"
  },
  {
   "id": "imperial-cottage-kit",
   "name": "Imperial cottage kit",
-  "desc": "Gather some Pokémon and build away! This makes a place where two Pokémon can relax"
+  "desc": "Gather some Pokémon and build away! This makes a place where two Pokémon can relax",
+  "img": "imperialcottagekit.png"
  },
  {
   "id": "imperial-house-kit",
   "name": "Imperial house kit",
-  "desc": "Gather some Pokémon and build away! Let's make a ginormous house where everyone can live together!"
+  "desc": "Gather some Pokémon and build away! Let's make a ginormous house where everyone can live together!",
+  "img": "imperialhousekit.png"
  },
  {
   "id": "submarine-kit",
   "name": "Submarine kit",
-  "desc": "Gather some Pokémon and build away! This makes a cool submarine that looks like a Sharpedo."
+  "desc": "Gather some Pokémon and build away! This makes a cool submarine that looks like a Sharpedo.",
+  "img": "submarinekit.png"
  },
  {
   "id": "basin-pokemon-center-kit",
   "name": "Basin Pokémon Center kit",
-  "desc": "Use this to remodel a Pokémon Center to make it look just like the Basin Pokémon Center"
+  "desc": "Use this to remodel a Pokémon Center to make it look just like the Basin Pokémon Center",
+  "img": "basinpokemoncenterkit.png"
  },
  {
   "id": "clock-tower-kit",
   "name": "Clock tower kit",
-  "desc": "Gather some Pokémon and build away! This makes a huge clock tower that could be a town's landmark"
+  "desc": "Gather some Pokémon and build away! This makes a huge clock tower that could be a town's landmark",
+  "img": "clocktowerkit.png"
  },
  {
   "id": "aqua-cottage-kit",
   "name": "Aqua cottage kit",
-  "desc": "Gather some Pokémon and build away! This makes a house with a cute scale roof."
+  "desc": "Gather some Pokémon and build away! This makes a house with a cute scale roof.",
+  "img": "aquacottagekit.png"
  },
  {
   "id": "supermarket-kit",
   "name": "Supermarket kit",
-  "desc": "Gather some Pokémon and build away! This makes a fully stocked supermarket!"
+  "desc": "Gather some Pokémon and build away! This makes a fully stocked supermarket!",
+  "img": "supermarketkit.png"
  },
  {
   "id": "laboratory-kit",
   "name": "Laboratory kit",
-  "desc": "Gather some Pokémon and build away! This makes a high-tech lab with excellent waterproofing."
+  "desc": "Gather some Pokémon and build away! This makes a high-tech lab with excellent waterproofing.",
+  "img": "laboratorykit.png"
  },
  {
   "id": "ocean-temple-kit",
   "name": "Ocean temple kit",
-  "desc": "A glamorous temple full of seashells, seaweed, and coral. It feels like an ocean paradise"
+  "desc": "A glamorous temple full of seashells, seaweed, and coral. It feels like an ocean paradise",
+  "img": "oceantemplekit.png"
  }
 ]

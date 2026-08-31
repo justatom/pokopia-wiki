@@ -16,7 +16,7 @@ const pokemon = D('pokemon'), habitats = D('habitats'), items = D('items'), reci
   flavors = D('flavors'), humanrecords = D('humanrecords'), highlightreel = D('highlightreel'),
   dreamislands = D('dreamislands'), cloudislands = D('cloudislands'), envlevel = D('envlevel'),
   patches = D('patches'), events = D('events'), water = D('water'), cooking = D('cooking'),
-  stampcard = D('stampcard'), teamchallenge = D('teamchallenge');
+  stampcard = D('stampcard'), teamchallenge = D('teamchallenge'), gifts = D('gifts'), favorites = D('favorites');
 const THNAMES = D('th/pokemon-names'), TERMS = D('th/terms'),
   THPATCH = D('th/patches'), THM = D('th/misc');
 
@@ -84,6 +84,14 @@ const sprite = p => `${BASE}/sprites/small/${p.natdex}.png`;
 const hasArt = id => fs.existsSync(`src/sprites/art/${id}.png`);
 const art = p => hasArt(p.natdex) ? `${BASE}/sprites/art/${p.natdex}.png` : sprite(p);
 
+/* Item icons and habitat pictures are downloaded by scripts/sprites.mjs too. Read each
+   folder once rather than stat-ing 1,700 files per language, and return null when a
+   picture is missing so every caller falls back to its line icon. */
+const picsIn = d => { try { return new Set(fs.readdirSync(`src/sprites/${d}`)); } catch { return new Set(); } };
+const ITEM_PICS = picsIn('items'), HAB_PICS = picsIn('habitats');
+const itemPic = img => img && ITEM_PICS.has(img) ? `${BASE}/sprites/items/${encodeURIComponent(img)}` : null;
+const habPic = img => img && HAB_PICS.has(img) ? `${BASE}/sprites/habitats/${encodeURIComponent(img)}` : null;
+
 const L = (lang, s) => (typeof s === 'string' ? s : s[lang]);
 
 /* ---------------- shared fragments ---------------- */
@@ -117,15 +125,86 @@ function listPage({ lang, rows, cats, catLabel }) {
 <p class="sr-empty" id="listEmpty" hidden>${esc(t.noResults)}</p></div>`;
 }
 
-const rowIcon = kind => `<div class="row-ico">${icon(kind)}</div>`;
+const cellPic = img => { const u = itemPic(img); return u ? `<img class="cell-ico" src="${u}" alt="" loading="lazy" width="32" height="32" decoding="async">` : ''; };
+const matPic = m => { const u = itemPic(m.img); return u ? `<img class="mat-ico" src="${u}" alt="" loading="lazy" width="18" height="18" decoding="async">` : ''; };
+const rowIcon = (kind, pic) => pic
+  ? `<img class="row-ico row-pic" src="${pic}" alt="" loading="lazy" width="42" height="42" decoding="async">`
+  : `<div class="row-ico">${icon(kind)}</div>`;
 
 const monById = new Map(pokemon.map(p => [p.id, p]));
+
+const thAmb = (a, lang) => (lang === 'th' && THM.ambience[a]) || a;
+const thFav = (f, lang) => (lang === 'th' && THM.favorites[f]) || f;
+const favByName = new Map(favorites.map(f => [f.name, f]));
+const FAV_SHOWN = 14;   // icons per category before the "+N" chip
+
+/** What a Pokémon likes: one ideal ambience, five item categories, one flavour.
+    The five are numbered the way the game lists them; no source ranks them by
+    strength, so nothing here implies one is worth more than another. */
+function monLikes(p, lang) {
+  if (!p.ambience && !p.favorites.length) return '';
+  const th = lang === 'th';
+  const tier = (label, hint, chips) => `<div class="like-tier">
+    <div class="like-head"><h3>${esc(label)}</h3><span>${esc(hint)}</span></div>
+    <div class="chips">${chips}</div></div>`;
+  return `<section><div class="sec-title"><h2>${th ? 'ของโปรด' : 'Favourites'}</h2><span>${(p.ambience ? 1 : 0) + p.favorites.length + (p.flavor ? 1 : 0)}</span></div>
+  <p class="note">${th
+      ? 'ให้หรือวางของที่ตรงกับรายการนี้ ค่าความเป็นเพื่อนและ Comfy Level จะขึ้นเร็วกว่าปกติมาก สังเกตได้จากประกายตอนวางที่จะใหญ่กว่า และถ้าเป็นโปเกมอนที่มีความถนัด Trade ของที่ตรงจะมีมูลค่าบนตาชั่งเพิ่ม 50%'
+      : 'Give or place anything matching these and both friendship and Comfy Level rise much faster — a matching item lays down with a bigger sparkle. For a Pokémon with the Trade specialty, matching items are also worth 50% more on the scale.'}</p>
+  <div class="likes">
+    ${p.ambience ? tier(th ? 'บรรยากาศที่ชอบ' : 'Ideal habitat', th ? 'เลือกได้ 1 จาก 6' : '1 of 6',
+        `<span class="chip chip-on">${esc(thAmb(p.ambience, lang))}${th ? ` <span class="gloss">${esc(p.ambience)}</span>` : ''}</span>`) : ''}
+    ${p.favorites.map((f, i) => {
+        const cat = favByName.get(f);
+        const shown = cat ? cat.items.slice(0, FAV_SHOWN) : [];
+        return `<div class="like-tier">
+      <div class="like-head"><h3><b class="fav-no">${i + 1}</b> ${esc(thFav(f, lang))}${th ? ` <span class="gloss">${esc(f)}</span>` : ''}</h3>
+        <span>${cat ? `${cat.items.length}${cat.partial ? '+' : ''} ${th ? 'ไอเทม' : 'items'}` : ''}</span></div>
+      ${shown.length ? `<div class="fav-items">${shown.map(it => `<span class="fav-item" title="${esc(it.name)}">
+        ${itemPic(it.img) ? `<img src="${itemPic(it.img)}" alt="" loading="lazy" width="34" height="34" decoding="async">` : ''}
+        <span>${esc(it.name)}</span></span>`).join('')}${cat.items.length > FAV_SHOWN
+            ? `<span class="fav-item fav-more">+${cat.items.length - FAV_SHOWN}</span>` : ''}</div>` : ''}
+    </div>`;
+      }).join('')}
+    ${p.flavor ? tier(th ? 'รสที่ชอบ' : 'Favourite flavour', th ? 'เลือกได้ 1 จาก 5' : '1 of 5',
+        `<span class="chip chip-on">${esc(thFlavor(p.flavor.toLowerCase(), lang))}${th ? ` <span class="gloss">${esc(p.flavor)}</span>` : ''}</span>`) : ''}
+  </div>
+  <p class="note note-clay">${th
+      ? 'สองข้อที่ต้องบอกตามตรง หนึ่งคือเกมแสดงห้าหมวดนี้เรียงตามลำดับตายตัว แต่ไม่มีแหล่งข้อมูลไหนบอกว่าหมวดที่ 1 ให้ผลมากกว่าหมวดที่ 5 เลขที่เห็นจึงเป็นลำดับในเกม ไม่ใช่ระดับความชอบ สองคือรายการไอเทมของแต่ละหมวดยังไม่ครบ Serebii ระบุเองว่ายังทยอยเพิ่มอยู่ ตัวเลขที่เห็นจึงเป็นขั้นต่ำ ไม่ใช่ยอดรวม'
+      : 'Two caveats. The game lists these five in a fixed order, but no source says the first counts for more than the fifth — the numbers are the in-game order, not a strength ranking. And the item lists are incomplete: Serebii marks them as still being filled in, so each count is a floor, not a total.'}</p>
+  </section>`;
+}
+
+/** What a Pokémon hands you back: Litter drops and the one-off emote gift. */
+function monGives(p, lang) {
+  if (!p.litter.length && !p.gift) return '';
+  const th = lang === 'th';
+  return `<section><div class="sec-title"><h2>${th ? 'ของที่มันให้เรา' : 'What it gives you'}</h2><span>${p.litter.length + (p.gift ? 1 : 0)}</span></div>
+  <div class="rows">
+    ${p.litter.map(x => dataRow({
+        name: x, gloss: G(x), kind: 'box', pic: itemPic(itemImg.get(x.toLowerCase())), lang,
+        desc: th ? 'ทิ้งไว้ใกล้บ้านของมันเรื่อย ๆ จากความถนัด Litter — ไม่ต้องรอให้สนิท เริ่มตั้งแต่วันที่ย้ายเข้ามา'
+          : 'Dropped near its home again and again by the Litter specialty — no friendship needed, it starts the day it moves in.',
+        meta: `<span class="tag tag-moss">Litter</span><span>${th ? 'ซ้ำเรื่อย ๆ' : 'Repeats'}</span>`,
+      })).join('')}
+    ${p.gift ? dataRow({
+        name: p.gift, kind: 'star', lang,
+        desc: th ? 'อิโมตที่มันมอบให้ครั้งเดียว เมื่อความสนิทขึ้นถึงระดับสูง (ระดับ 4)'
+          : 'An emote it hands over once, when friendship reaches the high stage (stage 4).',
+        meta: `<span class="tag tag-clay">${th ? 'อิโมต' : 'Emote'}</span><span>${th ? 'ครั้งเดียว' : 'Once'}</span>`,
+      }) : ''}
+  </div>
+  <p class="note"><a href="${BASE}/${lang}/gifts/" style="text-decoration:underline">${th ? 'ดูของขวัญของโปเกมอนทุกตัว และห้าระดับความสนิท' : 'See every Pokémon’s gifts and the five friendship stages'}</a></p>
+  </section>`;
+}
 /** habitat card: build requirements on the left, the Pokémon it releases below */
 function habitatCard(h, lang) {
   const mons = h.mons.map(id => monById.get(id)).filter(Boolean);
-  const gl = G(h.name);
-  return `<article class="row" id="h${h.dex}-${h.no}" data-cat="${esc(h.dex)}" data-s="${esc((h.name + ' ' + gl + ' ' + h.desc + ' ' + h.req.join(' ') + ' ' + mons.map(m => m.name + ' ' + monTitle(m, lang)).join(' ')).toLowerCase())}">
-${rowIcon('leaf')}
+  const gl = G(h.name), pic = habPic(h.img);
+  return `<article class="row${pic ? ' row-wide' : ''}" id="h${h.dex}-${h.no}" data-cat="${esc(h.dex)}" data-s="${esc((h.name + ' ' + gl + ' ' + h.desc + ' ' + h.req.join(' ') + ' ' + mons.map(m => m.name + ' ' + monTitle(m, lang)).join(' ')).toLowerCase())}">
+${pic
+      ? `<img class="hab-pic" src="${pic}" alt="${esc(h.name)}" loading="lazy" width="150" height="105" decoding="async">`
+      : rowIcon('leaf')}
 <div>
   <div class="row-name">#${String(h.no).padStart(3, '0')} ${esc(h.name)}</div>
   ${lang === 'th' && gl ? `<div class="row-th gloss">${esc(gl)}</div>` : ''}
@@ -135,9 +214,9 @@ ${rowIcon('leaf')}
 </div></article>`;
 }
 
-function dataRow({ name, gloss: gl, desc, meta, mats, cat, kind, lang }) {
+function dataRow({ name, gloss: gl, desc, meta, mats, cat, kind, pic, lang }) {
   return `<div class="row" data-cat="${esc(cat || '')}" data-s="${esc((name + ' ' + (gl || '') + ' ' + (desc || '')).toLowerCase())}">
-${rowIcon(kind)}
+${rowIcon(kind, pic)}
 <div><div class="row-name">${esc(name)}</div>
 ${lang === 'th' && gl ? `<div class="row-th gloss">${esc(gl)}</div>` : ''}
 ${desc ? `<div class="row-desc">${esc(desc)}</div>` : ''}
@@ -273,7 +352,6 @@ function pokemonPage(p, lang) {
         <dt>${lang === 'th' ? 'เลขเด็กซ์แห่งชาติ' : 'National dex'}</dt><dd>#${String(p.natdex).padStart(4, '0')}</dd>
         ${p.genus ? `<dt>${lang === 'th' ? 'ฉายา' : 'Category'}</dt><dd>${esc(p.genus)}</dd>` : ''}
         ${p.form ? `<dt>${lang === 'th' ? 'ร่าง' : 'Form'}</dt><dd>${esc(p.form)}</dd>` : ''}
-        ${p.litter.length ? `<dt>${lang === 'th' ? 'ของที่ทิ้งไว้ (Litter)' : 'Litter drop'}</dt><dd>${p.litter.map(x => esc(x) + (lang === 'th' && G(x) ? ` <span class="gloss">${esc(G(x))}</span>` : '')).join(', ')}</dd>` : ''}
       </dl>
     </div>
   </div>
@@ -281,10 +359,15 @@ function pokemonPage(p, lang) {
   ${specs.length ? `<section><div class="sec-title"><h2>${esc(t.nav.specialties)}</h2></div>
     <div class="grid g-4">${specs.map(s => `<div class="card"><h3>${esc(specName(s, lang))}</h3><p style="font-size:.88rem;color:var(--ink-2);margin:6px 0 0">${esc(specDesc(s, lang))}</p></div>`).join('')}</div></section>` : ''}
 
+  ${monLikes(p, lang)}
+  ${monGives(p, lang)}
+
   ${(() => {
       const habs = p.habitats.map(id => habitats.find(h => h.id === id)).filter(Boolean);
       if (habs.length) return `<section><div class="sec-title"><h2>${lang === 'th' ? 'สร้างที่อยู่อาศัยแบบไหนถึงจะได้' : 'How to get it'}</h2><span>${habs.length}</span></div>
-    <div class="rows">${habs.map(h => `<article class="row">${rowIcon('leaf')}<div>
+    <div class="rows">${habs.map(h => `<article class="row${habPic(h.img) ? ' row-wide' : ''}">${habPic(h.img)
+        ? `<a href="${BASE}/${lang}/habitats/#h${h.dex}-${h.no}"><img class="hab-pic" src="${habPic(h.img)}" alt="${esc(h.name)}" loading="lazy" width="150" height="105" decoding="async"></a>`
+        : rowIcon('leaf')}<div>
       <div class="row-name"><a href="${BASE}/${lang}/habitats/#h${h.dex}-${h.no}">#${String(h.no).padStart(3, '0')} ${esc(h.name)}</a>
         <span class="tag ${h.dex === 'basin' ? 'tag-clay' : 'tag-moss'}" style="margin-left:6px">${esc({ main: lang === 'th' ? 'เด็กซ์หลัก' : 'Main', basin: 'Bubbly Basin', event: lang === 'th' ? 'อีเวนต์' : 'Event' }[h.dex])}</span></div>
       ${lang === 'th' && G(h.name) ? `<div class="row-th gloss">${esc(G(h.name))}</div>` : ''}
@@ -353,7 +436,7 @@ function itemsCatPage(cat, lang) {
   const list = items.filter(i => i.cat === cat);
   const rows = list.map(i => ({
     html: dataRow({
-      name: i.name, gloss: G(i.name), desc: i.desc, cat: i.tags[0] || '', kind: 'box', lang,
+      name: i.name, gloss: G(i.name), desc: i.desc, cat: i.tags[0] || '', kind: 'box', pic: itemPic(i.img), lang,
       meta: i.tags.map(x => `<span class="tag tag-clay">${esc(x)}</span>`).join('') +
         (i.sources.length ? `<span>${esc(i.sources.slice(0, 3).join(' · '))}${i.sources.length > 3 ? ' …' : ''}</span>` : ''),
     })
@@ -372,8 +455,8 @@ function recipesCatPage(cat, lang) {
   const list = recipes.filter(r => r.cat === cat);
   const rows = list.map(r => ({
     html: dataRow({
-      name: r.name, gloss: G(r.name), cat: '', kind: 'package', lang,
-      mats: `<div class="mats">${r.materials.map(m => `<span class="mat">${esc(m.name)} <b>×${m.qty}</b></span>`).join('')}</div>`,
+      name: r.name, gloss: G(r.name), cat: '', kind: 'package', pic: itemPic(r.img), lang,
+      mats: `<div class="mats">${r.materials.map(m => `<span class="mat">${matPic(m)}${esc(m.name)} <b>×${m.qty}</b></span>`).join('')}</div>`,
       meta: r.sources.length ? `<span>${esc(r.sources.join(' · '))}</span>` : '',
     })
   }));
@@ -389,7 +472,7 @@ function furniturePage(lang) {
   const t = T[lang];
   const rows = furniture.map(f => ({
     html: dataRow({
-      name: f.name, gloss: G(f.name), desc: f.desc, cat: f.flags[0] || '', kind: 'home', lang,
+      name: f.name, gloss: G(f.name), desc: f.desc, cat: f.flags[0] || '', kind: 'home', pic: itemPic(f.img), lang,
       meta: f.flags.map(x => `<span class="tag tag-moss">${esc(x)}</span>`).join('') +
         f.colour.map(x => `<span class="tag">${esc(x)}</span>`).join('') +
         (f.sources.length ? `<span>${esc(f.sources.slice(0, 4).join(' · '))}</span>` : ''),
@@ -589,7 +672,7 @@ function buildingPage(lang) {
   <div class="prose">${g.blocks.map(bl => `<h2>${esc(L(lang, bl.h))}</h2>${bl.p.map(x => `<p>${esc(L(lang, x))}</p>`).join('')}`).join('')}</div>
   <section>
     <div class="sec-title"><h2>${lang === 'th' ? 'ชุดก่อสร้างทั้งหมด' : 'All building kits'}</h2><span>${buildkits.length}</span></div>
-    <div class="rows">${buildkits.map(k => dataRow({ name: k.name, gloss: G(k.name), desc: k.desc, kind: 'hammer', lang })).join('')}</div>
+    <div class="rows">${buildkits.map(k => dataRow({ name: k.name, gloss: G(k.name), desc: k.desc, kind: 'hammer', pic: itemPic(k.img), lang })).join('')}</div>
   </section>
 </div>`;
   return layout({ lang, base: BASE, title: t.nav.building, desc: 'Pokopia building guide', path: '/building/', body });
@@ -608,7 +691,7 @@ function cookingPage(lang) {
     <div class="table-scroll"><table>
       <thead><tr><th>${lang === 'th' ? 'เมนู' : 'Dish'}</th><th>PP</th><th>${lang === 'th' ? 'วัตถุดิบหลัก' : 'Main'}</th><th>${lang === 'th' ? 'วัตถุดิบเสริม' : 'Secondary'}</th></tr></thead>
       <tbody>${cooking.filter(c => c.type === ty).map(c => `<tr>
-        <td><strong>${esc(c.name)}</strong>${lang === 'th' && G(c.name) ? `<div class="gloss">${esc(G(c.name))}</div>` : ''}<div style="font-size:.82rem;color:var(--muted)">${esc(c.desc)}</div></td>
+        <td><div class="cell-item">${cellPic(c.img)}<div><strong>${esc(c.name)}</strong>${lang === 'th' && G(c.name) ? `<div class="gloss">${esc(G(c.name))}</div>` : ''}<div style="font-size:.82rem;color:var(--muted)">${esc(c.desc)}</div></div></div></td>
         <td class="num">${esc(c.pp)}</td><td>${esc(c.main)}</td><td>${c.secondary.map(esc).join('<br>') || '—'}</td></tr>`).join('')}</tbody>
     </table></div></section>`).join('')}
   <section>
@@ -622,6 +705,142 @@ function cookingPage(lang) {
   return layout({ lang, base: BASE, title: t.nav.cooking, desc: 'Pokopia cooking guide', path: '/cooking/', body });
 }
 
+/* ---------------- gifts ----------------
+   The inverse of the Favourites system: what a Pokémon hands *you*. Serebii names the
+   friendship milestones but publishes no gauge values and no rate for the random material
+   gifts, so the stage table describes what changes rather than quoting numbers, and the
+   frequency column says "undocumented" where that is the honest answer. */
+const itemImg = new Map(items.map(i => [i.name.toLowerCase(), i.img]));
+const giftPic = name => cellPic(itemImg.get(String(name).toLowerCase()));
+
+/** a Pokémon chip: sprite + name, linking to its page */
+function monChip(id, fallbackName, lang) {
+  const p = monById.get(id);
+  if (!p) return `<span>${esc(fallbackName)}</span>`;
+  return `<a class="mon-chip" href="${monUrl(lang, p)}"><img src="${sprite(p)}" alt="" loading="lazy" width="34" height="34" decoding="async"><span>${esc(monTitle(p, lang))}</span></a>`;
+}
+
+function giftsPage(lang) {
+  const t = T[lang];
+  const th = lang === 'th';
+  const sec = (title, count, inner) => `<section><div class="sec-title"><h2>${esc(title)}</h2><span>${count}</span></div>${inner}</section>`;
+  const litter = gifts.filter(g => g.kind === 'litter');
+  const emote = gifts.filter(g => g.kind === 'emote');
+  const story = gifts.filter(g => g.kind === 'item');
+
+  /* the five milestones Serebii describes, in order. No numbers are quoted because none
+     are published — each row says what visibly changes instead. */
+  const STAGES = [
+    [th ? '1 · เพิ่งรู้จัก' : '1 · Just met',
+      th ? 'ย้ายเข้ามาใหม่ ยังอยู่ห่าง ๆ' : 'Newly moved in, still keeps its distance',
+      th ? 'ยังไม่ให้อะไร — แต่ถ้ามีความถนัด Litter มันเริ่มทิ้งของแถวบ้านตั้งแต่วันแรก'
+        : 'Nothing yet — but if it has the Litter specialty, the drops start from day one',
+      th ? 'Litter: ต่อเนื่อง' : 'Litter: continuous'],
+    [th ? '2 · เริ่มคุ้นเคย' : '2 · Warming up',
+      th ? 'เริ่มชวนเล่นเกม ควิซและ Look This Way' : 'Starts proposing games — quizzes and Look This Way',
+      th ? 'ยังไม่ให้ของ แต่การเล่นเกมเป็นวิธีดันค่าที่เร็วที่สุดวิธีหนึ่ง'
+        : 'Still no gifts, but the games are one of the fastest ways to push the gauge',
+      th ? 'มันเข้ามาชวนเอง' : 'It approaches you'],
+    [th ? '3 · สนิทระดับหนึ่ง' : '3 · Friendly',
+      th ? 'ดูดีใจเวลาเจอคุณ' : 'Looks pleased to see you',
+      th ? 'เริ่มเอาวัสดุที่หามาได้มาให้เองโดยไม่ต้องขอ' : 'Starts handing over materials it has found, unprompted',
+      th ? 'ไม่มีข้อมูลความถี่' : 'Rate undocumented'],
+    [th ? '4 · สนิทมาก' : '4 · Close',
+      th ? 'เลิกเรียก "ดิตโต้" เปลี่ยนมาเรียกชื่อจริงของคุณ' : 'Drops "Ditto" and calls you by your given name',
+      th ? 'โปเกมอน 15 ตัวที่มีอิโมตจะให้ในช่วงนี้' : 'The fifteen Pokémon with an emote hand it over around here',
+      th ? 'อิโมต: ครั้งเดียว' : 'Emote: once'],
+    [th ? '5 · เพื่อนซี้' : '5 · Best Friends',
+      th ? 'เดินมาบอกคุณเองว่าเป็นเพื่อนซี้แล้ว' : 'Comes to you and announces it',
+      th ? 'เครื่องหมาย Best Friend ในหน้าโปเกเด็กซ์ และนับรวมในเช็กลิสต์ 100%'
+        : 'A Best Friend mark on its Pokédex entry, and a tick on the 100% checklist',
+      th ? 'ครั้งเดียว' : 'Once'],
+  ];
+
+  const body = `${crumb(lang, [[t.nav.gifts]])}
+<div class="wrap stack" style="--gap:20px">
+  <h1>${esc(t.nav.gifts)}</h1>
+  <p class="lede">${th
+      ? 'ด้านกลับของระบบของโปรด — ไม่ใช่ของที่เราให้มัน แต่เป็นของที่มันให้เรา ใครให้อะไร ตอนไหน และบ่อยแค่ไหน'
+      : 'The other side of the Favourites system — not what you give them, but what they give you: who gives what, at which stage, and how often.'}</p>
+  <p class="note">${th
+      ? 'เกมแสดงความสนิทเป็นเกจ ไม่ใช่ตัวเลข และไม่มีแหล่งข้อมูลทางการที่ระบุความถี่ของการให้วัสดุแบบสุ่ม หน้านี้จึงลงเฉพาะสิ่งที่ยืนยันได้ และเขียนว่า "ไม่มีข้อมูล" ตรงที่ยังไม่มีใครบันทึกไว้ แทนที่จะเดาตัวเลข'
+      : 'The game shows friendship as a gauge, not a number, and no official source gives a rate for the random material gifts. This page lists only what is pinned down, and says "undocumented" where that is the honest answer rather than guessing.'}</p>
+
+  ${sec(th ? 'ห้าระดับความสนิท' : 'The five stages', STAGES.length, `<div class="table-scroll"><table>
+    <thead><tr><th>${th ? 'ระดับ' : 'Stage'}</th><th>${th ? 'สิ่งที่เปลี่ยน' : 'What changes'}</th><th>${th ? 'ของที่ได้' : 'What you get'}</th><th>${th ? 'ความถี่' : 'Frequency'}</th></tr></thead>
+    <tbody>${STAGES.map(r => `<tr><td><strong>${esc(r[0])}</strong></td><td>${esc(r[1])}</td><td>${esc(r[2])}</td><td>${esc(r[3])}</td></tr>`).join('')}</tbody>
+  </table></div>`)}
+
+  ${sec(th ? 'ของที่ทิ้งไว้จากความถนัด Litter' : 'Litter drops', litter.length, `
+  <p class="note">${th
+      ? 'มาจากความถนัด ไม่ใช่ค่าความสนิท เริ่มตั้งแต่วันที่มันย้ายเข้ามา และทิ้งซ้ำเรื่อย ๆ ใกล้บ้านของมัน เก็บได้ไม่จำกัด'
+      : 'Driven by the specialty, not by friendship: it starts the day the Pokémon moves in and repeats near its home indefinitely.'}</p>
+  <div class="table-scroll"><table>
+    <thead><tr><th>${th ? 'โปเกมอน' : 'Pokémon'}</th><th>${th ? 'ของที่ได้' : 'Drops'}</th><th>${th ? 'ความถี่' : 'Frequency'}</th></tr></thead>
+    <tbody>${litter.map(g => `<tr>
+      <td>${monChip(g.mon, g.name, lang)}</td>
+      <td>${g.gives.map(x => `<div class="cell-item">${giftPic(x)}<div><strong>${esc(x)}</strong>${th && G(x) ? `<div class="gloss">${esc(G(x))}</div>` : ''}</div></div>`).join('')}</td>
+      <td>${th ? 'ซ้ำเรื่อย ๆ ใกล้บ้าน' : 'Repeats, near its home'}</td></tr>`).join('')}</tbody>
+  </table></div>`)}
+
+  ${sec(th ? 'อิโมตที่ได้ตอนสนิทมาก' : 'Emote gifts', emote.length, `
+  <p class="note">${th
+      ? 'ได้ครั้งเดียวต่อหนึ่งตัว เมื่อความสนิทขึ้นถึงระดับสูง อีก 33 อิโมตที่เหลือมาจาก Human Record หรือจากการเชิญโปเกมอนของผู้เล่นอื่นมาเยี่ยม'
+      : 'One-off, handed over once friendship is high. The other 33 emotes come from Human Records or from having another player’s Pokémon visit.'}</p>
+  <div class="table-scroll"><table>
+    <thead><tr><th>${th ? 'โปเกมอน' : 'Pokémon'}</th><th>${th ? 'อิโมต' : 'Emote'}</th><th>${th ? 'ความถี่' : 'Frequency'}</th></tr></thead>
+    <tbody>${emote.map(g => `<tr>
+      <td>${monChip(g.mon, g.name, lang)}</td>
+      <td><strong>${esc(g.gives.join(', '))}</strong></td>
+      <td>${th ? 'ครั้งเดียว · ระดับ 4' : 'Once · stage 4'}</td></tr>`).join('')}</tbody>
+  </table></div>`)}
+
+  ${story.length ? sec(th ? 'ไอเทมจากตัวละครในเนื้อเรื่อง' : 'Item gifts from story characters', story.length, `<div class="table-scroll"><table>
+    <thead><tr><th>${th ? 'ผู้ให้' : 'Giver'}</th><th>${th ? 'ของที่ได้' : 'Gives'}</th><th>${th ? 'ความถี่' : 'Frequency'}</th></tr></thead>
+    <tbody>${story.map(g => `<tr>
+      <td>${monChip(g.mon, g.name, lang)}</td>
+      <td>${g.gives.map(x => `<div class="cell-item">${giftPic(x)}<div><strong>${esc(x)}</strong></div></div>`).join('')}</td>
+      <td>${th ? 'ตามเนื้อเรื่อง' : 'Story-driven'}</td></tr>`).join('')}</tbody>
+  </table></div>`) : ''}
+
+  ${sec(th ? 'ความถนัดที่ต้องแลก ไม่ใช่ของขวัญ' : 'Specialties that trade rather than give', EXCHANGES.length, `
+  <p class="note">${th
+      ? 'สี่อย่างนี้ให้ของกับคุณเหมือนกัน แต่ต้องเอาของไปให้ก่อน จึงนับเป็นการแลก ไม่ใช่ของขวัญ'
+      : 'These also hand you things, but you have to put something in first — they are exchanges, not gifts.'}</p>
+  <div class="rows">${EXCHANGES.map(([id, en, thai]) => {
+        const s = specialties.find(x => x.id === id);
+        const mons = pokemon.filter(p => p.specialties.includes(id));
+        return dataRow({
+          name: s ? specName(s, lang) : id, desc: th ? thai : en, kind: 'package', lang,
+          meta: mons.slice(0, 12).map(m => `<a class="tag" href="${monUrl(lang, m)}">${esc(monTitle(m, lang))}</a>`).join('') +
+            (mons.length > 12 ? `<span>+${mons.length - 12}</span>` : ''),
+        });
+      }).join('')}</div>`)}
+
+  <p class="note">${th
+      ? 'ข้อมูลจาก Serebii (หน้า Friendship, Favorites, Emotes, Litter Rewards และ Collect Trades) — ดูวิธีดันค่าความสนิทให้เร็วขึ้นได้ที่คู่มือมิตรภาพ'
+      : 'Compiled from Serebii’s Friendship, Favorites, Emotes, Litter Rewards and Collect Trades pages — see the friendship guide for how to push the gauge faster.'}</p>
+  <nav class="grid g-2">
+    <a class="card" href="${BASE}/${lang}/guide/friendship/"><div style="font-size:.8rem;color:var(--muted)">${esc(t.nav.basics)}</div><div style="font-weight:600">${esc(L(lang, GUIDES.find(x => x.slug === 'friendship').title))}</div></a>
+    <a class="card" href="${BASE}/${lang}/specialties/"><div style="font-size:.8rem;color:var(--muted)">${esc(t.nav.pokedex)}</div><div style="font-weight:600">${esc(t.nav.specialties)}</div></a>
+  </nav>
+</div>`;
+  return layout({
+    lang, base: BASE, title: t.nav.gifts, path: '/gifts/',
+    desc: th ? 'ของขวัญที่โปเกมอนให้คุณใน Pokémon Pokopia — ใครให้อะไร ตอนไหน และบ่อยแค่ไหน'
+      : 'Every gift Pokémon give you in Pokémon Pokopia — who gives what, at which friendship stage, and how often.',
+    body,
+  });
+}
+
+/* the four specialties that hand you goods in exchange for something */
+const EXCHANGES = [
+  ['gather-honey', 'Bring it honey and it gives you special furniture in return.', 'เอาน้ำผึ้งไปให้ แล้วมันจะให้เฟอร์นิเจอร์พิเศษกลับมา'],
+  ['collect', 'Gimmighoul and Gholdengo turn Rainbow and Silver Feathers — and unwanted appraised Lost Relics — into Gamer, Luxury, Poké Ball, Cute and Antique items, music mats and rare materials such as Strange Strings.', 'กิมมิโกลกับโกลเดนโกเปลี่ยน Rainbow Feather, Silver Feather และ Lost Relic ที่ประเมินแล้วแต่ไม่อยากเก็บ ให้กลายเป็นของหมวด Gamer, Luxury, Poké Ball, Cute, Antique รวมถึงเสื่อดนตรีและวัสดุหายากอย่าง Strange Strings'],
+  ['trade', 'Sets up shop at a powered cash register. Items matching the trader’s favourites are worth 50% more on the scale.', 'มาตั้งร้านตรงเครื่องคิดเงินที่ต่อไฟ ของที่ตรงกับของโปรดของพ่อค้าจะมีมูลค่าบนตาชั่งเพิ่มขึ้น 50%'],
+  ['rarify', 'Turns Star Pieces into rare Pokémetal.', 'เปลี่ยน Star Piece ให้เป็น Pokémetal หายาก'],
+];
+
 function collectionsPage(lang) {
   const t = T[lang];
   const sec = (title, count, inner) => `<section><div class="sec-title"><h2>${esc(title)}</h2><span>${count}</span></div>${inner}</section>`;
@@ -634,10 +853,10 @@ function collectionsPage(lang) {
 
   ${sec(lang === 'th' ? 'ซีดีเพลง' : 'Music CDs', cds.length, `<div class="table-scroll"><table>
     <thead><tr><th>${lang === 'th' ? 'ชื่อ' : 'Track'}</th><th>${lang === 'th' ? 'จากเกม' : 'From'}</th><th>${lang === 'th' ? 'พบที่' : 'Found in'}</th></tr></thead>
-    <tbody>${cds.map(c => `<tr><td><strong>${esc(c.name)}</strong><div style="font-size:.8rem;color:var(--muted)">${esc(c.desc)}</div></td><td>${esc(c.game)}</td><td>${c.sources.map(esc).join('<br>')}</td></tr>`).join('')}</tbody></table></div>`)}
+    <tbody>${cds.map(c => `<tr><td><div class="cell-item">${cellPic(c.img)}<div><strong>${esc(c.name)}</strong><div style="font-size:.8rem;color:var(--muted)">${esc(c.desc)}</div></div></div></td><td>${esc(c.game)}</td><td>${c.sources.map(esc).join('<br>')}</td></tr>`).join('')}</tbody></table></div>`)}
 
   ${sec('Lost Relics', lostrelics.length, `<div class="rows">${lostrelics.map(r => dataRow({
-        name: r.name, gloss: G(r.name), desc: r.desc, kind: 'star', lang, cat: r.kind,
+        name: r.name, gloss: G(r.name), desc: r.desc, kind: 'star', pic: itemPic(r.img), lang, cat: r.kind,
         meta: `<span class="tag tag-clay">${esc(r.kind)}</span>`
       })).join('')}</div>`)}
 
@@ -783,6 +1002,7 @@ function searchIndex(lang) {
     const g = lang === 'th' ? G(x.name) : '';
     out.push({
       n: x.name, s: g || (sub ? sub(x) : ''), u: typeof url === 'function' ? url(x) : url, k: kind,
+      ...(itemPic(x.img) ? { i: `/sprites/items/${encodeURIComponent(x.img)}` } : {}),
       q: (x.name + (g ? ' ' + g : '')).toLowerCase(),
     });
   });
@@ -791,6 +1011,7 @@ function searchIndex(lang) {
     out.push({
       n: `#${String(h.no).padStart(3, '0')} ${h.name}`, s: gl || h.req.join(' · '),
       u: `/${lang}/habitats/#h${h.dex}-${h.no}`, k: t.nav.habitats,
+      ...(habPic(h.img) ? { i: `/sprites/habitats/${encodeURIComponent(h.img)}` } : {}),
       q: (h.name + (gl ? ' ' + gl : '') + ' ' + h.mons.map(id => (monById.get(id) || {}).name || '').join(' ')).toLowerCase(),
     });
   });
@@ -804,6 +1025,11 @@ function searchIndex(lang) {
   moves.forEach(m => out.push({ n: moveName(m, lang), s: moveEffect(m, lang), u: `/${lang}/moves/#${m.id}`, k: t.nav.moves, q: moveName(m, lang).toLowerCase() }));
   specialties.forEach(s => out.push({ n: specName(s, lang), s: specDesc(s, lang), u: `/${lang}/specialties/#${s.id}`, k: t.nav.specialties, q: specName(s, lang).toLowerCase() }));
   GUIDES.forEach(g => out.push({ n: L(lang, g.title), s: L(lang, g.summary), u: `/${lang}/guide/${g.slug}/`, k: t.nav.basics, q: L(lang, g.title).toLowerCase() }));
+  out.push({
+    n: t.nav.gifts, u: `/${lang}/gifts/`, k: t.nav.basics,
+    s: lang === 'th' ? 'ใครให้อะไร ตอนไหน และบ่อยแค่ไหน' : 'Who gives what, at which stage, and how often',
+    q: (t.nav.gifts + ' gifts litter emote ของขวัญ').toLowerCase(),
+  });
   LOCATIONS.forEach(l => out.push({ n: L(lang, l.name), s: L(lang, l.based), u: `/${lang}/location/${l.id}/`, k: t.nav.locations, q: (L(lang, l.name) + ' ' + l.id).toLowerCase() }));
   CHARACTERS.forEach(c => out.push({ n: L(lang, c.name), s: L(lang, c.role), u: `/${lang}/characters/#${c.id}`, k: t.nav.characters, i: `/sprites/small/${c.natdex}.png`, q: L(lang, c.name).toLowerCase() }));
   return out;
@@ -843,6 +1069,7 @@ for (const lang of LANGS) {
   write(`${lang}/story`, storyPage(lang));
   write(`${lang}/building`, buildingPage(lang));
   write(`${lang}/cooking`, cookingPage(lang));
+  write(`${lang}/gifts`, giftsPage(lang));
   write(`${lang}/collections`, collectionsPage(lang));
   write(`${lang}/events`, eventsPage(lang));
   write(`${lang}/updates`, updatesPage(lang));

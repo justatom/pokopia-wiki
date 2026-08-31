@@ -13,3 +13,10 @@ _research/received.json
 node_modules/
 .DS_Store
 Thumbs.db
+
+# item icons and habitat pictures — re-downloaded by `npm run sprites`
+src/sprites/items/
+src/sprites/habitats/
+# whole Bulbapedia species pages, fetched only to fill the Basin gaps in likes.json —
+# the parsed _research/likes.json is committed, these 2 MB of source are not
+_research/bulba_spin_*.json

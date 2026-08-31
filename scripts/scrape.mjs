@@ -10,6 +10,9 @@ import path from 'node:path';
 
 const R = '_research';
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36';
+/* Serebii wants a browser User-Agent; Bulbapedia's Cloudflare rule does the opposite and
+   challenges browser-looking ones on api.php, so identify as a script there. */
+const BULBA_UA = 'PokopiaWiki/1.0 (static site build script for a Pokémon Pokopia fan wiki)';
 const PARSE_ONLY = process.argv.includes('--parse');
 fs.mkdirSync(`${R}/serebii`, { recursive: true });
 
@@ -66,11 +69,24 @@ function rows(html) {
   return out.filter(r => r.length);
 }
 
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+/* Serebii closes the connection when a run gets ahead of itself, so retry with backoff
+   rather than losing a page to one dropped socket. */
 const get = async (url, dest) => {
   if (PARSE_ONLY && fs.existsSync(dest)) return;
-  const r = await fetch(url, { headers: { 'User-Agent': UA } });
-  if (!r.ok) { console.error('  !', r.status, url); return; }
-  fs.writeFileSync(dest, Buffer.from(await r.arrayBuffer()));
+  for (let attempt = 1; ; attempt++) {
+    try {
+      const r = await fetch(url, { headers: { 'User-Agent': UA } });
+      if (r.status === 404) { console.error('  ! 404', url); return; }
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      fs.writeFileSync(dest, Buffer.from(await r.arrayBuffer()));
+      return;
+    } catch (e) {
+      if (attempt === 4) { console.error('  !', String(e.message || e), url); return; }
+      await sleep(800 * attempt * attempt);
+    }
+  }
 };
 
 /* ------------------------------------------------------------------ */
@@ -84,6 +100,16 @@ if (!PARSE_ONLY) {
   for (const p of SEREBII) await get(`https://www.serebii.net/pokemonpokopia/${p}.shtml`, `${R}/serebii/${p}.html`);
   for (const p of SEREBII_LOC) await get(`https://www.serebii.net/pokemonpokopia/locations/${p}.shtml`, `${R}/serebii/loc_${p}.html`);
   await get('https://www.serebii.net/pokemonpokopia/expansionpass/bubblybasin.shtml', `${R}/serebii/exp_bubblybasin.html`);
+}
+
+/* One subpage per favourite category, linked from favorites.shtml. Each lists the items
+   in that category and the Pokémon that like it. Serebii marks the item halves as work in
+   progress, so the counts are a floor, not a total. */
+if (!PARSE_ONLY && fs.existsSync(`${R}/serebii/favorites.html`)) {
+  const idx = fs.readFileSync(`${R}/serebii/favorites.html`, 'latin1');
+  const cats = [...new Set([...idx.matchAll(/href="\/pokemonpokopia\/favorites\/([a-z0-9-]+)\.shtml"/g)].map(m => m[1]))];
+  console.log(`fetching ${cats.length} favourite categories…`);
+  for (const c of cats) await get(`https://www.serebii.net/pokemonpokopia/favorites/${c}.shtml`, `${R}/serebii/fav_${c}.html`);
 }
 
 console.log('parsing Serebii…');
@@ -151,13 +177,108 @@ for (const [key, page] of Object.entries(DEX_PAGES)) {
   if (!PARSE_ONLY || !fs.existsSync(cache)) {
     const u = new URL('https://bulbapedia.bulbagarden.net/w/api.php');
     u.search = new URLSearchParams({ action: 'parse', page, prop: 'wikitext', format: 'json', formatversion: '2' });
-    const r = await fetch(u, { headers: { 'User-Agent': UA } });
+    const r = await fetch(u, { headers: { 'User-Agent': BULBA_UA } });
     fs.writeFileSync(cache, JSON.stringify(await r.json()));
   }
   dex[key] = parseDex(JSON.parse(fs.readFileSync(cache, 'utf8')).parse.wikitext);
   console.log(`  ${key}: ${dex[key].length} rows`);
 }
 fs.writeFileSync(`${R}/dex.json`, JSON.stringify(dex, null, 1));
+
+/* ------------------------------------------------------------------ */
+/* 2b. Bulbapedia — ideal habitat, favourite categories, flavour       */
+/* ------------------------------------------------------------------ */
+/* "List of Pokémon by likes" covers the main and event dexes in one table. The Basin
+   dex is not on it, so anything still missing is picked up from the {{Spindata/Pokopia}}
+   block on that species' own page, which carries the same fields. */
+/* Bulbapedia serves an HTML error page rather than JSON once it decides you are going
+   too fast, so pace the calls and retry rather than poisoning the cache with garbage. */
+async function bulba(page, cache) {
+  if (!fs.existsSync(cache)) {
+    const u = new URL('https://bulbapedia.bulbagarden.net/w/api.php');
+    u.search = new URLSearchParams({ action: 'parse', page, prop: 'wikitext', format: 'json', formatversion: '2', redirects: '1' });
+    for (let attempt = 1; ; attempt++) {
+      await sleep(700);
+      try {
+        const body = await (await fetch(u, { headers: { 'User-Agent': BULBA_UA } })).text();
+        if (!body.startsWith('{')) throw new Error('not JSON (rate limited?)');
+        JSON.parse(body);
+        fs.writeFileSync(cache, body);
+        break;
+      } catch (e) {
+        if (attempt === 4) { console.error('  !', page, String(e.message || e)); return ''; }
+        await sleep(3000 * attempt);
+      }
+    }
+  }
+  const j = JSON.parse(fs.readFileSync(cache, 'utf8'));
+  return j.parse ? j.parse.wikitext : '';
+}
+
+/** the alternate-form label a row carries, e.g. "West Sea", "Professor"; '' for the base form */
+const formLabel = chunk => {
+  const m = chunk.match(/<small>\((.*?)\)<\/small>/);
+  return m ? m[1].replace(/\[\[[^|\]]*\|?/g, '').replace(/\]\]/g, '').trim() : '';
+};
+
+console.log('fetching Bulbapedia likes…');
+const likes = {};
+{
+  const wiki = await bulba('List of Pokémon by likes', `${R}/bulba_likes.json`);
+  for (const chunk of wiki.split(/^\|-$/m)) {
+    const no = chunk.match(/data-sort-value="(\d+)"/);
+    const msp = chunk.match(/\{\{MSP(?:\/Pokopia)?\|(\d+)\|([^|}]+)/);
+    const hab = chunk.match(/\{\{OBP\|([A-Za-z]+)\|habitat\}\}/);
+    if (!no || !msp || !hab) continue;
+    // the favourites are the one row line that is plain text: "A || B || … || F flavors"
+    const line = chunk.split(/\r?\n/).find(l => l.includes(' || ') && !l.includes('{{'));
+    if (!line) continue;
+    const cells = line.replace(/^\|\s*/, '').split('||').map(x => x.trim()).filter(Boolean);
+    if (cells.length !== 6) continue;
+    // dex number + national number is not unique on its own: Shellos, Tatsugiri and the
+    // seven unique story Pokémon each have two rows under one number.
+    likes[`${+no[1]}|${+msp[1]}|${formLabel(chunk)}`] = {
+      ambience: hab[1],
+      favorites: cells.slice(0, 5),
+      flavor: cells[5].replace(/\s*flavors?$/i, ''),
+    };
+  }
+  console.log(`  likes table: ${Object.keys(likes).length} rows`);
+}
+
+/* fill the gaps (Basin dex) from each species page's Spindata block */
+{
+  const want = new Map();   // species page -> [{no, natdex}]
+  for (const [key, rows] of Object.entries(dex)) {
+    if (key === 'main' || key === 'event') continue;
+    for (const r of rows) if (!likes[`${r.no}|${r.natdex}|${r.form || ''}`]) {
+      const page = `${r.name} (Pokémon)`;
+      if (!want.has(page)) want.set(page, []);
+      want.get(page).push(r);
+    }
+  }
+  console.log(`  ${want.size} species pages still needed`);
+  for (const [page, rows] of want) {
+    const wiki = await bulba(page, `${R}/bulba_spin_${page.replace(/[^A-Za-z0-9]+/g, '_')}.json`);
+    const blocks = [...wiki.matchAll(/\{\{Spindata\/Pokopia\b([\s\S]*?)^\}\}/gm)]
+      .map(m => Object.fromEntries([...m[1].matchAll(/^\|([a-z0-9]+)=(.*)$/gm)].map(x => [x[1], x[2].trim()])))
+      .filter(f => f.idealhabitat);
+    for (const r of rows) {
+      const same = blocks.filter(f => +f.pokodex === r.no && +f.ndex === r.natdex);
+      // a species page carries one block per form; with only one there is nothing to pick
+      const f = same.length === 1 ? same[0]
+        : same.find(x => (x.form || '').toLowerCase() === String(r.form || '').toLowerCase());
+      if (!f) { console.error(`  ! no Spindata for ${page} #${r.no}${r.form ? ` (${r.form})` : ''}`); continue; }
+      likes[`${r.no}|${r.natdex}|${r.form || ''}`] = {
+        ambience: f.idealhabitat,
+        favorites: [1, 2, 3, 4, 5].map(i => f[`favorite${i}`]).filter(Boolean),
+        flavor: (f.flavor || '').replace(/\s*flavors?$/i, ''),
+      };
+    }
+  }
+}
+fs.writeFileSync(`${R}/likes.json`, JSON.stringify(likes, null, 1));
+console.log(`  ${Object.keys(likes).length} Pokémon with likes`);
 
 /* ------------------------------------------------------------------ */
 /* 3. PokéAPI — Japanese names, genus, colour                          */

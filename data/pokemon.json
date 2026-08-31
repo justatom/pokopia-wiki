@@ -19,10 +19,20 @@
    "grow"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of nature",
+   "Soft stuff",
+   "Cute stuff",
+   "Lots of water",
+   "Group activities"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "001-tall-grass",
    "022-bench-with-greenery"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -44,10 +54,20 @@
    "grow"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of nature",
+   "Soft stuff",
+   "Cute stuff",
+   "Pretty flowers",
+   "Colorful stuff"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "011-field-of-flowers",
    "022-bench-with-greenery"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -72,10 +92,20 @@
   "litter": [
    "Leaf"
   ],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of nature",
+   "Soft stuff",
+   "Cute stuff",
+   "Pretty flowers",
+   "Luxury"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "011-field-of-flowers",
    "046-garden-terrace"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -96,9 +126,19 @@
    "burn"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of fire",
+   "Wooden stuff",
+   "Hard stuff",
+   "Exercise",
+   "Group activities"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "001-tall-grass"
-  ]
+  ],
+  "gift": "Thankful"
  },
  {
   "dex": "main",
@@ -119,9 +159,19 @@
    "burn"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of fire",
+   "Wooden stuff",
+   "Hard stuff",
+   "Exercise",
+   "Rides"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "017-campsite"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -144,10 +194,20 @@
    "fly"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of fire",
+   "Nice breezes",
+   "Wooden stuff",
+   "Exercise",
+   "Luxury"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "001-tall-grass",
    "040-berry-feast-campsite"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -168,10 +228,20 @@
    "water"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Cleanliness",
+   "Healing",
+   "Cute stuff",
+   "Group activities"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "001-tall-grass",
    "004-hydrated-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -192,9 +262,19 @@
    "water"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Cleanliness",
+   "Healing",
+   "Exercise",
+   "Hard stuff"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "004-hydrated-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -216,10 +296,20 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Cleanliness",
+   "Healing",
+   "Exercise",
+   "Luxury"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "004-hydrated-tall-grass",
    "036-floating-in-the-shade"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -242,10 +332,20 @@
    "search"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Soft stuff",
+   "Nice breezes",
+   "Watching stuff",
+   "Lots of nature",
+   "Play spaces"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "006-elevated-tall-grass",
    "008-pretty-flower-bed"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -268,10 +368,20 @@
    "search"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Soft stuff",
+   "Nice breezes",
+   "Watching stuff",
+   "Lots of nature",
+   "Looks like food"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "006-elevated-tall-grass",
    "008-pretty-flower-bed"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -294,9 +404,19 @@
    "chop"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Soft stuff",
+   "Nice breezes",
+   "Wooden stuff",
+   "Lots of nature",
+   "Luxury"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "039-luxury-chirp-chirp-meal"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -318,9 +438,19 @@
    "grow"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of nature",
+   "Lots of dirt",
+   "Soft stuff",
+   "Pretty flowers",
+   "Lots of water"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "001-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -342,9 +472,19 @@
    "grow"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of nature",
+   "Lots of dirt",
+   "Soft stuff",
+   "Pretty flowers",
+   "Garbage"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "057-tropical-vibes"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -369,9 +509,19 @@
   "litter": [
    "Leaf"
   ],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of nature",
+   "Lots of dirt",
+   "Soft stuff",
+   "Pretty flowers",
+   "Colorful stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "034-chansey-resting-area"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -393,9 +543,19 @@
    "hype"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of nature",
+   "Pretty flowers",
+   "Play spaces",
+   "Cute stuff",
+   "Noisy stuff"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "034-chansey-resting-area"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -417,10 +577,20 @@
    "search"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of nature",
+   "Wooden stuff",
+   "Watching stuff",
+   "Lots of dirt",
+   "Looks like food"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "012-elevated-flower-bed",
    "014-flower-garden"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -442,10 +612,20 @@
    "search"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of nature",
+   "Wooden stuff",
+   "Watching stuff",
+   "Lots of dirt",
+   "Strange stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "012-elevated-flower-bed",
    "014-flower-garden"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -467,10 +647,20 @@
    "search"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of nature",
+   "Wooden stuff",
+   "Watching stuff",
+   "Complicated stuff",
+   "Letters and words"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "007-illuminated-tall-grass",
    "023-illuminated-bench"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -492,10 +682,20 @@
    "search"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of nature",
+   "Wooden stuff",
+   "Watching stuff",
+   "Nice breezes",
+   "Pretty flowers"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "007-illuminated-tall-grass",
    "023-illuminated-bench"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -520,9 +720,19 @@
   "litter": [
    "Vine Rope"
   ],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of nature",
+   "Wooden stuff",
+   "Lots of dirt",
+   "Lots of water",
+   "Pretty flowers"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "002-tree-shaded-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -547,10 +757,20 @@
   "litter": [
    "Vine Rope"
   ],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of nature",
+   "Wooden stuff",
+   "Lots of dirt",
+   "Colorful stuff",
+   "Pretty flowers"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "021-flowery-table",
    "035-irresistible-scent-and-glow"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -573,10 +793,20 @@
    "chop"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of nature",
+   "Wooden stuff",
+   "Lots of dirt",
+   "Colorful stuff",
+   "Pretty flowers"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "021-flowery-table",
    "035-irresistible-scent-and-glow"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -599,9 +829,19 @@
    "yawn"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Cleanliness",
+   "Strange stuff",
+   "Soft stuff",
+   "Healing"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "005-seaside-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -624,11 +864,21 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Cleanliness",
+   "Strange stuff",
+   "Group activities",
+   "Healing"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "005-seaside-tall-grass",
    "030-bed-with-a-plush",
    "184-fishing-pond"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -651,11 +901,21 @@
    "teleport"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Cleanliness",
+   "Strange stuff",
+   "Group activities",
+   "Healing"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "005-seaside-tall-grass",
    "030-bed-with-a-plush",
    "184-fishing-pond"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -677,9 +937,19 @@
    "generate"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Electronics",
+   "Metal stuff",
+   "Shiny stuff",
+   "Hard stuff",
+   "Group activities"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "038-factory-storage"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -701,10 +971,20 @@
    "generate"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Electronics",
+   "Metal stuff",
+   "Shiny stuff",
+   "Gatherings",
+   "Group activities"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "064-trash-can-central",
    "085-mini-game-corner"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -727,10 +1007,20 @@
    "recycle"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Electronics",
+   "Metal stuff",
+   "Luxury",
+   "Gatherings",
+   "Hard stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "064-trash-can-central",
    "085-mini-game-corner"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -753,9 +1043,19 @@
    "bulldoze"
   ],
   "litter": [],
+  "ambience": "Dry",
+  "favorites": [
+   "Stone stuff",
+   "Lots of dirt",
+   "Blocky stuff",
+   "Slender objects",
+   "Exercise"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "037-smooth-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -778,9 +1078,19 @@
    "bulldoze"
   ],
   "litter": [],
+  "ambience": "Dry",
+  "favorites": [
+   "Metal stuff",
+   "Lots of dirt",
+   "Stone stuff",
+   "Slender objects",
+   "Hard stuff"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "117-clink-clang-iron-construction"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -801,9 +1111,19 @@
    "build"
   ],
   "litter": [],
+  "ambience": "Dry",
+  "favorites": [
+   "Lots of dirt",
+   "Construction",
+   "Exercise",
+   "Slender objects",
+   "Group activities"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "013-grave-with-flowers"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -824,9 +1144,19 @@
    "build"
   ],
   "litter": [],
+  "ambience": "Dry",
+  "favorites": [
+   "Lots of dirt",
+   "Construction",
+   "Exercise",
+   "Slender objects",
+   "Luxury"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "013-grave-with-flowers"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -847,9 +1177,19 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Exercise",
+   "Group activities",
+   "Fabric",
+   "Stone stuff",
+   "Round stuff"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "018-training-waterfall"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -870,9 +1210,19 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Exercise",
+   "Group activities",
+   "Fabric",
+   "Stone stuff",
+   "Round stuff"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "025-urgent-care"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -893,9 +1243,19 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Exercise",
+   "Group activities",
+   "Fabric",
+   "Stone stuff",
+   "Round stuff"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "024-exercise-resting-spot"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -916,9 +1276,19 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Exercise",
+   "Group activities",
+   "Fabric",
+   "Stone stuff",
+   "Round stuff"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "026-gym-first-aid"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -939,9 +1309,19 @@
    "recycle"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Garbage",
+   "Gatherings",
+   "Complicated stuff",
+   "Soft stuff",
+   "Wobbly stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "063-trash-collection-site"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -962,10 +1342,20 @@
    "recycle"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Garbage",
+   "Gatherings",
+   "Complicated stuff",
+   "Soft stuff",
+   "Wobbly stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "048-good-old-fashioned-antiques",
    "063-trash-collection-site"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -989,9 +1379,19 @@
   "litter": [
    "Vine Rope"
   ],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of nature",
+   "Lots of water",
+   "Gatherings",
+   "Pretty flowers",
+   "Slender objects"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "049-nothin-but-poke-balls"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1015,7 +1415,17 @@
   "litter": [
    "Vine Rope"
   ],
-  "habitats": []
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of nature",
+   "Lots of water",
+   "Gatherings",
+   "Pretty flowers",
+   "Watching stuff"
+  ],
+  "flavor": "Bitter",
+  "habitats": [],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1038,9 +1448,19 @@
   "litter": [
    "Vine Rope"
   ],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of nature",
+   "Complicated stuff",
+   "Letters and words",
+   "Strange stuff",
+   "Group activities"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "043-professor-s-treasure-trove"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1062,9 +1482,19 @@
    "chop"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of nature",
+   "Nice breezes",
+   "Wooden stuff",
+   "Sharp stuff",
+   "Exercise"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "002-tree-shaded-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1086,9 +1516,19 @@
    "chop"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of nature",
+   "Metal stuff",
+   "Wooden stuff",
+   "Hard stuff",
+   "Exercise"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "002-tree-shaded-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1110,9 +1550,19 @@
    "build"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of nature",
+   "Wooden stuff",
+   "Pretty flowers",
+   "Sharp stuff",
+   "Exercise"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "002-tree-shaded-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1131,9 +1581,19 @@
   "gen": "generation-i",
   "specialties": [],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Ocean vibes",
+   "Group activities",
+   "Rides",
+   "Wobbly stuff"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "185-ocean-fishing-spot"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1155,9 +1615,19 @@
    "water"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Ocean vibes",
+   "Nice breezes",
+   "Cleanliness",
+   "Slender objects"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "146-illuminated-waterfall"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1178,7 +1648,11 @@
    "transform"
   ],
   "litter": [],
-  "habitats": []
+  "ambience": null,
+  "favorites": [],
+  "flavor": null,
+  "habitats": [],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1201,11 +1675,21 @@
    "fly"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Soft stuff",
+   "Nice breezes",
+   "Fabric",
+   "Wobbly stuff",
+   "Watching stuff"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "006-elevated-tall-grass",
    "008-pretty-flower-bed",
    "031-gently-lit-bed"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1228,10 +1712,20 @@
    "fly"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Soft stuff",
+   "Nice breezes",
+   "Letters and words",
+   "Containers",
+   "Watching stuff"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "006-elevated-tall-grass",
    "031-gently-lit-bed"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1254,9 +1748,19 @@
    "build"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of nature",
+   "Wooden stuff",
+   "Pretty flowers",
+   "Looks like food",
+   "Exercise"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "002-tree-shaded-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1277,9 +1781,19 @@
    "hype"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Lots of nature",
+   "Wooden stuff",
+   "Shiny stuff",
+   "Cute stuff",
+   "Group activities"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "010-hydrated-flower-bed"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1300,9 +1814,19 @@
    "hype"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Lots of nature",
+   "Wooden stuff",
+   "Shiny stuff",
+   "Cute stuff",
+   "Group activities"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "010-hydrated-flower-bed"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1323,9 +1847,19 @@
    "storage"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Cute stuff",
+   "Looks like food",
+   "Round stuff",
+   "Containers",
+   "Colorful stuff"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "019-tantalizing-dining-set"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1346,9 +1880,19 @@
    "storage"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Garbage",
+   "Looks like food",
+   "Round stuff",
+   "Containers",
+   "Colorful stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "120-dinner-table-surprise"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1369,9 +1913,19 @@
    "grow"
   ],
   "litter": [],
+  "ambience": "Dry",
+  "favorites": [
+   "Lots of nature",
+   "Pretty flowers",
+   "Cute stuff",
+   "Round stuff",
+   "Sharp stuff"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "042-sunny-day-site"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1396,9 +1950,19 @@
   "litter": [
    "Sturdy Stick"
   ],
+  "ambience": "Dry",
+  "favorites": [
+   "Lots of nature",
+   "Nice breezes",
+   "Luxury",
+   "Shiny stuff",
+   "Sharp stuff"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "009-tree-shaded-flower-bed"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1422,9 +1986,19 @@
   "litter": [
    "Honey"
   ],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of nature",
+   "Nice breezes",
+   "Wooden stuff",
+   "Gatherings",
+   "Group activities"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "008-pretty-flower-bed"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1447,9 +2021,19 @@
    "search"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of nature",
+   "Nice breezes",
+   "Wooden stuff",
+   "Gatherings",
+   "Complicated stuff"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "011-field-of-flowers"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1470,9 +2054,19 @@
    "water"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Ocean vibes",
+   "Cleanliness",
+   "Colorful stuff",
+   "Containers"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "027-road-sign"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1493,9 +2087,19 @@
    "water"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Ocean vibes",
+   "Cleanliness",
+   "Colorful stuff",
+   "Containers"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "027-road-sign"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1518,9 +2122,19 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Lots of dirt",
+   "Ocean vibes",
+   "Cleanliness",
+   "Containers"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "185-ocean-fishing-spot"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1543,7 +2157,17 @@
    "trade"
   ],
   "litter": [],
-  "habitats": []
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Lots of dirt",
+   "Ocean vibes",
+   "Cleanliness",
+   "Containers"
+  ],
+  "flavor": "Dry",
+  "habitats": [],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1565,11 +2189,21 @@
    "dream-island"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Spooky stuff",
+   "Strange stuff",
+   "Nice breezes",
+   "Cute stuff",
+   "Round stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "016-riding-warm-updrafts",
    "030-bed-with-a-plush",
    "181-plush-central"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1592,9 +2226,19 @@
    "gather"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Spooky stuff",
+   "Strange stuff",
+   "Nice breezes",
+   "Wobbly stuff",
+   "Spinning stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "181-plush-central"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1615,9 +2259,19 @@
    "search"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Lots of dirt",
+   "Stone stuff",
+   "Lots of nature",
+   "Watching stuff",
+   "Sharp stuff"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "015-fresh-veggie-field"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1640,9 +2294,19 @@
    "chop"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Lots of dirt",
+   "Metal stuff",
+   "Exercise",
+   "Watching stuff",
+   "Sharp stuff"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "015-fresh-veggie-field"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1663,9 +2327,19 @@
    "build"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Exercise",
+   "Construction",
+   "Wooden stuff",
+   "Slender objects",
+   "Blocky stuff"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "003-boulder-shaded-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1686,10 +2360,20 @@
    "build"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Exercise",
+   "Construction",
+   "Metal stuff",
+   "Slender objects",
+   "Group activities"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "003-boulder-shaded-tall-grass",
    "028-large-luggage-carrier"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1711,9 +2395,19 @@
    "crush"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Exercise",
+   "Construction",
+   "Stone stuff",
+   "Slender objects",
+   "Group activities"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "177-construction-site-generator"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1735,10 +2429,20 @@
    "burn"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Spooky stuff",
+   "Strange stuff",
+   "Lots of fire",
+   "Wobbly stuff",
+   "Blocky stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "032-grave-offering",
    "033-creepy-grave-offering"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1760,10 +2464,20 @@
    "burn"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Spooky stuff",
+   "Strange stuff",
+   "Lots of fire",
+   "Wobbly stuff",
+   "Containers"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "032-grave-offering",
    "033-creepy-grave-offering"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1785,9 +2499,19 @@
    "burn"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Spooky stuff",
+   "Strange stuff",
+   "Lots of fire",
+   "Wobbly stuff",
+   "Watching stuff"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "033-creepy-grave-offering"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1808,10 +2532,20 @@
    "chop"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Lots of fire",
+   "Luxury",
+   "Lots of dirt",
+   "Hard stuff",
+   "Sharp stuff"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "029-lumberjack-s-workplace",
    "044-cozy-log-handicrafts"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1832,10 +2566,20 @@
    "chop"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Lots of fire",
+   "Luxury",
+   "Lots of dirt",
+   "Exercise",
+   "Sharp stuff"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "029-lumberjack-s-workplace",
    "044-cozy-log-handicrafts"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1859,10 +2603,20 @@
   "litter": [
    "Small log"
   ],
+  "ambience": "Dark",
+  "favorites": [
+   "Lots of fire",
+   "Luxury",
+   "Lots of dirt",
+   "Exercise",
+   "Sharp stuff"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "029-lumberjack-s-workplace",
    "044-cozy-log-handicrafts"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1883,10 +2637,20 @@
    "water"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Luxury",
+   "Lots of nature",
+   "Cleanliness",
+   "Healing"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "009-tree-shaded-flower-bed",
    "041-rain-dance-site"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1907,9 +2671,19 @@
    "water"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Luxury",
+   "Soft stuff",
+   "Cleanliness",
+   "Healing"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "004-hydrated-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1931,9 +2705,19 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Luxury",
+   "Exercise",
+   "Cleanliness",
+   "Healing"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "045-very-berry-space"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1956,9 +2740,19 @@
    "water"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Nice breezes",
+   "Lots of water",
+   "Ocean vibes",
+   "Slender objects",
+   "Looks like food"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "004-hydrated-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -1979,9 +2773,19 @@
    "generate"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Electronics",
+   "Glass stuff",
+   "Cute stuff",
+   "Pretty flowers",
+   "Fabric"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "020-picnic-set"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2002,9 +2806,19 @@
    "generate"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Electronics",
+   "Glass stuff",
+   "Group activities",
+   "Round stuff",
+   "Rides"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "020-picnic-set"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2025,9 +2839,19 @@
    "illuminate"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Electronics",
+   "Glass stuff",
+   "Cute stuff",
+   "Healing",
+   "Letters and words"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "081-full-recovery"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2049,9 +2873,19 @@
    "hype"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Electronics",
+   "Glass stuff",
+   "Group activities",
+   "Round stuff",
+   "Play spaces"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "176-nature-s-market"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2073,10 +2907,20 @@
    "search"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Spooky stuff",
+   "Nice breezes",
+   "Wooden stuff",
+   "Noisy stuff",
+   "Complicated stuff"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "051-tree-shaded-yellow-tall-grass",
    "066-park-bench"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2098,9 +2942,19 @@
    "search"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Spooky stuff",
+   "Nice breezes",
+   "Wooden stuff",
+   "Noisy stuff",
+   "Complicated stuff"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "051-tree-shaded-yellow-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2123,10 +2977,20 @@
    "chop"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Spooky stuff",
+   "Nice breezes",
+   "Wooden stuff",
+   "Garbage",
+   "Watching stuff"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "052-elevated-yellow-tall-grass",
    "065-trash-disposal-site"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2147,10 +3011,20 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Cool",
+  "favorites": [
+   "Containers",
+   "Group activities",
+   "Shiny stuff",
+   "Glass stuff",
+   "Luxury"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "061-resting-spot",
    "091-working-the-register"
-  ]
+  ],
+  "gift": "Guide"
  },
  {
   "dex": "main",
@@ -2172,9 +3046,19 @@
    "search"
   ],
   "litter": [],
+  "ambience": "Cool",
+  "favorites": [
+   "Containers",
+   "Group activities",
+   "Shiny stuff",
+   "Watching stuff",
+   "Luxury"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "179-evil-organization-hq"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2195,9 +3079,19 @@
    "search"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Ocean vibes",
+   "Strange stuff",
+   "Complicated stuff",
+   "Healing"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "078-hot-spring-shower"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2218,9 +3112,19 @@
    "search"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Ocean vibes",
+   "Strange stuff",
+   "Complicated stuff",
+   "Sharp stuff"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "078-hot-spring-shower"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2242,10 +3146,20 @@
    "search"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of fire",
+   "Stone stuff",
+   "Nice breezes",
+   "Letters and words",
+   "Pretty flowers"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "062-perpetual-mess",
    "079-resort-meal-prep"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2267,10 +3181,20 @@
    "search"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of fire",
+   "Stone stuff",
+   "Nice breezes",
+   "Watching stuff",
+   "Symbols"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "129-mini-museum",
    "188-magma-fishing-spot"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2293,9 +3217,19 @@
    "build"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Soft stuff",
+   "Nice breezes",
+   "Wooden stuff",
+   "Slender objects",
+   "Exercise"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "080-all-packed-up"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2318,9 +3252,19 @@
   "litter": [
    "Nonburnable Garbage"
   ],
+  "ambience": "Dark",
+  "favorites": [
+   "Garbage",
+   "Spooky stuff",
+   "Gatherings",
+   "Shiny stuff",
+   "Containers"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "186-marsh-fishing-spot"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2343,9 +3287,19 @@
   "litter": [
    "Nonburnable Garbage"
   ],
+  "ambience": "Dark",
+  "favorites": [
+   "Garbage",
+   "Spooky stuff",
+   "Gatherings",
+   "Shiny stuff",
+   "Colorful stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "186-marsh-fishing-spot"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2368,9 +3322,19 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Spooky stuff",
+   "Strange stuff",
+   "Garbage",
+   "Containers",
+   "Group activities"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "089-spooky-study"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2393,10 +3357,20 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Spooky stuff",
+   "Strange stuff",
+   "Garbage",
+   "Wobbly stuff",
+   "Group activities"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "073-surprise-in-store",
    "089-spooky-study"
-  ]
+  ],
+  "gift": "Peekaboo!"
  },
  {
   "dex": "main",
@@ -2419,9 +3393,19 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Spooky stuff",
+   "Strange stuff",
+   "Garbage",
+   "Rides",
+   "Group activities"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "073-surprise-in-store"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2443,10 +3427,20 @@
    "explode"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Electronics",
+   "Shiny stuff",
+   "Round stuff",
+   "Colorful stuff",
+   "Spinning stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "066-park-bench",
    "090-playing-pirate"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2468,10 +3462,20 @@
    "explode"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Electronics",
+   "Shiny stuff",
+   "Round stuff",
+   "Play spaces",
+   "Spinning stuff"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "066-park-bench",
    "090-playing-pirate"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2494,10 +3498,20 @@
    "teleport"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of nature",
+   "Strange stuff",
+   "Gatherings",
+   "Watching stuff",
+   "Group activities"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "057-tropical-vibes",
    "059-shaded-beach"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2520,10 +3534,20 @@
    "teleport"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of nature",
+   "Strange stuff",
+   "Gatherings",
+   "Watching stuff",
+   "Wooden stuff"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "057-tropical-vibes",
    "059-shaded-beach"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2544,10 +3568,20 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Soft stuff",
+   "Fabric",
+   "Healing",
+   "Round stuff",
+   "Containers"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "082-alarm-clock-sleep-zone",
    "091-working-the-register"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2568,9 +3602,19 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Soft stuff",
+   "Fabric",
+   "Healing",
+   "Round stuff",
+   "Group activities"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "081-full-recovery"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2594,9 +3638,19 @@
   "litter": [
    "Stone"
   ],
+  "ambience": "Bright",
+  "favorites": [
+   "Soft stuff",
+   "Fabric",
+   "Healing",
+   "Round stuff",
+   "Group activities"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "095-cuteness-overload"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2617,9 +3671,19 @@
    "generate"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Electronics",
+   "Glass stuff",
+   "Cute stuff",
+   "Round stuff",
+   "Spinning stuff"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "084-vending-machine-set"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2640,10 +3704,20 @@
    "generate"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Electronics",
+   "Glass stuff",
+   "Lots of fire",
+   "Sharp stuff",
+   "Exercise"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "064-trash-can-central",
    "072-light-up-stage"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2665,10 +3739,20 @@
    "crush"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Electronics",
+   "Glass stuff",
+   "Lots of fire",
+   "Hard stuff",
+   "Exercise"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "072-light-up-stage",
    "084-vending-machine-set"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2690,9 +3774,19 @@
    "water"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Ocean vibes",
+   "Cleanliness",
+   "Watching stuff",
+   "Healing"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "060-tropical-seaside"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2713,10 +3807,20 @@
    "bulldoze"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Soft stuff",
+   "Lots of nature",
+   "Looks like food",
+   "Wobbly stuff",
+   "Group activities"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "030-bed-with-a-plush",
    "047-tree-shaded-snoozing-snorlax"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2738,10 +3842,20 @@
    "bulldoze"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Soft stuff",
+   "Fabric",
+   "Looks like food",
+   "Wobbly stuff",
+   "Rides"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "047-tree-shaded-snoozing-snorlax",
    "048-good-old-fashioned-antiques"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2762,9 +3876,19 @@
    "eat"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Soft stuff",
+   "Fabric",
+   "Looks like food",
+   "Watching stuff",
+   "Strange stuff"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "093-gourmet-s-altar"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2788,9 +3912,19 @@
   "litter": [
    "Twine"
   ],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of nature",
+   "Wooden stuff",
+   "Garbage",
+   "Rides",
+   "Colorful stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "050-yellow-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2814,9 +3948,19 @@
   "litter": [
    "Twine"
   ],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of nature",
+   "Wooden stuff",
+   "Garbage",
+   "Rides",
+   "Colorful stuff"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "050-yellow-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2840,10 +3984,20 @@
   "litter": [
    "Fluff"
   ],
+  "ambience": "Bright",
+  "favorites": [
+   "Electronics",
+   "Shiny stuff",
+   "Glass stuff",
+   "Cute stuff",
+   "Fabric"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "055-overgrowth-vending-machine",
    "077-knitting-station"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2867,10 +4021,20 @@
   "litter": [
    "Fluff"
   ],
+  "ambience": "Bright",
+  "favorites": [
+   "Electronics",
+   "Shiny stuff",
+   "Glass stuff",
+   "Cute stuff",
+   "Rides"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "074-night-festival-venue",
    "077-knitting-station"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2892,9 +4056,19 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Electronics",
+   "Shiny stuff",
+   "Glass stuff",
+   "Cute stuff",
+   "Pretty flowers"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "097-plain-life"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2917,10 +4091,20 @@
    "hype"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Cute stuff",
+   "Cleanliness",
+   "Healing",
+   "Rides"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "053-hydrated-yellow-tall-grass",
    "062-perpetual-mess"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2943,10 +4127,20 @@
    "hype"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Cute stuff",
+   "Cleanliness",
+   "Round stuff",
+   "Symbols"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "053-hydrated-yellow-tall-grass",
    "088-dock"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2969,9 +4163,19 @@
    "build"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Cute stuff",
+   "Construction",
+   "Wobbly stuff",
+   "Symbols"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "088-dock"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -2995,9 +4199,19 @@
   "litter": [
    "Squishy Clay"
   ],
+  "ambience": "Humid",
+  "favorites": [
+   "Garbage",
+   "Lots of dirt",
+   "Stone stuff",
+   "Cleanliness",
+   "Group activities"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "054-marshy-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3022,10 +4236,20 @@
   "litter": [
    "Squishy Clay"
   ],
+  "ambience": "Humid",
+  "favorites": [
+   "Garbage",
+   "Lots of dirt",
+   "Lots of water",
+   "Cleanliness",
+   "Round stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "054-marshy-tall-grass",
    "186-marsh-fishing-spot"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3046,9 +4270,19 @@
    "paint"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Soft stuff",
+   "Fabric",
+   "Strange stuff",
+   "Colorful stuff",
+   "Shiny stuff"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "092-tiny-atelier"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3069,10 +4303,20 @@
    "burn"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of fire",
+   "Stone stuff",
+   "Cute stuff",
+   "Containers",
+   "Pretty flowers"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "069-chirp-chirp-meal",
    "079-resort-meal-prep"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3095,10 +4339,20 @@
    "build"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of fire",
+   "Stone stuff",
+   "Exercise",
+   "Containers",
+   "Construction"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "079-resort-meal-prep",
    "087-furnace-spot"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3121,10 +4375,20 @@
    "build"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of fire",
+   "Luxury",
+   "Exercise",
+   "Containers",
+   "Construction"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "069-chirp-chirp-meal",
    "087-furnace-spot"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3147,10 +4411,20 @@
    "fly"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Nice breezes",
+   "Cleanliness",
+   "Ocean vibes",
+   "Watching stuff"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "052-elevated-yellow-tall-grass",
    "058-windy-flower-bed"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3173,10 +4447,20 @@
    "fly"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Nice breezes",
+   "Cleanliness",
+   "Ocean vibes",
+   "Watching stuff"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "052-elevated-yellow-tall-grass",
    "058-windy-flower-bed"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3198,10 +4482,20 @@
    "bulldoze"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Exercise",
+   "Construction",
+   "Fabric",
+   "Round stuff",
+   "Wooden stuff"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "051-tree-shaded-yellow-tall-grass",
    "080-all-packed-up"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3223,10 +4517,20 @@
    "bulldoze"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Exercise",
+   "Construction",
+   "Fabric",
+   "Round stuff",
+   "Rides"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "051-tree-shaded-yellow-tall-grass",
    "080-all-packed-up"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3247,9 +4551,19 @@
    "chop"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Soft stuff",
+   "Nice breezes",
+   "Letters and words",
+   "Complicated stuff",
+   "Exercise"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "096-welcoming-resort"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3270,9 +4584,19 @@
    "water"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Ocean vibes",
+   "Nice breezes",
+   "Cleanliness",
+   "Containers"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "053-hydrated-yellow-tall-grass"
-  ]
+  ],
+  "gift": "Proud"
  },
  {
   "dex": "main",
@@ -3294,10 +4618,20 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Ocean vibes",
+   "Nice breezes",
+   "Cleanliness",
+   "Containers"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "053-hydrated-yellow-tall-grass",
    "086-waterwheel-spot"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3320,10 +4654,20 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Ocean vibes",
+   "Metal stuff",
+   "Cleanliness",
+   "Letters and words"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "068-tableside-delivery-cart",
    "086-waterwheel-spot"
-  ]
+  ],
+  "gift": "Let's Go!"
  },
  {
   "dex": "main",
@@ -3344,9 +4688,19 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Soft stuff",
+   "Fabric",
+   "Healing",
+   "Cute stuff",
+   "Round stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "091-working-the-register"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3367,9 +4721,19 @@
    "recycle"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Garbage",
+   "Containers",
+   "Complicated stuff",
+   "Shiny stuff",
+   "Gatherings"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "063-trash-collection-site"
-  ]
+  ],
+  "gift": "Despair"
  },
  {
   "dex": "main",
@@ -3393,9 +4757,19 @@
   "litter": [
    "Nonburnable Garbage"
   ],
+  "ambience": "Humid",
+  "favorites": [
+   "Garbage",
+   "Containers",
+   "Complicated stuff",
+   "Shiny stuff",
+   "Gatherings"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "063-trash-collection-site"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3416,9 +4790,19 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Shiny stuff",
+   "Luxury",
+   "Glass stuff",
+   "Cute stuff",
+   "Group activities"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "056-breezy-flower-bed"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3440,10 +4824,20 @@
    "chop"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Shiny stuff",
+   "Luxury",
+   "Glass stuff",
+   "Strange stuff",
+   "Group activities"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "056-breezy-flower-bed",
    "073-surprise-in-store"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3464,10 +4858,20 @@
    "gather"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Soft stuff",
+   "Fabric",
+   "Rides",
+   "Cute stuff",
+   "Cleanliness"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "075-changing-area",
    "076-private-makeup-stand"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3489,9 +4893,19 @@
    "recycle"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Soft stuff",
+   "Fabric",
+   "Rides",
+   "Cute stuff",
+   "Cleanliness"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "076-private-makeup-stand"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3512,10 +4926,20 @@
    "chop"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of nature",
+   "Electronics",
+   "Watching stuff",
+   "Lots of dirt",
+   "Containers"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "050-yellow-tall-grass",
    "083-vending-machine-break-area"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3538,9 +4962,19 @@
    "chop"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of nature",
+   "Electronics",
+   "Watching stuff",
+   "Glass stuff",
+   "Blocky stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "083-vending-machine-break-area"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3563,9 +4997,19 @@
    "chop"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of nature",
+   "Electronics",
+   "Exercise",
+   "Glass stuff",
+   "Nice breezes"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "009-tree-shaded-flower-bed"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3587,9 +5031,19 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Spooky stuff",
+   "Cute stuff",
+   "Electronics",
+   "Fabric",
+   "Group activities"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "094-pikachu-space"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3610,10 +5064,20 @@
    "generate"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Electronics",
+   "Shiny stuff",
+   "Cute stuff",
+   "Glass stuff",
+   "Group activities"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "056-breezy-flower-bed",
    "067-tantalizing-restaurant"
-  ]
+  ],
+  "gift": "Angry"
  },
  {
   "dex": "main",
@@ -3636,10 +5100,20 @@
    "crush"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Electronics",
+   "Shiny stuff",
+   "Exercise",
+   "Glass stuff",
+   "Group activities"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "067-tantalizing-restaurant",
    "070-cafe-space"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3662,9 +5136,19 @@
    "crush"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Electronics",
+   "Shiny stuff",
+   "Exercise",
+   "Healing",
+   "Group activities"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "070-cafe-space"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3686,9 +5170,19 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Ocean vibes",
+   "Group activities",
+   "Slender objects",
+   "Gatherings"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "071-beach-set"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3710,7 +5204,17 @@
    "trade"
   ],
   "litter": [],
-  "habitats": []
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Ocean vibes",
+   "Group activities",
+   "Spinning stuff",
+   "Blocky stuff"
+  ],
+  "flavor": "Sweet",
+  "habitats": [],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3732,7 +5236,17 @@
    "trade"
   ],
   "litter": [],
-  "habitats": []
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Ocean vibes",
+   "Group activities",
+   "Letters and words",
+   "Containers"
+  ],
+  "flavor": "Spicy",
+  "habitats": [],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3753,9 +5267,19 @@
    "search"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Garbage",
+   "Watching stuff",
+   "Lots of nature",
+   "Slender objects",
+   "Spinning stuff"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "106-hydrated-graceful-flower-bed"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3776,9 +5300,19 @@
    "search"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Garbage",
+   "Watching stuff",
+   "Lots of nature",
+   "Slender objects",
+   "Spinning stuff"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "106-hydrated-graceful-flower-bed"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3799,9 +5333,19 @@
    "hype"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Cute stuff",
+   "Round stuff",
+   "Colorful stuff",
+   "Healing",
+   "Rides"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "104-graceful-flower-bed"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3822,10 +5366,20 @@
    "hype"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Cute stuff",
+   "Play spaces",
+   "Pretty flowers",
+   "Healing",
+   "Group activities"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "104-graceful-flower-bed",
    "131-bronze-landmark"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3847,10 +5401,20 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Cute stuff",
+   "Play spaces",
+   "Pretty flowers",
+   "Healing",
+   "Group activities"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "104-graceful-flower-bed",
    "131-bronze-landmark"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3872,9 +5436,19 @@
    "hype"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Soft stuff",
+   "Cute stuff",
+   "Play spaces",
+   "Healing",
+   "Noisy stuff"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "107-flower-garden-stump-stage"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3896,10 +5470,20 @@
    "hype"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Soft stuff",
+   "Cute stuff",
+   "Play spaces",
+   "Healing",
+   "Wobbly stuff"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "107-flower-garden-stump-stage",
    "126-recital-stage"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3922,9 +5506,19 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Soft stuff",
+   "Cute stuff",
+   "Play spaces",
+   "Healing",
+   "Group activities"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "126-recital-stage"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3945,10 +5539,20 @@
    "hype"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Lots of dirt",
+   "Play spaces",
+   "Cute stuff",
+   "Group activities",
+   "Slender objects"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "099-tree-shaded-red-tall-grass",
    "119-container-snacking"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3970,10 +5574,20 @@
    "crush"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Lots of dirt",
+   "Play spaces",
+   "Gatherings",
+   "Group activities",
+   "Slender objects"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "099-tree-shaded-red-tall-grass",
    "123-house-party"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -3995,9 +5609,19 @@
    "gather"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Exercise",
+   "Construction",
+   "Stone stuff",
+   "Hard stuff",
+   "Group activities"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "003-boulder-shaded-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4019,10 +5643,20 @@
    "gather"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Exercise",
+   "Construction",
+   "Stone stuff",
+   "Hard stuff",
+   "Group activities"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "103-grassy-training-field",
    "127-box-to-the-rhythm"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4044,10 +5678,20 @@
    "gather"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Exercise",
+   "Construction",
+   "Stone stuff",
+   "Hard stuff",
+   "Group activities"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "103-grassy-training-field",
    "117-clink-clang-iron-construction"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4069,9 +5713,19 @@
    "crush"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Stone stuff",
+   "Hard stuff",
+   "Spinning stuff",
+   "Round stuff",
+   "Exercise"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "001-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4093,9 +5747,19 @@
    "crush"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Stone stuff",
+   "Hard stuff",
+   "Spinning stuff",
+   "Round stuff",
+   "Exercise"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "111-mossy-boulder"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4118,9 +5782,19 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Stone stuff",
+   "Hard stuff",
+   "Spinning stuff",
+   "Round stuff",
+   "Exercise"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "111-mossy-boulder"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4141,9 +5815,19 @@
    "burn"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of fire",
+   "Stone stuff",
+   "Watching stuff",
+   "Cute stuff",
+   "Wobbly stuff"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "008-pretty-flower-bed"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4164,9 +5848,19 @@
    "burn"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of fire",
+   "Stone stuff",
+   "Electronics",
+   "Hard stuff",
+   "Exercise"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "116-digging-and-burning"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4188,9 +5882,19 @@
    "crush"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of fire",
+   "Stone stuff",
+   "Electronics",
+   "Hard stuff",
+   "Exercise"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "122-mini-kitchen"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4211,9 +5915,19 @@
    "bulldoze"
   ],
   "litter": [],
+  "ambience": "Dry",
+  "favorites": [
+   "Stone stuff",
+   "Hard stuff",
+   "Lots of nature",
+   "Wooden stuff",
+   "Round stuff"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "099-tree-shaded-red-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4234,10 +5948,20 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Dry",
+  "favorites": [
+   "Stone stuff",
+   "Hard stuff",
+   "Lots of nature",
+   "Wooden stuff",
+   "Watching stuff"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "099-tree-shaded-red-tall-grass",
    "123-house-party"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4260,10 +5984,20 @@
    "fly"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Shiny stuff",
+   "Nice breezes",
+   "Group activities",
+   "Luxury",
+   "Fabric"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "102-elevated-red-tall-grass",
    "105-tree-shaded-graceful-flower-bed"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4286,10 +6020,20 @@
    "fly"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Shiny stuff",
+   "Nice breezes",
+   "Spooky stuff",
+   "Letters and words",
+   "Glass stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "102-elevated-red-tall-grass",
    "125-chirping-recital"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4312,9 +6056,19 @@
    "bulldoze"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Stone stuff",
+   "Lots of dirt",
+   "Luxury",
+   "Shiny stuff",
+   "Looks like food"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "110-mossy-rest-spot"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4337,9 +6091,19 @@
    "bulldoze"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Stone stuff",
+   "Hard stuff",
+   "Luxury",
+   "Shiny stuff",
+   "Watching stuff"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "138-tree-shaded-pink-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4362,10 +6126,20 @@
    "bulldoze"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Stone stuff",
+   "Hard stuff",
+   "Luxury",
+   "Shiny stuff",
+   "Exercise"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "108-toil-in-the-soil",
    "110-mossy-rest-spot"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4387,11 +6161,21 @@
    "water"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Lots of nature",
+   "Cleanliness",
+   "Containers",
+   "Noisy stuff"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "101-hydrated-red-tall-grass",
    "109-uplifting-duckweed",
    "187-hot-spring-fishing-spot"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4413,10 +6197,20 @@
    "water"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Lots of nature",
+   "Cleanliness",
+   "Containers",
+   "Noisy stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "101-hydrated-red-tall-grass",
    "187-hot-spring-fishing-spot"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4439,9 +6233,19 @@
    "hype"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Lots of nature",
+   "Play spaces",
+   "Containers",
+   "Noisy stuff"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "109-uplifting-duckweed"
-  ]
+  ],
+  "gift": "Twirl"
  },
  {
   "dex": "main",
@@ -4464,9 +6268,19 @@
    "build"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Metal stuff",
+   "Cute stuff",
+   "Colorful stuff",
+   "Looks like food",
+   "Group activities"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "091-working-the-register"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4487,9 +6301,19 @@
    "burn"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of fire",
+   "Stone stuff",
+   "Metal stuff",
+   "Hard stuff",
+   "Watching stuff"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "112-mossy-hot-spring"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4510,10 +6334,20 @@
    "hype"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Lots of nature",
+   "Wooden stuff",
+   "Noisy stuff",
+   "Colorful stuff",
+   "Watching stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "098-red-tall-grass",
    "128-music-and-magazines"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4534,10 +6368,20 @@
    "hype"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Lots of nature",
+   "Wooden stuff",
+   "Noisy stuff",
+   "Colorful stuff",
+   "Watching stuff"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "098-red-tall-grass",
    "128-music-and-magazines"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4560,10 +6404,20 @@
    "fly"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Nice breezes",
+   "Fabric",
+   "Slender objects",
+   "Play spaces",
+   "Noisy stuff"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "102-elevated-red-tall-grass",
    "125-chirping-recital"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4584,10 +6438,20 @@
    "build"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Exercise",
+   "Fabric",
+   "Construction",
+   "Gatherings",
+   "Watching stuff"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "098-red-tall-grass",
    "127-box-to-the-rhythm"
-  ]
+  ],
+  "gift": "High-Five"
  },
  {
   "dex": "main",
@@ -4609,9 +6473,19 @@
    "build"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Exercise",
+   "Metal stuff",
+   "Construction",
+   "Complicated stuff",
+   "Healing"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "127-box-to-the-rhythm"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4633,9 +6507,19 @@
    "dj"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Shiny stuff",
+   "Glass stuff",
+   "Noisy stuff",
+   "Group activities",
+   "Blocky stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "128-music-and-magazines"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4660,9 +6544,19 @@
   "litter": [
    "Twine"
   ],
+  "ambience": "Dry",
+  "favorites": [
+   "Lots of nature",
+   "Lots of fire",
+   "Sharp stuff",
+   "Wooden stuff",
+   "Symbols"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "105-tree-shaded-graceful-flower-bed"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4687,10 +6581,20 @@
   "litter": [
    "Twine"
   ],
+  "ambience": "Dry",
+  "favorites": [
+   "Lots of nature",
+   "Lots of fire",
+   "Letters and words",
+   "Wooden stuff",
+   "Symbols"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "105-tree-shaded-graceful-flower-bed",
    "115-piping-hot-lava"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4712,9 +6616,19 @@
    "grow"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Lots of nature",
+   "Wooden stuff",
+   "Nice breezes",
+   "Containers",
+   "Spinning stuff"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "015-fresh-veggie-field"
-  ]
+  ],
+  "gift": "Huh?"
  },
  {
   "dex": "main",
@@ -4737,9 +6651,19 @@
    "chop"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Lots of nature",
+   "Wooden stuff",
+   "Nice breezes",
+   "Slender objects",
+   "Cleanliness"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "100-pointy-tree-shaded-rocky-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4762,10 +6686,20 @@
    "chop"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Lots of nature",
+   "Spooky stuff",
+   "Wooden stuff",
+   "Nice breezes",
+   "Letters and words"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "100-pointy-tree-shaded-rocky-tall-grass",
    "136-modern-living"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4786,9 +6720,19 @@
    "burn"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of fire",
+   "Stone stuff",
+   "Soft stuff",
+   "Group activities",
+   "Sharp stuff"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "098-red-tall-grass"
-  ]
+  ],
+  "gift": "Yes"
  },
  {
   "dex": "main",
@@ -4809,10 +6753,20 @@
    "burn"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of fire",
+   "Stone stuff",
+   "Play spaces",
+   "Group activities",
+   "Containers"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "113-open-air-bath",
    "130-refreshing-locker-room"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4834,10 +6788,20 @@
    "hype"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of fire",
+   "Stone stuff",
+   "Play spaces",
+   "Group activities",
+   "Round stuff"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "098-red-tall-grass",
    "130-refreshing-locker-room"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4859,9 +6823,19 @@
    "hype"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Soft stuff",
+   "Wooden stuff",
+   "Watching stuff",
+   "Looks like food",
+   "Round stuff"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "002-tree-shaded-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4882,9 +6856,19 @@
    "party"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Soft stuff",
+   "Metal stuff",
+   "Group activities",
+   "Looks like food",
+   "Luxury"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "133-chef-s-kitchen"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4906,9 +6890,19 @@
    "gather"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Stone stuff",
+   "Lots of fire",
+   "Hard stuff",
+   "Metal stuff",
+   "Rides"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "132-railroad-crossing"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4931,9 +6925,19 @@
    "gather"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Stone stuff",
+   "Lots of fire",
+   "Hard stuff",
+   "Metal stuff",
+   "Rides"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "132-railroad-crossing"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4956,10 +6960,20 @@
    "gather"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Stone stuff",
+   "Lots of fire",
+   "Hard stuff",
+   "Metal stuff",
+   "Rides"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "132-railroad-crossing",
    "135-heavy-iron"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -4981,9 +6995,19 @@
    "generate"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Electronics",
+   "Shiny stuff",
+   "Noisy stuff",
+   "Glass stuff",
+   "Garbage"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "124-lazy-photo-album-scrolling"
-  ]
+  ],
+  "gift": "Tantrum"
  },
  {
   "dex": "main",
@@ -5006,9 +7030,19 @@
    "hype"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Electronics",
+   "Play spaces",
+   "Noisy stuff",
+   "Slender objects",
+   "Sharp stuff"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "189-amped-rock-stage"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5031,9 +7065,19 @@
    "hype"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Electronics",
+   "Play spaces",
+   "Noisy stuff",
+   "Slender objects",
+   "Sharp stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "190-low-key-rock-stage"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5054,10 +7098,20 @@
    "search"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Cute stuff",
+   "Watching stuff",
+   "Soft stuff",
+   "Lots of fire",
+   "Letters and words"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "104-graceful-flower-bed",
    "121-best-bread-bakery"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5079,10 +7133,20 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Cute stuff",
+   "Watching stuff",
+   "Group activities",
+   "Lots of fire",
+   "Looks like food"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "104-graceful-flower-bed",
    "121-best-bread-bakery"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5103,9 +7167,19 @@
    "burn"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of fire",
+   "Stone stuff",
+   "Strange stuff",
+   "Exercise",
+   "Luxury"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "115-piping-hot-lava"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5128,9 +7202,19 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of fire",
+   "Stone stuff",
+   "Strange stuff",
+   "Exercise",
+   "Luxury"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "192-auspicious-knight-s-shrine"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5153,9 +7237,19 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of fire",
+   "Stone stuff",
+   "Spooky stuff",
+   "Strange stuff",
+   "Luxury"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "191-malicious-knight-s-shrine"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5179,10 +7273,20 @@
   "litter": [
    "Iron Ore"
   ],
+  "ambience": "Dark",
+  "favorites": [
+   "Stone stuff",
+   "Hard stuff",
+   "Garbage",
+   "Shiny stuff",
+   "Complicated stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "118-creepy-white-rocks",
    "119-container-snacking"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5206,10 +7310,20 @@
   "litter": [
    "Iron Ore"
   ],
+  "ambience": "Dark",
+  "favorites": [
+   "Stone stuff",
+   "Hard stuff",
+   "Garbage",
+   "Shiny stuff",
+   "Complicated stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "118-creepy-white-rocks",
    "119-container-snacking"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5230,9 +7344,19 @@
    "collect"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Spooky stuff",
+   "Metal stuff",
+   "Strange stuff",
+   "Shiny stuff",
+   "Complicated stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "129-mini-museum"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5254,9 +7378,19 @@
    "collect"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Spooky stuff",
+   "Metal stuff",
+   "Strange stuff",
+   "Shiny stuff",
+   "Complicated stuff"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "134-absolute-luxury"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5277,9 +7411,19 @@
    "burn"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of fire",
+   "Soft stuff",
+   "Cute stuff",
+   "Round stuff",
+   "Pretty flowers"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "142-fluffy-flower-bed"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5300,10 +7444,20 @@
    "burn"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of fire",
+   "Soft stuff",
+   "Watching stuff",
+   "Luxury",
+   "Pretty flowers"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "142-fluffy-flower-bed",
    "180-nine-flames"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5324,9 +7478,19 @@
    "water"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Cleanliness",
+   "Round stuff",
+   "Rides",
+   "Spinning stuff"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "161-squeaky-clean"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5347,9 +7511,19 @@
    "water"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Cleanliness",
+   "Lots of nature",
+   "Exercise",
+   "Spinning stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "144-hydrated-fluffy-flower-bed"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5372,10 +7546,20 @@
    "build"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Cleanliness",
+   "Construction",
+   "Exercise",
+   "Group activities"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "156-sewer-hole-inspection",
    "178-dojo-training"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5397,11 +7581,21 @@
    "hype"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Play spaces",
+   "Noisy stuff",
+   "Gatherings",
+   "Group activities"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "106-hydrated-graceful-flower-bed",
    "107-flower-garden-stump-stage",
    "114-harmonious-hot-spring"
-  ]
+  ],
+  "gift": "Bashful"
  },
  {
   "dex": "main",
@@ -5422,10 +7616,20 @@
    "teleport"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Strange stuff",
+   "Wobbly stuff",
+   "Metal stuff",
+   "Soft stuff",
+   "Watching stuff"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "151-surging-psychic-power",
    "152-fortune-teller-s-table"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5446,9 +7650,19 @@
    "teleport"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Strange stuff",
+   "Wobbly stuff",
+   "Metal stuff",
+   "Containers",
+   "Watching stuff"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "152-fortune-teller-s-table"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5470,10 +7684,20 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Strange stuff",
+   "Wobbly stuff",
+   "Metal stuff",
+   "Letters and words",
+   "Watching stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "151-surging-psychic-power",
    "168-experiment-space"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5495,10 +7719,20 @@
    "gather"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Strange stuff",
+   "Cute stuff",
+   "Rides",
+   "Play spaces",
+   "Colorful stuff"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "157-spotless-washing-station",
    "171-public-reading-material"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5521,9 +7755,19 @@
    "build"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Strange stuff",
+   "Cute stuff",
+   "Rides",
+   "Wobbly stuff",
+   "Watching stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "157-spotless-washing-station"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5544,9 +7788,19 @@
    "recycle"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Soft stuff",
+   "Strange stuff",
+   "Blocky stuff",
+   "Construction",
+   "Colorful stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "170-researcher-s-desk"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5567,9 +7821,19 @@
    "recycle"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Soft stuff",
+   "Strange stuff",
+   "Round stuff",
+   "Construction",
+   "Colorful stuff"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "166-work-desk"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5590,9 +7854,19 @@
    "rarify"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Soft stuff",
+   "Strange stuff",
+   "Fabric",
+   "Watching stuff",
+   "Colorful stuff"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "164-game-corner-battle-zone"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5613,10 +7887,20 @@
    "water"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Lots of fire",
+   "Cleanliness",
+   "Cute stuff",
+   "Slender objects"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "144-hydrated-fluffy-flower-bed",
    "148-simple-bathroom"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5637,10 +7921,20 @@
    "water"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Lots of fire",
+   "Cleanliness",
+   "Glass stuff",
+   "Slender objects"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "144-hydrated-fluffy-flower-bed",
    "148-simple-bathroom"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5663,9 +7957,19 @@
    "fly"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of fire",
+   "Nice breezes",
+   "Cleanliness",
+   "Symbols",
+   "Pretty flowers"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "145-waterside-dinghy"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5686,9 +7990,19 @@
    "burn"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of fire",
+   "Fabric",
+   "Slender objects",
+   "Metal stuff",
+   "Rides"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "141-concrete-pipe-secret-base"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5709,10 +8023,20 @@
    "burn"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of fire",
+   "Fabric",
+   "Slender objects",
+   "Metal stuff",
+   "Rides"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "141-concrete-pipe-secret-base",
    "150-fireplace-nap-spot"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5734,10 +8058,20 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of fire",
+   "Fabric",
+   "Slender objects",
+   "Metal stuff",
+   "Rides"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "150-fireplace-nap-spot",
    "183-top-pop"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5758,10 +8092,20 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Spooky stuff",
+   "Strange stuff",
+   "Shiny stuff",
+   "Colorful stuff",
+   "Watching stuff"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "142-fluffy-flower-bed",
    "167-office-storeroom"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5783,11 +8127,21 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Spooky stuff",
+   "Strange stuff",
+   "Noisy stuff",
+   "Wobbly stuff",
+   "Group activities"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "142-fluffy-flower-bed",
    "158-home-theater",
    "167-office-storeroom"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5809,9 +8163,19 @@
    "gather"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Soft stuff",
+   "Strange stuff",
+   "Rides",
+   "Watching stuff",
+   "Slender objects"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "143-tree-shaded-fluffy-flower-bed"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5834,9 +8198,19 @@
    "search"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Soft stuff",
+   "Strange stuff",
+   "Rides",
+   "Watching stuff",
+   "Slender objects"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "143-tree-shaded-fluffy-flower-bed"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5858,9 +8232,19 @@
    "teleport"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Strange stuff",
+   "Cute stuff",
+   "Healing",
+   "Watching stuff",
+   "Symbols"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "159-study-area"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5882,10 +8266,20 @@
    "teleport"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Strange stuff",
+   "Cute stuff",
+   "Healing",
+   "Watching stuff",
+   "Symbols"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "159-study-area",
    "162-moisturizing-makeup-stand"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5908,10 +8302,20 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Strange stuff",
+   "Luxury",
+   "Healing",
+   "Watching stuff",
+   "Symbols"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "162-moisturizing-makeup-stand",
    "163-mini-library"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5934,9 +8338,19 @@
    "build"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Strange stuff",
+   "Exercise",
+   "Healing",
+   "Construction",
+   "Fabric"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "178-dojo-training"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5957,9 +8371,19 @@
    "generate"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Electronics",
+   "Glass stuff",
+   "Soft stuff",
+   "Cute stuff",
+   "Group activities"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "174-picturesque-photo-cutout-board"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -5980,9 +8404,19 @@
    "generate"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Electronics",
+   "Glass stuff",
+   "Soft stuff",
+   "Cute stuff",
+   "Group activities"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "174-picturesque-photo-cutout-board"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6006,9 +8440,19 @@
   "litter": [
    "Squishy Clay"
   ],
+  "ambience": "Dry",
+  "favorites": [
+   "Lots of dirt",
+   "Hard stuff",
+   "Strange stuff",
+   "Watching stuff",
+   "Exercise"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "137-pink-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6031,9 +8475,19 @@
    "fly"
   ],
   "litter": [],
+  "ambience": "Dry",
+  "favorites": [
+   "Lots of dirt",
+   "Lots of fire",
+   "Lots of nature",
+   "Luxury",
+   "Noisy stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "137-pink-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6056,9 +8510,19 @@
    "fly"
   ],
   "litter": [],
+  "ambience": "Dry",
+  "favorites": [
+   "Lots of dirt",
+   "Lots of fire",
+   "Lots of nature",
+   "Stone stuff",
+   "Wooden stuff"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "137-pink-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6082,9 +8546,19 @@
   "litter": [
    "Fluff"
   ],
+  "ambience": "Bright",
+  "favorites": [
+   "Soft stuff",
+   "Nice breezes",
+   "Cute stuff",
+   "Watching stuff",
+   "Cleanliness"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "137-pink-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6109,9 +8583,19 @@
   "litter": [
    "Fluff"
   ],
+  "ambience": "Bright",
+  "favorites": [
+   "Soft stuff",
+   "Nice breezes",
+   "Cute stuff",
+   "Watching stuff",
+   "Noisy stuff"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "147-birdsong-garden"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6132,9 +8616,19 @@
    "gather"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Spooky stuff",
+   "Strange stuff",
+   "Rides",
+   "Glass stuff",
+   "Fabric"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "137-pink-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6155,9 +8649,19 @@
    "gather"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Spooky stuff",
+   "Strange stuff",
+   "Rides",
+   "Soft stuff",
+   "Containers"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "153-trash-site-tv"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6179,9 +8683,19 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Spooky stuff",
+   "Strange stuff",
+   "Rides",
+   "Group activities",
+   "Containers"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "153-trash-site-tv"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6203,9 +8717,19 @@
    "recycle"
   ],
   "litter": [],
+  "ambience": "Cool",
+  "favorites": [
+   "Metal stuff",
+   "Strange stuff",
+   "Hard stuff",
+   "Complicated stuff",
+   "Stone stuff"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "149-cycling-rest-stop"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6227,9 +8751,19 @@
    "recycle"
   ],
   "litter": [],
+  "ambience": "Cool",
+  "favorites": [
+   "Metal stuff",
+   "Strange stuff",
+   "Hard stuff",
+   "Complicated stuff",
+   "Stone stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "169-professor-s-apprentice-program"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6252,9 +8786,19 @@
    "crush"
   ],
   "litter": [],
+  "ambience": "Cool",
+  "favorites": [
+   "Metal stuff",
+   "Strange stuff",
+   "Hard stuff",
+   "Exercise",
+   "Luxury"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "182-gamer-s-paradise"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6278,9 +8822,19 @@
   "litter": [
    "Vine Rope"
   ],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of nature",
+   "Wooden stuff",
+   "Lots of water",
+   "Wobbly stuff",
+   "Shiny stuff"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "165-playland"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6304,9 +8858,19 @@
   "litter": [
    "Vine Rope"
   ],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of nature",
+   "Wooden stuff",
+   "Lots of water",
+   "Cleanliness",
+   "Shiny stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "143-tree-shaded-fluffy-flower-bed"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6330,10 +8894,20 @@
   "litter": [
    "Vine Rope"
   ],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of nature",
+   "Wooden stuff",
+   "Lots of water",
+   "Containers",
+   "Slender objects"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "143-tree-shaded-fluffy-flower-bed",
    "171-public-reading-material"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6354,9 +8928,19 @@
    "water"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Ocean vibes",
+   "Cleanliness",
+   "Watching stuff",
+   "Containers"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "139-hydrated-pink-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6377,10 +8961,20 @@
    "water"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Ocean vibes",
+   "Cleanliness",
+   "Watching stuff",
+   "Exercise"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "139-hydrated-pink-tall-grass",
    "173-prank-button"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6403,10 +8997,20 @@
    "chop"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Ocean vibes",
+   "Cleanliness",
+   "Shiny stuff",
+   "Exercise"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "139-hydrated-pink-tall-grass",
    "173-prank-button"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6428,9 +9032,19 @@
    "search"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Electronics",
+   "Cute stuff",
+   "Watching stuff",
+   "Group activities",
+   "Looks like food"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "175-tire-park"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6452,9 +9066,19 @@
    "search"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Nice breezes",
+   "Lots of fire",
+   "Watching stuff",
+   "Luxury",
+   "Looks like food"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "160-rhythmic-living-room"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6477,9 +9101,19 @@
    "fly"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Nice breezes",
+   "Lots of fire",
+   "Watching stuff",
+   "Play spaces",
+   "Looks like food"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "160-rhythmic-living-room"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6500,9 +9134,19 @@
    "chop"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Nice breezes",
+   "Shiny stuff",
+   "Containers",
+   "Slender objects",
+   "Wooden stuff"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "142-fluffy-flower-bed"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6523,9 +9167,19 @@
    "chop"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Nice breezes",
+   "Shiny stuff",
+   "Containers",
+   "Slender objects",
+   "Wooden stuff"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "140-elevated-pink-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6548,10 +9202,20 @@
    "fly"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Nice breezes",
+   "Metal stuff",
+   "Shiny stuff",
+   "Containers",
+   "Wooden stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "140-elevated-pink-tall-grass",
    "156-sewer-hole-inspection"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6574,9 +9238,19 @@
    "search"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of fire",
+   "Spooky stuff",
+   "Rides",
+   "Strange stuff",
+   "Group activities"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "138-tree-shaded-pink-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6599,10 +9273,20 @@
    "search"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of fire",
+   "Spooky stuff",
+   "Rides",
+   "Strange stuff",
+   "Group activities"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "138-tree-shaded-pink-tall-grass",
    "167-office-storeroom"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6625,9 +9309,19 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of fire",
+   "Spooky stuff",
+   "Rides",
+   "Strange stuff",
+   "Group activities"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "167-office-storeroom"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6648,10 +9342,20 @@
    "grow"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of nature",
+   "Pretty flowers",
+   "Containers",
+   "Colorful stuff",
+   "Cute stuff"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "138-tree-shaded-pink-tall-grass",
    "155-interrogation-desk"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6672,9 +9376,19 @@
    "grow"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of nature",
+   "Pretty flowers",
+   "Sharp stuff",
+   "Colorful stuff",
+   "Cute stuff"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "155-interrogation-desk"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6697,9 +9411,19 @@
    "hype"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of nature",
+   "Pretty flowers",
+   "Shiny stuff",
+   "Luxury",
+   "Cute stuff"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "172-heart-pounding-surprise-box"
-  ]
+  ],
+  "gift": "Happy"
  },
  {
   "dex": "main",
@@ -6721,9 +9445,19 @@
    "generate"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Electronics",
+   "Nice breezes",
+   "Ocean vibes",
+   "Gatherings",
+   "Complicated stuff"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "140-elevated-pink-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6746,9 +9480,19 @@
    "fly"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Electronics",
+   "Nice breezes",
+   "Ocean vibes",
+   "Gatherings",
+   "Slender objects"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "140-elevated-pink-tall-grass"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6770,10 +9514,20 @@
    "build"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Cute stuff",
+   "Metal stuff",
+   "Construction",
+   "Looks like food",
+   "Exercise"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "028-large-luggage-carrier",
    "154-oversized-dumping-ground"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6795,10 +9549,20 @@
    "build"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Cute stuff",
+   "Metal stuff",
+   "Construction",
+   "Group activities",
+   "Exercise"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "028-large-luggage-carrier",
    "156-sewer-hole-inspection"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6820,9 +9584,19 @@
    "engineer"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Cute stuff",
+   "Metal stuff",
+   "Construction",
+   "Blocky stuff",
+   "Exercise"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "154-oversized-dumping-ground"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6844,9 +9618,19 @@
    "fly"
   ],
   "litter": [],
+  "ambience": "Dry",
+  "favorites": [
+   "Stone stuff",
+   "Nice breezes",
+   "Hard stuff",
+   "Shiny stuff",
+   "Spinning stuff"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "193-wing-fossil-display"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6867,9 +9651,19 @@
    "crush"
   ],
   "litter": [],
+  "ambience": "Dry",
+  "favorites": [
+   "Stone stuff",
+   "Hard stuff",
+   "Wobbly stuff",
+   "Group activities",
+   "Exercise"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "194-skull-fossil-display"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6893,9 +9687,19 @@
   "litter": [
    "Stone"
   ],
+  "ambience": "Dry",
+  "favorites": [
+   "Stone stuff",
+   "Hard stuff",
+   "Metal stuff",
+   "Luxury",
+   "Exercise"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "195-headbutt-fossil-display"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6917,9 +9721,19 @@
    "crush"
   ],
   "litter": [],
+  "ambience": "Dry",
+  "favorites": [
+   "Stone stuff",
+   "Hard stuff",
+   "Metal stuff",
+   "Luxury",
+   "Round stuff"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "196-armor-fossil-display"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6944,9 +9758,19 @@
   "litter": [
    "Stone"
   ],
+  "ambience": "Dry",
+  "favorites": [
+   "Stone stuff",
+   "Hard stuff",
+   "Metal stuff",
+   "Luxury",
+   "Exercise"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "197-shield-fossil-display"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6968,9 +9792,19 @@
    "crush"
   ],
   "litter": [],
+  "ambience": "Dry",
+  "favorites": [
+   "Stone stuff",
+   "Hard stuff",
+   "Lots of fire",
+   "Luxury",
+   "Exercise"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "198-jaw-fossil-display"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -6995,9 +9829,19 @@
   "litter": [
    "Stone"
   ],
+  "ambience": "Dry",
+  "favorites": [
+   "Stone stuff",
+   "Hard stuff",
+   "Lots of fire",
+   "Luxury",
+   "Exercise"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "199-despot-fossil-display"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -7019,9 +9863,19 @@
    "crush"
   ],
   "litter": [],
+  "ambience": "Cool",
+  "favorites": [
+   "Stone stuff",
+   "Hard stuff",
+   "Shiny stuff",
+   "Group activities",
+   "Containers"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "200-sail-fossil-display"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -7046,9 +9900,19 @@
   "litter": [
    "Stone"
   ],
+  "ambience": "Cool",
+  "favorites": [
+   "Stone stuff",
+   "Hard stuff",
+   "Shiny stuff",
+   "Noisy stuff",
+   "Symbols"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "201-tundra-fossil-display"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -7069,9 +9933,19 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Soft stuff",
+   "Stone stuff",
+   "Cute stuff",
+   "Letters and words",
+   "Group activities"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "008-pretty-flower-bed"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -7092,9 +9966,19 @@
    "water"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Cleanliness",
+   "Cute stuff",
+   "Pretty flowers",
+   "Watching stuff"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "202-boundless-blue-beverage"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -7115,9 +9999,19 @@
    "generate"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Electronics",
+   "Shiny stuff",
+   "Cute stuff",
+   "Glass stuff",
+   "Sharp stuff"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "203-electrifying-potatoes"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -7138,9 +10032,19 @@
    "burn"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of fire",
+   "Wooden stuff",
+   "Cute stuff",
+   "Metal stuff",
+   "Rides"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "204-burning-hot-spice"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -7161,9 +10065,19 @@
    "gather"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Strange stuff",
+   "Nice breezes",
+   "Cute stuff",
+   "Complicated stuff",
+   "Watching stuff"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "205-elegant-daytime-treats"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -7184,9 +10098,19 @@
    "search"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Shiny stuff",
+   "Luxury",
+   "Cute stuff",
+   "Letters and words",
+   "Watching stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "206-dark-chocolate-cookies"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -7207,9 +10131,19 @@
    "grow"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of nature",
+   "Pretty flowers",
+   "Cute stuff",
+   "Fabric",
+   "Healing"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "207-leafy-greens-sandwich"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -7230,9 +10164,19 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Cool",
+  "favorites": [
+   "Lots of water",
+   "Shiny stuff",
+   "Cute stuff",
+   "Glass stuff",
+   "Group activities"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "208-chilly-shaved-ice"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -7253,9 +10197,19 @@
    "hype"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Cute stuff",
+   "Lots of nature",
+   "Fabric",
+   "Noisy stuff",
+   "Round stuff"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "209-lovely-ribbon-cake"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "main",
@@ -7274,7 +10228,17 @@
   "gen": "generation-iii",
   "specialties": [],
   "litter": [],
-  "habitats": []
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Ocean vibes",
+   "Luxury",
+   "Shiny stuff",
+   "Glass stuff"
+  ],
+  "flavor": "Dry",
+  "habitats": [],
+  "gift": null
  },
  {
   "dex": "main",
@@ -7295,7 +10259,17 @@
    "generate"
   ],
   "litter": [],
-  "habitats": []
+  "ambience": "Bright",
+  "favorites": [
+   "Electronics",
+   "Nice breezes",
+   "Shiny stuff",
+   "Glass stuff",
+   "Luxury"
+  ],
+  "flavor": "Dry",
+  "habitats": [],
+  "gift": null
  },
  {
   "dex": "main",
@@ -7316,7 +10290,17 @@
    "burn"
   ],
   "litter": [],
-  "habitats": []
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of fire",
+   "Stone stuff",
+   "Symbols",
+   "Exercise",
+   "Luxury"
+  ],
+  "flavor": "Bitter",
+  "habitats": [],
+  "gift": null
  },
  {
   "dex": "main",
@@ -7337,7 +10321,17 @@
    "water"
   ],
   "litter": [],
-  "habitats": []
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Ocean vibes",
+   "Cleanliness",
+   "Watching stuff",
+   "Healing"
+  ],
+  "flavor": "Sour",
+  "habitats": [],
+  "gift": null
  },
  {
   "dex": "main",
@@ -7359,7 +10353,17 @@
    "burn"
   ],
   "litter": [],
-  "habitats": []
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of fire",
+   "Lots of water",
+   "Stone stuff",
+   "Containers",
+   "Symbols"
+  ],
+  "flavor": "Spicy",
+  "habitats": [],
+  "gift": null
  },
  {
   "dex": "main",
@@ -7381,7 +10385,17 @@
    "fly"
   ],
   "litter": [],
-  "habitats": []
+  "ambience": "Cool",
+  "favorites": [
+   "Lots of water",
+   "Nice breezes",
+   "Shiny stuff",
+   "Symbols",
+   "Luxury"
+  ],
+  "flavor": "Sour",
+  "habitats": [],
+  "gift": null
  },
  {
   "dex": "main",
@@ -7403,7 +10417,17 @@
    "fly"
   ],
   "litter": [],
-  "habitats": []
+  "ambience": "Bright",
+  "favorites": [
+   "Electronics",
+   "Nice breezes",
+   "Glass stuff",
+   "Symbols",
+   "Luxury"
+  ],
+  "flavor": "Spicy",
+  "habitats": [],
+  "gift": null
  },
  {
   "dex": "main",
@@ -7425,7 +10449,17 @@
    "fly"
   ],
   "litter": [],
-  "habitats": []
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of fire",
+   "Nice breezes",
+   "Stone stuff",
+   "Symbols",
+   "Luxury"
+  ],
+  "flavor": "Spicy",
+  "habitats": [],
+  "gift": null
  },
  {
   "dex": "main",
@@ -7445,7 +10479,17 @@
   "gen": "generation-ii",
   "specialties": [],
   "litter": [],
-  "habitats": []
+  "ambience": "Humid",
+  "favorites": [
+   "Strange stuff",
+   "Nice breezes",
+   "Lots of water",
+   "Ocean vibes",
+   "Symbols"
+  ],
+  "flavor": "Dry",
+  "habitats": [],
+  "gift": null
  },
  {
   "dex": "main",
@@ -7465,7 +10509,17 @@
   "gen": "generation-ii",
   "specialties": [],
   "litter": [],
-  "habitats": []
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of fire",
+   "Wooden stuff",
+   "Nice breezes",
+   "Lots of nature",
+   "Symbols"
+  ],
+  "flavor": "Spicy",
+  "habitats": [],
+  "gift": null
  },
  {
   "dex": "main",
@@ -7486,7 +10540,17 @@
    "teleport"
   ],
   "litter": [],
-  "habitats": []
+  "ambience": "Dark",
+  "favorites": [
+   "Strange stuff",
+   "Watching stuff",
+   "Letters and words",
+   "Complicated stuff",
+   "Stone stuff"
+  ],
+  "flavor": "Dry",
+  "habitats": [],
+  "gift": null
  },
  {
   "dex": "main",
@@ -7507,7 +10571,17 @@
    "teleport"
   ],
   "litter": [],
-  "habitats": []
+  "ambience": "Warm",
+  "favorites": [
+   "Strange stuff",
+   "Watching stuff",
+   "Luxury",
+   "Complicated stuff",
+   "Play spaces"
+  ],
+  "flavor": "Sweet",
+  "habitats": [],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -7531,10 +10605,20 @@
   "litter": [
    "Seashell"
   ],
+  "ambience": "Dark",
+  "favorites": [
+   "Lots of water",
+   "Shiny stuff",
+   "Round stuff",
+   "Hard stuff",
+   "Containers"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "basin-002-basin-tall-grass-and-coral",
    "basin-009-sandy-digging-spot"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -7559,9 +10643,19 @@
   "litter": [
    "Seashell"
   ],
+  "ambience": "Cool",
+  "favorites": [
+   "Lots of water",
+   "Shiny stuff",
+   "Round stuff",
+   "Sharp stuff",
+   "Containers"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "basin-005-swaying-flower-bed-and-seaweed"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -7582,9 +10676,19 @@
    "water"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Slender objects",
+   "Spinning stuff",
+   "Play spaces",
+   "Group activities"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "basin-007-coral-congregation"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -7608,9 +10712,19 @@
   "litter": [
    "Black Paint"
   ],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Slender objects",
+   "Spinning stuff",
+   "Ocean vibes",
+   "Sharp stuff"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "basin-007-coral-congregation"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -7635,10 +10749,20 @@
   "litter": [
    "Black Paint"
   ],
+  "ambience": "Dark",
+  "favorites": [
+   "Lots of water",
+   "Slender objects",
+   "Luxury",
+   "Exercise",
+   "Nice breezes"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "basin-007-coral-congregation",
    "basin-034-marine-makeup-stand"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -7659,9 +10783,19 @@
    "teleport"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of water",
+   "Strange stuff",
+   "Spinning stuff",
+   "Colorful stuff",
+   "Sharp stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "basin-003-swaying-flower-bed"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -7684,9 +10818,19 @@
    "gather"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of water",
+   "Strange stuff",
+   "Spinning stuff",
+   "Colorful stuff",
+   "Complicated stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "basin-036-mermaid-s-gym"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -7707,11 +10851,21 @@
    "chop"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of water",
+   "Sharp stuff",
+   "Play spaces",
+   "Group activities",
+   "Wobbly stuff"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "basin-001-basin-tall-grass",
    "basin-024-canoe-dock",
    "basin-028-bubbly-bathtub"
-  ]
+  ],
+  "gift": "Step Dance"
  },
  {
   "dex": "basin",
@@ -7733,10 +10887,20 @@
    "crush"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of water",
+   "Sharp stuff",
+   "Exercise",
+   "Slender objects",
+   "Fabric"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "basin-015-chimney-rocks-dig-site",
    "basin-024-canoe-dock"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -7758,10 +10922,20 @@
    "crush"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of water",
+   "Sharp stuff",
+   "Exercise",
+   "Luxury",
+   "Nice breezes"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "basin-001-basin-tall-grass",
    "basin-011-biteable-punching-bag"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -7783,9 +10957,19 @@
    "generate"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Electronics",
+   "Wobbly stuff",
+   "Glass stuff",
+   "Shiny stuff"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "basin-023-fluffy-relaxation"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -7808,9 +10992,19 @@
    "water"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Lots of water",
+   "Electronics",
+   "Wobbly stuff",
+   "Glass stuff",
+   "Cleanliness"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "basin-033-nostalgia-zone"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -7832,10 +11026,20 @@
    "grow"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of water",
+   "Stone stuff",
+   "Lots of nature",
+   "Glass stuff",
+   "Cleanliness"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "basin-002-basin-tall-grass-and-coral",
    "basin-007-coral-congregation"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -7856,10 +11060,20 @@
    "water"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of water",
+   "Lots of dirt",
+   "Soft stuff",
+   "Play spaces",
+   "Stone stuff"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "basin-001-basin-tall-grass",
    "basin-023-fluffy-relaxation"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -7882,10 +11096,20 @@
    "build"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of water",
+   "Lots of dirt",
+   "Soft stuff",
+   "Construction",
+   "Watching stuff"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "basin-014-creepy-chimney-rocks",
    "basin-025-muddy-playtime"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -7908,10 +11132,20 @@
    "bulldoze"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of water",
+   "Lots of dirt",
+   "Soft stuff",
+   "Construction",
+   "Exercise"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "basin-002-basin-tall-grass-and-coral",
    "basin-026-muddy-spa"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -7933,9 +11167,19 @@
    "chop"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of water",
+   "Sharp stuff",
+   "Exercise",
+   "Ocean vibes",
+   "Group activities"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "basin-006-seaweed-and-netting"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -7958,9 +11202,19 @@
    "scrub"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Sharp stuff",
+   "Exercise",
+   "Ocean vibes",
+   "Symbols"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "basin-015-chimney-rocks-dig-site"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -7982,11 +11236,21 @@
    "search"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Lots of dirt",
+   "Watching stuff",
+   "Soft stuff",
+   "Slender objects"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "basin-010-sandy-speech",
    "basin-019-ocean-rest-spot",
    "basin-025-muddy-playtime"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8009,9 +11273,19 @@
    "bulldoze"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Lots of dirt",
+   "Watching stuff",
+   "Soft stuff",
+   "Wobbly stuff"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "basin-035-gorgeous-sleeping-area"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8032,10 +11306,20 @@
    "build"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Construction",
+   "Exercise",
+   "Lots of nature",
+   "Play spaces"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "basin-008-sandy-basin-tall-grass",
    "basin-009-sandy-digging-spot"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8058,9 +11342,19 @@
    "crush"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Construction",
+   "Exercise",
+   "Healing",
+   "Luxury"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "basin-009-sandy-digging-spot"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8081,11 +11375,21 @@
    "hype"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of water",
+   "Cute stuff",
+   "Healing",
+   "Group activities",
+   "Play spaces"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "basin-004-swaying-flower-bed-and-coral",
    "basin-018-treasure-chest-and-sparkling-jewels",
    "basin-023-fluffy-relaxation"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8107,10 +11411,20 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of water",
+   "Soft stuff",
+   "Spinning stuff",
+   "Play spaces",
+   "Group activities"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "basin-001-basin-tall-grass",
    "basin-022-smoothie-making-spot"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8132,9 +11446,19 @@
    "build"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of water",
+   "Soft stuff",
+   "Spinning stuff",
+   "Healing",
+   "Cleanliness"
+  ],
+  "flavor": "Spicy",
   "habitats": [
    "basin-020-marine-shop"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8155,10 +11479,20 @@
    "hype"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of water",
+   "Colorful stuff",
+   "Shiny stuff",
+   "Glass stuff",
+   "Fabric"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "basin-003-swaying-flower-bed",
    "basin-012-marine-mossy-rest-spot"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8180,10 +11514,20 @@
    "water"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Lots of water",
+   "Colorful stuff",
+   "Shiny stuff",
+   "Glass stuff",
+   "Group activities"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "basin-005-swaying-flower-bed-and-seaweed",
    "basin-012-marine-mossy-rest-spot"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8206,10 +11550,20 @@
    "burn"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Lots of water",
+   "Spooky stuff",
+   "Ocean vibes",
+   "Watching stuff",
+   "Fabric"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "basin-017-playing-sailor",
    "basin-021-ocean-treasures"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8232,10 +11586,20 @@
    "burn"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Lots of water",
+   "Spooky stuff",
+   "Ocean vibes",
+   "Watching stuff",
+   "Fabric"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "basin-017-playing-sailor",
    "basin-021-ocean-treasures"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8258,9 +11622,19 @@
    "burn"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Lots of water",
+   "Spooky stuff",
+   "Ocean vibes",
+   "Rides",
+   "Luxury"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "basin-032-marine-teatime"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8283,9 +11657,19 @@
    "burn"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Lots of water",
+   "Spooky stuff",
+   "Ocean vibes",
+   "Rides",
+   "Luxury"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "basin-032-marine-teatime"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8307,9 +11691,19 @@
    "scrub"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of water",
+   "Cute stuff",
+   "Healing",
+   "Colorful stuff",
+   "Cleanliness"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "basin-021-ocean-treasures"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8332,10 +11726,20 @@
    "bulldoze"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of dirt",
+   "Electronics",
+   "Blocky stuff",
+   "Soft stuff",
+   "Watching stuff"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "basin-003-swaying-flower-bed",
    "basin-006-seaweed-and-netting"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8358,9 +11762,19 @@
    "teleport"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Complicated stuff",
+   "Strange stuff",
+   "Colorful stuff",
+   "Spinning stuff",
+   "Noisy stuff"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "basin-025-muddy-playtime"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8383,9 +11797,19 @@
    "teleport"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Complicated stuff",
+   "Strange stuff",
+   "Colorful stuff",
+   "Spooky stuff",
+   "Letters and words"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "basin-027-topsy-turvy"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8407,10 +11831,20 @@
    "water"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of water",
+   "Play spaces",
+   "Cute stuff",
+   "Round stuff",
+   "Shiny stuff"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "basin-003-swaying-flower-bed",
    "basin-029-bubbly-stage"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8432,9 +11866,19 @@
    "trade"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of water",
+   "Play spaces",
+   "Group activities",
+   "Noisy stuff",
+   "Cleanliness"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "basin-029-bubbly-stage"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8457,9 +11901,19 @@
    "scrub"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of water",
+   "Play spaces",
+   "Cute stuff",
+   "Noisy stuff",
+   "Cleanliness"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "basin-031-elegant-concert"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8481,9 +11935,19 @@
    "recycle"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Garbage",
+   "Lots of water",
+   "Sharp stuff",
+   "Colorful stuff",
+   "Shiny stuff"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "basin-004-swaying-flower-bed-and-coral"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8506,9 +11970,19 @@
    "build"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Garbage",
+   "Lots of water",
+   "Sharp stuff",
+   "Colorful stuff",
+   "Containers"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "basin-018-treasure-chest-and-sparkling-jewels"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8530,9 +12004,19 @@
    "recycle"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Lots of nature",
+   "Lots of water",
+   "Group activities",
+   "Garbage",
+   "Ocean vibes"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "basin-016-discarded-treasure"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8555,10 +12039,20 @@
    "chop"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Lots of nature",
+   "Lots of water",
+   "Healing",
+   "Exercise",
+   "Luxury"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "basin-004-swaying-flower-bed-and-coral",
    "basin-016-discarded-treasure"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8581,9 +12075,19 @@
    "teleport"
   ],
   "litter": [],
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of water",
+   "Strange stuff",
+   "Colorful stuff",
+   "Hard stuff",
+   "Watching stuff"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "basin-013-molten-mossy-rest-spot"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8608,9 +12112,19 @@
   "litter": [
    "Nonburnable Garbage"
   ],
+  "ambience": "Dark",
+  "favorites": [
+   "Spooky stuff",
+   "Lots of nature",
+   "Wobbly stuff",
+   "Symbols",
+   "Ocean vibes"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "basin-017-playing-sailor"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8631,9 +12145,19 @@
    "chop"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of water",
+   "Hard stuff",
+   "Round stuff",
+   "Lots of nature",
+   "Fabric"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "basin-022-smoothie-making-spot"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8656,9 +12180,19 @@
    "bulldoze"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Lots of water",
+   "Hard stuff",
+   "Round stuff",
+   "Stone stuff",
+   "Exercise"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "basin-024-canoe-dock"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8679,9 +12213,19 @@
    "generate"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Electronics",
+   "Round stuff",
+   "Sharp stuff",
+   "Watching stuff",
+   "Ocean vibes"
+  ],
+  "flavor": "Bitter",
   "habitats": [
    "basin-014-creepy-chimney-rocks"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8702,9 +12246,19 @@
    "bulldoze"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Gatherings",
+   "Slender objects",
+   "Group activities",
+   "Lots of dirt"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "basin-010-sandy-speech"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8726,9 +12280,19 @@
    "search"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Gatherings",
+   "Slender objects",
+   "Group activities",
+   "Stone stuff"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "basin-030-glowing-stage-for-three"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8751,9 +12315,19 @@
    "teleport"
   ],
   "litter": [],
+  "ambience": "Cool",
+  "favorites": [
+   "Lots of water",
+   "Soft stuff",
+   "Sharp stuff",
+   "Exercise",
+   "Rides"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "basin-012-marine-mossy-rest-spot"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8774,7 +12348,17 @@
    "trade"
   ],
   "litter": [],
-  "habitats": []
+  "ambience": "Warm",
+  "favorites": [
+   "Lots of water",
+   "Cute stuff",
+   "Ocean vibes",
+   "Soft stuff",
+   "Round stuff"
+  ],
+  "flavor": "Sour",
+  "habitats": [],
+  "gift": null
  },
  {
   "dex": "basin",
@@ -8796,7 +12380,17 @@
    "hype"
   ],
   "litter": [],
-  "habitats": []
+  "ambience": "Cool",
+  "favorites": [
+   "Lots of water",
+   "Cute stuff",
+   "Ocean vibes",
+   "Healing",
+   "Noisy stuff"
+  ],
+  "flavor": "Bitter",
+  "habitats": [],
+  "gift": null
  },
  {
   "dex": "event",
@@ -8818,9 +12412,19 @@
    "grow"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Soft stuff",
+   "Lots of nature",
+   "Nice breezes",
+   "Pretty flowers",
+   "Wobbly stuff"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "event-001-yellow-carpet"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "event",
@@ -8842,10 +12446,20 @@
    "grow"
   ],
   "litter": [],
+  "ambience": "Bright",
+  "favorites": [
+   "Soft stuff",
+   "Lots of nature",
+   "Nice breezes",
+   "Pretty flowers",
+   "Spinning stuff"
+  ],
+  "flavor": "Dry",
   "habitats": [
    "event-001-yellow-carpet",
    "event-002-field-trip-friends"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "event",
@@ -8870,10 +12484,20 @@
   "litter": [
    "Fluff"
   ],
+  "ambience": "Bright",
+  "favorites": [
+   "Soft stuff",
+   "Lots of nature",
+   "Nice breezes",
+   "Pretty flowers",
+   "Round stuff"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "event-001-yellow-carpet",
    "event-003-dandelion-lunchtime"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "event",
@@ -8895,9 +12519,19 @@
    "search"
   ],
   "litter": [],
+  "ambience": "Dark",
+  "favorites": [
+   "Spooky stuff",
+   "Shiny stuff",
+   "Luxury",
+   "Looks like food",
+   "Watching stuff"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "event-004-treasure-hunting-set"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "event",
@@ -8921,9 +12555,19 @@
   "litter": [
    "Stardust"
   ],
+  "ambience": "Bright",
+  "favorites": [
+   "Metal stuff",
+   "Strange stuff",
+   "Shiny stuff",
+   "Watching stuff",
+   "Wobbly stuff"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "event-005-surrounded-by-stars"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "event",
@@ -8944,9 +12588,19 @@
    "water"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Shiny stuff",
+   "Glass stuff",
+   "Lots of nature",
+   "Group activities"
+  ],
+  "flavor": "Sweet",
   "habitats": [
    "event-006-exciting-beach"
-  ]
+  ],
+  "gift": null
  },
  {
   "dex": "event",
@@ -8968,8 +12622,18 @@
    "hype"
   ],
   "litter": [],
+  "ambience": "Humid",
+  "favorites": [
+   "Lots of water",
+   "Shiny stuff",
+   "Glass stuff",
+   "Luxury",
+   "Cleanliness"
+  ],
+  "flavor": "Sour",
   "habitats": [
    "event-007-marine-leisure-activities"
-  ]
+  ],
+  "gift": null
  }
 ]

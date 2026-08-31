@@ -2,516 +2,619 @@
  {
   "kind": "Large",
   "name": "Polygonal Shelf",
-  "desc": "A stylish, eye-catching shelf. Looks hard to use but still functions as a shelf just fine,"
+  "desc": "A stylish, eye-catching shelf. Looks hard to use but still functions as a shelf just fine,",
+  "img": "polygonalshelf.png"
  },
  {
   "kind": "Large",
   "name": "Mysterious pedestal",
-  "desc": "Looks like it originally had something on top of it..."
+  "desc": "Looks like it originally had something on top of it...",
+  "img": "mysteriouspedestal.png"
  },
  {
   "kind": "Large",
   "name": "Avalugg Table",
-  "desc": "A solid table with cracks in it. It looks just like a resting Avalugg"
+  "desc": "A solid table with cracks in it. It looks just like a resting Avalugg",
+  "img": "avaluggtable.png"
  },
  {
   "kind": "Large",
   "name": "Pikachu sofa",
-  "desc": "Pikachu's face is front and center. On the back, you can find a little tail sticking out."
+  "desc": "Pikachu's face is front and center. On the back, you can find a little tail sticking out.",
+  "img": "pikachusofa.png"
  },
  {
   "kind": "Large",
   "name": "Naptime bed",
-  "desc": "Kick back right on top of Snorlax's belly. It feels so comfy you could snooze through the whole day"
+  "desc": "Kick back right on top of Snorlax's belly. It feels so comfy you could snooze through the whole day",
+  "img": "naptimebed.png"
  },
  {
   "kind": "Large",
   "name": "Wiggly mirror",
-  "desc": "Look into the mirror to change your transformation and perfect your look!"
+  "desc": "Look into the mirror to change your transformation and perfect your look!",
+  "img": "wigglymirror.png"
  },
  {
   "kind": "Large",
   "name": "Pitcher-plant pot",
-  "desc": "A flower vase with a pink lip that resembles a Pokémon's mouth. It emanates a faintly sweet aroma"
+  "desc": "A flower vase with a pink lip that resembles a Pokémon's mouth. It emanates a faintly sweet aroma",
+  "img": "pitcher-plantpot.png"
  },
  {
   "kind": "Large",
   "name": "Munna bank",
-  "desc": "An especially heavy money box. It feels like it's full of coins"
+  "desc": "An especially heavy money box. It feels like it's full of coins",
+  "img": "munnabank.png"
  },
  {
   "kind": "Large",
   "name": "Bouncy blue bathtub",
-  "desc": "A bathtub that lets you experience waves and bubbles, even without a single drop of water inside."
+  "desc": "A bathtub that lets you experience waves and bubbles, even without a single drop of water inside.",
+  "img": "bouncybluebathtub.png"
  },
  {
   "kind": "Large",
   "name": "Arcade machine",
-  "desc": "A game machine from a facility somewhere. It looks brand-new, so it probably can still be turned on"
+  "desc": "A game machine from a facility somewhere. It looks brand-new, so it probably can still be turned on",
+  "img": "arcademachine.png"
  },
  {
   "kind": "Large",
   "name": "Funky diffuser",
-  "desc": "The symbol on it looks dangerous, but it doesn't seem like this will actually spew out poison gas..."
+  "desc": "The symbol on it looks dangerous, but it doesn't seem like this will actually spew out poison gas...",
+  "img": "funkydiffuser.png"
  },
  {
   "kind": "Large",
   "name": "Gold Teeth",
-  "desc": "Their lustrous golden shine hasn't changed at all. Maybe someone dropped them long ago?"
+  "desc": "Their lustrous golden shine hasn't changed at all. Maybe someone dropped them long ago?",
+  "img": "goldteeth.png"
  },
  {
   "kind": "Large",
   "name": "Repel",
-  "desc": "When you press the spray cap, a weird scent spritzes out and permeates the area"
+  "desc": "When you press the spray cap, a weird scent spritzes out and permeates the area",
+  "img": "repel.png"
  },
  {
   "kind": "Large",
   "name": "Big Nugget",
-  "desc": "It's made of pure gold that gives off a lustrous gleam. It seems like it was popular among enthusiasts."
+  "desc": "It's made of pure gold that gives off a lustrous gleam. It seems like it was popular among enthusiasts.",
+  "img": "bignugget.png"
  },
  {
   "kind": "Large",
   "name": "Boo-in-the-box",
-  "desc": "Open the box, and -BOING!-out pops the Gengar!"
+  "desc": "Open the box, and -BOING!-out pops the Gengar!",
+  "img": "boo-in-the-box.png"
  },
  {
   "kind": "Large",
   "name": "Wobbuffet Wobbler",
-  "desc": "An exceptionally durable Wobbuffet doll. It gets back up no matter how many times you knock it over."
+  "desc": "An exceptionally durable Wobbuffet doll. It gets back up no matter how many times you knock it over.",
+  "img": "wobbuffetwobbler.png"
  },
  {
   "kind": "Large",
   "name": "Mysterious statue",
-  "desc": "Doesn't seem like anyone knows exactly what this is a statue of..."
+  "desc": "Doesn't seem like anyone knows exactly what this is a statue of...",
+  "img": "mysteriousstatue.png"
  },
  {
   "kind": "Large",
   "name": "Fiery Magby statue",
-  "desc": "If you place a switch nearby and activate it, Magby will shoot fire out of their mouth! Fwooosh!"
+  "desc": "If you place a switch nearby and activate it, Magby will shoot fire out of their mouth! Fwooosh!",
+  "img": "fierymagbystatue.png"
  },
  {
   "kind": "Large",
   "name": "Gym emblem statue",
-  "desc": "This stone statue makes you feel pumped up. Would look great on a pedestal"
+  "desc": "This stone statue makes you feel pumped up. Would look great on a pedestal",
+  "img": "gymemblemstatue.png"
  },
  {
   "kind": "Large",
   "name": "Spacesuit",
-  "desc": "Clothing designed for living in outer space. Keeps the wearer safe even in an airless environment"
+  "desc": "Clothing designed for living in outer space. Keeps the wearer safe even in an airless environment",
+  "img": "spacesuit.png"
  },
  {
   "kind": "Large",
   "name": "Model space shuttle",
-  "desc": "A realistic model that looks like it could blast off at any second. Could it have been in some museum?"
+  "desc": "A realistic model that looks like it could blast off at any second. Could it have been in some museum?",
+  "img": "modelspaceshuttle.png"
  },
  {
   "kind": "Large",
   "name": "Spaceship",
-  "desc": "a vehicle meant for traveling to outerspace. Hermetically sealed so air doesn't escape."
+  "desc": "a vehicle meant for traveling to outerspace. Hermetically sealed so air doesn't escape.",
+  "img": "spaceship.png"
  },
  {
   "kind": "Large",
   "name": "Rowlet clock",
-  "desc": "A wall clock shaped like a small house. Rowlet will pop out to let you know what time it is"
+  "desc": "A wall clock shaped like a small house. Rowlet will pop out to let you know what time it is",
+  "img": "rowletclock.png"
  },
  {
   "kind": "Large",
   "name": "Castform weather charm",
-  "desc": "A reversible Castform doll. Rumor has it, when the doll changes form, the weather changes too!"
+  "desc": "A reversible Castform doll. Rumor has it, when the doll changes form, the weather changes too!",
+  "img": "castformweathercharm.png"
  },
  {
   "kind": "Large",
   "name": "Eerie candle",
-  "desc": "Fwoosh! This candle glows with a bluish flame when lit. It's small enough to fit on top of a desk."
+  "desc": "Fwoosh! This candle glows with a bluish flame when lit. It's small enough to fit on top of a desk.",
+  "img": "eeriecandle.png"
  },
  {
   "kind": "Large",
   "name": "Garden ornament",
-  "desc": "This decoration looks like Maushold spending quality time on a log."
+  "desc": "This decoration looks like Maushold spending quality time on a log.",
+  "img": "gardenornament.png"
  },
  {
   "kind": "Large",
   "name": "Bike",
-  "desc": "A cool bicycle that looks high-end. It sparkles as if it's brand-new"
+  "desc": "A cool bicycle that looks high-end. It sparkles as if it's brand-new",
+  "img": "bike.png"
  },
  {
   "kind": "Large",
   "name": "Horsea fountain",
-  "desc": "Installing this near water should raise the humidity of its surroundings"
+  "desc": "Installing this near water should raise the humidity of its surroundings",
+  "img": "horseafountain.png"
  },
  {
   "kind": "Large",
   "name": "Fishing rod",
-  "desc": "A must-have item for fishing up Pokémon. Set one by the water and wait patiently for a bite!"
+  "desc": "A must-have item for fishing up Pokémon. Set one by the water and wait patiently for a bite!",
+  "img": "fishingrod.png"
  },
  {
   "kind": "Large",
   "name": "Raichu sign",
-  "desc": "A sign depicting Raichu discharging electricity. When powered up, the neon lighting glows brightly"
+  "desc": "A sign depicting Raichu discharging electricity. When powered up, the neon lighting glows brightly",
+  "img": "raichusign.png"
  },
  {
   "kind": "Large",
   "name": "Photo cutout board",
-  "desc": "Put your fac through the hole to become Plusle or Minun!"
+  "desc": "Put your fac through the hole to become Plusle or Minun!",
+  "img": "photocutoutboard.png"
  },
  {
   "kind": "Large",
   "name": "Red meteor lamp",
-  "desc": "When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe."
+  "desc": "When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe.",
+  "img": "redmeteorlamp.png"
  },
  {
   "kind": "Large",
   "name": "Orange meteor lamp",
-  "desc": "When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe."
+  "desc": "When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe.",
+  "img": "orangemeteorlamp.png"
  },
  {
   "kind": "Large",
   "name": "Yellow meteor lamp",
-  "desc": "When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe."
+  "desc": "When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe.",
+  "img": "yellowmeteorlamp.png"
  },
  {
   "kind": "Large",
   "name": "Green meteor lamp",
-  "desc": "When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe."
+  "desc": "When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe.",
+  "img": "greenmeteorlamp.png"
  },
  {
   "kind": "Large",
   "name": "Blue meteor lamp",
-  "desc": "When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe."
+  "desc": "When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe.",
+  "img": "bluemeteorlamp.png"
  },
  {
   "kind": "Large",
   "name": "Indigo meteor lamp",
-  "desc": "When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe."
+  "desc": "When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe.",
+  "img": "indigometeorlamp.png"
  },
  {
   "kind": "Large",
   "name": "Violet meteor lamp",
-  "desc": "When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe."
+  "desc": "When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe.",
+  "img": "violetmeteorlamp.png"
  },
  {
   "kind": "Large",
   "name": "Seedot Lamp",
-  "desc": "When mounted to a wall, this looks just like a Seedot hanging from a branch!"
+  "desc": "When mounted to a wall, this looks just like a Seedot hanging from a branch!",
+  "img": "seedotlamp.png"
  },
  {
   "kind": "Large",
   "name": "Slowpoke rug",
-  "desc": "A rug designed to look like a sprawled-out Slowpoke. Its blank expression is just perfect"
+  "desc": "A rug designed to look like a sprawled-out Slowpoke. Its blank expression is just perfect",
+  "img": "slowpokerug.png"
  },
  {
   "kind": "Large",
   "name": "Charizard rug",
-  "desc": "A rug with a design of Charizard breathing fire. Its magnificent posture is quite impressive"
+  "desc": "A rug with a design of Charizard breathing fire. Its magnificent posture is quite impressive",
+  "img": "charizardrug.png"
  },
  {
   "kind": "Large",
   "name": "Town map",
-  "desc": "A map of...somewhere. You can't make heads or tails of it but it looks pretty nice on a wall"
+  "desc": "A map of...somewhere. You can't make heads or tails of it but it looks pretty nice on a wall",
+  "img": "townmap.png"
  },
  {
   "kind": "Large",
   "name": "Team Rocket Wall Hanging",
-  "desc": "The symbol of a certain organization. Just looking at it makes you want to get up to some mischief"
+  "desc": "The symbol of a certain organization. Just looking at it makes you want to get up to some mischief",
+  "img": "teamrocketwallhanging.png"
  },
  {
   "kind": "Large (Sunken)",
   "name": "Windup Inkay",
-  "desc": "An Inkay toy that floats and bobs. Wind it up and let the fun begin"
+  "desc": "An Inkay toy that floats and bobs. Wind it up and let the fun begin",
+  "img": "windupinkay.png"
  },
  {
   "kind": "Large (Sunken)",
   "name": "Chimecho wind chime",
-  "desc": "A wind chime that looks just like Chimecho. It jingles when the wind blows"
+  "desc": "A wind chime that looks just like Chimecho. It jingles when the wind blows",
+  "img": "chimechowindchime.png"
  },
  {
   "kind": "Large (Sunken)",
   "name": "Running shoes",
-  "desc": "A pair of very lightweight comfortable sneakers. They still have that new-shoe shine to them."
+  "desc": "A pair of very lightweight comfortable sneakers. They still have that new-shoe shine to them.",
+  "img": "runningshoes.png"
  },
  {
   "kind": "Large (Sunken)",
   "name": "Gyarados fountain",
-  "desc": "A fountain that looks like Gyarados shooting water out of its mouth. Place it near a water source."
+  "desc": "A fountain that looks like Gyarados shooting water out of its mouth. Place it near a water source.",
+  "img": "gyaradosfountain.png"
  },
  {
   "kind": "Large (Sunken)",
   "name": "Primarina statue",
-  "desc": "A statue of Primarina using Surf. The white plaster really accentuates its beauty."
+  "desc": "A statue of Primarina using Surf. The white plaster really accentuates its beauty.",
+  "img": "primarinastatue.png"
  },
  {
   "kind": "Large (Sunken)",
   "name": "Cycle shop sign",
-  "desc": "A sign that serves as a symbol of a bicycle shop. Try putting this on a roof"
+  "desc": "A sign that serves as a symbol of a bicycle shop. Try putting this on a roof",
+  "img": "cycleshopsign.png"
  },
  {
   "kind": "Large (Sunken)",
   "name": "Supermarket sign",
-  "desc": "A sign that serves as a symbol of a supermarket. Try putting this on a roof"
+  "desc": "A sign that serves as a symbol of a supermarket. Try putting this on a roof",
+  "img": "supermarketsign.png"
  },
  {
   "kind": "Large (Sunken)",
   "name": "Café sign",
-  "desc": "A sign that serves as a symbol of a café. Try putting this on a roof"
+  "desc": "A sign that serves as a symbol of a café. Try putting this on a roof",
+  "img": "cafesign.png"
  },
  {
   "kind": "Large (Sunken)",
   "name": "Restaurant sign",
-  "desc": "A sign that serves as a symbol of a restaurant. Try putting this on a roof"
+  "desc": "A sign that serves as a symbol of a restaurant. Try putting this on a roof",
+  "img": "restaurantsign.png"
  },
  {
   "kind": "Large (Sunken)",
   "name": "Gift shop sign",
-  "desc": "A sign that serves as a symbol of a gift shop. Try putting this on a roof"
+  "desc": "A sign that serves as a symbol of a gift shop. Try putting this on a roof",
+  "img": "giftshopsign.png"
  },
  {
   "kind": "Large (Sunken)",
   "name": "Cursola light",
-  "desc": "Cursola's stomach lights up when powered on, showering the surroundings in a gentle glow"
+  "desc": "Cursola's stomach lights up when powered on, showering the surroundings in a gentle glow",
+  "img": "cursolalight.png"
  },
  {
   "kind": "Large (Sunken)",
   "name": "Swampert squad rug",
-  "desc": "A cute rug featuring Marshtom, Mudkip, and their leader, Swampert."
+  "desc": "A cute rug featuring Marshtom, Mudkip, and their leader, Swampert.",
+  "img": "swampertsquadrug.png"
  },
  {
   "kind": "Large (Sunken)",
   "name": "Ocean pals rug",
-  "desc": "A rug featuring all kinds of lovely Pokémon that live in the water"
+  "desc": "A rug featuring all kinds of lovely Pokémon that live in the water",
+  "img": "oceanpalsrug.png"
  },
  {
   "kind": "Large (Sunken)",
   "name": "Wig-Wug rug",
-  "desc": "A rug featuring lots of carefree Wiglett and Wugtrio"
+  "desc": "A rug featuring lots of carefree Wiglett and Wugtrio",
+  "img": "wig-wugrug.png"
  },
  {
   "kind": "Small",
   "name": "Nugget",
-  "desc": "It's made of pure gold that gives off a lustrous gleam. Try hanging it up in a frame!"
+  "desc": "It's made of pure gold that gives off a lustrous gleam. Try hanging it up in a frame!",
+  "img": "nugget.png"
  },
  {
   "kind": "Small",
   "name": "Silver Bottle Cap",
-  "desc": "A lovely silver bottle cap. Try hanging it up in a frame!"
+  "desc": "A lovely silver bottle cap. Try hanging it up in a frame!",
+  "img": "silverbottlecap.png"
  },
  {
   "kind": "Small",
   "name": "Gold Bottle Cap",
-  "desc": "A lovely gold bottle cap. Try hanging it up in a frame!"
+  "desc": "A lovely gold bottle cap. Try hanging it up in a frame!",
+  "img": "goldbottlecap.png"
  },
  {
   "kind": "Small",
   "name": "Rare Bone",
-  "desc": "An extremely old and valuable bone. Try hanging it up in a frame!"
+  "desc": "An extremely old and valuable bone. Try hanging it up in a frame!",
+  "img": "rarebone.png"
  },
  {
   "kind": "Small",
   "name": "Heart Scale",
-  "desc": "An extremely rare scale. Try hanging it up in a frame!"
+  "desc": "An extremely rare scale. Try hanging it up in a frame!",
+  "img": "heartscale.png"
  },
  {
   "kind": "Small",
   "name": "Miracle Seed",
-  "desc": "A seed imbued with life force. Try hanging it up in a frame!"
+  "desc": "A seed imbued with life force. Try hanging it up in a frame!",
+  "img": "miracleseed.png"
  },
  {
   "kind": "Small",
   "name": "Hard Stone",
-  "desc": "An unbreakable stone. Try hanging it up in a frame!"
+  "desc": "An unbreakable stone. Try hanging it up in a frame!",
+  "img": "hardstone.png"
  },
  {
   "kind": "Small",
   "name": "Mystic Water",
-  "desc": "A teardrop-shaped gem. Try hanging it up in a frame!"
+  "desc": "A teardrop-shaped gem. Try hanging it up in a frame!",
+  "img": "mysticwater.png"
  },
  {
   "kind": "Small",
   "name": "Metal Coat",
-  "desc": "A special metallic coating. Try hanging it up in a frame!"
+  "desc": "A special metallic coating. Try hanging it up in a frame!",
+  "img": "metalcoat.png"
  },
  {
   "kind": "Small",
   "name": "Twisted Spoon",
-  "desc": "A spoon imbued with telekinetic energy. Try hanging it up in a frame!"
+  "desc": "A spoon imbued with telekinetic energy. Try hanging it up in a frame!",
+  "img": "twistedspoon.png"
  },
  {
   "kind": "Small",
   "name": "Silver Powder",
-  "desc": "A shiny silver powder. Try hanging it up in a frame!"
+  "desc": "A shiny silver powder. Try hanging it up in a frame!",
+  "img": "silverpowder.png"
  },
  {
   "kind": "Small",
   "name": "Black Glasses",
-  "desc": "pair of shady-looking glasses. Try hanging it up in a frame!"
+  "desc": "pair of shady-looking glasses. Try hanging it up in a frame!",
+  "img": "blackglasses.png"
  },
  {
   "kind": "Small",
   "name": "Black Belt",
-  "desc": "A thin black belt. Try hanging it up in a frame!"
+  "desc": "A thin black belt. Try hanging it up in a frame!",
+  "img": "blackbelt.png"
  },
  {
   "kind": "Small",
   "name": "Silk Scarf",
-  "desc": "A sumptuous scarf. Try hanging it up in a frame!"
+  "desc": "A sumptuous scarf. Try hanging it up in a frame!",
+  "img": "silkscarf.png"
  },
  {
   "kind": "Small",
   "name": "Sharp Beak",
-  "desc": "A long, sharp beak. Try hanging it up in a frame!"
+  "desc": "A long, sharp beak. Try hanging it up in a frame!",
+  "img": "sharpbeak.png"
  },
  {
   "kind": "Small",
   "name": "Poison Barb",
-  "desc": "A small poisonous barb. Try hanging it up in a frame!"
+  "desc": "A small poisonous barb. Try hanging it up in a frame!",
+  "img": "poisonbarb.png"
  },
  {
   "kind": "Small",
   "name": "Never-Melt Ice",
-  "desc": "A heat-repelling piece of ice. Try hanging it up in a frame!"
+  "desc": "A heat-repelling piece of ice. Try hanging it up in a frame!",
+  "img": "never-meltice.png"
  },
  {
   "kind": "Small",
   "name": "Spell Tag",
-  "desc": "A sinister, eerie tag. Try hanging it up in a frame!"
+  "desc": "A sinister, eerie tag. Try hanging it up in a frame!",
+  "img": "spelltag.png"
  },
  {
   "kind": "Small",
   "name": "Charcoal",
-  "desc": "Charcoal made by burning wood. Try hanging it up in a frame!"
+  "desc": "Charcoal made by burning wood. Try hanging it up in a frame!",
+  "img": "charcoal.png"
  },
  {
   "kind": "Small",
   "name": "Soft Sand",
-  "desc": "Loose, silky sand. Try hanging it up in a frame!"
+  "desc": "Loose, silky sand. Try hanging it up in a frame!",
+  "img": "softsand.png"
  },
  {
   "kind": "Small",
   "name": "Fairy Feather",
-  "desc": "A feather that gleams faintly when hit by light. Try hanging it up in a frame!"
+  "desc": "A feather that gleams faintly when hit by light. Try hanging it up in a frame!",
+  "img": "fairyfeather.png"
  },
  {
   "kind": "Small",
   "name": "Dragon Fang",
-  "desc": "A hard, sharp fang. Try hanging it up in a frame!"
+  "desc": "A hard, sharp fang. Try hanging it up in a frame!",
+  "img": "dragonfang.png"
  },
  {
   "kind": "Small",
   "name": "Leftovers",
-  "desc": "Someone's leftover food. Try hanging it up in a frame!"
+  "desc": "Someone's leftover food. Try hanging it up in a frame!",
+  "img": "leftovers.png"
  },
  {
   "kind": "Small",
   "name": "Black Sludge",
-  "desc": "Sludge with a repulsive odor. Try hanging it up in a frame!"
+  "desc": "Sludge with a repulsive odor. Try hanging it up in a frame!",
+  "img": "blacksludge.png"
  },
  {
   "kind": "Small",
   "name": "Lucky Egg",
-  "desc": "A round, white egg. Try hanging it up in a frame!"
+  "desc": "A round, white egg. Try hanging it up in a frame!",
+  "img": "luckyegg.png"
  },
  {
   "kind": "Small",
   "name": "Destiny Knot",
-  "desc": "A long, thin, bright-red string. Try hanging it up in a frame!"
+  "desc": "A long, thin, bright-red string. Try hanging it up in a frame!",
+  "img": "destinyknot.png"
  },
  {
   "kind": "Small",
   "name": "Life Orb",
-  "desc": "A beautiful red orb. Try hanging it up in a frame!"
+  "desc": "A beautiful red orb. Try hanging it up in a frame!",
+  "img": "lifeorb.png"
  },
  {
   "kind": "Small",
   "name": "Iron Ball",
-  "desc": "A round, black iron ball. Try hanging it up in a frame!"
+  "desc": "A round, black iron ball. Try hanging it up in a frame!",
+  "img": "ironball.png"
  },
  {
   "kind": "Small",
   "name": "Metal Powder",
-  "desc": "An extremely fine, yet hard metal pwoder. Try hanging it up in a frame!"
+  "desc": "An extremely fine, yet hard metal pwoder. Try hanging it up in a frame!",
+  "img": "metalpowder.png"
  },
  {
   "kind": "Small",
   "name": "Big Root",
-  "desc": "The root of some plant. Try hanging it up in a frame!"
+  "desc": "The root of some plant. Try hanging it up in a frame!",
+  "img": "bigroot.png"
  },
  {
   "kind": "Small",
   "name": "Adrenaline Orb",
-  "desc": "A round, blue ball. Try hanging it up in a frame!"
+  "desc": "A round, blue ball. Try hanging it up in a frame!",
+  "img": "adrenalineorb.png"
  },
  {
   "kind": "Small",
   "name": "Weakness Policy",
-  "desc": "A piece of paper with clean, neat writing on it. Try hanging it up in a frame!"
+  "desc": "A piece of paper with clean, neat writing on it. Try hanging it up in a frame!",
+  "img": "weaknesspolicy.png"
  },
  {
   "kind": "Small",
   "name": "Terrain Extender",
-  "desc": "A spray that looks like it could be dispersed over a wide area. Try hanging it up in a frame!"
+  "desc": "A spray that looks like it could be dispersed over a wide area. Try hanging it up in a frame!",
+  "img": "terrainextender.png"
  },
  {
   "kind": "Small",
   "name": "Wide Lens",
-  "desc": "A lens that never gets cloudy. Try hanging it up in a frame!"
+  "desc": "A lens that never gets cloudy. Try hanging it up in a frame!",
+  "img": "widelens.png"
  },
  {
   "kind": "Small",
   "name": "Throat Spray",
-  "desc": "A spray that provides relief for tired throats. Try hanging it up in a frame!"
+  "desc": "A spray that provides relief for tired throats. Try hanging it up in a frame!",
+  "img": "throatspray.png"
  },
  {
   "kind": "Small",
   "name": "Light Clay",
-  "desc": "Yellowish-green clay. Try hanging it up in a frame!"
+  "desc": "Yellowish-green clay. Try hanging it up in a frame!",
+  "img": "lightclay.png"
  },
  {
   "kind": "Small",
   "name": "Loaded Dice",
-  "desc": "Dice that always rolls a good number. Try hanging it up in a frame!"
+  "desc": "Dice that always rolls a good number. Try hanging it up in a frame!",
+  "img": "loadeddice.png"
  },
  {
   "kind": "Small",
   "name": "Sticky Barb",
-  "desc": "A pricly object that easily latches on to things. Try hanging it up in a frame!"
+  "desc": "A pricly object that easily latches on to things. Try hanging it up in a frame!",
+  "img": "stickybarb.png"
  },
  {
   "kind": "Small",
   "name": "Quick Claw",
-  "desc": "A light, sharp claw. Try hanging it up in a frame!"
+  "desc": "A light, sharp claw. Try hanging it up in a frame!",
+  "img": "quickclaw.png"
  },
  {
   "kind": "Small",
   "name": "Lagging Tail",
-  "desc": "A tremendously heavy tail of something. Try hanging it up in a frame!"
+  "desc": "A tremendously heavy tail of something. Try hanging it up in a frame!",
+  "img": "laggingtail.png"
  },
  {
   "kind": "Small",
   "name": "Flame Orb",
-  "desc": "A bizarre orb that always gives off heat. Try hanging it up in a frame!"
+  "desc": "A bizarre orb that always gives off heat. Try hanging it up in a frame!",
+  "img": "flameorb.png"
  },
  {
   "kind": "Small",
   "name": "Ability Shield",
-  "desc": "A cute and rather unique-looking shield. Try hanging it up in a frame!"
+  "desc": "A cute and rather unique-looking shield. Try hanging it up in a frame!",
+  "img": "abilityshield.png"
  },
  {
   "kind": "Small",
   "name": "Room Service",
-  "desc": "A luxurious cart with a metal cloche. Try hanging it up in a frame!"
+  "desc": "A luxurious cart with a metal cloche. Try hanging it up in a frame!",
+  "img": "roomservice.png"
  },
  {
   "kind": "Small",
   "name": "Ring Target",
-  "desc": "A target with distinctive balck and white rings. Try hanging it up in a frame!"
+  "desc": "A target with distinctive balck and white rings. Try hanging it up in a frame!",
+  "img": "ringtarget.png"
  },
  {
   "kind": "Small",
   "name": "Clear Amulet",
-  "desc": "An amulent that always stays clear and sparkling. Try hanging it up in a frame!"
+  "desc": "An amulent that always stays clear and sparkling. Try hanging it up in a frame!",
+  "img": "clearamulet.png"
  },
  {
   "kind": "Small",
   "name": "Zoom Lens",
-  "desc": "A lens that never gets cloudy. Try hanging it up in a frame!"
+  "desc": "A lens that never gets cloudy. Try hanging it up in a frame!",
+  "img": "zoomlens.png"
  }
 ]

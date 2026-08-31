@@ -3,6 +3,7 @@
   "id": "storage-box",
   "name": "Storage box",
   "desc": "A convenient box you can store items in. It's made of wood and easy to move things in and out of.",
+  "img": "storagebox.png",
   "sources": [
    "Withered Wastelands (Original)",
    "Rocky Ridges (Original)",
@@ -19,6 +20,7 @@
   "id": "wall-storage-box",
   "name": "Wall storage box",
   "desc": "It may be small, but it can store lots of stuff. Try mounting it on a wall",
+  "img": "wallstoragebox.png",
   "sources": [
    "Craft from recipe"
   ],
@@ -33,6 +35,7 @@
   "id": "big-storage-box",
   "name": "Big storage box",
   "desc": "Roughly three times bigger than your standard storage box. You can put a lot of things inside.",
+  "img": "bigstoragebox.png",
   "sources": [
    "Craft from recipe"
   ],
@@ -45,6 +48,7 @@
   "id": "plain-chest",
   "name": "Plain chest",
   "desc": "A chest with a simple design. It can be used to store items.",
+  "img": "plainchest.png",
   "sources": [
    "Withered Wastelands (Original)",
    "Bleak Beach (Original)",
@@ -66,6 +70,7 @@
   "id": "office-cabinet",
   "name": "Office cabinet",
   "desc": "Compacy furniture that's surprisingly spacious. Open the sliding door to put items inside",
+  "img": "officecabinet.png",
   "sources": [
    "Withered Wastelands (Original)",
    "Sparkling Skylands (Original)",
@@ -85,6 +90,7 @@
   "id": "gaming-fridge",
   "name": "Gaming fridge",
   "desc": "A chest that's slightly cold to the touch. Ice-type Pokémon will probably enjoy this.",
+  "img": "gamingfridge.png",
   "sources": [
    "Trade with Gimmighoul/Gholdengo",
    "Craft from recipe"
@@ -100,6 +106,7 @@
   "id": "poke-ball-chest",
   "name": "Poké Ball Chest",
   "desc": "This looks like a giant Poké Ball. It opens wide for you to store things inside",
+  "img": "pokeballchest.png",
   "sources": [
    "Trade with Gimmighoul/Gholdengo",
    "Craft from recipe"
@@ -115,6 +122,7 @@
   "id": "berry-case",
   "name": "Berry case",
   "desc": "At a glance, this looks just like a glossy Cheri Berry. It opens wide for you to store things inside",
+  "img": "berrycase.png",
   "sources": [
    "Trade with Gimmighoul/Gholdengo"
   ],
@@ -129,6 +137,7 @@
   "id": "antique-chest",
   "name": "Antique chest",
   "desc": "Its four curvy legs are adorable. Try putting lots of different things in the draw",
+  "img": "antiquechest.png",
   "sources": [
    "Bleak Beach (Original)",
    "Sparkling Skylands (Original)",
@@ -146,6 +155,7 @@
   "id": "plain-closet",
   "name": "Plain closet",
   "desc": "Open the curtains and store your stuff! You don't actually need the hangers-but they're there anyway!",
+  "img": "plaincloset.png",
   "sources": [
    "Bleak Beach (Original)",
    "Rocky Ridges (Original)",
@@ -165,6 +175,7 @@
   "id": "office-locker",
   "name": "Office locker",
   "desc": "A large locker that can even hold clothing. Try storing lots of different things in it!",
+  "img": "officelocker.png",
   "sources": [
    "Sparkling Skylands (Original)",
    "Bubbly Basin (Original)",
@@ -186,6 +197,7 @@
   "id": "antique-closet",
   "name": "Antique closet",
   "desc": "A large bulky closet. Try storing different things in it!",
+  "img": "antiquecloset.png",
   "sources": [
    "Sparkling Skylands (Original)",
    "Trade with Gimmighoul/Gholdengo",
@@ -202,6 +214,7 @@
   "id": "office-shelf",
   "name": "Office shelf",
   "desc": "This is jam-packed with so many files that it can't hold anything else",
+  "img": "officeshelf.png",
   "sources": [
    "Bleak Beach (Original)",
    "Rocky Ridges (Original)",
@@ -222,6 +235,7 @@
   "id": "polygonal-shelf",
   "name": "Polygonal Shelf",
   "desc": "A stylish, eye-catching shelf. Looks hard to use but still functions as a shelf just fine,",
+  "img": "polygonalshelf.png",
   "sources": [
    "Appraise from a Relic"
   ],
@@ -236,6 +250,7 @@
   "id": "straw-table",
   "name": "Straw table",
   "desc": "Table may be an overly generous description of this big slab of stone atop a pile of hay",
+  "img": "strawtable.png",
   "sources": [
    "Dragonite Doll Dream Island (Original)",
    "Craft from recipe"
@@ -249,6 +264,7 @@
   "id": "log-table",
   "name": "Log table",
   "desc": "With just some cutting and sanding, you can turn logs into a proper table",
+  "img": "logtable.png",
   "sources": [
    "Craft from recipe"
   ],
@@ -261,6 +277,7 @@
   "id": "side-table",
   "name": "Side table",
   "desc": "A side table with a refreshing appearance. It'd be perfect next to a beach chair.",
+  "img": "sidetable.png",
   "sources": [
    "Bleak Beach (Original)",
    "Bubbly Basin (Original)",
@@ -275,6 +292,7 @@
   "id": "garden-table",
   "name": "Garden table",
   "desc": "A stylish table that would look nice with a garden chair or two",
+  "img": "gardentable.png",
   "sources": [
    "Sparkling Skylands (Original)",
    "Trade with Gimmighoul/Gholdengo",
@@ -289,6 +307,7 @@
   "id": "wooden-table",
   "name": "Wooden table",
   "desc": "You only need lumber to make this. Despite its small size, it's still a splendid table",
+  "img": "woodentable.png",
   "sources": [
    "Withered Wastelands (Original)",
    "Bleak Beach (Original)",
@@ -307,6 +326,7 @@
   "id": "counter",
   "name": "Counter",
   "desc": "Line up these counters to make them longer. You can also rotate a few to make some nice corners",
+  "img": "counter.png",
   "sources": [
    "Withered Wastelands (Original)",
    "Bleak Beach (Original)",
@@ -326,6 +346,7 @@
   "id": "wall-mounted-table",
   "name": "Wall-mounted table",
   "desc": "A superb table that can fit snugly in a corner. A row of them would also make a great countertop",
+  "img": "wall-mountedtable.png",
   "sources": [
    "Bleak Beach (Original)",
    "Sparkling Skylands (Original)",
@@ -341,6 +362,7 @@
   "id": "pokemon-center-counter",
   "name": "Pokémon Center counter",
   "desc": "Line these up to make a Pokémon Center countertop. They have a simple, clean design",
+  "img": "pokemoncentercounter.png",
   "sources": [
    "Craft from recipe"
   ],
@@ -353,6 +375,7 @@
   "id": "kitchen-table",
   "name": "Kitchen table",
   "desc": "A glossy table that protects against grime. It would look great placed near a sink and stove",
+  "img": "kitchentable.png",
   "sources": [
    "Rocky Ridges (Original)",
    "Sparkling Skylands (Original)",
@@ -369,6 +392,7 @@
   "id": "push-cart",
   "name": "Push cart",
   "desc": "A table cart. Try putting stuff on top of it, like food",
+  "img": "pushcart.png",
   "sources": [
    "Bleak Beach (Original)",
    "Sparkling Skylands (Original)",
@@ -383,6 +407,7 @@
   "id": "exhibition-stand",
   "name": "Exhibition stand",
   "desc": "You can place these side by side to adjust the size. Try displaying lots of different things on top!",
+  "img": "exhibitionstand.png",
   "sources": [
    "Rocky Ridges (Original)",
    "Arcanine Doll Dream Island (Original)",
@@ -397,6 +422,7 @@
   "id": "mysterious-pedestal",
   "name": "Mysterious pedestal",
   "desc": "Looks like it originally had something on top of it...",
+  "img": "mysteriouspedestal.png",
   "sources": [
    "Palette Town (Natural)",
    "Bubbly Basin (Original)",
@@ -416,6 +442,7 @@
   "id": "plain-stand",
   "name": "Plain stand",
   "desc": "This low table has a simple design and is perfect for displaying items",
+  "img": "plainstand.png",
   "sources": [
    "Craft from recipe"
   ],
@@ -430,6 +457,7 @@
   "id": "iron-stand",
   "name": "Iron stand",
   "desc": "An impressively stury iron stand. Effortlessly supports even heavy items",
+  "img": "ironstand.png",
   "sources": [
    "Clefairy Doll Dream Island (Original)",
    "Craft from recipe"
@@ -445,6 +473,7 @@
   "id": "food-counter",
   "name": "Food counter",
   "desc": "A counter that is perfect for putting out food at parties",
+  "img": "foodcounter.png",
   "sources": [
    "Craft from recipe"
   ],
@@ -459,6 +488,7 @@
   "id": "plain-table",
   "name": "Plain table",
   "desc": "This simple table can be placed just about anywhere! Try putting different things on it",
+  "img": "plaintable.png",
   "sources": [
    "Bleak Beach (Original)",
    "Sparkling Skylands (Original)",
@@ -478,6 +508,7 @@
   "id": "antique-table",
   "name": "Antique table",
   "desc": "Its lumpy legs are cute. You can make a large table by arranging several of these together",
+  "img": "antiquetable.png",
   "sources": [
    "Rocky Ridges (Original)",
    "Sparkling Skylands (Original)",
@@ -493,6 +524,7 @@
   "id": "industrial-desk",
   "name": "Industrial desk",
   "desc": "A desk with a beautifuly wood grain texture. This would even look great outside the house.",
+  "img": "industrialdesk.png",
   "sources": [
    "Rocky Ridges (Original)",
    "Sparkling Skylands (Original)",
@@ -509,6 +541,7 @@
   "id": "iron-table",
   "name": "Iron table",
   "desc": "Iron-crafted with a simple design. This would work well in any sleekly stylish room",
+  "img": "irontable.png",
   "sources": [
    "Withered Wastelands (Original)",
    "Rocky Ridges (Original)",
@@ -525,6 +558,7 @@
   "id": "office-desk",
   "name": "Office desk",
   "desc": "A desk often used in offices. The pull-out drawer is locked and won't open.",
+  "img": "officedesk.png",
   "sources": [
    "Withered Wastelands (Original)",
    "Bleak Beach (Original)",
@@ -548,6 +582,7 @@
   "id": "study-desk",
   "name": "Study desk",
   "desc": "Just looking at this desk feels like it will somehow make you smarter",
+  "img": "studydesk.png",
   "sources": [
    "Craft from recipe"
   ],
@@ -560,6 +595,7 @@
   "id": "cute-table",
   "name": "Cute table",
   "desc": "A table with cute lace and frills. It somehow reminds you of Fairy types",
+  "img": "cutetable.png",
   "sources": [
    "Trade with Gimmighoul/Gholdengo",
    "Craft from recipe"
@@ -573,6 +609,7 @@
   "id": "iron-rack",
   "name": "Iron rack",
   "desc": "Decorate your space by putting your favorite things on these stackable shelves!",
+  "img": "ironrack.png",
   "sources": [
    "Withered Wastelands (Original)",
    "Bleak Beach (Original)",
@@ -588,6 +625,7 @@
   "id": "resort-table",
   "name": "Resort table",
   "desc": "This table is made of resilient material and perfectly safe to keep outside, even in rain or a squall.",
+  "img": "resorttable.png",
   "sources": [
    "Bleak Beach (Original)",
    "Orange cottage kit (Build Kit)",
@@ -603,6 +641,7 @@
   "id": "chic-table",
   "name": "Chic table",
   "desc": "A table that would look right at home in a facny restaurant. Perfect for a decadent dinner",
+  "img": "chictable.png",
   "sources": [
    "Bleak Beach (Original)",
    "Craft from recipe"
@@ -617,6 +656,7 @@
   "id": "pop-art-table",
   "name": "Pop art table",
   "desc": "A shiny, round table. It's as smooth as a Porygon2",
+  "img": "poparttable.png",
   "sources": [
    "Sparkling Skylands (Original)",
    "Trade with Gimmighoul/Gholdengo",
@@ -631,6 +671,7 @@
   "id": "poke-ball-table",
   "name": "Poké Ball table",
   "desc": "A round table that looks like a Poké Ball. It's large enough to carry lots of stuff.",
+  "img": "pokeballtable.png",
   "sources": [
    "Trade with Gimmighoul/Gholdengo",
    "Craft from recipe"
@@ -644,6 +685,7 @@
   "id": "berry-table",
   "name": "Berry table",
   "desc": "A large Aspear Berry table. It looks real enough to make you want to bite into it.",
+  "img": "berrytable.png",
   "sources": [
    "Bubbly Basin (Original)",
    "Trade with Gimmighoul/Gholdengo",
@@ -658,6 +700,7 @@
   "id": "stone-table",
   "name": "Stone table",
   "desc": "A table made from stones. It's as hard as an Onix!",
+  "img": "stonetable.png",
   "sources": [
    "Rocky Ridges (Original)",
    "Craft from recipe"
@@ -671,6 +714,7 @@
   "id": "luxury-table",
   "name": "Luxury table",
   "desc": "An extravagant marble table. Setting one down brings elegance to any room.",
+  "img": "luxurytable.png",
   "sources": [
    "Bleak Beach (Original)",
    "Gray cottage kit (Build Kit)",
@@ -686,6 +730,7 @@
   "id": "office-table",
   "name": "Office table",
   "desc": "You can see through the glass surface. If you drop anything underneath it, you'll notice right away",
+  "img": "officetable.png",
   "sources": [
    "Rocky Ridges (Original)",
    "Sparkling Skylands (Original)",
@@ -702,6 +747,7 @@
   "id": "avalugg-table",
   "name": "Avalugg Table",
   "desc": "A solid table with cracks in it. It looks just like a resting Avalugg",
+  "img": "avaluggtable.png",
   "sources": [
    "Appraise from a Relic",
    "In glowing terrain"
@@ -715,6 +761,7 @@
   "id": "straw-stool",
   "name": "Straw stool",
   "desc": "This is the perfect size for small Pokémon to take a seat!",
+  "img": "strawstool.png",
   "sources": [
    "Bubbly Basin (Original)",
    "Dragonite Doll Dream Island (Original)",
@@ -731,6 +778,7 @@
   "id": "berry-chair",
   "name": "Berry chair",
   "desc": "When placed on the ground, it looks just like a buried Leppa Berry. The steam and leaves are a backrest.",
+  "img": "berrychair.png",
   "sources": [
    "Rocky Ridges (Original)",
    "Bubbly Basin (Original)",
@@ -748,6 +796,7 @@
   "id": "simple-cushion",
   "name": "Simple cushion",
   "desc": "A simple practical cusion. It's filled with cotton and provides a soft seat.",
+  "img": "simplecushion.png",
   "sources": [
    "Sparkling Skylands (Original)",
    "Bubbly Basin (Original)",
@@ -764,6 +813,7 @@
   "id": "log-chair",
   "name": "Log chair",
   "desc": "You can sit on this log to take a quick breather. Other Pokémon might stop by to take a break too.",
+  "img": "logchair.png",
   "sources": [
    "Pikachu Doll Dream Island (Original)",
    "Eevee Doll Dream Island (Original)",
@@ -782,6 +832,7 @@
   "id": "plain-stool",
   "name": "Plain stool",
   "desc": "A stool with a simple design. Small Pokémon can use this as a seat",
+  "img": "plainstool.png",
   "sources": [
    "Bleak Beach (Original)",
    "Bubbly Basin (Original)",
@@ -801,6 +852,7 @@
   "id": "resort-stool",
   "name": "Resort stool",
   "desc": "While this stool looks stiff, the cotton padding inside makes it surprisingly soft",
+  "img": "resortstool.png",
   "sources": [
    "Bubbly Basin (Original)",
    "Stylish Café kit (Build Kit)",
@@ -817,6 +869,7 @@
   "id": "stylish-stool",
   "name": "Stylish stool",
   "desc": "A small, round stool with a stylish three-color cushion.",
+  "img": "stylishstool.png",
   "sources": [
    "Bleak Beach (Original)",
    "Craft from recipe"
@@ -832,6 +885,7 @@
   "id": "industrial-chair",
   "name": "Industrial chair",
   "desc": "A perfectly round chair that can easily fit anywhere. Surprisingly sturdy, thanks to its iron legs.",
+  "img": "industrialchair.png",
   "sources": [
    "Rocky Ridges (Original)",
    "Sparkling Skylands (Original)",
@@ -852,6 +906,7 @@
   "id": "waterproof-seat",
   "name": "Waterproof seat",
   "desc": "A smooth waterproof chair. Place it near a bathtub or shower",
+  "img": "waterproofseat.png",
   "sources": [
    "Yellow cottage kit (Build Kit)",
    "Craft from recipe"
@@ -867,6 +922,7 @@
   "id": "wooden-stool",
   "name": "Wooden stool",
   "desc": "It's a little chipped but surprisingly sturdyy. Even if a Pokémon sits on it, it won't break. Probably.",
+  "img": "woodenstool.png",
   "sources": [
    "Bleak Beach (Original)",
    "Bubbly Basin (Original)",
@@ -885,6 +941,7 @@
   "id": "iron-chair",
   "name": "Iron chair",
   "desc": "Though small, this seat is very sturdy. It doesn't look like it would break easily.",
+  "img": "ironchair.png",
   "sources": [
    "Withered Wastelands (Original)",
    "Craft from recipe"
@@ -900,6 +957,7 @@
   "id": "public-seat",
   "name": "Public seat",
   "desc": "A simple chair without a backrest. Try arranging a bunch of 'em together",
+  "img": "publicseat.png",
   "sources": [
    "Sparkling Skylands (Original)",
    "Craft from recipe"
@@ -915,6 +973,7 @@
   "id": "soft-seat",
   "name": "Soft seat",
   "desc": "A cushioned seat that's soft and fluffy-perfect for waiting rooms, relaxation spaces, and the like!",
+  "img": "softseat.png",
   "sources": [
    "Craft from recipe"
   ],
@@ -929,6 +988,7 @@
   "id": "box-sofa",
   "name": "Box Sofa",
   "desc": "A small square sofa. Line up several of them to make a wide chic sofa",
+  "img": "boxsofa.png",
   "sources": [
    "Craft from recipe"
   ],
@@ -943,6 +1003,7 @@
   "id": "plain-chair",
   "name": "Plain chair",
   "desc": "This chair is just the right height for eating meals in the dining room",
+  "img": "plainchair.png",
   "sources": [
    "Withered Wastelands (Original)",
    "Bubbly Basin (Original)",
@@ -963,6 +1024,7 @@
   "id": "resort-chair",
   "name": "Resort chair",
   "desc": "A chair perfect for relaxing. Kick back on this to taste a bit of the resort life",
+  "img": "resortchair.png",
   "sources": [
    "Orange cottage kit (Build Kit)",
    "Craft from recipe"
@@ -978,6 +1040,7 @@
   "id": "chic-chair",
   "name": "Chic chair",
   "desc": "A luxurious loung chair. Sitting on its soft cushions is absolutely beyond compare!",
+  "img": "chicchair.png",
   "sources": [
    "Bleak Beach (Original)",
    "Rocky Ridges (Original)",
@@ -998,6 +1061,7 @@
   "id": "fancy-chair",
   "name": "Fancy chair",
   "desc": "A high-class chair with a real dignified feel to it. Just sitting here will make you feel important.",
+  "img": "fancychair.png",
   "sources": [
    "Craft from recipe"
   ],
@@ -1012,6 +1076,7 @@
   "id": "antique-chair",
   "name": "Antique chair",
   "desc": "A chair with a charming retro design. Its cushions are soft and fluffy",
+  "img": "antiquechair.png",
   "sources": [
    "Rocky Ridges (Original)",
    "Sparkling Skylands (Original)",
@@ -1028,6 +1093,7 @@
   "id": "spectator-chair",
   "name": "Spectator chair",
   "desc": "Audience seats like those are found at concert halls or stadiums. Try arranging a bunch of 'em in a row!",
+  "img": "spectatorchair.png",
   "sources": [
    "Sparkling Skylands (Original)",
    "Bubbly Basin (Original)",
@@ -1044,6 +1110,7 @@
   "id": "luxury-chair",
   "name": "Luxury chair",
   "desc": "A classy-looking seat with a gemstone embedded in it. Just sitting on it makes you feel rich.",
+  "img": "luxurychair.png",
   "sources": [
    "Gray cottage kit (Build Kit)",
    "Craft from recipe"
@@ -1059,6 +1126,7 @@
   "id": "garden-chair",
   "name": "Garden chair",
   "desc": "A chair that would be perfect in a nice garden. Take a seat and enjoy an elegant afternoon.",
+  "img": "gardenchair.png",
   "sources": [
    "Sparkling Skylands (Original)",
    "Trade with Gimmighoul/Gholdengo",
@@ -1075,6 +1143,7 @@
   "id": "folding-chair",
   "name": "Folding chair",
   "desc": "A foldable chair that's simple and easy to carry. Set these up at event venues or similar spaces!",
+  "img": "foldingchair.png",
   "sources": [
    "Rocky Ridges (Original)",
    "Sparkling Skylands (Original)",
@@ -1093,6 +1162,7 @@
   "id": "office-chair",
   "name": "Office chair",
   "desc": "With a gentle curve to support the body, this chair was designed to help you sit longer without tiring",
+  "img": "officechair.png",
   "sources": [
    "Bleak Beach (Original)",
    "Rocky Ridges (Original)",
@@ -1117,6 +1187,7 @@
   "id": "cute-chair",
   "name": "Cute chair",
   "desc": "The ruffle skirt is exceptionally cute and lovely",
+  "img": "cutechair.png",
   "sources": [
    "Trade with Gimmighoul/Gholdengo",
    "Craft from recipe"
@@ -1133,6 +1204,7 @@
   "id": "pop-art-chair",
   "name": "Pop art chair",
   "desc": "A chair with a soft design and rounded corners. The colors of the backrest and cushion can be changed",
+  "img": "popartchair.png",
   "sources": [
    "Sparkling Skylands (Original)",
    "Bubbly Basin (Original)",
@@ -1151,6 +1223,7 @@
   "id": "gaming-chair",
   "name": "Gaming chair",
   "desc": "With its large backrest and cushions, you could sit comfortable in this chair for a long time.",
+  "img": "gamingchair.png",
   "sources": [
    "Trade with Gimmighoul/Gholdengo",
    "Craft from recipe"
@@ -1166,6 +1239,7 @@
   "id": "wooden-bench",
   "name": "Wooden bench",
   "desc": "A long bench that's perfect for taking a break. Pokémon might sit next to each other here.",
+  "img": "woodenbench.png",
   "sources": [
    "Withered Wastelands (Original)",
    "Bleak Beach (Original)",
@@ -1184,6 +1258,7 @@
   "id": "stone-bench",
   "name": "Stone bench",
   "desc": "A wide, rock-solid seat. This would make a great park bench",
+  "img": "stonebench.png",
   "sources": [
    "Rocky Ridges (Original)",
    "Bubbly Basin (Original)",
@@ -1200,6 +1275,7 @@
   "id": "plain-sofa",
   "name": "Plain sofa",
   "desc": "If you see small Pokémon on this sofa, try sitting down next to them",
+  "img": "plainsofa.png",
   "sources": [
    "Sparkling Skylands (Original)",
    "Bubbly Basin (Original)",
@@ -1220,6 +1296,7 @@
   "id": "resort-sofa",
   "name": "Resort sofa",
   "desc": "Sitting on this makes you feel like you're in the tropics! Feel free to just laze the day away...",
+  "img": "resortsofa.png",
   "sources": [
    "Bleak Beach (Original)",
    "Bubbly Basin (Original)",
@@ -1238,6 +1315,7 @@
   "id": "chic-sofa",
   "name": "Chic sofa",
   "desc": "A luxurious high-class sofa. It looks exactly like the ones on the S.S. Anne",
+  "img": "chicsofa.png",
   "sources": [
    "Bleak Beach (Original)",
    "Rocky Ridges (Original)",
@@ -1258,6 +1336,7 @@
   "id": "antique-sofa",
   "name": "Antique sofa",
   "desc": "A retro sofa with Poké Ball designs here and there",
+  "img": "antiquesofa.png",
   "sources": [
    "Rocky Ridges (Original)",
    "Sparkling Skylands (Original)",
@@ -1276,6 +1355,7 @@
   "id": "iron-bench",
   "name": "Iron bench",
   "desc": "A seat made of solid hardened iron. It's sturdy enough to support even the heaviest Pokémon",
+  "img": "ironbench.png",
   "sources": [
    "Craft from recipe"
   ],
@@ -1290,6 +1370,7 @@
   "id": "industrial-bench",
   "name": "Industrial bench",
   "desc": "A simple bench made of wood and iron. The kind you'd expect to find at parks and walking paths.",
+  "img": "industrialbench.png",
   "sources": [
    "Rocky Ridges (Original)",
    "Sparkling Skylands (Original)",
@@ -1308,6 +1389,7 @@
   "id": "luxury-sofa",
   "name": "Luxury sofa",
   "desc": "This sofa is sooo fluffy. It's like sitting on a cloud",
+  "img": "luxurysofa.png",
   "sources": [
    "Bleak Beach (Original)",
    "Gray cottage kit (Build Kit)",
@@ -1326,6 +1408,7 @@
   "id": "garden-bench",
   "name": "Garden bench",
   "desc": "A stylish bench with a vine pattern. Put one down to instantly add some flair to an area",
+  "img": "gardenbench.png",
   "sources": [
    "Sparkling Skylands (Original)",
    "Bubbly Basin (Original)",
@@ -1343,6 +1426,7 @@
   "id": "cute-sofa",
   "name": "Cute sofa",
   "desc": "A cute, slightly elegant sofa. The backrest is shaped like a Pokémon's wings.",
+  "img": "cutesofa.png",
   "sources": [
    "Trade with Gimmighoul/Gholdengo",
    "Craft from recipe"
@@ -1359,6 +1443,7 @@
   "id": "pop-art-sofa",
   "name": "Pop art sofa",
   "desc": "A soft-looking sofa with cute, rounded edges.",
+  "img": "popartsofa.png",
   "sources": [
    "Rocky Ridges (Original)",
    "Sparkling Skylands (Original)",
@@ -1376,6 +1461,7 @@
   "id": "poke-ball-sofa",
   "name": "Poké Ball Sofa",
   "desc": "Experience sitting in an open Poké Ball! Seats two comfortably",
+  "img": "pokeballsofa.png",
   "sources": [
    "Trade with Gimmighoul/Gholdengo",
    "Craft from recipe"
@@ -1391,6 +1477,7 @@
   "id": "pikachu-sofa",
   "name": "Pikachu sofa",
   "desc": "Pikachu's face is front and center. On the back, you can find a little tail sticking out.",
+  "img": "pikachusofa.png",
   "sources": [
    "Appraise from a Relic"
   ],
@@ -1405,6 +1492,7 @@
   "id": "log-bed",
   "name": "Log Bed",
   "desc": "A bed made from small logs. You'll sleep soundly enveloped by a woodsy aroma",
+  "img": "logbed.png",
   "sources": [
    "Craft from recipe"
   ],
@@ -1419,6 +1507,7 @@
   "id": "mini-plain-bed",
   "name": "Mini plain bed",
   "desc": "A small, plain bed. Great for solo sleepers!",
+  "img": "miniplainbed.png",
   "sources": [
    "Orange hut kit (Build Kit)",
    "Craft from recipe"
@@ -1434,6 +1523,7 @@
   "id": "resort-bed",
   "name": "Resort bed",
   "desc": "A refreshingly cool bed made of woven vines. Lying down on this makes you feel like you're at a resort",
+  "img": "resortbed.png",
   "sources": [
    "Craft from recipe"
   ],
@@ -1449,6 +1539,7 @@
   "id": "iron-bed",
   "name": "Iron bed",
   "desc": "A slightly narrow bed. It's sturdy enough for a good night's sleep!",
+  "img": "ironbed.png",
   "sources": [
    "Withered Wastelands (Original)",
    "Bleak Beach (Original)",
@@ -1468,6 +1559,7 @@
   "id": "deck-chair",
   "name": "Deck chair",
   "desc": "Lean this chair backa nd relax for a bit. It looks great for sunbating.",
+  "img": "deckchair.png",
   "sources": [
    "Bleak Beach (Original)",
    "Bubbly Basin (Original)",
@@ -1484,6 +1576,7 @@
   "id": "beach-chair",
   "name": "Beach chair",
   "desc": "Lean back and relax in this chair. It pairs perfectly with a beach parasol",
+  "img": "beachchair.png",
   "sources": [
    "Bleak Beach (Original)",
    "Craft from recipe"
@@ -1500,6 +1593,7 @@
   "id": "straw-bed",
   "name": "Straw bed",
   "desc": "It's a little itchy, but that doesn't bother Pokémon. They'll snooze away just fine on this.",
+  "img": "strawbed.png",
   "sources": [
    "Withered Wastelands (Original)",
    "Clefairy Doll Dream Island (Original)",
@@ -1517,6 +1611,7 @@
   "id": "pop-art-bed",
   "name": "Pop art bed",
   "desc": "lying on tthis bed feels like being inside of a pod. It's soft, fluffy, and easy to sleep on.",
+  "img": "popartbed.png",
   "sources": [
    "Bubbly Basin (Original)",
    "Trade with Gimmighoul/Gholdengo",
@@ -1534,6 +1629,7 @@
   "id": "poke-ball-bed",
   "name": "Poké Ball bed",
   "desc": "A big bed. Even large Pokémon could sprawl out on it.",
+  "img": "pokeballbed.png",
   "sources": [
    "Sparkling Skylands (Original)",
    "Bubbly Basin (Original)",
@@ -1551,6 +1647,7 @@
   "id": "berry-bed",
   "name": "Berry bed",
   "desc": "A large Pecha Berry-themed bed. It's springy texture provides ultimate comfort at bedtime.",
+  "img": "berrybed.png",
   "sources": [
    "Craft from recipe"
   ],
@@ -1565,6 +1662,7 @@
   "id": "wooden-bed",
   "name": "Wooden Bed",
   "desc": "This bed gives any room a mountain lodge aesthetic. You'll sleep soudnly surrounded by the woodsy scent",
+  "img": "woodenbed.png",
   "sources": [
    "Craft from recipe"
   ],
@@ -1579,6 +1677,7 @@
   "id": "plain-bed",
   "name": "Plain bed",
   "desc": "A bed with a simple deisng. It looks like it would mesh with a variety of rooms",
+  "img": "plainbed.png",
   "sources": [
    "Withered Wastelands (Original)",
    "Bleak Beach (Original)",
@@ -1596,6 +1695,7 @@
   "id": "resort-hammock",
   "name": "Resort hammock",
   "desc": "The breeze feels so nice when you're lying on this hammock. It's perfect for dozing off!",
+  "img": "resorthammock.png",
   "sources": [
    "Orange cottage kit (Build Kit)",
    "Craft from recipe"
@@ -1612,6 +1712,7 @@
   "id": "guest-room-bed",
   "name": "Guest-room bed",
   "desc": "A bed with a rather high-class vibe. It looks like it belongs on a luxury ship or in a fancy hotel.",
+  "img": "guest-roombed.png",
   "sources": [
    "Bleak Beach (Original)",
    "Craft from recipe"
@@ -1628,6 +1729,7 @@
   "id": "antique-bed",
   "name": "Antique bed",
   "desc": "This bed has a relaxing, nostalgic atmosphere. The blanket is smooth to the touch",
+  "img": "antiquebed.png",
   "sources": [
    "Trade with Gimmighoul/Gholdengo",
    "Craft from recipe"
@@ -1643,6 +1745,7 @@
   "id": "industrial-bed",
   "name": "Industrial bed",
   "desc": "A nice, wide bed that works in any type of room. Even a large Pokémon could sleep in it",
+  "img": "industrialbed.png",
   "sources": [
    "Gray hut kit (Build Kit)",
    "Craft from recipe"
@@ -1659,6 +1762,7 @@
   "id": "luxury-bed",
   "name": "Luxury bed",
   "desc": "An extravagantly crafted bed. It somehow reminds you of a Luxury Ball!",
+  "img": "luxurybed.png",
   "sources": [
    "Gray cottage kit (Build Kit)",
    "Trade with Gimmighoul/Gholdengo",
@@ -1676,6 +1780,7 @@
   "id": "cute-bed",
   "name": "Cute bed",
   "desc": "You'll feel like royalty sleeping on this cute canopy bed.",
+  "img": "cutebed.png",
   "sources": [
    "Bubbly Basin (Original)",
    "Trade with Gimmighoul/Gholdengo",
@@ -1693,6 +1798,7 @@
   "id": "gaming-bed",
   "name": "Gaming bed",
   "desc": "A cool, stylish bed. Flip on the power switch to get a cyberspace vibe going",
+  "img": "gamingbed.png",
   "sources": [
    "Trade with Gimmighoul/Gholdengo",
    "Craft from recipe"
@@ -1709,6 +1815,7 @@
   "id": "naptime-bed",
   "name": "Naptime bed",
   "desc": "Kick back right on top of Snorlax's belly. It feels so comfy you could snooze through the whole day",
+  "img": "naptimebed.png",
   "sources": [
    "Sparkling Skylands (Original)",
    "Appraise from a Relic"
@@ -1724,6 +1831,7 @@
   "id": "wall-mirror",
   "name": "Wall mirror",
   "desc": "Look into the mirror to change your transformation and perfect your look!",
+  "img": "wallmirror.png",
   "sources": [
    "Sparkling Skylands (Original)",
    "Bubbly Basin (Original)",
@@ -1740,6 +1848,7 @@
   "id": "large-mirror",
   "name": "Large mirror",
   "desc": "Look into the mirror to change your transformation and perfect your look!",
+  "img": "largemirror.png",
   "sources": [
    "Withered Wastelands (Original)",
    "Bleak Beach (Original)",
@@ -1758,6 +1867,7 @@
   "id": "antique-dresser",
   "name": "Antique dresser",
   "desc": "Look into the mirror to change your transformation and perfect your look!",
+  "img": "antiquedresser.png",
   "sources": [
    "Sparkling Skylands (Original)",
    "Trade with Gimmighoul/Gholdengo",
@@ -1774,6 +1884,7 @@
   "id": "luxury-dresser",
   "name": "Luxury dresser",
   "desc": "Look into the mirror to change your transformation and perfect your look!",
+  "img": "luxurydresser.png",
   "sources": [
    "Gray cottage kit (Build Kit)",
    "Trade with Gimmighoul/Gholdengo",
@@ -1790,6 +1901,7 @@
   "id": "cute-dresser",
   "name": "Cute dresser",
   "desc": "Look into the mirror to change your transformation and perfect your look!",
+  "img": "cutedresser.png",
   "sources": [
    "Trade with Gimmighoul/Gholdengo",
    "Craft from recipe"
@@ -1805,6 +1917,7 @@
   "id": "wiggly-mirror",
   "name": "Wiggly mirror",
   "desc": "Look into the mirror to change your transformation and perfect your look!",
+  "img": "wigglymirror.png",
   "sources": [
    "Appraise from a Relic"
   ],
@@ -1819,6 +1932,7 @@
   "id": "flower-table",
   "name": "Flower table",
   "desc": "A table with a flower-patterned tablecloth. It makes any meal feel like a picnic",
+  "img": "flowertable.png",
   "sources": [
    "Pokémon Center Exchange"
   ],
@@ -1834,6 +1948,7 @@
   "id": "flower-cushion",
   "name": "Flower cushion",
   "desc": "A cute flower-shaped cushion. It would look nice on some grassy ground.",
+  "img": "flowercushion.png",
   "sources": [
    "Pokémon Center Exchange"
   ],
@@ -1848,6 +1963,7 @@
   "id": "camping-chair",
   "name": "Camping chair",
   "desc": "A simple seat that's perfect for resting on while camping or adventuring.",
+  "img": "campingchair.png",
   "sources": [
    "Pokémon Center Exchange"
   ],
@@ -1862,6 +1978,7 @@
   "id": "sleeping-bag",
   "name": "Sleeping bag",
   "desc": "A comfy sleeping bag with lots of soft, fluffy padding. Even on cold days, you'll feel warm and toasty inside!",
+  "img": "sleepingbag.png",
   "sources": [
    "Pokémon Center Exchange"
   ],
@@ -1876,6 +1993,7 @@
   "id": "star-closet",
   "name": "Star closet",
   "desc": "A closet with many stars painted on it. Open the doors and store your stuff inside",
+  "img": "starcloset.png",
   "sources": [
    "Pokémon Center Exchange"
   ],
@@ -1890,6 +2008,7 @@
   "id": "cloud-table",
   "name": "Cloud table",
   "desc": "A colorful cloud table. It maky look fluffy, but it's actually solid!",
+  "img": "cloudtable.png",
   "sources": [
    "Pokémon Center Exchange"
   ],
@@ -1902,6 +2021,7 @@
   "id": "starry-sky-bed",
   "name": "Starry-sky bed",
   "desc": "A bed covered in sparkling stars. Sleeping in it might make you dream of flying through a starry sky.",
+  "img": "starry-skybed.png",
   "sources": [
    "Pokémon Center Exchange"
   ],
@@ -1916,6 +2036,7 @@
   "id": "star-shaped-dresser",
   "name": "Star-shaped Dresser",
   "desc": "Look into the mirror to change your transformation and perfect your look",
+  "img": "star-shapeddresser.png",
   "sources": [
    "Pokémon Center Exchange"
   ],
@@ -1930,6 +2051,7 @@
   "id": "portal-pod",
   "name": "Portal pod",
   "desc": "Anything you put into this mysterious machine can be retrieved from any of these machines",
+  "img": "portalpod.png",
   "sources": [
    "Bubbly Basin (Original)",
    "Craft from recipe"
@@ -1943,6 +2065,7 @@
   "id": "safe",
   "name": "Safe",
   "desc": "You can set a passcode for this safe. Keep things in here that you don't want to lose",
+  "img": "safe.png",
   "sources": [
    "Craft from recipe"
   ],
@@ -1955,6 +2078,7 @@
   "id": "decorative-poke-ball",
   "name": "Decorative Poké Ball",
   "desc": "A small Poké Ball replica. Collect and display them all!",
+  "img": "decorativepokeball.png",
   "sources": [
    "Craft from recipe"
   ],
@@ -1969,6 +2093,7 @@
   "id": "big-treasure-chest",
   "name": "Big treasure chest",
   "desc": "A very large treasure chest. You can fit lots of stuff inside",
+  "img": "bigtreasurechest.png",
   "sources": [
    "Craft from recipe",
    "Requires Expansion Pass"
@@ -1982,6 +2107,7 @@
   "id": "marine-chest",
   "name": "Marine chest",
   "desc": "A stylish chest adorned with seashells and pearls. Try storing lots of different things in it!",
+  "img": "marinechest.png",
   "sources": [
    "Aqua cottage kit (Build Kit)",
    "Craft from recipe",
@@ -1998,6 +2124,7 @@
   "id": "marine-closet",
   "name": "Marine closet",
   "desc": "A closet with stylish handles. Try storying items in it",
+  "img": "marinecloset.png",
   "sources": [
    "Bubbly Basin (Original)",
    "Craft from recipe",
@@ -2014,6 +2141,7 @@
   "id": "marine-table",
   "name": "Marine table",
   "desc": "Containing coral, seashells, and sea glass, this vibrant table is the optimal oceanside adornment",
+  "img": "marinetable.png",
   "sources": [
    "Starmie Doll Dream Island (Original)",
    "Aqua cottage kit (Build Kit)",
@@ -2029,6 +2157,7 @@
   "id": "ornate-stand",
   "name": "Ornate stand",
   "desc": "A stand with a stylish wave pattern. It's big, so you can put a lot of stuff on it",
+  "img": "ornatestand.png",
   "sources": [
    "Starmie Doll Dream Island (Original)",
    "Craft from recipe",
@@ -2046,6 +2175,7 @@
   "id": "ornate-table",
   "name": "Ornate table",
   "desc": "A table with an ornate pattern carved into it. Place it anywhere to make a space more glamorous",
+  "img": "ornatetable.png",
   "sources": [
    "Starmie Doll Dream Island (Original)",
    "Craft from recipe",
@@ -2060,6 +2190,7 @@
   "id": "seashell-seat",
   "name": "Seashell seat",
   "desc": "Open the Clamperl-like shell and have a seat on the plush cushion inside.",
+  "img": "seashellseat.png",
   "sources": [
    "Bubbly Basin (Original)",
    "Craft from recipe",
@@ -2076,6 +2207,7 @@
   "id": "marine-chair",
   "name": "Marine chair",
   "desc": "A beautiful seat that looks just like coral. It's a little hard but not uncomfortable to sit on.",
+  "img": "marinechair.png",
   "sources": [
    "Bubbly Basin (Original)",
    "Starmie Doll Dream Island (Original)",
@@ -2094,6 +2226,7 @@
   "id": "ornate-chair",
   "name": "Ornate chair",
   "desc": "A sturdy chair with gold accents. Sitting in it will make you feel like a big shot",
+  "img": "ornatechair.png",
   "sources": [
    "Bubbly Basin (Original)",
    "Starmie Doll Dream Island (Original)",
@@ -2112,6 +2245,7 @@
   "id": "marine-sofa",
   "name": "Marine sofa",
   "desc": "The seat inside the seashell is soft. The pristine pearls give it a very prim appearance",
+  "img": "marinesofa.png",
   "sources": [
    "Aqua cottage kit (Build Kit)",
    "Ocean temple kit (Build Kit)",
@@ -2129,6 +2263,7 @@
   "id": "ornate-bed",
   "name": "Ornate bed",
   "desc": "A bed featuring an intriguing pattern. On closer inspection, the pattern looks like Poké Balls",
+  "img": "ornatebed.png",
   "sources": [
    "Craft from recipe",
    "Requires Expansion Pass"
@@ -2145,6 +2280,7 @@
   "id": "cushion-bed",
   "name": "Cushion bed",
   "desc": "A huge cushion that can be used as a bed. Even large Pokémon can lie down and stretch out on this",
+  "img": "cushionbed.png",
   "sources": [
    "Bubbly Basin (Original)",
    "Craft from recipe",
@@ -2162,6 +2298,7 @@
   "id": "marine-dresser",
   "name": "Marine dresser",
   "desc": "Look into the mirror to change your transformation and perfect your look",
+  "img": "marinedresser.png",
   "sources": [
    "Bubbly Basin (Original)",
    "Aqua cottage kit (Build Kit)",
@@ -2179,6 +2316,7 @@
   "id": "worn-treasure-chest",
   "name": "Worn treasure chest",
   "desc": "Obtained through a special method. It can be placed as is\nNot listed in collection",
+  "img": "worntreasurechest.png",
   "sources": [
    "Bubbly Basin (Original)",
    "Requires Magnet Rise",
@@ -2193,6 +2331,7 @@
   "id": "cooler",
   "name": "Cooler",
   "desc": "A cooler for keeping things chilled. Try opening the lid and storing things in it!",
+  "img": "cooler.png",
   "sources": [
    "Pokémon Center Exchange"
   ],
@@ -2207,6 +2346,7 @@
   "id": "sand-bed",
   "name": "Sand bed",
   "desc": "Take a nap in the sand! Someone may come by and prank you, though.",
+  "img": "sandbed.png",
   "sources": [
    "Pokémon Center Exchange"
   ],

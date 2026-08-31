@@ -1,0 +1,631 @@
+[
+ {
+  "mon": "003-venusaur",
+  "natdex": 3,
+  "name": "Venusaur",
+  "kind": "litter",
+  "gives": [
+   "Leaf"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "004-charmander",
+  "natdex": 4,
+  "name": "Charmander",
+  "kind": "emote",
+  "gives": [
+   "Thankful"
+  ],
+  "trigger": "friendship",
+  "rate": "once"
+ },
+ {
+  "mon": "015-vileplume",
+  "natdex": 45,
+  "name": "Vileplume",
+  "kind": "litter",
+  "gives": [
+   "Leaf"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "084-meowth",
+  "natdex": 52,
+  "name": "Meowth",
+  "kind": "emote",
+  "gives": [
+   "Guide"
+  ],
+  "trigger": "friendship",
+  "rate": "once"
+ },
+ {
+  "mon": "021-bellsprout",
+  "natdex": 69,
+  "name": "Bellsprout",
+  "kind": "litter",
+  "gives": [
+   "Vine Rope"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "022-weepinbell",
+  "natdex": 70,
+  "name": "Weepinbell",
+  "kind": "litter",
+  "gives": [
+   "Vine Rope"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "091-grimer",
+  "natdex": 88,
+  "name": "Grimer",
+  "kind": "litter",
+  "gives": [
+   "Nonburnable Garbage"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "092-muk",
+  "natdex": 89,
+  "name": "Muk",
+  "kind": "litter",
+  "gives": [
+   "Nonburnable Garbage"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "basin-001-shellder",
+  "natdex": 90,
+  "name": "Shellder",
+  "kind": "litter",
+  "gives": [
+   "Seashell"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "basin-002-cloyster",
+  "natdex": 91,
+  "name": "Cloyster",
+  "kind": "litter",
+  "gives": [
+   "Seashell"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "094-haunter",
+  "natdex": 93,
+  "name": "Haunter",
+  "kind": "emote",
+  "gives": [
+   "Peekaboo!"
+  ],
+  "trigger": "friendship",
+  "rate": "once"
+ },
+ {
+  "mon": "040-tangela",
+  "natdex": 114,
+  "name": "Tangela",
+  "kind": "litter",
+  "gives": [
+   "Vine Rope"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "basin-004-seadra",
+  "natdex": 117,
+  "name": "Seadra",
+  "kind": "litter",
+  "gives": [
+   "Black Paint"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "basin-008-totodile",
+  "natdex": 158,
+  "name": "Totodile",
+  "kind": "emote",
+  "gives": [
+   "Step Dance"
+  ],
+  "trigger": "friendship",
+  "rate": "once"
+ },
+ {
+  "mon": "109-spinarak",
+  "natdex": 167,
+  "name": "Spinarak",
+  "kind": "litter",
+  "gives": [
+   "Twine"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "110-ariados",
+  "natdex": 168,
+  "name": "Ariados",
+  "kind": "litter",
+  "gives": [
+   "Twine"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "111-mareep",
+  "natdex": 179,
+  "name": "Mareep",
+  "kind": "litter",
+  "gives": [
+   "Fluff"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "112-flaaffy",
+  "natdex": 180,
+  "name": "Flaaffy",
+  "kind": "litter",
+  "gives": [
+   "Fluff"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "212-politoed",
+  "natdex": 186,
+  "name": "Politoed",
+  "kind": "emote",
+  "gives": [
+   "Bashful"
+  ],
+  "trigger": "friendship",
+  "rate": "once"
+ },
+ {
+  "mon": "event-003-jumpluff",
+  "natdex": 189,
+  "name": "Jumpluff",
+  "kind": "litter",
+  "gives": [
+   "Fluff"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "117-wooper-paldean-form",
+  "natdex": 194,
+  "name": "Wooper",
+  "kind": "litter",
+  "gives": [
+   "Squishy Clay"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "basin-005-kingdra",
+  "natdex": 230,
+  "name": "Kingdra",
+  "kind": "litter",
+  "gives": [
+   "Black Paint"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "102-blissey",
+  "natdex": 242,
+  "name": "Blissey",
+  "kind": "litter",
+  "gives": [
+   "Stone"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "174-ludicolo",
+  "natdex": 272,
+  "name": "Ludicolo",
+  "kind": "emote",
+  "gives": [
+   "Twirl"
+  ],
+  "trigger": "friendship",
+  "rate": "once"
+ },
+ {
+  "mon": "237-trapinch",
+  "natdex": 328,
+  "name": "Trapinch",
+  "kind": "litter",
+  "gives": [
+   "Squishy Clay"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "056-cacturne",
+  "natdex": 332,
+  "name": "Cacturne",
+  "kind": "litter",
+  "gives": [
+   "Sturdy Stick"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "240-swablu",
+  "natdex": 333,
+  "name": "Swablu",
+  "kind": "litter",
+  "gives": [
+   "Fluff"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "241-altaria",
+  "natdex": 334,
+  "name": "Altaria",
+  "kind": "litter",
+  "gives": [
+   "Fluff"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "event-005-jirachi",
+  "natdex": 385,
+  "name": "Jirachi",
+  "kind": "litter",
+  "gives": [
+   "Stardust"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "128-piplup",
+  "natdex": 393,
+  "name": "Piplup",
+  "kind": "emote",
+  "gives": [
+   "Proud"
+  ],
+  "trigger": "friendship",
+  "rate": "once"
+ },
+ {
+  "mon": "130-empoleon",
+  "natdex": 395,
+  "name": "Empoleon",
+  "kind": "emote",
+  "gives": [
+   "Let's Go!"
+  ],
+  "trigger": "friendship",
+  "rate": "once"
+ },
+ {
+  "mon": "273-rampardos",
+  "natdex": 409,
+  "name": "Rampardos",
+  "kind": "litter",
+  "gives": [
+   "Stone"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "275-bastiodon",
+  "natdex": 411,
+  "name": "Bastiodon",
+  "kind": "litter",
+  "gives": [
+   "Stone"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "057-combee",
+  "natdex": 415,
+  "name": "Combee",
+  "kind": "litter",
+  "gives": [
+   "Honey"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "180-riolu",
+  "natdex": 447,
+  "name": "Riolu",
+  "kind": "emote",
+  "gives": [
+   "High-Five"
+  ],
+  "trigger": "friendship",
+  "rate": "once"
+ },
+ {
+  "mon": "041-tangrowth",
+  "natdex": 465,
+  "name": "Tangrowth",
+  "kind": "litter",
+  "gives": [
+   "Vine Rope"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "041-tangrowth",
+  "natdex": 465,
+  "name": "Tangrowth",
+  "kind": "litter",
+  "gives": [
+   "Vine Rope"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "248-snivy",
+  "natdex": 495,
+  "name": "Snivy",
+  "kind": "litter",
+  "gives": [
+   "Vine Rope"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "249-servine",
+  "natdex": 496,
+  "name": "Servine",
+  "kind": "litter",
+  "gives": [
+   "Vine Rope"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "250-serperior",
+  "natdex": 497,
+  "name": "Serperior",
+  "kind": "litter",
+  "gives": [
+   "Vine Rope"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "132-trubbish",
+  "natdex": 568,
+  "name": "Trubbish",
+  "kind": "emote",
+  "gives": [
+   "Despair"
+  ],
+  "trigger": "friendship",
+  "rate": "once"
+ },
+ {
+  "mon": "133-garbodor",
+  "natdex": 569,
+  "name": "Garbodor",
+  "kind": "litter",
+  "gives": [
+   "Nonburnable Garbage"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "073-haxorus",
+  "natdex": 612,
+  "name": "Haxorus",
+  "kind": "litter",
+  "gives": [
+   "Small log"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "183-larvesta",
+  "natdex": 636,
+  "name": "Larvesta",
+  "kind": "litter",
+  "gives": [
+   "Twine"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "184-volcarona",
+  "natdex": 637,
+  "name": "Volcarona",
+  "kind": "litter",
+  "gives": [
+   "Twine"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "277-tyrantrum",
+  "natdex": 697,
+  "name": "Tyrantrum",
+  "kind": "litter",
+  "gives": [
+   "Stone"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "279-aurorus",
+  "natdex": 699,
+  "name": "Aurorus",
+  "kind": "litter",
+  "gives": [
+   "Stone"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "185-rowlet",
+  "natdex": 722,
+  "name": "Rowlet",
+  "kind": "emote",
+  "gives": [
+   "Huh?"
+  ],
+  "trigger": "friendship",
+  "rate": "once"
+ },
+ {
+  "mon": "basin-042-dhelmise",
+  "natdex": 781,
+  "name": "Dhelmise",
+  "kind": "litter",
+  "gives": [
+   "Nonburnable Garbage"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "188-scorbunny",
+  "natdex": 813,
+  "name": "Scorbunny",
+  "kind": "emote",
+  "gives": [
+   "Yes"
+  ],
+  "trigger": "friendship",
+  "rate": "once"
+ },
+ {
+  "mon": "192-greedent-cook",
+  "natdex": 820,
+  "name": "Chef Dente",
+  "kind": "item",
+  "gives": [
+   "Bruised berry",
+   "Common candy",
+   "Rare Candy"
+  ],
+  "trigger": "story",
+  "rate": "once"
+ },
+ {
+  "mon": "196-toxel",
+  "natdex": 848,
+  "name": "Toxel",
+  "kind": "emote",
+  "gives": [
+   "Tantrum"
+  ],
+  "trigger": "friendship",
+  "rate": "once"
+ },
+ {
+  "mon": "265-meowscarada",
+  "natdex": 908,
+  "name": "Meowscarada",
+  "kind": "emote",
+  "gives": [
+   "Happy"
+  ],
+  "trigger": "friendship",
+  "rate": "once"
+ },
+ {
+  "mon": "142-pawmi",
+  "natdex": 921,
+  "name": "Pawmi",
+  "kind": "emote",
+  "gives": [
+   "Angry"
+  ],
+  "trigger": "friendship",
+  "rate": "once"
+ },
+ {
+  "mon": "203-glimmet",
+  "natdex": 969,
+  "name": "Glimmet",
+  "kind": "litter",
+  "gives": [
+   "Iron Ore"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "204-glimmora",
+  "natdex": 970,
+  "name": "Glimmora",
+  "kind": "litter",
+  "gives": [
+   "Iron Ore"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ },
+ {
+  "mon": "118-clodsire",
+  "natdex": 980,
+  "name": "Clodsire",
+  "kind": "litter",
+  "gives": [
+   "Squishy Clay"
+  ],
+  "trigger": "specialty",
+  "rate": "repeat"
+ }
+]

@@ -2,6 +2,7 @@
  {
   "name": "Title Screen",
   "desc": "Music CD #1 If you have a music player, you can listen to an exciting tune",
+  "img": "titlescreen.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -11,6 +12,7 @@
  {
   "name": "Pallet Town",
   "desc": "Music CD #2 If you have a music player, you can listen to a tune for a tranquil town",
+  "img": "pallettown.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -20,6 +22,7 @@
  {
   "name": "Oak's Lab",
   "desc": "Music CD #3 If you have a music player, you can listen to a tune that reminds you of research!",
+  "img": "oak'slab.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -29,6 +32,7 @@
  {
   "name": "Road to Viridian City",
   "desc": "Music CD #4 If you have a music player, you can listen to an uplifting tune",
+  "img": "roadtoviridiancity.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -38,6 +42,7 @@
  {
   "name": "Pewter City Theme",
   "desc": "Music CD #5 If you have a music player, you can listen to a tune for a bustling town",
+  "img": "pewtercitytheme.png",
   "sources": [
    "In Pewter Museum in Rocky Ridges",
    "In glowing terrain",
@@ -48,6 +53,7 @@
  {
   "name": "Pokémon Center",
   "desc": "Music CD #6 If you have a music player, you can listen to a tune that puts your mind at ease",
+  "img": "pokemoncenter.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -57,6 +63,7 @@
  {
   "name": "Caves of Mt. Moon",
   "desc": "Music CD #7 If you have a music player, you can listen to a mystifying tune",
+  "img": "cavesofmt.moon.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -66,6 +73,7 @@
  {
   "name": "Road to Cerulean City",
   "desc": "Music CD #8 If you have a music player, you can listen to a lighthearted tuune.",
+  "img": "roadtoceruleancity.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -75,6 +83,7 @@
  {
   "name": "Fuchsia City Theme",
   "desc": "Music CD #9 If you have a music player, you can listen to for a refreshing town",
+  "img": "fuchsiacitytheme.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -84,6 +93,7 @@
  {
   "name": "Pokémon Gym",
   "desc": "Music CD #10 If you have a music player, you can listen to a powerful tune",
+  "img": "pokemongym.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -93,6 +103,7 @@
  {
   "name": "Road to Bill",
   "desc": "Music CD #11 If you have a music player, you can listen to a valiant tune",
+  "img": "roadtobill.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -102,6 +113,7 @@
  {
   "name": "Vermilion City Theme",
   "desc": "Music CD #12 If you have a music player, you can listen to for a town chock-full of energy",
+  "img": "vermilioncitytheme.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -111,6 +123,7 @@
  {
   "name": "The S.S. Anne",
   "desc": "Music CD #13 If you have a music player, you can listen to a tune that reminds you of luxury",
+  "img": "thes.s.anne.png",
   "sources": [
    "Aboard the S.S. Anne in Bleak Beach",
    "In glowing terrain",
@@ -121,6 +134,7 @@
  {
   "name": "Rocket Hideout",
   "desc": "Music CD #14 If you have a music player, you can listen to a terrifying tune",
+  "img": "rockethideout.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -130,6 +144,7 @@
  {
   "name": "Silph Co.",
   "desc": "Music CD #15 If you have a music player, you can listen to a suspicious tune",
+  "img": "silphco..png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -139,6 +154,7 @@
  {
   "name": "Battle! (Gym Leader Battle)",
   "desc": "Music CD #16 If you have a music player, you can listen to a heart-pumping tune",
+  "img": "battle!(gymleaderbattle).png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -148,6 +164,7 @@
  {
   "name": "Union Cave",
   "desc": "Music CD #17 If you have a music player, you can listen to an eerie tune",
+  "img": "unioncave.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -157,6 +174,7 @@
  {
   "name": "Ecruteak City",
   "desc": "Music CD #18 If you have a music player, you can listen to a graceful turne.",
+  "img": "ecruteakcity.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -166,6 +184,7 @@
  {
   "name": "Bell Tower",
   "desc": "Music CD #19 If you have a music player, you can listen to a dignified tune",
+  "img": "belltower.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -175,6 +194,7 @@
  {
   "name": "Fortree City",
   "desc": "Music CD #20 If you have a music player, you can listen to a low-key tune",
+  "img": "fortreecity.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -184,6 +204,7 @@
  {
   "name": "Sootopolis City",
   "desc": "Music CD #21 If you have a music player, you can listen to a dreamy tune.",
+  "img": "sootopoliscity.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -193,6 +214,7 @@
  {
   "name": "Route 209 (Day)",
   "desc": "Music CD #22 If you have a music player, you can listen to a nostalgic tune",
+  "img": "route209(day).png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -202,6 +224,7 @@
  {
   "name": "Mt. Coronet",
   "desc": "Music CD #23 If you have a music player, you can listen to a celestial tune",
+  "img": "mt.coronet.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -211,6 +234,7 @@
  {
   "name": "Game Corner",
   "desc": "Music CD #24 If you have a music player, you can listen to an upbeat, fast-paced tune",
+  "img": "gamecorner.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -220,6 +244,7 @@
  {
   "name": "Driftveil City",
   "desc": "Music CD #25 If you have a music player, you can listen to a nautical tune",
+  "img": "driftveilcity.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -229,6 +254,7 @@
  {
   "name": "Route 10 (Unova)",
   "desc": "Music CD #26 If you have a music player, you can listen to a tense tune",
+  "img": "route10(unova).png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -238,6 +264,7 @@
  {
   "name": "Dress Up With Props",
   "desc": "Music CD #27 If you have a music player, you can listen to a cutesy pop tune",
+  "img": "dressupwithprops.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -247,6 +274,7 @@
  {
   "name": "Snowbelle City",
   "desc": "Music CD #28 If you have a music player, you can listen to a melancholy tune.",
+  "img": "snowbellecity.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -256,6 +284,7 @@
  {
   "name": "Boutique",
   "desc": "Music CD #29 If you have a music player, you can listen to",
+  "img": "boutique.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -265,6 +294,7 @@
  {
   "name": "Super Training!",
   "desc": "Music CD #30 If you have a music player, you can listen to an energetic tune",
+  "img": "supertraining!.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -274,6 +304,7 @@
  {
   "name": "Contest Spectacular",
   "desc": "Music CD #31 If you have a music player, you can listen to a fune tune.",
+  "img": "contestspectacular.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -283,6 +314,7 @@
  {
   "name": "Hau'oli City (Day)",
   "desc": "Music CD #32 If you have a music player, you can listen to a tropical tune",
+  "img": "hau'olicity(day).png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -292,6 +324,7 @@
  {
   "name": "Aether Paradise",
   "desc": "Music CD #33 If you have a music player, you can listen to a mysterious tune",
+  "img": "aetherparadise.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -301,6 +334,7 @@
  {
   "name": "Ultra Ruin",
   "desc": "Music CD #34 If you have a music player, you can listen to a tune full of static and jumbled noises",
+  "img": "ultraruin.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -310,6 +344,7 @@
  {
   "name": "Wild Area (North)",
   "desc": "Music CD #35 If you have a music player, you can listen to a dynamic tune.",
+  "img": "wildarea(north).png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -319,6 +354,7 @@
  {
   "name": "Wyndon",
   "desc": "Music CD #36 If you have a music player, you can listen to",
+  "img": "wyndon.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -328,6 +364,7 @@
  {
   "name": "Rose Tower",
   "desc": "Music CD #37 If you have a music player, you can listen to a high-tempo tune.",
+  "img": "rosetower.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -337,6 +374,7 @@
  {
   "name": "Battle! (Gym Leader) 1",
   "desc": "Music CD #38 If you have a music player, you can listen to an invigorating tune.",
+  "img": "battle!(gymleader)1.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -346,6 +384,7 @@
  {
   "name": "Jubilife Village",
   "desc": "Music CD #39 If you have a music player, you can listen to a warm, nostalgic tune",
+  "img": "jubilifevillage.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -355,6 +394,7 @@
  {
   "name": "South Province",
   "desc": "Music CD #40 If you have a music player, you can listen to",
+  "img": "southprovince.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -364,6 +404,7 @@
  {
   "name": "The Academy",
   "desc": "Music CD #41 If you have a music player, you can listen to",
+  "img": "theacademy.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -373,6 +414,7 @@
  {
   "name": "Area Zero",
   "desc": "Music CD #42 If you have a music player, you can listen to that feels special somehow",
+  "img": "areazero.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -382,6 +424,7 @@
  {
   "name": "Battle! (Gym Leader) 2",
   "desc": "Music CD #43 If you have a music player, you can listen to that fills you with courage",
+  "img": "battle!(gymleader)2.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands"
@@ -391,6 +434,7 @@
  {
   "name": "The Sea",
   "desc": "Music CD #100. If you have a music player, you can listen to a chill tune.",
+  "img": "thesea.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands",
@@ -401,6 +445,7 @@
  {
   "name": "Violet City",
   "desc": "Music CD #101. If you have a music player, you can listen to a tune for a good old-fashion town",
+  "img": "violetcity.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands",
@@ -411,6 +456,7 @@
  {
   "name": "Dive",
   "desc": "Music CD #102. If you have a music player, you can listen to an engimatic tune.",
+  "img": "dive.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands",
@@ -421,6 +467,7 @@
  {
   "name": "Canalave City (Night)",
   "desc": "Music CD #103. If you have a music player, you can listen to a wistful tune.",
+  "img": "canalavecity(night).png",
   "sources": [
    "In glowing terrain",
    "Dream Islands",
@@ -431,6 +478,7 @@
  {
   "name": "Undella Town (Summer)",
   "desc": "Music CD #104. If you have a music player, you can listen to a beachy tune.",
+  "img": "undellatown(summer).png",
   "sources": [
    "In glowing terrain",
    "Dream Islands",
@@ -441,6 +489,7 @@
  {
   "name": "Lumiose City",
   "desc": "Music CD #105. If you have a music player, you can listen to a bustling tune",
+  "img": "lumiosecity.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands",
@@ -451,6 +500,7 @@
  {
   "name": "Po Town",
   "desc": "Music CD #106. If you have a music player, you can listen to a creepy tune.",
+  "img": "potown.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands",
@@ -461,6 +511,7 @@
  {
   "name": "Stow-on-Side",
   "desc": "Music CD #107. If you have a music player, you can listen to an old-fashinoed tune.",
+  "img": "stow-on-side.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands",
@@ -471,6 +522,7 @@
  {
   "name": "Cascarrafa",
   "desc": "Music CD #108. If you have a music player, you can listen to a tune for a lively town.",
+  "img": "cascarrafa.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands",
@@ -481,6 +533,7 @@
  {
   "name": "Hotel Z",
   "desc": "Music CD #109. If you have a music player, you can listen to a relaxed tune.",
+  "img": "hotelz.png",
   "sources": [
    "In glowing terrain",
    "Dream Islands",

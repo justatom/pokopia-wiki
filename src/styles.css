@@ -248,6 +248,40 @@ td.num { font-variant-numeric: tabular-nums; color: var(--muted); white-space: n
 .mat { font-size: .76rem; padding: 3px 9px; border-radius: 8px; background: var(--paper-2); color: var(--ink-2); white-space: nowrap; }
 .mat b { color: var(--clay); font-variant-numeric: tabular-nums; }
 
+/* item icons and habitat pictures (downloaded by scripts/sprites.mjs) */
+.row-pic { object-fit: contain; padding: 2px; background: var(--paper-2); }
+.mat { display: inline-flex; align-items: center; gap: 5px; }
+.mat-ico { width: 18px; height: 18px; object-fit: contain; flex: none; }
+.cell-item { display: flex; align-items: flex-start; gap: 9px; }
+.cell-ico { width: 32px; height: 32px; object-fit: contain; flex: none; border-radius: 7px; background: var(--paper-2); }
+.mon-chip { display: inline-flex; align-items: center; gap: 5px; font-weight: 600; white-space: nowrap; }
+.mon-chip img { width: 34px; height: 34px; object-fit: contain; flex: none; }
+.mon-chip:hover { color: var(--moss); }
+
+/* favourites block on a Pokémon page */
+.likes { display: grid; gap: 14px; margin-top: 12px; }
+.like-head { display: flex; align-items: baseline; gap: 8px; margin-bottom: 7px; }
+.like-head h3 { margin: 0; font-size: .95rem; }
+.like-head span { font-size: .76rem; color: var(--muted); }
+.likes .chip { cursor: default; white-space: normal; }
+.likes .chip b { color: var(--clay); font-variant-numeric: tabular-nums; }
+.likes .chip .gloss { font-size: .72rem; }
+.chip-on { background: var(--moss-soft); border-color: var(--moss); color: var(--moss); font-weight: 600; }
+.fav-no { display: inline-grid; place-items: center; width: 20px; height: 20px; border-radius: 6px;
+  background: var(--clay-soft); color: var(--clay); font-size: .74rem; font-variant-numeric: tabular-nums; }
+.fav-items { display: flex; flex-wrap: wrap; gap: 6px; }
+.fav-item { display: inline-flex; align-items: center; gap: 5px; max-width: 100%;
+  padding: 3px 10px 3px 3px; border-radius: 999px; background: var(--paper-2); color: var(--ink-2);
+  font-size: .76rem; font-weight: 500; }
+.fav-item img { width: 28px; height: 28px; object-fit: contain; flex: none; }
+.fav-more { padding: 5px 11px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.row-wide { grid-template-columns: 96px 1fr; }
+.hab-pic { width: 96px; height: 68px; object-fit: cover; border-radius: 10px; background: var(--paper-2); }
+@media (min-width: 640px) {
+  .row-wide { grid-template-columns: 150px 1fr; }
+  .hab-pic { width: 150px; height: 105px; }
+}
+
 /* toolbar */
 .toolbar { position: sticky; top: 59px; z-index: 30; background: color-mix(in srgb, var(--paper) 92%, transparent); backdrop-filter: blur(10px); padding: 10px 0; margin-bottom: 4px; border-bottom: 1px solid var(--line); }
 .filter-input { width: 100%; padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--r); background: var(--surface); font-size: .95rem; }

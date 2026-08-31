@@ -24,15 +24,19 @@ jobs:
         with:
           node-version: '22'
 
-      # The 46 MB of official artwork is not committed; cache it between runs
-      # so only the first build pays the download cost.
-      - name: Cache Pokémon artwork
+      # The artwork, item icons and habitat pictures are not committed — about 110 MB
+      # over ~2,300 files. Cache them between runs so only the first build pays the
+      # download cost, and Serebii is not re-crawled on every push.
+      - name: Cache downloaded pictures
         uses: actions/cache@v4
         with:
-          path: src/sprites/art
-          key: pokeapi-artwork-v1
+          path: |
+            src/sprites/art
+            src/sprites/items
+            src/sprites/habitats
+          key: pokopia-pictures-v1
 
-      - name: Download missing sprites
+      - name: Download missing pictures
         run: node scripts/sprites.mjs
 
       - name: Build site

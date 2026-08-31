@@ -1,35 +1,91 @@
-// Downloads the PokéAPI sprites used by the site into src/sprites/ so the published
-// site is self-contained (no hotlinking, no external requests at runtime).
+// Downloads every picture the site uses into src/sprites/ so the published site is
+// self-contained (no hotlinking, no external requests at runtime).
+//
+//   small/     PokéAPI species sprite      committed
+//   art/       PokéAPI official artwork    downloaded  (~46 MB)
+//   items/     item icon per item id       downloaded  (~45 MB)
+//   habitats/  habitat-dex picture         downloaded  (~15 MB)
+//
+// Everything is skip-if-present, so a re-run only fetches what is missing.
 import fs from 'node:fs';
 import path from 'node:path';
 
-const BASE = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon';
-const OUT_SMALL = 'src/sprites/small';
-const OUT_ART = 'src/sprites/art';
-fs.mkdirSync(OUT_SMALL, { recursive: true });
-fs.mkdirSync(OUT_ART, { recursive: true });
+const POKEAPI = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon';
+const SEREBII = 'https://www.serebii.net/pokemonpokopia';
+const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36';
 
-const ids = [...new Set(JSON.parse(fs.readFileSync('data/pokemon.json', 'utf8')).map(p => p.natdex))].sort((a, b) => a - b);
-console.log(`${ids.length} species`);
+const j = p => JSON.parse(fs.readFileSync(p, 'utf8'));
+const dir = d => (fs.mkdirSync(d, { recursive: true }), d);
+const sleep = ms => new Promise(r => setTimeout(r, ms));
 
-async function grab(url, dest) {
-  if (fs.existsSync(dest) && fs.statSync(dest).size > 0) return 0;
-  const r = await fetch(url);
-  if (!r.ok) { console.error('MISS', url, r.status); return 0; }
-  const buf = Buffer.from(await r.arrayBuffer());
-  fs.writeFileSync(dest, buf);
-  return buf.length;
+let bytes = 0, done = 0, total = 0, missed = 0;
+
+// Serebii drops the connection when pushed, so each fetch gets three tries with backoff.
+async function grab(url, dest, headers) {
+  done++;
+  if (fs.existsSync(dest) && fs.statSync(dest).size > 0) return;
+  for (let attempt = 1; ; attempt++) {
+    try {
+      const r = await fetch(url, { headers });
+      if (r.status === 404) { missed++; console.error(`MISS 404 ${url}`); return; }
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      const buf = Buffer.from(await r.arrayBuffer());
+      fs.writeFileSync(dest, buf);
+      bytes += buf.length;
+      return;
+    } catch (e) {
+      if (attempt === 3) { missed++; console.error(`MISS ${e.message} ${url}`); return; }
+      await sleep(600 * attempt * attempt);
+    }
+  }
 }
 
-let bytes = 0, done = 0;
-for (let i = 0; i < ids.length; i += 8) {
-  const batch = ids.slice(i, i + 8);
-  const got = await Promise.all(batch.flatMap(id => [
-    grab(`${BASE}/${id}.png`, path.join(OUT_SMALL, `${id}.png`)),
-    grab(`${BASE}/other/official-artwork/${id}.png`, path.join(OUT_ART, `${id}.png`)),
+/** run the jobs `n` at a time, printing one progress line */
+async function run(label, jobs, n = 8) {
+  total = jobs.length; done = 0;
+  for (let i = 0; i < jobs.length; i += n) {
+    await Promise.all(jobs.slice(i, i + n).map(f => f()));
+    process.stderr.write(`${label} ${done}/${total}  ${(bytes / 1e6).toFixed(1)}MB   \r`);
+  }
+  process.stderr.write(`${label} ${total}/${total}  ${(bytes / 1e6).toFixed(1)}MB   \n`);
+}
+
+/* ---------- Pokémon sprites and artwork (PokéAPI) ---------- */
+{
+  const small = dir('src/sprites/small'), art = dir('src/sprites/art');
+  const ids = [...new Set(j('data/pokemon.json').map(p => p.natdex))].sort((a, b) => a - b);
+  await run('species ', ids.flatMap(id => [
+    () => grab(`${POKEAPI}/${id}.png`, path.join(small, `${id}.png`)),
+    () => grab(`${POKEAPI}/other/official-artwork/${id}.png`, path.join(art, `${id}.png`)),
   ]));
-  bytes += got.reduce((a, b) => a + b, 0);
-  done += batch.length;
-  process.stderr.write(`${done}/${ids.length}  ${(bytes / 1e6).toFixed(1)}MB\r`);
 }
-console.log(`\ndownloaded ${(bytes / 1e6).toFixed(1)}MB`);
+
+/* ---------- item icons (Serebii) ----------
+   data/*.json store the bare file name; every icon lives under /pokemonpokopia/items/.
+   Serebii refuses requests without a browser User-Agent, hence the headers. */
+const SB = { 'User-Agent': UA, Referer: `${SEREBII}/items.shtml` };
+{
+  const out = dir('src/sprites/items');
+  const files = new Set();
+  for (const f of ['items', 'furniture', 'buildkits', 'cds', 'lostrelics', 'cooking']) {
+    for (const x of j(`data/${f}.json`)) if (x.img) files.add(x.img);
+  }
+  for (const r of j('data/recipes.json')) {
+    if (r.img) files.add(r.img);
+    for (const m of r.materials) if (m.img) files.add(m.img);
+  }
+  // the favourite-category pages list a few items that appear nowhere else
+  for (const f of j('data/favorites.json')) for (const i of f.items) if (i.img) files.add(i.img);
+  await run('items   ', [...files].map(f =>
+    () => grab(`${SEREBII}/items/${encodeURIComponent(f)}`, path.join(out, f), SB)), 4);
+}
+
+/* ---------- habitat pictures (Serebii habitat dex) ---------- */
+{
+  const out = dir('src/sprites/habitats');
+  const files = [...new Set(j('data/habitats.json').map(h => h.img).filter(Boolean))];
+  await run('habitats', files.map(f =>
+    () => grab(`${SEREBII}/habitatdex/th/${f}`, path.join(out, f), SB)), 4);
+}
+
+console.log(`downloaded ${(bytes / 1e6).toFixed(1)}MB${missed ? `, ${missed} missing` : ''}`);
