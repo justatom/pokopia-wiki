@@ -160,6 +160,7 @@ p:last-child { margin-bottom: 0; }
 .search-shell[data-open] { display: block; }
 .search-box { width: min(100% - 24px, 660px); margin: 8vh auto 0; }
 .search-input-row { display: flex; gap: 8px; align-items: center; background: var(--surface); border: 1px solid var(--line-2); border-radius: var(--r); padding: 6px 6px 6px 14px; box-shadow: var(--shadow); }
+.search-input-row > svg { width: 20px; height: 20px; flex: none; color: var(--muted); }
 .search-input-row input { flex: 1; border: 0; background: none; padding: 12px 0; font-size: 1.02rem; min-width: 0; }
 .search-input-row input:focus { outline: none; }
 .search-results { margin-top: 12px; max-height: 66vh; overflow-y: auto; -webkit-overflow-scrolling: touch; }
@@ -210,6 +211,7 @@ a.card:hover { transform: translateY(-2px); box-shadow: var(--shadow); border-co
   border: 1px solid var(--line); background: var(--surface); color: var(--ink-2);
   cursor: pointer; white-space: nowrap;
 }
+.chip svg { width: 16px; height: 16px; flex: none; }
 .chip[aria-pressed="true"] { background: var(--moss); border-color: var(--moss); color: #fff; }
 .tag { display: inline-flex; align-items: center; gap: 5px; padding: 3px 9px; border-radius: 999px; font-size: .72rem; font-weight: 600; background: var(--paper-2); color: var(--ink-2); }
 .tag-moss { background: var(--moss-soft); color: var(--moss); }
