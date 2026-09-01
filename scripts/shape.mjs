@@ -416,32 +416,59 @@ W('flavors', flavors);
    are. Merge on the name: Serebii decides the roster, Bulbapedia fills in the contents. */
 {
   const records = table(sec('humanrecords', 'image').rows, 5)
-    .map(r => ({ name: cell(r[1]), location: cell(r[3]), reward: cell(r[4]) || null }))
+    .map(r => ({
+      name: cell(r[1]), location: cell(r[3]), reward: cell(r[4]) || null,
+      // the picture column is the object it is written on, not a unique image
+      img: ((r[0].i || [])[0] || '').replace(/^.*\//, '') || null,
+    }))
     .filter(x => x.name && x.name !== 'Name');
-  const seen = new Set(records.map(r => slug(r.name)));
-
   let texts = [];
   if (fs.existsSync('_research/bulba_records.json')) {
     const { default: parseRecords } = await import('./records.mjs');
     texts = parseRecords(j('_research/bulba_records.json').parse.wikitext);
   }
-  const byName = new Map(texts.map(t => [slug(t.name), t]));
 
+  /* Ten records all answer to "Peculiar pattern", and Serebii misspells it "Perculiar",
+     so matching on the name alone neither pairs them up nor keeps them apart. Group both
+     sides by a forgiving key and pair the copies in the order each source lists them. */
+  const key = n => slug(n).replace(/perculiar/, 'peculiar');
+  const queue = new Map();
+  for (const t of texts) {
+    const k = key(t.name);
+    if (!queue.has(k)) queue.set(k, []);
+    queue.get(k).push(t);
+  }
+  const taken = new Set();
   for (const r of records) {
-    const t = byName.get(slug(r.name));
-    r.id = slug(r.name);
+    const k = key(r.name);
+    const t = (queue.get(k) || []).find(x => !taken.has(x));
+    if (t) { taken.add(t); r.name = t.name; }   // Serebii misspells a few names
     r.type = t ? t.type : null;
     r.content = t ? t.content : '';
+    r.photo = t ? t.photo : null;
+    r.photoAlt = t ? t.photoAlt : null;
     if (!r.reward && t && t.reward) r.reward = t.reward;
     if (!r.location && t) r.location = t.location;
   }
-  // a few records Bulbapedia has and Serebii's list does not
+  // anything Bulbapedia has that Serebii's roster left no slot for
   for (const t of texts) {
-    if (seen.has(slug(t.name))) continue;
-    records.push({ id: slug(t.name), name: t.name, location: t.location, reward: t.reward, type: t.type, content: t.content });
+    if (taken.has(t)) continue;
+    records.push({
+      name: t.name, location: t.location, reward: t.reward,
+      type: t.type, content: t.content, photo: t.photo, photoAlt: t.photoAlt, img: null,
+    });
+  }
+  // ids have to be unique to be linkable, and ten records share one name
+  const used = new Map();
+  for (const r of records) {
+    const base = slug(r.name);
+    const n = (used.get(base) || 0) + 1;
+    used.set(base, n);
+    r.id = n === 1 ? base : `${base}-${n}`;
   }
   const withText = records.filter(r => r.content).length;
-  console.log(`   ${withText}/${records.length} human records with their text`);
+  const withPhoto = records.filter(r => r.photo).length;
+  console.log(`   ${withText}/${records.length} human records with their text, ${withPhoto} with a photograph`);
   W('humanrecords', records);
 }
 W('highlightreel', table(sec('highlightreel').rows, 5).map(r => ({ name: cell(r[0]), pokemon: cell(r[1]), items: list(r[2]), time: cell(r[3]), reward: cell(r[4]) })).filter(x => x.name && x.name !== 'Name'));

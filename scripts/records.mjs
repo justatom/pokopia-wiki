@@ -13,7 +13,7 @@ const clean = s => String(s)
   .replace(/\[\[File:[^\]]*\]\]/g, '')
   .replace(/\{\{na\}\}/gi, '')
   .replace(/\{\{tt\|([^|}]*)\|[^}]*\}\}/g, '$1')
-  .replace(/\{\{(?:p|m|t|type|OBP|DL|i)\|([^|}]*)(?:\|[^}]*)?\}\}/g, '$1')
+  .replace(/\{\{(?:p|m|t|ga|type|OBP|DL|i|poko)\|([^|}]*)(?:\|[^}]*)?\}\}/g, '$1')
   .replace(/\[\[[^|\]]*\|([^\]]*)\]\]/g, '$1')
   .replace(/\[\[([^\]]*)\]\]/g, '$1')
   .replace(/<ref[^>]*>[\s\S]*?<\/ref>/g, '')
@@ -47,11 +47,17 @@ export default function parseRecords(wiki) {
       if (cells.length < 5) continue;
       const name = clean(cells[1]);
       if (!name || name === 'Name') continue;
+      /* Photo records carry the photograph itself, with alt text describing the scene —
+         which is the only written account of what is in the picture. */
+      const shot = /\[\[File:(Pokopia Human Records [^|\]]+)([^\]]*)\]\]/i.exec(cells[3]);
+      const alt = shot && /\|alt=([^|\]]*)/.exec(shot[2]);
       out.push({
         type,
         name,
         location: clean(cells[2]),
         content: clean(cells[3]),
+        photo: shot ? shot[1].trim().replace(/ /g, '_') : null,
+        photoAlt: alt ? alt[1].trim() : null,
         reward: clean(cells[4]) || null,
       });
     }

@@ -3,6 +3,7 @@
      src/sprites/builds/  the finished building behind each kit, without the kit badge
      src/sprites/items/   sprites for the items Serebii's list omits, saved under our
                           own item id so itemPic() finds them like any other
+     src/sprites/records/ the photographs among the Human Records
 
    An upload path on the Archives is a hash of the file name and cannot be derived from
    it, so every file is resolved through the API first, 40 titles per call. */
@@ -72,5 +73,10 @@ await grabAll('builds  ', j('data/buildkits.json')
 await grabAll('newitems', j('data/items.json')
   .filter(i => !i.img && i.bulbaFile)
   .map(i => ({ file: i.bulbaFile.replace(/ /g, '_'), dest: path.join('src/sprites/items', `${i.id}.png`) })));
+
+/* the photographs among the Human Records — the only ones with a picture of their own */
+await grabAll('photos  ', j('data/humanrecords.json')
+  .filter(r => r.photo)
+  .map(r => ({ file: r.photo, dest: path.join('src/sprites/records', r.photo) })));
 
 console.log(`archives ${(bytes / 1e6).toFixed(1)}MB${missed ? `, ${missed} missing` : ''}`);

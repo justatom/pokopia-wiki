@@ -3,1440 +3,1870 @@
   "name": "Road Closure Announcement",
   "location": "Withered Wasteland",
   "reward": null,
-  "id": "road-closure-announcement",
+  "img": ".png",
   "type": "Newspaper",
-  "content": "Cycling Road will be closed on the 7th for inspection and repair from 10:00 p.m. until 4:00 a.m. the following day.\n\nThe road will not be accessible to the public during that time, so we recommend making your travel plans early."
+  "content": "Cycling Road will be closed on the 7th for inspection and repair from 10:00 p.m. until 4:00 a.m. the following day.\n\nThe road will not be accessible to the public during that time, so we recommend making your travel plans early.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "road-closure-announcement"
  },
  {
   "name": "The Legendary Ninja Family",
   "location": "Withered Wasteland",
   "reward": "Ninja outfit",
-  "id": "the-legendary-ninja-family",
+  "img": "grubbytablet.png",
   "type": "Newspaper",
-  "content": "The region in question was once inhabited by a famous clan of ninjas.\n\nKoga, a Fuchsia City Gym Leader in the distant past, and his daughter, Janine, were both members of this clan."
+  "content": "The region in question was once inhabited by a famous clan of ninjas.\n\nKoga, a Fuchsia City Gym Leader in the distant past, and his daughter, Janine, were both members of this clan.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "the-legendary-ninja-family"
  },
  {
   "name": "Recycling Slogan Contest (Youth)",
   "location": "Bleak Beach",
   "reward": null,
-  "id": "recycling-slogan-contest-youth",
+  "img": "grubbynewspaper.png",
   "type": "Newspaper",
-  "content": "Garbage And Recycling Belong Out of sight! Dispose Of Refuse!\n\nMischa — 3rd Grade, Trainers’ School"
+  "content": "Garbage And Recycling Belong Out of sight! Dispose Of Refuse!\n\nMischa — 3rd Grade, Trainers’ School",
+  "photo": null,
+  "photoAlt": null,
+  "id": "recycling-slogan-contest-youth"
  },
  {
   "name": "Vermilion Ranks No. 1 for 4th Year!",
   "location": "Bleak Beach",
   "reward": null,
-  "id": "vermilion-ranks-no-1-for-4th-year",
+  "img": "grubbynewspaper.png",
   "type": "Newspaper",
-  "content": "Vermilion City has been awarded first place on the Most Livable Cities list, making this the fourth consecutive year that our city has received this honor.\n\nThe city scored highly due to its abundance of natural beauty, which has been preserved despite ongoing urban development, as well as its many sightseeing spots. The gorgeous view of the harbor at night was cited as one of the main deciding factors."
+  "content": "Vermilion City has been awarded first place on the Most Livable Cities list, making this the fourth consecutive year that our city has received this honor.\n\nThe city scored highly due to its abundance of natural beauty, which has been preserved despite ongoing urban development, as well as its many sightseeing spots. The gorgeous view of the harbor at night was cited as one of the main deciding factors.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "vermilion-ranks-no-1-for-4th-year"
  },
  {
   "name": "Artificial Hot Spring Now Open!",
   "location": "Rocky Ridges",
   "reward": null,
-  "id": "artificial-hot-spring-now-open",
+  "img": "grubbytablet.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "artificial-hot-spring-now-open"
  },
  {
   "name": "Celadon Department Store Reopens",
   "location": "Sparkling Skylands",
   "reward": "Psychic Master outfit",
-  "id": "celadon-department-store-reopens",
+  "img": "grubbytablet.png",
   "type": "Newspaper",
-  "content": "On the 20th of this month, the Celadon Department Store will open its doors with a fresh new look in Area 2!\n\nComment from the manager: Our product selection has changed, but we will continue to greet our customers with our usual welcoming care and service."
+  "content": "On the 20th of this month, the Celadon Department Store will open its doors with a fresh new look in Area 2!\n\nComment from the manager: Our product selection has changed, but we will continue to greet our customers with our usual welcoming care and service.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "celadon-department-store-reopens"
  },
  {
   "name": "Big Bargain Sale!",
   "location": "Sparkling Skylands",
   "reward": null,
-  "id": "big-bargain-sale",
+  "img": "grubbynewspaper.png",
   "type": "Newspaper",
-  "content": "The ever-popular Full Heal is available at a 25 percent discount for a limited time only! Limit three per customer. Only available in-store!\n\nPoké Mart Saffron City Branch"
+  "content": "The ever-popular Full Heal is available at a 25 percent discount for a limited time only! Limit three per customer. Only available in-store!\n\nPoké Mart Saffron City Branch",
+  "photo": null,
+  "photoAlt": null,
+  "id": "big-bargain-sale"
  },
  {
   "name": "Sabrina Sets Sights on Big Screen!",
   "location": "Sparkling Skylands",
   "reward": null,
-  "id": "sabrina-sets-sights-on-big-screen",
+  "img": "grubbynewspaper.png",
   "type": "Newspaper",
-  "content": "Gym Leader Sabrina of the Saffron City Gym is set to make her silver-screen debut at last! She will appear in a new movie produced by the Unova region's Pokéstar Studios.\n\nDetails about her role have not yet been released, but expectations are high among Sabrina’s fans, who hope to see her as the lead."
+  "content": "Gym Leader Sabrina of the Saffron City Gym is set to make her silver-screen debut at last! She will appear in a new movie produced by the Unova region's Pokéstar Studios.\n\nDetails about her role have not yet been released, but expectations are high among Sabrina’s fans, who hope to see her as the lead.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "sabrina-sets-sights-on-big-screen"
  },
  {
   "name": "This Week's Must-See Highlights",
   "location": "Sparkling Skylands",
   "reward": null,
-  "id": "this-week-s-must-see-highlights",
+  "img": "grubbytablet.png",
   "type": "Newspaper",
-  "content": "The internationally acclaimed and award-winning film “Dream: If Only We Could Meet” will finally make its small-screen debut on the 9th of this month.\n\nThey met and went on a journey together in a dream, but when each awoke, the other was nowhere to be found. Was it nothing more than a dream? Perhaps...\n\nWe hope you enjoy this wistful and heartwarming story of Gengar and Mismagius!"
+  "content": "The internationally acclaimed and award-winning film “Dream: If Only We Could Meet” will finally make its small-screen debut on the 9th of this month.\n\nThey met and went on a journey together in a dream, but when each awoke, the other was nowhere to be found. Was it nothing more than a dream? Perhaps...\n\nWe hope you enjoy this wistful and heartwarming story of Gengar and Mismagius!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "this-week-s-must-see-highlights"
  },
  {
   "name": "Weather Report (December 4)",
   "location": "Dream Island",
   "reward": null,
-  "id": "weather-report-december-4",
+  "img": "grubbynewspaper.png",
   "type": "Newspaper",
-  "content": "Clear with periodic clouds. Expect light showers in some areas.\n\nNo warnings or reports about volcanic eruptions have been issued."
+  "content": "Clear with periodic clouds. Expect light showers in some areas.\n\nNo warnings or reports about volcanic eruptions have been issued.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "weather-report-december-4"
  },
  {
   "name": "March Issue Preview",
   "location": "Dream Island",
   "reward": null,
-  "id": "march-issue-preview",
+  "img": "grubbytablet.png",
   "type": "Newspaper",
-  "content": "Floating and Bobbing: Drifloon, the Balloon Pokémon\n\nDo you know the sad yet heartwarming tale of this Pokémon?\n\nIn this issue, we'll present a newly interpreted retelling of a certain region’s little-known folktale that was passed down through the ages."
+  "content": "Floating and Bobbing: Drifloon, the Balloon Pokémon\n\nDo you know the sad yet heartwarming tale of this Pokémon?\n\nIn this issue, we'll present a newly interpreted retelling of a certain region’s little-known folktale that was passed down through the ages.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "march-issue-preview"
  },
  {
   "name": "TV Schedule: April 12 (Tuesday)",
   "location": "Dream Island",
   "reward": "|}",
-  "id": "tv-schedule-april-12-tuesday",
+  "img": "grubbynewspaper.png",
   "type": "Newspaper",
-  "content": "2:00 PM: Your Local Puppy Pokémon Spotlight Two Fidough siblings form a strong bond with the owner of Mesagoza’s most popular bakery. You won't make it through this story with dry eyes!"
+  "content": "2:00 PM: Your Local Puppy Pokémon Spotlight Two Fidough siblings form a strong bond with the owner of Mesagoza’s most popular bakery. You won't make it through this story with dry eyes!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "tv-schedule-april-12-tuesday"
  },
  {
   "name": "Kenan's diary",
   "location": "Withered Wasteland",
   "reward": null,
-  "id": "kenan-s-diary",
+  "img": "grubbybook.png",
   "type": "Diary entry",
-  "content": "March 7 — Sunny\n\nToday I played with Kenta in the park.\n\nKenta says he’s gonna move soon, but he'll come back when he’s older.\n\nWe promised to play in the park again together when we grow up."
+  "content": "March 7 — Sunny\n\nToday I played with Kenta in the park.\n\nKenta says he’s gonna move soon, but he'll come back when he’s older.\n\nWe promised to play in the park again together when we grow up.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "kenan-s-diary"
  },
  {
-  "name": "Sailor Dylan's Diary",
+  "name": "Sailor Dylan's diary",
   "location": "Bleak Beach",
   "reward": null,
-  "id": "sailor-dylan-s-diary",
+  "img": "grubbybook.png",
   "type": "Diary entry",
-  "content": "The sea is really rough today. The ship keeps swaying back and forth. And swaying...and swaying...\n\nIt's all I can do to write in this diary right now, but... Ugh... I don’t feel so good... I might not be able to write much mo—"
+  "content": "The sea is really rough today. The ship keeps swaying back and forth. And swaying...and swaying...\n\nIt's all I can do to write in this diary right now, but... Ugh... I don’t feel so good... I might not be able to write much mo—",
+  "photo": null,
+  "photoAlt": null,
+  "id": "sailor-dylan-s-diary"
  },
  {
   "name": "Katie's journal",
   "location": "Rocky Ridges",
   "reward": null,
-  "id": "katie-s-journal",
+  "img": "grubbybook.png",
   "type": "Diary entry",
-  "content": "May 7 I can’t think of anything! I need to have FOUR design proposals ready in two days, but I’m coming up blank!\n\nI was begging my Smeargle for help, and he scribbled some random patterns on a piece of paper and handed it to me. Are those design pitches? That’s so cute!\n\nActually...that gives me an idea. Back to work!"
+  "content": "May 7 I can’t think of anything! I need to have FOUR design proposals ready in two days, but I’m coming up blank!\n\nI was begging my Smeargle for help, and he scribbled some random patterns on a piece of paper and handed it to me. Are those design pitches? That’s so cute!\n\nActually...that gives me an idea. Back to work!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "katie-s-journal"
  },
  {
   "name": "Hacker's confessions #1",
   "location": "Bleak Beach",
   "reward": null,
-  "id": "hacker-s-confessions-1",
+  "img": "grubbybook.png",
   "type": "Diary entry",
-  "content": "I doubt anyone will ever read this, but the memories of my experiences are too much to bear alone, so I’ve decided to confide in this diary.\n\nI'm a nameless hacker. I infiltrate the networks of huge corporations, steal their secrets, and sell them to their rivals.\n\nI already have more than enough money, but it’s fun peering behind the scenes, so it’s almost like a hobby for me.\n\nI donate al! the money I don’t use to things like Pokémon conservation groups.\n\nEver since I was a kid, I've liked computers and Pokémon more than people."
+  "content": "I doubt anyone will ever read this, but the memories of my experiences are too much to bear alone, so I’ve decided to confide in this diary.\n\nI'm a nameless hacker. I infiltrate the networks of huge corporations, steal their secrets, and sell them to their rivals.\n\nI already have more than enough money, but it’s fun peering behind the scenes, so it’s almost like a hobby for me.\n\nI donate al! the money I don’t use to things like Pokémon conservation groups.\n\nEver since I was a kid, I've liked computers and Pokémon more than people.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "hacker-s-confessions-1"
  },
  {
   "name": "Hacker's confessions #2",
   "location": "Bleak Beach",
   "reward": null,
-  "id": "hacker-s-confessions-2",
+  "img": "grubbybook.png",
   "type": "Diary entry",
-  "content": "It happened when I was hacking into a server in another region for fun and stumbled on a system with excessively high security.\n\nFinding these sorts of things is always a thrill. It took a lot of effort, but once I breached it, all I could find was what seemed like trivial data about weather patterns.\n\nIt was anticlimactic, but it made me think...\n\nWhy would someone put so much effort into hiding something like this? That nagged at me.\n\nSo I dove back in. It took a lot of work, but I learned how to make sense of the weather data. I was able to gather that a natural disaster had struck that region— dozens of huge, repeated hurricanes.\n\nThat's the only conclusion I could draw, but I’d never heard news about a disaster like that."
+  "content": "It happened when I was hacking into a server in another region for fun and stumbled on a system with excessively high security.\n\nFinding these sorts of things is always a thrill. It took a lot of effort, but once I breached it, all I could find was what seemed like trivial data about weather patterns.\n\nIt was anticlimactic, but it made me think...\n\nWhy would someone put so much effort into hiding something like this? That nagged at me.\n\nSo I dove back in. It took a lot of work, but I learned how to make sense of the weather data. I was able to gather that a natural disaster had struck that region— dozens of huge, repeated hurricanes.\n\nThat's the only conclusion I could draw, but I’d never heard news about a disaster like that.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "hacker-s-confessions-2"
  },
  {
   "name": "Hacker's confessions #3",
   "location": "Bleak Beach",
   "reward": null,
-  "id": "hacker-s-confessions-3",
+  "img": "grubbybook.png",
   "type": "Diary entry",
-  "content": "If a disaster of that scale had really happened, surely it would have received both local and global attention.\n\nWith that thought, I remembered a foundation active in that region.\n\nThey were known for their passion for Pokémon conservation efforts. I had even donated to them. I thought that an organization of that scale might be able to influence media so that no news of the disaster leaked outside the region.\n\nI spent countless days infiltrating the foundation's servers, looking into any data I could lay my hands on. And sure enough, it gradually became clear that they were involved.\n\nI finally fell asleep after repeated all-nighters. When I woke up, I was surrounded by members of the foundation."
+  "content": "If a disaster of that scale had really happened, surely it would have received both local and global attention.\n\nWith that thought, I remembered a foundation active in that region.\n\nThey were known for their passion for Pokémon conservation efforts. I had even donated to them. I thought that an organization of that scale might be able to influence media so that no news of the disaster leaked outside the region.\n\nI spent countless days infiltrating the foundation's servers, looking into any data I could lay my hands on. And sure enough, it gradually became clear that they were involved.\n\nI finally fell asleep after repeated all-nighters. When I woke up, I was surrounded by members of the foundation.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "hacker-s-confessions-3"
  },
  {
   "name": "Hacker's confessions #4",
   "location": "Withered Wasteland",
   "reward": null,
-  "id": "hacker-s-confessions-4",
+  "img": "grubbybook.png",
   "type": "Diary entry",
-  "content": "Apparently I’d left traces when I hacked the servers. That was enough for them to track me down.\n\nThe people from the foundation were surprisingly polite, and they explained what was happening in detail.\n\nI have no intention of writing it all here.\n\nThe important thing is that someday this disaster will spread throughout the entire world.\n\nThey said that humanity in its current state can’t prevent it.\n\nThe foundation, together with other regions, had formed a plan to evacuate all of humanity into space. The plan was already in motion. My head was spinning at the outrageous tale.\n\nSo what would become of Pokémon? When I put the question to them, they described their “Pokémon Conservation Project” and asked for my help."
+  "content": "Apparently I’d left traces when I hacked the servers. That was enough for them to track me down.\n\nThe people from the foundation were surprisingly polite, and they explained what was happening in detail.\n\nI have no intention of writing it all here.\n\nThe important thing is that someday this disaster will spread throughout the entire world.\n\nThey said that humanity in its current state can’t prevent it.\n\nThe foundation, together with other regions, had formed a plan to evacuate all of humanity into space. The plan was already in motion. My head was spinning at the outrageous tale.\n\nSo what would become of Pokémon? When I put the question to them, they described their “Pokémon Conservation Project” and asked for my help.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "hacker-s-confessions-4"
  },
  {
   "name": "Hacker's confessions #5",
   "location": "Rocky Ridges",
   "reward": null,
-  "id": "hacker-s-confessions-5",
+  "img": "grubbybook.png",
   "type": "Diary entry",
-  "content": "While humanity is evacuated into space, all of the Pokémon in the world are to be stored and protected in a massive computer system. That is the Pokémon Conservation Project.\n\nAn incredible plan. But the foundation members said that in order to avoid panic they had to keep both the disaster and the project out of the public eye as much as possible.\n\nNaturally this left them shorthanded.\n\nSkilled computer technicians were in particularly high demand.\n\nThat's why the foundation sought me out after I discovered the disaster—recruitment.\n\nI took them up on their offer.\n\nUntil this point, I had always lived as I pleased. But if I could save Pokémon using my skills, I had to do it.\n\nThe work was tough but also rewarding.\n\nEventually, the public began to take notice of the disaster. The foundation gradually evacuated those who noticed to a “safe place,” but to avoid panic, they waited until the last minute to tell people that their destination was space.\n\nIn the middle of this unbelievable situation, I found a flaw in the plan."
+  "content": "While humanity is evacuated into space, all of the Pokémon in the world are to be stored and protected in a massive computer system. That is the Pokémon Conservation Project.\n\nAn incredible plan. But the foundation members said that in order to avoid panic they had to keep both the disaster and the project out of the public eye as much as possible.\n\nNaturally this left them shorthanded.\n\nSkilled computer technicians were in particularly high demand.\n\nThat's why the foundation sought me out after I discovered the disaster—recruitment.\n\nI took them up on their offer.\n\nUntil this point, I had always lived as I pleased. But if I could save Pokémon using my skills, I had to do it.\n\nThe work was tough but also rewarding.\n\nEventually, the public began to take notice of the disaster. The foundation gradually evacuated those who noticed to a “safe place,” but to avoid panic, they waited until the last minute to tell people that their destination was space.\n\nIn the middle of this unbelievable situation, I found a flaw in the plan.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "hacker-s-confessions-5"
  },
  {
   "name": "Hacker's confessions #6",
   "location": "Sparkling Skylands",
   "reward": null,
-  "id": "hacker-s-confessions-6",
+  "img": "grubbybook.png",
   "type": "Diary entry",
-  "content": "In order to escape the disaster, humanity would temporarily take refuge in space while Pokémon would be safely stored in a computer system. This was the general overview of the plan.\n\nBut no computer system will keep running forever.\n\nThe foundation planned to send a select few members back to the planet at regular intervals to perform ongoing maintenance.\n\nBut for humanity to survive in space for any length of time, it would take a tremendous amount of energy. I calculated that even a slight deviation from the original plan would result in insufficient energy to return, leaving humankind stranded in space for dozens, or even hundreds, of years.\n\nIf that happened, the essential system protecting the Pokémon would eventually cease to function.\n\nSo I decided to add a little touch of my own to the system’s programming.\n\nFirst, it will continuously check the weather data across the globe in search of environments that can prove even slightly habitable to Pokémon.\n\nNext, if maintenance is not performed for a long period of time and the system begins to approach its limits, it will release the Pokémon most suited to those environments.\n\nOf course, ideally humans will return someday and live alongside Pokémon once more.\n\nBut on the off chance humanity never returns from space...I think releasing the Pokémon into a wild world rather than leaving them asleep in a computer would be a happier outcome.\n\nIt may sound strange coming from the program’s creator, but I hope it never has to run."
+  "content": "In order to escape the disaster, humanity would temporarily take refuge in space while Pokémon would be safely stored in a computer system. This was the general overview of the plan.\n\nBut no computer system will keep running forever.\n\nThe foundation planned to send a select few members back to the planet at regular intervals to perform ongoing maintenance.\n\nBut for humanity to survive in space for any length of time, it would take a tremendous amount of energy. I calculated that even a slight deviation from the original plan would result in insufficient energy to return, leaving humankind stranded in space for dozens, or even hundreds, of years.\n\nIf that happened, the essential system protecting the Pokémon would eventually cease to function.\n\nSo I decided to add a little touch of my own to the system’s programming.\n\nFirst, it will continuously check the weather data across the globe in search of environments that can prove even slightly habitable to Pokémon.\n\nNext, if maintenance is not performed for a long period of time and the system begins to approach its limits, it will release the Pokémon most suited to those environments.\n\nOf course, ideally humans will return someday and live alongside Pokémon once more.\n\nBut on the off chance humanity never returns from space...I think releasing the Pokémon into a wild world rather than leaving them asleep in a computer would be a happier outcome.\n\nIt may sound strange coming from the program’s creator, but I hope it never has to run.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "hacker-s-confessions-6"
  },
  {
   "name": "Professor's diary #1",
   "location": "Withered Wasteland",
   "reward": null,
-  "id": "professor-s-diary-1",
+  "img": "grubbybook.png",
   "type": "Diary entry",
-  "content": "My field survey on Cinnabar proved quite fruitful.\n\nI spoke with Pokémon Professors from other regions and gained a number of insights for my own research.\n\nMany folks were very concerned about possible effects the recent weather disturbances may be having on Pokémon.\n\nOn my way home, I found a young Tangela.\n\nHe appeared injured and weak, so I used a Potion to heal him. He seemed to take a liking to me and toddled along behind me.\n\nI wasn’t sure what to do at first. I ended up bringing him home with me, figuring he might be a good playmate for my grandchild."
+  "content": "My field survey on Cinnabar proved quite fruitful.\n\nI spoke with Pokémon Professors from other regions and gained a number of insights for my own research.\n\nMany folks were very concerned about possible effects the recent weather disturbances may be having on Pokémon.\n\nOn my way home, I found a young Tangela.\n\nHe appeared injured and weak, so I used a Potion to heal him. He seemed to take a liking to me and toddled along behind me.\n\nI wasn’t sure what to do at first. I ended up bringing him home with me, figuring he might be a good playmate for my grandchild.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "professor-s-diary-1"
  },
  {
   "name": "Professor's diary #2",
   "location": "Withered Wasteland",
   "reward": null,
-  "id": "professor-s-diary-2",
+  "img": "grubbybook.png",
   "type": "Diary entry",
-  "content": "My grandchild plays with Tangela a lot these days. They both seem to be having so much fun. Just watching them warms my heart.\n\nTangela shows interest in any and all human activities. When I’m working on the computer, he stares intently at my screen with a curious expression.\n\nTrainers who come to visit me also play with Tangela, and... Tangela seems intrigued by the items they use. He looks enthralled by things like Pokédexes and Poké Balls.\n\nAre all Tangela brimming with curiosity? Or is this little one just special?\n\nPokémon really are fascinating. There’s always more to learn about them!"
+  "content": "My grandchild plays with Tangela a lot these days. They both seem to be having so much fun. Just watching them warms my heart.\n\nTangela shows interest in any and all human activities. When I’m working on the computer, he stares intently at my screen with a curious expression.\n\nTrainers who come to visit me also play with Tangela, and... Tangela seems intrigued by the items they use. He looks enthralled by things like Pokédexes and Poké Balls.\n\nAre all Tangela brimming with curiosity? Or is this little one just special?\n\nPokémon really are fascinating. There’s always more to learn about them!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "professor-s-diary-2"
  },
  {
   "name": "Professor's diary #3",
   "location": "Bleak Beach",
   "reward": null,
-  "id": "professor-s-diary-3",
+  "img": "grubbybook.png",
   "type": "Diary entry",
-  "content": "Today there was a gathering attended by Pokémon Professors from every region. We had a surprising announcement in store.\n\nIncreasingly intense weather abnormalities—and the calamities striking each region as a result—show no sign of slowing down.\n\nAt this rate, predictions suggest that we will no longer be able to obtain enough food and energy to continue living on this planet.\n\nAnd we learned that a plan was secretly in motion to evacuate all of humanity into space.\n\nIt also seemed that, with a few exceptions, it will not be possible to bring Pokemon with us.\n\nOf course some immediately raised their voices in protest, which is when we heard about the Pokémon Conservation Project."
+  "content": "Today there was a gathering attended by Pokémon Professors from every region. We had a surprising announcement in store.\n\nIncreasingly intense weather abnormalities—and the calamities striking each region as a result—show no sign of slowing down.\n\nAt this rate, predictions suggest that we will no longer be able to obtain enough food and energy to continue living on this planet.\n\nAnd we learned that a plan was secretly in motion to evacuate all of humanity into space.\n\nIt also seemed that, with a few exceptions, it will not be possible to bring Pokemon with us.\n\nOf course some immediately raised their voices in protest, which is when we heard about the Pokémon Conservation Project.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "professor-s-diary-3"
  },
  {
   "name": "Professor's diary #4",
   "location": "Rocky Ridges",
   "reward": null,
-  "id": "professor-s-diary-4",
+  "img": "grubbybook.png",
   "type": "Diary entry",
-  "content": "It was decided that we will take part in the Pokémon Conservation Project.\n\nIt’s a plan to safely store all Pokémon on the planet in a massive computer system while humanity takes refuge in space.\n\nI can’t be sure that such a thing is even possible, and being parted from our Pokémon will be terribly painful, but... this may be the only way that people and Pokémon will be able to live together again someday.\n\nI was also asked to join a survey team after we move to space, but I held off on responding.\n\nAfter humanity relocates, a small group will be sent back to the planet to survey the environment and do maintenance on the conservation system. But given my age, I don’t know if I'll still be spry enough to be of much help. I think it’s a task best left to the young."
+  "content": "It was decided that we will take part in the Pokémon Conservation Project.\n\nIt’s a plan to safely store all Pokémon on the planet in a massive computer system while humanity takes refuge in space.\n\nI can’t be sure that such a thing is even possible, and being parted from our Pokémon will be terribly painful, but... this may be the only way that people and Pokémon will be able to live together again someday.\n\nI was also asked to join a survey team after we move to space, but I held off on responding.\n\nAfter humanity relocates, a small group will be sent back to the planet to survey the environment and do maintenance on the conservation system. But given my age, I don’t know if I'll still be spry enough to be of much help. I think it’s a task best left to the young.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "professor-s-diary-4"
  },
  {
   "name": "Professor's diary #5",
   "location": "Sparkling Skylands",
   "reward": null,
-  "id": "professor-s-diary-5",
+  "img": "grubbybook.png",
   "type": "Diary entry",
-  "content": "Something shocking has happened.\n\nThe Pokémon Conservation Project is progressing smoothly, and the time came for my Tangela to join the others.\n\nIn the hopes of avoiding a tearful scene, I waited until my grandchild was asleep before entrusting Tangela to one of the other project members. But later that night, I received word that Tangela had run off.\n\nTangela was like family. He should have been accustomed to humans. How could this have happened?\n\nI have a theory. Tangela was likely trying to get back to our home.\n\nBut it’s nearly time for my family to set off for space. Even if Tangela were to make it safely home... by the time he arrives, we'll no longer be there.\n\nI feel agonizingly helpless knowing there's nothing I can do.\n\nNothing, that is, but hope that the project staff find Tangela and keep him safe..."
+  "content": "Something shocking has happened.\n\nThe Pokémon Conservation Project is progressing smoothly, and the time came for my Tangela to join the others.\n\nIn the hopes of avoiding a tearful scene, I waited until my grandchild was asleep before entrusting Tangela to one of the other project members. But later that night, I received word that Tangela had run off.\n\nTangela was like family. He should have been accustomed to humans. How could this have happened?\n\nI have a theory. Tangela was likely trying to get back to our home.\n\nBut it’s nearly time for my family to set off for space. Even if Tangela were to make it safely home... by the time he arrives, we'll no longer be there.\n\nI feel agonizingly helpless knowing there's nothing I can do.\n\nNothing, that is, but hope that the project staff find Tangela and keep him safe...",
+  "photo": null,
+  "photoAlt": null,
+  "id": "professor-s-diary-5"
  },
  {
   "name": "Professor's diary #6",
   "location": "Sparkling Skylands",
   "reward": null,
-  "id": "professor-s-diary-6",
+  "img": "grubbybook.png",
   "type": "Diary entry",
-  "content": "The day of departure finally arrived, and Tangela was still nowhere to be found.\n\nSo I decided to join the survey team after all.\n\nIt will give me the opportunity to return to the planet periodically, and I can search when I’m there.\n\nIf there are any strange machines or rare tools on the ship, I should borrow them.\n\nThen I'll find Tangela and show them to him.\n\nI'm certain he’lI examine them with his usual curiosity.\n\nUntil then...please, be safe."
+  "content": "The day of departure finally arrived, and Tangela was still nowhere to be found.\n\nSo I decided to join the survey team after all.\n\nIt will give me the opportunity to return to the planet periodically, and I can search when I’m there.\n\nIf there are any strange machines or rare tools on the ship, I should borrow them.\n\nThen I'll find Tangela and show them to him.\n\nI'm certain he’lI examine them with his usual curiosity.\n\nUntil then...please, be safe.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "professor-s-diary-6"
  },
  {
   "name": "Chef's diary",
   "location": "Rocky Ridges",
   "reward": "|}",
-  "id": "chef-s-diary",
+  "img": "grubbybook.png",
   "type": "Diary entry",
-  "content": "March 13\n\nCharlotte appears to be interested in cooking! I tried teaching her a bit, and she’s really quite good at it. She's very dexterous with those little Greedent hands, and it took almost no time before she was able to help me out with simple tasks.\n\nJune 27\n\nCharlotte’s an eager eater, but the one food she doesn’t like is Chesto Berries. She made a rather strained expression when I fed her some.\n\nA chef shouldn’t be picky about things like that, but I'd feel bad forcing her to eat something she doesn’t like. What to do...\n\nJuly 3\n\nI made a special soup just for Charlotte using Chesto Berries as a secret ingredient. She seemed to really like it, and she appeared very satisfied as she finished off the whole pot! I wonder how shocked she'd be if she knew it had Chesto Berries. I look forward to the day when she figures it out."
+  "content": "March 13\n\nCharlotte appears to be interested in cooking! I tried teaching her a bit, and she’s really quite good at it. She's very dexterous with those little Greedent hands, and it took almost no time before she was able to help me out with simple tasks.\n\nJune 27\n\nCharlotte’s an eager eater, but the one food she doesn’t like is Chesto Berries. She made a rather strained expression when I fed her some.\n\nA chef shouldn’t be picky about things like that, but I'd feel bad forcing her to eat something she doesn’t like. What to do...\n\nJuly 3\n\nI made a special soup just for Charlotte using Chesto Berries as a secret ingredient. She seemed to really like it, and she appeared very satisfied as she finished off the whole pot! I wonder how shocked she'd be if she knew it had Chesto Berries. I look forward to the day when she figures it out.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "chef-s-diary"
  },
  {
   "name": "Message from the Poké Mart",
   "location": "Withered Wasteland",
   "reward": null,
-  "id": "message-from-the-poke-mart",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "We all know that everyone’s beloved music streaming services are being forced to shut down one by one due to the steep rise of server fees all over the world.\n\nWhile music lovers are still mourning the loss of these streaming services, it isn’t all bad news in the world of music! It’s our pleasure to share a little about a technological blast from the past—compact discs (CDs)!\n\nCDs are cool little gadgets used by our great-great- grandparents to listen to all their favorite music. Each CD can hold a little over 10 songs, making it easy to find a new favorite and listen to it over and over again!\n\nAnd that’s not all!\n\nEach CD is a one-time purchase, which means that there's no need for a subscription fee—no matter how many times you listen!\n\nPoké Mart is working hard to create a solid lineup of CDs for music lovers to choose from. We hope to be THE destination for all those who want music in their life—now and forever!"
+  "content": "We all know that everyone’s beloved music streaming services are being forced to shut down one by one due to the steep rise of server fees all over the world.\n\nWhile music lovers are still mourning the loss of these streaming services, it isn’t all bad news in the world of music! It’s our pleasure to share a little about a technological blast from the past—compact discs (CDs)!\n\nCDs are cool little gadgets used by our great-great- grandparents to listen to all their favorite music. Each CD can hold a little over 10 songs, making it easy to find a new favorite and listen to it over and over again!\n\nAnd that’s not all!\n\nEach CD is a one-time purchase, which means that there's no need for a subscription fee—no matter how many times you listen!\n\nPoké Mart is working hard to create a solid lineup of CDs for music lovers to choose from. We hope to be THE destination for all those who want music in their life—now and forever!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "message-from-the-poke-mart"
  },
  {
   "name": "A Surprise in the Garden",
   "location": "Withered Wasteland",
   "reward": "Point here emote",
-  "id": "a-surprise-in-the-garden",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "“I just got this weird feeling when I was out in the garden. Parasect was acting restless too, so I asked it to dig here.”\n\nWith that, Caroline smiled and showed us a mysterious fossil."
+  "content": "“I just got this weird feeling when I was out in the garden. Parasect was acting restless too, so I asked it to dig here.”\n\nWith that, Caroline smiled and showed us a mysterious fossil.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "a-surprise-in-the-garden"
  },
  {
   "name": "Selection of Pokémon Greetings",
   "location": "Withered Wasteland",
   "reward": "Greetings emote",
-  "id": "selection-of-pokemon-greetings",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "Minccino, Pikachu, and Other Pokémon with Distinctive Tail-Based Greetings\n\nIn today’s world, so much about Pokémon ecology has been explained through research. This time, we've collected a special set of articles focused on Pokémon greetings!"
+  "content": "Minccino, Pikachu, and Other Pokémon with Distinctive Tail-Based Greetings\n\nIn today’s world, so much about Pokémon ecology has been explained through research. This time, we've collected a special set of articles focused on Pokémon greetings!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "selection-of-pokemon-greetings"
  },
  {
   "name": "This Year's Top Trend!",
   "location": "Withered Wasteland",
   "reward": null,
-  "id": "this-year-s-top-trend",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "Undercuts and half updos are yesterday's news! This year’s hottest trend is the center part!\n\nA hugely famous influencer recently posted a selfie with a new parted hairstyle, and fans are going wild! Young people everywhere are adopting this hairstyle in droves!"
+  "content": "Undercuts and half updos are yesterday's news! This year’s hottest trend is the center part!\n\nA hugely famous influencer recently posted a selfie with a new parted hairstyle, and fans are going wild! Young people everywhere are adopting this hairstyle in droves!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "this-year-s-top-trend"
  },
  {
   "name": "Unmasking the True Misty!",
   "location": "Withered Wasteland",
   "reward": "Mermaid hair",
-  "id": "unmasking-the-true-misty",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "Gym Leader Spotlight: Misty!\n\nMisty, Gym Leader of the Cerulean City Gym, always has a packed schedule, but she kindly gave us a full day of her time for a comprehensive interview!\n\nAugust's special edition of Gym Leader Monthly will be all about Misty, the tomboyish mermaid! Don’t miss the stunning photo shoot—it’s sure to make a splash!"
+  "content": "Gym Leader Spotlight: Misty!\n\nMisty, Gym Leader of the Cerulean City Gym, always has a packed schedule, but she kindly gave us a full day of her time for a comprehensive interview!\n\nAugust's special edition of Gym Leader Monthly will be all about Misty, the tomboyish mermaid! Don’t miss the stunning photo shoot—it’s sure to make a splash!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "unmasking-the-true-misty"
  },
  {
   "name": "Interview for the Ages!",
   "location": "Bleak Beach",
   "reward": null,
-  "id": "interview-for-the-ages",
+  "img": "grubbytablet.png",
   "type": "Magazine",
-  "content": "We managed to track down the renowned Kenzo, owner of the largest building in the area, for a special interview!\n\n“My family has dreamed of constructing a building here for generations,” said a tearful Kenzo, with Machamp by his side. Machamp had also helped with the construction.\n\nRead on for the interview covering this man’s remarkable life! (Average reading time: 4.5 hours)"
+  "content": "We managed to track down the renowned Kenzo, owner of the largest building in the area, for a special interview!\n\n“My family has dreamed of constructing a building here for generations,” said a tearful Kenzo, with Machamp by his side. Machamp had also helped with the construction.\n\nRead on for the interview covering this man’s remarkable life! (Average reading time: 4.5 hours)",
+  "photo": null,
+  "photoAlt": null,
+  "id": "interview-for-the-ages"
  },
  {
   "name": "Recruiting New Members!",
   "location": "Bleak Beach",
   "reward": null,
-  "id": "recruiting-new-members",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "The Pokémon Fan Club is currently seeking new members.\n\nIf you're interested in joining, please visit the office!"
+  "content": "The Pokémon Fan Club is currently seeking new members.\n\nIf you're interested in joining, please visit the office!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "recruiting-new-members"
  },
  {
   "name": "Unmasking the True Lt. Surge!",
   "location": "Bleak Beach",
   "reward": "Ranger outfit",
-  "id": "unmasking-the-true-lt-surge",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "Gym Leader Spotlight: Lieutenant Surge!\n\nLt. Surge, Gym Leader of the Vermilion City Gym, may look intimidating, but you might be surprised by the gentler side he shows when he’s with his beloved Pokémon.\n\nDecember's special edition of Gym Leader Monthly will focus on Lt. Surge, the Lightning Lieutenant! You'll see him in a whole new light!"
+  "content": "Gym Leader Spotlight: Lieutenant Surge!\n\nLt. Surge, Gym Leader of the Vermilion City Gym, may look intimidating, but you might be surprised by the gentler side he shows when he’s with his beloved Pokémon.\n\nDecember's special edition of Gym Leader Monthly will focus on Lt. Surge, the Lightning Lieutenant! You'll see him in a whole new light!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "unmasking-the-true-lt-surge"
  },
  {
   "name": "Contest Winner!",
   "location": "Bleak Beach",
   "reward": "Thumbs-up emote",
-  "id": "contest-winner",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "The online Pokémon Contest on the fourth of this month was won by none other than Isabelle and Vulcan the Ninetales of the Vermilion City Pokémon Fan Club!\n\nVulcan received 15,000 likes that day, beating the second-place winner by a wide margin."
+  "content": "The online Pokémon Contest on the fourth of this month was won by none other than Isabelle and Vulcan the Ninetales of the Vermilion City Pokémon Fan Club!\n\nVulcan received 15,000 likes that day, beating the second-place winner by a wide margin.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "contest-winner"
  },
  {
   "name": "Solo Nighttime Strollers, Beware!",
   "location": "Bleak Beach",
   "reward": "Goodbye emote",
-  "id": "solo-nighttime-strollers-beware",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "Recently, there have been many reports of people going missing after walking alone at night. We spoke with a person we'll call “M,” who managed to escape in the nick of time.\n\n“Someone was waving their hand at me from down the street. I ran away immediately, and I think that’s what saved me,” said M.\n\nSeveral survivors have speculated that these disappearances may be the work of a ghost Pokémon."
+  "content": "Recently, there have been many reports of people going missing after walking alone at night. We spoke with a person we'll call “M,” who managed to escape in the nick of time.\n\n“Someone was waving their hand at me from down the street. I ran away immediately, and I think that’s what saved me,” said M.\n\nSeveral survivors have speculated that these disappearances may be the work of a ghost Pokémon.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "solo-nighttime-strollers-beware"
  },
  {
   "name": "Enjoy an Extravagant Voyage",
   "location": "Bleak Beach",
   "reward": "Sailor outfit",
-  "id": "enjoy-an-extravagant-voyage",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "You may notice that the S.S. Anne is a bit different this year! The cruise route has been updated to bring new experiences to our customers.\n\nWouldn't you like to take a leisurely tour around the world on a luxury cruise ship?\n\nFor more information, please call the following..."
+  "content": "You may notice that the S.S. Anne is a bit different this year! The cruise route has been updated to bring new experiences to our customers.\n\nWouldn't you like to take a leisurely tour around the world on a luxury cruise ship?\n\nFor more information, please call the following...",
+  "photo": null,
+  "photoAlt": null,
+  "id": "enjoy-an-extravagant-voyage"
  },
  {
   "name": "Seize the Week (Vol. 8)",
   "location": "Rocky Ridges",
   "reward": "Smile emote",
-  "id": "seize-the-week-vol-8",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "The Poké Ball variation we'd like to showcase this week is none other than the Love Ball!\n\nThis odd ball makes it easier to catch Pokémon when yours is the opposite gender! What's not to love?\n\nDid you all know about this ball?"
+  "content": "The Poké Ball variation we'd like to showcase this week is none other than the Love Ball!\n\nThis odd ball makes it easier to catch Pokémon when yours is the opposite gender! What's not to love?\n\nDid you all know about this ball?",
+  "photo": null,
+  "photoAlt": null,
+  "id": "seize-the-week-vol-8"
  },
  {
   "name": "Opthalmology Journal (Spring)",
   "location": "Rocky Ridges",
   "reward": "Super Nerd outfit",
-  "id": "opthalmology-journal-spring",
+  "img": "grubbybook.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "opthalmology-journal-spring"
  },
  {
   "name": "Comfy Living (Vol. 866)",
   "location": "Rocky Ridges",
   "reward": null,
-  "id": "comfy-living-vol-866",
+  "img": "grubbytablet.png",
   "type": "Magazine",
-  "content": "More and more people are finding themselves low on sleep recently due to the rapid and unexpected changes in their environment.\n\nIn this issue, we'll offer some ideas that can help to get your sleep back on track, including information on aromatherapy and hot baths. Better sleep at night starts with a more relaxing day!"
+  "content": "More and more people are finding themselves low on sleep recently due to the rapid and unexpected changes in their environment.\n\nIn this issue, we'll offer some ideas that can help to get your sleep back on track, including information on aromatherapy and hot baths. Better sleep at night starts with a more relaxing day!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "comfy-living-vol-866"
  },
  {
   "name": "Bug Love (September Issue)",
   "location": "Rocky Ridges",
   "reward": null,
-  "id": "bug-love-september-issue",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "This issue's feature article is all about Vespiquen! What is the Beehive Pokémon’s surprising reaction when given honey? Read on to find out!"
+  "content": "This issue's feature article is all about Vespiquen! What is the Beehive Pokémon’s surprising reaction when given honey? Read on to find out!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "bug-love-september-issue"
  },
  {
   "name": "Gym Leader Montly (July Issue)",
   "location": "Rocky Ridges",
   "reward": "Rock-solid Outfit",
-  "id": "gym-leader-montly-july-issue",
+  "img": "grubbybook.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "gym-leader-montly-july-issue"
  },
  {
   "name": "Message from the Game Corner",
   "location": "Sparkling Skylands",
   "reward": "Team Rocket outfit",
-  "id": "message-from-the-game-corner",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "Notice from the Celadon Game Corner:\n\nWe've recently received reports of suspicious-looking characters spotted around our facility, and some customers have expressed that they feel frightened or unsafe playing here.\n\nOur customers’ peace of mind is of the utmost importance to us, so we've increased security patrols on the premises."
+  "content": "Notice from the Celadon Game Corner:\n\nWe've recently received reports of suspicious-looking characters spotted around our facility, and some customers have expressed that they feel frightened or unsafe playing here.\n\nOur customers’ peace of mind is of the utmost importance to us, so we've increased security patrols on the premises.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "message-from-the-game-corner"
  },
  {
   "name": "Black Belt Weekly (Vol. 48)",
   "location": "Sparkling Skylands",
   "reward": "Black Belt outfit",
-  "id": "black-belt-weekly-vol-48",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "Osu! The Fighting Fists and Feet is a new karate dojo now open for business!\n\nBeginners welcome to join! Pokémon welcome to attend! Everyone who signs up this month will receive a free karate gi as part of our welcome giveaway! Punch like Hitmonchan! Kick like Hitmonlee!\n\nTo join, just call the number below and..."
+  "content": "Osu! The Fighting Fists and Feet is a new karate dojo now open for business!\n\nBeginners welcome to join! Pokémon welcome to attend! Everyone who signs up this month will receive a free karate gi as part of our welcome giveaway! Punch like Hitmonchan! Kick like Hitmonlee!\n\nTo join, just call the number below and...",
+  "photo": null,
+  "photoAlt": null,
+  "id": "black-belt-weekly-vol-48"
  },
  {
   "name": "Career Monthly (Vol. 111)",
   "location": "Dream Island",
   "reward": "Pokémon Center outfit",
-  "id": "career-monthly-vol-111",
+  "img": "grubbybook.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "career-monthly-vol-111"
  },
  {
   "name": "Music & Living (September Issue)",
   "location": "Dream Island",
   "reward": "Clap emote",
-  "id": "music-living-september-issue",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "The city is still buzzing with talk of last month’s 17th annual Pokémon Music Festival! The plaza in front of the station was filled with performances by people and Pokémon alike. Attendees at this year’s festival enjoyed listening to all manner of music played by a plethora of different Pokemon.\n\nTori’s spectacular performance was a huge highlight, and the impassioned Kricketune concerto invited countless standing ovations and calls for an encore."
+  "content": "The city is still buzzing with talk of last month’s 17th annual Pokémon Music Festival! The plaza in front of the station was filled with performances by people and Pokémon alike. Attendees at this year’s festival enjoyed listening to all manner of music played by a plethora of different Pokemon.\n\nTori’s spectacular performance was a huge highlight, and the impassioned Kricketune concerto invited countless standing ovations and calls for an encore.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "music-living-september-issue"
  },
  {
   "name": "Comfy Living (Vol. 2)",
   "location": "Dream Island",
   "reward": null,
-  "id": "comfy-living-vol-2",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "Now let’s go over some of this week's viral videos! This week’s number-one spot goes to... Toxel’s Tiny Tantrum!\n\nToxel takes a bite out of a berry behind its Trainer's back...only to find it does NOT like the taste one bit! We can’t get enough of this Toxel tearfully thrashing about with its tiny arms and legs, and we're not alone! Toxel’s adorable tantrum has garnered five million views in just a week, clearly resonating with people all around the world!"
+  "content": "Now let’s go over some of this week's viral videos! This week’s number-one spot goes to... Toxel’s Tiny Tantrum!\n\nToxel takes a bite out of a berry behind its Trainer's back...only to find it does NOT like the taste one bit! We can’t get enough of this Toxel tearfully thrashing about with its tiny arms and legs, and we're not alone! Toxel’s adorable tantrum has garnered five million views in just a week, clearly resonating with people all around the world!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "comfy-living-vol-2"
  },
  {
   "name": "PokéQuiz! Question 34",
   "location": "Dream Island",
   "reward": "Thinking emote",
-  "id": "pokequiz-question-34",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "It has a round belly and loves to eat! The fur on its body hides food underneath! Whatever the meal, big or small— in a single bite, it swallows it all!\n\nWho’s that Pokémon?\n\nThe answer is...Munchlax!"
+  "content": "It has a round belly and loves to eat! The fur on its body hides food underneath! Whatever the meal, big or small— in a single bite, it swallows it all!\n\nWho’s that Pokémon?\n\nThe answer is...Munchlax!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "pokequiz-question-34"
  },
  {
   "name": "DELUXE Alola! (February Issue)",
   "location": "Dream Island",
   "reward": "Long bangs hair",
-  "id": "deluxe-alola-february-issue",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "Alola! A new up-and-coming challenger has been attracting a lot of attention at the Battle Royal Dome on Royal Avenue!\n\nThe challenger's name is Gladion. Within a single day of his arrival, he and his Type: Null won a Master Rank match!\n\nIs there anyone out there who can defeat him? Keep your eyes on the Battle Royal Dome to find out!"
+  "content": "Alola! A new up-and-coming challenger has been attracting a lot of attention at the Battle Royal Dome on Royal Avenue!\n\nThe challenger's name is Gladion. Within a single day of his arrival, he and his Type: Null won a Master Rank match!\n\nIs there anyone out there who can defeat him? Keep your eyes on the Battle Royal Dome to find out!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "deluxe-alola-february-issue"
  },
  {
   "name": "Alola! (May Issue)",
   "location": "Dream Island",
   "reward": "Sightseer outfit",
-  "id": "alola-may-issue",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "Alola! How many of Alola’s tourist attractions do you think you can name?\n\nIn our next issue, we'll provide a comprehensive introduction to Alola, including not only the most popular hot spots but also some hidden gems!"
+  "content": "Alola! How many of Alola’s tourist attractions do you think you can name?\n\nIn our next issue, we'll provide a comprehensive introduction to Alola, including not only the most popular hot spots but also some hidden gems!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "alola-may-issue"
  },
  {
   "name": "Alola! (January Issue)",
   "location": "Dream Island",
   "reward": "Fluffy hair",
-  "id": "alola-january-issue",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "Alola! Acerola, captain of Ula'ula Island, has been selected as an Elite Four member for the newly established Alola Pokémon League!\n\nIt seems that Kahuna Nanu was initially nominated for this position, but he turned the job down."
+  "content": "Alola! Acerola, captain of Ula'ula Island, has been selected as an Elite Four member for the newly established Alola Pokémon League!\n\nIt seems that Kahuna Nanu was initially nominated for this position, but he turned the job down.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "alola-january-issue"
  },
  {
   "name": "Pocket World Weekly #38",
   "location": "Dream Island",
   "reward": "Roughneck outfit",
-  "id": "pocket-world-weekly-38",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "Leather jackets like those once worn by the “bad” kids in town are making a fashion comeback!\n\n“They're so spiky and cool!” “They give my cute outfits an edge!’ These are just a couple of the comments we've heard about the jackets, which are popular among a variety of different demographics, from rebellious teenagers to fashionable, cosmopolitan women."
+  "content": "Leather jackets like those once worn by the “bad” kids in town are making a fashion comeback!\n\n“They're so spiky and cool!” “They give my cute outfits an edge!’ These are just a couple of the comments we've heard about the jackets, which are popular among a variety of different demographics, from rebellious teenagers to fashionable, cosmopolitan women.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "pocket-world-weekly-38"
  },
  {
   "name": "Gym Leader Monthly (June Issue)",
   "location": "Dream Island",
   "reward": "Curly hair",
-  "id": "gym-leader-monthly-june-issue",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "Gym Leader Spotlight: Bede!\n\nBede, Gym Leader of Ballonlea Stadium, has been busy ever since he inherited the role from Opal, the wizard. What's he been up to, you ask?\n\nGet a peek behind the scenes of a day in the life of the pink-clad, Fairy-type-using Bede in June’s ultra-elite edition of Gym Leader Monthly!"
+  "content": "Gym Leader Spotlight: Bede!\n\nBede, Gym Leader of Ballonlea Stadium, has been busy ever since he inherited the role from Opal, the wizard. What's he been up to, you ask?\n\nGet a peek behind the scenes of a day in the life of the pink-clad, Fairy-type-using Bede in June’s ultra-elite edition of Gym Leader Monthly!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "gym-leader-monthly-june-issue"
  },
  {
   "name": "Bird Pokémon Montly (Anniv. Issue)",
   "location": "Dream Island",
   "reward": "Bird Keeper outfit",
-  "id": "bird-pokemon-montly-anniv-issue",
+  "img": "grubbybook.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "bird-pokemon-montly-anniv-issue"
  },
  {
   "name": "Poké TV (July Issue)",
   "location": "Dream Island",
   "reward": "Professor outfit",
-  "id": "poke-tv-july-issue",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "This summer, Professor Oak's Pokémon Talk will be airing specially every morning starting at 8 a.m.!\n\nChildren can call in to have their questions answered on air by Professor Oak himself! Please feel free to call in with any questions you have about Pokémon! The number to call is..."
+  "content": "This summer, Professor Oak's Pokémon Talk will be airing specially every morning starting at 8 a.m.!\n\nChildren can call in to have their questions answered on air by Professor Oak himself! Please feel free to call in with any questions you have about Pokémon! The number to call is...",
+  "photo": null,
+  "photoAlt": null,
+  "id": "poke-tv-july-issue"
  },
  {
   "name": "Angler Monthly (Special Edition)",
   "location": "Dream Island",
   "reward": "Locs hair",
-  "id": "angler-monthly-special-edition",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "This special edition of Angler Monthly covers last month’s Magikarp Fishing World Championship!\n\nThe winning Magikarp, caught by a woman from Johto, measured a whopping 51.18 inches long!\n\nWinner's Comment: I've been an avid fisher ever since I was a kid! Over the years, I’ve caught a lot of Magikarp, but this one is definitely the biggest by far!"
+  "content": "This special edition of Angler Monthly covers last month’s Magikarp Fishing World Championship!\n\nThe winning Magikarp, caught by a woman from Johto, measured a whopping 51.18 inches long!\n\nWinner's Comment: I've been an avid fisher ever since I was a kid! Over the years, I’ve caught a lot of Magikarp, but this one is definitely the biggest by far!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "angler-monthly-special-edition"
  },
  {
   "name": "New Bark Bulletin (February)",
   "location": "Dream Island",
   "reward": "Sideswept hair",
-  "id": "new-bark-bulletin-february",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "New Bark Town is actively seeking new residents!\n\nOur town boasts the twin attractions of abundant nature and excellent educational facilities! In fact, a former Pokémon League Champion came from New Bark Town, where he studied at Professor Elm’s lab and grew up healthy and happy amidst the nearby greenery.\n\nCome to New Bark Town for a relaxing life in the perfect environment for raising children! If interested, Please visit the following site..."
+  "content": "New Bark Town is actively seeking new residents!\n\nOur town boasts the twin attractions of abundant nature and excellent educational facilities! In fact, a former Pokémon League Champion came from New Bark Town, where he studied at Professor Elm’s lab and grew up healthy and happy amidst the nearby greenery.\n\nCome to New Bark Town for a relaxing life in the perfect environment for raising children! If interested, Please visit the following site...",
+  "photo": null,
+  "photoAlt": null,
+  "id": "new-bark-bulletin-february"
  },
  {
   "name": "Saffron City Press Release",
   "location": "Dream Island",
   "reward": "Simple hair",
-  "id": "saffron-city-press-release",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "We are thrilled to announce that the Magnet Train anniversary ceremony on the 8th of next month will include a special appearance by the current Kanto League Champion!\n\nThree lucky children will be selected by lottery to have a special exhibition battle with the Champion. We look forward to your enthusiastic participation!"
+  "content": "We are thrilled to announce that the Magnet Train anniversary ceremony on the 8th of next month will include a special appearance by the current Kanto League Champion!\n\nThree lucky children will be selected by lottery to have a special exhibition battle with the Champion. We look forward to your enthusiastic participation!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "saffron-city-press-release"
  },
  {
   "name": "PokéWeek (Issue 122)",
   "location": "Dream Island",
   "reward": "Red outfit",
-  "id": "pokeweek-issue-122",
+  "img": "grubbybook.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "pokeweek-issue-122"
  },
  {
   "name": "Gym Leader Monthly (March Issue)",
   "location": "Dream Island",
   "reward": "Cool outfit",
-  "id": "gym-leader-monthly-march-issue",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "Gym Leader Spotlight: {{ga|Blue}}!\n\nBlue’s accomplishments are many, and you can’t even begin to talk about the Viridian City Gym without mentioning his name! This edition of Gym Leader Monthly looks at how he managed to change a former Team Rocket hideout into a wildly popular Gym.\n\nFind out all you’ve ever wanted to know about Kanto’s former Pokémon League Champion! Who could he have possibly considered a rival?!"
+  "content": "Gym Leader Spotlight: Blue!\n\nBlue’s accomplishments are many, and you can’t even begin to talk about the Viridian City Gym without mentioning his name! This edition of Gym Leader Monthly looks at how he managed to change a former Team Rocket hideout into a wildly popular Gym.\n\nFind out all you’ve ever wanted to know about Kanto’s former Pokémon League Champion! Who could he have possibly considered a rival?!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "gym-leader-monthly-march-issue"
  },
  {
   "name": "Island Monthly (May Issue)",
   "location": "Dream Island",
   "reward": "Fresh outfit",
-  "id": "island-monthly-may-issue",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "The Sevii Islands, located in the southern part of the Kanto region, are a popular vacation spot due to their temperate climate.\n\nWe interviewed a girl visiting from Pallet Town who had the following to say with a big smile on her face. “I heard that there are a lot of rare Pokémon to see here, so I'm really excited!”"
+  "content": "The Sevii Islands, located in the southern part of the Kanto region, are a popular vacation spot due to their temperate climate.\n\nWe interviewed a girl visiting from Pallet Town who had the following to say with a big smile on her face. “I heard that there are a lot of rare Pokémon to see here, so I'm really excited!”",
+  "photo": null,
+  "photoAlt": null,
+  "id": "island-monthly-may-issue"
  },
  {
   "name": "Pocket World Weekly #18",
   "location": "Dream Island",
   "reward": "Rascal outfit",
-  "id": "pocket-world-weekly-18",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "The Rage Candy Bars of Mahogany Town are attracting worldwide attention!\n\nThe trend started when a certain influencer went viral with the phrase “Rage Candy Bars are terrifying!” Seeing an opportunity to refresh the supposedly old-fashioned treat’s image, a shop manager hired a famous Johto region Trainer to film a commercial. This commercial is now hugely popular among young people, and Rage Candy Bars are flying off the shelves faster than a fleeing Pidgey."
+  "content": "The Rage Candy Bars of Mahogany Town are attracting worldwide attention!\n\nThe trend started when a certain influencer went viral with the phrase “Rage Candy Bars are terrifying!” Seeing an opportunity to refresh the supposedly old-fashioned treat’s image, a shop manager hired a famous Johto region Trainer to film a commercial. This commercial is now hugely popular among young people, and Rage Candy Bars are flying off the shelves faster than a fleeing Pidgey.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "pocket-world-weekly-18"
  },
  {
   "name": "Pokémon Breeder Monthly #37",
   "location": "Dream Island",
   "reward": "Cozy outfit",
-  "id": "pokemon-breeder-monthly-37",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "For our subscribers only! Twenty lucky lottery winners will win two tickets each to the Johto region!\n\nThe main stop on this trip will be the famous Day Care on Route 34! We'll chat with the couple that works there about everything from their work-life balance—how do they handle both their jobs and their family life with their beloved grandchild?-— to their philosophy as Day Care staff!"
+  "content": "For our subscribers only! Twenty lucky lottery winners will win two tickets each to the Johto region!\n\nThe main stop on this trip will be the famous Day Care on Route 34! We'll chat with the couple that works there about everything from their work-life balance—how do they handle both their jobs and their family life with their beloved grandchild?-— to their philosophy as Day Care staff!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "pokemon-breeder-monthly-37"
  },
  {
-  "name": "Information wanted",
+  "name": "Information Wanted",
   "location": "Dream Island",
   "reward": "Chic outfit",
-  "id": "information-wanted",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "Wanted: Information on a Red-Haired Boy\n\nAhighly important Pokémon was recently stolen from New Bark Town’s Elm Pokémon Lab. Authorities are looking for any information on a red-haired boy in his early teens.\n\nWitnesses claim that the boy, wearing dark clothing, broke into the lab through a window and fled with the Pokémon. Anyone with information on this young boy is urged to contact Elm Pokémon Lab."
+  "content": "Wanted: Information on a Red-Haired Boy\n\nAhighly important Pokémon was recently stolen from New Bark Town’s Elm Pokémon Lab. Authorities are looking for any information on a red-haired boy in his early teens.\n\nWitnesses claim that the boy, wearing dark clothing, broke into the lab through a window and fled with the Pokémon. Anyone with information on this young boy is urged to contact Elm Pokémon Lab.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "information-wanted"
  },
  {
   "name": "Archeology Magazine #12",
   "location": "Dream Island",
   "reward": "Sport outfit",
-  "id": "archeology-magazine-12",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "Kerry's Ruin Exploration Column Today, I'll be exploring the Ruins of Alph in the Johto region!\n\nThese ruins are said to be over 1,500 years old! The writing on the walls inside have long since been deciphered, but I still can’t help but feel a sense of awe before this magnificent ancient structure. I ran into another lady traveling alone while exploring the ruins—she said she was on a journey to visit all the Gyms of Johto! I wish her the best of luck!"
+  "content": "Kerry's Ruin Exploration Column Today, I'll be exploring the Ruins of Alph in the Johto region!\n\nThese ruins are said to be over 1,500 years old! The writing on the walls inside have long since been deciphered, but I still can’t help but feel a sense of awe before this magnificent ancient structure. I ran into another lady traveling alone while exploring the ruins—she said she was on a journey to visit all the Gyms of Johto! I wish her the best of luck!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "archeology-magazine-12"
  },
  {
   "name": "Comfy Living (Vol. 36)",
   "location": "Dream Island",
   "reward": null,
-  "id": "comfy-living-vol-36",
+  "img": "grubbybook.png",
   "type": "Magazine",
-  "content": "Are you ACTUALLY sleeping well? Good sleep can help you stay healthy and energetic! This issue will focus on tips to improve sleep. Table of Contents Page 04 - Sleeping Like Snorlax - Sleeping position: Is stretching out the way to go? - Poké Flute? Music? Finding the best alarm for you! Page 12 - The Secret of Mareep-Wool Pillows Page 16 - Delightful Vulpix-Shaped Bed Warmer Page 20 - Leafeon Aroma for Relaxation Page 24 - Jigglypuff’s Song—Ultimate Insomnia Cure?"
+  "content": "Are you ACTUALLY sleeping well? Good sleep can help you stay healthy and energetic! This issue will focus on tips to improve sleep. Table of Contents Page 04 - Sleeping Like Snorlax - Sleeping position: Is stretching out the way to go? - Poké Flute? Music? Finding the best alarm for you! Page 12 - The Secret of Mareep-Wool Pillows Page 16 - Delightful Vulpix-Shaped Bed Warmer Page 20 - Leafeon Aroma for Relaxation Page 24 - Jigglypuff’s Song—Ultimate Insomnia Cure?",
+  "photo": null,
+  "photoAlt": null,
+  "id": "comfy-living-vol-36"
  },
  {
   "name": "Team R Grunt's journal #1",
   "location": "Withered Wasteland",
   "reward": null,
-  "id": "team-r-grunt-s-journal-1",
+  "img": "grubbytablet.png",
   "type": "Magazine",
-  "content": "I've decided to give this social media thing a whirl. Today's my first go at it!\n\nWhy? To bring in new recruits for our organization!\n\nWe may not be the heroes of the story as far as most people out there are concerned. To be completely honest, we're kinda the villains!\n\nBut if you forget about all the rules and common sense and stuff, we live how we wanna live... and I think that makes us a pretty fun organization!\n\nSince we don’t have the best reputation, I can’t really give out our name...\n\nBut it’s kinda hard to talk about it without a name, so uh...let’s go with Team R! Got it?\n\nSo anyway, give me a yell if you're interested in being a member of Team R!"
+  "content": "I've decided to give this social media thing a whirl. Today's my first go at it!\n\nWhy? To bring in new recruits for our organization!\n\nWe may not be the heroes of the story as far as most people out there are concerned. To be completely honest, we're kinda the villains!\n\nBut if you forget about all the rules and common sense and stuff, we live how we wanna live... and I think that makes us a pretty fun organization!\n\nSince we don’t have the best reputation, I can’t really give out our name...\n\nBut it’s kinda hard to talk about it without a name, so uh...let’s go with Team R! Got it?\n\nSo anyway, give me a yell if you're interested in being a member of Team R!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "team-r-grunt-s-journal-1"
  },
  {
   "name": "Team R Grunt's journal #2",
   "location": "Bleak Beach",
   "reward": null,
-  "id": "team-r-grunt-s-journal-2",
+  "img": "grubbytablet.png",
   "type": "Magazine",
-  "content": "Team R is building a top-secret warehouse!\n\nI went to help out a bit today and got covered in sand. It kinda sucked!\n\nA bunch of smart-looking people were there too, like scientists and engineers and all that. It kinda freaked me out.\n\nBut it’s pretty cool that our boss has so many different people on call like that!\n\nTeam R was actually really infamous in Kanto back in the day, but our boss at the time disbanded the whole organization. Our new boss restarted things, and now we're back!\n\nI really respect our current boss! We're all baddies and villains, but he totally gets us!\n\nI'm gonna be his loyal underling forever!"
+  "content": "Team R is building a top-secret warehouse!\n\nI went to help out a bit today and got covered in sand. It kinda sucked!\n\nA bunch of smart-looking people were there too, like scientists and engineers and all that. It kinda freaked me out.\n\nBut it’s pretty cool that our boss has so many different people on call like that!\n\nTeam R was actually really infamous in Kanto back in the day, but our boss at the time disbanded the whole organization. Our new boss restarted things, and now we're back!\n\nI really respect our current boss! We're all baddies and villains, but he totally gets us!\n\nI'm gonna be his loyal underling forever!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "team-r-grunt-s-journal-2"
  },
  {
   "name": "Team R Grunt's journal #3",
   "location": "Bleak Beach",
   "reward": null,
-  "id": "team-r-grunt-s-journal-3",
+  "img": "grubbytablet.png",
   "type": "Magazine",
-  "content": "One good thing and one bad thing happened to me today.\n\nThe good thing was that I got assigned to a special mission by the boss!\n\nOur boss really knows how to pick people for special missions. If I can do well on this, I'll climb the ranks to exec in no time! Maybe!\n\nThe bad thing is that the mission itself... seems really hard and kinda annoying!\n\nHe wants me to gather all kinds of things. In a time like this?! Food, furniture, uhhh...what else? Anyway, just LOTS of stuff.\n\nI'm just a little grunt and don’t have any underlings of my own, so it’s a big ask!\n\nI'm just trying to figure out the absolute easiest, low-energy way to complete this mission!"
+  "content": "One good thing and one bad thing happened to me today.\n\nThe good thing was that I got assigned to a special mission by the boss!\n\nOur boss really knows how to pick people for special missions. If I can do well on this, I'll climb the ranks to exec in no time! Maybe!\n\nThe bad thing is that the mission itself... seems really hard and kinda annoying!\n\nHe wants me to gather all kinds of things. In a time like this?! Food, furniture, uhhh...what else? Anyway, just LOTS of stuff.\n\nI'm just a little grunt and don’t have any underlings of my own, so it’s a big ask!\n\nI'm just trying to figure out the absolute easiest, low-energy way to complete this mission!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "team-r-grunt-s-journal-3"
  },
  {
   "name": "Team R Grunt's journal #4",
   "location": "Rocky Ridges",
   "reward": null,
-  "id": "team-r-grunt-s-journal-4",
+  "img": "grubbytablet.png",
   "type": "Magazine",
-  "content": "Let me tell you all about what happened while I was looking for Leppa Berries to try and complete this mission for the boss.\n\nThere's been a bunch of extreme weather or whatever recently that’s killing off all the trees, but I FINALLY found a tree that still had berries on it!\n\nBut as soon as I started shaking the tree to get the berries off, some super serious-looking lady came up and started yelling at me!\n\nShe was like, “Those are NOT for you! They're for Pokémon! There are already FAR too few berries!”\n\nBlah blah blah. She was so annoying! But something else she said was actually kinda interesting...\n\nApparently she’s making an app or something to get a bunch of people to work together and create a comfortable environment for Pokémon to live in.\n\nBasically, if you do good stuff for the environment... the app will reward you with cool prizes!\n\nIn other words, she’s gonna bribe people to work for her by promising ‘em cool stuff. Not a bad idea!\n\nAnd that gave ME a GREAT idea!\n\nI bet I could complete that mission the boss gave me by doing kind of the same thing!"
+  "content": "Let me tell you all about what happened while I was looking for Leppa Berries to try and complete this mission for the boss.\n\nThere's been a bunch of extreme weather or whatever recently that’s killing off all the trees, but I FINALLY found a tree that still had berries on it!\n\nBut as soon as I started shaking the tree to get the berries off, some super serious-looking lady came up and started yelling at me!\n\nShe was like, “Those are NOT for you! They're for Pokémon! There are already FAR too few berries!”\n\nBlah blah blah. She was so annoying! But something else she said was actually kinda interesting...\n\nApparently she’s making an app or something to get a bunch of people to work together and create a comfortable environment for Pokémon to live in.\n\nBasically, if you do good stuff for the environment... the app will reward you with cool prizes!\n\nIn other words, she’s gonna bribe people to work for her by promising ‘em cool stuff. Not a bad idea!\n\nAnd that gave ME a GREAT idea!\n\nI bet I could complete that mission the boss gave me by doing kind of the same thing!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "team-r-grunt-s-journal-4"
  },
  {
   "name": "Team R Grunt's journal #5",
   "location": "Rocky Ridges",
   "reward": null,
-  "id": "team-r-grunt-s-journal-5",
+  "img": "grubbytablet.png",
   "type": "Magazine",
-  "content": "So I went ahead and got some prizes ready.\n\nI went with Gym Badges! People are crazy about those things, y'know? These are fake ones, though!\n\nNow I just gotta get some nice little Pokémon Trainers to come work for free!\n\nBut that’s got me kinda stumped. All the Trainers I try to talk to in town just look at me like I’m suspicious and ignore everything I say.\n\nI dunno if my handiwork was no good or if I just have a face that only a mother could trust, but I gotta say that this whole thing’s got me feeling kinda down.\n\nI even had to report to the boss and tell him that the mission wasn’t going well. I just didn’t have a choice.\n\nBut the boss didn’t get mad! He just gave me a pep talk and even let me in on some ultra-top-secret intel about our warehouse!"
+  "content": "So I went ahead and got some prizes ready.\n\nI went with Gym Badges! People are crazy about those things, y'know? These are fake ones, though!\n\nNow I just gotta get some nice little Pokémon Trainers to come work for free!\n\nBut that’s got me kinda stumped. All the Trainers I try to talk to in town just look at me like I’m suspicious and ignore everything I say.\n\nI dunno if my handiwork was no good or if I just have a face that only a mother could trust, but I gotta say that this whole thing’s got me feeling kinda down.\n\nI even had to report to the boss and tell him that the mission wasn’t going well. I just didn’t have a choice.\n\nBut the boss didn’t get mad! He just gave me a pep talk and even let me in on some ultra-top-secret intel about our warehouse!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "team-r-grunt-s-journal-5"
  },
  {
   "name": "Team R Grunt's journal #6",
   "location": "Sparkling Skylands",
   "reward": null,
-  "id": "team-r-grunt-s-journal-6",
+  "img": "grubbytablet.png",
   "type": "Magazine",
-  "content": "The Secret of Team R’s Warehouse!!!\n\nOf course I can’t spill all the beans...but I can spill some of ‘em!\n\nYou've probably heard the rumors about having all the humans evacuate into outer space. Well! Our boss tells me that the rumors are true!\n\nBut apparently they don’t want Team R doing bad stuff in outer space, so they’re gonna split us up... and send us all to different areas! Not cool, people. I can’t be the only one who thinks that’s not cool!\n\nBut our boss has us covered.\n\nTurns out that warehouse is ACTUALLY Team R’s secret weapon for getting us into outer space together! I cried happy tears! Our boss rules!\n\nHow are we gonna get to outer space on our own, you ask? Well...I can’t tell ya that! Haha!"
+  "content": "The Secret of Team R’s Warehouse!!!\n\nOf course I can’t spill all the beans...but I can spill some of ‘em!\n\nYou've probably heard the rumors about having all the humans evacuate into outer space. Well! Our boss tells me that the rumors are true!\n\nBut apparently they don’t want Team R doing bad stuff in outer space, so they’re gonna split us up... and send us all to different areas! Not cool, people. I can’t be the only one who thinks that’s not cool!\n\nBut our boss has us covered.\n\nTurns out that warehouse is ACTUALLY Team R’s secret weapon for getting us into outer space together! I cried happy tears! Our boss rules!\n\nHow are we gonna get to outer space on our own, you ask? Well...I can’t tell ya that! Haha!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "team-r-grunt-s-journal-6"
  },
  {
   "name": "Team R Grunt's journal #7",
   "location": "Sparkling Skylands",
   "reward": null,
-  "id": "team-r-grunt-s-journal-7",
+  "img": "grubbytablet.png",
   "type": "Magazine",
-  "content": "Hearing about the boss’s dream of keeping Team R together even in outer space really got me motivated. I’m gonna give my mission one more serious go!\n\nI did a little work on the rocke—uh, the warehouse— to trick people walking by into wanting to help out with my mission.\n\nIt was a LOT of work, but I just had to keep in mind that I was working hard in the moment so I could take it easy later! Not a bad way to do things, I think!\n\nThe engineers all looked kinda annoyed with me, but they did lend me a hand.\n\nNow all I gotta do is wait for some goody-goody to come along and do my mission for me!\n\nI'm gonna go ahead and report to the boss what I've accomplished. I bet he’ll be so proud!"
+  "content": "Hearing about the boss’s dream of keeping Team R together even in outer space really got me motivated. I’m gonna give my mission one more serious go!\n\nI did a little work on the rocke—uh, the warehouse— to trick people walking by into wanting to help out with my mission.\n\nIt was a LOT of work, but I just had to keep in mind that I was working hard in the moment so I could take it easy later! Not a bad way to do things, I think!\n\nThe engineers all looked kinda annoyed with me, but they did lend me a hand.\n\nNow all I gotta do is wait for some goody-goody to come along and do my mission for me!\n\nI'm gonna go ahead and report to the boss what I've accomplished. I bet he’ll be so proud!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "team-r-grunt-s-journal-7"
  },
  {
   "name": "Team R Grunt's journal #8",
   "location": "Withered Wasteland",
   "reward": null,
-  "id": "team-r-grunt-s-journal-8",
+  "img": "grubbytablet.png",
   "type": "Magazine",
-  "content": "Account suspended due to policy violations.\n\nThe owner of this account was found to belong to the criminal organization calling themselves “Team R,” which has been causing trouble across the region.\n\nThe entire organization, including its boss, has been apprehended by the International Police. We hope that this news will allow our users to continue using our platform with peace of mind."
+  "content": "Account suspended due to policy violations.\n\nThe owner of this account was found to belong to the criminal organization calling themselves “Team R,” which has been causing trouble across the region.\n\nThe entire organization, including its boss, has been apprehended by the International Police. We hope that this news will allow our users to continue using our platform with peace of mind.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "team-r-grunt-s-journal-8"
  },
  {
   "name": "Poké Life Dev Diary #1",
   "location": "Withered Wasteland",
   "reward": null,
-  "id": "poke-life-dev-diary-1",
+  "img": "grubbytablet.png",
   "type": "Magazine",
-  "content": "The damage caused by recent meteorological anomalies is immense and dreadful.\n\nThe news is continuously reporting on all manner of disasters affecting regions all over the world. There's even speculation that global food and energy resources may become insufficient if this continues.\n\nAt university, I researched methods for creating comfortable environments for Pokémon and humans. There must be something I can do in this crisis...\n\nI have decided to do whatever I can—no matter how small. Therefore, I have begun creating homes for Pokémon who lost theirs due to natural disasters.\n\nI don’t know how much this is helping the world at large, but the Pokémon, at least, seem to be grateful for the work I’m doing.\n\nI hope to continue my efforts until the meteorological anomalies calm down."
+  "content": "The damage caused by recent meteorological anomalies is immense and dreadful.\n\nThe news is continuously reporting on all manner of disasters affecting regions all over the world. There's even speculation that global food and energy resources may become insufficient if this continues.\n\nAt university, I researched methods for creating comfortable environments for Pokémon and humans. There must be something I can do in this crisis...\n\nI have decided to do whatever I can—no matter how small. Therefore, I have begun creating homes for Pokémon who lost theirs due to natural disasters.\n\nI don’t know how much this is helping the world at large, but the Pokémon, at least, seem to be grateful for the work I’m doing.\n\nI hope to continue my efforts until the meteorological anomalies calm down.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "poke-life-dev-diary-1"
  },
  {
   "name": "Poké Life Dev Diary #2",
   "location": "Rocky Ridges",
   "reward": null,
-  "id": "poke-life-dev-diary-2",
+  "img": "grubbytablet.png",
   "type": "Magazine",
-  "content": "Like-minded individuals have been slowly joining my cause as I continue to create homes for Pokémon.\n\nI greatly appreciate the support those individuals provide, but we have all begun to grow tired as the meteorological anomalies and resulting natural disasters continue to worsen.\n\nWe need more time, and we need more help.\n\nI have recently begun hearing rumors that there are plans to temporarily evacuate all of humanity into space.\n\nIf these rumors are true, does that mean that all of our efforts have been in vain?\n\nMy collaborators seem anxious as well. Perhaps they are of the same mind as I..."
+  "content": "Like-minded individuals have been slowly joining my cause as I continue to create homes for Pokémon.\n\nI greatly appreciate the support those individuals provide, but we have all begun to grow tired as the meteorological anomalies and resulting natural disasters continue to worsen.\n\nWe need more time, and we need more help.\n\nI have recently begun hearing rumors that there are plans to temporarily evacuate all of humanity into space.\n\nIf these rumors are true, does that mean that all of our efforts have been in vain?\n\nMy collaborators seem anxious as well. Perhaps they are of the same mind as I...",
+  "photo": null,
+  "photoAlt": null,
+  "id": "poke-life-dev-diary-2"
  },
  {
   "name": "Poké Life Dev Diary #3",
   "location": "Bleak Beach",
   "reward": null,
-  "id": "poke-life-dev-diary-3",
+  "img": "grubbytablet.png",
   "type": "Magazine",
-  "content": "I had a truly surprising experience today.\n\nSomeone from an influential foundation in another region visited us and offered to back our efforts here.\n\nThis foundation is dedicated to Pokémon care and conservation, and they have promised to provide us with everything we need. I cannot think of a more perfect collaborator to join our cause.\n\nWith their support, I may finally be able to... realize the dream I’ve had for ages.\n\nMy dream: to foster a society in which the majority of people—not only my team—are interested and invested in creating comfortable environments for Pokémon and humans to live in.\n\nThat goal always seemed far too lofty and out of reach, but I believe it has now entered the realm of possibility with the strong support the foundation has promised us."
+  "content": "I had a truly surprising experience today.\n\nSomeone from an influential foundation in another region visited us and offered to back our efforts here.\n\nThis foundation is dedicated to Pokémon care and conservation, and they have promised to provide us with everything we need. I cannot think of a more perfect collaborator to join our cause.\n\nWith their support, I may finally be able to... realize the dream I’ve had for ages.\n\nMy dream: to foster a society in which the majority of people—not only my team—are interested and invested in creating comfortable environments for Pokémon and humans to live in.\n\nThat goal always seemed far too lofty and out of reach, but I believe it has now entered the realm of possibility with the strong support the foundation has promised us.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "poke-life-dev-diary-3"
  },
  {
   "name": "Poké Life Dev Diary #4",
   "location": "Rocky Ridges",
   "reward": null,
-  "id": "poke-life-dev-diary-4",
+  "img": "grubbytablet.png",
   "type": "Magazine",
-  "content": "We have developed an app that will allow all members of our society to participate in creating a comfortable environment for Pokémon and humans.\n\nThe budget and staff required to accomplish this feat were provided by the foundation, and the app can be accessed by anyone via Pokémon Center PC.\n\nParticipants can start with easy tasks, such as watering dry ground or planting the seeds of various plants— anything that will please nearby Pokémon. The app will reward the participant with virtual “coins,” which can in turn be exchanged for a variety of prizes.\n\nThis was my first time developing an app, and it was quite the challenge. However, with the help of many talented collaborators, we finally succeeded.\n\nThe name of the app is Poké Life."
+  "content": "We have developed an app that will allow all members of our society to participate in creating a comfortable environment for Pokémon and humans.\n\nThe budget and staff required to accomplish this feat were provided by the foundation, and the app can be accessed by anyone via Pokémon Center PC.\n\nParticipants can start with easy tasks, such as watering dry ground or planting the seeds of various plants— anything that will please nearby Pokémon. The app will reward the participant with virtual “coins,” which can in turn be exchanged for a variety of prizes.\n\nThis was my first time developing an app, and it was quite the challenge. However, with the help of many talented collaborators, we finally succeeded.\n\nThe name of the app is Poké Life.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "poke-life-dev-diary-4"
  },
  {
   "name": "Poké Life Dev Diary #5",
   "location": "Sparkling Skylands",
   "reward": null,
-  "id": "poke-life-dev-diary-5",
+  "img": "grubbytablet.png",
   "type": "Magazine",
-  "content": "In a most unfortunate turn of events, Poké Life never received a chance to be put to use.\n\nThe drastic deterioration of the global environment continues, and the plan to evacuate all of humanity into space has finally been put into action.\n\nEfforts have begun to gather as many Pokémon as possible from all over the world and send them into the Pokémon Center system for safekeeping.\n\nI was unable to make my dream a reality, but there is at least one silver lining in all of this.\n\nEven after we humans leave this planet, the Pokémon Center system will remain active in order to keep all of the Pokémon inside safe.\n\nThe system will also keep a record of environmental data around each Pokémon Center. The framework we developed for Poké Life will be used for this.\n\nThe recorded data will be analyzed by research teams set to return from space at regular intervals.\n\nThey say this is how we will determine when it’s safe for all of humanity to return to the planet together.\n\nMy time here is short. I must soon go to space myself.\n\nMy new dream will be of the day when humans and Pokémon can once again live together on this planet."
+  "content": "In a most unfortunate turn of events, Poké Life never received a chance to be put to use.\n\nThe drastic deterioration of the global environment continues, and the plan to evacuate all of humanity into space has finally been put into action.\n\nEfforts have begun to gather as many Pokémon as possible from all over the world and send them into the Pokémon Center system for safekeeping.\n\nI was unable to make my dream a reality, but there is at least one silver lining in all of this.\n\nEven after we humans leave this planet, the Pokémon Center system will remain active in order to keep all of the Pokémon inside safe.\n\nThe system will also keep a record of environmental data around each Pokémon Center. The framework we developed for Poké Life will be used for this.\n\nThe recorded data will be analyzed by research teams set to return from space at regular intervals.\n\nThey say this is how we will determine when it’s safe for all of humanity to return to the planet together.\n\nMy time here is short. I must soon go to space myself.\n\nMy new dream will be of the day when humans and Pokémon can once again live together on this planet.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "poke-life-dev-diary-5"
  },
  {
   "name": "Improving Your Quality of Life",
   "location": "Withered Wasteland",
   "reward": null,
-  "id": "improving-your-quality-of-life",
+  "img": "grubbytablet.png",
   "type": "Note",
-  "content": "• Maintain a comfortable level of brightness and temperature in your house.\n\n• Don’t hold back when you want something— decorate your home with your favorite furniture!\n\n• Choose a place to live where it’s easy to take walks. You can clear paths near your home!\n\nKeep these points in mind, and you'll be loving your lifestyle!"
+  "content": "• Maintain a comfortable level of brightness and temperature in your house.\n\n• Don’t hold back when you want something— decorate your home with your favorite furniture!\n\n• Choose a place to live where it’s easy to take walks. You can clear paths near your home!\n\nKeep these points in mind, and you'll be loving your lifestyle!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "improving-your-quality-of-life"
  },
  {
   "name": "How to Open a Shop",
   "location": "Bleak Beach",
   "reward": null,
-  "id": "how-to-open-a-shop",
+  "img": "grubbytablet.png",
   "type": "Note",
-  "content": "1. Place a register where you wish to do business and power it with electricity. 2. Prepare a table to place your wares on. 3. Recruit staff for the store."
+  "content": "1. Place a register where you wish to do business and power it with electricity. 2. Prepare a table to place your wares on. 3. Recruit staff for the store.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "how-to-open-a-shop"
  },
  {
   "name": "Tomorrow's meals",
   "location": "Rocky Ridges",
   "reward": null,
-  "id": "tomorrow-s-meals",
+  "img": "grubbynotepad.png",
   "type": "Note",
-  "content": "HAMBURGER STEAK - Beans - Tomato or potato (if cheap)\n\nCARROT BREAD - Use up carrots (we have so many) - Make in advance\n\nNOTE: Don’t use the mushrooms. Those are for next week's soup."
+  "content": "HAMBURGER STEAK - Beans - Tomato or potato (if cheap)\n\nCARROT BREAD - Use up carrots (we have so many) - Make in advance\n\nNOTE: Don’t use the mushrooms. Those are for next week's soup.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "tomorrow-s-meals"
  },
  {
   "name": "Observation notes",
   "location": "Sparkling Skylands",
   "reward": null,
-  "id": "observation-notes",
+  "img": "grubbytablet.png",
   "type": "Note",
-  "content": "The unknown ore discovered in my hometown’s bedrock possesses the positive qualities of multiple existing ores. Perhaps it’s not a single type of ore, but rather a mix of more than one?\n\nIt would be a challenge to perform sufficient experimentation with just the sample I managed to bring here, but I sense some great potential..."
+  "content": "The unknown ore discovered in my hometown’s bedrock possesses the positive qualities of multiple existing ores. Perhaps it’s not a single type of ore, but rather a mix of more than one?\n\nIt would be a challenge to perform sufficient experimentation with just the sample I managed to bring here, but I sense some great potential...",
+  "photo": null,
+  "photoAlt": null,
+  "id": "observation-notes"
  },
  {
   "name": "Shopping list",
   "location": "Dream Island",
   "reward": null,
-  "id": "shopping-list",
+  "img": "grubbynotepad.png",
   "type": "Note",
-  "content": "Cucumber Tofu (3 packs) Vinegar Slowpoke Tail Berry juice Toilet paper Toothbrush"
+  "content": "Cucumber Tofu (3 packs) Vinegar Slowpoke Tail Berry juice Toilet paper Toothbrush",
+  "photo": null,
+  "photoAlt": null,
+  "id": "shopping-list"
  },
  {
   "name": "Schedule Management Notes",
   "location": "Dream Island",
   "reward": null,
-  "id": "schedule-management-notes",
+  "img": "grubbytablet.png",
   "type": "Note",
-  "content": "9:00 a.m. on the 8th: Area 1 2:00 p.m. on the 9th: Area 2 9:00 a.m. on the 10th: Area 3 2:00 p.m. on the 10th: Area 4\n\nNote: Request submitted for Nakano’s compartment in Area 2 to be switched from 9:00 a.m. on the 10th."
+  "content": "9:00 a.m. on the 8th: Area 1 2:00 p.m. on the 9th: Area 2 9:00 a.m. on the 10th: Area 3 2:00 p.m. on the 10th: Area 4\n\nNote: Request submitted for Nakano’s compartment in Area 2 to be switched from 9:00 a.m. on the 10th.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "schedule-management-notes"
  },
  {
   "name": "Someone's journal #1",
   "location": "Withered Wasteland",
   "reward": null,
-  "id": "someone-s-journal-1",
+  "img": "grubbynotepad.png",
   "type": "Note",
-  "content": "I just got back from depositing my partner Pokémon in the PC at the Pokémon Center.\n\nWe spent every day together. Being separated like this is so hard. But I know we'll meet again someday. I'm sure of it.\n\nI'll need to evacuate with the others pretty soon, but first I'm planning to go take one last look at all the cities my partner and I visited together.\n\nIt’s hard to explain why, but I feel the need to do this."
+  "content": "I just got back from depositing my partner Pokémon in the PC at the Pokémon Center.\n\nWe spent every day together. Being separated like this is so hard. But I know we'll meet again someday. I'm sure of it.\n\nI'll need to evacuate with the others pretty soon, but first I'm planning to go take one last look at all the cities my partner and I visited together.\n\nIt’s hard to explain why, but I feel the need to do this.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "someone-s-journal-1"
  },
  {
   "name": "Someone's journal #2",
   "location": "Bleak Beach",
   "reward": null,
-  "id": "someone-s-journal-2",
+  "img": "grubbynotepad.png",
   "type": "Note",
-  "content": "I remember this being a bright, bustling port city way back when I visited with my partner.\n\nNow there are always dark clouds looming over the city. Not a single sunbeam slips through. Looks like most of the people who lived here have gone, too.\n\nThe last time we were here, whenever we went near the water, <player> got so nervous...\n\nMaybe because it can’t swim?\n\nI tried getting it to transform into a Water type, but despite its best efforts, we had little success. I guess it’s not so easy.\n\nAfter giving it a lot of encouragement, I was shocked when it suddenly transformed into ME!\n\nIt copied every detail of my clothes, my haircut... Only its face still looked like {{poko|Ditto}}. Unfortunately, transforming into me didn’t really help with the whole “not being able to swim” issue..."
+  "content": "I remember this being a bright, bustling port city way back when I visited with my partner.\n\nNow there are always dark clouds looming over the city. Not a single sunbeam slips through. Looks like most of the people who lived here have gone, too.\n\nThe last time we were here, whenever we went near the water, <player> got so nervous...\n\nMaybe because it can’t swim?\n\nI tried getting it to transform into a Water type, but despite its best efforts, we had little success. I guess it’s not so easy.\n\nAfter giving it a lot of encouragement, I was shocked when it suddenly transformed into ME!\n\nIt copied every detail of my clothes, my haircut... Only its face still looked like Ditto. Unfortunately, transforming into me didn’t really help with the whole “not being able to swim” issue...",
+  "photo": null,
+  "photoAlt": null,
+  "id": "someone-s-journal-2"
  },
  {
   "name": "Someone's journal #3",
   "location": "Rocky Ridges",
   "reward": null,
-  "id": "someone-s-journal-3",
+  "img": "grubbynotepad.png",
   "type": "Note",
-  "content": "A long time ago, this city was packed with people working in the nearby mines. Apparently, it was a pretty lively place.\n\nAt least, that’s what I heard from the chef at the little restaurant I visited with <player>.\n\nThere’s no sign of that restaurant anymore. But I guess it’s not surprising, given those vicious volcanic eruptions. Who could live in a place like this now?\n\nThe food we had at that restaurant was incredibly delicious. The whole time the chef was cooking, <player> was watching intently.\n\nIt’s always been so full of curiosity. I've noticed it seems particularly interested in the things humans do.\n\nI wish we could have traveled together more. There are so many things I wanted to show it."
+  "content": "A long time ago, this city was packed with people working in the nearby mines. Apparently, it was a pretty lively place.\n\nAt least, that’s what I heard from the chef at the little restaurant I visited with <player>.\n\nThere’s no sign of that restaurant anymore. But I guess it’s not surprising, given those vicious volcanic eruptions. Who could live in a place like this now?\n\nThe food we had at that restaurant was incredibly delicious. The whole time the chef was cooking, <player> was watching intently.\n\nIt’s always been so full of curiosity. I've noticed it seems particularly interested in the things humans do.\n\nI wish we could have traveled together more. There are so many things I wanted to show it.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "someone-s-journal-3"
  },
  {
   "name": "Someone's journal #4",
   "location": "Sparkling Skylands",
   "reward": null,
-  "id": "someone-s-journal-4",
+  "img": "grubbynotepad.png",
   "type": "Note",
-  "content": "This city was a dazzling metropolis the last time I came here with <player>.\n\nNow it’s barely recognizable.\n\nApparently, the ground in this area has been rising up so quickly that it’s caused many of the buildings to collapse and the roads to crack.\n\nSome scientists believe that if things continue at this pace, in a matter of centuries this area will be... ..as high as a mountain, in terms of elevation. It looks like most of the people who once lived here have evacuated already.\n\nI suppose I should go, too. It breaks my heart to leave <player> behind, but it’s not forever.\n\nNo matter what, I'll come back someday. And then <player> and I will travel the world!"
+  "content": "This city was a dazzling metropolis the last time I came here with <player>.\n\nNow it’s barely recognizable.\n\nApparently, the ground in this area has been rising up so quickly that it’s caused many of the buildings to collapse and the roads to crack.\n\nSome scientists believe that if things continue at this pace, in a matter of centuries this area will be... ..as high as a mountain, in terms of elevation. It looks like most of the people who once lived here have evacuated already.\n\nI suppose I should go, too. It breaks my heart to leave <player> behind, but it’s not forever.\n\nNo matter what, I'll come back someday. And then <player> and I will travel the world!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "someone-s-journal-4"
  },
  {
   "name": "Grunt's journal (brainstorming)",
   "location": "Withered Wasteland",
   "reward": "|}",
-  "id": "grunt-s-journal-brainstorming",
+  "img": "grubbytablet.png",
   "type": "Note",
-  "content": "Assuming someone actually DOES complete my mission for me by getting food and furniture and all that stockpiled up...\n\nWhat should I do if they actually want to join our organization?\n\nIdunno if any super serious do-gooders would want to join Team R, but if they DO ask to join I guess we could let ‘em. Might not be so bad.\n\nI bet everybody'd be real surprised if they found out Team R built a rocket to evacuate into outer space all by ourselves.\n\nWe even have more than enough fuel to make it back to the planet easily after the environment's calmed down a bit. The boss’s plan is absolutely perfect!\n\nThe boss says that the scale of the plan to get all humans into outer space at once is just too large.\n\nHe said that if anything goes seriously wrong, the others might not have enough fuel to get back!\n\nMaybe we could share some of our extra fuel with them if that happens. Then maybe people’d think “Oh, Team R is actually so nice”, and we'd get more people wanting to join up.\n\nEither way, I bet we can make a bunch of money from it all when the time comes!"
+  "content": "Assuming someone actually DOES complete my mission for me by getting food and furniture and all that stockpiled up...\n\nWhat should I do if they actually want to join our organization?\n\nIdunno if any super serious do-gooders would want to join Team R, but if they DO ask to join I guess we could let ‘em. Might not be so bad.\n\nI bet everybody'd be real surprised if they found out Team R built a rocket to evacuate into outer space all by ourselves.\n\nWe even have more than enough fuel to make it back to the planet easily after the environment's calmed down a bit. The boss’s plan is absolutely perfect!\n\nThe boss says that the scale of the plan to get all humans into outer space at once is just too large.\n\nHe said that if anything goes seriously wrong, the others might not have enough fuel to get back!\n\nMaybe we could share some of our extra fuel with them if that happens. Then maybe people’d think “Oh, Team R is actually so nice”, and we'd get more people wanting to join up.\n\nEither way, I bet we can make a bunch of money from it all when the time comes!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "grunt-s-journal-brainstorming"
  },
  {
   "name": "Dear Elena",
   "location": "Withered Wasteland",
   "reward": null,
-  "id": "dear-elena",
+  "img": "grubbycellphone.png",
   "type": "Letter",
-  "content": "Look at my little Minnie and Cici! This is the best shot I’ve ever taken of them!\n\nI’ve been thinking about them lately, day and night. What do you suppose they’re up to? I just keep staring at this photo.\n\nYou told me about your partner before, right, Elena? Wasn't it named Mora or something? I bet it was cute, just like its Trainer. Wish I could’ve seen it."
+  "content": "Look at my little Minnie and Cici! This is the best shot I’ve ever taken of them!\n\nI’ve been thinking about them lately, day and night. What do you suppose they’re up to? I just keep staring at this photo.\n\nYou told me about your partner before, right, Elena? Wasn't it named Mora or something? I bet it was cute, just like its Trainer. Wish I could’ve seen it.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "dear-elena"
  },
  {
   "name": "To my fishing fanatic big bro",
   "location": "Withered Wasteland",
   "reward": null,
-  "id": "to-my-fishing-fanatic-big-bro",
+  "img": "grubbyletter.png",
   "type": "Letter",
-  "content": "How are you doing? I’ve been having a fun day fishing—as always!\n\nBy the way, have Pokémon started changing where they live? Recently I’ve fished up Pokémon that I used to only see in different regions. Maybe you'll catch something rare where you are, too!\n\nLove, Your Fishing Fanatic Little Bro"
+  "content": "How are you doing? I’ve been having a fun day fishing—as always!\n\nBy the way, have Pokémon started changing where they live? Recently I’ve fished up Pokémon that I used to only see in different regions. Maybe you'll catch something rare where you are, too!\n\nLove, Your Fishing Fanatic Little Bro",
+  "photo": null,
+  "photoAlt": null,
+  "id": "to-my-fishing-fanatic-big-bro"
  },
  {
   "name": "To my fishing fanatic little bro",
   "location": "Bleak Beach",
   "reward": null,
-  "id": "to-my-fishing-fanatic-little-bro",
+  "img": "grubbyletter.png",
   "type": "Letter",
-  "content": "Thanks for the letter!\n\nThese days, I’ve been fishing up a huge haul of Horsea. There are just so many to catch—I’m having an absolute blast!\n\nI'll visit you sometime soon, so let's go fishing together then.\n\nLove, Your Fishing Fanatic Big Bro"
+  "content": "Thanks for the letter!\n\nThese days, I’ve been fishing up a huge haul of Horsea. There are just so many to catch—I’m having an absolute blast!\n\nI'll visit you sometime soon, so let's go fishing together then.\n\nLove, Your Fishing Fanatic Big Bro",
+  "photo": null,
+  "photoAlt": null,
+  "id": "to-my-fishing-fanatic-little-bro"
  },
  {
   "name": "Post from July 30: 6:00pm",
   "location": "Bleak Beach",
   "reward": null,
-  "id": "post-from-july-30-6-00pm",
+  "img": "grubbycellphone.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "post-from-july-30-6-00pm"
  },
  {
   "name": "You've Been Selected!",
   "location": "Rocky Ridges",
   "reward": null,
-  "id": "you-ve-been-selected",
+  "img": "grubbyletter.png",
   "type": "Letter",
-  "content": "Thank you for entering our recent drawing for the EZ Kitchenware Set!\n\nWe are excited to inform you that your name was selected! Please find your kitchenware set enclosed. Happy cooking!"
+  "content": "Thank you for entering our recent drawing for the EZ Kitchenware Set!\n\nWe are excited to inform you that your name was selected! Please find your kitchenware set enclosed. Happy cooking!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "you-ve-been-selected"
  },
  {
   "name": "To Harry",
   "location": "Rocky Ridges",
   "reward": null,
-  "id": "to-harry",
+  "img": "grubbyletter.png",
   "type": "Letter",
-  "content": "Look at this cute photo of Rio! I took it when Growly (who just moved in next door) came over to play.\n\nDoesn't she look happy?! Lately, she’s been spending every free minute playing with Growly. At this rate, she'll probably forget all about you!\n\nJust kidding! But if you're worried about that, maybe you should finally visit next summer break!"
+  "content": "Look at this cute photo of Rio! I took it when Growly (who just moved in next door) came over to play.\n\nDoesn't she look happy?! Lately, she’s been spending every free minute playing with Growly. At this rate, she'll probably forget all about you!\n\nJust kidding! But if you're worried about that, maybe you should finally visit next summer break!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "to-harry"
  },
  {
   "name": "Heya, Kaz!",
   "location": "Rocky Ridges",
   "reward": null,
-  "id": "heya-kaz",
+  "img": "grubbycellphone.png",
   "type": "Letter",
-  "content": "This is Mora! Adorable, right? I’m not sure this photo does her justice, though. Just look at how gorgeous she is, and those eyes suck you right in... She’s so cute! Don’t you think so too, Kaz?\n\nI also look at this photo when I’m lonely. I hope this picture of Mora cheers you up, Kaz, even if it’s only a little bit!"
+  "content": "This is Mora! Adorable, right? I’m not sure this photo does her justice, though. Just look at how gorgeous she is, and those eyes suck you right in... She’s so cute! Don’t you think so too, Kaz?\n\nI also look at this photo when I’m lonely. I hope this picture of Mora cheers you up, Kaz, even if it’s only a little bit!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "heya-kaz"
  },
  {
   "name": "Dear Douglas",
   "location": "Sparkling Skylands",
   "reward": null,
-  "id": "dear-douglas",
+  "img": "grubbyletter.png",
   "type": "Letter",
-  "content": "The price of vegetables has really gone up here in Viridian City since there’s been so little rain this year. Are things OK where you are, Douglas? I hope all that electricity in your city is making life a little easier over there.\n\nAnyway, if you ever need help, just let me know and I'll send you some vegetables.\n\nLove, Mom"
+  "content": "The price of vegetables has really gone up here in Viridian City since there’s been so little rain this year. Are things OK where you are, Douglas? I hope all that electricity in your city is making life a little easier over there.\n\nAnyway, if you ever need help, just let me know and I'll send you some vegetables.\n\nLove, Mom",
+  "photo": null,
+  "photoAlt": null,
+  "id": "dear-douglas"
  },
  {
   "name": "I wanna go swimming!",
   "location": "Dream Island",
   "reward": null,
-  "id": "i-wanna-go-swimming",
+  "img": "grubbycellphone.png",
   "type": "Letter",
-  "content": "You know how much I love swimming—it’s basically my whole personality. So not being able to swim? It’s the worst! I NEED to get back out in the water. I’m sure you feel the same way, Maggie.\n\nUgh, I'm so tired of living like this... How long until we can go swimming again, do you think?\n\nLove, Rory"
+  "content": "You know how much I love swimming—it’s basically my whole personality. So not being able to swim? It’s the worst! I NEED to get back out in the water. I’m sure you feel the same way, Maggie.\n\nUgh, I'm so tired of living like this... How long until we can go swimming again, do you think?\n\nLove, Rory",
+  "photo": null,
+  "photoAlt": null,
+  "id": "i-wanna-go-swimming"
  },
  {
   "name": "R&D Deep Dive (February Issue)",
   "location": "Dream Island",
   "reward": null,
-  "id": "r-d-deep-dive-february-issue",
+  "img": "grubbycellphone.png",
   "type": "Letter",
-  "content": "Today we'll be showing you an office where we're smack in the middle of developing new products!\n\nHere, we're in the thick of designing new plush toys. There are plenty of Pokémon in this room! We want to truly re-create the charm and cuteness of Pokémon, so we spend every day in here observing the real deal! We definitely don’t come here just to admire and adore the Pokémon—this is research!"
+  "content": "Today we'll be showing you an office where we're smack in the middle of developing new products!\n\nHere, we're in the thick of designing new plush toys. There are plenty of Pokémon in this room! We want to truly re-create the charm and cuteness of Pokémon, so we spend every day in here observing the real deal! We definitely don’t come here just to admire and adore the Pokémon—this is research!",
+  "photo": null,
+  "photoAlt": null,
+  "id": "r-d-deep-dive-february-issue"
  },
  {
-  "name": "I need your advice..",
+  "name": "I need your advice...",
   "location": "Dream Island",
   "reward": null,
-  "id": "i-need-your-advice",
+  "img": "grubbycellphone.png",
   "type": "Letter",
-  "content": "My daughter's been sobbing every night recently. She keeps saying that she wants to see Marie, and she just cries and cries. I tried giving her a plush toy that looked just like Marie, but she got angry and yelled that it wasn’t the same.\n\nHow are things with your family? I hope you're not going through the same thing, but if you happen to have any ideas about what to do, please let me know.\n\nLove, Minami"
+  "content": "My daughter's been sobbing every night recently. She keeps saying that she wants to see Marie, and she just cries and cries. I tried giving her a plush toy that looked just like Marie, but she got angry and yelled that it wasn’t the same.\n\nHow are things with your family? I hope you're not going through the same thing, but if you happen to have any ideas about what to do, please let me know.\n\nLove, Minami",
+  "photo": null,
+  "photoAlt": null,
+  "id": "i-need-your-advice"
  },
  {
   "name": "Hi, Dad!",
   "location": "Dream Island",
   "reward": "|}",
-  "id": "hi-dad",
+  "img": "grubbycellphone.png",
   "type": "Letter",
-  "content": "After I finish my homework today, I’m going to Yuri's place.\n\nShe's gonna show me a Pawmi video, so I might be kinda late getting home!\n\nLove, Nathalie"
+  "content": "After I finish my homework today, I’m going to Yuri's place.\n\nShe's gonna show me a Pawmi video, so I might be kinda late getting home!\n\nLove, Nathalie",
+  "photo": null,
+  "photoAlt": null,
+  "id": "hi-dad"
  },
  {
   "name": "Shellos report",
   "location": "Withered Wasteland",
   "reward": null,
-  "id": "shellos-report",
+  "img": "grubbypapers.png",
   "type": "Paper",
-  "content": "Shellos changes its color and appearance based on its diet and the environment it lives in.\n\nWe are researching day and night in an attempt to create a heretofore unknown yellow Shellos."
+  "content": "Shellos changes its color and appearance based on its diet and the environment it lives in.\n\nWe are researching day and night in an attempt to create a heretofore unknown yellow Shellos.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "shellos-report"
  },
  {
   "name": "Project Cancellation Proposal",
   "location": "Rocky Ridges",
   "reward": null,
-  "id": "project-cancellation-proposal",
+  "img": "grubbypapers.png",
   "type": "Paper",
-  "content": "The project originally set to launch next month is moving ahead with preparations, despite its low chance of success.\n\nWe took it upon ourselves to collect data and perform our own calculations. A report on the dangers that came to light from said calculations is included herein.\n\nWith this in mind, we ask that you please seriously consider canceling the project."
+  "content": "The project originally set to launch next month is moving ahead with preparations, despite its low chance of success.\n\nWe took it upon ourselves to collect data and perform our own calculations. A report on the dangers that came to light from said calculations is included herein.\n\nWith this in mind, we ask that you please seriously consider canceling the project.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "project-cancellation-proposal"
  },
  {
   "name": "Daily Porygon2 notes",
   "location": "Sparkling Skylands",
   "reward": null,
-  "id": "daily-porygon2-notes",
+  "img": "grubbypapers.png",
   "type": "Paper",
-  "content": "Companies involved in the space exploration industry are at each other's throat these days. I’m feeling the pain of it myself, as I’ve been put in charge of caring for some Porygon2 meant for planetary exploration. It’s a lot of work!\n\nToday, one of those three Porygon2 seems unwell. I ordered a patch that sounded effective and applied it, so I hope it will feel better tomorrow."
+  "content": "Companies involved in the space exploration industry are at each other's throat these days. I’m feeling the pain of it myself, as I’ve been put in charge of caring for some Porygon2 meant for planetary exploration. It’s a lot of work!\n\nToday, one of those three Porygon2 seems unwell. I ordered a patch that sounded effective and applied it, so I hope it will feel better tomorrow.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "daily-porygon2-notes"
  },
  {
   "name": "New Plan Proposal (name TBD)",
   "location": "Dream Island",
   "reward": "|}",
-  "id": "new-plan-proposal-name-tbd",
+  "img": "grubbypapers.png",
   "type": "Paper",
-  "content": "Our organization is implementing a new plan in the hope of overcoming our past mistakes. See below for details.\n\nThis plan will require the cooperation of our entire organization, not just select departments, so we ask that all members read on and make this their top priority."
+  "content": "Our organization is implementing a new plan in the hope of overcoming our past mistakes. See below for details.\n\nThis plan will require the cooperation of our entire organization, not just select departments, so we ask that all members read on and make this their top priority.",
+  "photo": null,
+  "photoAlt": null,
+  "id": "new-plan-proposal-name-tbd"
  },
  {
   "name": "Photo #1",
   "location": "Withered Wasteland",
   "reward": null,
-  "id": "photo-1",
+  "img": "grubbytablet.png",
   "type": "Photo",
-  "content": "A cute photo of Pokémon!"
+  "content": "A cute photo of Pokémon!",
+  "photo": "Pokopia_Human_Records_Photo_1.jpg",
+  "photoAlt": "A West Sea Shellos and an East Sea Shellos in a yellow-themed room, looking at an Aspear Berry.",
+  "id": "photo-1"
  },
  {
   "name": "Photo #2",
   "location": "Withered Wasteland",
   "reward": null,
-  "id": "photo-2",
+  "img": "grubbytablet.png",
   "type": "Photo",
-  "content": "A cute photo of Pokémon!"
+  "content": "A cute photo of Pokémon!",
+  "photo": "Pokopia_Human_Records_Photo_2.jpg",
+  "photoAlt": "A Minccino and Cinccino in a plain bedroom, looking at the camera.",
+  "id": "photo-2"
  },
  {
   "name": "Photo #3",
   "location": "Bleak Beach",
   "reward": null,
-  "id": "photo-3",
+  "img": "grubbytablet.png",
   "type": "Photo",
-  "content": "A pretty photo of Pokémon!"
+  "content": "A pretty photo of Pokémon!",
+  "photo": "Pokopia_Human_Records_Photo_3.jpg",
+  "photoAlt": "An Exeggutor on a beach lined with palm trees, looking towards the ocean.",
+  "id": "photo-3"
  },
  {
   "name": "Photo #4",
   "location": "Rocky Ridges",
   "reward": null,
-  "id": "photo-4",
+  "img": "grubbytablet.png",
   "type": "Photo",
-  "content": "A fun photo of Pokémon!"
+  "content": "A fun photo of Pokémon!",
+  "photo": "Pokopia_Human_Records_Photo_4.jpg",
+  "photoAlt": "A Riolu and Growlithe interacting with each other in front of a house.",
+  "id": "photo-4"
  },
  {
   "name": "Photo #5",
   "location": "Rocky Ridges",
   "reward": null,
-  "id": "photo-5",
+  "img": "grubbytablet.png",
   "type": "Photo",
-  "content": "A pretty photo of Pokémon!"
+  "content": "A pretty photo of Pokémon!",
+  "photo": "Pokopia_Human_Records_Photo_5.jpg",
+  "photoAlt": "A Glimmora in a blue-themed room, sitting on the bed.",
+  "id": "photo-5"
  },
  {
   "name": "Photo #6",
   "location": "Sparkling Skylands",
   "reward": null,
-  "id": "photo-6",
+  "img": "grubbytablet.png",
   "type": "Photo",
-  "content": "A fun photo of Pokémon!"
+  "content": "A fun photo of Pokémon!",
+  "photo": "Pokopia_Human_Records_Photo_6.png",
+  "photoAlt": "Two Porygon2 watching a resting Porygon-Z in a laboratory setting.",
+  "id": "photo-6"
  },
  {
   "name": "Photo #7",
   "location": "Sparkling Skylands",
   "reward": null,
-  "id": "photo-7",
+  "img": "grubbytablet.png",
   "type": "Photo",
-  "content": "A pretty photo of Pokémon!"
+  "content": "A pretty photo of Pokémon!",
+  "photo": "Pokopia_Human_Records_Photo_7.png",
+  "photoAlt": "A Mismagius and Gengar watching the sunset together in a field of wildflowers, with their backs turned to the camera.",
+  "id": "photo-7"
  },
  {
   "name": "Photo #8",
   "location": "Dream Island",
   "reward": null,
-  "id": "photo-8",
+  "img": "grubbytablet.png",
   "type": "Photo",
-  "content": "A fun photo of Pokémon!"
+  "content": "A fun photo of Pokémon!",
+  "photo": "Pokopia_Human_Records_Photo_8.png",
+  "photoAlt": "An Arcanine playing with toy blocks and a Clefairy examining a Clefairy doll and Arcanine doll in an office setting.",
+  "id": "photo-8"
  },
  {
-  "name": "Perculiar pattern",
+  "name": "Peculiar pattern",
   "location": "Dream Island",
   "reward": "Pattern when shown to Smearguru",
-  "id": "perculiar-pattern",
-  "type": null,
-  "content": ""
+  "img": "grubbytablet.png",
+  "type": "Photo",
+  "content": "A photo of patterned furniture. Try showing it to a Pokémon with the Paint specialty!",
+  "photo": "Pokopia_Human_Records_Peculiar_pattern_1.png",
+  "photoAlt": "A Fidough sleeps on a couch with a distinctive green-and-white vine pattern.",
+  "id": "peculiar-pattern"
  },
  {
-  "name": "Perculiar pattern",
+  "name": "Peculiar pattern",
   "location": "Dream Island",
   "reward": "Pattern when shown to Smearguru",
-  "id": "perculiar-pattern",
-  "type": null,
-  "content": ""
+  "img": "grubbytablet.png",
+  "type": "Photo",
+  "content": "A photo of patterned furniture. Try showing it to a Pokémon with the Paint specialty!",
+  "photo": "Pokopia_Human_Records_Peculiar_pattern_2.png",
+  "photoAlt": "A Meowth reclines on a sofa with a distinctive red-and-white spiral pattern, as a Wingull caws at it.",
+  "id": "peculiar-pattern-2"
  },
  {
-  "name": "Perculiar pattern",
+  "name": "Peculiar pattern",
   "location": "Dream Island",
   "reward": "Pattern when shown to Smearguru",
-  "id": "perculiar-pattern",
-  "type": null,
-  "content": ""
+  "img": "grubbytablet.png",
+  "type": "Photo",
+  "content": "A photo of patterned furniture. Try showing it to a Pokémon with the Paint specialty!",
+  "photo": "Pokopia_Human_Records_Peculiar_pattern_3.png",
+  "photoAlt": "A Glaceon stands on a sofa with a distinctive winter-print pattern, next to a table with a bowl of shaved ice on it.",
+  "id": "peculiar-pattern-3"
  },
  {
-  "name": "Perculiar pattern",
+  "name": "Peculiar pattern",
   "location": "Dream Island",
   "reward": "Pattern when shown to Smearguru",
-  "id": "perculiar-pattern",
-  "type": null,
-  "content": ""
+  "img": "grubbytablet.png",
+  "type": "Photo",
+  "content": "A photo of patterned furniture. Try showing it to a Pokémon with the Paint specialty!",
+  "photo": "Pokopia_Human_Records_Peculiar_pattern_IV.jpg",
+  "photoAlt": "A Ludicolo rests on a hammock with a distinctive zig-zag pattern, next to a pool.",
+  "id": "peculiar-pattern-4"
  },
  {
-  "name": "Perculiar pattern",
+  "name": "Peculiar pattern",
   "location": "Dream Island",
   "reward": "Pattern when shown to Smearguru",
-  "id": "perculiar-pattern",
-  "type": null,
-  "content": ""
+  "img": "grubbytablet.png",
+  "type": "Photo",
+  "content": "A photo of patterned furniture. Try showing it to a Pokémon with the Paint specialty!",
+  "photo": "Pokopia_Human_Records_Peculiar_pattern_5.png",
+  "photoAlt": "A Dartrix perches atop a lamp in a room with various furniture. The lamp, closet, stand, and sofa have a distinctive leaf-print pattern.",
+  "id": "peculiar-pattern-5"
  },
  {
-  "name": "Perculiar pattern",
+  "name": "Peculiar pattern",
   "location": "Dream Island",
   "reward": "Pattern when shown to Smearguru",
-  "id": "perculiar-pattern",
-  "type": null,
-  "content": ""
+  "img": "grubbytablet.png",
+  "type": "Photo",
+  "content": "A photo of patterned furniture. Try showing it to a Pokémon with the Paint specialty!",
+  "photo": "Pokopia_Human_Records_Peculiar_pattern_6.png",
+  "photoAlt": "A Bellossom in a field of pink wildflowers poses for the camera next to a chair with a distinctive pink flower-print pattern.",
+  "id": "peculiar-pattern-6"
  },
  {
-  "name": "Perculiar pattern",
+  "name": "Peculiar pattern",
   "location": "Dream Island",
   "reward": "Pattern when shown to Smearguru",
-  "id": "perculiar-pattern",
-  "type": null,
-  "content": ""
+  "img": "grubbytablet.png",
+  "type": "Photo",
+  "content": "A photo of patterned furniture. Try showing it to a Pokémon with the Paint specialty!",
+  "photo": "Pokopia_Human_Records_Peculiar_pattern_7.png",
+  "photoAlt": "A Cleffa poses for the camera atop a bed with a distinctive star-print pattern.",
+  "id": "peculiar-pattern-7"
  },
  {
-  "name": "Perculiar pattern",
+  "name": "Peculiar pattern",
   "location": "Dream Island",
   "reward": "Pattern when shown to Smearguru",
-  "id": "perculiar-pattern",
-  "type": null,
-  "content": ""
+  "img": "grubbytablet.png",
+  "type": "Photo",
+  "content": "A photo of patterned furniture. Try showing it to a Pokémon with the Paint specialty!",
+  "photo": "Pokopia_Human_Records_Peculiar_pattern_8.jpg",
+  "photoAlt": "A Skwovet and Munchlax are seated at the table to eat a salad and a hamburger steak, respectively. The tablecloth has a distinctive food-print pattern.",
+  "id": "peculiar-pattern-8"
  },
  {
-  "name": "Perculiar pattern",
+  "name": "Peculiar pattern",
   "location": "Dream Island",
   "reward": "Pattern when shown to Smearguru",
-  "id": "perculiar-pattern",
-  "type": null,
-  "content": ""
+  "img": "grubbytablet.png",
+  "type": "Photo",
+  "content": "A photo of patterned furniture. Try showing it to a Pokémon with the Paint specialty!",
+  "photo": "Pokopia_Human_Records_Peculiar_pattern_9.png",
+  "photoAlt": "A Chandelure poses for the camera, floating above a bed with a distinctive Poké Ball-print pattern.",
+  "id": "peculiar-pattern-9"
  },
  {
-  "name": "Perculiar pattern",
+  "name": "Peculiar pattern",
   "location": "Dream Island",
   "reward": "Pattern when shown to Smearguru",
-  "id": "perculiar-pattern",
-  "type": null,
-  "content": ""
+  "img": "grubbytablet.png",
+  "type": "Photo",
+  "content": "A photo of patterned furniture. Try showing it to a Pokémon with the Paint specialty!",
+  "photo": "Pokopia_Human_Records_Peculiar_pattern_10.png",
+  "photoAlt": "A Pawmi and Pawmot admire a row of berry baskets while a Pawmo poses for the camera. The room's wallpaper has a distinctive Berry-print pattern.",
+  "id": "peculiar-pattern-10"
  },
  {
   "name": "Hearthome Journal",
   "location": "Bleak Beach",
   "reward": "Lie Down emote",
-  "id": "hearthome-journal",
+  "img": "grubbybook.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "hearthome-journal"
  },
  {
   "name": "Pocket World Weekly #76",
   "location": "Bleak Beach",
   "reward": null,
-  "id": "pocket-world-weekly-76",
+  "img": "grubbybook.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "pocket-world-weekly-76"
  },
  {
   "name": "Comfort Café Now Open!",
   "location": "Bubbly Basin",
   "reward": null,
-  "id": "comfort-cafe-now-open",
+  "img": "grubbynewspaper.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "comfort-cafe-now-open"
  },
  {
   "name": "Request to Residents",
   "location": "Bubbly Basin",
   "reward": null,
-  "id": "request-to-residents",
+  "img": "grubbynewspaper.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "request-to-residents"
  },
  {
   "name": "New Products in Stock!",
   "location": "Bubbly Basin",
   "reward": null,
-  "id": "new-products-in-stock",
+  "img": "grubbynewspaper.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "new-products-in-stock"
  },
  {
   "name": "Get Gems at Cerulean Jewelers!",
   "location": "Bubbly Basin",
   "reward": null,
-  "id": "get-gems-at-cerulean-jewelers",
+  "img": "grubbynewspaper.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "get-gems-at-cerulean-jewelers"
  },
  {
   "name": "Bike Catalog",
   "location": "Bubbly Basin",
   "reward": null,
-  "id": "bike-catalog",
+  "img": "grubbynewspaper.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "bike-catalog"
  },
  {
   "name": "Subsea Power Grid in Development",
   "location": "Bubbly Basin",
   "reward": null,
-  "id": "subsea-power-grid-in-development",
+  "img": "grubbynewspaper.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "subsea-power-grid-in-development"
  },
  {
   "name": "Pool Open to the Public",
   "location": "Bubbly Basin",
   "reward": "Warm-up Stretches Emote",
-  "id": "pool-open-to-the-public",
+  "img": "grubbynewspaper.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "pool-open-to-the-public"
  },
  {
   "name": "New Product Announcement",
   "location": "Dream Island - Starmie",
   "reward": "Side tails hair",
-  "id": "new-product-announcement",
+  "img": "grubbynewspaper.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "new-product-announcement"
  },
  {
   "name": "Comfy Living (Vol. 11)",
   "location": "Bubbly Basin",
   "reward": null,
-  "id": "comfy-living-vol-11",
+  "img": "grubbybook.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "comfy-living-vol-11"
  },
  {
   "name": "Cerulean City Press Release",
   "location": "Bubbly Basin",
   "reward": null,
-  "id": "cerulean-city-press-release",
+  "img": "grubbybook.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "cerulean-city-press-release"
  },
  {
   "name": "Kanto Montly (February Issue)",
   "location": "Bubbly Basin",
   "reward": "Crested hair",
-  "id": "kanto-montly-february-issue",
+  "img": "grubbybook.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "kanto-montly-february-issue"
  },
  {
   "name": "Sevii Islands Bulletin",
   "location": "Bubbly Basin",
   "reward": "Ponytail Hair",
-  "id": "sevii-islands-bulletin",
+  "img": "grubbybook.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "sevii-islands-bulletin"
  },
  {
   "name": "Comfy Living (Vol. 11)",
   "location": "Bubbly Basin",
   "reward": "Mermaid outfit",
-  "id": "comfy-living-vol-11",
+  "img": "grubbybook.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "comfy-living-vol-11-2"
  },
  {
   "name": "Pokémon Fitness Monthly (Sept.)",
   "location": "Bubbly Basin",
   "reward": "Triathlete Outfit",
-  "id": "pokemon-fitness-monthly-sept",
+  "img": "grubbybook.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "pokemon-fitness-monthly-sept"
  },
  {
   "name": "Galaxy Monthly (Survey Results)",
   "location": "Bubbly Basin",
   "reward": null,
-  "id": "galaxy-monthly-survey-results",
+  "img": "grubbybook.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "galaxy-monthly-survey-results"
  },
  {
   "name": "Dowsing Digest",
   "location": "Bubbly Basin",
   "reward": null,
-  "id": "dowsing-digest",
+  "img": "grubbybook.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "dowsing-digest"
  },
  {
   "name": "PokéWeek (Issue 146)",
   "location": "Dream Island - Starmie",
   "reward": "Messy Short Hair",
-  "id": "pokeweek-issue-146",
+  "img": "grubbybook.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "pokeweek-issue-146"
  },
  {
   "name": "The PokéBlock Party Returns",
   "location": "Dream Island - Starmie",
   "reward": "Rad Outfit",
-  "id": "the-pokeblock-party-returns",
+  "img": "grubbybook.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "the-pokeblock-party-returns"
  },
  {
   "name": "This Week in Lilycove City",
   "location": "Dream Island - Starmie",
   "reward": "Cheerful Outfit",
-  "id": "this-week-in-lilycove-city",
+  "img": "grubbybook.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "this-week-in-lilycove-city"
  },
  {
   "name": "PokéWeek (Issue 37)",
   "location": "Dream Island - Starmie",
   "reward": "Hooray emote",
-  "id": "pokeweek-issue-37",
+  "img": "grubbybook.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "pokeweek-issue-37"
  },
  {
   "name": "Selection of Pokémon Scare Tactics",
   "location": "Dream Island - Starmie",
   "reward": "Roar emotre",
-  "id": "selection-of-pokemon-scare-tactics",
+  "img": "grubbybook.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "selection-of-pokemon-scare-tactics"
  },
  {
   "name": "Taylor's diary",
   "location": "Bubbly Basin",
   "reward": null,
-  "id": "taylor-s-diary",
+  "img": "grubbytablet.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "taylor-s-diary"
  },
  {
   "name": "Found: Wimpod",
   "location": "Bubbly Basin",
   "reward": null,
-  "id": "found-wimpod",
+  "img": "grubbynotepad.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "found-wimpod"
  },
  {
   "name": "New Summer Menu Ideas",
   "location": "Bubbly Basin",
   "reward": null,
-  "id": "new-summer-menu-ideas",
+  "img": "grubbynotepad.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "new-summer-menu-ideas"
  },
  {
   "name": "Survey Notes (Team Member A)",
   "location": "Bubbly Basin",
   "reward": null,
-  "id": "survey-notes-team-member-a",
+  "img": "grubbynotepad.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "survey-notes-team-member-a"
  },
  {
   "name": "Survey Notes #1 (Team Member B)",
   "location": "Bubbly Basin",
   "reward": null,
-  "id": "survey-notes-1-team-member-b",
+  "img": "grubbynotepad.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "survey-notes-1-team-member-b"
  },
  {
   "name": "Survey Notes #2 (Team Member B)",
   "location": "Bubbly Basin",
   "reward": null,
-  "id": "survey-notes-2-team-member-b",
+  "img": "grubbynotepad.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "survey-notes-2-team-member-b"
  },
  {
   "name": "All Smiles Update",
   "location": "Bubbly Basin",
   "reward": "Preschooler outfit",
-  "id": "all-smiles-update",
+  "img": "grubbybook.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "all-smiles-update"
  },
  {
   "name": "Post from October 25, 2:00 p.m.",
   "location": "Bubbly Basin",
   "reward": "Hehehe emote",
-  "id": "post-from-october-25-2-00-p-m",
+  "img": "grubbybook.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "post-from-october-25-2-00-p-m"
  },
  {
   "name": "Treasure Map #1",
   "location": "Bubbly Basin",
   "reward": null,
-  "id": "treasure-map-1",
+  "img": "treasuremap.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "treasure-map-1"
  },
  {
   "name": "Treasure Map #2",
   "location": "Bubbly Basin",
   "reward": null,
-  "id": "treasure-map-2",
+  "img": "treasuremap.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "treasure-map-2"
  },
  {
   "name": "Treasure Map #3",
   "location": "Bubbly Basin",
   "reward": null,
-  "id": "treasure-map-3",
+  "img": "treasuremap.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "treasure-map-3"
  },
  {
   "name": "Treasure Map #4",
   "location": "Bubbly Basin",
   "reward": null,
-  "id": "treasure-map-4",
+  "img": "treasuremap.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "treasure-map-4"
  },
  {
   "name": "Treasure Map #5",
   "location": "Bubbly Basin",
   "reward": null,
-  "id": "treasure-map-5",
+  "img": "treasuremap.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "treasure-map-5"
  },
  {
   "name": "Treasure Map #6",
   "location": "Bubbly Basin",
   "reward": null,
-  "id": "treasure-map-6",
+  "img": "treasuremap.png",
   "type": null,
-  "content": ""
+  "content": "",
+  "photo": null,
+  "photoAlt": null,
+  "id": "treasure-map-6"
  },
  {
-  "id": "artificial-hot-springs-now-open",
   "name": "Artificial Hot Springs Now Open!",
   "location": "Rocky Ridges",
   "reward": null,
   "type": "Newspaper",
-  "content": "On the 8th of this month, an artificial hot spring debuted in Area 7’s communal bath area.\n\nThis hot spring recreates the quality spring water found in Lavaridge Town in the Hoenn region.\n\nIf it proves popular, there are plans to install hot springs in each area."
+  "content": "On the 8th of this month, an artificial hot spring debuted in Area 7’s communal bath area.\n\nThis hot spring recreates the quality spring water found in Lavaridge Town in the Hoenn region.\n\nIf it proves popular, there are plans to install hot springs in each area.",
+  "photo": null,
+  "photoAlt": null,
+  "img": null,
+  "id": "artificial-hot-springs-now-open"
  },
  {
-  "id": "ophthalmology-journal-spring",
   "name": "Ophthalmology Journal (Spring)",
   "location": "Rocky Ridges",
   "reward": "Super Nerd outfit",
   "type": "Magazine",
-  "content": "Abstract\n\nPidgeot possess high visual acuity. This study focused on comparing the eyes of Pidgeot to other Pokémon, and as a result, it successfully identified a specific DNA strand that impacts eyesight. This DNA strand demands further research, specifically with applications in mind for restoring sight to humans.\n\nCeladon University Research Team"
+  "content": "Abstract\n\nPidgeot possess high visual acuity. This study focused on comparing the eyes of Pidgeot to other Pokémon, and as a result, it successfully identified a specific DNA strand that impacts eyesight. This DNA strand demands further research, specifically with applications in mind for restoring sight to humans.\n\nCeladon University Research Team",
+  "photo": null,
+  "photoAlt": null,
+  "img": null,
+  "id": "ophthalmology-journal-spring"
  },
  {
-  "id": "gym-leader-monthly-july-issue",
   "name": "Gym Leader Monthly (July Issue)",
   "location": "Rocky Ridges",
   "reward": "Rock-solid outfit",
   "type": "Magazine",
-  "content": "Gym Leader Spotlight: Brock!\n\nBrock, Gym Leader of the Pewter City Gym, has built up a rock-hard defense using his well-trained muscles and Pokémon--but what's behind that hard exterior?\n\nJuly's special edition of Gym Leader Monthly will be all about the rock-solid Pokémon Trainer Brock! Just what is the secret to his stoicism?!"
+  "content": "Gym Leader Spotlight: Brock!\n\nBrock, Gym Leader of the Pewter City Gym, has built up a rock-hard defense using his well-trained muscles and Pokémon--but what's behind that hard exterior?\n\nJuly's special edition of Gym Leader Monthly will be all about the rock-solid Pokémon Trainer Brock! Just what is the secret to his stoicism?!",
+  "photo": null,
+  "photoAlt": null,
+  "img": null,
+  "id": "gym-leader-monthly-july-issue"
  },
  {
-  "id": "career-monthly-vol-11",
   "name": "Career Monthly (Vol. 11)",
   "location": "Dream Island",
   "reward": "Pokémon Center outfit",
   "type": "Magazine",
-  "content": "We're back again with even more info about dream jobs working with Pokémon! This month, we talked with some of the nice ladies who spend their time talking with Trainers and patching up Pokémon at Pokémon Centers!\n\nWhere do they find joy in their jobs? What challenges do they face? What are their favorite Pokémon? Read on to find out all that and more!"
+  "content": "We're back again with even more info about dream jobs working with Pokémon! This month, we talked with some of the nice ladies who spend their time talking with Trainers and patching up Pokémon at Pokémon Centers!\n\nWhere do they find joy in their jobs? What challenges do they face? What are their favorite Pokémon? Read on to find out all that and more!",
+  "photo": null,
+  "photoAlt": null,
+  "img": null,
+  "id": "career-monthly-vol-11"
  },
  {
-  "id": "bird-pokemon-monthly-anniv-issue",
   "name": "Bird Pokémon Monthly (Anniv. Issue)",
   "location": "Dream Island",
   "reward": "Bird Keeper outfit",
   "type": "Magazine",
-  "content": "Bird Pokémon are cute! Bird Pokémon are cool! Bird Pokémon are THE BEST!\n\nFifty years ago, the first issue of Bird Pokémon Monthly was published in the hopes of sharing these feelings of admiration and appreciation of bird Pokémon with people everywhere. We are honored to celebrate the golden anniversary of this publication, and we’re dedicated to extolling the virtues of these majestic creatures for many more years to come!"
+  "content": "Bird Pokémon are cute! Bird Pokémon are cool! Bird Pokémon are THE BEST!\n\nFifty years ago, the first issue of Bird Pokémon Monthly was published in the hopes of sharing these feelings of admiration and appreciation of bird Pokémon with people everywhere. We are honored to celebrate the golden anniversary of this publication, and we’re dedicated to extolling the virtues of these majestic creatures for many more years to come!",
+  "photo": null,
+  "photoAlt": null,
+  "img": null,
+  "id": "bird-pokemon-monthly-anniv-issue"
  },
  {
-  "id": "poke-week-issue-122",
   "name": "Poké Week (Issue 122)",
   "location": "Dream Island",
   "reward": "Red outfit",
   "type": "Magazine",
-  "content": "After decades of requesting interviews with a certain legendary Trainer and former Champion of the Kanto region, we finally managed get an exclusive meeting!\n\nThe photo he wordlessly showed us was a familiar and memorable sight: himself as a smiling young boy, surrounded by his Pokémon.\n\n(To the editing department: FYI, this reporter is personally a huge fan of the former Champion and could not stop crying after the interview.)"
+  "content": "After decades of requesting interviews with a certain legendary Trainer and former Champion of the Kanto region, we finally managed get an exclusive meeting!\n\nThe photo he wordlessly showed us was a familiar and memorable sight: himself as a smiling young boy, surrounded by his Pokémon.\n\n(To the editing department: FYI, this reporter is personally a huge fan of the former Champion and could not stop crying after the interview.)",
+  "photo": null,
+  "photoAlt": null,
+  "img": null,
+  "id": "poke-week-issue-122"
  },
  {
-  "id": "post-from-july-30-6-00-p-m",
   "name": "Post from July 30, 6:00 p.m.",
   "location": "Bleak Beach",
   "reward": null,
   "type": "Letter",
-  "content": "White sand and the blue ocean... Endless rays of sun and the cool shade of a palm tree... Just relaxing on my own at the beach is my favorite thing to do lately! But I do kinda feel like I’m being watched... Nah, it’s probably just my imagination!\n\nAnyway, I can’t recommend this place enough. You should all check it out sometime! Catch my next post for more details!"
- },
- {
-  "id": "peculiar-pattern",
-  "name": "Peculiar pattern",
-  "location": "Dream Island",
-  "reward": "Can be shown to Smearguru to unlock the vine print pattern for painting",
-  "type": "Photo",
-  "content": "A photo of patterned furniture. Try showing it to a Pokémon with the Paint specialty!"
- },
- {
-  "id": "peculiar-pattern",
-  "name": "Peculiar pattern",
-  "location": "Dream Island",
-  "reward": "Can be shown to Smearguru to unlock the swirl print pattern for painting",
-  "type": "Photo",
-  "content": "A photo of patterned furniture. Try showing it to a Pokémon with the Paint specialty!"
- },
- {
-  "id": "peculiar-pattern",
-  "name": "Peculiar pattern",
-  "location": "Dream Island",
-  "reward": "Can be shown to Smearguru to unlock the winter print pattern for painting",
-  "type": "Photo",
-  "content": "A photo of patterned furniture. Try showing it to a Pokémon with the Paint specialty!"
- },
- {
-  "id": "peculiar-pattern",
-  "name": "Peculiar pattern",
-  "location": "Dream Island",
-  "reward": "Can be shown to Smearguru to unlock the zig-zag print pattern for painting",
-  "type": "Photo",
-  "content": "A photo of patterned furniture. Try showing it to a Pokémon with the Paint specialty!"
- },
- {
-  "id": "peculiar-pattern",
-  "name": "Peculiar pattern",
-  "location": "Dream Island",
-  "reward": "Can be shown to Smearguru to unlock the leaf print pattern for painting",
-  "type": "Photo",
-  "content": "A photo of patterned furniture. Try showing it to a Pokémon with the Paint specialty!"
- },
- {
-  "id": "peculiar-pattern",
-  "name": "Peculiar pattern",
-  "location": "Dream Island",
-  "reward": "Can be shown to Smearguru to unlock the flower print pattern for painting",
-  "type": "Photo",
-  "content": "A photo of patterned furniture. Try showing it to a Pokémon with the Paint specialty!"
- },
- {
-  "id": "peculiar-pattern",
-  "name": "Peculiar pattern",
-  "location": "Dream Island",
-  "reward": "Can be shown to Smearguru to unlock the star print pattern for painting",
-  "type": "Photo",
-  "content": "A photo of patterned furniture. Try showing it to a Pokémon with the Paint specialty!"
- },
- {
-  "id": "peculiar-pattern",
-  "name": "Peculiar pattern",
-  "location": "Dream Island",
-  "reward": "Can be shown to Smearguru to unlock the curry print pattern for painting",
-  "type": "Photo",
-  "content": "A photo of patterned furniture. Try showing it to a Pokémon with the Paint specialty!"
- },
- {
-  "id": "peculiar-pattern",
-  "name": "Peculiar pattern",
-  "location": "Dream Island",
-  "reward": "Can be shown to Smearguru to unlock the stylish Poké Ball print pattern for painting",
-  "type": "Photo",
-  "content": "A photo of patterned furniture. Try showing it to a Pokémon with the Paint specialty!"
- },
- {
-  "id": "peculiar-pattern",
-  "name": "Peculiar pattern",
-  "location": "Dream Island",
-  "reward": "Can be shown to Smearguru to unlock the Berry print pattern for painting\n|}",
-  "type": "Photo",
-  "content": "A photo of patterned furniture. Try showing it to a Pokémon with the Paint specialty!"
+  "content": "White sand and the blue ocean... Endless rays of sun and the cool shade of a palm tree... Just relaxing on my own at the beach is my favorite thing to do lately! But I do kinda feel like I’m being watched... Nah, it’s probably just my imagination!\n\nAnyway, I can’t recommend this place enough. You should all check it out sometime! Catch my next post for more details!",
+  "photo": null,
+  "photoAlt": null,
+  "img": null,
+  "id": "post-from-july-30-6-00-p-m"
  }
 ]

@@ -1167,6 +1167,9 @@ const EXCHANGES = [
   ['rarify', 'Turns Star Pieces into rare Pokémetal.', 'เปลี่ยน Star Piece ให้เป็น Pokémetal หายาก'],
 ];
 
+const RECORD_PICS = picsIn('records');
+const recordPhoto = f => f && RECORD_PICS.has(f) ? `${BASE}/sprites/records/${encodeURIComponent(f)}` : null;
+
 const RECORD_TYPES_TH = {
   Newspaper: 'หนังสือพิมพ์', 'Diary entry': 'ไดอารี', Magazine: 'นิตยสาร',
   Note: 'บันทึกย่อ', Letter: 'จดหมาย', Paper: 'เอกสาร', Photo: 'รูปถ่าย',
@@ -1187,13 +1190,15 @@ function recordsPage(lang) {
   const locLabel = l => (th && RECORD_LOC_TH[l]) || l;
   const types = [...new Set(humanrecords.map(r => r.type))].filter(Boolean).concat([null]);
   const withText = humanrecords.filter(r => r.content).length;
+  const withPhoto = humanrecords.filter(r => recordPhoto(r.photo)).length;
   const translated = humanrecords.filter(r => THRECORDS[r.id]).length;
 
   const card = r => {
     const tr = THRECORDS[r.id];
     const body = th && tr ? tr.content : r.content;
+    const shot = recordPhoto(r.photo);
     return `<article class="row rec" id="r-${esc(r.id)}" data-cat="${esc(r.type || 'Unsorted')}" data-s="${esc((r.name + ' ' + (tr ? tr.name + ' ' + tr.content : '') + ' ' + r.content + ' ' + r.location).toLowerCase())}">
-    ${rowIcon('book')}
+    ${rowIcon('book', itemPic(r.img))}
     <div>
       <div class="row-name">${esc(th && tr ? tr.name : r.name)}</div>
       ${th && tr ? `<div class="row-th gloss">${esc(r.name)}</div>` : ''}
@@ -1202,6 +1207,10 @@ function recordsPage(lang) {
         <span class="tag">${esc(locLabel(r.location))}</span>
         ${r.reward ? `<span class="tag tag-clay">${th ? 'ได้' : 'Reward'}: ${esc(r.reward)}</span>` : ''}
       </div>
+      ${shot ? `<figure class="rec-shot">
+        <img src="${shot}" alt="${esc((th && tr && tr.alt) || r.photoAlt || r.name)}" loading="lazy" decoding="async">
+        ${(th && tr && tr.alt) || r.photoAlt ? `<figcaption>${esc((th && tr && tr.alt) || r.photoAlt)}</figcaption>` : ''}
+      </figure>` : ''}
       ${body
         ? `<blockquote class="rec-text">${body.split('\n\n').map(x => `<p>${esc(x)}</p>`).join('')}</blockquote>
            ${th && !tr ? `<p class="rec-note">${'ยังไม่ได้แปลเป็นไทย — ด้านบนเป็นต้นฉบับภาษาอังกฤษ'}</p>` : ''}`
@@ -1216,8 +1225,8 @@ function recordsPage(lang) {
       ? 'บันทึก หนังสือพิมพ์ ไดอารี และรูปถ่ายที่มนุษย์ทิ้งไว้ก่อนอพยพ เรื่องราวเบื้องหลังของเกมเกือบทั้งหมดถูกเล่าผ่านของพวกนี้'
       : 'The notes, newspapers, diaries and photographs the humans left behind when they evacuated. Almost all of the game’s backstory is told through them.'}</p>
 <p class="note">${th
-      ? `รวบรวมได้ ${humanrecords.length} ชิ้น มีเนื้อหาครบ ${withText} ชิ้น${translated ? ` แปลไทยแล้ว ${translated} ชิ้น` : ''} — Serebii ระบุชื่อและจุดที่พบไว้ครบ แต่เว้นช่องเนื้อหาว่างทุกชิ้น เนื้อหาที่เห็นมาจาก Bulbapedia`
-      : `${humanrecords.length} records, ${withText} of them with their text. Serebii names them all and says where each is found, but leaves every content field blank; the text comes from Bulbapedia.`}</p></div>
+      ? `รวบรวมได้ ${humanrecords.length} ชิ้น มีเนื้อหาครบ ${withText} ชิ้น เป็นรูปถ่ายจริง ${withPhoto} ใบ${translated ? ` และแปลไทยแล้ว ${translated} ชิ้น` : ''} — Serebii ระบุชื่อและจุดที่พบไว้ครบ แต่เว้นช่องเนื้อหาว่างทุกชิ้น เนื้อหาและรูปถ่ายมาจาก Bulbapedia`
+      : `${humanrecords.length} records, ${withText} with their text and ${withPhoto} that are photographs. Serebii names them all and says where each is found, but leaves every content field blank; the text and the photographs come from Bulbapedia.`}</p></div>
 ${listPage({ lang, rows, cats: types.map(x => x || 'Unsorted'), catLabel: c => typeLabel(c === 'Unsorted' ? null : c) })}`;
   return layout({
     lang, base: BASE, title: t.nav.records, path: '/records/',

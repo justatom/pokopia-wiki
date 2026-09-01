@@ -336,6 +336,10 @@ td.num { font-variant-numeric: tabular-nums; color: var(--muted); white-space: n
 .rec-text p { margin: 0 0 8px; font-size: .9rem; line-height: 1.65; color: var(--ink-2); }
 .rec-text p:last-child { margin-bottom: 0; }
 .rec-note { margin: 10px 0 0; font-size: .82rem; color: var(--muted); font-style: italic; }
+.rec-shot { margin: 10px 0 0; }
+.rec-shot img { display: block; width: 100%; max-width: 340px; height: auto; border-radius: var(--r-sm);
+  background: var(--paper-2); border: 1px solid var(--line); }
+.rec-shot figcaption { margin-top: 6px; max-width: 340px; font-size: .76rem; line-height: 1.5; color: var(--muted); }
 @media (min-width: 560px) { .conds { grid-template-columns: 1fr 1fr; } }
 
 /* cooking equipment */

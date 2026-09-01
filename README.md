@@ -19,7 +19,8 @@ Static site, **zero runtime dependencies**, mobile-first. Node 20+ is the only r
 | Furniture pieces | 140 |
 | Building kits, 55 with materials, helper Pokemon and build time | 56 |
 | Dishes | 34 |
-| Music CDs / Lost Relics / Human Records | 53 / 103 / 163 |
+| Music CDs / Lost Relics | 53 / 103 |
+| Human Records, 126 with their text — all translated to Thai | 170 |
 | Outfits, hairstyles and accessories, with pictures and sources | 203 |
 | Documented gifts Pokémon give you (Litter drops, emotes, story items) | 57 |
 | Pokémon with favourites recorded (ideal habitat + 5 categories + flavour) | 366 |

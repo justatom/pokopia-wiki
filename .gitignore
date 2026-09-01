@@ -35,3 +35,6 @@ _research/lab/
 
 # paint pattern swatches — re-downloaded by `npm run sprites`
 src/sprites/patterns/
+
+# Human Record photographs — re-downloaded by `npm run sprites`
+src/sprites/records/
