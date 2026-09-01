@@ -19,6 +19,19 @@ const pokemon = D('pokemon'), habitats = D('habitats'), items = D('items'), reci
   stampcard = D('stampcard'), teamchallenge = D('teamchallenge'), gifts = D('gifts'), favorites = D('favorites'),
   cookware = D('cookware'), outfits = D('outfits'), patterns = D('patterns'), toys = D('toys');
 const THRECORDS = fs.existsSync('data/th/records.json') ? D('th/records') : {};
+
+/* Thai item descriptions, keyed by item id. 492 of the 1,776 descriptions are shared by
+   more than one item — every flower seed colour reads the same — so a translation is
+   written once against one item and reaches the rest through the English text. */
+const THITEMS = fs.existsSync('data/th/items.json') ? D('th/items') : {};
+const thDescByEnglish = new Map();
+for (const [id, text] of Object.entries(THITEMS)) {
+  if (id.startsWith('_')) continue;
+  const it = items.find(x => x.id === id);
+  if (it && it.desc) thDescByEnglish.set(it.desc.trim(), text);
+}
+/** an item's description in the reading language, falling back to the original */
+const itemDesc = (i, lang) => (lang === 'th' && (THITEMS[i.id] || thDescByEnglish.get((i.desc || '').trim()))) || i.desc;
 const THNAMES = D('th/pokemon-names'), TERMS = D('th/terms'),
   THPATCH = D('th/patches'), THM = D('th/misc');
 
@@ -211,7 +224,7 @@ const itemSearchText = (i, lang) => [
 const cellPic = img => { const u = itemPic(img); return u ? `<img class="cell-ico" src="${u}" alt="" loading="lazy" width="32" height="32" decoding="async">` : ''; };
 const matPic = m => { const u = itemPic(m.img); return u ? `<img class="mat-ico" src="${u}" alt="" loading="lazy" width="18" height="18" decoding="async">` : ''; };
 const rowIcon = (kind, pic) => pic
-  ? `<img class="row-ico row-pic" src="${pic}" alt="" loading="lazy" width="42" height="42" decoding="async">`
+  ? `<img class="row-ico row-pic" src="${pic}" alt="" loading="lazy" width="72" height="72" decoding="async">`
   : `<div class="row-ico">${icon(kind)}</div>`;
 
 const monById = new Map(pokemon.map(p => [p.id, p]));
@@ -587,7 +600,7 @@ function itemsCatPage(cat, lang) {
   const list = items.filter(i => i.cat === cat);
   const rows = list.map(i => ({
     html: dataRow({
-      name: i.name, gloss: G(i.name), desc: i.desc, cat: i.tags[0] || '', kind: 'box', pic: itemImage(i), id: `i-${i.id}`, find: itemSearchText(i, lang), lang,
+      name: i.name, gloss: G(i.name), desc: itemDesc(i, lang), cat: i.tags[0] || '', kind: 'box', pic: itemImage(i), id: `i-${i.id}`, find: itemSearchText(i, lang), lang,
       mats: itemLikedAs(i, lang),
       meta: i.tags.map(x => `<span class="tag tag-clay">${esc(x)}</span>`).join('') + itemFacts(i, lang) +
         (i.sources.length ? `<span>${esc(i.sources.slice(0, 3).join(' · '))}${i.sources.length > 3 ? ' …' : ''}</span>` : ''),

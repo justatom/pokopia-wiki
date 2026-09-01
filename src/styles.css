@@ -23,6 +23,7 @@
 
   --r-sm: 8px;
   --r: 14px;
+  --ico: 64px;   /* item thumbnail on a list row; 72px from tablet up */
   --r-lg: 22px;
   --tap: 44px;
 
@@ -252,11 +253,11 @@ td.num { font-variant-numeric: tabular-nums; color: var(--muted); white-space: n
 /* list rows (items, recipes) */
 .rows { display: grid; gap: 8px; }
 .row {
-  display: grid; grid-template-columns: 42px 1fr; gap: 12px; align-items: start;
+  display: grid; grid-template-columns: var(--ico) 1fr; gap: 12px; align-items: start;
   background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 12px 14px;
 }
-.row-ico { width: 42px; height: 42px; border-radius: 10px; display: grid; place-items: center; background: var(--paper-2); }
-.row-ico svg { width: 22px; height: 22px; }
+.row-ico { width: var(--ico); height: var(--ico); border-radius: 12px; display: grid; place-items: center; background: var(--paper-2); }
+.row-ico svg { width: 26px; height: 26px; }
 .row-name { font-weight: 600; font-size: .95rem; line-height: 1.4; }
 .row-th { font-size: .82rem; color: var(--moss); }
 .row-desc { font-size: .85rem; color: var(--ink-2); margin-top: 3px; }
@@ -269,15 +270,16 @@ td.num { font-variant-numeric: tabular-nums; color: var(--muted); white-space: n
 .row { content-visibility: auto; contain-intrinsic-size: auto 120px; }
 :target.row { outline: 2px solid var(--moss); outline-offset: 3px; }
 .row { scroll-margin-top: 168px; }
+@media (min-width: 640px) { :root { --ico: 72px; } }
 .mat { font-size: .76rem; padding: 3px 9px; border-radius: 8px; background: var(--paper-2); color: var(--ink-2); white-space: nowrap; }
 .mat b { color: var(--clay); font-variant-numeric: tabular-nums; }
 
 /* item icons and habitat pictures (downloaded by scripts/sprites.mjs) */
-.row-pic { object-fit: contain; padding: 2px; background: var(--paper-2); }
+.row-pic { object-fit: contain; padding: 4px; background: var(--paper-2); }
 .mat { display: inline-flex; align-items: center; gap: 5px; }
-.mat-ico { width: 18px; height: 18px; object-fit: contain; flex: none; }
+.mat-ico { width: 24px; height: 24px; object-fit: contain; flex: none; }
 .cell-item { display: flex; align-items: flex-start; gap: 9px; }
-.cell-ico { width: 32px; height: 32px; object-fit: contain; flex: none; border-radius: 7px; background: var(--paper-2); }
+.cell-ico { width: 40px; height: 40px; object-fit: contain; flex: none; border-radius: 7px; background: var(--paper-2); }
 .mon-chip { display: inline-flex; align-items: center; gap: 5px; font-weight: 600; white-space: nowrap; }
 .mon-chip img { width: 34px; height: 34px; object-fit: contain; flex: none; }
 .mon-chip:hover { color: var(--moss); }
@@ -297,7 +299,7 @@ td.num { font-variant-numeric: tabular-nums; color: var(--muted); white-space: n
 .fav-item { display: inline-flex; align-items: center; gap: 5px; max-width: 100%;
   padding: 3px 10px 3px 3px; border-radius: 999px; background: var(--paper-2); color: var(--ink-2);
   font-size: .76rem; font-weight: 500; }
-.fav-item img { width: 28px; height: 28px; object-fit: contain; flex: none; }
+.fav-item img { width: 34px; height: 34px; object-fit: contain; flex: none; }
 .fav-more { padding: 5px 11px; color: var(--muted); font-variant-numeric: tabular-nums; }
 
 /* a favourite category lists every item it holds, so the box scrolls past a few rows */
