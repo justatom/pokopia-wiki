@@ -189,8 +189,15 @@ function itemFacts(i, lang) {
   if (i.addedIn) out.push(`<span class="tag">v${esc(i.addedIn)}</span>`);
   return out.join('');
 }
+/** the favourite categories an item counts as — the fact that decides who wants it */
+const itemLikedAs = (i, lang) => (i.likedAs || []).length
+  ? `<div class="kit-line"><span class="kit-label">${lang === 'th' ? 'นับเป็นหมวด' : 'Counts as'}</span>
+      <div class="kit-helpers">${i.likedAs.map(c => `<span class="tag tag-clay">${esc(thFav(c, lang))}</span>`).join('')}</div></div>`
+  : '';
+
 /** the same facts as words, so the filter box can find them */
 const itemSearchText = (i, lang) => [
+  ...(i.likedAs || []).flatMap(c => [c, thFav(c, 'th')]),
   i.paint ? (lang === 'th' ? 'ทาสีได้ paintable' : 'paintable') : '',
   i.pattern ? (lang === 'th' ? 'ใส่ลายได้ pattern' : 'pattern') : '',
   i.craftable ? (lang === 'th' ? 'คราฟต์ได้ craftable' : 'craftable') : '',
@@ -579,6 +586,7 @@ function itemsCatPage(cat, lang) {
   const rows = list.map(i => ({
     html: dataRow({
       name: i.name, gloss: G(i.name), desc: i.desc, cat: i.tags[0] || '', kind: 'box', pic: itemImage(i), id: `i-${i.id}`, find: itemSearchText(i, lang), lang,
+      mats: itemLikedAs(i, lang),
       meta: i.tags.map(x => `<span class="tag tag-clay">${esc(x)}</span>`).join('') + itemFacts(i, lang) +
         (i.sources.length ? `<span>${esc(i.sources.slice(0, 3).join(' · '))}${i.sources.length > 3 ? ' …' : ''}</span>` : ''),
     })
@@ -587,7 +595,13 @@ function itemsCatPage(cat, lang) {
   const body = `${crumb(lang, [[t.nav.items, `${BASE}/${lang}/items/`], [cat]])}
 <div class="wrap stack"><h1>${esc(thCat(cat, lang))}</h1>
 ${lang === 'th' && thCat(cat, lang) !== cat ? `<p class="gloss">${esc(cat)}</p>` : ''}
-<p class="lede">${list.length} รายการ</p></div>
+<p class="lede">${list.length} ${lang === 'th' ? 'รายการ' : 'items'}</p>
+${(() => {
+      const known = list.filter(i => (i.likedAs || []).length).length;
+      return known ? `<p class="note">${lang === 'th'
+        ? `แถบ “นับเป็นหมวด” คือหมวดของโปรดที่ไอเทมนั้นนับเป็น ถ้าตรงกับที่โปเกมอนชอบ Comfy Level จะขึ้นเร็วกว่าปกติ พิมพ์ชื่อหมวดในช่องกรองได้เลย เช่น สีสันสดใส หรือ colorful — หมวดนี้ระบุได้แล้ว ${known} จาก ${list.length} รายการ ที่เหลือ Serebii ยังไม่ได้จัดหมวดให้`
+        : `“Counts as” is the favourite categories an item belongs to; matching one raises Comfy Level faster. You can filter by them — try “colorful”. ${known} of these ${list.length} items are catalogued; Serebii has not sorted the rest yet.`}</p>` : '';
+    })()}</div>
 ${listPage({ lang, rows, cats: tags })}`;
   return layout({ lang, base: BASE, title: `${cat} — ${t.nav.items}`, desc: `Pokopia ${cat} items`, path: `/items/${catSlug(cat)}/`, body });
 }

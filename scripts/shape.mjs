@@ -687,6 +687,17 @@ W('gifts', gifts);
     if (!catsOf.has(it.id)) catsOf.set(it.id, []);
     catsOf.get(it.id).push(f.name);
   }
+
+  /* The same mapping read the other way round: which favourite categories an item counts
+     as, which is what decides whether a Pokémon wants it. Serebii's per-category item
+     lists are marked work in progress, so this covers about 40% of the catalogue and the
+     pages say as much rather than implying the rest belong to nothing. */
+  {
+    const withCats = items.filter(i => catsOf.has(i.id));
+    for (const i of items) i.likedAs = catsOf.get(i.id) || [];
+    console.log(`   ${withCats.length}/${items.length} items with favourite categories`);
+    W('items', items);
+  }
   const toys = items.filter(i => i.tags.includes('Toy')).map(i => {
     const cats = catsOf.get(i.id) || [];
     const set = new Set(cats);
