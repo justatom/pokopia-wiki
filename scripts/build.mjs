@@ -1255,15 +1255,67 @@ ${listPage({ lang, rows, cats: types.map(x => x || 'Unsorted'), catLabel: c => t
    share of the dex — 163 Pokémon on average. The categories are what actually decides it,
    so those lead; the Pokémon are a sample with the real total stated beside it. */
 const TOY_SAMPLE = 12;
+const toyUrl = (lang, toy) => `${BASE}/${lang}/toys/${toy.id}/`;
+
+/* A toy's own page carries the full list of Pokémon that like it. It cannot go on the
+   index: 22,880 Pokémon-likes-toy pairs rendered as chips would be a 4.2 MB page. */
+function toyPage(toy, lang) {
+  const t = T[lang], th = lang === 'th';
+  const liked = toy.likedBy.map(id => monById.get(id)).filter(Boolean);
+  const body = `${crumb(lang, [[t.nav.toys, `${BASE}/${lang}/toys/`], [toy.name]])}
+<div class="wrap stack" style="--gap:18px">
+  <div class="row toy" style="border:0;background:none;padding:0">
+    ${itemPic(toy.img) ? `<img class="toy-pic" src="${itemPic(toy.img)}" alt="${esc(toy.name)}" width="72" height="72">` : rowIcon('sparkles')}
+    <div>
+      <h1 style="font-size:1.35rem">${esc(toy.name)}</h1>
+      ${th && G(toy.name) ? `<div class="row-th gloss">${esc(G(toy.name))}</div>` : ''}
+      ${toy.desc ? `<p class="row-desc">${esc(toy.desc)}</p>` : ''}
+    </div>
+  </div>
+  <div class="env">
+    <div class="kit-line"><span class="kit-label">${th ? 'ได้มาจาก' : 'How to get'}</span>
+      <div class="kit-helpers">${toy.sources.map(x => `<span class="tag">${esc(x)}</span>`).join('')}</div></div>
+    <div class="kit-line"><span class="kit-label">${th ? 'นับเป็นหมวด' : 'Counts as'}</span>
+      <div class="kit-helpers">${toy.categories.map(c => `<span class="tag tag-clay">${esc(thFav(c, lang))}</span>`).join('')}</div></div>
+    <div class="kit-line"><span class="kit-label">${th ? 'ไอเทม' : 'Item'}</span>
+      <div class="kit-helpers">${itemLink(lang, toy.id, `<span class="tag tag-moss">${th ? 'เปิดหน้าไอเทม' : 'Open the item entry'}</span>`)}</div></div>
+  </div>
+  <section><div class="sec-title"><h2>${th ? 'โปเกมอนที่ชอบของชิ้นนี้' : 'Pokémon that like it'}</h2><span>${liked.length}</span></div>
+  <p class="note">${th
+      ? `ทุกตัวในรายการนี้มีหมวดของโปรดอย่างน้อยหนึ่งหมวดตรงกับ ${toy.categories.map(c => thFav(c, lang)).join(' / ')} วางของชิ้นนี้ในบ้านหรือที่อยู่อาศัยของมัน แล้ว Comfy Level กับค่าความเป็นเพื่อนจะขึ้นเร็วกว่าปกติ`
+      : `Every Pokémon here has at least one favourite category matching ${toy.categories.join(' / ')}. Put this in its home or habitat and Comfy Level and friendship rise faster.`}</p>
+  <div class="spec-mons" style="max-height:none">${liked.map(m => `<a class="spec-mon" href="${monUrl(lang, m)}" title="${esc(monTitle(m, lang))}"><img src="${sprite(m)}" alt="" loading="lazy" width="40" height="40"><span>${esc(monTitle(m, lang))}</span></a>`).join('')}</div>
+  </section>
+  <nav class="grid g-2">
+    <a class="card" href="${BASE}/${lang}/toys/"><div style="font-size:.8rem;color:var(--muted)">${esc(t.nav.toys)}</div><div style="font-weight:600">${th ? 'กลับไปรายการของเล่น' : 'Back to all toys'}</div></a>
+  </nav>
+</div>`;
+  return layout({
+    lang, base: BASE, title: toy.name, path: `/toys/${toy.id}/`,
+    desc: th ? `${toy.name} ใน Pokémon Pokopia — ได้มาจากไหน นับเป็นหมวดอะไร และโปเกมอน ${liked.length} ตัวที่ชอบ`
+      : `${toy.name} in Pokémon Pokopia — where to get it, the favourite categories it counts as, and the ${liked.length} Pokémon that like it.`,
+    body,
+  });
+}
 
 function toysPage(lang) {
   const t = T[lang], th = lang === 'th';
-  const cats = [...new Set(toys.map(x => x.cat))];
+  /* Filter by the item's own category and by any favourite category it counts as. Both
+     go in data-cat, which the filter reads as a space-separated set, so the values are
+     slugged and prefixed to keep the two kinds apart. */
+  const itemCats = [...new Set(toys.map(x => x.cat))];
+  const favCats = [...new Set(toys.flatMap(x => x.categories))].sort();
+  const cats = [...itemCats.map(c => `cat-${itemSlug(c)}`), ...favCats.map(c => `fav-${itemSlug(c)}`)];
+  const catLabel = v => v.startsWith('cat-')
+    ? thCat(itemCats.find(c => `cat-${itemSlug(c)}` === v) || v, lang)
+    : thFav(favCats.find(c => `fav-${itemSlug(c)}` === v) || v, lang);
+
   const rows = toys.map(toy => {
     const liked = toy.likedBy.map(id => monById.get(id)).filter(Boolean);
     const shown = liked.slice(0, TOY_SAMPLE);
+    const keys = [`cat-${itemSlug(toy.cat)}`, ...toy.categories.map(c => `fav-${itemSlug(c)}`)].join(' ');
     return {
-      html: `<article class="row toy" id="t-${esc(toy.id)}" data-cat="${esc(toy.cat)}" data-s="${esc((toy.name + ' ' + G(toy.name) + ' ' + toy.desc + ' ' + toy.categories.join(' ') + ' ' + toy.sources.join(' ')).toLowerCase())}">
+      html: `<article class="row toy" id="t-${esc(toy.id)}" data-cat="${esc(keys)}" data-s="${esc((toy.name + ' ' + G(toy.name) + ' ' + toy.desc + ' ' + toy.categories.join(' ') + ' ' + toy.categories.map(c => thFav(c, 'th')).join(' ') + ' ' + toy.sources.join(' ')).toLowerCase())}">
     ${itemPic(toy.img)
         ? `<a href="${itemHref(lang, toy.id) || '#'}"><img class="toy-pic" src="${itemPic(toy.img)}" alt="${esc(toy.name)}" loading="lazy" width="72" height="72" decoding="async"></a>`
         : rowIcon('sparkles')}
@@ -1277,7 +1329,7 @@ function toysPage(lang) {
         <div class="kit-helpers">${toy.categories.map(c => `<span class="tag tag-clay">${esc(thFav(c, lang))}</span>`).join('')}</div></div>` : ''}
       ${liked.length ? `<div class="kit-line"><span class="kit-label">${th ? `โปเกมอนที่ชอบ ${liked.length} ตัว` : `${liked.length} like it`}</span>
         <div class="toy-mons">${shown.map(m => monChip(m.id, m.name, lang)).join('')}${liked.length > shown.length
-          ? `<span class="fav-item fav-more">+${liked.length - shown.length}</span>` : ''}</div></div>` : ''}
+          ? `<a class="fav-item fav-more" href="${toyUrl(lang, toy)}">${th ? `ดูทั้งหมด ${liked.length} ตัว →` : `see all ${liked.length} →`}</a>` : ''}</div></div>` : ''}
     </div></article>`,
     };
   });
@@ -1291,8 +1343,8 @@ function toysPage(lang) {
       ? 'วางของเล่นไว้ในบ้านหรือที่อยู่อาศัยของโปเกมอน ถ้าตรงกับหมวดของโปรดของมัน Comfy Level กับค่าความเป็นเพื่อนจะขึ้นเร็วกว่าปกติมาก'
       : 'Put a toy in a Pokémon’s home or habitat: if it matches one of that Pokémon’s favourite categories, Comfy Level and friendship rise much faster.'}</p>
 <p class="note note-clay">${th
-      ? 'โปเกมอนหนึ่งตัวชอบ 5 หมวดจากทั้งหมด 43 หมวด ส่วนของเล่นชิ้นหนึ่งมักอยู่ใน 4 หมวด ของเล่นแต่ละชิ้นจึงถูกใจโปเกมอนเฉลี่ยถึง 163 ตัว ตัวเลขที่เห็นคือจำนวนจริงทั้งหมด แต่รูปที่แสดงเป็นแค่ตัวอย่าง 12 ตัวแรก เพราะการไล่ชื่อทั้ง 200 กว่าตัวไม่ได้ช่วยอะไร — หมวดของโปรดต่างหากที่เป็นตัวตัดสิน'
-      : 'A Pokémon likes 5 of the 43 categories and a toy usually sits in 4, so the average toy pleases 163 Pokémon. The number beside each toy is the real total; the sprites are the first twelve, because listing two hundred names helps nobody — the categories are what decides it.'}</p></div>
+      ? 'โปเกมอนหนึ่งตัวชอบ 5 หมวดจากทั้งหมด 43 หมวด ส่วนของเล่นชิ้นหนึ่งมักอยู่ใน 4 หมวด ของเล่นแต่ละชิ้นจึงถูกใจโปเกมอนเฉลี่ยถึง 163 ตัว ตรงนี้แสดงตัวอย่าง 12 ตัวแรก กด “ดูทั้งหมด” เพื่อเปิดหน้าของเล่นชิ้นนั้นที่ลิสต์ครบทุกตัว'
+      : 'A Pokémon likes 5 of the 43 categories and a toy usually sits in 4, so the average toy pleases 163 Pokémon. Twelve are shown here; “see all” opens that toy’s own page, which lists every one.'}</p></div>
 ${listPage({ lang, rows, cats, catLabel: c => thCat(c, lang) })}`;
   return layout({
     lang, base: BASE, title: t.nav.toys, path: '/toys/',
@@ -1705,6 +1757,7 @@ for (const lang of LANGS) {
   write(`${lang}/gifts`, giftsPage(lang));
   write(`${lang}/dream-islands`, dreamIslandsPage(lang));
   write(`${lang}/toys`, toysPage(lang));
+  toys.forEach(toy => write(`${lang}/toys/${toy.id}`, toyPage(toy, lang)));
   write(`${lang}/outfits`, outfitsPage(lang));
   write(`${lang}/records`, recordsPage(lang));
   write(`${lang}/collections`, collectionsPage(lang));
