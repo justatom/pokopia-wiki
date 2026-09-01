@@ -185,6 +185,17 @@ const favByName = new Map(favorites.map(f => [f.name, f]));
 
 /* What each ideal habitat means in play. The six are the game's own ambience values;
    the reading of each is written here rather than quoted, since no source spells them out. */
+const TIME_TH = { Morning: 'เช้า', Day: 'กลางวัน', Sunset: 'เย็น', Night: 'กลางคืน' };
+const WEATHER_TH = { Sunny: 'แดดออก', Cloudy: 'มีเมฆ', Rainy: 'ฝนตก' };
+const ALL_TIMES = ['Morning', 'Day', 'Sunset', 'Night'];
+const ALL_WEATHER = ['Sunny', 'Cloudy', 'Rainy'];
+
+/** a row of condition chips, the ones that do not apply shown muted rather than dropped */
+function condRow(all, active, thMap, lang) {
+  const on = new Set(active);
+  return `<div class="cond-row">${all.map(k => `<span class="cond${on.has(k) ? ' cond-on' : ''}">${esc(lang === 'th' ? (thMap[k] || k) : k)}</span>`).join('')}</div>`;
+}
+
 const AMBIENCE_DESC = {
   Bright: ['สว่างสดใส โล่ง แดดส่องถึง', 'Open and well lit, with the sun reaching in'],
   Dark: ['มืดครึ้ม มีมุมอับและที่กำบัง เช่น ถ้ำหรือใต้ดิน', 'Shadowy and dim — caves, undergrounds, covered corners'],
@@ -233,11 +244,22 @@ function monEnvironment(p, lang) {
     ${desc ? `<p class="env-desc">${esc(desc)}</p>` : ''}
   </div>
   <p class="note">${th
-      ? 'ที่อยู่อาศัยที่ตรงกับบรรยากาศนี้จะดัน Comfy Level ได้เร็วกว่า ส่วนช่วงเวลาและสภาพอากาศมีผลต่อ "การปรากฏตัว" ของโปเกมอนในที่อยู่อาศัย บางตัวออกเฉพาะกลางวันหรือกลางคืน แต่เงื่อนไขแสงจะแทนที่เวลาได้ ตัวที่ออกกลางคืนจะออกตอนไหนก็ได้ถ้าที่อยู่อาศัยอยู่ในที่มืด เช่น ถ้ำหรือใต้ดิน และตัวที่ออกกลางวันจะออกตอนกลางคืนได้ถ้าที่อยู่อาศัยมีแสงสว่างล้อมรอบ'
-      : 'A habitat matching this ambience raises Comfy Level faster. Time of day and weather affect whether a Pokémon shows up at a habitat at all: some are day- or night-only, but light overrides the clock — a night Pokémon spawns at any hour if its habitat sits somewhere dark such as a cave or underground, and a day Pokémon spawns at night if its habitat is ringed with light.'}</p>
-  <p class="note note-clay">${th
-      ? 'ยังไม่มีแหล่งข้อมูลไหนเผยแพร่ตารางช่วงเวลาและสภาพอากาศรายตัว หน้านี้จึงไม่ระบุว่าตัวนี้ออกเวลาไหนหรืออากาศแบบไหน เพราะจะเป็นการเดา'
-      : 'No source publishes a per-Pokémon table of times and weather, so this page does not claim which apply to this one — that would be guesswork.'}</p>
+      ? 'ที่อยู่อาศัยที่ตรงกับบรรยากาศนี้จะดัน Comfy Level ได้เร็วกว่า ส่วนช่วงเวลาและอากาศเป็นเงื่อนไขว่าโปเกมอนจะโผล่มาที่ที่อยู่อาศัยหรือไม่ ทั้งนี้แสงแทนที่เวลาได้ ตัวที่ออกกลางคืนจะออกตอนไหนก็ได้ถ้าที่อยู่อาศัยอยู่ในที่มืด เช่น ถ้ำหรือใต้ดิน และตัวที่ออกกลางวันจะออกตอนกลางคืนได้ถ้าที่อยู่อาศัยมีแสงสว่างล้อมรอบ'
+      : 'A habitat matching this ambience raises Comfy Level faster. Time and weather gate whether a Pokémon turns up at a habitat at all — though light overrides the clock: a night Pokémon spawns at any hour if its habitat sits somewhere dark such as a cave or underground, and a day Pokémon spawns at night if its habitat is ringed with light.'}</p>
+  ${p.times || p.weather ? `<div class="conds">
+    ${p.times ? `<div class="cond-block"><div class="cond-label">${th ? 'ช่วงเวลาที่ออก' : 'Time of day'}</div>
+      ${condRow(ALL_TIMES, p.times, TIME_TH, lang)}
+      ${p.times.length < ALL_TIMES.length ? `<p class="cond-note">${th
+        ? `ออกเฉพาะ${p.times.map(x => TIME_TH[x] || x).join(' / ')}เท่านั้น`
+        : `Only ${p.times.join(', ')}`}</p>` : ''}</div>` : ''}
+    ${p.weather ? `<div class="cond-block"><div class="cond-label">${th ? 'สภาพอากาศ' : 'Weather'}</div>
+      ${condRow(ALL_WEATHER, p.weather, WEATHER_TH, lang)}
+      ${p.weather.length < ALL_WEATHER.length ? `<p class="cond-note">${th
+        ? `ออกเฉพาะตอน${p.weather.map(x => WEATHER_TH[x] || x).join(' / ')}เท่านั้น`
+        : `Only when ${p.weather.join(', ')}`}</p>` : ''}</div>` : ''}
+  </div>` : `<p class="note note-clay">${th
+      ? 'ยังไม่มีข้อมูลช่วงเวลาและสภาพอากาศของตัวนี้ — แหล่งข้อมูลที่ใช้ยังไม่ครอบคลุมโปเกมอนจาก Expansion Pass และอีเวนต์'
+      : 'Time and weather are not recorded for this one — the source does not yet cover the Expansion Pass and event Pokémon.'}</p>`}
   </section>`;
 }
 

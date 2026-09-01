@@ -28,6 +28,17 @@
    "Group activities"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "001-tall-grass",
    "022-bench-with-greenery"
@@ -63,6 +74,17 @@
    "Colorful stuff"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "011-field-of-flowers",
    "022-bench-with-greenery"
@@ -101,6 +123,17 @@
    "Luxury"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "011-field-of-flowers",
    "046-garden-terrace"
@@ -135,6 +168,16 @@
    "Group activities"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy"
+  ],
   "habitats": [
    "001-tall-grass"
   ],
@@ -168,6 +211,16 @@
    "Rides"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy"
+  ],
   "habitats": [
    "017-campsite"
   ],
@@ -203,6 +256,16 @@
    "Luxury"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy"
+  ],
   "habitats": [
    "001-tall-grass",
    "040-berry-feast-campsite"
@@ -237,6 +300,17 @@
    "Group activities"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "001-tall-grass",
    "004-hydrated-tall-grass"
@@ -271,6 +345,17 @@
    "Hard stuff"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "004-hydrated-tall-grass"
   ],
@@ -305,6 +390,17 @@
    "Luxury"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "004-hydrated-tall-grass",
    "036-floating-in-the-shade"
@@ -341,6 +437,16 @@
    "Play spaces"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "006-elevated-tall-grass",
    "008-pretty-flower-bed"
@@ -377,6 +483,16 @@
    "Looks like food"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "006-elevated-tall-grass",
    "008-pretty-flower-bed"
@@ -413,6 +529,16 @@
    "Luxury"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "039-luxury-chirp-chirp-meal"
   ],
@@ -447,6 +573,14 @@
    "Lots of water"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "001-tall-grass"
   ],
@@ -481,6 +615,17 @@
    "Garbage"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "057-tropical-vibes"
   ],
@@ -518,6 +663,17 @@
    "Colorful stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "034-chansey-resting-area"
   ],
@@ -552,6 +708,17 @@
    "Noisy stuff"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "034-chansey-resting-area"
   ],
@@ -586,6 +753,17 @@
    "Looks like food"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "012-elevated-flower-bed",
    "014-flower-garden"
@@ -621,6 +799,17 @@
    "Strange stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "012-elevated-flower-bed",
    "014-flower-garden"
@@ -656,6 +845,14 @@
    "Letters and words"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "007-illuminated-tall-grass",
    "023-illuminated-bench"
@@ -691,6 +888,14 @@
    "Pretty flowers"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "007-illuminated-tall-grass",
    "023-illuminated-bench"
@@ -729,6 +934,17 @@
    "Pretty flowers"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "002-tree-shaded-tall-grass"
   ],
@@ -766,6 +982,17 @@
    "Pretty flowers"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "021-flowery-table",
    "035-irresistible-scent-and-glow"
@@ -802,6 +1029,17 @@
    "Pretty flowers"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "021-flowery-table",
    "035-irresistible-scent-and-glow"
@@ -838,6 +1076,17 @@
    "Healing"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "005-seaside-tall-grass"
   ],
@@ -873,6 +1122,17 @@
    "Healing"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "005-seaside-tall-grass",
    "030-bed-with-a-plush",
@@ -910,6 +1170,17 @@
    "Healing"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "005-seaside-tall-grass",
    "030-bed-with-a-plush",
@@ -946,6 +1217,17 @@
    "Group activities"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "038-factory-storage"
   ],
@@ -980,6 +1262,17 @@
    "Group activities"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "064-trash-can-central",
    "085-mini-game-corner"
@@ -1016,6 +1309,17 @@
    "Hard stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "064-trash-can-central",
    "085-mini-game-corner"
@@ -1052,6 +1356,17 @@
    "Exercise"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "037-smooth-tall-grass"
   ],
@@ -1087,6 +1402,17 @@
    "Hard stuff"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "117-clink-clang-iron-construction"
   ],
@@ -1120,6 +1446,17 @@
    "Group activities"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "013-grave-with-flowers"
   ],
@@ -1153,6 +1490,17 @@
    "Luxury"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "013-grave-with-flowers"
   ],
@@ -1186,6 +1534,17 @@
    "Round stuff"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "018-training-waterfall"
   ],
@@ -1219,6 +1578,17 @@
    "Round stuff"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "025-urgent-care"
   ],
@@ -1252,6 +1622,17 @@
    "Round stuff"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "024-exercise-resting-spot"
   ],
@@ -1285,6 +1666,17 @@
    "Round stuff"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "026-gym-first-aid"
   ],
@@ -1318,6 +1710,17 @@
    "Wobbly stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "063-trash-collection-site"
   ],
@@ -1351,6 +1754,17 @@
    "Wobbly stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "048-good-old-fashioned-antiques",
    "063-trash-collection-site"
@@ -1388,6 +1802,17 @@
    "Slender objects"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "049-nothin-but-poke-balls"
   ],
@@ -1424,6 +1849,17 @@
    "Watching stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [],
   "gift": null
  },
@@ -1457,6 +1893,17 @@
    "Group activities"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "043-professor-s-treasure-trove"
   ],
@@ -1491,6 +1938,17 @@
    "Exercise"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "002-tree-shaded-tall-grass"
   ],
@@ -1525,6 +1983,17 @@
    "Exercise"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "002-tree-shaded-tall-grass"
   ],
@@ -1559,6 +2028,17 @@
    "Exercise"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "002-tree-shaded-tall-grass"
   ],
@@ -1590,6 +2070,17 @@
    "Wobbly stuff"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "185-ocean-fishing-spot"
   ],
@@ -1624,6 +2115,17 @@
    "Slender objects"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "146-illuminated-waterfall"
   ],
@@ -1651,6 +2153,8 @@
   "ambience": null,
   "favorites": [],
   "flavor": null,
+  "times": null,
+  "weather": null,
   "habitats": [],
   "gift": null
  },
@@ -1684,6 +2188,14 @@
    "Watching stuff"
   ],
   "flavor": "Dry",
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "006-elevated-tall-grass",
    "008-pretty-flower-bed",
@@ -1721,6 +2233,14 @@
    "Watching stuff"
   ],
   "flavor": "Dry",
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "006-elevated-tall-grass",
    "031-gently-lit-bed"
@@ -1757,6 +2277,17 @@
    "Exercise"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "002-tree-shaded-tall-grass"
   ],
@@ -1790,6 +2321,17 @@
    "Group activities"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "010-hydrated-flower-bed"
   ],
@@ -1823,6 +2365,17 @@
    "Group activities"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "010-hydrated-flower-bed"
   ],
@@ -1856,6 +2409,17 @@
    "Colorful stuff"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "019-tantalizing-dining-set"
   ],
@@ -1889,6 +2453,17 @@
    "Colorful stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "120-dinner-table-surprise"
   ],
@@ -1922,6 +2497,15 @@
    "Sharp stuff"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny"
+  ],
   "habitats": [
    "042-sunny-day-site"
   ],
@@ -1959,6 +2543,14 @@
    "Sharp stuff"
   ],
   "flavor": "Dry",
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "009-tree-shaded-flower-bed"
   ],
@@ -1995,6 +2587,17 @@
    "Group activities"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "008-pretty-flower-bed"
   ],
@@ -2030,6 +2633,17 @@
    "Complicated stuff"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "011-field-of-flowers"
   ],
@@ -2063,6 +2677,17 @@
    "Containers"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "027-road-sign"
   ],
@@ -2096,6 +2721,17 @@
    "Containers"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "027-road-sign"
   ],
@@ -2131,6 +2767,17 @@
    "Containers"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "185-ocean-fishing-spot"
   ],
@@ -2166,6 +2813,17 @@
    "Containers"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [],
   "gift": null
  },
@@ -2198,6 +2856,17 @@
    "Round stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "016-riding-warm-updrafts",
    "030-bed-with-a-plush",
@@ -2235,6 +2904,17 @@
    "Spinning stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "181-plush-central"
   ],
@@ -2268,6 +2948,17 @@
    "Sharp stuff"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "015-fresh-veggie-field"
   ],
@@ -2303,6 +2994,17 @@
    "Sharp stuff"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "015-fresh-veggie-field"
   ],
@@ -2336,6 +3038,17 @@
    "Blocky stuff"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "003-boulder-shaded-tall-grass"
   ],
@@ -2369,6 +3082,17 @@
    "Group activities"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "003-boulder-shaded-tall-grass",
    "028-large-luggage-carrier"
@@ -2404,6 +3128,17 @@
    "Group activities"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "177-construction-site-generator"
   ],
@@ -2438,6 +3173,17 @@
    "Blocky stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "032-grave-offering",
    "033-creepy-grave-offering"
@@ -2473,6 +3219,17 @@
    "Containers"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "032-grave-offering",
    "033-creepy-grave-offering"
@@ -2508,6 +3265,17 @@
    "Watching stuff"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "033-creepy-grave-offering"
   ],
@@ -2541,6 +3309,17 @@
    "Sharp stuff"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "029-lumberjack-s-workplace",
    "044-cozy-log-handicrafts"
@@ -2575,6 +3354,17 @@
    "Sharp stuff"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "029-lumberjack-s-workplace",
    "044-cozy-log-handicrafts"
@@ -2612,6 +3402,17 @@
    "Sharp stuff"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "029-lumberjack-s-workplace",
    "044-cozy-log-handicrafts"
@@ -2646,6 +3447,15 @@
    "Healing"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Rainy"
+  ],
   "habitats": [
    "009-tree-shaded-flower-bed",
    "041-rain-dance-site"
@@ -2680,6 +3490,15 @@
    "Healing"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Rainy"
+  ],
   "habitats": [
    "004-hydrated-tall-grass"
   ],
@@ -2714,6 +3533,15 @@
    "Healing"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Rainy"
+  ],
   "habitats": [
    "045-very-berry-space"
   ],
@@ -2749,6 +3577,17 @@
    "Looks like food"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "004-hydrated-tall-grass"
   ],
@@ -2782,6 +3621,17 @@
    "Fabric"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "020-picnic-set"
   ],
@@ -2815,6 +3665,17 @@
    "Rides"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "020-picnic-set"
   ],
@@ -2848,6 +3709,17 @@
    "Letters and words"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "081-full-recovery"
   ],
@@ -2882,6 +3754,17 @@
    "Play spaces"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "176-nature-s-market"
   ],
@@ -2916,6 +3799,14 @@
    "Complicated stuff"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "051-tree-shaded-yellow-tall-grass",
    "066-park-bench"
@@ -2951,6 +3842,14 @@
    "Complicated stuff"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "051-tree-shaded-yellow-tall-grass"
   ],
@@ -2986,6 +3885,14 @@
    "Watching stuff"
   ],
   "flavor": "Dry",
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "052-elevated-yellow-tall-grass",
    "065-trash-disposal-site"
@@ -3020,6 +3927,17 @@
    "Luxury"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "061-resting-spot",
    "091-working-the-register"
@@ -3055,6 +3973,17 @@
    "Luxury"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "179-evil-organization-hq"
   ],
@@ -3088,6 +4017,17 @@
    "Healing"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "078-hot-spring-shower"
   ],
@@ -3121,6 +4061,17 @@
    "Sharp stuff"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "078-hot-spring-shower"
   ],
@@ -3155,6 +4106,17 @@
    "Pretty flowers"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "062-perpetual-mess",
    "079-resort-meal-prep"
@@ -3190,6 +4152,17 @@
    "Symbols"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "129-mini-museum",
    "188-magma-fishing-spot"
@@ -3226,6 +4199,17 @@
    "Exercise"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "080-all-packed-up"
   ],
@@ -3261,6 +4245,17 @@
    "Containers"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "186-marsh-fishing-spot"
   ],
@@ -3296,6 +4291,17 @@
    "Colorful stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "186-marsh-fishing-spot"
   ],
@@ -3331,6 +4337,14 @@
    "Group activities"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "089-spooky-study"
   ],
@@ -3366,6 +4380,14 @@
    "Group activities"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "073-surprise-in-store",
    "089-spooky-study"
@@ -3402,6 +4424,14 @@
    "Group activities"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "073-surprise-in-store"
   ],
@@ -3436,6 +4466,17 @@
    "Spinning stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "066-park-bench",
    "090-playing-pirate"
@@ -3471,6 +4512,17 @@
    "Spinning stuff"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "066-park-bench",
    "090-playing-pirate"
@@ -3507,6 +4559,17 @@
    "Group activities"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "057-tropical-vibes",
    "059-shaded-beach"
@@ -3543,6 +4606,17 @@
    "Wooden stuff"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "057-tropical-vibes",
    "059-shaded-beach"
@@ -3577,6 +4651,17 @@
    "Containers"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "082-alarm-clock-sleep-zone",
    "091-working-the-register"
@@ -3611,6 +4696,17 @@
    "Group activities"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "081-full-recovery"
   ],
@@ -3647,6 +4743,17 @@
    "Group activities"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "095-cuteness-overload"
   ],
@@ -3680,6 +4787,17 @@
    "Spinning stuff"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "084-vending-machine-set"
   ],
@@ -3713,6 +4831,17 @@
    "Exercise"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "064-trash-can-central",
    "072-light-up-stage"
@@ -3748,6 +4877,17 @@
    "Exercise"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "072-light-up-stage",
    "084-vending-machine-set"
@@ -3783,6 +4923,17 @@
    "Healing"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "060-tropical-seaside"
   ],
@@ -3816,6 +4967,17 @@
    "Group activities"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "030-bed-with-a-plush",
    "047-tree-shaded-snoozing-snorlax"
@@ -3851,6 +5013,17 @@
    "Rides"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "047-tree-shaded-snoozing-snorlax",
    "048-good-old-fashioned-antiques"
@@ -3885,6 +5058,17 @@
    "Strange stuff"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "093-gourmet-s-altar"
   ],
@@ -3921,6 +5105,17 @@
    "Colorful stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "050-yellow-tall-grass"
   ],
@@ -3957,6 +5152,17 @@
    "Colorful stuff"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "050-yellow-tall-grass"
   ],
@@ -3993,6 +5199,17 @@
    "Fabric"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "055-overgrowth-vending-machine",
    "077-knitting-station"
@@ -4030,6 +5247,17 @@
    "Rides"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "074-night-festival-venue",
    "077-knitting-station"
@@ -4065,6 +5293,17 @@
    "Pretty flowers"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "097-plain-life"
   ],
@@ -4100,6 +5339,17 @@
    "Rides"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "053-hydrated-yellow-tall-grass",
    "062-perpetual-mess"
@@ -4136,6 +5386,17 @@
    "Symbols"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "053-hydrated-yellow-tall-grass",
    "088-dock"
@@ -4172,6 +5433,17 @@
    "Symbols"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "088-dock"
   ],
@@ -4208,6 +5480,17 @@
    "Group activities"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "054-marshy-tall-grass"
   ],
@@ -4245,6 +5528,17 @@
    "Round stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "054-marshy-tall-grass",
    "186-marsh-fishing-spot"
@@ -4279,6 +5573,17 @@
    "Shiny stuff"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "092-tiny-atelier"
   ],
@@ -4312,6 +5617,17 @@
    "Pretty flowers"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "069-chirp-chirp-meal",
    "079-resort-meal-prep"
@@ -4348,6 +5664,17 @@
    "Construction"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "079-resort-meal-prep",
    "087-furnace-spot"
@@ -4384,6 +5711,17 @@
    "Construction"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "069-chirp-chirp-meal",
    "087-furnace-spot"
@@ -4420,6 +5758,16 @@
    "Watching stuff"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "052-elevated-yellow-tall-grass",
    "058-windy-flower-bed"
@@ -4456,6 +5804,16 @@
    "Watching stuff"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "052-elevated-yellow-tall-grass",
    "058-windy-flower-bed"
@@ -4491,6 +5849,17 @@
    "Wooden stuff"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "051-tree-shaded-yellow-tall-grass",
    "080-all-packed-up"
@@ -4526,6 +5895,17 @@
    "Rides"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "051-tree-shaded-yellow-tall-grass",
    "080-all-packed-up"
@@ -4560,6 +5940,17 @@
    "Exercise"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "096-welcoming-resort"
   ],
@@ -4593,6 +5984,17 @@
    "Containers"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "053-hydrated-yellow-tall-grass"
   ],
@@ -4627,6 +6029,17 @@
    "Containers"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "053-hydrated-yellow-tall-grass",
    "086-waterwheel-spot"
@@ -4663,6 +6076,15 @@
    "Letters and words"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Rainy"
+  ],
   "habitats": [
    "068-tableside-delivery-cart",
    "086-waterwheel-spot"
@@ -4697,6 +6119,17 @@
    "Round stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "091-working-the-register"
   ],
@@ -4730,6 +6163,17 @@
    "Gatherings"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "063-trash-collection-site"
   ],
@@ -4766,6 +6210,17 @@
    "Gatherings"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "063-trash-collection-site"
   ],
@@ -4799,6 +6254,17 @@
    "Group activities"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "056-breezy-flower-bed"
   ],
@@ -4833,6 +6299,17 @@
    "Group activities"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "056-breezy-flower-bed",
    "073-surprise-in-store"
@@ -4867,6 +6344,17 @@
    "Cleanliness"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "075-changing-area",
    "076-private-makeup-stand"
@@ -4902,6 +6390,17 @@
    "Cleanliness"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "076-private-makeup-stand"
   ],
@@ -4935,6 +6434,17 @@
    "Containers"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "050-yellow-tall-grass",
    "083-vending-machine-break-area"
@@ -4971,6 +6481,17 @@
    "Blocky stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "083-vending-machine-break-area"
   ],
@@ -5006,6 +6527,17 @@
    "Nice breezes"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "009-tree-shaded-flower-bed"
   ],
@@ -5040,6 +6572,17 @@
    "Group activities"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "094-pikachu-space"
   ],
@@ -5073,6 +6616,17 @@
    "Group activities"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "056-breezy-flower-bed",
    "067-tantalizing-restaurant"
@@ -5109,6 +6663,17 @@
    "Group activities"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "067-tantalizing-restaurant",
    "070-cafe-space"
@@ -5145,6 +6710,17 @@
    "Group activities"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "070-cafe-space"
   ],
@@ -5179,6 +6755,17 @@
    "Gatherings"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "071-beach-set"
   ],
@@ -5213,6 +6800,17 @@
    "Blocky stuff"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [],
   "gift": null
  },
@@ -5245,6 +6843,17 @@
    "Containers"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [],
   "gift": null
  },
@@ -5276,6 +6885,17 @@
    "Spinning stuff"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "106-hydrated-graceful-flower-bed"
   ],
@@ -5309,6 +6929,17 @@
    "Spinning stuff"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "106-hydrated-graceful-flower-bed"
   ],
@@ -5342,6 +6973,14 @@
    "Rides"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "104-graceful-flower-bed"
   ],
@@ -5375,6 +7014,14 @@
    "Group activities"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "104-graceful-flower-bed",
    "131-bronze-landmark"
@@ -5410,6 +7057,14 @@
    "Group activities"
   ],
   "flavor": "Sour",
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "104-graceful-flower-bed",
    "131-bronze-landmark"
@@ -5445,6 +7100,17 @@
    "Noisy stuff"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "107-flower-garden-stump-stage"
   ],
@@ -5479,6 +7145,17 @@
    "Wobbly stuff"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "107-flower-garden-stump-stage",
    "126-recital-stage"
@@ -5515,6 +7192,17 @@
    "Group activities"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "126-recital-stage"
   ],
@@ -5548,6 +7236,17 @@
    "Slender objects"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "099-tree-shaded-red-tall-grass",
    "119-container-snacking"
@@ -5583,6 +7282,17 @@
    "Slender objects"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "099-tree-shaded-red-tall-grass",
    "123-house-party"
@@ -5618,6 +7328,17 @@
    "Group activities"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "003-boulder-shaded-tall-grass"
   ],
@@ -5652,6 +7373,17 @@
    "Group activities"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "103-grassy-training-field",
    "127-box-to-the-rhythm"
@@ -5687,6 +7419,17 @@
    "Group activities"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "103-grassy-training-field",
    "117-clink-clang-iron-construction"
@@ -5722,6 +7465,17 @@
    "Exercise"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "001-tall-grass"
   ],
@@ -5756,6 +7510,17 @@
    "Exercise"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "111-mossy-boulder"
   ],
@@ -5791,6 +7556,17 @@
    "Exercise"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "111-mossy-boulder"
   ],
@@ -5824,6 +7600,17 @@
    "Wobbly stuff"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "008-pretty-flower-bed"
   ],
@@ -5857,6 +7644,17 @@
    "Exercise"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "116-digging-and-burning"
   ],
@@ -5891,6 +7689,17 @@
    "Exercise"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "122-mini-kitchen"
   ],
@@ -5924,6 +7733,17 @@
    "Round stuff"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "099-tree-shaded-red-tall-grass"
   ],
@@ -5957,6 +7777,17 @@
    "Watching stuff"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "099-tree-shaded-red-tall-grass",
    "123-house-party"
@@ -5993,6 +7824,14 @@
    "Fabric"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "102-elevated-red-tall-grass",
    "105-tree-shaded-graceful-flower-bed"
@@ -6029,6 +7868,14 @@
    "Glass stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "102-elevated-red-tall-grass",
    "125-chirping-recital"
@@ -6065,6 +7912,17 @@
    "Looks like food"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "110-mossy-rest-spot"
   ],
@@ -6100,6 +7958,17 @@
    "Watching stuff"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "138-tree-shaded-pink-tall-grass"
   ],
@@ -6135,6 +8004,17 @@
    "Exercise"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "108-toil-in-the-soil",
    "110-mossy-rest-spot"
@@ -6170,6 +8050,17 @@
    "Noisy stuff"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "101-hydrated-red-tall-grass",
    "109-uplifting-duckweed",
@@ -6206,6 +8097,17 @@
    "Noisy stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "101-hydrated-red-tall-grass",
    "187-hot-spring-fishing-spot"
@@ -6242,6 +8144,17 @@
    "Noisy stuff"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "109-uplifting-duckweed"
   ],
@@ -6277,6 +8190,17 @@
    "Group activities"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "091-working-the-register"
   ],
@@ -6310,6 +8234,17 @@
    "Watching stuff"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "112-mossy-hot-spring"
   ],
@@ -6343,6 +8278,17 @@
    "Watching stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "098-red-tall-grass",
    "128-music-and-magazines"
@@ -6377,6 +8323,17 @@
    "Watching stuff"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "098-red-tall-grass",
    "128-music-and-magazines"
@@ -6413,6 +8370,17 @@
    "Noisy stuff"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "102-elevated-red-tall-grass",
    "125-chirping-recital"
@@ -6447,6 +8415,17 @@
    "Watching stuff"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "098-red-tall-grass",
    "127-box-to-the-rhythm"
@@ -6482,6 +8461,17 @@
    "Healing"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "127-box-to-the-rhythm"
   ],
@@ -6516,6 +8506,17 @@
    "Blocky stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "128-music-and-magazines"
   ],
@@ -6553,6 +8554,17 @@
    "Symbols"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "105-tree-shaded-graceful-flower-bed"
   ],
@@ -6590,6 +8602,17 @@
    "Symbols"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "105-tree-shaded-graceful-flower-bed",
    "115-piping-hot-lava"
@@ -6625,6 +8648,17 @@
    "Spinning stuff"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "015-fresh-veggie-field"
   ],
@@ -6660,6 +8694,17 @@
    "Cleanliness"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "100-pointy-tree-shaded-rocky-tall-grass"
   ],
@@ -6695,6 +8740,17 @@
    "Letters and words"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "100-pointy-tree-shaded-rocky-tall-grass",
    "136-modern-living"
@@ -6729,6 +8785,17 @@
    "Sharp stuff"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "098-red-tall-grass"
   ],
@@ -6762,6 +8829,17 @@
    "Containers"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "113-open-air-bath",
    "130-refreshing-locker-room"
@@ -6797,6 +8875,17 @@
    "Round stuff"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "098-red-tall-grass",
    "130-refreshing-locker-room"
@@ -6832,6 +8921,17 @@
    "Round stuff"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "002-tree-shaded-tall-grass"
   ],
@@ -6865,6 +8965,17 @@
    "Luxury"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "133-chef-s-kitchen"
   ],
@@ -6899,6 +9010,17 @@
    "Rides"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "132-railroad-crossing"
   ],
@@ -6934,6 +9056,17 @@
    "Rides"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "132-railroad-crossing"
   ],
@@ -6969,6 +9102,17 @@
    "Rides"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "132-railroad-crossing",
    "135-heavy-iron"
@@ -7004,6 +9148,17 @@
    "Garbage"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "124-lazy-photo-album-scrolling"
   ],
@@ -7039,6 +9194,17 @@
    "Sharp stuff"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "189-amped-rock-stage"
   ],
@@ -7074,6 +9240,17 @@
    "Sharp stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "190-low-key-rock-stage"
   ],
@@ -7107,6 +9284,16 @@
    "Letters and words"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "104-graceful-flower-bed",
    "121-best-bread-bakery"
@@ -7142,6 +9329,16 @@
    "Looks like food"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "104-graceful-flower-bed",
    "121-best-bread-bakery"
@@ -7176,6 +9373,17 @@
    "Luxury"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "115-piping-hot-lava"
   ],
@@ -7211,6 +9419,17 @@
    "Luxury"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "192-auspicious-knight-s-shrine"
   ],
@@ -7246,6 +9465,17 @@
    "Luxury"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "191-malicious-knight-s-shrine"
   ],
@@ -7282,6 +9512,17 @@
    "Complicated stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "118-creepy-white-rocks",
    "119-container-snacking"
@@ -7319,6 +9560,17 @@
    "Complicated stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "118-creepy-white-rocks",
    "119-container-snacking"
@@ -7353,6 +9605,17 @@
    "Complicated stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "129-mini-museum"
   ],
@@ -7387,6 +9650,17 @@
    "Complicated stuff"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "134-absolute-luxury"
   ],
@@ -7420,6 +9694,17 @@
    "Pretty flowers"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "142-fluffy-flower-bed"
   ],
@@ -7453,6 +9738,17 @@
    "Pretty flowers"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "142-fluffy-flower-bed",
    "180-nine-flames"
@@ -7487,6 +9783,17 @@
    "Spinning stuff"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "161-squeaky-clean"
   ],
@@ -7520,6 +9827,17 @@
    "Spinning stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "144-hydrated-fluffy-flower-bed"
   ],
@@ -7555,6 +9873,17 @@
    "Group activities"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "156-sewer-hole-inspection",
    "178-dojo-training"
@@ -7590,6 +9919,17 @@
    "Group activities"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "106-hydrated-graceful-flower-bed",
    "107-flower-garden-stump-stage",
@@ -7625,6 +9965,17 @@
    "Watching stuff"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "151-surging-psychic-power",
    "152-fortune-teller-s-table"
@@ -7659,6 +10010,17 @@
    "Watching stuff"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "152-fortune-teller-s-table"
   ],
@@ -7693,6 +10055,17 @@
    "Watching stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "151-surging-psychic-power",
    "168-experiment-space"
@@ -7728,6 +10101,17 @@
    "Colorful stuff"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "157-spotless-washing-station",
    "171-public-reading-material"
@@ -7764,6 +10148,17 @@
    "Watching stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "157-spotless-washing-station"
   ],
@@ -7797,6 +10192,17 @@
    "Colorful stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "170-researcher-s-desk"
   ],
@@ -7830,6 +10236,17 @@
    "Colorful stuff"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "166-work-desk"
   ],
@@ -7863,6 +10280,17 @@
    "Colorful stuff"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "164-game-corner-battle-zone"
   ],
@@ -7896,6 +10324,17 @@
    "Slender objects"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "144-hydrated-fluffy-flower-bed",
    "148-simple-bathroom"
@@ -7930,6 +10369,17 @@
    "Slender objects"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "144-hydrated-fluffy-flower-bed",
    "148-simple-bathroom"
@@ -7966,6 +10416,17 @@
    "Pretty flowers"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "145-waterside-dinghy"
   ],
@@ -7999,6 +10460,17 @@
    "Rides"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "141-concrete-pipe-secret-base"
   ],
@@ -8032,6 +10504,17 @@
    "Rides"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "141-concrete-pipe-secret-base",
    "150-fireplace-nap-spot"
@@ -8067,6 +10550,17 @@
    "Rides"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "150-fireplace-nap-spot",
    "183-top-pop"
@@ -8101,6 +10595,14 @@
    "Watching stuff"
   ],
   "flavor": "Dry",
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "142-fluffy-flower-bed",
    "167-office-storeroom"
@@ -8136,6 +10638,14 @@
    "Group activities"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "142-fluffy-flower-bed",
    "158-home-theater",
@@ -8172,6 +10682,17 @@
    "Slender objects"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "143-tree-shaded-fluffy-flower-bed"
   ],
@@ -8207,6 +10728,17 @@
    "Slender objects"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "143-tree-shaded-fluffy-flower-bed"
   ],
@@ -8241,6 +10773,17 @@
    "Symbols"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "159-study-area"
   ],
@@ -8275,6 +10818,17 @@
    "Symbols"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "159-study-area",
    "162-moisturizing-makeup-stand"
@@ -8311,6 +10865,17 @@
    "Symbols"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "162-moisturizing-makeup-stand",
    "163-mini-library"
@@ -8347,6 +10912,17 @@
    "Fabric"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "178-dojo-training"
   ],
@@ -8380,6 +10956,17 @@
    "Group activities"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "174-picturesque-photo-cutout-board"
   ],
@@ -8413,6 +11000,17 @@
    "Group activities"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "174-picturesque-photo-cutout-board"
   ],
@@ -8449,6 +11047,17 @@
    "Exercise"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "137-pink-tall-grass"
   ],
@@ -8484,6 +11093,17 @@
    "Noisy stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "137-pink-tall-grass"
   ],
@@ -8519,6 +11139,17 @@
    "Wooden stuff"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "137-pink-tall-grass"
   ],
@@ -8555,6 +11186,17 @@
    "Cleanliness"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "137-pink-tall-grass"
   ],
@@ -8592,6 +11234,17 @@
    "Noisy stuff"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "147-birdsong-garden"
   ],
@@ -8625,6 +11278,14 @@
    "Fabric"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "137-pink-tall-grass"
   ],
@@ -8658,6 +11319,14 @@
    "Containers"
   ],
   "flavor": "Sour",
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "153-trash-site-tv"
   ],
@@ -8692,6 +11361,14 @@
    "Containers"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "153-trash-site-tv"
   ],
@@ -8726,6 +11403,17 @@
    "Stone stuff"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "149-cycling-rest-stop"
   ],
@@ -8760,6 +11448,17 @@
    "Stone stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "169-professor-s-apprentice-program"
   ],
@@ -8795,6 +11494,17 @@
    "Luxury"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "182-gamer-s-paradise"
   ],
@@ -8831,6 +11541,17 @@
    "Shiny stuff"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "165-playland"
   ],
@@ -8867,6 +11588,17 @@
    "Shiny stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "143-tree-shaded-fluffy-flower-bed"
   ],
@@ -8903,6 +11635,17 @@
    "Slender objects"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "143-tree-shaded-fluffy-flower-bed",
    "171-public-reading-material"
@@ -8937,6 +11680,17 @@
    "Containers"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "139-hydrated-pink-tall-grass"
   ],
@@ -8970,6 +11724,17 @@
    "Exercise"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "139-hydrated-pink-tall-grass",
    "173-prank-button"
@@ -9006,6 +11771,17 @@
    "Exercise"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "139-hydrated-pink-tall-grass",
    "173-prank-button"
@@ -9041,6 +11817,17 @@
    "Looks like food"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "175-tire-park"
   ],
@@ -9075,6 +11862,17 @@
    "Looks like food"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "160-rhythmic-living-room"
   ],
@@ -9110,6 +11908,17 @@
    "Looks like food"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "160-rhythmic-living-room"
   ],
@@ -9143,6 +11952,17 @@
    "Wooden stuff"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "142-fluffy-flower-bed"
   ],
@@ -9176,6 +11996,17 @@
    "Wooden stuff"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "140-elevated-pink-tall-grass"
   ],
@@ -9211,6 +12042,17 @@
    "Wooden stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "140-elevated-pink-tall-grass",
    "156-sewer-hole-inspection"
@@ -9247,6 +12089,17 @@
    "Group activities"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "138-tree-shaded-pink-tall-grass"
   ],
@@ -9282,6 +12135,17 @@
    "Group activities"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "138-tree-shaded-pink-tall-grass",
    "167-office-storeroom"
@@ -9318,6 +12182,17 @@
    "Group activities"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "167-office-storeroom"
   ],
@@ -9351,6 +12226,17 @@
    "Cute stuff"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "138-tree-shaded-pink-tall-grass",
    "155-interrogation-desk"
@@ -9385,6 +12271,17 @@
    "Cute stuff"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "155-interrogation-desk"
   ],
@@ -9420,6 +12317,17 @@
    "Cute stuff"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "172-heart-pounding-surprise-box"
   ],
@@ -9454,6 +12362,17 @@
    "Complicated stuff"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "140-elevated-pink-tall-grass"
   ],
@@ -9489,6 +12408,17 @@
    "Slender objects"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "140-elevated-pink-tall-grass"
   ],
@@ -9523,6 +12453,17 @@
    "Exercise"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "028-large-luggage-carrier",
    "154-oversized-dumping-ground"
@@ -9558,6 +12499,17 @@
    "Exercise"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "028-large-luggage-carrier",
    "156-sewer-hole-inspection"
@@ -9593,6 +12545,8 @@
    "Exercise"
   ],
   "flavor": "Spicy",
+  "times": null,
+  "weather": null,
   "habitats": [
    "154-oversized-dumping-ground"
   ],
@@ -9627,6 +12581,17 @@
    "Spinning stuff"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "193-wing-fossil-display"
   ],
@@ -9660,6 +12625,17 @@
    "Exercise"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "194-skull-fossil-display"
   ],
@@ -9696,6 +12672,17 @@
    "Exercise"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "195-headbutt-fossil-display"
   ],
@@ -9730,6 +12717,17 @@
    "Round stuff"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "196-armor-fossil-display"
   ],
@@ -9767,6 +12765,17 @@
    "Exercise"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "197-shield-fossil-display"
   ],
@@ -9801,6 +12810,17 @@
    "Exercise"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "198-jaw-fossil-display"
   ],
@@ -9838,6 +12858,17 @@
    "Exercise"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "199-despot-fossil-display"
   ],
@@ -9872,6 +12903,17 @@
    "Containers"
   ],
   "flavor": "Dry",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "200-sail-fossil-display"
   ],
@@ -9909,6 +12951,17 @@
    "Symbols"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "201-tundra-fossil-display"
   ],
@@ -9942,6 +12995,17 @@
    "Group activities"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "008-pretty-flower-bed"
   ],
@@ -9975,6 +13039,17 @@
    "Watching stuff"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "202-boundless-blue-beverage"
   ],
@@ -10008,6 +13083,17 @@
    "Sharp stuff"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "203-electrifying-potatoes"
   ],
@@ -10041,6 +13127,17 @@
    "Rides"
   ],
   "flavor": "Spicy",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "204-burning-hot-spice"
   ],
@@ -10074,6 +13171,16 @@
    "Watching stuff"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "205-elegant-daytime-treats"
   ],
@@ -10107,6 +13214,14 @@
    "Watching stuff"
   ],
   "flavor": "Bitter",
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "206-dark-chocolate-cookies"
   ],
@@ -10140,6 +13255,17 @@
    "Healing"
   ],
   "flavor": "Sour",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "207-leafy-greens-sandwich"
   ],
@@ -10173,6 +13299,17 @@
    "Group activities"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "208-chilly-shaved-ice"
   ],
@@ -10206,6 +13343,17 @@
    "Round stuff"
   ],
   "flavor": "Sweet",
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ],
   "habitats": [
    "209-lovely-ribbon-cake"
   ],
@@ -10237,6 +13385,8 @@
    "Glass stuff"
   ],
   "flavor": "Dry",
+  "times": null,
+  "weather": null,
   "habitats": [],
   "gift": null
  },
@@ -10268,6 +13418,8 @@
    "Luxury"
   ],
   "flavor": "Dry",
+  "times": null,
+  "weather": null,
   "habitats": [],
   "gift": null
  },
@@ -10299,6 +13451,8 @@
    "Luxury"
   ],
   "flavor": "Bitter",
+  "times": null,
+  "weather": null,
   "habitats": [],
   "gift": null
  },
@@ -10330,6 +13484,8 @@
    "Healing"
   ],
   "flavor": "Sour",
+  "times": null,
+  "weather": null,
   "habitats": [],
   "gift": null
  },
@@ -10362,6 +13518,8 @@
    "Symbols"
   ],
   "flavor": "Spicy",
+  "times": null,
+  "weather": null,
   "habitats": [],
   "gift": null
  },
@@ -10394,6 +13552,8 @@
    "Luxury"
   ],
   "flavor": "Sour",
+  "times": null,
+  "weather": null,
   "habitats": [],
   "gift": null
  },
@@ -10426,6 +13586,8 @@
    "Luxury"
   ],
   "flavor": "Spicy",
+  "times": null,
+  "weather": null,
   "habitats": [],
   "gift": null
  },
@@ -10458,6 +13620,8 @@
    "Luxury"
   ],
   "flavor": "Spicy",
+  "times": null,
+  "weather": null,
   "habitats": [],
   "gift": null
  },
@@ -10488,6 +13652,8 @@
    "Symbols"
   ],
   "flavor": "Dry",
+  "times": null,
+  "weather": null,
   "habitats": [],
   "gift": null
  },
@@ -10518,6 +13684,8 @@
    "Symbols"
   ],
   "flavor": "Spicy",
+  "times": null,
+  "weather": null,
   "habitats": [],
   "gift": null
  },
@@ -10549,6 +13717,8 @@
    "Stone stuff"
   ],
   "flavor": "Dry",
+  "times": null,
+  "weather": null,
   "habitats": [],
   "gift": null
  },
@@ -10580,6 +13750,8 @@
    "Play spaces"
   ],
   "flavor": "Sweet",
+  "times": null,
+  "weather": null,
   "habitats": [],
   "gift": null
  },
@@ -10614,6 +13786,8 @@
    "Containers"
   ],
   "flavor": "Bitter",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-002-basin-tall-grass-and-coral",
    "basin-009-sandy-digging-spot"
@@ -10652,6 +13826,8 @@
    "Containers"
   ],
   "flavor": "Sour",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-005-swaying-flower-bed-and-seaweed"
   ],
@@ -10685,6 +13861,8 @@
    "Group activities"
   ],
   "flavor": "Sweet",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-007-coral-congregation"
   ],
@@ -10721,6 +13899,8 @@
    "Sharp stuff"
   ],
   "flavor": "Spicy",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-007-coral-congregation"
   ],
@@ -10758,6 +13938,8 @@
    "Nice breezes"
   ],
   "flavor": "Dry",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-007-coral-congregation",
    "basin-034-marine-makeup-stand"
@@ -10792,6 +13974,8 @@
    "Sharp stuff"
   ],
   "flavor": "Bitter",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-003-swaying-flower-bed"
   ],
@@ -10827,6 +14011,8 @@
    "Complicated stuff"
   ],
   "flavor": "Bitter",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-036-mermaid-s-gym"
   ],
@@ -10860,6 +14046,8 @@
    "Wobbly stuff"
   ],
   "flavor": "Spicy",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-001-basin-tall-grass",
    "basin-024-canoe-dock",
@@ -10896,6 +14084,8 @@
    "Fabric"
   ],
   "flavor": "Spicy",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-015-chimney-rocks-dig-site",
    "basin-024-canoe-dock"
@@ -10931,6 +14121,8 @@
    "Nice breezes"
   ],
   "flavor": "Sour",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-001-basin-tall-grass",
    "basin-011-biteable-punching-bag"
@@ -10966,6 +14158,8 @@
    "Shiny stuff"
   ],
   "flavor": "Dry",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-023-fluffy-relaxation"
   ],
@@ -11001,6 +14195,8 @@
    "Cleanliness"
   ],
   "flavor": "Spicy",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-033-nostalgia-zone"
   ],
@@ -11035,6 +14231,8 @@
    "Cleanliness"
   ],
   "flavor": "Sweet",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-002-basin-tall-grass-and-coral",
    "basin-007-coral-congregation"
@@ -11069,6 +14267,8 @@
    "Stone stuff"
   ],
   "flavor": "Dry",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-001-basin-tall-grass",
    "basin-023-fluffy-relaxation"
@@ -11105,6 +14305,8 @@
    "Watching stuff"
   ],
   "flavor": "Dry",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-014-creepy-chimney-rocks",
    "basin-025-muddy-playtime"
@@ -11141,6 +14343,8 @@
    "Exercise"
   ],
   "flavor": "Dry",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-002-basin-tall-grass-and-coral",
    "basin-026-muddy-spa"
@@ -11176,6 +14380,8 @@
    "Group activities"
   ],
   "flavor": "Spicy",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-006-seaweed-and-netting"
   ],
@@ -11211,6 +14417,8 @@
    "Symbols"
   ],
   "flavor": "Spicy",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-015-chimney-rocks-dig-site"
   ],
@@ -11245,6 +14453,8 @@
    "Slender objects"
   ],
   "flavor": "Bitter",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-010-sandy-speech",
    "basin-019-ocean-rest-spot",
@@ -11282,6 +14492,8 @@
    "Wobbly stuff"
   ],
   "flavor": "Dry",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-035-gorgeous-sleeping-area"
   ],
@@ -11315,6 +14527,8 @@
    "Play spaces"
   ],
   "flavor": "Bitter",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-008-sandy-basin-tall-grass",
    "basin-009-sandy-digging-spot"
@@ -11351,6 +14565,8 @@
    "Luxury"
   ],
   "flavor": "Spicy",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-009-sandy-digging-spot"
   ],
@@ -11384,6 +14600,8 @@
    "Play spaces"
   ],
   "flavor": "Sweet",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-004-swaying-flower-bed-and-coral",
    "basin-018-treasure-chest-and-sparkling-jewels",
@@ -11420,6 +14638,8 @@
    "Group activities"
   ],
   "flavor": "Dry",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-001-basin-tall-grass",
    "basin-022-smoothie-making-spot"
@@ -11455,6 +14675,8 @@
    "Cleanliness"
   ],
   "flavor": "Spicy",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-020-marine-shop"
   ],
@@ -11488,6 +14710,8 @@
    "Fabric"
   ],
   "flavor": "Sour",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-003-swaying-flower-bed",
    "basin-012-marine-mossy-rest-spot"
@@ -11523,6 +14747,8 @@
    "Group activities"
   ],
   "flavor": "Dry",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-005-swaying-flower-bed-and-seaweed",
    "basin-012-marine-mossy-rest-spot"
@@ -11559,6 +14785,8 @@
    "Fabric"
   ],
   "flavor": "Sweet",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-017-playing-sailor",
    "basin-021-ocean-treasures"
@@ -11595,6 +14823,8 @@
    "Fabric"
   ],
   "flavor": "Sweet",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-017-playing-sailor",
    "basin-021-ocean-treasures"
@@ -11631,6 +14861,8 @@
    "Luxury"
   ],
   "flavor": "Sour",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-032-marine-teatime"
   ],
@@ -11666,6 +14898,8 @@
    "Luxury"
   ],
   "flavor": "Sour",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-032-marine-teatime"
   ],
@@ -11700,6 +14934,8 @@
    "Cleanliness"
   ],
   "flavor": "Sour",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-021-ocean-treasures"
   ],
@@ -11735,6 +14971,8 @@
    "Watching stuff"
   ],
   "flavor": "Dry",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-003-swaying-flower-bed",
    "basin-006-seaweed-and-netting"
@@ -11771,6 +15009,8 @@
    "Noisy stuff"
   ],
   "flavor": "Sweet",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-025-muddy-playtime"
   ],
@@ -11806,6 +15046,8 @@
    "Letters and words"
   ],
   "flavor": "Sour",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-027-topsy-turvy"
   ],
@@ -11840,6 +15082,8 @@
    "Shiny stuff"
   ],
   "flavor": "Sweet",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-003-swaying-flower-bed",
    "basin-029-bubbly-stage"
@@ -11875,6 +15119,8 @@
    "Cleanliness"
   ],
   "flavor": "Sweet",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-029-bubbly-stage"
   ],
@@ -11910,6 +15156,8 @@
    "Cleanliness"
   ],
   "flavor": "Sour",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-031-elegant-concert"
   ],
@@ -11944,6 +15192,8 @@
    "Shiny stuff"
   ],
   "flavor": "Bitter",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-004-swaying-flower-bed-and-coral"
   ],
@@ -11979,6 +15229,8 @@
    "Containers"
   ],
   "flavor": "Dry",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-018-treasure-chest-and-sparkling-jewels"
   ],
@@ -12013,6 +15265,8 @@
    "Ocean vibes"
   ],
   "flavor": "Bitter",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-016-discarded-treasure"
   ],
@@ -12048,6 +15302,8 @@
    "Luxury"
   ],
   "flavor": "Dry",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-004-swaying-flower-bed-and-coral",
    "basin-016-discarded-treasure"
@@ -12084,6 +15340,8 @@
    "Watching stuff"
   ],
   "flavor": "Sour",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-013-molten-mossy-rest-spot"
   ],
@@ -12121,6 +15379,8 @@
    "Ocean vibes"
   ],
   "flavor": "Bitter",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-017-playing-sailor"
   ],
@@ -12154,6 +15414,8 @@
    "Fabric"
   ],
   "flavor": "Sweet",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-022-smoothie-making-spot"
   ],
@@ -12189,6 +15451,8 @@
    "Exercise"
   ],
   "flavor": "Sour",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-024-canoe-dock"
   ],
@@ -12222,6 +15486,8 @@
    "Ocean vibes"
   ],
   "flavor": "Bitter",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-014-creepy-chimney-rocks"
   ],
@@ -12255,6 +15521,8 @@
    "Lots of dirt"
   ],
   "flavor": "Dry",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-010-sandy-speech"
   ],
@@ -12289,6 +15557,8 @@
    "Stone stuff"
   ],
   "flavor": "Sweet",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-030-glowing-stage-for-three"
   ],
@@ -12324,6 +15594,8 @@
    "Rides"
   ],
   "flavor": "Sweet",
+  "times": null,
+  "weather": null,
   "habitats": [
    "basin-012-marine-mossy-rest-spot"
   ],
@@ -12357,6 +15629,8 @@
    "Round stuff"
   ],
   "flavor": "Sour",
+  "times": null,
+  "weather": null,
   "habitats": [],
   "gift": null
  },
@@ -12389,6 +15663,8 @@
    "Noisy stuff"
   ],
   "flavor": "Bitter",
+  "times": null,
+  "weather": null,
   "habitats": [],
   "gift": null
  },
@@ -12421,6 +15697,8 @@
    "Wobbly stuff"
   ],
   "flavor": "Sweet",
+  "times": null,
+  "weather": null,
   "habitats": [
    "event-001-yellow-carpet"
   ],
@@ -12455,6 +15733,8 @@
    "Spinning stuff"
   ],
   "flavor": "Dry",
+  "times": null,
+  "weather": null,
   "habitats": [
    "event-001-yellow-carpet",
    "event-002-field-trip-friends"
@@ -12493,6 +15773,8 @@
    "Round stuff"
   ],
   "flavor": "Sour",
+  "times": null,
+  "weather": null,
   "habitats": [
    "event-001-yellow-carpet",
    "event-003-dandelion-lunchtime"
@@ -12528,6 +15810,8 @@
    "Watching stuff"
   ],
   "flavor": "Sour",
+  "times": null,
+  "weather": null,
   "habitats": [
    "event-004-treasure-hunting-set"
   ],
@@ -12564,6 +15848,8 @@
    "Wobbly stuff"
   ],
   "flavor": "Sweet",
+  "times": null,
+  "weather": null,
   "habitats": [
    "event-005-surrounded-by-stars"
   ],
@@ -12597,6 +15883,8 @@
    "Group activities"
   ],
   "flavor": "Sweet",
+  "times": null,
+  "weather": null,
   "habitats": [
    "event-006-exciting-beach"
   ],
@@ -12631,6 +15919,8 @@
    "Cleanliness"
   ],
   "flavor": "Sour",
+  "times": null,
+  "weather": null,
   "habitats": [
    "event-007-marine-leisure-activities"
   ],

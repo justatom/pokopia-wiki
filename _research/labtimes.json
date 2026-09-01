@@ -1,0 +1,3734 @@
+{
+ "001-bulbasaur": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "002-ivysaur": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "003-venusaur": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "004-charmander": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy"
+  ]
+ },
+ "005-charmeleon": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy"
+  ]
+ },
+ "006-charizard": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy"
+  ]
+ },
+ "007-squirtle": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "008-wartortle": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "009-blastoise": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "010-pidgey": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "011-pidgeotto": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "012-pidgeot": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "013-oddish": {
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "014-gloom": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "015-vileplume": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "016-bellossom": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "017-paras": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "018-parasect": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "019-venonat": {
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "020-venomoth": {
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "021-bellsprout": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "022-weepinbell": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "023-victreebel": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "024-slowpoke": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "025-slowbro": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "026-slowking": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "027-magnemite": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "028-magneton": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "029-magnezone": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "030-onix": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "031-steelix": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "032-cubone": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "033-marowak": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "034-tyrogue": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "035-hitmonlee": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "036-hitmonchan": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "037-hitmontop": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "038-koffing": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "039-weezing": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "040-tangela": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "041-tangrowth": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "041-tangrowth-professor": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "042-scyther": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "043-scizor": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "044-pinsir": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "045-magikarp": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "046-gyarados": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "048-hoothoot": {
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "049-noctowl": {
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "050-heracross": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "051-volbeat": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "052-illumise": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "053-gulpin": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "054-swalot": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "055-cacnea": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny"
+  ]
+ },
+ "056-cacturne": {
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "057-combee": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "058-vespiquen": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "059-shellos-west-sea": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "059-shellos-east-sea": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "060-gastrodon-west-sea": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "060-gastrodon-east-sea": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "061-drifloon": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "062-drifblim": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "063-drilbur": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "064-excadrill": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "065-timburr": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "066-gurdurr": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "067-conkeldurr": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "068-litwick": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "069-lampent": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "070-chandelure": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "071-axew": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "072-fraxure": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "073-haxorus": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "074-goomy": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Rainy"
+  ]
+ },
+ "075-sliggoo": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Rainy"
+  ]
+ },
+ "076-goodra": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Rainy"
+  ]
+ },
+ "077-cramorant": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "078-pichu": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "079-pikachu": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "079-pikachu-pale": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "080-raichu": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "081-zubat": {
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "082-golbat": {
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "083-crobat": {
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "084-meowth": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "085-persian": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "086-psyduck": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "087-golduck": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "088-growlithe": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "089-arcanine": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "090-farfetch-d": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "091-grimer": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "092-muk": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "093-gastly": {
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "094-haunter": {
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "095-gengar": {
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "096-voltorb": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "097-electrode": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "098-exeggcute": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "099-exeggutor": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "100-happiny": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "101-chansey": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "102-blissey": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "103-elekid": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "104-electabuzz": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "105-electivire": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "106-lapras": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "107-munchlax": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "108-snorlax": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "108-snorlax-mossy": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "109-spinarak": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "110-ariados": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "111-mareep": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "112-flaaffy": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "113-ampharos": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "114-azurill": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "115-marill": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "116-azumarill": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "117-wooper-paldean-form": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "118-clodsire": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "119-smeargle-decorator": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "120-torchic": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "121-combusken": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "122-blaziken": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "123-wingull": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "124-pelipper": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "125-makuhita": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "126-hariyama": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "127-absol": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "128-piplup": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "129-prinplup": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "130-empoleon": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Rainy"
+  ]
+ },
+ "131-audino": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "132-trubbish": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "133-garbodor": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "134-zorua": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "135-zoroark": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "136-minccino": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "137-cinccino": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "138-grubbin": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "139-charjabug": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "140-vikavolt": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "141-mimikyu": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "142-pawmi": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "143-pawmo": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "144-pawmot": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "145-tatsugiri-curly-form": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "145-tatsugiri-droopy-form": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "145-tatsugiri-stretchy-form": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "146-ekans": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "147-arbok": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "148-cleffa": {
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "149-clefairy": {
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "150-clefable": {
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "151-igglybuff": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "152-jigglypuff": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "153-wigglytuff": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "154-diglett": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "155-dugtrio": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "156-machop": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "157-machoke": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "158-machamp": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "159-geodude": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "160-graveler": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "161-golem": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "162-magby": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "163-magmar": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "164-magmortar": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "165-bonsly": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "166-sudowoodo": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "167-murkrow": {
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "168-honchkrow": {
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "169-larvitar": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "170-pupitar": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "171-tyranitar": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "172-lotad": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "173-lombre": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "174-ludicolo": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "175-mawile": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "176-torkoal": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "177-kricketot": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "178-kricketune": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "179-chatot": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "180-riolu": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "181-lucario": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "182-rotom-stereo-rotom": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "183-larvesta": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "184-volcarona": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "185-rowlet": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "186-dartrix": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "187-decidueye": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "188-scorbunny": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "189-raboot": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "190-cinderace": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "191-skwovet": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "192-greedent-cook": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "193-rolycoly": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "194-carkol": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "195-coalossal": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "196-toxel": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "197-toxtricity-amped-form": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "197-toxtricity-low-key-form": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "198-fidough": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "199-dachsbun": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "200-charcadet": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "201-armarouge": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "202-ceruledge": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "203-glimmet": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "204-glimmora": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "205-gimmighoul": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "206-gholdengo": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "207-vulpix": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "208-ninetales": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "209-poliwag": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "210-poliwhirl": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "211-poliwrath": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "212-politoed": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "213-abra": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "214-kadabra": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "215-alakazam": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "216-mime-jr": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "217-mr-mime": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "218-porygon": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "219-porygon2": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "220-porygon-z": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "221-dratini": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "222-dragonair": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "223-dragonite": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "224-cyndaquil": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "225-quilava": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "226-typhlosion": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "227-misdreavus": {
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "228-mismagius": {
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "229-girafarig": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "230-farigiraf": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "231-ralts": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "232-kirlia": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "233-gardevoir": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "234-gallade": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "235-plusle": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "236-minun": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "237-trapinch": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "238-vibrava": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "239-flygon": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "240-swablu": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "241-altaria": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "242-duskull": {
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "243-dusclops": {
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "244-dusknoir": {
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "245-beldum": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "246-metang": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "247-metagross": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "248-snivy": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "249-servine": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "250-serperior": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "251-froakie": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "252-frogadier": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "253-greninja": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "254-dedenne": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "255-noibat": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "256-noivern": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "257-rookidee": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "258-corvisquire": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "259-corviknight": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "260-dreepy": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "261-drakloak": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "262-dragapult": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "263-sprigatito": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "264-floragato": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "265-meowscarada": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "266-wattrel": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "267-kilowattrel": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "268-tinkatink": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "269-tinkatuff": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "271-aerodactyl": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "272-cranidos": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "273-rampardos": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "274-shieldon": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "275-bastiodon": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "276-tyrunt": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "277-tyrantrum": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "278-amaura": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "279-aurorus": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "280-eevee": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "281-vaporeon": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "282-jolteon": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "283-flareon": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "284-espeon": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "285-umbreon": {
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "286-leafeon": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "287-glaceon": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ },
+ "288-sylveon": {
+  "times": [
+   "Morning",
+   "Day",
+   "Sunset",
+   "Night"
+  ],
+  "weather": [
+   "Sunny",
+   "Cloudy",
+   "Rainy"
+  ]
+ }
+}

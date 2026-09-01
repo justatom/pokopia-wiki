@@ -89,6 +89,8 @@ for (const s of R.litter.secs) for (const r of s.rows) {
    Pokopia dex number + national number + form, because Shellos, Tatsugiri and the unique
    story Pokémon each share a dex number with their base form. */
 const LIKES = fs.existsSync('_research/likes.json') ? j('_research/likes.json') : {};
+/* time of day and weather, keyed by our own Pokémon id (see scripts/labtimes.mjs) */
+const LABTIMES = fs.existsSync('_research/labtimes.json') ? j('_research/labtimes.json') : {};
 /* the dex writes DJ Rotom's form as "Stereo Rotom" where Bulbapedia labels it "Stereo" */
 const likesOf = p => {
   const form = String(p.form || '');
@@ -112,6 +114,8 @@ for (const [dex, rows, spmap] of pokedexes) {
       specialties: row ? row.specs : [],
       litter: litter.get(serebiiName.toLowerCase()) || litter.get(p.name.toLowerCase()) || [],
       ...(({ ambience = null, favorites = [], flavor = null }) => ({ ambience, favorites, flavor }))(likesOf(p)),
+      ...(({ times = null, weather = null }) => ({ times, weather }))(
+        LABTIMES[`${dex === 'main' ? '' : dex + '-'}${String(p.no).padStart(3, '0')}-${slug(p.name)}${p.form ? '-' + slug(p.form) : ''}`] || {}),
     });
   }
 }

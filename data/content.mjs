@@ -431,5 +431,7 @@ export const SOURCES = [
   ['Bulbapedia — Pokémon Pokopia', 'https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Pokopia'],
   ['Nintendo — Pokémon Pokopia store page', 'https://www.nintendo.com/us/store/products/pokemon-pokopia-switch-2/'],
   ['Pokemon.com — Pokopia news', 'https://www.pokemon.com/us/news/pokemon-pokopia-is-available-now-on-nintendo-switch-2'],
+  ['Dexerto — Pokopia habitat dex', 'https://www.dexerto.com/wikis/pokopia/habitat-dex/'],
+  ['Pokopia Lab — per-Pokémon time of day and weather', 'https://pokopialab.com/'],
   ['PokéAPI — species names and sprites', 'https://pokeapi.co/'],
 ];

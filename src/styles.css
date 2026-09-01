@@ -311,6 +311,19 @@ td.num { font-variant-numeric: tabular-nums; color: var(--muted); white-space: n
 .env-pick span:last-child { margin-left: auto; font-size: .76rem; color: var(--muted); }
 .env-desc { margin: 6px 0 0; font-size: .88rem; color: var(--ink-2); }
 
+/* time-of-day and weather conditions: the ones that do not apply stay visible but muted,
+   so "night only" reads as a restriction rather than as missing data */
+.conds { display: grid; gap: 12px; margin-top: 12px; }
+.cond-block { padding: 12px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); }
+.cond-label { font-size: .7rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase;
+  color: var(--muted); margin-bottom: 8px; }
+.cond-row { display: flex; flex-wrap: wrap; gap: 6px; }
+.cond { padding: 5px 12px; border-radius: 999px; font-size: .8rem; font-weight: 500;
+  border: 1px solid var(--line); background: var(--paper-2); color: var(--muted); opacity: .45; }
+.cond-on { background: var(--moss-soft); border-color: var(--moss); color: var(--moss); font-weight: 600; opacity: 1; }
+.cond-note { margin: 8px 0 0; font-size: .82rem; color: var(--clay); font-weight: 500; }
+@media (min-width: 560px) { .conds { grid-template-columns: 1fr 1fr; } }
+
 /* cooking equipment */
 .cookware { display: grid; gap: 14px; margin-top: 12px; }
 .cookware-type { padding: 12px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); }

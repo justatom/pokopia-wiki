@@ -29,3 +29,6 @@ src/sprites/moves/
 
 # finished-building renders — re-downloaded by `npm run sprites`
 src/sprites/builds/
+
+# cached Pokopia Lab pages: the parsed _research/labtimes.json is committed, these are not
+_research/lab/

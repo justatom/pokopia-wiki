@@ -138,7 +138,8 @@ After the first push, enable Pages in **Settings → Pages → Source: GitHub Ac
 Game data was compiled from [Serebii](https://www.serebii.net/pokemonpokopia/),
 [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Pokopia),
 the [Dexerto habitat dex](https://www.dexerto.com/wikis/pokopia/habitat-dex/), the official
-Nintendo and Pokémon listings, and [PokéAPI](https://pokeapi.co/) for species names and sprites.
+Nintendo and Pokémon listings, [Pokopia Lab](https://pokopialab.com/) for per-Pokémon time of
+day and weather, and [PokéAPI](https://pokeapi.co/) for species names and sprites.
 Item icons and habitat pictures are the in-game assets as catalogued by Serebii.
 
 ## Licence
