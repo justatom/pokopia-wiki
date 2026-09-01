@@ -3,336 +3,2803 @@
   "id": "leaf-den-kit",
   "name": "Leaf den kit",
   "desc": "Gather some Pokémon and build away! This makes a den for medium-sized Pokémon or smaller",
-  "img": "leafdenkit.png"
+  "img": "leafdenkit.png",
+  "materials": [
+   {
+    "name": "Sturdy stick",
+    "qty": 3
+   },
+   {
+    "name": "Leaf",
+    "qty": 3
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [],
+    "text": "×1 other Pokémon"
+   }
+  ],
+  "time": [
+   "15 minutes",
+   "5 minutes (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "leaf-hut-kit",
   "name": "Leaf hut kit",
   "desc": "Gather some Pokémon and build away! This makes a hut that any Pokémon could easily live in",
-  "img": "leafhutkit.png"
+  "img": "leafhutkit.png",
+  "materials": [
+   {
+    "name": "Lumber",
+    "qty": 15
+   },
+   {
+    "name": "Leaf",
+    "qty": 15
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Chop"
+    ],
+    "text": "×1 Pokémon with Chop"
+   },
+   {
+    "count": 2,
+    "specialties": [],
+    "text": "×2 other Pokémon"
+   }
+  ],
+  "time": [
+   "1 hour",
+   "15 minutes (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "leaf-cottage-kit",
   "name": "Leaf cottage kit",
   "desc": "Gather some Pokémon and build away! This makes a place where two Pokémon can relax.",
-  "img": "leafcottagekit.png"
+  "img": "leafcottagekit.png",
+  "materials": [
+   {
+    "name": "Lumber",
+    "qty": 20
+   },
+   {
+    "name": "Leaf",
+    "qty": 20
+   },
+   {
+    "name": "Stone",
+    "qty": 20
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Chop"
+    ],
+    "text": "×1 Pokémon with Chop"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Fly"
+    ],
+    "text": "×1 Pokémon with Fly"
+   },
+   {
+    "count": 3,
+    "specialties": [],
+    "text": "×3 other Pokémon"
+   }
+  ],
+  "time": [
+   "Next day",
+   "1 hour (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "leaf-house-kit",
   "name": "Leaf house kit",
   "desc": "Gather some Pokémon and build away! Let's make a ginormous house where everyone can live together",
-  "img": "leafhousekit.png"
+  "img": "leafhousekit.png",
+  "materials": [
+   {
+    "name": "Lumber",
+    "qty": 25
+   },
+   {
+    "name": "Leaf",
+    "qty": 25
+   },
+   {
+    "name": "Stone",
+    "qty": 25
+   },
+   {
+    "name": "Vine rope",
+    "qty": 25
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Chop"
+    ],
+    "text": "×1 Pokémon with Chop"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Fly"
+    ],
+    "text": "×1 Pokémon with Fly"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Grow"
+    ],
+    "text": "×1 Pokémon with Grow"
+   },
+   {
+    "count": 4,
+    "specialties": [],
+    "text": "×4 other Pokémon"
+   }
+  ],
+  "time": [
+   "Next day",
+   "1 hour (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "sand-den-kit",
   "name": "Sand den kit",
   "desc": "Gather some Pokémon and build away! This makes a den for medium-sized Pokémon or smaller",
-  "img": "sanddenkit.png"
+  "img": "sanddenkit.png",
+  "materials": [
+   {
+    "name": "Seashell",
+    "qty": 5
+   },
+   {
+    "name": "Stone",
+    "qty": 5
+   },
+   {
+    "name": "Beach sand",
+    "qty": 5
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [],
+    "text": "×1 other Pokémon"
+   }
+  ],
+  "time": [
+   "15 minutes",
+   "5 minutes (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "sand-hut-kit",
   "name": "Sand hut kit",
   "desc": "Gather some Pokémon and build away! This makes a hut that any Pokémon could easily live in",
-  "img": "sandhutkit.png"
+  "img": "sandhutkit.png",
+  "materials": [
+   {
+    "name": "Seashell",
+    "qty": 10
+   },
+   {
+    "name": "Stone",
+    "qty": 10
+   },
+   {
+    "name": "Beach sand",
+    "qty": 10
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Water"
+    ],
+    "text": "×1 Pokémon with Water"
+   },
+   {
+    "count": 2,
+    "specialties": [],
+    "text": "×2 other Pokémon"
+   }
+  ],
+  "time": [
+   "1 hour",
+   "15 minutes (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "sand-cottage-kit",
   "name": "Sand cottage kit",
   "desc": "Gather some Pokémon and build away! This makes a place where two Pokémon can relax.",
-  "img": "sandcottagekit.png"
+  "img": "sandcottagekit.png",
+  "materials": [
+   {
+    "name": "Stone",
+    "qty": 20
+   },
+   {
+    "name": "Brick",
+    "qty": 20
+   },
+   {
+    "name": "Beach sand",
+    "qty": 20
+   },
+   {
+    "name": "Seashell",
+    "qty": 20
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Water"
+    ],
+    "text": "×1 Pokémon with Water"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Generate"
+    ],
+    "text": "×1 Pokémon with Generate"
+   },
+   {
+    "count": 3,
+    "specialties": [],
+    "text": "×3 other Pokémon"
+   }
+  ],
+  "time": [
+   "Next day",
+   "1 hour (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "sand-house-kit",
   "name": "Sand house kit",
   "desc": "Gather some Pokémon and build away! Let's make a ginormous house where everyone can live together",
-  "img": "sandhousekit.png"
+  "img": "sandhousekit.png",
+  "materials": [
+   {
+    "name": "Stone",
+    "qty": 25
+   },
+   {
+    "name": "Brick",
+    "qty": 25
+   },
+   {
+    "name": "Beach sand",
+    "qty": 25
+   },
+   {
+    "name": "Seashell",
+    "qty": 25
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Water"
+    ],
+    "text": "×1 Pokémon with Water"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Generate"
+    ],
+    "text": "×1 Pokémon with Generate"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Recycle"
+    ],
+    "text": "×1 Pokémon with Recycle"
+   },
+   {
+    "count": 4,
+    "specialties": [],
+    "text": "×4 other Pokémon"
+   }
+  ],
+  "time": [
+   "Next day",
+   "1 hour (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "stone-den-kit",
   "name": "Stone den kit",
   "desc": "Gather some Pokémon and build away! This makes a den for medium-sized Pokémon or smaller",
-  "img": "stonedenkit.png"
+  "img": "stonedenkit.png",
+  "materials": [
+   {
+    "name": "Stone",
+    "qty": 5
+   },
+   {
+    "name": "Volcanic ash",
+    "qty": 10
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [],
+    "text": "×1 other Pokémon"
+   }
+  ],
+  "time": [
+   "15 minutes",
+   "5 minutes (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "stone-hut-kit",
   "name": "Stone hut kit",
   "desc": "Gather some Pokémon and build away! This makes a hut that any Pokémon could easily live in",
-  "img": "stonehutkit.png"
+  "img": "stonehutkit.png",
+  "materials": [
+   {
+    "name": "Stone",
+    "qty": 10
+   },
+   {
+    "name": "Volcanic ash",
+    "qty": 20
+   },
+   {
+    "name": "Copper ingot",
+    "qty": 10
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Crush"
+    ],
+    "text": "×1 Pokémon with Crush"
+   },
+   {
+    "count": 2,
+    "specialties": [],
+    "text": "×2 other Pokémon"
+   }
+  ],
+  "time": [
+   "1 hour",
+   "15 minutes (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "stone-cottage-kit",
   "name": "Stone cottage kit",
   "desc": "Gather some Pokémon and build away! This makes a place where two Pokémon can relax.",
-  "img": "stonecottagekit.png"
+  "img": "stonecottagekit.png",
+  "materials": [
+   {
+    "name": "Stone",
+    "qty": 25
+   },
+   {
+    "name": "Brick",
+    "qty": 25
+   },
+   {
+    "name": "Iron ingot",
+    "qty": 25
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Crush"
+    ],
+    "text": "×1 Pokémon with Crush"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Burn"
+    ],
+    "text": "×1 Pokémon with Burn"
+   },
+   {
+    "count": 3,
+    "specialties": [],
+    "text": "×3 other Pokémon"
+   }
+  ],
+  "time": [
+   "Next day",
+   "1 hour (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "stone-house-kit",
   "name": "Stone house kit",
   "desc": "Gather some Pokémon and build away! Let's make a ginormous house where everyone can live together",
-  "img": "stonehousekit.png"
+  "img": "stonehousekit.png",
+  "materials": [
+   {
+    "name": "Stone",
+    "qty": 25
+   },
+   {
+    "name": "Brick",
+    "qty": 25
+   },
+   {
+    "name": "Iron ingot",
+    "qty": 25
+   },
+   {
+    "name": "Concrete",
+    "qty": 25
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Crush"
+    ],
+    "text": "×1 Pokémon with Crush"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Burn"
+    ],
+    "text": "×1 Pokémon with Burn"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Hype"
+    ],
+    "text": "×1 Pokémon with Hype"
+   },
+   {
+    "count": 4,
+    "specialties": [],
+    "text": "×4 other Pokémon"
+   }
+  ],
+  "time": [
+   "Next day",
+   "1 hour (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "city-den-kit",
   "name": "City den kit",
   "desc": "Gather some Pokémon and build away! This makes a den for medium-sized Pokémon or smaller",
-  "img": "citydenkit.png"
+  "img": "citydenkit.png",
+  "materials": [
+   {
+    "name": "Pokémetal",
+    "qty": 5
+   },
+   {
+    "name": "Lumber",
+    "qty": 5
+   },
+   {
+    "name": "Stone",
+    "qty": 5
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [],
+    "text": "×1 other Pokémon"
+   }
+  ],
+  "time": [
+   "15 minutes",
+   "5 minutes (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "city-hut-kit",
   "name": "City hut kit",
   "desc": "Gather some Pokémon and build away! This makes a hut that any Pokémon could easily live in",
-  "img": "cityhutkit.png"
+  "img": "cityhutkit.png",
+  "materials": [
+   {
+    "name": "Pokémetal",
+    "qty": 10
+   },
+   {
+    "name": "Lumber",
+    "qty": 10
+   },
+   {
+    "name": "Stone",
+    "qty": 10
+   },
+   {
+    "name": "Glass",
+    "qty": 10
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Gather"
+    ],
+    "text": "×1 Pokémon with Gather"
+   },
+   {
+    "count": 2,
+    "specialties": [],
+    "text": "×2 other Pokémon"
+   }
+  ],
+  "time": [
+   "1 hour",
+   "15 minutes (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "city-cottage-kit",
   "name": "City cottage kit",
   "desc": "Gather some Pokémon and build away! This makes a place where two Pokémon can relax.",
-  "img": "citycottagekit.png"
+  "img": "citycottagekit.png",
+  "materials": [
+   {
+    "name": "Pokémetal",
+    "qty": 20
+   },
+   {
+    "name": "Glass",
+    "qty": 20
+   },
+   {
+    "name": "Brick",
+    "qty": 20
+   },
+   {
+    "name": "Concrete",
+    "qty": 20
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Gather"
+    ],
+    "text": "×1 Pokémon with Gather"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Fly"
+    ],
+    "text": "×1 Pokémon with Fly"
+   },
+   {
+    "count": 3,
+    "specialties": [],
+    "text": "×3 other Pokémon"
+   }
+  ],
+  "time": [
+   "Next day",
+   "1 hour (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "city-house-kit",
   "name": "City house kit",
   "desc": "Gather some Pokémon and build away! Let's make a ginormous house where everyone can live together",
-  "img": "cityhousekit.png"
+  "img": "cityhousekit.png",
+  "materials": [
+   {
+    "name": "Pokémetal",
+    "qty": 25
+   },
+   {
+    "name": "Glass",
+    "qty": 25
+   },
+   {
+    "name": "Concrete",
+    "qty": 25
+   },
+   {
+    "name": "Iron ingot",
+    "qty": 25
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Gather"
+    ],
+    "text": "×1 Pokémon with Gather"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Fly"
+    ],
+    "text": "×1 Pokémon with Fly"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Teleport"
+    ],
+    "text": "×1 Pokémon with Teleport"
+   },
+   {
+    "count": 4,
+    "specialties": [],
+    "text": "×4 other Pokémon"
+   }
+  ],
+  "time": [
+   "Next day",
+   "1 hour (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "poke-ball-house-kit",
   "name": "Poké Ball house kit",
   "desc": "Gather some Pokémon and build away! This makes a house that looks like a giant Poké Ball.",
-  "img": "pokeballhousekit.png"
+  "img": "pokeballhousekit.png",
+  "materials": [
+   {
+    "name": "Concrete",
+    "qty": 10
+   },
+   {
+    "name": "Glass",
+    "qty": 10
+   },
+   {
+    "name": "Pokémetal",
+    "qty": 10
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Generate"
+    ],
+    "text": "×1 Pokémon with Generate"
+   },
+   {
+    "count": 2,
+    "specialties": [],
+    "text": "×2 other Pokémon"
+   }
+  ],
+  "time": [
+   "Next day"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "poke-mart-kit",
   "name": "Poké Mart kit",
   "desc": "Gather some Pokémon and build away! This makes a store that somehow always feels a little exciting",
-  "img": "pokemartkit.png"
+  "img": "pokemartkit.png",
+  "materials": [
+   {
+    "name": "Concrete",
+    "qty": 10
+   },
+   {
+    "name": "Glass",
+    "qty": 10
+   },
+   {
+    "name": "Pokémetal",
+    "qty": 10
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Trade"
+    ],
+    "text": "×1 Pokémon with Trade"
+   },
+   {
+    "count": 2,
+    "specialties": [],
+    "text": "×2 other Pokémon"
+   }
+  ],
+  "time": [
+   "Next day",
+   "1 hour (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "wasteland-pokemon-center-kit",
   "name": "Wasteland Pokémon Center kit",
   "desc": "Use this to remodel a Pokémon Center to make it look just like the Wasteland Pokémon Center",
-  "img": "wastelandpokemoncenterkit.png"
+  "img": "wastelandpokemoncenterkit.png",
+  "materials": [
+   {
+    "name": "Lumber",
+    "qty": 20
+   },
+   {
+    "name": "Stone",
+    "qty": 20
+   },
+   {
+    "name": "Leaf",
+    "qty": 10
+   },
+   {
+    "name": "Vine rope",
+    "qty": 10
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Bulldoze",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Bulldoze or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Chop"
+    ],
+    "text": "×1 Pokémon with Chop"
+   },
+   {
+    "count": 5,
+    "specialties": [],
+    "text": "×5 other Pokémon"
+   }
+  ],
+  "time": [
+   "Next day",
+   "1 hour (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "beach-pokemon-center-kit",
   "name": "Beach Pokémon Center kit",
   "desc": "Use this to remodel a Pokémon Center to make it look just like the Beach Pokémon Center",
-  "img": "beachpokemoncenterkit.png"
+  "img": "beachpokemoncenterkit.png",
+  "materials": [
+   {
+    "name": "Twine",
+    "qty": 10
+   },
+   {
+    "name": "Brick",
+    "qty": 30
+   },
+   {
+    "name": "Sea glass fragments",
+    "qty": 10
+   },
+   {
+    "name": "Iron ore",
+    "qty": 5
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Bulldoze",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Bulldoze or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Water"
+    ],
+    "text": "×1 Pokémon with Water"
+   },
+   {
+    "count": 5,
+    "specialties": [],
+    "text": "×5 other Pokémon"
+   }
+  ],
+  "time": [
+   "Next day",
+   "1 hour (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "ridge-pokemon-center-kit",
   "name": "Ridge Pokémon Center kit",
   "desc": "Use this to remodel a Pokémon Center to make it look just like the Ridge Pokémon Center",
-  "img": "ridgepokemoncenterkit.png"
+  "img": "ridgepokemoncenterkit.png",
+  "materials": [
+   {
+    "name": "Stone",
+    "qty": 25
+   },
+   {
+    "name": "Copper ingot",
+    "qty": 25
+   },
+   {
+    "name": "Iron ingot",
+    "qty": 25
+   },
+   {
+    "name": "Crystal fragment",
+    "qty": 5
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Bulldoze",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Bulldoze or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Crush"
+    ],
+    "text": "×1 Pokémon with Crush"
+   },
+   {
+    "count": 5,
+    "specialties": [],
+    "text": "×5 other Pokémon"
+   }
+  ],
+  "time": [
+   "Next day",
+   "1 hour (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "skyland-pokemon-center-kit",
   "name": "Skyland Pokémon Center kit",
   "desc": "Use this to remodel a Pokémon Center to make it look just like the Skyland Pokémon Center",
-  "img": "skylandpokemoncenterkit.png"
+  "img": "skylandpokemoncenterkit.png",
+  "materials": [
+   {
+    "name": "Pokémetal",
+    "qty": 25
+   },
+   {
+    "name": "Concrete",
+    "qty": 25
+   },
+   {
+    "name": "Glass",
+    "qty": 25
+   },
+   {
+    "name": "Gold ingot",
+    "qty": 25
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Bulldoze",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Bulldoze or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Gather"
+    ],
+    "text": "×1 Pokémon with Gather"
+   },
+   {
+    "count": 5,
+    "specialties": [],
+    "text": "×5 other Pokémon"
+   }
+  ],
+  "time": [
+   "Next day",
+   "1 hour (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "windmill-kit",
   "name": "Windmill kit",
   "desc": "Gather some Pokémon and build away! This makes a generator that turns wind energy into loads of power",
-  "img": "windmillkit.png"
+  "img": "windmillkit.png",
+  "materials": [
+   {
+    "name": "Lumber",
+    "qty": 5
+   },
+   {
+    "name": "Twine",
+    "qty": 5
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [],
+    "text": "×1 other Pokémon"
+   }
+  ],
+  "time": [
+   "1 hour",
+   "15 minutes (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "waterwheel-kit",
   "name": "Waterwheel kit",
   "desc": "Gather some Pokémon and build away! This makes a generator that uses water to produce tons of power",
-  "img": "waterwheelkit.png"
+  "img": "waterwheelkit.png",
+  "materials": [
+   {
+    "name": "Lumber",
+    "qty": 15
+   },
+   {
+    "name": "Stone",
+    "qty": 5
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [],
+    "text": "×1 other Pokémon"
+   }
+  ],
+  "time": [
+   "1 hour",
+   "15 minutes (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "furnace-kit",
   "name": "Furnace kit",
   "desc": "Gather some Pokémon and build away! This makes a generator that burns stuff to produce heaps of power",
-  "img": "furnacekit.png"
+  "img": "furnacekit.png",
+  "materials": [
+   {
+    "name": "Iron ore",
+    "qty": 15
+   },
+   {
+    "name": "Sea glass fragments",
+    "qty": 5
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [],
+    "text": "×1 other Pokémon"
+   }
+  ],
+  "time": [
+   "1 hour",
+   "15 minutes (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "charging-station-kit",
   "name": "Charging station kit",
   "desc": "Gather some Pokémon and build away! This makes a device that's perfect for charging things up",
-  "img": "chargingstationkit.png"
+  "img": "chargingstationkit.png",
+  "materials": [
+   {
+    "name": "Iron ingot",
+    "qty": 10
+   },
+   {
+    "name": "Pokémetal",
+    "qty": 10
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [],
+    "text": "×1 other Pokémon"
+   }
+  ],
+  "time": [
+   "1 hour",
+   "15 minutes (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "pikachu-fountain-kit",
   "name": "Pikachu fountain kit",
   "desc": "Gather some Pokémon and build away! This makes a found that would look great all lit up",
-  "img": "pikachufountainkit.png"
+  "img": "pikachufountainkit.png",
+  "materials": [
+   {
+    "name": "Brick",
+    "qty": 10
+   },
+   {
+    "name": "Sea glass fragments",
+    "qty": 5
+   },
+   {
+    "name": "Iron ore",
+    "qty": 5
+   },
+   {
+    "name": "Stone",
+    "qty": 10
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 2,
+    "specialties": [],
+    "text": "×2 other Pokémon"
+   }
+  ],
+  "time": [
+   "Next day",
+   "1 hour (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "moonlight-dance-statue-kit",
   "name": "Moonlight dance statue kit",
   "desc": "Gather some Pokémon and build away! This will make you want to dance as you're building it",
-  "img": "moonlightdancestatuekit.png"
+  "img": "moonlightdancestatuekit.png",
+  "materials": [
+   {
+    "name": "Iron ingot",
+    "qty": 10
+   },
+   {
+    "name": "Copper ingot",
+    "qty": 10
+   },
+   {
+    "name": "Stone",
+    "qty": 10
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 2,
+    "specialties": [],
+    "text": "×2 other Pokémon"
+   }
+  ],
+  "time": [
+   "Next day",
+   "1 hour (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "pink-hut-kit",
   "name": "Pink hut kit",
   "desc": "Gather some Pokémon and build away! This makes a cute plaster house",
-  "img": "pinkhutkit.png"
+  "img": "pinkhutkit.png",
+  "materials": [
+   {
+    "name": "Lumber",
+    "qty": 10
+   },
+   {
+    "name": "Stone",
+    "qty": 10
+   },
+   {
+    "name": "Leaf",
+    "qty": 5
+   },
+   {
+    "name": "Squishy clay",
+    "qty": 5
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Crush"
+    ],
+    "text": "×1 Pokémon with Crush"
+   },
+   {
+    "count": 3,
+    "specialties": [],
+    "text": "×3 other Pokémon"
+   }
+  ],
+  "time": [
+   "1 hour",
+   "15 minutes (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "pink-cottage-kit",
   "name": "Pink cottage kit",
   "desc": "Gather some Pokémon and build away! This makes a cute retro house",
-  "img": "pinkcottagekit.png"
+  "img": "pinkcottagekit.png",
+  "materials": [
+   {
+    "name": "Lumber",
+    "qty": 20
+   },
+   {
+    "name": "Squishy clay",
+    "qty": 20
+   },
+   {
+    "name": "Twine",
+    "qty": 20
+   },
+   {
+    "name": "Seashell",
+    "qty": 20
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 2,
+    "specialties": [
+     "Burn"
+    ],
+    "text": "×2 Pokémon with Burn"
+   },
+   {
+    "count": 4,
+    "specialties": [],
+    "text": "×4 other Pokémon"
+   }
+  ],
+  "time": [
+   "Next day",
+   "1 hour (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "orange-hut-kit",
   "name": "Orange hut kit",
   "desc": "Gather some Pokémon and build away! This makes a fancy brick house",
-  "img": "orangehutkit.png"
+  "img": "orangehutkit.png",
+  "materials": [
+   {
+    "name": "Lumber",
+    "qty": 10
+   },
+   {
+    "name": "Brick",
+    "qty": 10
+   },
+   {
+    "name": "Twine",
+    "qty": 5
+   },
+   {
+    "name": "Seashell",
+    "qty": 5
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Burn"
+    ],
+    "text": "×1 Pokémon with Burn"
+   },
+   {
+    "count": 3,
+    "specialties": [],
+    "text": "×3 other Pokémon"
+   }
+  ],
+  "time": [
+   "1 hour",
+   "15 minutes (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "orange-cottage-kit",
   "name": "Orange cottage kit",
   "desc": "Gather some Pokémon and build away! This makes a vibrant house where you can enjoy resort vibes.",
-  "img": "orangecottagekit.png"
+  "img": "orangecottagekit.png",
+  "materials": [
+   {
+    "name": "Lumber",
+    "qty": 20
+   },
+   {
+    "name": "Brick",
+    "qty": 20
+   },
+   {
+    "name": "Twine",
+    "qty": 20
+   },
+   {
+    "name": "Seashell",
+    "qty": 20
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 2,
+    "specialties": [
+     "Gather"
+    ],
+    "text": "×2 Pokémon with Gather"
+   },
+   {
+    "count": 4,
+    "specialties": [],
+    "text": "×4 other Pokémon"
+   }
+  ],
+  "time": [
+   "Next day",
+   "1 hour (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "gray-hut-kit",
   "name": "Gray hut kit",
   "desc": "Gather some Pokémon and build away! This makes a cool stone house",
-  "img": "grayhutkit.png"
+  "img": "grayhutkit.png",
+  "materials": [
+   {
+    "name": "Stone",
+    "qty": 10
+   },
+   {
+    "name": "Limestone",
+    "qty": 15
+   },
+   {
+    "name": "Glass",
+    "qty": 5
+   },
+   {
+    "name": "Iron ingot",
+    "qty": 5
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Gather"
+    ],
+    "text": "×1 Pokémon with Gather"
+   },
+   {
+    "count": 3,
+    "specialties": [],
+    "text": "×3 other Pokémon"
+   }
+  ],
+  "time": [
+   "1 hour",
+   "15 minutes (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "gray-cottage-kit",
   "name": "Gray cottage kit",
   "desc": "A high-class house with a seren atmosphere. It's full of luxurious furniture",
-  "img": "graycottagekit.png"
+  "img": "graycottagekit.png",
+  "materials": [
+   {
+    "name": "Iron ingot",
+    "qty": 20
+   },
+   {
+    "name": "Gold ingot",
+    "qty": 20
+   },
+   {
+    "name": "Limestone",
+    "qty": 20
+   },
+   {
+    "name": "Stone",
+    "qty": 20
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 2,
+    "specialties": [
+     "Crush"
+    ],
+    "text": "×2 Pokémon with Crush"
+   },
+   {
+    "count": 4,
+    "specialties": [],
+    "text": "×4 other Pokémon"
+   }
+  ],
+  "time": [
+   "Next day",
+   "1 hour (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "yellow-hut-kit",
   "name": "Yellow hut kit",
   "desc": "Gather some Pokémon and build away! This makes a flashy concrete house",
-  "img": "yellowhutkit.png"
+  "img": "yellowhutkit.png",
+  "materials": [
+   {
+    "name": "Concrete",
+    "qty": 10
+   },
+   {
+    "name": "Glass",
+    "qty": 10
+   },
+   {
+    "name": "Iron ingot",
+    "qty": 5
+   },
+   {
+    "name": "Pokémetal",
+    "qty": 5
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Generate"
+    ],
+    "text": "×1 Pokémon with Generate"
+   },
+   {
+    "count": 3,
+    "specialties": [],
+    "text": "×3 other Pokémon"
+   }
+  ],
+  "time": [
+   "1 hour",
+   "15 minutes (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "yellow-cottage-kit",
   "name": "Yellow cottage kit",
   "desc": "Gather some Pokémon and build away! This makes a stylish concrete house",
-  "img": "yellowcottagekit.png"
+  "img": "yellowcottagekit.png",
+  "materials": [
+   {
+    "name": "Iron ingot",
+    "qty": 20
+   },
+   {
+    "name": "Concrete",
+    "qty": 20
+   },
+   {
+    "name": "Pokémetal",
+    "qty": 20
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 2,
+    "specialties": [
+     "Generate"
+    ],
+    "text": "×2 Pokémon with Generate"
+   },
+   {
+    "count": 4,
+    "specialties": [],
+    "text": "×4 other Pokémon"
+   }
+  ],
+  "time": [
+   "Next day",
+   "1 hour (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "log-cabin-kit",
   "name": "Log cabin kit",
   "desc": "Gather some Pokémon and build away! This makes a house that has a pleasing woodsy aroma",
-  "img": "logcabinkit.png"
+  "img": "logcabinkit.png",
+  "materials": [
+   {
+    "name": "Leaf",
+    "qty": 20
+   },
+   {
+    "name": "Small log",
+    "qty": 20
+   },
+   {
+    "name": "Lumber",
+    "qty": 20
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 2,
+    "specialties": [
+     "Grow"
+    ],
+    "text": "×2 Pokémon with Grow"
+   },
+   {
+    "count": 4,
+    "specialties": [],
+    "text": "×4 other Pokémon"
+   }
+  ],
+  "time": [
+   "Next day",
+   "1 hour (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "small-office-kit",
   "name": "Small office kit",
   "desc": "Gather some Pokémon and build away! This makes a place where you can really focus on your work",
-  "img": "smallofficekit.png"
+  "img": "smallofficekit.png",
+  "materials": [
+   {
+    "name": "Iron ingot",
+    "qty": 10
+   },
+   {
+    "name": "Concrete",
+    "qty": 10
+   },
+   {
+    "name": "Glass",
+    "qty": 10
+   },
+   {
+    "name": "Pokémetal",
+    "qty": 5
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 2,
+    "specialties": [
+     "Fly"
+    ],
+    "text": "×2 Pokémon with Fly"
+   },
+   {
+    "count": 4,
+    "specialties": [],
+    "text": "×4 other Pokémon"
+   }
+  ],
+  "time": [
+   "Next day",
+   "1 hour (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "relaxing-park-kit",
   "name": "Relaxing park kit",
   "desc": "Gather some Pokémon and build away! This makes a park with an iconic Chansey tree",
-  "img": "relaxingparkkit.png"
+  "img": "relaxingparkkit.png",
+  "materials": [
+   {
+    "name": "Leaf",
+    "qty": 20
+   },
+   {
+    "name": "Small log",
+    "qty": 20
+   },
+   {
+    "name": "Lumber",
+    "qty": 20
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 2,
+    "specialties": [
+     "Gather"
+    ],
+    "text": "×2 Pokémon with Gather"
+   },
+   {
+    "count": 4,
+    "specialties": [],
+    "text": "×4 other Pokémon"
+   }
+  ],
+  "time": [
+   "Next day",
+   "1 hour (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "stylish-cafe-kit",
   "name": "Stylish Café kit",
   "desc": "Gather some Pokémon and build away! This makes a lovely café where you can take a little breather.",
-  "img": "stylishcafekit.png"
+  "img": "stylishcafekit.png",
+  "materials": [
+   {
+    "name": "Lumber",
+    "qty": 10
+   },
+   {
+    "name": "Iron ore",
+    "qty": 10
+   },
+   {
+    "name": "Twine",
+    "qty": 10
+   },
+   {
+    "name": "Seashell",
+    "qty": 10
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 2,
+    "specialties": [
+     "Generate"
+    ],
+    "text": "×2 Pokémon with Generate"
+   },
+   {
+    "count": 4,
+    "specialties": [],
+    "text": "×4 other Pokémon"
+   }
+  ],
+  "time": [
+   "Next day",
+   "1 hour (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "concert-stage-kit",
   "name": "Concert stage kit",
   "desc": "Gather some Pokémon and build away! This makes a stage big enough to hold all your friends",
-  "img": "concertstagekit.png"
+  "img": "concertstagekit.png",
+  "materials": [
+   {
+    "name": "Iron ingot",
+    "qty": 10
+   },
+   {
+    "name": "Glass",
+    "qty": 5
+   },
+   {
+    "name": "Glowing stone",
+    "qty": 10
+   },
+   {
+    "name": "Pokémetal",
+    "qty": 5
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 2,
+    "specialties": [
+     "Hype"
+    ],
+    "text": "×2 Pokémon with Hype"
+   },
+   {
+    "count": 4,
+    "specialties": [],
+    "text": "×4 other Pokémon"
+   }
+  ],
+  "time": [
+   "Next day",
+   "1 hour (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "fountain-plaza-kit",
   "name": "Fountain plaza kit",
   "desc": "Gather some Pokémon and build away! This makes a plaza that's perfect for meetups",
-  "img": "fountainplazakit.png"
+  "img": "fountainplazakit.png",
+  "materials": [
+   {
+    "name": "Lumber",
+    "qty": 20
+   },
+   {
+    "name": "Stone",
+    "qty": 20
+   },
+   {
+    "name": "Copper ore",
+    "qty": 20
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 2,
+    "specialties": [
+     "Water"
+    ],
+    "text": "×2 Pokémon with Water"
+   },
+   {
+    "count": 4,
+    "specialties": [],
+    "text": "×4 other Pokémon"
+   }
+  ],
+  "time": [
+   "Next day",
+   "1 hour (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "altar-of-flame-kit",
   "name": "Altar of Flame kit",
   "desc": "Gather some Pokémon and build away! This makes an altar accompanied by roaring flames",
-  "img": "altarofflamekit.png"
+  "img": "altarofflamekit.png",
+  "materials": [
+   {
+    "name": "Copper ingot",
+    "qty": 50
+   },
+   {
+    "name": "Gold ingot",
+    "qty": 50
+   },
+   {
+    "name": "Lava rock",
+    "qty": 50
+   },
+   {
+    "name": "Pokémetal",
+    "qty": 10
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Fly"
+    ],
+    "text": "×1 Pokémon with Fly"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Burn"
+    ],
+    "text": "×1 Pokémon with Burn"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Crush"
+    ],
+    "text": "×1 Pokémon with Crush"
+   },
+   {
+    "count": 11,
+    "specialties": [],
+    "text": "×11 other Pokémon"
+   }
+  ],
+  "time": [
+   "Next day",
+   "1 hour (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "abandoned-power-plant-kit",
   "name": "Abandoned Power Plant kit",
   "desc": "Gather some Pokémon and build away! This makes an abandoned power plant teeming with electricity.",
-  "img": "abandonedpowerplantkit.png"
+  "img": "abandonedpowerplantkit.png",
+  "materials": [
+   {
+    "name": "Copper ingot",
+    "qty": 50
+   },
+   {
+    "name": "Iron ingot",
+    "qty": 50
+   },
+   {
+    "name": "Sea glass fragments",
+    "qty": 50
+   },
+   {
+    "name": "Brick",
+    "qty": 50
+   },
+   {
+    "name": "Pokémetal",
+    "qty": 10
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Fly"
+    ],
+    "text": "×1 Pokémon with Fly"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Crush"
+    ],
+    "text": "×1 Pokémon with Crush"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Generate"
+    ],
+    "text": "×1 Pokémon with Generate"
+   },
+   {
+    "count": 11,
+    "specialties": [],
+    "text": "×11 other Pokémon"
+   }
+  ],
+  "time": [
+   "Next day",
+   "1 hour (with Engineer)"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "freezing-chambers-kit",
   "name": "Freezing Chambers kit",
   "desc": "Gather some Pokémon and build away! This makes frozen mountains with a mystical atmosphere",
-  "img": "freezingchamberskit.png"
+  "img": "freezingchamberskit.png",
+  "materials": [
+   {
+    "name": "Stone",
+    "qty": 50
+   },
+   {
+    "name": "Ice",
+    "qty": 50
+   },
+   {
+    "name": "Crystal fragment",
+    "qty": 10
+   },
+   {
+    "name": "Pokémetal",
+    "qty": 10
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Water"
+    ],
+    "text": "×1 Pokémon with Water"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Crush"
+    ],
+    "text": "×1 Pokémon with Crush"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Fly"
+    ],
+    "text": "×1 Pokémon with Fly"
+   },
+   {
+    "count": 11,
+    "specialties": [],
+    "text": "×11 other Pokémon"
+   }
+  ],
+  "time": [
+   "Next day",
+   "1 hour (with Engineer) |}"
+  ],
+  "group": "List of building kits"
  },
  {
   "id": "mysterious-mural-kit",
   "name": "Mysterious mural kit",
   "desc": "A mural that once depicted a Pokémon. If you could find the scattered pieces and reconstruct it....",
-  "img": "mysteriousmuralkit.png"
+  "img": "mysteriousmuralkit.png",
+  "materials": [],
+  "helpers": [],
+  "time": [],
+  "group": null
  },
  {
   "id": "tent-kit",
   "name": "Tent kit",
   "desc": "Gather some Pokémon and build away This makes a house that repels rain and wind. Great for camping!",
-  "img": "tentkit.png"
+  "img": "tentkit.png",
+  "materials": [
+   {
+    "name": "Twine",
+    "qty": 20
+   },
+   {
+    "name": "Vine rope",
+    "qty": 20
+   },
+   {
+    "name": "Iron ingot",
+    "qty": 20
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Search"
+    ],
+    "text": "×1 Pokémon with Search"
+   },
+   {
+    "count": 2,
+    "specialties": [],
+    "text": "×2 other Pokémon"
+   }
+  ],
+  "time": [
+   "1 hour",
+   "15 minutes (with Engineer) |}"
+  ],
+  "group": "Event kits"
  },
  {
   "id": "imperial-cottage-kit",
   "name": "Imperial cottage kit",
   "desc": "Gather some Pokémon and build away! This makes a place where two Pokémon can relax",
-  "img": "imperialcottagekit.png"
+  "img": "imperialcottagekit.png",
+  "materials": [
+   {
+    "name": "Star-spotted rock",
+    "qty": 20
+   },
+   {
+    "name": "Seashell",
+    "qty": 20
+   },
+   {
+    "name": "Squishy clay",
+    "qty": 20
+   },
+   {
+    "name": "Shiny pearl",
+    "qty": 2
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Water"
+    ],
+    "text": "×1 Pokémon with Water"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Chop"
+    ],
+    "text": "×1 Pokémon with Chop"
+   },
+   {
+    "count": 3,
+    "specialties": [],
+    "text": "×3 other Pokémon"
+   }
+  ],
+  "time": [
+   "Next day",
+   "1 hour (with Engineer)"
+  ],
+  "group": "Basin kits"
  },
  {
   "id": "imperial-house-kit",
   "name": "Imperial house kit",
   "desc": "Gather some Pokémon and build away! Let's make a ginormous house where everyone can live together!",
-  "img": "imperialhousekit.png"
+  "img": "imperialhousekit.png",
+  "materials": [
+   {
+    "name": "Star-spotted rock",
+    "qty": 25
+   },
+   {
+    "name": "Seashell",
+    "qty": 25
+   },
+   {
+    "name": "Squishy clay",
+    "qty": 25
+   },
+   {
+    "name": "Shiny pearl",
+    "qty": 3
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Water"
+    ],
+    "text": "×1 Pokémon with Water"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Chop"
+    ],
+    "text": "×1 Pokémon with Chop"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Teleport"
+    ],
+    "text": "×1 Pokémon with Teleport"
+   },
+   {
+    "count": 4,
+    "specialties": [],
+    "text": "×4 other Pokémon"
+   }
+  ],
+  "time": [
+   "Next day",
+   "1 hour (with Engineer)"
+  ],
+  "group": "Basin kits"
  },
  {
   "id": "submarine-kit",
   "name": "Submarine kit",
   "desc": "Gather some Pokémon and build away! This makes a cool submarine that looks like a Sharpedo.",
-  "img": "submarinekit.png"
+  "img": "submarinekit.png",
+  "materials": [
+   {
+    "name": "Iron ore",
+    "qty": 10
+   },
+   {
+    "name": "Sea glass fragments",
+    "qty": 5
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 3,
+    "specialties": [],
+    "text": "×3 other Pokémon"
+   }
+  ],
+  "time": [],
+  "group": "Basin kits"
  },
  {
   "id": "basin-pokemon-center-kit",
   "name": "Basin Pokémon Center kit",
   "desc": "Use this to remodel a Pokémon Center to make it look just like the Basin Pokémon Center",
-  "img": "basinpokemoncenterkit.png"
+  "img": "basinpokemoncenterkit.png",
+  "materials": [
+   {
+    "name": "Star-spotted rock",
+    "qty": 25
+   },
+   {
+    "name": "Shiny pearl",
+    "qty": 5
+   },
+   {
+    "name": "Seashell",
+    "qty": 10
+   },
+   {
+    "name": "Sea glass fragments",
+    "qty": 10
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Bulldoze",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Bulldoze or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Scrub"
+    ],
+    "text": "×1 Pokémon with Scrub"
+   },
+   {
+    "count": 5,
+    "specialties": [],
+    "text": "×5 other Pokémon"
+   }
+  ],
+  "time": [],
+  "group": "Basin kits"
  },
  {
   "id": "clock-tower-kit",
   "name": "Clock tower kit",
   "desc": "Gather some Pokémon and build away! This makes a huge clock tower that could be a town's landmark",
-  "img": "clocktowerkit.png"
+  "img": "clocktowerkit.png",
+  "materials": [
+   {
+    "name": "Star-spotted rock",
+    "qty": 10
+   },
+   {
+    "name": "Pokémetal",
+    "qty": 10
+   },
+   {
+    "name": "Iron ore",
+    "qty": 10
+   },
+   {
+    "name": "Shiny pearl",
+    "qty": 3
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [],
+    "text": "3× other Pokémon"
+   }
+  ],
+  "time": [],
+  "group": "Basin kits"
  },
  {
   "id": "aqua-cottage-kit",
   "name": "Aqua cottage kit",
   "desc": "Gather some Pokémon and build away! This makes a house with a cute scale roof.",
-  "img": "aquacottagekit.png"
+  "img": "aquacottagekit.png",
+  "materials": [
+   {
+    "name": "Stone",
+    "qty": 20
+   },
+   {
+    "name": "Brick",
+    "qty": 20
+   },
+   {
+    "name": "Star-spotted rock",
+    "qty": 20
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 2,
+    "specialties": [
+     "Water"
+    ],
+    "text": "×2 Pokémon with Water"
+   },
+   {
+    "count": 4,
+    "specialties": [],
+    "text": "×4 other Pokémon"
+   }
+  ],
+  "time": [],
+  "group": "Basin kits"
  },
  {
   "id": "supermarket-kit",
   "name": "Supermarket kit",
   "desc": "Gather some Pokémon and build away! This makes a fully stocked supermarket!",
-  "img": "supermarketkit.png"
+  "img": "supermarketkit.png",
+  "materials": [
+   {
+    "name": "Star-spotted rock",
+    "qty": 10
+   },
+   {
+    "name": "Sea glass fragments",
+    "qty": 10
+   },
+   {
+    "name": "Pokémetal",
+    "qty": 10
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 1,
+    "specialties": [
+     "Trade"
+    ],
+    "text": "×1 Pokémon with Trade"
+   },
+   {
+    "count": 2,
+    "specialties": [],
+    "text": "×2 other Pokémon"
+   }
+  ],
+  "time": [],
+  "group": "Basin kits"
  },
  {
   "id": "laboratory-kit",
   "name": "Laboratory kit",
   "desc": "Gather some Pokémon and build away! This makes a high-tech lab with excellent waterproofing.",
-  "img": "laboratorykit.png"
+  "img": "laboratorykit.png",
+  "materials": [
+   {
+    "name": "Iron ingot",
+    "qty": 10
+   },
+   {
+    "name": "Pokémetal",
+    "qty": 10
+   },
+   {
+    "name": "Star-spotted rock",
+    "qty": 10
+   },
+   {
+    "name": "Sea glass fragments",
+    "qty": 10
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [
+     "Build",
+     "Engineer"
+    ],
+    "text": "×1 Pokémon with Build or Engineer"
+   },
+   {
+    "count": 2,
+    "specialties": [
+     "Scrub"
+    ],
+    "text": "×2 Pokémon with Scrub"
+   },
+   {
+    "count": 4,
+    "specialties": [],
+    "text": "×4 other Pokémon"
+   }
+  ],
+  "time": [
+   "|}"
+  ],
+  "group": "Basin kits"
  },
  {
   "id": "ocean-temple-kit",
   "name": "Ocean temple kit",
   "desc": "A glamorous temple full of seashells, seaweed, and coral. It feels like an ocean paradise",
-  "img": "oceantemplekit.png"
+  "img": "oceantemplekit.png",
+  "materials": [
+   {
+    "name": "Star-spotted rock",
+    "qty": 50
+   },
+   {
+    "name": "Stone",
+    "qty": 30
+   },
+   {
+    "name": "Seashell",
+    "qty": 25
+   },
+   {
+    "name": "Shiny pearl",
+    "qty": 10
+   },
+   {
+    "name": "Seashell fencing",
+    "qty": 10
+   },
+   {
+    "name": "Ocean door",
+    "qty": 2
+   }
+  ],
+  "helpers": [
+   {
+    "count": 1,
+    "specialties": [],
+    "text": "{{p|Corphish}}"
+   },
+   {
+    "count": 1,
+    "specialties": [],
+    "text": "{{p|Corsola}}"
+   },
+   {
+    "count": 1,
+    "specialties": [],
+    "text": "{{p|Mareanie}}"
+   },
+   {
+    "count": 1,
+    "specialties": [],
+    "text": "{{p|Totodile}}"
+   },
+   {
+    "count": 1,
+    "specialties": [],
+    "text": "{{p|Barboach}}"
+   },
+   {
+    "count": 1,
+    "specialties": [],
+    "text": "{{p|Frillish}} (Female)"
+   },
+   {
+    "count": 1,
+    "specialties": [],
+    "text": "{{p|Popplio}}"
+   },
+   {
+    "count": 8,
+    "specialties": [],
+    "text": "×8 other Pokémon"
+   }
+  ],
+  "time": [
+   "|}"
+  ],
+  "group": "Ocean temple"
  }
 ]

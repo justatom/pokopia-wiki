@@ -767,19 +767,80 @@ function storyPage(lang) {
   return layout({ lang, base: BASE, title: t.nav.story, desc: L(lang, GAME.tagline), path: '/story/', body });
 }
 
+const KIT_GROUPS_TH = {
+  'List of building kits': 'ชุดก่อสร้างทั่วไป', 'Event kits': 'ชุดจากอีเวนต์',
+  'Basin kits': 'ชุดของ Bubbly Basin', 'Ocean temple': 'วิหารใต้ทะเล (เนื้อเรื่อง)',
+};
+
+/** one helper requirement: "x1 Pokemon with Build or Engineer" as linked specialty chips */
+function helperChip(h, lang) {
+  const th = lang === 'th';
+  const specs = h.specialties.map(n => specialties.find(s => s.name.toLowerCase() === n.toLowerCase())).filter(Boolean);
+  const label = specs.length
+    ? specs.map(s => `<a href="${BASE}/${lang}/specialties/#${s.id}">${esc(specName(s, lang))}</a>`).join(th ? ' หรือ ' : ' or ')
+    : `<span class="gloss">${th ? 'ตัวไหนก็ได้' : 'any Pokémon'}</span>`;
+  return `<span class="kit-helper"><b>×${h.count}</b> ${label}</span>`;
+}
+
+/** a material chip: icon, name, quantity, linked to the item */
+function kitMaterial(m, lang) {
+  const it = itemRef(m.name), pic = it && itemPic(it.img);
+  const inner = `${pic ? `<img src="${pic}" alt="" loading="lazy" width="30" height="30" decoding="async">` : ''}<span>${esc(m.name)}</span>${m.qty ? ` <b>×${m.qty}</b>` : ''}`;
+  return it
+    ? `<a class="fav-item" href="${itemHref(lang, it.id)}" title="${esc(it.desc || m.name)}">${inner}</a>`
+    : `<span class="fav-item">${inner}</span>`;
+}
+
 function buildingPage(lang) {
-  const t = T[lang];
+  const t = T[lang], th = lang === 'th';
   const g = GUIDES.find(x => x.slug === 'building');
+  const groups = [...new Set(buildkits.map(k => k.group))];
+  const total = k => k.helpers.reduce((n, h) => n + h.count, 0);
+
+  const card = k => `<article class="row kit" id="k-${esc(k.id)}">
+    ${itemPic(k.img)
+      ? `<img class="kit-pic" src="${itemPic(k.img)}" alt="${esc(k.name)}" loading="lazy" width="84" height="84" decoding="async">`
+      : rowIcon('hammer')}
+    <div>
+      <div class="row-name">${itemLink(lang, k.id, esc(k.name))}</div>
+      ${th && G(k.name) ? `<div class="row-th gloss">${esc(G(k.name))}</div>` : ''}
+      ${k.desc ? `<div class="row-desc">${esc(k.desc)}</div>` : ''}
+      ${k.materials.length ? `<div class="kit-line">
+        <span class="kit-label">${th ? 'วัสดุ' : 'Materials'}</span>
+        <div class="fav-items">${k.materials.map(m => kitMaterial(m, lang)).join('')}</div></div>` : ''}
+      ${k.helpers.length ? `<div class="kit-line">
+        <span class="kit-label">${th ? `ผู้ช่วย ${total(k)} ตัว` : `${total(k)} Pokémon`}</span>
+        <div class="kit-helpers">${k.helpers.map(h => helperChip(h, lang)).join('')}</div></div>` : ''}
+      ${k.time.length ? `<div class="kit-line">
+        <span class="kit-label">${th ? 'เวลา' : 'Time'}</span>
+        <div class="kit-helpers">${k.time.map(x => `<span class="tag tag-clay">${esc(x)}</span>`).join('')}</div></div>` : ''}
+      ${!k.materials.length ? `<div class="row-meta"><span class="gloss">${th ? 'ยังไม่มีข้อมูลวัสดุและผู้ช่วยที่ต้องใช้' : 'materials and helpers not documented yet'}</span></div>` : ''}
+    </div></article>`;
+
   const body = `${crumb(lang, [[t.nav.building]])}
 <div class="wrap stack" style="--gap:18px">
   <h1>${esc(t.nav.building)}</h1>
   <div class="prose">${g.blocks.map(bl => `<h2>${esc(L(lang, bl.h))}</h2>${bl.p.map(x => `<p>${esc(L(lang, x))}</p>`).join('')}`).join('')}</div>
-  <section>
-    <div class="sec-title"><h2>${lang === 'th' ? 'ชุดก่อสร้างทั้งหมด' : 'All building kits'}</h2><span>${buildkits.length}</span></div>
-    <div class="rows">${buildkits.map(k => dataRow({ name: k.name, gloss: G(k.name), desc: k.desc, kind: 'hammer', pic: itemPic(k.img), href: itemHref(lang, k.id), lang })).join('')}</div>
-  </section>
+  <p class="note">${th
+      ? 'ขั้นตอนคือ วางชุดก่อสร้างตรงจุดที่อยากได้ แล้วเก็บวัสดุตามที่ชุดนั้นระบุ จากนั้นพาโปเกมอนที่มีความถนัดตรงเงื่อนไขมาช่วย คุยกับมันให้เดินตามมาที่จุดก่อสร้าง แล้วเวลาจะเริ่มนับ'
+      : 'The loop is: put the kit where you want the building, collect the materials it lists, then bring Pokémon whose specialties match. Talk to one, have it follow you to the kit, and ask it to help — the clock starts from there.'}</p>
+  <p class="note note-clay">${th
+      ? 'พาโปเกมอนที่มีความถนัด Engineer (ทิงคมาสเตอร์) มาช่วยจะย่นเวลาลงมาก งานที่ปกติต้องข้ามวันจะเหลือ 1 ชั่วโมง และแต่ละพื้นที่มีโควตาก่อสร้าง 40 แต้ม สิ่งปลูกสร้างหนึ่งหลังกิน 1 หรือ 2 แต้มตามขนาด'
+      : 'Bringing a Pokémon with the Engineer specialty (Tinkmaster) cuts the time sharply — a "next day" build becomes an hour. Each area also has a 40-point building budget, and every build spends 1 or 2 points depending on its size.'}</p>
+  ${groups.map(grp => {
+      const list = buildkits.filter(k => k.group === grp);
+      const label = grp ? ((th && KIT_GROUPS_TH[grp]) || grp) : (th ? 'อื่น ๆ' : 'Other');
+      return `<section>
+    <div class="sec-title"><h2>${esc(label)}</h2><span>${list.length}</span></div>
+    <div class="rows">${list.map(card).join('')}</div></section>`;
+    }).join('')}
 </div>`;
-  return layout({ lang, base: BASE, title: t.nav.building, desc: 'Pokopia building guide', path: '/building/', body });
+  return layout({
+    lang, base: BASE, title: t.nav.building, path: '/building/',
+    desc: th ? 'ชุดก่อสร้างทั้ง 56 แบบใน Pokémon Pokopia พร้อมวัสดุที่ต้องใช้ จำนวนโปเกมอนและความถนัดที่ต้องมี และเวลาที่ใช้สร้าง'
+      : 'All 56 building kits in Pokémon Pokopia — the materials each needs, how many Pokémon and which specialties, and how long it takes.',
+    body,
+  });
 }
 
 const COOK_TYPES_TH = { Salad: 'สลัด', Soup: 'ซุป', Bread: 'ขนมปัง', Steak: 'สเต๊ก', Smoothie: 'สมูทตี้' };

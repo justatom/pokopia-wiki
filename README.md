@@ -16,7 +16,7 @@ Static site, **zero runtime dependencies**, mobile-first. Node 20+ is the only r
 | Items with an icon, description and sources | 1,697 |
 | Crafting recipes with material costs | 884 |
 | Furniture pieces | 140 |
-| Building kits | 56 |
+| Building kits, 55 with materials, helper Pokemon and build time | 56 |
 | Dishes | 34 |
 | Music CDs / Lost Relics / Human Records | 53 / 103 / 163 |
 | Outfits, hairstyles and accessories, with pictures and sources | 203 |

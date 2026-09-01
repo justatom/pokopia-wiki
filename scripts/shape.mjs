@@ -276,7 +276,31 @@ W('furniture', table(sec('furniture').rows, 6).map(r => ({
 })).filter(x => x.name));
 
 /* ---------- build kits ---------- */
-W('buildkits', table(sec('building').rows, 3).map(r => ({ id: slug(cell(r[1])), name: cell(r[1]), desc: cell(r[2]), img: icon(cell(r[1])) })).filter(x => x.name && x.name !== 'Name'));
+/* Serebii names and describes the kits; Bulbapedia's Building page is where the build
+   requirements live, so the two are merged on the kit name. Bulbapedia writes the story
+   kit as "Ocean temple" where Serebii has "Ocean temple kit", hence the loose match. */
+{
+  const kits = table(sec('building').rows, 3)
+    .map(r => ({ id: slug(cell(r[1])), name: cell(r[1]), desc: cell(r[2]), img: icon(cell(r[1])) }))
+    .filter(x => x.name && x.name !== 'Name');
+  let reqs = [];
+  if (fs.existsSync('_research/bulba_building.json')) {
+    const { default: parseKits } = await import('./buildkits.mjs');
+    reqs = parseKits(j('_research/bulba_building.json').parse.wikitext);
+  }
+  const key = s => slug(s).replace(/-?kit$/, '');
+  const byName = new Map(reqs.map(r => [key(r.name), r]));
+  for (const k of kits) {
+    const r = byName.get(key(k.name));
+    k.materials = r ? r.materials : [];
+    k.helpers = r ? r.helpers : [];
+    k.time = r ? r.time : [];
+    k.group = r ? r.section : null;
+  }
+  const withReq = kits.filter(k => k.materials.length).length;
+  console.log(`   ${withReq}/${kits.length} kits with build requirements`);
+  W('buildkits', kits);
+}
 
 /* ---------- simple tables ---------- */
 W('cds', table(sec('cds').rows, 5).map(r => ({ name: cell(r[1]), desc: cell(r[2]), img: icon(cell(r[1])), sources: list(r[3]), game: cell(r[4]) })).filter(x => x.name && x.name !== 'Name'));
