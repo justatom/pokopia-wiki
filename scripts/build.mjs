@@ -17,7 +17,7 @@ const pokemon = D('pokemon'), habitats = D('habitats'), items = D('items'), reci
   dreamislands = D('dreamislands'), cloudislands = D('cloudislands'), envlevel = D('envlevel'),
   patches = D('patches'), events = D('events'), water = D('water'), cooking = D('cooking'),
   stampcard = D('stampcard'), teamchallenge = D('teamchallenge'), gifts = D('gifts'), favorites = D('favorites'),
-  cookware = D('cookware'), outfits = D('outfits'), patterns = D('patterns');
+  cookware = D('cookware'), outfits = D('outfits'), patterns = D('patterns'), toys = D('toys');
 const THRECORDS = fs.existsSync('data/th/records.json') ? D('th/records') : {};
 const THNAMES = D('th/pokemon-names'), TERMS = D('th/terms'),
   THPATCH = D('th/patches'), THM = D('th/misc');
@@ -1236,6 +1236,58 @@ ${listPage({ lang, rows, cats: types.map(x => x || 'Unsorted'), catLabel: c => t
   });
 }
 
+/* Toys are the items the game tags as playthings. A Pokémon likes five of the 43
+   favourite categories and a toy usually belongs to four, so most toys please a large
+   share of the dex — 163 Pokémon on average. The categories are what actually decides it,
+   so those lead; the Pokémon are a sample with the real total stated beside it. */
+const TOY_SAMPLE = 12;
+
+function toysPage(lang) {
+  const t = T[lang], th = lang === 'th';
+  const cats = [...new Set(toys.map(x => x.cat))];
+  const rows = toys.map(toy => {
+    const liked = toy.likedBy.map(id => monById.get(id)).filter(Boolean);
+    const shown = liked.slice(0, TOY_SAMPLE);
+    return {
+      html: `<article class="row toy" id="t-${esc(toy.id)}" data-cat="${esc(toy.cat)}" data-s="${esc((toy.name + ' ' + G(toy.name) + ' ' + toy.desc + ' ' + toy.categories.join(' ') + ' ' + toy.sources.join(' ')).toLowerCase())}">
+    ${itemPic(toy.img)
+        ? `<a href="${itemHref(lang, toy.id) || '#'}"><img class="toy-pic" src="${itemPic(toy.img)}" alt="${esc(toy.name)}" loading="lazy" width="72" height="72" decoding="async"></a>`
+        : rowIcon('sparkles')}
+    <div>
+      <div class="row-name">${itemLink(lang, toy.id, esc(toy.name))}</div>
+      ${th && G(toy.name) ? `<div class="row-th gloss">${esc(G(toy.name))}</div>` : ''}
+      ${toy.desc ? `<div class="row-desc">${esc(toy.desc)}</div>` : ''}
+      <div class="kit-line"><span class="kit-label">${th ? 'ได้มาจาก' : 'How to get'}</span>
+        <div class="kit-helpers">${toy.sources.map(x => `<span class="tag">${esc(x)}</span>`).join('')}</div></div>
+      ${toy.categories.length ? `<div class="kit-line"><span class="kit-label">${th ? 'นับเป็นหมวด' : 'Counts as'}</span>
+        <div class="kit-helpers">${toy.categories.map(c => `<span class="tag tag-clay">${esc(thFav(c, lang))}</span>`).join('')}</div></div>` : ''}
+      ${liked.length ? `<div class="kit-line"><span class="kit-label">${th ? `โปเกมอนที่ชอบ ${liked.length} ตัว` : `${liked.length} like it`}</span>
+        <div class="toy-mons">${shown.map(m => monChip(m.id, m.name, lang)).join('')}${liked.length > shown.length
+          ? `<span class="fav-item fav-more">+${liked.length - shown.length}</span>` : ''}</div></div>` : ''}
+    </div></article>`,
+    };
+  });
+
+  const body = `${crumb(lang, [[t.nav.toys]])}
+<div class="wrap stack"><h1>${esc(t.nav.toys)}</h1>
+<p class="lede">${th
+      ? `ของเล่นทั้ง ${toys.length} ชิ้นที่เกมติดป้ายว่า Toy พร้อมรูปจริง วิธีได้มา และหมวดของโปรดที่มันนับเป็น`
+      : `All ${toys.length} items the game tags as toys, with a picture, where each comes from, and the favourite categories it counts as.`}</p>
+<p class="note">${th
+      ? 'วางของเล่นไว้ในบ้านหรือที่อยู่อาศัยของโปเกมอน ถ้าตรงกับหมวดของโปรดของมัน Comfy Level กับค่าความเป็นเพื่อนจะขึ้นเร็วกว่าปกติมาก'
+      : 'Put a toy in a Pokémon’s home or habitat: if it matches one of that Pokémon’s favourite categories, Comfy Level and friendship rise much faster.'}</p>
+<p class="note note-clay">${th
+      ? 'โปเกมอนหนึ่งตัวชอบ 5 หมวดจากทั้งหมด 43 หมวด ส่วนของเล่นชิ้นหนึ่งมักอยู่ใน 4 หมวด ของเล่นแต่ละชิ้นจึงถูกใจโปเกมอนเฉลี่ยถึง 163 ตัว ตัวเลขที่เห็นคือจำนวนจริงทั้งหมด แต่รูปที่แสดงเป็นแค่ตัวอย่าง 12 ตัวแรก เพราะการไล่ชื่อทั้ง 200 กว่าตัวไม่ได้ช่วยอะไร — หมวดของโปรดต่างหากที่เป็นตัวตัดสิน'
+      : 'A Pokémon likes 5 of the 43 categories and a toy usually sits in 4, so the average toy pleases 163 Pokémon. The number beside each toy is the real total; the sprites are the first twelve, because listing two hundred names helps nobody — the categories are what decides it.'}</p></div>
+${listPage({ lang, rows, cats, catLabel: c => thCat(c, lang) })}`;
+  return layout({
+    lang, base: BASE, title: t.nav.toys, path: '/toys/',
+    desc: th ? `ของเล่นทั้ง ${toys.length} ชิ้นใน Pokémon Pokopia พร้อมรูป วิธีได้มา และโปเกมอนที่ชอบ`
+      : `All ${toys.length} toys in Pokémon Pokopia, with pictures, where to get them and which Pokémon like them.`,
+    body,
+  });
+}
+
 /* ---------------- outfits ----------------
    Ditto has no shop to buy clothes from: it learns a look by reading a magazine, and the
    Location column is where that magazine is. Most of them are lying around a Dream Island,
@@ -1638,6 +1690,7 @@ for (const lang of LANGS) {
   write(`${lang}/cooking`, cookingPage(lang));
   write(`${lang}/gifts`, giftsPage(lang));
   write(`${lang}/dream-islands`, dreamIslandsPage(lang));
+  write(`${lang}/toys`, toysPage(lang));
   write(`${lang}/outfits`, outfitsPage(lang));
   write(`${lang}/records`, recordsPage(lang));
   write(`${lang}/collections`, collectionsPage(lang));

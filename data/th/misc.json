@@ -318,7 +318,6 @@
   "Garbage": "ขยะ",
   "Gatherings": "ของที่มารวมกันเยอะ ๆ",
   "Glass stuff": "ของแก้ว",
-  "Group activities": "กิจกรรมกลุ่ม",
   "Hard stuff": "ของแข็ง",
   "Healing": "การเยียวยา",
   "Letters and words": "ตัวอักษรและคำ",
@@ -347,6 +346,7 @@
   "Symbols": "สัญลักษณ์",
   "Watching stuff": "ของไว้นั่งดู",
   "Wobbly stuff": "ของโยกเยก",
-  "Wooden stuff": "ของไม้"
+  "Wooden stuff": "ของไม้",
+  "Group Activities": "กิจกรรมกลุ่ม"
  }
 }

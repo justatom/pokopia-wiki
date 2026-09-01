@@ -321,7 +321,6 @@ for (const s of secs('items')) {
   console.log(`   paint ${n('paint')} · pattern ${n('pattern')} · DLC ${n('dlc')} · event ${n('event')} · craftable ${n('craftable')}`);
 }
 W('items', items);
-
 /* ---------- recipes ---------- */
 /* Serebii misspells three material names, which otherwise point at items that do not
    exist. "Pok&eacute" (in Decorative Poké Ball) is mangled upstream too, but there is no
@@ -674,4 +673,30 @@ W('gifts', gifts);
   }
   if (n !== ORDER.length) console.log(`   ! expected ${ORDER.length} outfit tables, found ${n}`);
   W('outfits', outfits);
+}
+
+/* ---------- toys ----------
+   Every item the game tags "Toy", with the favourite categories it counts as and the
+   Pokémon those categories please. A Pokémon likes five of the 43 categories and a toy
+   usually sits in four, so the overlap is wide — 163 Pokémon like a given toy on average.
+   The categories are the useful fact; the roster is stored in full and trimmed for
+   display rather than being presented as a short answer it is not. */
+{
+  const catsOf = new Map();
+  for (const f of j('data/favorites.json')) for (const it of f.items) {
+    if (!catsOf.has(it.id)) catsOf.set(it.id, []);
+    catsOf.get(it.id).push(f.name);
+  }
+  const toys = items.filter(i => i.tags.includes('Toy')).map(i => {
+    const cats = catsOf.get(i.id) || [];
+    const set = new Set(cats);
+    return {
+      id: i.id, name: i.name, cat: i.cat, desc: i.desc, img: i.img,
+      sources: i.sources, categories: cats,
+      likedBy: pokemon.filter(p => p.favorites.some(f => set.has(f))).map(p => p.id),
+    };
+  });
+  const pairs = toys.reduce((n, t) => n + t.likedBy.length, 0);
+  console.log(`   ${toys.length} toys · ${pairs} Pokémon-likes-toy pairs`);
+  W('toys', toys);
 }

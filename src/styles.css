@@ -340,6 +340,15 @@ td.num { font-variant-numeric: tabular-nums; color: var(--muted); white-space: n
 .rec-shot img { display: block; width: 100%; max-width: 340px; height: auto; border-radius: var(--r-sm);
   background: var(--paper-2); border: 1px solid var(--line); }
 .rec-shot figcaption { margin-top: 6px; max-width: 340px; font-size: .76rem; line-height: 1.5; color: var(--muted); }
+
+/* toys */
+.toy { grid-template-columns: 60px 1fr; }
+.toy-pic { width: 60px; height: 60px; object-fit: contain; border-radius: 12px; background: var(--paper-2); }
+.toy-mons { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
+.toy-mons .mon-chip { padding: 2px 8px 2px 2px; border-radius: 999px; background: var(--paper-2); font-size: .72rem; }
+.toy-mons .mon-chip img { width: 26px; height: 26px; }
+.toy-mons .mon-chip:hover { background: var(--moss-soft); }
+@media (min-width: 640px) { .toy { grid-template-columns: 72px 1fr; } .toy-pic { width: 72px; height: 72px; } }
 @media (min-width: 560px) { .conds { grid-template-columns: 1fr 1fr; } }
 
 /* cooking equipment */

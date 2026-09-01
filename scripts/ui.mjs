@@ -162,6 +162,7 @@ export const NAV = [
       { key: 'items', href: '/items/', icon: 'box' },
       { key: 'recipes', href: '/recipes/', icon: 'package' },
       { key: 'furniture', href: '/furniture/', icon: 'home' },
+      { key: 'toys', href: '/toys/', icon: 'sparkles' },
       { key: 'cooking', href: '/cooking/', icon: 'chef' },
       { key: 'collections', href: '/collections/', icon: 'disc' },
     ]
@@ -191,7 +192,7 @@ export const EN = {
   nav: {
     home: 'Home', basics: 'Guides', story: 'Story', pokedex: 'Pokédex', characters: 'Characters',
     specialties: 'Specialties', moves: 'Moves', locations: 'Locations', habitats: 'Habitats',
-    building: 'Building', dreamIslands: 'Dream Islands', items: 'Items', recipes: 'Crafting', furniture: 'Furniture',
+    building: 'Building', dreamIslands: 'Dream Islands', items: 'Items', recipes: 'Crafting', furniture: 'Furniture', toys: 'Toys',
     cooking: 'Cooking', collections: 'Collectibles', gifts: 'Gifts', outfits: 'Outfits', records: 'Human Records', events: 'Events', updates: 'Updates',
     dlc: 'Expansion Pass', about: 'About',
   },
@@ -218,7 +219,7 @@ export const TH = {
   nav: {
     home: 'หน้าแรก', basics: 'คู่มือ', story: 'เนื้อเรื่อง', pokedex: 'โปเกเด็กซ์', characters: 'ตัวละคร',
     specialties: 'ความถนัด', moves: 'ท่าของดิตโต้', locations: 'สถานที่', habitats: 'ที่อยู่อาศัย',
-    building: 'การสร้างบ้าน', dreamIslands: 'เกาะแห่งความฝัน', items: 'ไอเทม', recipes: 'สูตรคราฟต์', furniture: 'เฟอร์นิเจอร์',
+    building: 'การสร้างบ้าน', dreamIslands: 'เกาะแห่งความฝัน', items: 'ไอเทม', recipes: 'สูตรคราฟต์', furniture: 'เฟอร์นิเจอร์', toys: 'ของเล่น',
     cooking: 'การทำอาหาร', collections: 'ของสะสม', gifts: 'ของขวัญจากโปเกมอน', outfits: 'เครื่องแต่งกาย', records: 'บันทึกของมนุษย์', events: 'อีเวนต์', updates: 'แพตช์อัปเดต',
     dlc: 'Expansion Pass', about: 'เกี่ยวกับเว็บนี้',
   },

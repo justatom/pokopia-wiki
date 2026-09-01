@@ -17,6 +17,7 @@ Static site, **zero runtime dependencies**, mobile-first. Node 20+ is the only r
 | Paint patterns, with where each is found and what it costs | 116 |
 | Crafting recipes with material costs | 884 |
 | Furniture pieces | 140 |
+| Toys, each with the favourite categories it counts as | 140 |
 | Building kits, 55 with materials, helper Pokemon and build time | 56 |
 | Dishes | 34 |
 | Music CDs / Lost Relics | 53 / 103 |
