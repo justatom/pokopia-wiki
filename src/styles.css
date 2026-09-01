@@ -322,6 +322,13 @@ td.num { font-variant-numeric: tabular-nums; color: var(--muted); white-space: n
   border: 1px solid var(--line); background: var(--paper-2); color: var(--muted); opacity: .45; }
 .cond-on { background: var(--moss-soft); border-color: var(--moss); color: var(--moss); font-weight: 600; opacity: 1; }
 .cond-note { margin: 8px 0 0; font-size: .82rem; color: var(--clay); font-weight: 500; }
+
+/* paint patterns */
+.patterns { display: grid; grid-template-columns: repeat(auto-fill, minmax(112px, 1fr)); gap: 8px; margin-top: 10px; }
+.pattern { padding: 8px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-sm); text-align: center; }
+.pattern img { width: 72px; height: 72px; object-fit: contain; border-radius: 8px; background: var(--paper-2); }
+.pattern-src { margin-top: 6px; font-size: .7rem; color: var(--ink-2); line-height: 1.3; }
+.pattern-cost { margin-top: 3px; font-size: .66rem; color: var(--muted); }
 @media (min-width: 560px) { .conds { grid-template-columns: 1fr 1fr; } }
 
 /* cooking equipment */

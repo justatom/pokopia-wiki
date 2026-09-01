@@ -17,7 +17,7 @@ const pokemon = D('pokemon'), habitats = D('habitats'), items = D('items'), reci
   dreamislands = D('dreamislands'), cloudislands = D('cloudislands'), envlevel = D('envlevel'),
   patches = D('patches'), events = D('events'), water = D('water'), cooking = D('cooking'),
   stampcard = D('stampcard'), teamchallenge = D('teamchallenge'), gifts = D('gifts'), favorites = D('favorites'),
-  cookware = D('cookware'), outfits = D('outfits');
+  cookware = D('cookware'), outfits = D('outfits'), patterns = D('patterns');
 const THNAMES = D('th/pokemon-names'), TERMS = D('th/terms'),
   THPATCH = D('th/patches'), THM = D('th/misc');
 
@@ -91,6 +91,11 @@ const art = p => hasArt(p.natdex) ? `${BASE}/sprites/art/${p.natdex}.png` : spri
 const picsIn = d => { try { return new Set(fs.readdirSync(`src/sprites/${d}`)); } catch { return new Set(); } };
 const ITEM_PICS = picsIn('items'), HAB_PICS = picsIn('habitats');
 const itemPic = img => img && ITEM_PICS.has(img) ? `${BASE}/sprites/items/${encodeURIComponent(img)}` : null;
+/* an item Serebii does not list has no icon name of its own; its Archives sprite is
+   saved as <our id>.png, so try that before giving up */
+const itemImage = i => itemPic(i.img) || (ITEM_PICS.has(`${i.id}.png`) ? `${BASE}/sprites/items/${encodeURIComponent(i.id)}.png` : null);
+const PATTERN_PICS = picsIn('patterns');
+const patternPic = img => img && PATTERN_PICS.has(img) ? `${BASE}/sprites/patterns/${encodeURIComponent(img)}` : null;
 const habPic = img => img && HAB_PICS.has(img) ? `${BASE}/sprites/habitats/${encodeURIComponent(img)}` : null;
 
 const L = (lang, s) => (typeof s === 'string' ? s : s[lang]);
@@ -168,6 +173,30 @@ const itemLink = (lang, key, label) => {
   const href = itemHref(lang, key);
   return href ? `<a class="item-link" href="${href}">${label}</a>` : label;
 };
+
+/* Facts Serebii does not carry: whether Smearguru can repaint the item (and in how many
+   separately coloured sections), whether it takes a pattern instead, and whether it needs
+   the Expansion Pass or came from an event or a later version. */
+function itemFacts(i, lang) {
+  const th = lang === 'th';
+  const out = [];
+  if (i.paint) out.push(`<span class="tag tag-moss">${th ? 'ทาสีได้' : 'Paintable'}${i.paintSlots ? ` ×${i.paintSlots}` : ''}</span>`);
+  if (i.pattern) out.push(`<span class="tag tag-moss">${th ? 'ใส่ลายได้' : 'Pattern'}</span>`);
+  if (i.craftable) out.push(`<span class="tag">${th ? 'คราฟต์ได้' : 'Craftable'}</span>`);
+  if (i.dlc) out.push(`<span class="tag tag-clay">Expansion Pass</span>`);
+  if (i.event) out.push(`<span class="tag tag-clay">${th ? 'อีเวนต์' : 'Event'}</span>`);
+  if (i.addedIn) out.push(`<span class="tag">v${esc(i.addedIn)}</span>`);
+  return out.join('');
+}
+/** the same facts as words, so the filter box can find them */
+const itemSearchText = (i, lang) => [
+  i.paint ? (lang === 'th' ? 'ทาสีได้ paintable' : 'paintable') : '',
+  i.pattern ? (lang === 'th' ? 'ใส่ลายได้ pattern' : 'pattern') : '',
+  i.craftable ? (lang === 'th' ? 'คราฟต์ได้ craftable' : 'craftable') : '',
+  i.dlc ? 'expansion pass dlc' : '',
+  i.event ? (lang === 'th' ? 'อีเวนต์ event' : 'event') : '',
+  i.addedIn ? `v${i.addedIn}` : '',
+].filter(Boolean).join(' ');
 
 const cellPic = img => { const u = itemPic(img); return u ? `<img class="cell-ico" src="${u}" alt="" loading="lazy" width="32" height="32" decoding="async">` : ''; };
 const matPic = m => { const u = itemPic(m.img); return u ? `<img class="mat-ico" src="${u}" alt="" loading="lazy" width="18" height="18" decoding="async">` : ''; };
@@ -328,8 +357,8 @@ ${pic
 </div></article>`;
 }
 
-function dataRow({ name, gloss: gl, desc, meta, mats, cat, kind, pic, id, href, lang }) {
-  return `<div class="row"${id ? ` id="${esc(id)}"` : ''} data-cat="${esc(cat || '')}" data-s="${esc((name + ' ' + (gl || '') + ' ' + (desc || '')).toLowerCase())}">
+function dataRow({ name, gloss: gl, desc, meta, mats, cat, kind, pic, id, href, find, lang }) {
+  return `<div class="row"${id ? ` id="${esc(id)}"` : ''} data-cat="${esc(cat || '')}" data-s="${esc((name + ' ' + (gl || '') + ' ' + (desc || '') + ' ' + (find || '')).toLowerCase())}">
 ${rowIcon(kind, pic)}
 <div><div class="row-name">${href ? `<a href="${href}">${esc(name)}</a>` : esc(name)}</div>
 ${lang === 'th' && gl ? `<div class="row-th gloss">${esc(gl)}</div>` : ''}
@@ -548,8 +577,8 @@ function itemsCatPage(cat, lang) {
   const list = items.filter(i => i.cat === cat);
   const rows = list.map(i => ({
     html: dataRow({
-      name: i.name, gloss: G(i.name), desc: i.desc, cat: i.tags[0] || '', kind: 'box', pic: itemPic(i.img), id: `i-${i.id}`, lang,
-      meta: i.tags.map(x => `<span class="tag tag-clay">${esc(x)}</span>`).join('') +
+      name: i.name, gloss: G(i.name), desc: i.desc, cat: i.tags[0] || '', kind: 'box', pic: itemImage(i), id: `i-${i.id}`, find: itemSearchText(i, lang), lang,
+      meta: i.tags.map(x => `<span class="tag tag-clay">${esc(x)}</span>`).join('') + itemFacts(i, lang) +
         (i.sources.length ? `<span>${esc(i.sources.slice(0, 3).join(' · '))}${i.sources.length > 3 ? ' …' : ''}</span>` : ''),
     })
   }));
@@ -1312,6 +1341,16 @@ function collectionsPage(lang) {
   ${sec('Highlight Reel', highlightreel.length, `<div class="table-scroll"><table>
     <thead><tr><th>${lang === 'th' ? 'ภาพ' : 'Shot'}</th><th>${lang === 'th' ? 'โปเกมอน' : 'Pokémon'}</th><th>${lang === 'th' ? 'ไอเทม' : 'Items'}</th><th>${lang === 'th' ? 'เวลา' : 'Time'}</th><th>${lang === 'th' ? 'รางวัล' : 'Reward'}</th></tr></thead>
     <tbody>${highlightreel.map(h => `<tr><td>${esc(h.name)}</td><td>${esc(h.pokemon) || '—'}</td><td>${h.items.map(esc).join('<br>') || '—'}</td><td>${esc(h.time) || '—'}</td><td>${esc(h.reward) || '—'}</td></tr>`).join('')}</tbody></table></div>`)}
+
+  ${sec(lang === 'th' ? 'ลายสำหรับทาของ' : 'Paint patterns', patterns.length, `
+  <p class="note">${lang === 'th'
+      ? 'สเมียร์กุรุทาสีของให้ได้ และบางชิ้นใส่ "ลาย" แทนสีได้ ลายส่วนใหญ่ได้จากของที่เวสปิควีนให้ ที่เหลือเจอบนเกาะแห่งความฝัน มีมาตั้งแต่ต้นเกม หรือได้หลังรับประกาศนียบัตร ราคาที่เห็นคือสีที่ต้องจ่ายต่อการทาหนึ่งครั้ง'
+      : 'Smearguru repaints your things, and some take a pattern instead of a flat colour. Most patterns come off items Vespiquen gives you; the rest turn up on Dream Islands, are there from the start, or arrive with the Diploma. The cost is the paint each one spends.'}</p>
+  <div class="patterns">${patterns.map(x => `<div class="pattern">
+    ${patternPic(x.img) ? `<img src="${patternPic(x.img)}" alt="" loading="lazy" width="72" height="72" decoding="async">` : ''}
+    <div class="pattern-src">${esc(x.source)}</div>
+    <div class="pattern-cost">${x.cost.map(c => esc(c)).join('<br>')}</div>
+  </div>`).join('')}</div>`)}
 
   ${sec(lang === 'th' ? 'อีโมต' : 'Emotes', emotes.length, `<div class="table-scroll"><table>
     <thead><tr><th>${lang === 'th' ? 'อีโมต' : 'Emote'}</th><th>${lang === 'th' ? 'ได้จาก' : 'Source'}</th></tr></thead>

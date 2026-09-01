@@ -13,7 +13,8 @@ Static site, **zero runtime dependencies**, mobile-first. Node 20+ is the only r
 |---|---|
 | Pokémon entries (300 in the main dex, plus Basin and Event dexes) | 367 |
 | Habitats — each with a picture, build requirements and the Pokémon it releases | 252 |
-| Items with an icon, description and sources | 1,697 |
+| Items with an icon, description and sources | 1,777 |
+| Paint patterns, with where each is found and what it costs | 116 |
 | Crafting recipes with material costs | 884 |
 | Furniture pieces | 140 |
 | Building kits, 55 with materials, helper Pokemon and build time | 56 |
@@ -119,7 +120,7 @@ scripts/
 src/
   styles.css        design system (light + dark, mobile-first)
   app.js            search, list filtering, nav drawer, theme toggle
-  sprites/          small/ is committed; art/, items/, habitats/ and outfits/ are downloaded
+  sprites/          small/ is committed; the rest are downloaded (see scripts/sprites.mjs)
 _research/          scraped source data and the parsers that produced data/
 ```
 

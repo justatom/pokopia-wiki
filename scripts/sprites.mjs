@@ -8,6 +8,7 @@
 //   outfits/   outfit thumbnail            downloaded
 //   moves/     Ditto's move icon           downloaded
 //   builds/    finished-building render    downloaded
+//   patterns/  paint pattern swatch        downloaded
 //
 // Everything is skip-if-present, so a re-run only fetches what is missing.
 import fs from 'node:fs';
@@ -99,6 +100,14 @@ const SB = { 'User-Agent': UA, Referer: `${SEREBII}/items.shtml` };
     () => grab(`${SEREBII}/ditto/${f}`, path.join(out, f), SB)), 4);
 }
 
+/* ---------- paint patterns ---------- */
+{
+  const out = dir('src/sprites/patterns');
+  const files = [...new Set(j('data/patterns.json').map(x => x.img).filter(Boolean))];
+  await run('patterns', files.map(f =>
+    () => grab(`${SEREBII}/pattern/${f}`, path.join(out, f), SB)), 4);
+}
+
 /* ---------- outfit thumbnails ---------- */
 {
   const out = dir('src/sprites/outfits');
@@ -109,6 +118,6 @@ const SB = { 'User-Agent': UA, Referer: `${SEREBII}/items.shtml` };
 
 console.log(`downloaded ${(bytes / 1e6).toFixed(1)}MB${missed ? `, ${missed} missing` : ''}`);
 
-/* the finished-building renders come from the Bulbagarden Archives, which needs its own
-   API lookup to resolve each upload path, so it lives in its own script */
-await import('./builds.mjs');
+/* the building renders and the sprites for items Serebii omits come from the Bulbagarden
+   Archives, which needs an API lookup to resolve each upload path, so they live apart */
+await import('./archives.mjs');

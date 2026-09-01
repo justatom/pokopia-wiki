@@ -1,0 +1,869 @@
+[
+ {
+  "img": "1.png",
+  "source": "Beginning",
+  "cost": [
+   "Red Paint * 2"
+  ]
+ },
+ {
+  "img": "2.png",
+  "source": "Beginning",
+  "cost": [
+   "Black Paint * 2"
+  ]
+ },
+ {
+  "img": "3.png",
+  "source": "Beginning",
+  "cost": [
+   "White Paint * 2"
+  ]
+ },
+ {
+  "img": "4.png",
+  "source": "Beginning",
+  "cost": [
+   "Cyan Paint * 2"
+  ]
+ },
+ {
+  "img": "5.png",
+  "source": "Beginning",
+  "cost": [
+   "Blue Paint * 2"
+  ]
+ },
+ {
+  "img": "6.png",
+  "source": "Beginning",
+  "cost": [
+   "Pink Paint * 2"
+  ]
+ },
+ {
+  "img": "7.png",
+  "source": "Beginning",
+  "cost": [
+   "Blue Paint * 2"
+  ]
+ },
+ {
+  "img": "8.png",
+  "source": "Beginning",
+  "cost": [
+   "Pink Paint * 2"
+  ]
+ },
+ {
+  "img": "37.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Cyan Paint * 2"
+  ]
+ },
+ {
+  "img": "38.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Red Paint * 1",
+   "Pink Paint * 1"
+  ]
+ },
+ {
+  "img": "34.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Green Paint * 1",
+   "Yellow Paint * 1"
+  ]
+ },
+ {
+  "img": "35.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Green Paint * 2"
+  ]
+ },
+ {
+  "img": "36.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Red Paint * 2"
+  ]
+ },
+ {
+  "img": "33.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Pink Paint * 2"
+  ]
+ },
+ {
+  "img": "9.png",
+  "source": "Beginning",
+  "cost": [
+   "Cyan Paint * 2"
+  ]
+ },
+ {
+  "img": "10.png",
+  "source": "Beginning",
+  "cost": [
+   "Red Paint * 1",
+   "Green Paint * 1"
+  ]
+ },
+ {
+  "img": "11.png",
+  "source": "Dream Island",
+  "cost": [
+   "Green Paint * 1",
+   "Yellow Paint * 1"
+  ]
+ },
+ {
+  "img": "12.png",
+  "source": "Dream Island",
+  "cost": [
+   "Blue Paint * 1",
+   "Black Paint * 1"
+  ]
+ },
+ {
+  "img": "13.png",
+  "source": "Dream Island",
+  "cost": [
+   "Red Paint * 3",
+   "Yellow Paint * 1"
+  ]
+ },
+ {
+  "img": "14.png",
+  "source": "Dream Island",
+  "cost": [
+   "Yellow Paint * 2"
+  ]
+ },
+ {
+  "img": "15.png",
+  "source": "Dream Island",
+  "cost": [
+   "Blue Paint * 1",
+   "Black Paint * 1"
+  ]
+ },
+ {
+  "img": "16.png",
+  "source": "Dream Island",
+  "cost": [
+   "Red Paint * 2"
+  ]
+ },
+ {
+  "img": "17.png",
+  "source": "Dream Island",
+  "cost": [
+   "Red Paint * 1",
+   "Green Paint * 1"
+  ]
+ },
+ {
+  "img": "18.png",
+  "source": "Dream Island",
+  "cost": [
+   "Green Paint * 1",
+   "Yellow Paint * 1"
+  ]
+ },
+ {
+  "img": "19.png",
+  "source": "Dream Island",
+  "cost": [
+   "Green Paint * 2"
+  ]
+ },
+ {
+  "img": "20.png",
+  "source": "Dream Island",
+  "cost": [
+   "Cyan Paint * 2"
+  ]
+ },
+ {
+  "img": "21.png",
+  "source": "Dream Island",
+  "cost": [
+   "Pink Paint * 2"
+  ]
+ },
+ {
+  "img": "22.png",
+  "source": "Dream Island",
+  "cost": [
+   "Cyan Paint * 2"
+  ]
+ },
+ {
+  "img": "23.png",
+  "source": "Dream Island",
+  "cost": [
+   "Cyan Paint * 2"
+  ]
+ },
+ {
+  "img": "24.png",
+  "source": "Dream Island",
+  "cost": [
+   "Blue Paint * 1",
+   "Black Paint * 1"
+  ]
+ },
+ {
+  "img": "25.png",
+  "source": "Dream Island",
+  "cost": [
+   "Red Paint * 1",
+   "Green Paint * 1"
+  ]
+ },
+ {
+  "img": "26.png",
+  "source": "Dream Island",
+  "cost": [
+   "Red Paint * 1",
+   "Yellow Paint * 1"
+  ]
+ },
+ {
+  "img": "27.png",
+  "source": "Dream Island",
+  "cost": [
+   "Pink Paint * 2"
+  ]
+ },
+ {
+  "img": "28.png",
+  "source": "Dream Island",
+  "cost": [
+   "Red Paint * 1",
+   "Black Paint * 1"
+  ]
+ },
+ {
+  "img": "29.png",
+  "source": "Dream Island",
+  "cost": [
+   "White Paint * 2"
+  ]
+ },
+ {
+  "img": "30.png",
+  "source": "Dream Island",
+  "cost": [
+   "Red Paint * 1",
+   "Yellow Paint * 1"
+  ]
+ },
+ {
+  "img": "31.png",
+  "source": "Dream Island",
+  "cost": [
+   "Red Paint * 2"
+  ]
+ },
+ {
+  "img": "32.png",
+  "source": "Dream Island",
+  "cost": [
+   "Blue Paint * 2"
+  ]
+ },
+ {
+  "img": "39.png",
+  "source": "After obtaining Diploma",
+  "cost": [
+   "White Paint * 1",
+   "Black Paint * 1"
+  ]
+ },
+ {
+  "img": "40.png",
+  "source": "After obtaining Diploma",
+  "cost": [
+   "White Paint * 1",
+   "Black Paint * 1"
+  ]
+ },
+ {
+  "img": "41.png",
+  "source": "Show pattern to Smeaguru\nExpansion Pass Required",
+  "cost": [
+   "Cyan Paint * 2"
+  ]
+ },
+ {
+  "img": "42.png",
+  "source": "Show pattern to Smeaguru\nExpansion Pass Required",
+  "cost": [
+   "Blue Paint * 2"
+  ]
+ },
+ {
+  "img": "43.png",
+  "source": "Show pattern to Smeaguru\nExpansion Pass Required",
+  "cost": [
+   "White Paint * 2"
+  ]
+ },
+ {
+  "img": "44.png",
+  "source": "Show pattern to Smeaguru\nExpansion Pass Required",
+  "cost": [
+   "Blue Paint * 1",
+   "Black Paint * 1"
+  ]
+ },
+ {
+  "img": "45.png",
+  "source": "Show pattern to Smeaguru\nExpansion Pass Required",
+  "cost": [
+   "Pink Paint * 1",
+   "Blue Paint * 1"
+  ]
+ },
+ {
+  "img": "46.png",
+  "source": "Show pattern to Smeaguru\nExpansion Pass Required",
+  "cost": [
+   "Blue Paint * 1",
+   "White Paint * 1"
+  ]
+ },
+ {
+  "img": "47.png",
+  "source": "Show pattern to Smeaguru\nExpansion Pass Required",
+  "cost": [
+   "Pink Paint * 2"
+  ]
+ },
+ {
+  "img": "48.png",
+  "source": "Show pattern to Smeaguru\nExpansion Pass Required",
+  "cost": [
+   "Pink Paint * 2"
+  ]
+ },
+ {
+  "img": "pk17.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Green Paint * 2"
+  ]
+ },
+ {
+  "img": "pk18.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Red Paint * 1",
+   "Yellow Paint * 1"
+  ]
+ },
+ {
+  "img": "pk59.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Cyan Paint * 2"
+  ]
+ },
+ {
+  "img": "pk7.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Yellow Paint * 2"
+  ]
+ },
+ {
+  "img": "pk14.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Red Paint * 1",
+   "Green Paint * 1"
+  ]
+ },
+ {
+  "img": "pk43.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Green Paint * 1",
+   "Cyan Paint * 1"
+  ]
+ },
+ {
+  "img": "pk19.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Black Paint * 2"
+  ]
+ },
+ {
+  "img": "pk8.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "White Paint * 2"
+  ]
+ },
+ {
+  "img": "pk20.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Cyan Paint * 2"
+  ]
+ },
+ {
+  "img": "pk21.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Blue Paint * 1",
+   "Black Paint * 1"
+  ]
+ },
+ {
+  "img": "pk22.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Yellow Paint * 2"
+  ]
+ },
+ {
+  "img": "pk1.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Pink Paint * 2"
+  ]
+ },
+ {
+  "img": "pk39.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Green Paint * 1",
+   "Yellow Paint * 1"
+  ]
+ },
+ {
+  "img": "pk44.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Black Paint * 2"
+  ]
+ },
+ {
+  "img": "pk38.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Cyan Paint * 2"
+  ]
+ },
+ {
+  "img": "pk41.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Pink Paint * 2"
+  ]
+ },
+ {
+  "img": "pk30.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Cyan Paint * 2"
+  ]
+ },
+ {
+  "img": "pk31.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Red Paint * 1",
+   "Green Paint * 1"
+  ]
+ },
+ {
+  "img": "pk51.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "White Paint * 1",
+   "Black Paint * 1"
+  ]
+ },
+ {
+  "img": "pk2.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Blue Paint * 1",
+   "Black Paint * 1"
+  ]
+ },
+ {
+  "img": "pk32.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "White Paint * 2"
+  ]
+ },
+ {
+  "img": "pk9.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Blue Paint * 1",
+   "White Paint * 1"
+  ]
+ },
+ {
+  "img": "pk16.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Cyan Paint * 2"
+  ]
+ },
+ {
+  "img": "pk48.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Black Paint * 2"
+  ]
+ },
+ {
+  "img": "pk45.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Red Paint * 1",
+   "Yellow Paint * 1"
+  ]
+ },
+ {
+  "img": "pk23.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Black Paint * 2"
+  ]
+ },
+ {
+  "img": "pk53.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Pink Paint * 1",
+   "Blue Paint * 1"
+  ]
+ },
+ {
+  "img": "pk49.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Yellow Paint * 2"
+  ]
+ },
+ {
+  "img": "pk40.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Red Paint * 2"
+  ]
+ },
+ {
+  "img": "pk24.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Pink Paint * 1",
+   "Blue Paint * 1"
+  ]
+ },
+ {
+  "img": "pk60.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Yellow Paint * 2"
+  ]
+ },
+ {
+  "img": "pk52.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Red Paint * 1",
+   "Green Paint * 1"
+  ]
+ },
+ {
+  "img": "pk46.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Green Paint * 1",
+   "Yellow Paint * 1"
+  ]
+ },
+ {
+  "img": "pk42.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "White Paint * 1",
+   "Black Paint *"
+  ]
+ },
+ {
+  "img": "pk33.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Black Paint * 2"
+  ]
+ },
+ {
+  "img": "pk10.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Blue Paint * 1",
+   "White Paint * 1"
+  ]
+ },
+ {
+  "img": "pk25.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Black Paint * 2"
+  ]
+ },
+ {
+  "img": "pk47.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Red Paint * 1",
+   "Yellow Paint * 1"
+  ]
+ },
+ {
+  "img": "pk26.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Cyan Paint * 2"
+  ]
+ },
+ {
+  "img": "pk34.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "White Paint * 2"
+  ]
+ },
+ {
+  "img": "pk11.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Blue Paint * 2"
+  ]
+ },
+ {
+  "img": "pk50.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Red Paint * 1",
+   "Blue Paint * 1"
+  ]
+ },
+ {
+  "img": "pk27.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Blue Paint * 1",
+   "White Paint * 1"
+  ]
+ },
+ {
+  "img": "pk3.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "White Paint * 2"
+  ]
+ },
+ {
+  "img": "pk57.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Red Paint * 1",
+   "Green Paint * 1"
+  ]
+ },
+ {
+  "img": "pk35.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Green Paint * 1",
+   "Yellow Paint * 1"
+  ]
+ },
+ {
+  "img": "pk55.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Red Paint * 2"
+  ]
+ },
+ {
+  "img": "pk36.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Yellow Paint * 2"
+  ]
+ },
+ {
+  "img": "pk58.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Cyan Paint * 2"
+  ]
+ },
+ {
+  "img": "pk4.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Green Paint * 1",
+   "Yellow Paint * 1"
+  ]
+ },
+ {
+  "img": "pk5.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Blue Paint * 1",
+   "Black Paint * 1"
+  ]
+ },
+ {
+  "img": "pk37.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "White Paint * 2"
+  ]
+ },
+ {
+  "img": "pk56.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Red Paint * 1",
+   "Green Paint * 1"
+  ]
+ },
+ {
+  "img": "pk28.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Pink Paint * 1",
+   "Blue Paint * 1"
+  ]
+ },
+ {
+  "img": "pk12.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Green Paint * 1",
+   "Yellow Paint * 1"
+  ]
+ },
+ {
+  "img": "pk13.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Black Paint * 1",
+   "Pink Paint * 1"
+  ]
+ },
+ {
+  "img": "pk54.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Blue Paint * 1",
+   "Black Paint * 1"
+  ]
+ },
+ {
+  "img": "pk15.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Blue Paint * 1",
+   "White Paint * 1"
+  ]
+ },
+ {
+  "img": "pk6.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Red Paint * 1",
+   "Green Paint * 1"
+  ]
+ },
+ {
+  "img": "pk29.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Cyan Paint * 2"
+  ]
+ },
+ {
+  "img": "pk61.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Pink Paint * 1",
+   "Blue Paint * 1"
+  ]
+ },
+ {
+  "img": "pk62.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Cyan Paint * 2"
+  ]
+ },
+ {
+  "img": "pk63.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Red Paint * 1",
+   "Green Paint * 1"
+  ]
+ },
+ {
+  "img": "pk64.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Pink Paint * 1",
+   "Blue Paint * 1"
+  ]
+ },
+ {
+  "img": "pk65.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "White Paint * 1",
+   "Black Paint * 1"
+  ]
+ },
+ {
+  "img": "pk66.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Red Paint * 1",
+   "Blue Paint * 1"
+  ]
+ },
+ {
+  "img": "pk67.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "Blue Paint * 1",
+   "Black Paint * 1"
+  ]
+ },
+ {
+  "img": "pk68.png",
+  "source": "On item given by Vespiquen",
+  "cost": [
+   "White Paint * 2"
+  ]
+ }
+]

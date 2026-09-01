@@ -251,6 +251,75 @@ for (const s of secs('items')) {
     items.push({ id, name, cat, desc: cell(r[2]), img: icon(name), tags: list(r[3]), sources: list(r[4]) });
   }
 }
+
+/* ---------- painting ----------
+   Serebii lists which items take paint and which take a pattern; Bulbapedia additionally
+   records how many sections of an item can be coloured separately. Serebii's pattern
+   table is a dataset of its own: 116 patterns with where each is found and its cost. */
+{
+  const paint = new Map(), pattern = new Set();
+  for (const r of sec('paint').rows) {
+    if (r.length !== 5) continue;
+    const name = cell(r[1]); if (!name || name === 'Name') continue;
+    paint.set(slug(name), /yes/i.test(cell(r[3])));
+    if (/yes/i.test(cell(r[4]))) pattern.add(slug(name));
+  }
+  const patterns = [];
+  for (const r of sec('paint').rows) {
+    if (r.length !== 3) continue;
+    const where = cell(r[1]); if (!where || where === 'Location') continue;
+    patterns.push({
+      img: ((r[0].i || [])[0] || '').replace(/^.*\//, '') || null,
+      source: where,
+      cost: list(r[2]),
+    });
+  }
+  W('patterns', patterns);
+
+  /* ---------- Bulbapedia item facts ----------
+     Paint slot counts, and the flags saying an item needs the Expansion Pass, came from an
+     event, or arrived in a later version — none of which Serebii publishes. */
+  let extra = new Map();
+  if (fs.existsSync('_research/bulba_items.json')) {
+    const { default: parseItems } = await import('./bulbaitems.mjs');
+    const rows = parseItems(j('_research/bulba_items.json').parse.wikitext);
+    extra = new Map(rows.map(x => [slug(x.name), x]));
+
+    /* Bulbapedia carries items Serebii's list omits — mostly flower seeds broken out per
+       colour. Add them so the item list is the union of both. */
+    let added = 0;
+    /* Bulbapedia leaves the pocket blank for a dozen plant growth stages and terrain
+       pieces. Serebii files the identical kind of object — "Potato sprout (Grow)",
+       "Dry potato plant" — under Nature, so these follow our own categorisation. */
+    for (const x of rows) {
+      const id = slug(x.name);
+      if (itemSeen.has(id)) continue;
+      const cat = x.cat || 'Nature';
+      itemSeen.add(id); added++;
+      items.push({
+        id, name: x.name, cat, desc: x.desc, img: icon(x.name),
+        tags: x.classification ? [x.classification] : [], sources: [],
+      });
+    }
+    if (added) console.log(`   ${added} items added from Bulbapedia`);
+  }
+
+  for (const i of items) {
+    const b = extra.get(i.id);
+    i.paint = paint.has(i.id) ? paint.get(i.id) : (b ? b.paintable : false);
+    i.paintSlots = b && b.paint ? b.paint : null;
+    i.pattern = pattern.has(i.id) || Boolean(b && b.pattern);
+    i.dlc = Boolean(b && b.dlc);
+    i.event = Boolean(b && b.event);
+    i.addedIn = (b && b.addedIn) || null;
+    i.craftable = Boolean(b && b.craftable);
+    if (!i.tags.length && b && b.classification) i.tags = [b.classification];
+    // the Bulbapedia sprite name, so a missing Serebii icon can fall back to the Archives
+    i.bulbaFile = b ? b.file : null;
+  }
+  const n = k => items.filter(x => x[k]).length;
+  console.log(`   paint ${n('paint')} · pattern ${n('pattern')} · DLC ${n('dlc')} · event ${n('event')} · craftable ${n('craftable')}`);
+}
 W('items', items);
 
 /* ---------- recipes ---------- */
