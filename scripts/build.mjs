@@ -767,6 +767,11 @@ function storyPage(lang) {
   return layout({ lang, base: BASE, title: t.nav.story, desc: L(lang, GAME.tagline), path: '/story/', body });
 }
 
+const BUILD_PICS = picsIn('builds');
+/* the game's own render of the completed building, without the kit badge Serebii stamps
+   on its copy; falls back to that badged icon when the Archives has no file */
+const buildPic = f => f && BUILD_PICS.has(f) ? `${BASE}/sprites/builds/${encodeURIComponent(f)}` : null;
+
 const KIT_GROUPS_TH = {
   'List of building kits': 'ชุดก่อสร้างทั่วไป', 'Event kits': 'ชุดจากอีเวนต์',
   'Basin kits': 'ชุดของ Bubbly Basin', 'Ocean temple': 'วิหารใต้ทะเล (เนื้อเรื่อง)',
@@ -798,8 +803,8 @@ function buildingPage(lang) {
   const total = k => k.helpers.reduce((n, h) => n + h.count, 0);
 
   const card = k => `<article class="row kit" id="k-${esc(k.id)}">
-    ${itemPic(k.img)
-      ? `<img class="kit-pic" src="${itemPic(k.img)}" alt="${esc(k.name)}" loading="lazy" width="84" height="84" decoding="async">`
+    ${buildPic(k.build) || itemPic(k.img)
+      ? `<img class="kit-pic" src="${buildPic(k.build) || itemPic(k.img)}" alt="${esc(k.name)}" loading="lazy" width="128" height="128" decoding="async">`
       : rowIcon('hammer')}
     <div>
       <div class="row-name">${itemLink(lang, k.id, esc(k.name))}</div>
@@ -824,6 +829,9 @@ function buildingPage(lang) {
   <p class="note">${th
       ? 'ขั้นตอนคือ วางชุดก่อสร้างตรงจุดที่อยากได้ แล้วเก็บวัสดุตามที่ชุดนั้นระบุ จากนั้นพาโปเกมอนที่มีความถนัดตรงเงื่อนไขมาช่วย คุยกับมันให้เดินตามมาที่จุดก่อสร้าง แล้วเวลาจะเริ่มนับ'
       : 'The loop is: put the kit where you want the building, collect the materials it lists, then bring Pokémon whose specialties match. Talk to one, have it follow you to the kit, and ask it to help — the clock starts from there.'}</p>
+  <p class="note">${th
+      ? 'รูปในแต่ละการ์ดคือภาพสิ่งปลูกสร้างที่เสร็จแล้ว ซึ่งเป็นภาพเรนเดอร์จากตัวเกมเอง ไม่ใช่ไอคอนกล่องชุดก่อสร้าง ทั้งนี้ยังไม่มีแหล่งข้อมูลไหนเผยแพร่ภาพหน้าจอของบ้านแต่ละหลังตอนตั้งอยู่จริงในแมป'
+      : 'The picture on each card is the finished building as the game itself renders it, not a picture of the kit box. No source publishes an in-world screenshot of each building standing on your land.'}</p>
   <p class="note note-clay">${th
       ? 'พาโปเกมอนที่มีความถนัด Engineer (ทิงคมาสเตอร์) มาช่วยจะย่นเวลาลงมาก งานที่ปกติต้องข้ามวันจะเหลือ 1 ชั่วโมง และแต่ละพื้นที่มีโควตาก่อสร้าง 40 แต้ม สิ่งปลูกสร้างหนึ่งหลังกิน 1 หรือ 2 แต้มตามขนาด'
       : 'Bringing a Pokémon with the Engineer specialty (Tinkmaster) cuts the time sharply — a "next day" build becomes an hour. Each area also has a 40-point building budget, and every build spends 1 or 2 points depending on its size.'}</p>

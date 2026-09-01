@@ -292,6 +292,7 @@ W('furniture', table(sec('furniture').rows, 6).map(r => ({
   const byName = new Map(reqs.map(r => [key(r.name), r]));
   for (const k of kits) {
     const r = byName.get(key(k.name));
+    k.build = r && r.file ? r.file.trim().replace(/ /g, '_') : null;
     k.materials = r ? r.materials : [];
     k.helpers = r ? r.helpers : [];
     k.time = r ? r.time : [];

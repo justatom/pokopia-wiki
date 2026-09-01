@@ -54,6 +54,8 @@ export default function parseBuildKits(wiki) {
       kits.push({
         name,
         section: sec.name,
+        // the same artwork Serebii uses, minus the kit badge stamped in its corner
+        file: (cells[0].match(/\[\[File:([^|\]]+)/) || [])[1] || null,
         materials: mats.map((m, i) => ({
           name: m,
           qty: +(String(qty[i] || '').replace(/[^\d]/g, '')) || null,

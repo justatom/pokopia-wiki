@@ -36,7 +36,8 @@ jobs:
             src/sprites/habitats
             src/sprites/outfits
             src/sprites/moves
-          key: pokopia-pictures-v3
+            src/sprites/builds
+          key: pokopia-pictures-v4
 
       - name: Download missing pictures
         run: node scripts/sprites.mjs

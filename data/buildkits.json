@@ -4,6 +4,7 @@
   "name": "Leaf den kit",
   "desc": "Gather some Pokémon and build away! This makes a den for medium-sized Pokémon or smaller",
   "img": "leafdenkit.png",
+  "build": "Bag_Leaf_den_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Sturdy stick",
@@ -40,6 +41,7 @@
   "name": "Leaf hut kit",
   "desc": "Gather some Pokémon and build away! This makes a hut that any Pokémon could easily live in",
   "img": "leafhutkit.png",
+  "build": "Bag_Leaf_hut_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Lumber",
@@ -83,6 +85,7 @@
   "name": "Leaf cottage kit",
   "desc": "Gather some Pokémon and build away! This makes a place where two Pokémon can relax.",
   "img": "leafcottagekit.png",
+  "build": "Bag_Leaf_cottage_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Lumber",
@@ -137,6 +140,7 @@
   "name": "Leaf house kit",
   "desc": "Gather some Pokémon and build away! Let's make a ginormous house where everyone can live together",
   "img": "leafhousekit.png",
+  "build": "Bag_Leaf_house_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Lumber",
@@ -202,6 +206,7 @@
   "name": "Sand den kit",
   "desc": "Gather some Pokémon and build away! This makes a den for medium-sized Pokémon or smaller",
   "img": "sanddenkit.png",
+  "build": "Bag_Sand_den_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Seashell",
@@ -242,6 +247,7 @@
   "name": "Sand hut kit",
   "desc": "Gather some Pokémon and build away! This makes a hut that any Pokémon could easily live in",
   "img": "sandhutkit.png",
+  "build": "Bag_Sand_hut_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Seashell",
@@ -289,6 +295,7 @@
   "name": "Sand cottage kit",
   "desc": "Gather some Pokémon and build away! This makes a place where two Pokémon can relax.",
   "img": "sandcottagekit.png",
+  "build": "Bag_Sand_cottage_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Stone",
@@ -347,6 +354,7 @@
   "name": "Sand house kit",
   "desc": "Gather some Pokémon and build away! Let's make a ginormous house where everyone can live together",
   "img": "sandhousekit.png",
+  "build": "Bag_Sand_house_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Stone",
@@ -412,6 +420,7 @@
   "name": "Stone den kit",
   "desc": "Gather some Pokémon and build away! This makes a den for medium-sized Pokémon or smaller",
   "img": "stonedenkit.png",
+  "build": "Bag_Stone_den_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Stone",
@@ -448,6 +457,7 @@
   "name": "Stone hut kit",
   "desc": "Gather some Pokémon and build away! This makes a hut that any Pokémon could easily live in",
   "img": "stonehutkit.png",
+  "build": "Bag_Stone_hut_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Stone",
@@ -495,6 +505,7 @@
   "name": "Stone cottage kit",
   "desc": "Gather some Pokémon and build away! This makes a place where two Pokémon can relax.",
   "img": "stonecottagekit.png",
+  "build": "Bag_Stone_cottage_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Stone",
@@ -549,6 +560,7 @@
   "name": "Stone house kit",
   "desc": "Gather some Pokémon and build away! Let's make a ginormous house where everyone can live together",
   "img": "stonehousekit.png",
+  "build": "Bag_Stone_house_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Stone",
@@ -614,6 +626,7 @@
   "name": "City den kit",
   "desc": "Gather some Pokémon and build away! This makes a den for medium-sized Pokémon or smaller",
   "img": "citydenkit.png",
+  "build": "Bag_City_den_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Pokémetal",
@@ -654,6 +667,7 @@
   "name": "City hut kit",
   "desc": "Gather some Pokémon and build away! This makes a hut that any Pokémon could easily live in",
   "img": "cityhutkit.png",
+  "build": "Bag_City_hut_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Pokémetal",
@@ -705,6 +719,7 @@
   "name": "City cottage kit",
   "desc": "Gather some Pokémon and build away! This makes a place where two Pokémon can relax.",
   "img": "citycottagekit.png",
+  "build": "Bag_City_cottage_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Pokémetal",
@@ -763,6 +778,7 @@
   "name": "City house kit",
   "desc": "Gather some Pokémon and build away! Let's make a ginormous house where everyone can live together",
   "img": "cityhousekit.png",
+  "build": "Bag_City_house_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Pokémetal",
@@ -828,6 +844,7 @@
   "name": "Poké Ball house kit",
   "desc": "Gather some Pokémon and build away! This makes a house that looks like a giant Poké Ball.",
   "img": "pokeballhousekit.png",
+  "build": "Bag_Poké_Ball_house_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Concrete",
@@ -873,6 +890,7 @@
   "name": "Poké Mart kit",
   "desc": "Gather some Pokémon and build away! This makes a store that somehow always feels a little exciting",
   "img": "pokemartkit.png",
+  "build": "Bag_Poké_Mart_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Concrete",
@@ -920,6 +938,7 @@
   "name": "Wasteland Pokémon Center kit",
   "desc": "Use this to remodel a Pokémon Center to make it look just like the Wasteland Pokémon Center",
   "img": "wastelandpokemoncenterkit.png",
+  "build": "Bag_Wasteland_Pokémon_Center_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Lumber",
@@ -979,6 +998,7 @@
   "name": "Beach Pokémon Center kit",
   "desc": "Use this to remodel a Pokémon Center to make it look just like the Beach Pokémon Center",
   "img": "beachpokemoncenterkit.png",
+  "build": "Bag_Beach_Pokémon_Center_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Twine",
@@ -1038,6 +1058,7 @@
   "name": "Ridge Pokémon Center kit",
   "desc": "Use this to remodel a Pokémon Center to make it look just like the Ridge Pokémon Center",
   "img": "ridgepokemoncenterkit.png",
+  "build": "Bag_Ridge_Pokémon_Center_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Stone",
@@ -1097,6 +1118,7 @@
   "name": "Skyland Pokémon Center kit",
   "desc": "Use this to remodel a Pokémon Center to make it look just like the Skyland Pokémon Center",
   "img": "skylandpokemoncenterkit.png",
+  "build": "Bag_Skyland_Pokémon_Center_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Pokémetal",
@@ -1156,6 +1178,7 @@
   "name": "Windmill kit",
   "desc": "Gather some Pokémon and build away! This makes a generator that turns wind energy into loads of power",
   "img": "windmillkit.png",
+  "build": "Bag_Windmill_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Lumber",
@@ -1192,6 +1215,7 @@
   "name": "Waterwheel kit",
   "desc": "Gather some Pokémon and build away! This makes a generator that uses water to produce tons of power",
   "img": "waterwheelkit.png",
+  "build": "Bag_Waterwheel_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Lumber",
@@ -1228,6 +1252,7 @@
   "name": "Furnace kit",
   "desc": "Gather some Pokémon and build away! This makes a generator that burns stuff to produce heaps of power",
   "img": "furnacekit.png",
+  "build": "Bag_Furnace_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Iron ore",
@@ -1264,6 +1289,7 @@
   "name": "Charging station kit",
   "desc": "Gather some Pokémon and build away! This makes a device that's perfect for charging things up",
   "img": "chargingstationkit.png",
+  "build": "Bag_Charging_station_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Iron ingot",
@@ -1300,6 +1326,7 @@
   "name": "Pikachu fountain kit",
   "desc": "Gather some Pokémon and build away! This makes a found that would look great all lit up",
   "img": "pikachufountainkit.png",
+  "build": "Bag_Pikachu_fountain_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Brick",
@@ -1344,6 +1371,7 @@
   "name": "Moonlight dance statue kit",
   "desc": "Gather some Pokémon and build away! This will make you want to dance as you're building it",
   "img": "moonlightdancestatuekit.png",
+  "build": "Bag_Moonlight_dance_statue_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Iron ingot",
@@ -1384,6 +1412,7 @@
   "name": "Pink hut kit",
   "desc": "Gather some Pokémon and build away! This makes a cute plaster house",
   "img": "pinkhutkit.png",
+  "build": "Bag_Pink_hut_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Lumber",
@@ -1435,6 +1464,7 @@
   "name": "Pink cottage kit",
   "desc": "Gather some Pokémon and build away! This makes a cute retro house",
   "img": "pinkcottagekit.png",
+  "build": "Bag_Pink_cottage_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Lumber",
@@ -1486,6 +1516,7 @@
   "name": "Orange hut kit",
   "desc": "Gather some Pokémon and build away! This makes a fancy brick house",
   "img": "orangehutkit.png",
+  "build": "Bag_Orange_hut_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Lumber",
@@ -1537,6 +1568,7 @@
   "name": "Orange cottage kit",
   "desc": "Gather some Pokémon and build away! This makes a vibrant house where you can enjoy resort vibes.",
   "img": "orangecottagekit.png",
+  "build": "Bag_Orange_cottage_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Lumber",
@@ -1588,6 +1620,7 @@
   "name": "Gray hut kit",
   "desc": "Gather some Pokémon and build away! This makes a cool stone house",
   "img": "grayhutkit.png",
+  "build": "Bag_Gray_hut_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Stone",
@@ -1639,6 +1672,7 @@
   "name": "Gray cottage kit",
   "desc": "A high-class house with a seren atmosphere. It's full of luxurious furniture",
   "img": "graycottagekit.png",
+  "build": "Bag_Gray_cottage_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Iron ingot",
@@ -1690,6 +1724,7 @@
   "name": "Yellow hut kit",
   "desc": "Gather some Pokémon and build away! This makes a flashy concrete house",
   "img": "yellowhutkit.png",
+  "build": "Bag_Yellow_hut_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Concrete",
@@ -1741,6 +1776,7 @@
   "name": "Yellow cottage kit",
   "desc": "Gather some Pokémon and build away! This makes a stylish concrete house",
   "img": "yellowcottagekit.png",
+  "build": "Bag_Yellow_cottage_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Iron ingot",
@@ -1788,6 +1824,7 @@
   "name": "Log cabin kit",
   "desc": "Gather some Pokémon and build away! This makes a house that has a pleasing woodsy aroma",
   "img": "logcabinkit.png",
+  "build": "Bag_Log_cabin_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Leaf",
@@ -1835,6 +1872,7 @@
   "name": "Small office kit",
   "desc": "Gather some Pokémon and build away! This makes a place where you can really focus on your work",
   "img": "smallofficekit.png",
+  "build": "Bag_Small_office_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Iron ingot",
@@ -1886,6 +1924,7 @@
   "name": "Relaxing park kit",
   "desc": "Gather some Pokémon and build away! This makes a park with an iconic Chansey tree",
   "img": "relaxingparkkit.png",
+  "build": "Bag_Relaxing_park_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Leaf",
@@ -1933,6 +1972,7 @@
   "name": "Stylish Café kit",
   "desc": "Gather some Pokémon and build away! This makes a lovely café where you can take a little breather.",
   "img": "stylishcafekit.png",
+  "build": "Bag_Stylish_café_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Lumber",
@@ -1984,6 +2024,7 @@
   "name": "Concert stage kit",
   "desc": "Gather some Pokémon and build away! This makes a stage big enough to hold all your friends",
   "img": "concertstagekit.png",
+  "build": "Bag_Concert_stage_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Iron ingot",
@@ -2035,6 +2076,7 @@
   "name": "Fountain plaza kit",
   "desc": "Gather some Pokémon and build away! This makes a plaza that's perfect for meetups",
   "img": "fountainplazakit.png",
+  "build": "Bag_Fountain_plaza_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Lumber",
@@ -2082,6 +2124,7 @@
   "name": "Altar of Flame kit",
   "desc": "Gather some Pokémon and build away! This makes an altar accompanied by roaring flames",
   "img": "altarofflamekit.png",
+  "build": "Bag_Altar_of_Flame_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Copper ingot",
@@ -2147,6 +2190,7 @@
   "name": "Abandoned Power Plant kit",
   "desc": "Gather some Pokémon and build away! This makes an abandoned power plant teeming with electricity.",
   "img": "abandonedpowerplantkit.png",
+  "build": "Bag_Abandoned_Power_Plant_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Copper ingot",
@@ -2216,6 +2260,7 @@
   "name": "Freezing Chambers kit",
   "desc": "Gather some Pokémon and build away! This makes frozen mountains with a mystical atmosphere",
   "img": "freezingchamberskit.png",
+  "build": "Bag_Freezing_Chambers_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Stone",
@@ -2281,6 +2326,7 @@
   "name": "Mysterious mural kit",
   "desc": "A mural that once depicted a Pokémon. If you could find the scattered pieces and reconstruct it....",
   "img": "mysteriousmuralkit.png",
+  "build": null,
   "materials": [],
   "helpers": [],
   "time": [],
@@ -2291,6 +2337,7 @@
   "name": "Tent kit",
   "desc": "Gather some Pokémon and build away This makes a house that repels rain and wind. Great for camping!",
   "img": "tentkit.png",
+  "build": "Bag_Tent_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Twine",
@@ -2338,6 +2385,7 @@
   "name": "Imperial cottage kit",
   "desc": "Gather some Pokémon and build away! This makes a place where two Pokémon can relax",
   "img": "imperialcottagekit.png",
+  "build": "Bag_Imperial_cottage_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Star-spotted rock",
@@ -2396,6 +2444,7 @@
   "name": "Imperial house kit",
   "desc": "Gather some Pokémon and build away! Let's make a ginormous house where everyone can live together!",
   "img": "imperialhousekit.png",
+  "build": "Bag_Imperial_house_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Star-spotted rock",
@@ -2461,6 +2510,7 @@
   "name": "Submarine kit",
   "desc": "Gather some Pokémon and build away! This makes a cool submarine that looks like a Sharpedo.",
   "img": "submarinekit.png",
+  "build": "Bag_Submarine_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Iron ore",
@@ -2494,6 +2544,7 @@
   "name": "Basin Pokémon Center kit",
   "desc": "Use this to remodel a Pokémon Center to make it look just like the Basin Pokémon Center",
   "img": "basinpokemoncenterkit.png",
+  "build": "Bag_Basin_Pokémon_Center_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Star-spotted rock",
@@ -2550,6 +2601,7 @@
   "name": "Clock tower kit",
   "desc": "Gather some Pokémon and build away! This makes a huge clock tower that could be a town's landmark",
   "img": "clocktowerkit.png",
+  "build": "Bag_Clock_tower_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Star-spotted rock",
@@ -2591,6 +2643,7 @@
   "name": "Aqua cottage kit",
   "desc": "Gather some Pokémon and build away! This makes a house with a cute scale roof.",
   "img": "aquacottagekit.png",
+  "build": "Bag_Aqua_cottage_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Stone",
@@ -2635,6 +2688,7 @@
   "name": "Supermarket kit",
   "desc": "Gather some Pokémon and build away! This makes a fully stocked supermarket!",
   "img": "supermarketkit.png",
+  "build": "Bag_Supermarket_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Star-spotted rock",
@@ -2679,6 +2733,7 @@
   "name": "Laboratory kit",
   "desc": "Gather some Pokémon and build away! This makes a high-tech lab with excellent waterproofing.",
   "img": "laboratorykit.png",
+  "build": "Bag_Laboratory_kit_Pokopia_Sprite.png",
   "materials": [
    {
     "name": "Iron ingot",
@@ -2729,6 +2784,7 @@
   "name": "Ocean temple kit",
   "desc": "A glamorous temple full of seashells, seaweed, and coral. It feels like an ocean paradise",
   "img": "oceantemplekit.png",
+  "build": "Ocean_temple_kit.png",
   "materials": [
    {
     "name": "Star-spotted rock",

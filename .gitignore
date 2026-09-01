@@ -26,3 +26,6 @@ src/sprites/outfits/
 
 # Ditto move icons — re-downloaded by `npm run sprites`
 src/sprites/moves/
+
+# finished-building renders — re-downloaded by `npm run sprites`
+src/sprites/builds/

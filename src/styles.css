@@ -334,8 +334,8 @@ td .fav-items { gap: 4px; }
 .move-ico-mon:hover { background: var(--moss-soft); }
 
 /* building kits */
-.kit { grid-template-columns: 64px 1fr; }
-.kit-pic { width: 64px; height: 64px; object-fit: contain; border-radius: 12px; background: var(--paper-2); }
+.kit { grid-template-columns: 88px 1fr; }
+.kit-pic { width: 88px; height: 88px; object-fit: contain; border-radius: 12px; background: var(--paper-2); }
 .kit-line { display: flex; align-items: baseline; gap: 8px; margin-top: 9px; flex-wrap: wrap; }
 .kit-label { flex: none; min-width: 78px; font-size: .7rem; font-weight: 700; letter-spacing: .04em;
   text-transform: uppercase; color: var(--muted); }
@@ -347,7 +347,7 @@ td .fav-items { gap: 4px; }
 .kit-helper a:hover { text-decoration-color: currentColor; }
 .kit .fav-item b { color: var(--clay); font-variant-numeric: tabular-nums; }
 .kit .fav-item img { width: 30px; height: 30px; }
-@media (min-width: 640px) { .kit { grid-template-columns: 84px 1fr; } .kit-pic { width: 84px; height: 84px; } }
+@media (min-width: 640px) { .kit { grid-template-columns: 128px 1fr; } .kit-pic { width: 128px; height: 128px; } }
 .move-unlock { display: flex; align-items: flex-start; gap: 6px; font-size: .8rem; color: var(--muted); margin: 10px 0 0; }
 .move-unlock svg { width: 15px; height: 15px; flex: none; margin-top: 2px; }
 .move-unlock a { color: var(--moss); font-weight: 600; }
