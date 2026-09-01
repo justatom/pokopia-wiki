@@ -231,13 +231,16 @@ a.card:hover { transform: translateY(-2px); box-shadow: var(--shadow); border-co
 
 /* Scrollbars inside the page were invisible on desktop, so a table that ran off the edge
    looked like it simply ended. Give every scrollable area a thin, always-visible one. */
-.table-scroll, .chips-open, .search-results, .island-finds, .spec-mons { scrollbar-width: thin; scrollbar-color: var(--line-2) transparent; }
+.table-scroll, .chips-open, .search-results, .island-finds, .spec-mons, .fav-scroll { scrollbar-width: thin; scrollbar-color: var(--line-2) transparent; }
 .table-scroll::-webkit-scrollbar, .chips-open::-webkit-scrollbar,
-.search-results::-webkit-scrollbar, .spec-mons::-webkit-scrollbar { height: 10px; width: 10px; }
+.search-results::-webkit-scrollbar, .spec-mons::-webkit-scrollbar,
+.fav-scroll::-webkit-scrollbar { height: 10px; width: 10px; }
 .table-scroll::-webkit-scrollbar-track, .chips-open::-webkit-scrollbar-track,
-.search-results::-webkit-scrollbar-track, .spec-mons::-webkit-scrollbar-track { background: var(--paper-2); border-radius: 99px; }
+.search-results::-webkit-scrollbar-track, .spec-mons::-webkit-scrollbar-track,
+.fav-scroll::-webkit-scrollbar-track { background: var(--paper-2); border-radius: 99px; }
 .table-scroll::-webkit-scrollbar-thumb, .chips-open::-webkit-scrollbar-thumb,
-.search-results::-webkit-scrollbar-thumb, .spec-mons::-webkit-scrollbar-thumb { background: var(--line-2); border-radius: 99px; }
+.search-results::-webkit-scrollbar-thumb, .spec-mons::-webkit-scrollbar-thumb,
+.fav-scroll::-webkit-scrollbar-thumb { background: var(--line-2); border-radius: 99px; }
 .table-scroll::-webkit-scrollbar-thumb:hover, .chips-open::-webkit-scrollbar-thumb:hover,
 .search-results::-webkit-scrollbar-thumb:hover { background: var(--muted); }
 table { border-collapse: collapse; width: 100%; font-size: .9rem; }
@@ -296,6 +299,17 @@ td.num { font-variant-numeric: tabular-nums; color: var(--muted); white-space: n
   font-size: .76rem; font-weight: 500; }
 .fav-item img { width: 28px; height: 28px; object-fit: contain; flex: none; }
 .fav-more { padding: 5px 11px; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+/* a favourite category lists every item it holds, so the box scrolls past a few rows */
+.fav-scroll { max-height: 168px; overflow-y: auto; padding: 2px 4px 2px 0; align-content: start; }
+.like-tier { padding: 12px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); }
+
+/* ideal habitat */
+.env { padding: 12px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); }
+.env-pick { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; font-size: 1.05rem; }
+.env-pick b { color: var(--moss); }
+.env-pick span:last-child { margin-left: auto; font-size: .76rem; color: var(--muted); }
+.env-desc { margin: 6px 0 0; font-size: .88rem; color: var(--ink-2); }
 
 /* cooking equipment */
 .cookware { display: grid; gap: 14px; margin-top: 12px; }

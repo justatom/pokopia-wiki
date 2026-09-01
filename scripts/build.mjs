@@ -182,41 +182,84 @@ const MON_BY_NAME_DESC = [...pokemon].sort((a, b) => b.name.length - a.name.leng
 const thAmb = (a, lang) => (lang === 'th' && THM.ambience[a]) || a;
 const thFav = (f, lang) => (lang === 'th' && THM.favorites[f]) || f;
 const favByName = new Map(favorites.map(f => [f.name, f]));
-const FAV_SHOWN = 14;   // icons per category before the "+N" chip
+
+/* What each ideal habitat means in play. The six are the game's own ambience values;
+   the reading of each is written here rather than quoted, since no source spells them out. */
+const AMBIENCE_DESC = {
+  Bright: ['สว่างสดใส โล่ง แดดส่องถึง', 'Open and well lit, with the sun reaching in'],
+  Dark: ['มืดครึ้ม มีมุมอับและที่กำบัง เช่น ถ้ำหรือใต้ดิน', 'Shadowy and dim — caves, undergrounds, covered corners'],
+  Warm: ['อบอุ่น มีไฟหรือแดดแรง', 'Warm, with fire or strong sun about'],
+  Cool: ['เย็นสบาย มีร่มเงาและลมโชย', 'Cool, shaded, with a breeze through it'],
+  Humid: ['ชื้น มีน้ำอยู่ใกล้ ๆ', 'Damp, with water close by'],
+  Dry: ['แห้ง เป็นดินทรายหรือหิน', 'Dry — sand, dust and bare rock'],
+};
+
+/* Flavours are a favourite category too, but Serebii has no per-flavour item page for
+   them; the food and berry list is where the items with a given flavour live. */
+const flavorItems = flavor => flavors
+  .filter(f => f.flavor === String(flavor).toLowerCase())
+  .map(f => ({ id: itemSlug(f.name), name: f.name, img: (itemRef(f.name) || {}).img }));
+
+/** one favourite category: its whole item list, in a box that scrolls */
+function favTier(label, gloss, count, items, lang, no) {
+  const th = lang === 'th';
+  return `<div class="like-tier">
+    <div class="like-head"><h3>${no ? `<b class="fav-no">${no}</b> ` : ''}${esc(label)}${gloss ? ` <span class="gloss">${esc(gloss)}</span>` : ''}</h3>
+      <span>${esc(count)}</span></div>
+    ${items.length ? `<div class="fav-items fav-scroll">${items.map(it => {
+    const href = itemHref(lang, it.id);
+    const pic = itemPic(it.img);
+    const inner = `${pic ? `<img src="${pic}" alt="" loading="lazy" width="34" height="34" decoding="async">` : ''}<span>${esc(it.name)}</span>`;
+    return href ? `<a class="fav-item" href="${href}" title="${esc(it.name)}">${inner}</a>`
+      : `<span class="fav-item" title="${esc(it.name)}">${inner}</span>`;
+  }).join('')}</div>` : ''}
+  </div>`;
+}
 
 /** What a Pokémon likes: one ideal ambience, five item categories, one flavour.
     The five are numbered the way the game lists them; no source ranks them by
     strength, so nothing here implies one is worth more than another. */
-function monLikes(p, lang) {
-  if (!p.ambience && !p.favorites.length) return '';
+/* The ideal habitat, plus what is actually known about time of day and weather. No source
+   publishes a per-Pokémon time or weather table, so this says how the mechanic works
+   rather than inventing per-species values. */
+function monEnvironment(p, lang) {
+  if (!p.ambience) return '';
   const th = lang === 'th';
-  const tier = (label, hint, chips) => `<div class="like-tier">
-    <div class="like-head"><h3>${esc(label)}</h3><span>${esc(hint)}</span></div>
-    <div class="chips">${chips}</div></div>`;
-  return `<section><div class="sec-title"><h2>${th ? 'ของโปรด' : 'Favourites'}</h2><span>${(p.ambience ? 1 : 0) + p.favorites.length + (p.flavor ? 1 : 0)}</span></div>
+  const desc = (AMBIENCE_DESC[p.ambience] || [])[th ? 0 : 1] || '';
+  return `<section><div class="sec-title"><h2>${th ? 'สภาพแวดล้อมที่ชอบ' : 'Environment'}</h2></div>
+  <div class="env">
+    <div class="env-pick"><b>${esc(thAmb(p.ambience, lang))}</b>${th ? ` <span class="gloss">${esc(p.ambience)}</span>` : ''}
+      <span>${th ? '1 จาก 6 บรรยากาศ' : '1 of 6 ambiences'}</span></div>
+    ${desc ? `<p class="env-desc">${esc(desc)}</p>` : ''}
+  </div>
+  <p class="note">${th
+      ? 'ที่อยู่อาศัยที่ตรงกับบรรยากาศนี้จะดัน Comfy Level ได้เร็วกว่า ส่วนช่วงเวลาและสภาพอากาศมีผลต่อ "การปรากฏตัว" ของโปเกมอนในที่อยู่อาศัย บางตัวออกเฉพาะกลางวันหรือกลางคืน แต่เงื่อนไขแสงจะแทนที่เวลาได้ ตัวที่ออกกลางคืนจะออกตอนไหนก็ได้ถ้าที่อยู่อาศัยอยู่ในที่มืด เช่น ถ้ำหรือใต้ดิน และตัวที่ออกกลางวันจะออกตอนกลางคืนได้ถ้าที่อยู่อาศัยมีแสงสว่างล้อมรอบ'
+      : 'A habitat matching this ambience raises Comfy Level faster. Time of day and weather affect whether a Pokémon shows up at a habitat at all: some are day- or night-only, but light overrides the clock — a night Pokémon spawns at any hour if its habitat sits somewhere dark such as a cave or underground, and a day Pokémon spawns at night if its habitat is ringed with light.'}</p>
+  <p class="note note-clay">${th
+      ? 'ยังไม่มีแหล่งข้อมูลไหนเผยแพร่ตารางช่วงเวลาและสภาพอากาศรายตัว หน้านี้จึงไม่ระบุว่าตัวนี้ออกเวลาไหนหรืออากาศแบบไหน เพราะจะเป็นการเดา'
+      : 'No source publishes a per-Pokémon table of times and weather, so this page does not claim which apply to this one — that would be guesswork.'}</p>
+  </section>`;
+}
+
+function monLikes(p, lang) {
+  if (!p.favorites.length && !p.flavor) return '';
+  const th = lang === 'th';
+  return `<section><div class="sec-title"><h2>${th ? 'ของโปรด' : 'Favourites'}</h2><span>${p.favorites.length + (p.flavor ? 1 : 0)}</span></div>
   <p class="note">${th
       ? 'ให้หรือวางของที่ตรงกับรายการนี้ ค่าความเป็นเพื่อนและ Comfy Level จะขึ้นเร็วกว่าปกติมาก สังเกตได้จากประกายตอนวางที่จะใหญ่กว่า และถ้าเป็นโปเกมอนที่มีความถนัด Trade ของที่ตรงจะมีมูลค่าบนตาชั่งเพิ่ม 50%'
       : 'Give or place anything matching these and both friendship and Comfy Level rise much faster — a matching item lays down with a bigger sparkle. For a Pokémon with the Trade specialty, matching items are also worth 50% more on the scale.'}</p>
   <div class="likes">
-    ${p.ambience ? tier(th ? 'บรรยากาศที่ชอบ' : 'Ideal habitat', th ? 'เลือกได้ 1 จาก 6' : '1 of 6',
-        `<span class="chip chip-on">${esc(thAmb(p.ambience, lang))}${th ? ` <span class="gloss">${esc(p.ambience)}</span>` : ''}</span>`) : ''}
     ${p.favorites.map((f, i) => {
         const cat = favByName.get(f);
-        const shown = cat ? cat.items.slice(0, FAV_SHOWN) : [];
-        return `<div class="like-tier">
-      <div class="like-head"><h3><b class="fav-no">${i + 1}</b> ${esc(thFav(f, lang))}${th ? ` <span class="gloss">${esc(f)}</span>` : ''}</h3>
-        <span>${cat ? `${cat.items.length}${cat.partial ? '+' : ''} ${th ? 'ไอเทม' : 'items'}` : ''}</span></div>
-      ${shown.length ? `<div class="fav-items">${shown.map(it => {
-          const href = itemHref(lang, it.id);
-          return `<${href ? `a class="fav-item" href="${href}"` : 'span class="fav-item"'} title="${esc(it.name)}">
-        ${itemPic(it.img) ? `<img src="${itemPic(it.img)}" alt="" loading="lazy" width="34" height="34" decoding="async">` : ''}
-        <span>${esc(it.name)}</span></${href ? 'a' : 'span'}>`;
-        }).join('')}${cat.items.length > FAV_SHOWN
-            ? `<span class="fav-item fav-more">+${cat.items.length - FAV_SHOWN}</span>` : ''}</div>` : ''}
-    </div>`;
+        const items = cat ? cat.items : [];
+        const count = cat ? `${items.length}${cat.partial ? '+' : ''} ${th ? 'ไอเทม' : 'items'}` : '';
+        return favTier(thFav(f, lang), th ? f : '', count, items, lang, i + 1);
       }).join('')}
-    ${p.flavor ? tier(th ? 'รสที่ชอบ' : 'Favourite flavour', th ? 'เลือกได้ 1 จาก 5' : '1 of 5',
-        `<span class="chip chip-on">${esc(thFlavor(p.flavor.toLowerCase(), lang))}${th ? ` <span class="gloss">${esc(p.flavor)}</span>` : ''}</span>`) : ''}
+    ${p.flavor ? (() => {
+        const items = flavorItems(p.flavor);
+        return favTier(`${th ? 'รส' : 'Flavour'}: ${thFlavor(p.flavor.toLowerCase(), lang)}`, th ? p.flavor : '',
+          `${items.length} ${th ? 'อย่าง' : 'foods'}`, items, lang, 0);
+      })() : ''}
   </div>
   <p class="note note-clay">${th
       ? 'สองข้อที่ต้องบอกตามตรง หนึ่งคือเกมแสดงห้าหมวดนี้เรียงตามลำดับตายตัว แต่ไม่มีแหล่งข้อมูลไหนบอกว่าหมวดที่ 1 ให้ผลมากกว่าหมวดที่ 5 เลขที่เห็นจึงเป็นลำดับในเกม ไม่ใช่ระดับความชอบ สองคือรายการไอเทมของแต่ละหมวดยังไม่ครบ Serebii ระบุเองว่ายังทยอยเพิ่มอยู่ ตัวเลขที่เห็นจึงเป็นขั้นต่ำ ไม่ใช่ยอดรวม'
@@ -405,6 +448,7 @@ function pokemonPage(p, lang) {
   ${specs.length ? `<section><div class="sec-title"><h2>${esc(t.nav.specialties)}</h2></div>
     <div class="grid g-4">${specs.map(s => `<div class="card"><h3>${esc(specName(s, lang))}</h3><p style="font-size:.88rem;color:var(--ink-2);margin:6px 0 0">${esc(specDesc(s, lang))}</p></div>`).join('')}</div></section>` : ''}
 
+  ${monEnvironment(p, lang)}
   ${monLikes(p, lang)}
   ${monGives(p, lang)}
 
