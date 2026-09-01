@@ -1345,7 +1345,7 @@ function toysPage(lang) {
 <p class="note note-clay">${th
       ? 'โปเกมอนหนึ่งตัวชอบ 5 หมวดจากทั้งหมด 43 หมวด ส่วนของเล่นชิ้นหนึ่งมักอยู่ใน 4 หมวด ของเล่นแต่ละชิ้นจึงถูกใจโปเกมอนเฉลี่ยถึง 163 ตัว ตรงนี้แสดงตัวอย่าง 12 ตัวแรก กด “ดูทั้งหมด” เพื่อเปิดหน้าของเล่นชิ้นนั้นที่ลิสต์ครบทุกตัว'
       : 'A Pokémon likes 5 of the 43 categories and a toy usually sits in 4, so the average toy pleases 163 Pokémon. Twelve are shown here; “see all” opens that toy’s own page, which lists every one.'}</p></div>
-${listPage({ lang, rows, cats, catLabel: c => thCat(c, lang) })}`;
+${listPage({ lang, rows, cats, catLabel })}`;
   return layout({
     lang, base: BASE, title: t.nav.toys, path: '/toys/',
     desc: th ? `ของเล่นทั้ง ${toys.length} ชิ้นใน Pokémon Pokopia พร้อมรูป วิธีได้มา และโปเกมอนที่ชอบ`
