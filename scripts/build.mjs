@@ -626,15 +626,15 @@ function specialtiesPage(lang) {
 <div class="wrap stack">
   <h1>${esc(t.nav.specialties)}</h1>
   <p class="lede">${lang === 'th'
-      ? 'ความถนัดคือสิ่งที่โปเกมอนแต่ละตัวทำให้คุณได้ ตั้งแต่ผลิตไฟฟ้า ตัดไม้ ไปจนถึงพาคุณไป Dream Island — มี 33 แบบ'
-      : 'A specialty is what a Pokémon does for you — generate power, chop logs, carry you to a Dream Island. There are 33 of them.'}</p>
+      ? `ความถนัดคือสิ่งที่โปเกมอนแต่ละตัวทำให้คุณได้ ตั้งแต่ผลิตไฟฟ้า ตัดไม้ ไปจนถึงพาคุณไป Dream Island — มีทั้งหมด ${specialties.length} แบบ กดที่ตัวไหนก็ได้เพื่อเปิดหน้าโปเกมอนตัวนั้น`
+      : `A specialty is what a Pokémon does for you — generate power, chop logs, carry you to a Dream Island. There are ${specialties.length} of them; click any Pokémon to open its page.`}</p>
   <div class="grid g-4">${specialties.map(s => {
         const list = byspec(s.id);
         return `<div class="card" id="${s.id}">
       <h3>${esc(specName(s, lang))}</h3>
       <p style="font-size:.9rem;color:var(--ink-2);margin:8px 0">${esc(specDesc(s, lang))}</p>
       <p style="font-size:.78rem;color:var(--muted);margin:0">${list.length} ${lang === 'th' ? 'ตัว' : 'Pokémon'}</p>
-      ${list.length ? `<div class="dex-grid" style="grid-template-columns:repeat(auto-fill,minmax(48px,1fr));gap:4px;margin-top:10px">${list.slice(0, 24).map(p => `<a class="mon" style="padding:4px;border:0;background:none" href="${monUrl(lang, p)}" title="${esc(monTitle(p, lang))}"><img src="${sprite(p)}" alt="${esc(monTitle(p, lang))}" loading="lazy" width="40" height="40" style="width:40px;height:40px"></a>`).join('')}</div>` : ''}
+      ${list.length ? `<div class="spec-mons">${list.map(p => `<a class="spec-mon" href="${monUrl(lang, p)}" title="${esc(monTitle(p, lang))}"><img src="${sprite(p)}" alt="${esc(monTitle(p, lang))}" loading="lazy" width="40" height="40"><span>${esc(monTitle(p, lang))}</span></a>`).join('')}</div>` : ''}
     </div>`;
       }).join('')}</div>
 </div>`;
