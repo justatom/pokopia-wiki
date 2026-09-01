@@ -115,6 +115,11 @@ The game has no official Thai localisation, so:
 - **Items, habitats and recipes** keep the English name as the primary label (that is what
   is on screen), with a Thai reading underneath generated from a hand-written dictionary of
   1,255 terms in `data/th/terms.json`.
+- **Item descriptions** are translated in full — all 1,776, in the game's warm, chatty
+  voice rather than word for word. They live in `data/th/items.json`, keyed by item id;
+  492 items share their description with another item (every leaf kit opens the same way,
+  every flower seed reads alike), so a translation is written once and reaches the rest
+  through the English text. Anything left untranslated falls back to the original.
 - **Human Records** are translated in full — all 126, 37,304 characters, written in the
   game's warm, chatty register rather than word for word, so a seasick sailor's diary still
   trails off mid-sentence and a Team R grunt still sounds like one. See
