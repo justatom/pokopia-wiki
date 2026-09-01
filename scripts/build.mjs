@@ -929,6 +929,28 @@ function helperChip(h, lang) {
   return `<span class="kit-helper"><b>×${h.count}</b> ${label}</span>`;
 }
 
+/* Serebii's own wording for whether you can walk into a finished build. */
+const KIT_CONCEPT_TH = { 'Building with Interior': 'เข้าไปข้างในได้', 'Overworld': 'ตั้งอยู่บนพื้นที่', 'Interior': 'พื้นที่ภายใน' };
+
+/** how many Pokemon can live in a finished kit: a real number, "not a home", or a gap */
+function kitLive(k, lang) {
+  const th = lang === 'th';
+  if (k.live === null) return `<span class="kit-live kit-live-gap">${th ? 'ยังไม่มีข้อมูลว่าอยู่ได้กี่ตัว' : 'residency not documented yet'}</span>`;
+  if (k.live === 0) return `<span class="kit-live kit-live-no">${th ? 'ไม่ใช่ที่อยู่อาศัย' : 'not somewhere Pokémon live'}</span>`;
+  return `<span class="kit-live"><b>${k.live}</b> ${th ? 'ตัว' : 'Pokémon'}</span>`;
+}
+
+/** footprint, floors and whether it has an interior — the same little table on Serebii */
+function kitShape(k, lang) {
+  const th = lang === 'th', out = [];
+  if (k.size) out.push(th
+    ? `กว้าง ${k.size.width} × ลึก ${k.size.depth} × สูง ${k.size.height}`
+    : `${k.size.width} wide × ${k.size.depth} deep × ${k.size.height} tall`);
+  if (k.floors) out.push(th ? `${k.floors} ชั้น` : `${k.floors} floor${k.floors === 1 ? '' : 's'}`);
+  if (k.concept) out.push(th ? (KIT_CONCEPT_TH[k.concept] || k.concept) : k.concept);
+  return out.map(x => `<span>${esc(x)}</span>`).join('');
+}
+
 /** a material chip: icon, name, quantity, linked to the item */
 function kitMaterial(m, lang) {
   const it = itemRef(m.name), pic = it && itemPic(it.img);
@@ -952,6 +974,10 @@ function buildingPage(lang) {
       <div class="row-name">${itemLink(lang, k.id, esc(k.name))}</div>
       ${th && G(k.name) ? `<div class="row-th gloss">${esc(G(k.name))}</div>` : ''}
       ${k.desc ? `<div class="row-desc">${esc(k.desc)}</div>` : ''}
+      <div class="kit-line">
+        <span class="kit-label">${th ? 'อยู่อาศัยได้' : 'Houses'}</span>
+        <div class="kit-helpers">${kitLive(k, lang)}</div></div>
+      ${kitShape(k, lang) ? `<div class="row-meta kit-shape">${kitShape(k, lang)}</div>` : ''}
       ${k.materials.length ? `<div class="kit-line">
         <span class="kit-label">${th ? 'วัสดุ' : 'Materials'}</span>
         <div class="fav-items">${k.materials.map(m => kitMaterial(m, lang)).join('')}</div></div>` : ''}
@@ -974,6 +1000,13 @@ function buildingPage(lang) {
   <p class="note">${th
       ? 'รูปในแต่ละการ์ดคือภาพสิ่งปลูกสร้างที่เสร็จแล้ว ซึ่งเป็นภาพเรนเดอร์จากตัวเกมเอง ไม่ใช่ไอคอนกล่องชุดก่อสร้าง ทั้งนี้ยังไม่มีแหล่งข้อมูลไหนเผยแพร่ภาพหน้าจอของบ้านแต่ละหลังตอนตั้งอยู่จริงในแมป'
       : 'The picture on each card is the finished building as the game itself renders it, not a picture of the kit box. No source publishes an in-world screenshot of each building standing on your land.'}</p>
+  <p class="note">${(() => {
+      const homes = buildkits.filter(k => k.live > 0).length;
+      const gaps = buildkits.filter(k => k.live === null).length;
+      return th
+        ? `“อยู่อาศัยได้” คือจำนวนโปเกมอนที่ย้ายเข้ามาอยู่ในสิ่งปลูกสร้างนั้นได้ ชื่อชุดไม่ได้บอกตัวเลขนี้เสมอไป — Poké Ball house kit ที่มีคำว่า house อยู่ในชื่อ อยู่ได้แค่ 1 ตัว ส่วนกระท่อมสีต่าง ๆ อยู่ได้ถึง 4 ตัว จาก ${buildkits.length} ชุด มี ${homes} ชุดที่เป็นที่อยู่อาศัย และอีก ${gaps} ชุด (ของ Bubbly Basin) ที่ Serebii ยังไม่ได้ลงตัวเลข`
+        : `“Houses” is how many Pokémon can move into the finished building. The kit’s name is not a reliable guide to it — the Poké Ball <em>house</em> kit holds one, while the coloured huts hold four. ${homes} of the ${buildkits.length} kits are somewhere Pokémon live; ${gaps} of the Bubbly Basin kits have no figure published yet.`;
+    })()}</p>
   <p class="note note-clay">${th
       ? 'พาโปเกมอนที่มีความถนัด Engineer (ทิงคมาสเตอร์) มาช่วยจะย่นเวลาลงมาก งานที่ปกติต้องข้ามวันจะเหลือ 1 ชั่วโมง และแต่ละพื้นที่มีโควตาก่อสร้าง 40 แต้ม สิ่งปลูกสร้างหนึ่งหลังกิน 1 หรือ 2 แต้มตามขนาด'
       : 'Bringing a Pokémon with the Engineer specialty (Tinkmaster) cuts the time sharply — a "next day" build becomes an hour. Each area also has a 40-point building budget, and every build spends 1 or 2 points depending on its size.'}</p>

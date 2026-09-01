@@ -112,6 +112,17 @@ if (!PARSE_ONLY && fs.existsSync(`${R}/serebii/favorites.html`)) {
   for (const c of cats) await get(`https://www.serebii.net/pokemonpokopia/favorites/${c}.shtml`, `${R}/serebii/fav_${c}.html`);
 }
 
+/* One subpage per building kit, linked from building.shtml. The index only names and
+   describes the kits; the subpage is the only place Serebii records how many Pokemon can
+   live in the finished building, its footprint, its floors and the parts it creates. */
+if (!PARSE_ONLY && fs.existsSync(`${R}/serebii/building.html`)) {
+  const idx = fs.readFileSync(`${R}/serebii/building.html`, 'latin1');
+  const kits = [...new Set([...idx.matchAll(/href="\/?(?:pokemonpokopia\/)?build\/([a-z0-9]+)\.shtml"/g)].map(m => m[1]))];
+  fs.mkdirSync(`${R}/serebii/build`, { recursive: true });
+  console.log(`fetching ${kits.length} building kit pages…`);
+  for (const k of kits) await get(`https://www.serebii.net/pokemonpokopia/build/${k}.shtml`, `${R}/serebii/build/${k}.html`);
+}
+
 console.log('parsing Serebii…');
 const raw = {};
 for (const f of fs.readdirSync(`${R}/serebii`).filter(x => x.endsWith('.html'))) {

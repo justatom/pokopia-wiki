@@ -34,7 +34,15 @@
    "15 minutes",
    "5 minutes (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 1,
+  "floors": 1,
+  "concept": "Building with Interior",
+  "size": {
+   "width": 2,
+   "depth": 2,
+   "height": 1
+  }
  },
  {
   "id": "leaf-hut-kit",
@@ -78,7 +86,15 @@
    "1 hour",
    "15 minutes (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 1,
+  "floors": 1,
+  "concept": "Building with Interior",
+  "size": {
+   "width": 3,
+   "depth": 3,
+   "height": 2
+  }
  },
  {
   "id": "leaf-cottage-kit",
@@ -133,7 +149,15 @@
    "Next day",
    "1 hour (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 2,
+  "floors": 1,
+  "concept": "Building with Interior",
+  "size": {
+   "width": 5,
+   "depth": 4,
+   "height": 2
+  }
  },
  {
   "id": "leaf-house-kit",
@@ -199,7 +223,15 @@
    "Next day",
    "1 hour (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 4,
+  "floors": 2,
+  "concept": "Building with Interior",
+  "size": {
+   "width": 8,
+   "depth": 6,
+   "height": 6
+  }
  },
  {
   "id": "sand-den-kit",
@@ -240,7 +272,15 @@
    "15 minutes",
    "5 minutes (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 1,
+  "floors": 1,
+  "concept": "Building with Interior",
+  "size": {
+   "width": 2,
+   "depth": 2,
+   "height": 1
+  }
  },
  {
   "id": "sand-hut-kit",
@@ -288,7 +328,15 @@
    "1 hour",
    "15 minutes (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 1,
+  "floors": 1,
+  "concept": "Building with Interior",
+  "size": {
+   "width": 3,
+   "depth": 3,
+   "height": 2
+  }
  },
  {
   "id": "sand-cottage-kit",
@@ -347,7 +395,15 @@
    "Next day",
    "1 hour (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 2,
+  "floors": 1,
+  "concept": "Building with Interior",
+  "size": {
+   "width": 5,
+   "depth": 4,
+   "height": 2
+  }
  },
  {
   "id": "sand-house-kit",
@@ -413,7 +469,15 @@
    "Next day",
    "1 hour (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 4,
+  "floors": 2,
+  "concept": "Building with Interior",
+  "size": {
+   "width": 8,
+   "depth": 6,
+   "height": 6
+  }
  },
  {
   "id": "stone-den-kit",
@@ -450,7 +514,15 @@
    "15 minutes",
    "5 minutes (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 1,
+  "floors": 1,
+  "concept": "Building with Interior",
+  "size": {
+   "width": 2,
+   "depth": 2,
+   "height": 1
+  }
  },
  {
   "id": "stone-hut-kit",
@@ -498,7 +570,15 @@
    "1 hour",
    "15 minutes (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 1,
+  "floors": 1,
+  "concept": "Building with Interior",
+  "size": {
+   "width": 3,
+   "depth": 3,
+   "height": 2
+  }
  },
  {
   "id": "stone-cottage-kit",
@@ -553,7 +633,15 @@
    "Next day",
    "1 hour (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 2,
+  "floors": 1,
+  "concept": "Building with Interior",
+  "size": {
+   "width": 5,
+   "depth": 4,
+   "height": 2
+  }
  },
  {
   "id": "stone-house-kit",
@@ -619,7 +707,15 @@
    "Next day",
    "1 hour (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 4,
+  "floors": 2,
+  "concept": "Building with Interior",
+  "size": {
+   "width": 8,
+   "depth": 6,
+   "height": 6
+  }
  },
  {
   "id": "city-den-kit",
@@ -660,7 +756,15 @@
    "15 minutes",
    "5 minutes (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 1,
+  "floors": 1,
+  "concept": "Building with Interior",
+  "size": {
+   "width": 2,
+   "depth": 2,
+   "height": 1
+  }
  },
  {
   "id": "city-hut-kit",
@@ -712,7 +816,15 @@
    "1 hour",
    "15 minutes (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 1,
+  "floors": 1,
+  "concept": "Building with Interior",
+  "size": {
+   "width": 3,
+   "depth": 3,
+   "height": 2
+  }
  },
  {
   "id": "city-cottage-kit",
@@ -771,7 +883,15 @@
    "Next day",
    "1 hour (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 2,
+  "floors": 1,
+  "concept": "Building with Interior",
+  "size": {
+   "width": 5,
+   "depth": 4,
+   "height": 2
+  }
  },
  {
   "id": "city-house-kit",
@@ -837,7 +957,15 @@
    "Next day",
    "1 hour (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 4,
+  "floors": 2,
+  "concept": "Building with Interior",
+  "size": {
+   "width": 8,
+   "depth": 6,
+   "height": 6
+  }
  },
  {
   "id": "poke-ball-house-kit",
@@ -883,7 +1011,15 @@
   "time": [
    "Next day"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 1,
+  "floors": 1,
+  "concept": "Building with Interior",
+  "size": {
+   "width": 5,
+   "depth": 5,
+   "height": 2
+  }
  },
  {
   "id": "poke-mart-kit",
@@ -931,7 +1067,15 @@
    "Next day",
    "1 hour (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 0,
+  "floors": null,
+  "concept": "Building with Interior",
+  "size": {
+   "width": 4,
+   "depth": 3,
+   "height": 3
+  }
  },
  {
   "id": "wasteland-pokemon-center-kit",
@@ -991,7 +1135,11 @@
    "Next day",
    "1 hour (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 0,
+  "floors": null,
+  "concept": "Building with Interior",
+  "size": null
  },
  {
   "id": "beach-pokemon-center-kit",
@@ -1051,7 +1199,11 @@
    "Next day",
    "1 hour (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 0,
+  "floors": null,
+  "concept": "Building with Interior",
+  "size": null
  },
  {
   "id": "ridge-pokemon-center-kit",
@@ -1111,7 +1263,11 @@
    "Next day",
    "1 hour (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 0,
+  "floors": null,
+  "concept": "Building with Interior",
+  "size": null
  },
  {
   "id": "skyland-pokemon-center-kit",
@@ -1171,7 +1327,11 @@
    "Next day",
    "1 hour (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 0,
+  "floors": null,
+  "concept": "Building with Interior",
+  "size": null
  },
  {
   "id": "windmill-kit",
@@ -1208,7 +1368,15 @@
    "1 hour",
    "15 minutes (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 0,
+  "floors": null,
+  "concept": "Overworld",
+  "size": {
+   "width": 2,
+   "depth": 2,
+   "height": 5
+  }
  },
  {
   "id": "waterwheel-kit",
@@ -1245,7 +1413,15 @@
    "1 hour",
    "15 minutes (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 0,
+  "floors": null,
+  "concept": "Overworld",
+  "size": {
+   "width": 3,
+   "depth": 2,
+   "height": 3
+  }
  },
  {
   "id": "furnace-kit",
@@ -1282,7 +1458,15 @@
    "1 hour",
    "15 minutes (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 0,
+  "floors": null,
+  "concept": "Overworld",
+  "size": {
+   "width": 2,
+   "depth": 2,
+   "height": 4
+  }
  },
  {
   "id": "charging-station-kit",
@@ -1319,7 +1503,15 @@
    "1 hour",
    "15 minutes (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 0,
+  "floors": null,
+  "concept": "Overworld",
+  "size": {
+   "width": 3,
+   "depth": 3,
+   "height": 2
+  }
  },
  {
   "id": "pikachu-fountain-kit",
@@ -1364,7 +1556,15 @@
    "Next day",
    "1 hour (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 0,
+  "floors": null,
+  "concept": "Overworld",
+  "size": {
+   "width": 6,
+   "depth": 6,
+   "height": 4
+  }
  },
  {
   "id": "moonlight-dance-statue-kit",
@@ -1405,7 +1605,15 @@
    "Next day",
    "1 hour (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 0,
+  "floors": null,
+  "concept": "Overworld",
+  "size": {
+   "width": 4,
+   "depth": 3,
+   "height": 3
+  }
  },
  {
   "id": "pink-hut-kit",
@@ -1457,7 +1665,15 @@
    "1 hour",
    "15 minutes (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 4,
+  "floors": null,
+  "concept": "Overworld",
+  "size": {
+   "width": 6,
+   "depth": 6,
+   "height": 6
+  }
  },
  {
   "id": "pink-cottage-kit",
@@ -1509,7 +1725,15 @@
    "Next day",
    "1 hour (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 4,
+  "floors": null,
+  "concept": "Overworld",
+  "size": {
+   "width": 8,
+   "depth": 8,
+   "height": 8
+  }
  },
  {
   "id": "orange-hut-kit",
@@ -1561,7 +1785,15 @@
    "1 hour",
    "15 minutes (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 4,
+  "floors": null,
+  "concept": "Overworld",
+  "size": {
+   "width": 6,
+   "depth": 6,
+   "height": 6
+  }
  },
  {
   "id": "orange-cottage-kit",
@@ -1613,7 +1845,15 @@
    "Next day",
    "1 hour (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 4,
+  "floors": 2,
+  "concept": "Overworld",
+  "size": {
+   "width": 8,
+   "depth": 9,
+   "height": 9
+  }
  },
  {
   "id": "gray-hut-kit",
@@ -1665,7 +1905,15 @@
    "1 hour",
    "15 minutes (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 4,
+  "floors": null,
+  "concept": "Overworld",
+  "size": {
+   "width": 8,
+   "depth": 6,
+   "height": 7
+  }
  },
  {
   "id": "gray-cottage-kit",
@@ -1717,7 +1965,15 @@
    "Next day",
    "1 hour (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 4,
+  "floors": 2,
+  "concept": "Overworld",
+  "size": {
+   "width": 8,
+   "depth": 9,
+   "height": 9
+  }
  },
  {
   "id": "yellow-hut-kit",
@@ -1769,7 +2025,15 @@
    "1 hour",
    "15 minutes (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 4,
+  "floors": null,
+  "concept": "Overworld",
+  "size": {
+   "width": 6,
+   "depth": 5,
+   "height": 7
+  }
  },
  {
   "id": "yellow-cottage-kit",
@@ -1817,7 +2081,15 @@
    "Next day",
    "1 hour (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 4,
+  "floors": null,
+  "concept": "Overworld",
+  "size": {
+   "width": 10,
+   "depth": 10,
+   "height": 10
+  }
  },
  {
   "id": "log-cabin-kit",
@@ -1865,7 +2137,15 @@
    "Next day",
    "1 hour (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 4,
+  "floors": null,
+  "concept": "Overworld",
+  "size": {
+   "width": 10,
+   "depth": 10,
+   "height": 8
+  }
  },
  {
   "id": "small-office-kit",
@@ -1917,7 +2197,15 @@
    "Next day",
    "1 hour (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 0,
+  "floors": null,
+  "concept": "Overworld",
+  "size": {
+   "width": 10,
+   "depth": 10,
+   "height": 7
+  }
  },
  {
   "id": "relaxing-park-kit",
@@ -1965,7 +2253,15 @@
    "Next day",
    "1 hour (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 0,
+  "floors": null,
+  "concept": "Overworld",
+  "size": {
+   "width": 10,
+   "depth": 10,
+   "height": 5
+  }
  },
  {
   "id": "stylish-cafe-kit",
@@ -2017,7 +2313,15 @@
    "Next day",
    "1 hour (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 0,
+  "floors": null,
+  "concept": "Overworld",
+  "size": {
+   "width": 10,
+   "depth": 10,
+   "height": 6
+  }
  },
  {
   "id": "concert-stage-kit",
@@ -2069,7 +2373,15 @@
    "Next day",
    "1 hour (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 0,
+  "floors": null,
+  "concept": "Overworld",
+  "size": {
+   "width": 10,
+   "depth": 10,
+   "height": 6
+  }
  },
  {
   "id": "fountain-plaza-kit",
@@ -2117,7 +2429,15 @@
    "Next day",
    "1 hour (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 0,
+  "floors": null,
+  "concept": "Overworld",
+  "size": {
+   "width": 9,
+   "depth": 10,
+   "height": 6
+  }
  },
  {
   "id": "altar-of-flame-kit",
@@ -2183,7 +2503,15 @@
    "Next day",
    "1 hour (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 0,
+  "floors": null,
+  "concept": "Overworld",
+  "size": {
+   "width": 35,
+   "depth": 42,
+   "height": 21
+  }
  },
  {
   "id": "abandoned-power-plant-kit",
@@ -2253,7 +2581,15 @@
    "Next day",
    "1 hour (with Engineer)"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 0,
+  "floors": null,
+  "concept": "Overworld",
+  "size": {
+   "width": 31,
+   "depth": 29,
+   "height": 17
+  }
  },
  {
   "id": "freezing-chambers-kit",
@@ -2319,7 +2655,15 @@
    "Next day",
    "1 hour (with Engineer) |}"
   ],
-  "group": "List of building kits"
+  "group": "List of building kits",
+  "live": 0,
+  "floors": null,
+  "concept": "Overworld",
+  "size": {
+   "width": 42,
+   "depth": 26,
+   "height": 14
+  }
  },
  {
   "id": "mysterious-mural-kit",
@@ -2330,7 +2674,15 @@
   "materials": [],
   "helpers": [],
   "time": [],
-  "group": null
+  "group": null,
+  "live": 0,
+  "floors": null,
+  "concept": "Overworld",
+  "size": {
+   "width": 12,
+   "depth": 2,
+   "height": 5
+  }
  },
  {
   "id": "tent-kit",
@@ -2378,7 +2730,15 @@
    "1 hour",
    "15 minutes (with Engineer) |}"
   ],
-  "group": "Event kits"
+  "group": "Event kits",
+  "live": 1,
+  "floors": null,
+  "concept": "Building with Interior",
+  "size": {
+   "width": 3,
+   "depth": 3,
+   "height": 2
+  }
  },
  {
   "id": "imperial-cottage-kit",
@@ -2437,7 +2797,15 @@
    "Next day",
    "1 hour (with Engineer)"
   ],
-  "group": "Basin kits"
+  "group": "Basin kits",
+  "live": 2,
+  "floors": 1,
+  "concept": "Building with Interior",
+  "size": {
+   "width": 5,
+   "depth": 4,
+   "height": 2
+  }
  },
  {
   "id": "imperial-house-kit",
@@ -2503,7 +2871,15 @@
    "Next day",
    "1 hour (with Engineer)"
   ],
-  "group": "Basin kits"
+  "group": "Basin kits",
+  "live": 4,
+  "floors": 2,
+  "concept": "Building with Interior",
+  "size": {
+   "width": 8,
+   "depth": 6,
+   "height": 4
+  }
  },
  {
   "id": "submarine-kit",
@@ -2537,7 +2913,15 @@
    }
   ],
   "time": [],
-  "group": "Basin kits"
+  "group": "Basin kits",
+  "live": 2,
+  "floors": null,
+  "concept": "Building with Interior",
+  "size": {
+   "width": 9,
+   "depth": 5,
+   "height": 4
+  }
  },
  {
   "id": "basin-pokemon-center-kit",
@@ -2594,7 +2978,11 @@
    }
   ],
   "time": [],
-  "group": "Basin kits"
+  "group": "Basin kits",
+  "live": null,
+  "floors": null,
+  "concept": "Overworld",
+  "size": null
  },
  {
   "id": "clock-tower-kit",
@@ -2636,7 +3024,15 @@
    }
   ],
   "time": [],
-  "group": "Basin kits"
+  "group": "Basin kits",
+  "live": null,
+  "floors": null,
+  "concept": "Overworld",
+  "size": {
+   "width": 5,
+   "depth": 5,
+   "height": 15
+  }
  },
  {
   "id": "aqua-cottage-kit",
@@ -2681,7 +3077,15 @@
    }
   ],
   "time": [],
-  "group": "Basin kits"
+  "group": "Basin kits",
+  "live": null,
+  "floors": null,
+  "concept": "Overworld",
+  "size": {
+   "width": 12,
+   "depth": 12,
+   "height": 8
+  }
  },
  {
   "id": "supermarket-kit",
@@ -2726,7 +3130,15 @@
    }
   ],
   "time": [],
-  "group": "Basin kits"
+  "group": "Basin kits",
+  "live": null,
+  "floors": null,
+  "concept": "Overworld",
+  "size": {
+   "width": 12,
+   "depth": 12,
+   "height": 9
+  }
  },
  {
   "id": "laboratory-kit",
@@ -2777,7 +3189,15 @@
   "time": [
    "|}"
   ],
-  "group": "Basin kits"
+  "group": "Basin kits",
+  "live": null,
+  "floors": null,
+  "concept": "Overworld",
+  "size": {
+   "width": 12,
+   "depth": 12,
+   "height": 12
+  }
  },
  {
   "id": "ocean-temple-kit",
@@ -2856,6 +3276,14 @@
   "time": [
    "|}"
   ],
-  "group": "Ocean temple"
+  "group": "Ocean temple",
+  "live": null,
+  "floors": null,
+  "concept": "Overworld",
+  "size": {
+   "width": 29,
+   "depth": 27,
+   "height": 15
+  }
  }
 ]

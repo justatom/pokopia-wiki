@@ -362,6 +362,18 @@ W('furniture', table(sec('furniture').rows, 6).map(r => ({
   }
   const key = s => slug(s).replace(/-?kit$/, '');
   const byName = new Map(reqs.map(r => [key(r.name), r]));
+
+  /* How many Pokemon can live in the finished building is on Serebii's per-kit subpage
+     and nowhere else. Its URLs drop every separator, so "Poke Ball house kit" is
+     pokeballhousekit; the picture filename is the same shape and stands in if a name ever
+     fails to match. */
+  let pages = new Map();
+  if (fs.existsSync('_research/serebii/build')) {
+    const { default: parseBuildPages } = await import('./buildpages.mjs');
+    pages = parseBuildPages('_research/serebii/build');
+  }
+  const pageKey = s => slug(s).replace(/-/g, '');
+
   for (const k of kits) {
     const r = byName.get(key(k.name));
     k.build = r && r.file ? r.file.trim().replace(/ /g, '_') : null;
@@ -369,9 +381,18 @@ W('furniture', table(sec('furniture').rows, 6).map(r => ({
     k.helpers = r ? r.helpers : [];
     k.time = r ? r.time : [];
     k.group = r ? r.section : null;
+
+    const p = pages.get(pageKey(k.name)) || pages.get((k.img || '').replace(/\.png$/, ''));
+    k.live = p ? p.live : null;      // Pokemon that can live there; 0 = not a home, null = unrecorded
+    k.floors = p ? p.floors : null;
+    k.concept = p ? p.concept : null;
+    k.size = p ? p.size : null;
   }
   const withReq = kits.filter(k => k.materials.length).length;
+  const withLive = kits.filter(k => k.live !== null).length;
+  const homes = kits.filter(k => k.live > 0).length;
   console.log(`   ${withReq}/${kits.length} kits with build requirements`);
+  console.log(`   ${withLive}/${kits.length} kits with a residency, ${homes} of them homes`);
   W('buildkits', kits);
 }
 

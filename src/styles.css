@@ -91,7 +91,7 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: var(--font-body);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.72;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
@@ -183,7 +183,7 @@ p:last-child { margin-bottom: 0; }
 .hero { position: relative; padding: 30px 0 34px; overflow: hidden; }
 .hero-art { position: absolute; inset: 0; z-index: -1; opacity: .9; }
 .eyebrow { font-size: .7rem; letter-spacing: .16em; text-transform: uppercase; color: var(--moss); font-weight: 600; }
-.lede { font-size: 1.02rem; color: var(--ink-2); max-width: 56ch; }
+.lede { font-size: 1.08rem; color: var(--ink-2); max-width: 56ch; }
 
 /* ---------- cards & grids ---------- */
 .card {
@@ -260,7 +260,7 @@ td.num { font-variant-numeric: tabular-nums; color: var(--muted); white-space: n
 .row-ico svg { width: 26px; height: 26px; }
 .row-name { font-weight: 600; font-size: .95rem; line-height: 1.4; }
 .row-th { font-size: .82rem; color: var(--moss); }
-.row-desc { font-size: .85rem; color: var(--ink-2); margin-top: 3px; }
+.row-desc { font-size: 1rem; color: var(--ink-2); margin-top: 3px; }
 .row-meta { font-size: .76rem; color: var(--muted); margin-top: 6px; display: flex; flex-wrap: wrap; gap: 6px; }
 .mats { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 7px; }
 .hab-mons { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
@@ -311,7 +311,7 @@ td.num { font-variant-numeric: tabular-nums; color: var(--muted); white-space: n
 .env-pick { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; font-size: 1.05rem; }
 .env-pick b { color: var(--moss); }
 .env-pick span:last-child { margin-left: auto; font-size: .76rem; color: var(--muted); }
-.env-desc { margin: 6px 0 0; font-size: .88rem; color: var(--ink-2); }
+.env-desc { margin: 6px 0 0; font-size: 1rem; color: var(--ink-2); }
 
 /* time-of-day and weather conditions: the ones that do not apply stay visible but muted,
    so "night only" reads as a restriction rather than as missing data */
@@ -406,6 +406,15 @@ td .fav-items { gap: 4px; }
 .kit-helper b { font-variant-numeric: tabular-nums; }
 .kit-helper a { color: inherit; text-decoration: underline; text-decoration-color: transparent; }
 .kit-helper a:hover { text-decoration-color: currentColor; }
+
+/* how many Pokemon can live in a finished kit — the headline fact on the card */
+.kit-live { display: inline-flex; align-items: baseline; gap: 5px; padding: 4px 12px; border-radius: 999px;
+  background: var(--moss-soft); color: var(--moss); font-size: .92rem; font-weight: 600; }
+.kit-live b { font-size: 1.15rem; font-variant-numeric: tabular-nums; }
+.kit-live-no { background: var(--paper-2); color: var(--muted); font-weight: 500; }
+.kit-live-gap { background: var(--clay-soft); color: var(--clay); font-weight: 500; }
+.kit-shape { margin-top: 5px; }
+.kit-shape span + span::before { content: '·'; margin-right: 6px; color: var(--line); }
 .kit .fav-item b { color: var(--clay); font-variant-numeric: tabular-nums; }
 .kit .fav-item img { width: 30px; height: 30px; }
 
@@ -474,7 +483,7 @@ a.fav-item:hover { background: var(--moss-soft); color: var(--moss); }
 .sec-title span { font-size: .8rem; color: var(--muted); }
 .crumb { font-size: .8rem; color: var(--muted); display: flex; gap: 6px; flex-wrap: wrap; align-items: center; padding: 14px 0 6px; }
 .crumb a:hover { color: var(--moss); }
-.note { background: var(--moss-soft); border-left: 3px solid var(--moss); border-radius: 0 var(--r-sm) var(--r-sm) 0; padding: 12px 16px; font-size: .9rem; color: var(--ink-2); }
+.note { background: var(--moss-soft); border-left: 3px solid var(--moss); border-radius: 0 var(--r-sm) var(--r-sm) 0; padding: 12px 16px; font-size: 1rem; color: var(--ink-2); }
 .note-clay { background: var(--clay-soft); border-color: var(--clay); }
 .gloss { font-size: .8rem; color: var(--muted); }
 .gloss::before { content: "≈ "; opacity: .6; }
