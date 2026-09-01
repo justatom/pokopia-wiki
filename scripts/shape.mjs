@@ -225,6 +225,39 @@ for (const row of HABDEX) {
   }
 }
 if (unmatched.size) console.log('   ! unmatched habitat Pokémon:', [...unmatched].join(', '));
+
+/* Which areas a habitat is any use in, and the rarity, time of day and weather of what it
+   releases. All four are on Serebii's per-habitat subpage and nowhere on its index. The
+   page records them per Pokemon, so a habitat's figure is the union: it is worth building
+   in an area if anything it releases lives there, and it can produce something at any hour
+   its Pokemon between them allow. */
+{
+  let pages = new Map();
+  if (fs.existsSync('_research/serebii/habitat')) {
+    const { default: parseHabitatPages } = await import('./habitatpages.mjs');
+    pages = parseHabitatPages('_research/serebii/habitat');
+  }
+  // Serebii's URLs drop the spaces and the accent: "Café space" is cafespace
+  const pageKey = n => String(n).normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase().replace(/\s+/g, '').replace(/[^a-z0-9-]/g, '_');
+  const uniq = a => [...new Set(a.filter(Boolean))];
+  const RARITY = ['Common', 'Rare', 'Very Rare'];
+
+  let hit = 0;
+  for (const h of habitats) {
+    const rows = pages.get(pageKey(h.name));
+    if (!rows) { h.areas = []; h.times = []; h.weather = []; h.rarities = []; continue; }
+    hit++;
+    h.areas = uniq(rows.flatMap(r => r.locations));
+    h.times = uniq(rows.flatMap(r => r.times));
+    h.weather = uniq(rows.flatMap(r => r.weather));
+    // Serebii has a couple of typos in this column ("CommonCommon", a trailing blank)
+    h.rarities = RARITY.filter(x => rows.some(r => (r.rarity || '').includes(x)));
+  }
+  const areaLocked = habitats.filter(h => h.areas.length && h.areas.filter(a => a !== 'Cloud Island').length < 6).length;
+  console.log(`   ${hit}/${habitats.length} habitats with areas, ${areaLocked} of them limited to some`);
+}
+
 W('habitats', habitats);
 
 /* reverse index: which habitats release each Pokémon */

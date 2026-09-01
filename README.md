@@ -17,7 +17,7 @@ Static site, **zero runtime dependencies**, mobile-first. Node 20+ is the only r
 | Pokémon entries (300 in the main dex, plus Basin and Event dexes) | 367 |
 | — with ideal habitat, five favourite categories and a flavour | 366 |
 | — with time-of-day and weather conditions | 294 |
-| Habitats — each with a picture, build requirements and the Pokémon it releases | 252 |
+| Habitats — picture, build requirements, the Pokémon it releases, the areas it works in, rarity, time and weather | 252 |
 | Items with an icon, description and sources | 1,777 |
 | — with the favourite categories they count as | 715 |
 | — paintable, with how many sections colour separately | 463 |
@@ -25,7 +25,7 @@ Static site, **zero runtime dependencies**, mobile-first. Node 20+ is the only r
 | Item ↔ favourite-category links, across all 43 categories | 2,356 |
 | Pokémon ↔ favourite-category links | 1,817 |
 | Crafting recipes with material costs | 884 |
-| Building kits, 55 with materials, helper Pokémon and build time | 56 |
+| Building kits — 55 with materials, helpers and build time; 50 with a residency, footprint and floors | 56 |
 | Shop unlocks by Environment Level, 520 linked to their item | 524 |
 | Toys, each with its categories and every Pokémon that likes it | 140 |
 | Furniture pieces | 140 |
@@ -101,7 +101,15 @@ recurring ones:
 - **Human Records**: Serebii names all 163 and leaves every description blank. Bulbapedia
   writes out 126 of them. The remaining 44 say that nobody has written them down.
 - **Building kits**: 55 of 56 have their materials, helpers and build time. The Mysterious
-  mural kit is on neither source.
+  mural kit is on neither source. Serebii's per-kit pages give the *Liveable Pokémon*
+  figure for 50 of them — 30 are homes — and leave the six Bubbly Basin kits blank. The
+  kit's name does not imply the number: the Poké Ball *house* kit holds one Pokémon, the
+  coloured huts and cottages hold four, and the submarine holds two.
+- **Habitat areas**: Serebii records, per Pokémon, which areas it lives in, so a habitat's
+  areas are the union over what it releases. This is honest but blunt — 214 of the 252
+  habitats work in all five original areas, and only 38 reach Bubbly Basin. The sharper
+  filters on that page are the 10 habitats gated to a time of day and the 5 gated to
+  weather.
 - **Pictures**: 9 items and 4 shop unlocks have no image or entry upstream and fall back to
   a line icon or plain text.
 

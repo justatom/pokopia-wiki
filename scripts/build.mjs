@@ -237,8 +237,10 @@ const favByName = new Map(favorites.map(f => [f.name, f]));
 
 /* What each ideal habitat means in play. The six are the game's own ambience values;
    the reading of each is written here rather than quoted, since no source spells them out. */
-const TIME_TH = { Morning: 'เช้า', Day: 'กลางวัน', Sunset: 'เย็น', Night: 'กลางคืน' };
-const WEATHER_TH = { Sunny: 'แดดออก', Cloudy: 'มีเมฆ', Rainy: 'ฝนตก' };
+/* Pokopia Lab and Serebii name the same conditions differently — Sunset/Sunny/Cloudy/Rainy
+   against Evening/Sun/Cloud/Rain — so both spellings live in one map. */
+const TIME_TH = { Morning: 'เช้า', Day: 'กลางวัน', Sunset: 'เย็น', Evening: 'เย็น', Night: 'กลางคืน' };
+const WEATHER_TH = { Sunny: 'แดดออก', Sun: 'แดดออก', Cloudy: 'มีเมฆ', Cloud: 'มีเมฆ', Rainy: 'ฝนตก', Rain: 'ฝนตก' };
 const ALL_TIMES = ['Morning', 'Day', 'Sunset', 'Night'];
 const ALL_WEATHER = ['Sunny', 'Cloudy', 'Rainy'];
 
@@ -363,11 +365,50 @@ function monGives(p, lang) {
   <p class="note"><a href="${BASE}/${lang}/gifts/" style="text-decoration:underline">${th ? 'ดูของขวัญของโปเกมอนทุกตัว และห้าระดับความสนิท' : 'See every Pokémon’s gifts and the five friendship stages'}</a></p>
   </section>`;
 }
+/* The six areas you build in, plus Cloud Island, which is a trip rather than a place you
+   own. Serebii writes them in English on every habitat page. */
+const AREAS = ['Palette Town', 'Withered Wastelands', 'Rocky Ridges', 'Sparkling Skylands', 'Bleak Beach', 'Bubbly Basin', 'Cloud Island'];
+const AREA_TH = {
+  'Palette Town': 'พาเลตทาวน์', 'Withered Wastelands': 'ดินแดนแห้งแล้ง', 'Rocky Ridges': 'สันเขาหิน',
+  'Sparkling Skylands': 'เกาะลอยฟ้า', 'Bleak Beach': 'ชายหาดร้าง', 'Bubbly Basin': 'อ่าวน้ำใส', 'Cloud Island': 'เกาะเมฆ',
+};
+const RARITY_TH = { Common: 'พบบ่อย', Rare: 'หายาก', 'Very Rare': 'หายากมาก' };
+const areaSlug = a => a.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+const thArea = (a, lang) => (lang === 'th' && AREA_TH[a]) || a;
+
+/* A habitat is "everywhere" when it works in all six buildable areas. Most do not include
+   Bubbly Basin, which arrived with the expansion, so that is the line worth drawing. */
+const buildable = h => (h.areas || []).filter(a => a !== 'Cloud Island');
+
+/** the chip values a habitat answers to: its dex, its areas, and any gating it has */
+function habitatCats(h) {
+  const out = [h.dex, ...buildable(h).map(areaSlug)];
+  if ((h.times || []).length && h.times.length < 4) out.push('timed');
+  if ((h.weather || []).length && h.weather.length < 3) out.push('weathered');
+  return out.join(' ');
+}
+
+/** where it works, what it yields and any time or weather it insists on */
+function habitatFacts(h, lang) {
+  const th = lang === 'th', out = [];
+  const areas = buildable(h);
+  const base = AREAS.filter(a => a !== 'Cloud Island' && a !== 'Bubbly Basin');
+  if (areas.length >= 6) out.push(`<span class="tag">${th ? 'ทุกพื้นที่' : 'Every area'}</span>`);
+  else if (base.every(a => areas.includes(a))) out.push(`<span class="tag">${th ? 'ทุกพื้นที่ ยกเว้นอ่าวน้ำใส' : 'Every area but Bubbly Basin'}</span>`);
+  else if (areas.length) out.push(...areas.map(a => `<span class="tag">${esc(thArea(a, lang))}</span>`));
+  for (const r of (h.rarities || [])) out.push(`<span class="tag tag-clay">${esc(th ? RARITY_TH[r] : r)}</span>`);
+  if ((h.times || []).length && h.times.length < 4)
+    out.push(`<span class="tag tag-moss">${h.times.map(x => esc(th ? TIME_TH[x] || x : x)).join(' · ')}</span>`);
+  if ((h.weather || []).length && h.weather.length < 3)
+    out.push(`<span class="tag tag-moss">${h.weather.map(x => esc(th ? WEATHER_TH[x] || x : x)).join(' · ')}</span>`);
+  return out.join('');
+}
+
 /** habitat card: build requirements on the left, the Pokémon it releases below */
 function habitatCard(h, lang) {
   const mons = h.mons.map(id => monById.get(id)).filter(Boolean);
   const gl = G(h.name), pic = habPic(h.img);
-  return `<article class="row${pic ? ' row-wide' : ''}" id="h${h.dex}-${h.no}" data-cat="${esc(h.dex)}" data-s="${esc((h.name + ' ' + gl + ' ' + h.desc + ' ' + h.req.join(' ') + ' ' + mons.map(m => m.name + ' ' + monTitle(m, lang)).join(' ')).toLowerCase())}">
+  return `<article class="row${pic ? ' row-wide' : ''}" id="h${h.dex}-${h.no}" data-cat="${esc(habitatCats(h))}" data-s="${esc((h.name + ' ' + gl + ' ' + h.desc + ' ' + h.req.join(' ') + ' ' + mons.map(m => m.name + ' ' + monTitle(m, lang)).join(' ')).toLowerCase())}">
 ${pic
       ? `<img class="hab-pic" src="${pic}" alt="${esc(h.name)}" loading="lazy" width="150" height="105" decoding="async">`
       : rowIcon('leaf')}
@@ -375,6 +416,7 @@ ${pic
   <div class="row-name">#${String(h.no).padStart(3, '0')} ${esc(h.name)}</div>
   ${lang === 'th' && gl ? `<div class="row-th gloss">${esc(gl)}</div>` : ''}
   ${h.desc ? `<div class="row-desc">${esc(h.desc)}</div>` : ''}
+  ${habitatFacts(h, lang) ? `<div class="row-meta">${habitatFacts(h, lang)}</div>` : ''}
   ${h.req.length ? `<div class="mats">${h.req.map(r => `<span class="mat">${itemLink(lang, r, esc(r))}</span>`).join('')}</div>` : ''}
   ${mons.length ? `<div class="hab-mons">${mons.map(m => `<a href="${monUrl(lang, m)}" title="${esc(monTitle(m, lang))}"><img src="${sprite(m)}" alt="${esc(monTitle(m, lang))}" loading="lazy" width="40" height="40"><span>${esc(monTitle(m, lang))}</span></a>`).join('')}</div>` : ''}
 </div></article>`;
@@ -560,18 +602,38 @@ function pokemonPage(p, lang) {
 }
 
 function habitatsPage(lang) {
-  const t = T[lang];
-  const catLabel = c => ({ main: lang === 'th' ? 'เด็กซ์หลัก' : 'Main', basin: 'Bubbly Basin', event: lang === 'th' ? 'อีเวนต์' : 'Event' }[c] || c);
+  const t = T[lang], th = lang === 'th';
+
+  /* Three kinds of chip share one bar because the filter is single-select: which dex a
+     habitat is in, which area it is any use in, and whether it insists on a time of day or
+     a kind of weather. Every habitat carries all of its values in data-cat. */
+  const areaCats = AREAS.filter(a => a !== 'Cloud Island').map(areaSlug);
+  const cats = ['main', 'basin', 'event', ...areaCats, 'timed', 'weathered'];
+  const areaByCat = new Map(AREAS.map(a => [areaSlug(a), a]));
+  const catLabel = c => areaByCat.has(c) ? thArea(areaByCat.get(c), lang)
+    : ({
+      main: th ? 'เด็กซ์หลัก' : 'Main', basin: 'Bubbly Basin', event: th ? 'อีเวนต์' : 'Event',
+      timed: th ? 'จำกัดช่วงเวลา' : 'Time-gated', weathered: th ? 'จำกัดสภาพอากาศ' : 'Weather-gated',
+    }[c] || c);
+
+  const everywhere = habitats.filter(h => buildable(h).length >= 6).length;
+  const basinOnly = habitats.filter(h => buildable(h).includes('Bubbly Basin')).length;
+  const timed = habitats.filter(h => h.times.length && h.times.length < 4).length;
+  const weathered = habitats.filter(h => h.weather.length && h.weather.length < 3).length;
+
   const rows = habitats.map(h => ({ html: habitatCard(h, lang) }));
   const body = `${crumb(lang, [[t.nav.habitats]])}
 <div class="wrap stack"><h1>${esc(t.nav.habitats)}</h1>
 <p class="lede">${lang === 'th'
       ? 'ที่อยู่อาศัยทั้ง 252 แบบ พร้อมของที่ต้องวางและโปเกมอนที่จะย้ายเข้ามา — สร้างให้ครบตามรายการ แล้วโปเกมอนที่ตรงกับที่อยู่นั้นจะออกมาเอง'
       : 'All 252 habitats, with the exact objects each one needs and the Pokémon it releases. Build one correctly and the matching Pokémon moves in.'}</p>
-<p class="note">${lang === 'th'
-      ? 'บางแบบมีเงื่อนไขสภาพอากาศและช่วงเวลาของวัน ถ้าสร้างครบแล้วยังไม่มีใครมา ลองรอฝนหรือรอกลางคืน'
-      : 'Some habitats are gated by weather or time of day — if one looks finished but stays empty, wait for rain or nightfall.'}</p></div>
-${listPage({ lang, rows, cats: ['main', 'basin', 'event'], catLabel })}`;
+<p class="note">${th
+      ? `บางแบบมีเงื่อนไขช่วงเวลาของวันและสภาพอากาศ ถ้าสร้างครบแล้วยังไม่มีใครมา ลองรอฝนหรือรอกลางคืน — มี ${timed} แบบที่จำกัดช่วงเวลา และ ${weathered} แบบที่จำกัดสภาพอากาศ กดแถบกรองเพื่อดูได้เลย`
+      : `Some habitats are gated by time of day or weather — if one looks finished but stays empty, wait for rain or nightfall. ${timed} are time-gated and ${weathered} weather-gated; the chips pick them out.`}</p>
+<p class="note note-clay">${th
+      ? `แถบกรองพื้นที่มาจากถิ่นที่โปเกมอนของแต่ละที่อยู่อาศัยอาศัยอยู่จริง ตามที่ Serebii ระบุไว้ ต้องบอกตรง ๆ ว่ามันกรองได้ไม่มากนัก เพราะที่อยู่อาศัย ${everywhere} จาก ${habitats.length} แบบใช้ได้ทุกพื้นที่ — ที่แยกออกมาชัดคือ ${basinOnly} แบบที่ใช้ได้ในอ่าวน้ำใส และอีกไม่กี่แบบที่ผูกกับพื้นที่เดียว`
+      : `The area chips come from where the Pokémon each habitat releases actually live, as Serebii records it. They do not narrow much: ${everywhere} of the ${habitats.length} habitats work in every area. What they do separate out is the ${basinOnly} that work in Bubbly Basin, and the handful tied to one area.`}</p></div>
+${listPage({ lang, rows, cats, catLabel })}`;
   return layout({ lang, base: BASE, title: t.nav.habitats, desc: 'All Pokopia habitats', path: '/habitats/', body });
 }
 

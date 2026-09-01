@@ -16,6 +16,30 @@
    "159-geodude",
    "013-oddish",
    "006-charizard"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare",
+   "Very Rare"
   ]
  },
  {
@@ -36,6 +60,29 @@
    "021-bellsprout",
    "191-skwovet",
    "050-heracross"
+  ],
+  "areas": [
+   "Palette Town",
+   "Cloud Island",
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -53,6 +100,29 @@
    "065-timburr",
    "156-machop",
    "066-gurdurr"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -72,6 +142,30 @@
    "009-blastoise",
    "077-cramorant",
    "008-wartortle"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare",
+   "Very Rare"
   ]
  },
  {
@@ -89,6 +183,30 @@
    "024-slowpoke",
    "025-slowbro",
    "026-slowking"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare",
+   "Very Rare"
   ]
  },
  {
@@ -107,6 +225,29 @@
    "011-pidgeotto",
    "048-hoothoot",
    "049-noctowl"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -123,6 +264,26 @@
   "mons": [
    "019-venonat",
    "020-venomoth"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -142,6 +303,29 @@
    "048-hoothoot",
    "162-magby",
    "011-pidgeotto"
+  ],
+  "areas": [
+   "Palette Town",
+   "Cloud Island",
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -159,6 +343,29 @@
    "074-goomy",
    "056-cacturne",
    "140-vikavolt"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Rain",
+   "Sun",
+   "Cloud"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -175,6 +382,28 @@
   "mons": [
    "051-volbeat",
    "052-illumise"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -191,6 +420,29 @@
    "058-vespiquen",
    "002-ivysaur",
    "003-venusaur"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -207,6 +459,29 @@
   "mons": [
    "017-paras",
    "018-parasect"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -223,6 +498,29 @@
   "mons": [
    "032-cubone",
    "033-marowak"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -239,6 +537,29 @@
   "mons": [
    "017-paras",
    "018-parasect"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -255,6 +576,29 @@
    "063-drilbur",
    "185-rowlet",
    "064-excadrill"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -269,6 +613,28 @@
   ],
   "mons": [
    "061-drifloon"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -285,6 +651,28 @@
   ],
   "mons": [
    "005-charmeleon"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -301,6 +689,28 @@
   ],
   "mons": [
    "034-tyrogue"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -317,7 +727,23 @@
   ],
   "mons": [
    "053-gulpin"
-  ]
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": []
  },
  {
   "dex": "main",
@@ -334,6 +760,26 @@
   "mons": [
    "078-pichu",
    "079-pikachu"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Cloud Island",
+   "Palette Town"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -351,6 +797,29 @@
   "mons": [
    "022-weepinbell",
    "023-victreebel"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare",
+   "Very Rare"
   ]
  },
  {
@@ -367,6 +836,29 @@
   "mons": [
    "001-bulbasaur",
    "002-ivysaur"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -383,6 +875,26 @@
   "mons": [
    "019-venonat",
    "020-venomoth"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -398,6 +910,28 @@
   ],
   "mons": [
    "036-hitmonchan"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -414,6 +948,28 @@
   ],
   "mons": [
    "035-hitmonlee"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -430,6 +986,28 @@
   ],
   "mons": [
    "037-hitmontop"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -446,6 +1024,28 @@
   "mons": [
    "059-shellos-west-sea",
    "059-shellos-east-sea"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -463,6 +1063,29 @@
    "268-tinkatink",
    "066-gurdurr",
    "269-tinkatuff"
+  ],
+  "areas": [
+   "Palette Town",
+   "Cloud Island",
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -482,6 +1105,29 @@
    "071-axew",
    "072-fraxure",
    "073-haxorus"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -500,6 +1146,29 @@
    "025-slowbro",
    "026-slowking",
    "107-munchlax"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -517,6 +1186,29 @@
   "mons": [
    "048-hoothoot",
    "049-noctowl"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Night",
+   "Morning",
+   "Day",
+   "Evening"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -534,6 +1226,29 @@
   "mons": [
    "068-litwick",
    "069-lampent"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -552,6 +1267,29 @@
    "068-litwick",
    "069-lampent",
    "070-chandelure"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -569,6 +1307,28 @@
   "mons": [
    "015-vileplume",
    "016-bellossom"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -586,6 +1346,29 @@
   "mons": [
    "022-weepinbell",
    "023-victreebel"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -602,6 +1385,28 @@
   ],
   "mons": [
    "009-blastoise"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -617,6 +1422,28 @@
   ],
   "mons": [
    "030-onix"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -634,6 +1461,28 @@
   ],
   "mons": [
    "027-magnemite"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -649,6 +1498,27 @@
   ],
   "mons": [
    "012-pidgeot"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -666,6 +1536,27 @@
   ],
   "mons": [
    "006-charizard"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -681,7 +1572,25 @@
   ],
   "mons": [
    "074-goomy"
-  ]
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Rain"
+  ],
+  "rarities": []
  },
  {
   "dex": "main",
@@ -696,6 +1605,26 @@
   ],
   "mons": [
    "055-cacnea"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -712,6 +1641,28 @@
   ],
   "mons": [
    "041-tangrowth-professor"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -730,6 +1681,30 @@
    "071-axew",
    "072-fraxure",
    "073-haxorus"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare",
+   "Very Rare"
   ]
  },
  {
@@ -747,6 +1722,26 @@
   ],
   "mons": [
    "076-goodra"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -764,6 +1759,28 @@
   ],
   "mons": [
    "003-venusaur"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -780,6 +1797,24 @@
   "mons": [
    "107-munchlax",
    "108-snorlax"
+  ],
+  "areas": [
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -798,6 +1833,24 @@
   "mons": [
    "039-weezing",
    "108-snorlax"
+  ],
+  "areas": [
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -815,6 +1868,24 @@
   ],
   "mons": [
    "040-tangela"
+  ],
+  "areas": [
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -831,6 +1902,29 @@
    "109-spinarak",
    "138-grubbin",
    "110-ariados"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -849,6 +1943,29 @@
    "082-golbat",
    "125-makuhita",
    "126-hariyama"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Night",
+   "Morning",
+   "Day",
+   "Evening"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -866,6 +1983,30 @@
    "123-wingull",
    "124-pelipper",
    "083-crobat"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare",
+   "Very Rare"
   ]
  },
  {
@@ -884,6 +2025,29 @@
    "115-marill",
    "128-piplup",
    "129-prinplup"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -900,6 +2064,29 @@
   "mons": [
    "117-wooper-paldean-form",
    "118-clodsire"
+  ],
+  "areas": [
+   "Bleak Beach",
+   "Cloud Island",
+   "Withered Wastelands",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -915,6 +2102,28 @@
   ],
   "mons": [
    "111-mareep"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -931,6 +2140,29 @@
    "142-pawmi",
    "134-zorua",
    "135-zoroark"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -948,6 +2180,30 @@
    "014-gloom",
    "098-exeggcute",
    "099-exeggutor"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare",
+   "Very Rare"
   ]
  },
  {
@@ -964,6 +2220,28 @@
   "mons": [
    "123-wingull",
    "124-pelipper"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -980,6 +2258,29 @@
   "mons": [
    "098-exeggcute",
    "099-exeggutor"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -996,6 +2297,28 @@
   ],
   "mons": [
    "106-lapras"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -1011,6 +2334,28 @@
   ],
   "mons": [
    "084-meowth"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -1027,6 +2372,28 @@
   "mons": [
    "088-growlithe",
    "114-azurill"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -1046,6 +2413,29 @@
    "038-koffing",
    "039-weezing",
    "133-garbodor"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -1062,6 +2452,29 @@
    "028-magneton",
    "104-electabuzz",
    "029-magnezone"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare",
+   "Very Rare"
   ]
  },
  {
@@ -1077,6 +2490,25 @@
   ],
   "mons": [
    "083-crobat"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -1094,6 +2526,30 @@
    "081-zubat",
    "096-voltorb",
    "097-electrode"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Night",
+   "Morning",
+   "Day",
+   "Evening"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare",
+   "Very Rare"
   ]
  },
  {
@@ -1112,6 +2568,28 @@
   "mons": [
    "143-pawmo",
    "142-pawmi"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -1130,6 +2608,26 @@
   ],
   "mons": [
    "130-empoleon"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -1147,6 +2645,30 @@
   "mons": [
    "120-torchic",
    "122-blaziken"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare",
+   "Very Rare"
   ]
  },
  {
@@ -1166,6 +2688,28 @@
   "mons": [
    "143-pawmo",
    "144-pawmot"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -1182,6 +2726,28 @@
   ],
   "mons": [
    "145-tatsugiri-curly-form"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -1198,6 +2764,29 @@
   "mons": [
    "104-electabuzz",
    "105-electivire"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -1215,6 +2804,29 @@
    "135-zoroark",
    "094-haunter",
    "095-gengar"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Night",
+   "Morning",
+   "Day",
+   "Evening"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -1230,6 +2842,28 @@
   ],
   "mons": [
    "112-flaaffy"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -1245,6 +2879,28 @@
   ],
   "mons": [
    "136-minccino"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -1262,6 +2918,29 @@
   "mons": [
    "136-minccino",
    "137-cinccino"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -1279,6 +2958,29 @@
   "mons": [
    "111-mareep",
    "112-flaaffy"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -1296,6 +2998,29 @@
   "mons": [
    "086-psyduck",
    "087-golduck"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -1315,6 +3040,29 @@
    "088-growlithe",
    "120-torchic",
    "121-combusken"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -1332,6 +3080,29 @@
    "090-farfetch-d",
    "125-makuhita",
    "126-hariyama"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -1349,6 +3120,29 @@
   "mons": [
    "101-chansey",
    "079-pikachu-pale"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -1365,6 +3159,28 @@
   ],
   "mons": [
    "100-happiny"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -1381,6 +3197,29 @@
   "mons": [
    "138-grubbin",
    "139-charjabug"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -1397,6 +3236,29 @@
   "mons": [
    "103-elekid",
    "105-electivire"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -1414,6 +3276,29 @@
   "mons": [
    "028-magneton",
    "029-magnezone"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -1431,6 +3316,29 @@
   "mons": [
    "129-prinplup",
    "130-empoleon"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare",
+   "Very Rare"
   ]
  },
  {
@@ -1447,6 +3355,29 @@
   "mons": [
    "121-combusken",
    "122-blaziken"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -1464,6 +3395,29 @@
   "mons": [
    "115-marill",
    "116-azumarill"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -1482,6 +3436,26 @@
   "mons": [
    "093-gastly",
    "094-haunter"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -1499,6 +3473,28 @@
   "mons": [
    "096-voltorb",
    "097-electrode"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -1517,6 +3513,28 @@
    "131-audino",
    "175-mawile",
    "100-happiny"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -1532,6 +3550,28 @@
   ],
   "mons": [
    "119-smeargle-decorator"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -1546,6 +3586,28 @@
   ],
   "mons": [
    "108-snorlax-mossy"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -1561,6 +3623,28 @@
   ],
   "mons": [
    "141-mimikyu"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -1579,6 +3663,28 @@
   ],
   "mons": [
    "102-blissey"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -1596,6 +3702,28 @@
   ],
   "mons": [
    "127-absol"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -1613,6 +3741,28 @@
   ],
   "mons": [
    "113-ampharos"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -1631,6 +3781,30 @@
    "180-riolu",
    "177-kricketot",
    "178-kricketune"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare",
+   "Very Rare"
   ]
  },
  {
@@ -1649,6 +3823,29 @@
    "155-dugtrio",
    "165-bonsly",
    "166-sudowoodo"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -1666,6 +3863,30 @@
   "mons": [
    "186-dartrix",
    "187-decidueye"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare",
+   "Very Rare"
   ]
  },
  {
@@ -1682,6 +3903,29 @@
   "mons": [
    "172-lotad",
    "173-lombre"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -1699,6 +3943,29 @@
    "167-murkrow",
    "168-honchkrow",
    "179-chatot"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Night",
+   "Morning",
+   "Day",
+   "Evening"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -1715,6 +3982,29 @@
   "mons": [
    "157-machoke",
    "158-machamp"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -1733,6 +4023,30 @@
    "148-cleffa",
    "149-clefairy",
    "150-clefable"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Night",
+   "Morning",
+   "Day",
+   "Evening"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare",
+   "Very Rare"
   ]
  },
  {
@@ -1750,6 +4064,30 @@
    "167-murkrow",
    "183-larvesta",
    "184-volcarona"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Night",
+   "Morning",
+   "Day",
+   "Evening"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare",
+   "Very Rare"
   ]
  },
  {
@@ -1767,6 +4105,29 @@
    "146-ekans",
    "147-arbok",
    "212-politoed"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -1785,6 +4146,29 @@
    "151-igglybuff",
    "152-jigglypuff",
    "212-politoed"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -1800,6 +4184,28 @@
   ],
   "mons": [
    "171-tyranitar"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -1816,6 +4222,29 @@
   "mons": [
    "172-lotad",
    "174-ludicolo"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -1831,6 +4260,30 @@
   "mons": [
    "169-larvitar",
    "171-tyranitar"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare",
+   "Very Rare"
   ]
  },
  {
@@ -1847,6 +4300,29 @@
   "mons": [
    "160-graveler",
    "161-golem"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -1862,6 +4338,28 @@
   ],
   "mons": [
    "176-torkoal"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -1877,6 +4375,28 @@
   ],
   "mons": [
    "189-raboot"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -1893,6 +4413,28 @@
   ],
   "mons": [
    "212-politoed"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -1909,6 +4451,29 @@
   "mons": [
    "200-charcadet",
    "184-volcarona"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -1925,6 +4490,28 @@
   ],
   "mons": [
    "163-magmar"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -1943,6 +4530,29 @@
   "mons": [
    "031-steelix",
    "158-machamp"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -1961,6 +4571,29 @@
   "mons": [
    "203-glimmet",
    "204-glimmora"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -1980,6 +4613,28 @@
    "154-diglett",
    "203-glimmet",
    "204-glimmora"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -1996,6 +4651,28 @@
   ],
   "mons": [
    "054-swalot"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -2013,6 +4690,28 @@
   "mons": [
    "198-fidough",
    "199-dachsbun"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -2030,6 +4729,28 @@
   ],
   "mons": [
    "164-magmortar"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -2047,6 +4768,28 @@
   "mons": [
    "155-dugtrio",
    "166-sudowoodo"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -2062,6 +4805,24 @@
   ],
   "mons": [
    "196-toxel"
+  ],
+  "areas": [
+   "Rocky Ridges",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -2078,6 +4839,29 @@
   "mons": [
    "179-chatot",
    "168-honchkrow"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -2095,6 +4879,29 @@
   "mons": [
    "152-jigglypuff",
    "153-wigglytuff"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -2113,6 +4920,28 @@
    "157-machoke",
    "180-riolu",
    "181-lucario"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -2131,6 +4960,29 @@
    "177-kricketot",
    "178-kricketune",
    "182-rotom-stereo-rotom"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -2148,6 +5000,29 @@
   "mons": [
    "205-gimmighoul",
    "089-arcanine"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -2166,6 +5041,29 @@
   "mons": [
    "189-raboot",
    "190-cinderace"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -2183,6 +5081,26 @@
   "mons": [
    "149-clefairy",
    "150-clefable"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -2200,6 +5118,30 @@
    "193-rolycoly",
    "194-carkol",
    "195-coalossal"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare",
+   "Very Rare"
   ]
  },
  {
@@ -2219,6 +5161,28 @@
   ],
   "mons": [
    "192-greedent-cook"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -2236,6 +5200,28 @@
   ],
   "mons": [
    "206-gholdengo"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -2253,6 +5239,28 @@
   ],
   "mons": [
    "195-coalossal"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -2269,6 +5277,28 @@
   ],
   "mons": [
    "187-decidueye"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -2287,6 +5317,29 @@
    "239-flygon",
    "240-swablu",
    "242-duskull"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -2305,6 +5358,29 @@
    "260-dreepy",
    "261-drakloak",
    "170-pupitar"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -2322,6 +5398,29 @@
    "251-froakie",
    "252-frogadier",
    "253-greninja"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -2340,6 +5439,30 @@
    "259-corviknight",
    "266-wattrel",
    "267-kilowattrel"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare",
+   "Very Rare"
   ]
  },
  {
@@ -2356,6 +5479,28 @@
   "mons": [
    "224-cyndaquil",
    "225-quilava"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -2374,6 +5519,30 @@
    "257-rookidee",
    "227-misdreavus",
    "228-mismagius"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare",
+   "Very Rare"
   ]
  },
  {
@@ -2392,6 +5561,30 @@
    "250-serperior",
    "229-girafarig",
    "230-farigiraf"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare",
+   "Very Rare"
   ]
  },
  {
@@ -2409,6 +5602,30 @@
    "221-dratini",
    "222-dragonair",
    "210-poliwhirl"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare",
+   "Very Rare"
   ]
  },
  {
@@ -2426,6 +5643,28 @@
   ],
   "mons": [
    "223-dragonite"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -2443,6 +5682,24 @@
   ],
   "mons": [
    "046-gyarados"
+  ],
+  "areas": [
+   "Sparkling Skylands",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -2458,6 +5715,28 @@
   ],
   "mons": [
    "241-altaria"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -2474,6 +5753,29 @@
   "mons": [
    "221-dratini",
    "222-dragonair"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -2489,6 +5791,28 @@
   ],
   "mons": [
    "245-beldum"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -2505,6 +5829,29 @@
   "mons": [
    "225-quilava",
    "226-typhlosion"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -2521,6 +5868,29 @@
   "mons": [
    "213-abra",
    "215-alakazam"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -2538,6 +5908,29 @@
   "mons": [
    "213-abra",
    "214-kadabra"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -2554,6 +5947,25 @@
   "mons": [
    "243-dusclops",
    "244-dusknoir"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -2572,6 +5984,28 @@
   "mons": [
    "268-tinkatink",
    "270-tinkaton-supervisor"
+  ],
+  "areas": [
+   "Palette Town",
+   "Cloud Island",
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -2590,6 +6024,28 @@
   "mons": [
    "263-sprigatito",
    "264-floragato"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -2609,7 +6065,27 @@
    "269-tinkatuff",
    "259-corviknight",
    "211-poliwrath"
-  ]
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": []
  },
  {
   "dex": "main",
@@ -2626,6 +6102,28 @@
   "mons": [
    "216-mime-jr",
    "217-mr-mime"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -2642,6 +6140,25 @@
   ],
   "mons": [
    "228-mismagius"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -2660,6 +6177,29 @@
   "mons": [
    "231-ralts",
    "232-kirlia"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -2677,6 +6217,29 @@
   "mons": [
    "255-noibat",
    "256-noivern"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -2692,6 +6255,28 @@
   ],
   "mons": [
    "209-poliwag"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -2709,6 +6294,29 @@
   "mons": [
    "232-kirlia",
    "233-gardevoir"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -2726,6 +6334,28 @@
   ],
   "mons": [
    "233-gardevoir"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -2741,6 +6371,28 @@
   ],
   "mons": [
    "220-porygon-z"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -2756,6 +6408,28 @@
   ],
   "mons": [
    "248-snivy"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -2773,6 +6447,28 @@
   ],
   "mons": [
    "219-porygon2"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -2792,6 +6488,29 @@
    "228-mismagius",
    "261-drakloak",
    "262-dragapult"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Night",
+   "Morning",
+   "Day",
+   "Evening"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -2808,6 +6527,24 @@
   ],
   "mons": [
    "215-alakazam"
+  ],
+  "areas": [
+   "Sparkling Skylands",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -2825,6 +6562,28 @@
   ],
   "mons": [
    "246-metang"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -2841,6 +6600,28 @@
   ],
   "mons": [
    "218-porygon"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -2857,6 +6638,29 @@
   "mons": [
    "216-mime-jr",
    "250-serperior"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -2873,6 +6677,28 @@
   ],
   "mons": [
    "265-meowscarada"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -2889,6 +6715,28 @@
   "mons": [
    "252-frogadier",
    "253-greninja"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -2906,6 +6754,28 @@
   "mons": [
    "235-plusle",
    "236-minun"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -2922,6 +6792,24 @@
   ],
   "mons": [
    "254-dedenne"
+  ],
+  "areas": [
+   "Sparkling Skylands",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -2939,6 +6827,28 @@
   ],
   "mons": [
    "080-raichu"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -2955,6 +6865,28 @@
   ],
   "mons": [
    "067-conkeldurr"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -2971,6 +6903,29 @@
   "mons": [
    "211-poliwrath",
    "234-gallade"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -2987,6 +6942,28 @@
   ],
   "mons": [
    "085-persian"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3001,6 +6978,28 @@
   ],
   "mons": [
    "208-ninetales"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3019,6 +7018,28 @@
   "mons": [
    "061-drifloon",
    "062-drifblim"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3037,6 +7058,28 @@
   ],
   "mons": [
    "247-metagross"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -3053,6 +7096,28 @@
   ],
   "mons": [
    "226-typhlosion"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -3070,6 +7135,28 @@
   "mons": [
    "025-slowbro",
    "026-slowking"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -3087,6 +7174,29 @@
   "mons": [
    "045-magikarp",
    "060-gastrodon-west-sea"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -3105,6 +7215,29 @@
    "091-grimer",
    "092-muk",
    "118-clodsire"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -3122,6 +7255,28 @@
   "mons": [
    "172-lotad",
    "173-lombre"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3138,6 +7293,28 @@
   ],
   "mons": [
    "089-arcanine"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3155,6 +7332,28 @@
   ],
   "mons": [
    "197-toxtricity-amped-form"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3172,6 +7371,28 @@
   ],
   "mons": [
    "197-toxtricity-low-key-form"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -3189,6 +7410,28 @@
   ],
   "mons": [
    "202-ceruledge"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3206,6 +7449,28 @@
   ],
   "mons": [
    "201-armarouge"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -3225,6 +7490,28 @@
   ],
   "mons": [
    "271-aerodactyl"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3240,6 +7527,28 @@
   ],
   "mons": [
    "272-cranidos"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3257,6 +7566,28 @@
   ],
   "mons": [
    "273-rampardos"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3272,6 +7603,28 @@
   ],
   "mons": [
    "274-shieldon"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3289,6 +7642,28 @@
   ],
   "mons": [
    "275-bastiodon"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3304,6 +7679,28 @@
   ],
   "mons": [
    "276-tyrunt"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3322,6 +7719,28 @@
   ],
   "mons": [
    "277-tyrantrum"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3337,6 +7756,28 @@
   ],
   "mons": [
    "278-amaura"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3354,6 +7795,28 @@
   ],
   "mons": [
    "279-aurorus"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3370,6 +7833,24 @@
   ],
   "mons": [
    "281-vaporeon"
+  ],
+  "areas": [
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3386,6 +7867,24 @@
   ],
   "mons": [
    "282-jolteon"
+  ],
+  "areas": [
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3402,6 +7901,24 @@
   ],
   "mons": [
    "283-flareon"
+  ],
+  "areas": [
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3418,6 +7935,24 @@
   ],
   "mons": [
    "284-espeon"
+  ],
+  "areas": [
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3434,6 +7969,24 @@
   ],
   "mons": [
    "285-umbreon"
+  ],
+  "areas": [
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3450,6 +8003,24 @@
   ],
   "mons": [
    "286-leafeon"
+  ],
+  "areas": [
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3466,6 +8037,24 @@
   ],
   "mons": [
    "287-glaceon"
+  ],
+  "areas": [
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3482,6 +8071,24 @@
   ],
   "mons": [
    "288-sylveon"
+  ],
+  "areas": [
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3499,6 +8106,31 @@
    "basin-024-buizel",
    "basin-008-totodile",
    "basin-010-feraligatr"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare",
+   "Very Rare"
   ]
  },
  {
@@ -3517,6 +8149,31 @@
    "basin-013-corsola",
    "basin-001-shellder",
    "basin-016-swampert"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare",
+   "Very Rare"
   ]
  },
  {
@@ -3534,6 +8191,30 @@
    "basin-034-popplio",
    "basin-006-staryu",
    "basin-026-finneon"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -3551,6 +8232,31 @@
    "basin-037-mareanie",
    "basin-023-luvdisc",
    "basin-040-golisopod"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare",
+   "Very Rare"
   ]
  },
  {
@@ -3568,6 +8274,30 @@
   "mons": [
    "basin-002-cloyster",
    "basin-027-lumineon"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -3584,6 +8314,30 @@
   "mons": [
    "basin-017-carvanha",
    "basin-031-stunfisk"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -3603,6 +8357,31 @@
    "basin-004-seadra",
    "basin-005-kingdra",
    "basin-013-corsola"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare",
+   "Very Rare"
   ]
  },
  {
@@ -3618,6 +8397,29 @@
   ],
   "mons": [
    "basin-021-corphish"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3635,6 +8437,30 @@
    "basin-001-shellder",
    "basin-021-corphish",
    "basin-022-crawdaunt"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -3652,6 +8478,29 @@
   "mons": [
    "basin-019-barboach",
    "basin-046-wiglett"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3669,6 +8518,29 @@
   ],
   "mons": [
    "basin-010-feraligatr"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -3685,6 +8557,30 @@
    "basin-026-finneon",
    "basin-027-lumineon",
    "basin-048-veluza"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -3700,6 +8596,29 @@
   ],
   "mons": [
    "basin-041-bruxish"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3718,6 +8637,30 @@
   "mons": [
    "basin-045-pincurchin",
    "basin-015-marshtomp"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -3736,6 +8679,29 @@
   "mons": [
    "basin-018-sharpedo",
    "basin-009-croconaw"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3753,6 +8719,30 @@
   "mons": [
    "basin-039-wimpod",
    "basin-040-golisopod"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -3772,6 +8762,30 @@
    "basin-028-frillish-female",
    "basin-028-frillish-male",
    "basin-042-dhelmise"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -3789,6 +8803,30 @@
   "mons": [
    "basin-023-luvdisc",
    "basin-038-toxapex"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -3805,6 +8843,29 @@
   ],
   "mons": [
    "basin-019-barboach"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3821,6 +8882,24 @@
   ],
   "mons": [
    "basin-025-floatzel"
+  ],
+  "areas": [
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3839,6 +8918,30 @@
    "basin-028-frillish-male",
    "basin-028-frillish-female",
    "basin-030-alomomola"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -3856,6 +8959,29 @@
   "mons": [
    "basin-024-buizel",
    "basin-043-chewtle"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3874,6 +9000,29 @@
    "basin-011-chinchou",
    "basin-014-mudkip",
    "basin-023-luvdisc"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3892,6 +9041,29 @@
    "basin-008-totodile",
    "basin-009-croconaw",
    "basin-044-drednaw"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3911,6 +9083,30 @@
    "basin-015-marshtomp",
    "basin-019-barboach",
    "basin-032-inkay"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -3928,6 +9124,29 @@
   ],
   "mons": [
    "basin-016-swampert"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -3942,6 +9161,29 @@
   ],
   "mons": [
    "basin-033-malamar"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -3957,6 +9199,29 @@
   ],
   "mons": [
    "basin-008-totodile"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -3973,6 +9238,30 @@
   "mons": [
    "basin-034-popplio",
    "basin-035-brionne"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare"
   ]
  },
  {
@@ -3988,6 +9277,29 @@
   ],
   "mons": [
    "basin-047-wugtrio"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -4004,6 +9316,29 @@
   ],
   "mons": [
    "basin-036-primarina"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -4023,6 +9358,29 @@
   "mons": [
    "basin-029-jellicent-male",
    "basin-029-jellicent-female"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -4042,6 +9400,29 @@
   ],
   "mons": [
    "basin-012-lanturn"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -4058,6 +9439,29 @@
   ],
   "mons": [
    "basin-005-kingdra"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -4074,6 +9478,29 @@
   ],
   "mons": [
    "basin-020-whiscash"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -4093,6 +9520,29 @@
   ],
   "mons": [
    "basin-007-starmie"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -4109,6 +9559,30 @@
    "event-001-hoppip",
    "event-003-jumpluff",
    "event-002-skiploom"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common",
+   "Rare",
+   "Very Rare"
   ]
  },
  {
@@ -4125,6 +9599,28 @@
   ],
   "mons": [
    "event-002-skiploom"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -4142,6 +9638,28 @@
   ],
   "mons": [
    "event-003-jumpluff"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Rare"
   ]
  },
  {
@@ -4158,6 +9676,28 @@
   ],
   "mons": [
    "event-004-sableye"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -4175,6 +9715,28 @@
   ],
   "mons": [
    "event-005-jirachi"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -4190,6 +9752,29 @@
   ],
   "mons": [
    "event-006-feebas"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  },
  {
@@ -4206,6 +9791,29 @@
   ],
   "mons": [
    "event-007-milotic"
+  ],
+  "areas": [
+   "Withered Wastelands",
+   "Bleak Beach",
+   "Rocky Ridges",
+   "Sparkling Skylands",
+   "Palette Town",
+   "Cloud Island",
+   "Bubbly Basin"
+  ],
+  "times": [
+   "Morning",
+   "Day",
+   "Evening",
+   "Night"
+  ],
+  "weather": [
+   "Sun",
+   "Cloud",
+   "Rain"
+  ],
+  "rarities": [
+   "Common"
   ]
  }
 ]
