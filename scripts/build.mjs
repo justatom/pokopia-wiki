@@ -152,6 +152,8 @@ function listPage({ lang, rows, cats, catLabel }) {
    requirement, a favourite, a gift) can link straight to it; :target highlights it. */
 const itemById = new Map(items.map(i => [i.id, i]));
 const itemSquashed = new Map(items.map(i => [i.id.replace(/-/g, ''), i]));
+/* Serebii's Environment Level page names one kit differently from its own item list */
+const ITEM_ALIASES = { 'pokemon-center-rebuilding-kit': 'pokemon-center-rebuild-kit' };
 const itemSlug = s => String(s).normalize('NFD').replace(/[̀-ͯ]/g, '')
   .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
@@ -159,7 +161,7 @@ const itemSlug = s => String(s).normalize('NFD').replace(/[̀-ͯ]/g, '')
 function itemRef(key) {
   if (itemById.has(key)) return itemById.get(key);
   const bare = String(key).replace(/\s*\((?:any|lit)\)/gi, '').replace(/\s*[x×]\s*\d+\s*$/i, '').trim();
-  const id = itemSlug(bare);
+  const id = ITEM_ALIASES[itemSlug(bare)] || itemSlug(bare);
   // sources are inconsistent about plurals ("Sea grape" for the item "Sea grapes") and
   // about spacing ("Seaglass Fragments" for "Sea glass fragments")
   return itemById.get(id) || itemById.get(id + 's') || itemById.get(id.replace(/s$/, ''))
@@ -793,6 +795,20 @@ function locationsPage(lang) {
   return layout({ lang, base: BASE, title: t.nav.locations, desc: 'Pokopia locations', path: '/locations/', body });
 }
 
+/* A shop unlock is either the item itself or its recipe — "Iron bed Recipe" unlocks the
+   recipe for the Iron bed. Either way it points at the same item entry, so drop the
+   suffix to resolve it and keep a badge saying which of the two you are getting. */
+function unlockChip(text, lang) {
+  const th = lang === 'th';
+  const recipe = /\s+Recipe$/i.test(text);
+  const it = itemRef(text) || itemRef(text.replace(/\s+Recipe$/i, ''));
+  const pic = it && itemPic(it.img);
+  const inner = `${pic ? `<img src="${pic}" alt="" loading="lazy" width="28" height="28" decoding="async">` : ''}<span>${esc(text.replace(/\s+Recipe$/i, ''))}</span>${recipe ? `<b class="unlock-recipe">${th ? 'สูตร' : 'recipe'}</b>` : ''}`;
+  return it
+    ? `<a class="fav-item" href="${itemHref(lang, it.id)}" title="${esc(it.desc || text)}">${inner}</a>`
+    : `<span class="fav-item" title="${esc(text)}">${inner}</span>`;
+}
+
 function locationPage(l, lang) {
   const t = T[lang];
   const unlocks = envlevel.filter(e => e.area.toLowerCase().replace(/\s+/g, '-') === l.id);
@@ -811,8 +827,11 @@ function locationPage(l, lang) {
     <div class="sec-title"><h2>${lang === 'th' ? 'ของที่ปลดล็อกตาม Environment Level' : 'Shop unlocks by Environment Level'}</h2><span>${unlocks.length}</span></div>
     <div class="table-scroll"><table>
       <thead><tr><th>${lang === 'th' ? 'เลเวล' : 'Level'}</th><th>${lang === 'th' ? 'ปลดล็อก' : 'Unlocks'}</th></tr></thead>
-      <tbody>${Object.keys(byLevel).sort((a, b) => a - b).map(lv => `<tr><td class="num">Lv. ${lv}</td><td>${byLevel[lv].map(x => esc(x)).join(', ')}</td></tr>`).join('')}</tbody>
+      <tbody>${Object.keys(byLevel).sort((a, b) => a - b).map(lv => `<tr><td class="num">Lv. ${lv}</td><td><div class="fav-items">${byLevel[lv].map(x => unlockChip(x, lang)).join('')}</div></td></tr>`).join('')}</tbody>
     </table></div>
+    <p class="note">${lang === 'th'
+      ? 'ยิ่ง Environment Level ของพื้นที่สูงขึ้น ร้านค้าก็จะมีของใหม่ให้ซื้อมากขึ้น ชิ้นที่ติดป้าย “สูตร” คือปลดล็อกสูตรคราฟต์ ไม่ใช่ตัวไอเทม กดที่ชิ้นไหนก็ได้เพื่อเปิดหน้าไอเทมนั้น'
+      : 'Raising an area’s Environment Level puts new stock in its shop. An entry marked “recipe” unlocks the crafting recipe rather than the item; click any of them to open its entry.'}</p>
   </section>` : ''}
 </div>`;
   return layout({ lang, base: BASE, title: L(lang, l.name), desc: L(lang, l.desc).slice(0, 150), path: `/location/${l.id}/`, body });

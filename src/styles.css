@@ -349,6 +349,11 @@ td.num { font-variant-numeric: tabular-nums; color: var(--muted); white-space: n
 .toy-mons .mon-chip img { width: 26px; height: 26px; }
 .toy-mons .mon-chip:hover { background: var(--moss-soft); }
 @media (min-width: 640px) { .toy { grid-template-columns: 72px 1fr; } .toy-pic { width: 72px; height: 72px; } }
+
+/* shop unlocks: a recipe unlock gets a badge, since it is not the item itself */
+.unlock-recipe { padding: 1px 6px; border-radius: 999px; background: var(--clay-soft); color: var(--clay);
+  font-size: .62rem; font-weight: 700; letter-spacing: .02em; }
+td .fav-items { max-width: 760px; }
 @media (min-width: 560px) { .conds { grid-template-columns: 1fr 1fr; } }
 
 /* cooking equipment */
