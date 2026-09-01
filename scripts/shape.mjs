@@ -410,7 +410,40 @@ for (const a of ['general', 'bitter', 'dry', 'sour', 'spicy', 'sweet'])
   for (const r of table(sec('flavors', a).rows, 3)) if (cell(r[1])) flavors.push({ flavor: a === 'general' ? 'none' : a, name: cell(r[1]), desc: cell(r[2]) });
 W('flavors', flavors);
 
-W('humanrecords', table(sec('humanrecords', 'image').rows, 5).map(r => ({ name: cell(r[1]), desc: cell(r[2]), location: cell(r[3]), reward: cell(r[4]) })).filter(x => x.name && x.name !== 'Name'));
+/* ---------- human records ----------
+   Serebii lists all 163 by name, location and reward but leaves every Description blank.
+   Bulbapedia writes out the text of 126 of them and sorts them by the kind of object they
+   are. Merge on the name: Serebii decides the roster, Bulbapedia fills in the contents. */
+{
+  const records = table(sec('humanrecords', 'image').rows, 5)
+    .map(r => ({ name: cell(r[1]), location: cell(r[3]), reward: cell(r[4]) || null }))
+    .filter(x => x.name && x.name !== 'Name');
+  const seen = new Set(records.map(r => slug(r.name)));
+
+  let texts = [];
+  if (fs.existsSync('_research/bulba_records.json')) {
+    const { default: parseRecords } = await import('./records.mjs');
+    texts = parseRecords(j('_research/bulba_records.json').parse.wikitext);
+  }
+  const byName = new Map(texts.map(t => [slug(t.name), t]));
+
+  for (const r of records) {
+    const t = byName.get(slug(r.name));
+    r.id = slug(r.name);
+    r.type = t ? t.type : null;
+    r.content = t ? t.content : '';
+    if (!r.reward && t && t.reward) r.reward = t.reward;
+    if (!r.location && t) r.location = t.location;
+  }
+  // a few records Bulbapedia has and Serebii's list does not
+  for (const t of texts) {
+    if (seen.has(slug(t.name))) continue;
+    records.push({ id: slug(t.name), name: t.name, location: t.location, reward: t.reward, type: t.type, content: t.content });
+  }
+  const withText = records.filter(r => r.content).length;
+  console.log(`   ${withText}/${records.length} human records with their text`);
+  W('humanrecords', records);
+}
 W('highlightreel', table(sec('highlightreel').rows, 5).map(r => ({ name: cell(r[0]), pokemon: cell(r[1]), items: list(r[2]), time: cell(r[3]), reward: cell(r[4]) })).filter(x => x.name && x.name !== 'Name'));
 /* ---------- dream islands ----------
    The doll you set down decides what the island is stocked with. Serebii's own table gives

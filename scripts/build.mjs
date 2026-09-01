@@ -18,6 +18,7 @@ const pokemon = D('pokemon'), habitats = D('habitats'), items = D('items'), reci
   patches = D('patches'), events = D('events'), water = D('water'), cooking = D('cooking'),
   stampcard = D('stampcard'), teamchallenge = D('teamchallenge'), gifts = D('gifts'), favorites = D('favorites'),
   cookware = D('cookware'), outfits = D('outfits'), patterns = D('patterns');
+const THRECORDS = fs.existsSync('data/th/records.json') ? D('th/records') : {};
 const THNAMES = D('th/pokemon-names'), TERMS = D('th/terms'),
   THPATCH = D('th/patches'), THM = D('th/misc');
 
@@ -1166,6 +1167,66 @@ const EXCHANGES = [
   ['rarify', 'Turns Star Pieces into rare Pokémetal.', 'เปลี่ยน Star Piece ให้เป็น Pokémetal หายาก'],
 ];
 
+const RECORD_TYPES_TH = {
+  Newspaper: 'หนังสือพิมพ์', 'Diary entry': 'ไดอารี', Magazine: 'นิตยสาร',
+  Note: 'บันทึกย่อ', Letter: 'จดหมาย', Paper: 'เอกสาร', Photo: 'รูปถ่าย',
+};
+const RECORD_LOC_TH = {
+  'Withered Wasteland': 'Withered Wastelands', 'Bleak Beach': 'Bleak Beach',
+  'Rocky Ridges': 'Rocky Ridges', 'Sparkling Skylands': 'Sparkling Skylands',
+  'Bubbly Basin': 'Bubbly Basin', 'Dream Island': 'เกาะแห่งความฝัน',
+};
+
+/* Human Records are the notes, papers and photographs the evacuated humans left behind —
+   the game's story is mostly told through them. Serebii names all 180 but publishes none
+   of their text; Bulbapedia writes out 126. The Thai readings are hand-written in
+   data/th/records.json, in the game's own light, chatty voice. */
+function recordsPage(lang) {
+  const t = T[lang], th = lang === 'th';
+  const typeLabel = ty => (th && RECORD_TYPES_TH[ty]) || ty || (th ? 'ไม่ทราบชนิด' : 'Unsorted');
+  const locLabel = l => (th && RECORD_LOC_TH[l]) || l;
+  const types = [...new Set(humanrecords.map(r => r.type))].filter(Boolean).concat([null]);
+  const withText = humanrecords.filter(r => r.content).length;
+  const translated = humanrecords.filter(r => THRECORDS[r.id]).length;
+
+  const card = r => {
+    const tr = THRECORDS[r.id];
+    const body = th && tr ? tr.content : r.content;
+    return `<article class="row rec" id="r-${esc(r.id)}" data-cat="${esc(r.type || 'Unsorted')}" data-s="${esc((r.name + ' ' + (tr ? tr.name + ' ' + tr.content : '') + ' ' + r.content + ' ' + r.location).toLowerCase())}">
+    ${rowIcon('book')}
+    <div>
+      <div class="row-name">${esc(th && tr ? tr.name : r.name)}</div>
+      ${th && tr ? `<div class="row-th gloss">${esc(r.name)}</div>` : ''}
+      <div class="row-meta">
+        <span class="tag tag-moss">${esc(typeLabel(r.type))}</span>
+        <span class="tag">${esc(locLabel(r.location))}</span>
+        ${r.reward ? `<span class="tag tag-clay">${th ? 'ได้' : 'Reward'}: ${esc(r.reward)}</span>` : ''}
+      </div>
+      ${body
+        ? `<blockquote class="rec-text">${body.split('\n\n').map(x => `<p>${esc(x)}</p>`).join('')}</blockquote>
+           ${th && !tr ? `<p class="rec-note">${'ยังไม่ได้แปลเป็นไทย — ด้านบนเป็นต้นฉบับภาษาอังกฤษ'}</p>` : ''}`
+        : `<p class="rec-note">${th ? 'ยังไม่มีใครบันทึกเนื้อหาของชิ้นนี้ไว้' : 'Nobody has written this one down yet'}</p>`}
+    </div></article>`;
+  };
+
+  const rows = humanrecords.map(r => ({ html: card(r) }));
+  const body = `${crumb(lang, [[t.nav.records]])}
+<div class="wrap stack"><h1>${esc(t.nav.records)}</h1>
+<p class="lede">${th
+      ? 'บันทึก หนังสือพิมพ์ ไดอารี และรูปถ่ายที่มนุษย์ทิ้งไว้ก่อนอพยพ เรื่องราวเบื้องหลังของเกมเกือบทั้งหมดถูกเล่าผ่านของพวกนี้'
+      : 'The notes, newspapers, diaries and photographs the humans left behind when they evacuated. Almost all of the game’s backstory is told through them.'}</p>
+<p class="note">${th
+      ? `รวบรวมได้ ${humanrecords.length} ชิ้น มีเนื้อหาครบ ${withText} ชิ้น${translated ? ` แปลไทยแล้ว ${translated} ชิ้น` : ''} — Serebii ระบุชื่อและจุดที่พบไว้ครบ แต่เว้นช่องเนื้อหาว่างทุกชิ้น เนื้อหาที่เห็นมาจาก Bulbapedia`
+      : `${humanrecords.length} records, ${withText} of them with their text. Serebii names them all and says where each is found, but leaves every content field blank; the text comes from Bulbapedia.`}</p></div>
+${listPage({ lang, rows, cats: types.map(x => x || 'Unsorted'), catLabel: c => typeLabel(c === 'Unsorted' ? null : c) })}`;
+  return layout({
+    lang, base: BASE, title: t.nav.records, path: '/records/',
+    desc: th ? `บันทึกของมนุษย์ทั้ง ${humanrecords.length} ชิ้นใน Pokémon Pokopia พร้อมจุดที่พบและเนื้อหา`
+      : `All ${humanrecords.length} Human Records in Pokémon Pokopia, with where each is found and what it says.`,
+    body,
+  });
+}
+
 /* ---------------- outfits ----------------
    Ditto has no shop to buy clothes from: it learns a look by reading a magazine, and the
    Location column is where that magazine is. Most of them are lying around a Dream Island,
@@ -1334,7 +1395,9 @@ function collectionsPage(lang) {
         meta: `<span class="tag tag-clay">${esc(r.kind)}</span>`
       })).join('')}</div>`)}
 
-  ${sec('Human Records', humanrecords.length, `<div class="table-scroll"><table>
+  ${sec(lang === 'th' ? 'บันทึกของมนุษย์' : 'Human Records', humanrecords.length, `
+  <p class="note"><a href="${BASE}/${lang}/records/" style="text-decoration:underline">${lang === 'th' ? 'อ่านเนื้อหาของแต่ละชิ้นได้ที่หน้าบันทึกของมนุษย์' : 'Read what each one says on the Human Records page'}</a></p>
+  <div class="table-scroll"><table>
     <thead><tr><th>${lang === 'th' ? 'ชื่อ' : 'Record'}</th><th>${lang === 'th' ? 'พบที่' : 'Location'}</th><th>${lang === 'th' ? 'รางวัล' : 'Reward'}</th></tr></thead>
     <tbody>${humanrecords.map(h => `<tr><td>${esc(h.name)}</td><td>${esc(h.location)}</td><td>${esc(h.reward) || '—'}</td></tr>`).join('')}</tbody></table></div>`)}
 
@@ -1567,6 +1630,7 @@ for (const lang of LANGS) {
   write(`${lang}/gifts`, giftsPage(lang));
   write(`${lang}/dream-islands`, dreamIslandsPage(lang));
   write(`${lang}/outfits`, outfitsPage(lang));
+  write(`${lang}/records`, recordsPage(lang));
   write(`${lang}/collections`, collectionsPage(lang));
   write(`${lang}/events`, eventsPage(lang));
   write(`${lang}/updates`, updatesPage(lang));
