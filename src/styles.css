@@ -144,10 +144,16 @@ p:last-child { margin-bottom: 0; }
 .lang-switch a { display: grid; place-items: center; padding: 0 13px; font-size: .78rem; font-weight: 600; letter-spacing: .04em; color: var(--muted); }
 .lang-switch a[aria-current] { background: var(--moss); color: var(--surface); }
 
+/* Header pieces that move between the bar and the drawer. .wide-only sets display:flex
+   when shown, which is right for .lang-switch and .panel-tools but silently overrode
+   .icon-btn's `display: grid; place-items: center` on the theme button — under flex,
+   justify-items does nothing and the 19px icon packed into the top-left of its 44px
+   circle. The button keeps its grid when shown. */
 .wide-only { display: none; }
 .narrow-only { display: flex; }
 @media (min-width: 560px) {
   .wide-only { display: flex; }
+  .icon-btn.wide-only { display: grid; }
   .narrow-only { display: none; }
 }
 .panel-tools { gap: 8px; align-items: center; padding: 4px 0 12px; border-bottom: 1px solid var(--line); margin-bottom: 6px; }
