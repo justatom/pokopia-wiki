@@ -17916,24 +17916,6 @@
   ]
  },
  {
-  "id": "c",
-  "name": "C",
-  "cat": "Other",
-  "img": "c.png",
-  "sources": [
-   "Bubbly Basin",
-   "Expansion Pass only"
-  ],
-  "materials": [
-   {
-    "item": "",
-    "name": "*",
-    "qty": 1,
-    "img": null
-   }
-  ]
- },
- {
   "id": "fanned-out-ditto-print-wallpaper",
   "name": "Fanned-out Ditto print (wallpaper)",
   "cat": "Other",

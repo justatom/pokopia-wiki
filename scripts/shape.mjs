@@ -370,8 +370,15 @@ for (const s of secs('crafting')) {
       const nm = MAT_FIX[(m ? m[1] : t).trim()] || (m ? m[1] : t);
       return { item: slug(nm), name: nm, qty: m ? +m[2] : 1 };
     });
+    if (!mats.some(m => m.item)) continue;   // Serebii has one placeholder row: "C", material "*"
     recipes.push({ id: slug(name), name, cat, img: icon(name), sources: list(r[2]), materials: mats.map(m => ({ ...m, img: icon(m.name) })) });
   }
+}
+{
+  const ids = new Set(items.map(i => i.id));
+  const mats = recipes.flatMap(r => r.materials);
+  const lost = [...new Set(mats.filter(m => !ids.has(m.item)).map(m => m.name))];
+  console.log(`   ${recipes.length} recipes, ${mats.length} material entries` + (lost.length ? `, no item for: ${lost.join(', ')}` : ''));
 }
 W('recipes', recipes);
 

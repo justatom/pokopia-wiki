@@ -415,6 +415,9 @@ td .fav-items { gap: 4px; }
 .kit-live-gap { background: var(--clay-soft); color: var(--clay); font-weight: 500; }
 .kit-shape { margin-top: 5px; }
 .kit-shape span + span::before { content: '·'; margin-right: 6px; color: var(--line); }
+
+/* how a crafting recipe is unlocked, under the material list on an item row */
+.recipe-src { margin-top: 5px; font-style: italic; }
 .kit .fav-item b { color: var(--clay); font-variant-numeric: tabular-nums; }
 .kit .fav-item img { width: 30px; height: 30px; }
 

@@ -24,7 +24,7 @@ Static site, **zero runtime dependencies**, mobile-first. Node 20+ is the only r
 | — needing the Expansion Pass | 233 |
 | Item ↔ favourite-category links, across all 43 categories | 2,356 |
 | Pokémon ↔ favourite-category links | 1,817 |
-| Crafting recipes with material costs | 884 |
+| Crafting recipes — materials, quantities and how the recipe unlocks, shown on the item's own row | 883 |
 | Building kits — 55 with materials, helpers and build time; 50 with a residency, footprint and floors | 56 |
 | Shop unlocks by Environment Level, 520 linked to their item | 524 |
 | Toys, each with its categories and every Pokémon that likes it | 140 |
@@ -51,8 +51,12 @@ together, and they are worth knowing before changing anything.
 Items have no page of their own — each is a row on its category page carrying an `id`, so
 every reference anywhere links straight to it and `:target` highlights the row on arrival.
 That covers recipe materials, habitat build requirements, favourite lists, gift drops,
-cooking ingredients, building-kit costs, toy entries and shop unlocks: **215,234 links**,
+cooking ingredients, building-kit costs, toy entries and shop unlocks: **217,896 links**,
 every one verified to resolve against the built HTML.
+
+The 883 recipes are keyed by the same id as the item they make, so an item's own row
+carries what it costs — every material with its picture, quantity and a link to its own
+row — plus how the recipe is unlocked, and there is no need to cross to `/recipes/`.
 
 References resolve loosely, because the sources are not consistent with themselves —
 `"Tall Grass x 4"`, `"Hedge (any) x 4"`, `"Sea grape"` for the item *Sea grapes*, and
@@ -110,6 +114,11 @@ recurring ones:
   habitats work in all five original areas, and only 38 reach Bubbly Basin. The sharper
   filters on that page are the 10 habitats gated to a time of day and the 5 gated to
   weather.
+- **Recipes**: 882 items carry theirs. Eight more are flagged craftable while Serebii files
+  the recipe under a slightly different name — *Rattan rug* against *Ratan rug*, *Big
+  treasure box* against *Big treasure chest*. Pairing them would be a guess, so those rows
+  say the recipe is missing rather than showing another item's. One material, mangled to
+  `Pok&eacute` upstream inside the Decorative Poké Ball recipe, has no readable name at all.
 - **Pictures**: 9 items and 4 shop unlocks have no image or entry upstream and fall back to
   a line icon or plain text.
 

@@ -212,6 +212,7 @@ const itemLikedAs = (i, lang) => (i.likedAs || []).length
 
 /** the same facts as words, so the filter box can find them */
 const itemSearchText = (i, lang) => [
+  ...((recipeById.get(i.id) || { materials: [] }).materials.map(m => m.name)),
   ...(i.likedAs || []).flatMap(c => [c, thFav(c, 'th')]),
   i.paint ? (lang === 'th' ? 'ทาสีได้ paintable' : 'paintable') : '',
   i.pattern ? (lang === 'th' ? 'ใส่ลายได้ pattern' : 'pattern') : '',
@@ -222,7 +223,42 @@ const itemSearchText = (i, lang) => [
 ].filter(Boolean).join(' ');
 
 const cellPic = img => { const u = itemPic(img); return u ? `<img class="cell-ico" src="${u}" alt="" loading="lazy" width="32" height="32" decoding="async">` : ''; };
-const matPic = m => { const u = itemPic(m.img); return u ? `<img class="mat-ico" src="${u}" alt="" loading="lazy" width="18" height="18" decoding="async">` : ''; };
+const matPic = m => { const u = itemPic(m.img); return u ? `<img class="mat-ico" src="${u}" alt="" loading="lazy" width="24" height="24" decoding="async">` : ''; };
+
+/* 882 of the items can be crafted, and recipes.json keys its recipe by the same id, so an
+   item's own row can carry what it costs instead of sending the reader to /recipes/. */
+const recipeById = new Map(recipes.map(r => [r.id, r]));
+
+/** one material: picture, name, quantity, linked to that material's own row */
+function recipeMaterial(m, lang) {
+  const it = itemById.get(m.item) || itemRef(m.name);
+  const pic = itemPic(m.img) || (it ? itemPic(it.img) : null);
+  // items keep their English name as the primary label everywhere on the site
+  const inner = `${pic ? `<img src="${pic}" alt="" loading="lazy" width="34" height="34" decoding="async">` : ''}<span>${esc(m.name)}</span> <b>×${m.qty}</b>`;
+  return it
+    ? `<a class="fav-item" href="${itemHref(lang, it.id)}" title="${esc(it.desc || m.name)}">${inner}</a>`
+    : `<span class="fav-item">${inner}</span>`;
+}
+
+/** what an item costs to craft, and how the recipe is unlocked */
+function itemRecipe(i, lang) {
+  const th = lang === 'th';
+  const r = recipeById.get(i.id);
+  /* Eight items are flagged craftable while Serebii files their recipe under a slightly
+     different name — "Rattan rug" against "Ratan rug", "Big treasure box" against "Big
+     treasure chest". Pairing them up would be a guess, so the row says the recipe is
+     missing rather than showing another item's. */
+  if (!r || !r.materials.length) return i.craftable
+    ? `<div class="row-meta recipe-src"><span>${th ? 'คราฟต์ได้ แต่ Serebii ยังไม่ได้ลงสูตรไว้ใต้ชื่อนี้' : 'Craftable, but Serebii files no recipe under this name'}</span></div>`
+    : '';
+  /* the item's own "sources" say where to get the finished thing; the recipe's say how you
+     come to know it, which is a different question and only shown when it differs */
+  const unlock = r.sources.filter(x => !(i.sources || []).includes(x));
+  return `<div class="kit-line">
+    <span class="kit-label">${th ? 'ใช้คราฟต์' : 'Crafted from'}</span>
+    <div class="fav-items">${r.materials.map(m => recipeMaterial(m, lang)).join('')}</div></div>` +
+    (unlock.length ? `<div class="row-meta recipe-src"><span>${th ? 'ปลดล็อกสูตร' : 'Recipe unlocked by'}: ${esc(unlock.join(' · '))}</span></div>` : '');
+}
 const rowIcon = (kind, pic) => pic
   ? `<img class="row-ico row-pic" src="${pic}" alt="" loading="lazy" width="72" height="72" decoding="async">`
   : `<div class="row-ico">${icon(kind)}</div>`;
@@ -663,7 +699,7 @@ function itemsCatPage(cat, lang) {
   const rows = list.map(i => ({
     html: dataRow({
       name: i.name, gloss: G(i.name), desc: itemDesc(i, lang), cat: i.tags[0] || '', kind: 'box', pic: itemImage(i), id: `i-${i.id}`, find: itemSearchText(i, lang), lang,
-      mats: itemLikedAs(i, lang),
+      mats: itemRecipe(i, lang) + itemLikedAs(i, lang),
       meta: i.tags.map(x => `<span class="tag tag-clay">${esc(x)}</span>`).join('') + itemFacts(i, lang) +
         (i.sources.length ? `<span>${esc(i.sources.slice(0, 3).join(' · '))}${i.sources.length > 3 ? ' …' : ''}</span>` : ''),
     })
