@@ -282,8 +282,14 @@ td.num { font-variant-numeric: tabular-nums; color: var(--muted); white-space: n
 /* Grid view. The rows are the same markup either way — only the container changes — so
    the toggle costs no extra HTML and keeps every id, filter and :target working. */
 .rows.as-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 12px; }
-.rows.as-grid > .row, .rows.as-grid > .row-wide { align-content: start; }
-.rows.as-grid > .row-wide { grid-template-columns: 1fr; }
+.rows.as-grid > .row, .rows.as-grid > .row-wide { grid-template-columns: 1fr; align-content: start; }
+
+/* In grid view the picture leads: a square about 80% of the card, centred above the text,
+   rather than a thumbnail in a left-hand column. The icons are 250-500px sources, so there
+   is resolution for it. */
+.rows.as-grid .row-ico { width: 80%; height: auto; aspect-ratio: 1; justify-self: center; }
+.rows.as-grid .row-pic { padding: 7%; }
+.rows.as-grid .row-ico svg { width: 26%; height: 26%; }
 .rows.as-grid .hab-pic { width: 100%; height: auto; aspect-ratio: 10 / 7; }
 
 .count-row { display: flex; align-items: center; gap: 12px; }
