@@ -261,11 +261,17 @@ td.num { font-variant-numeric: tabular-nums; color: var(--muted); white-space: n
 /* list rows (items, recipes) */
 .rows { display: grid; gap: 8px; }
 .row {
-  display: grid; grid-template-columns: var(--ico) 1fr; gap: 12px; align-items: start;
+  display: grid; grid-template-columns: var(--ico) 1fr; gap: 14px; align-items: start;
   background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 12px 14px;
 }
-.row-ico { width: var(--ico); height: var(--ico); border-radius: 12px; display: grid; place-items: center; background: var(--paper-2); }
-.row-ico svg { width: 26px; height: 26px; }
+/* A row with a real picture gives it a fifth of the width; one that only has a line icon
+   keeps the compact column, or it would be a big empty tile with a small glyph in it.
+   Browsers without :has() fall back to the compact column, which is what it was before. */
+.row:has(.row-pic) { grid-template-columns: minmax(var(--ico), 20%) 1fr; }
+
+/* the tile fills its column, so it is a fifth of the row and stays square */
+.row-ico { width: 100%; height: auto; aspect-ratio: 1; border-radius: 12px; display: grid; place-items: center; background: var(--paper-2); }
+.row-ico svg { width: 30%; height: 30%; min-width: 22px; max-width: 52px; }
 .row-name { font-weight: 600; font-size: .95rem; line-height: 1.4; }
 .row-th { font-size: .82rem; color: var(--moss); }
 .row-desc { font-size: 1rem; color: var(--ink-2); margin-top: 3px; }
@@ -303,7 +309,7 @@ td.num { font-variant-numeric: tabular-nums; color: var(--muted); white-space: n
 .mat b { color: var(--clay); font-variant-numeric: tabular-nums; }
 
 /* item icons and habitat pictures (downloaded by scripts/sprites.mjs) */
-.row-pic { object-fit: contain; padding: 4px; background: var(--paper-2); }
+.row-pic { object-fit: contain; padding: 6%; background: var(--paper-2); }
 .mat { display: inline-flex; align-items: center; gap: 5px; }
 .mat-ico { width: 24px; height: 24px; object-fit: contain; flex: none; }
 .cell-item { display: flex; align-items: flex-start; gap: 9px; }
@@ -500,11 +506,10 @@ td .fav-items { gap: 4px; }
 .mat a.item-link, .row-name a { color: inherit; }
 .row-name a:hover { color: var(--moss); }
 a.fav-item:hover { background: var(--moss-soft); color: var(--moss); }
-.row-wide { grid-template-columns: 96px 1fr; }
-.hab-pic { width: 96px; height: 68px; object-fit: cover; border-radius: 10px; background: var(--paper-2); }
+.row-wide { grid-template-columns: minmax(96px, 20%) 1fr; }
+.hab-pic { width: 100%; height: auto; aspect-ratio: 10 / 7; object-fit: cover; border-radius: 10px; background: var(--paper-2); }
 @media (min-width: 640px) {
-  .row-wide { grid-template-columns: 150px 1fr; }
-  .hab-pic { width: 150px; height: 105px; }
+  .row-wide { grid-template-columns: minmax(150px, 20%) 1fr; }
 }
 
 /* toolbar */
