@@ -999,7 +999,7 @@ function locationPage(l, lang) {
   ${here && here.exclusive.length ? `
   <section>
     <div class="sec-title"><h2>${th ? 'โปเกมอนที่เจอได้เฉพาะที่นี่' : 'Pokémon you only find here'}</h2><span>${here.exclusive.length}</span></div>
-    <div class="fav-items">${here.exclusive.map(m => m.id ? monChip(m.id, m.name, lang) : `<span class="fav-item">${esc(m.name)}</span>`).join('')}</div>
+    <div class="mon-tiles">${here.exclusive.map(m => monTile(m.id, m.name, lang)).join('')}</div>
     <p class="note">${th
       ? `โปเกมอนส่วนใหญ่ย้ายเข้ามาได้ทุกพื้นที่ ขอแค่สร้างที่อยู่อาศัยที่มันชอบให้ รายชื่อนี้คือส่วนน้อยที่ผูกกับพื้นที่นี้จริง ๆ ${here.exclusiveFrom === 'serebii' ? 'ตามที่ Serebii ระบุไว้' : 'คำนวณจากถิ่นที่อยู่ของโปเกมอนแต่ละตัวในหน้าที่อยู่อาศัยของ Serebii'}`
       : `Most Pokémon will move into any area once you build the habitat they like. These are the few genuinely tied to this one, ${here.exclusiveFrom === 'serebii' ? 'as Serebii lists them.' : 'worked out from the areas each Pokémon lives in on Serebii’s habitat pages.'}`}</p>
@@ -1301,6 +1301,16 @@ const itemImg = new Map(items.map(i => [i.name.toLowerCase(), i.img]));
 const giftPic = name => cellPic(itemImg.get(String(name).toLowerCase()));
 
 /** a Pokémon chip: sprite + name, linking to its page */
+/** a Pokemon as a picture tile — for the few places a list is short enough to show large.
+    monChip's 34px sprite is right inside a table cell and too small to read on its own. */
+function monTile(id, fallbackName, lang) {
+  const p = monById.get(id);
+  if (!p) return `<span class="mon-tile">${esc(fallbackName)}</span>`;
+  return `<a class="mon-tile" href="${monUrl(lang, p)}" title="${esc(monTitle(p, lang))}">
+    <img src="${art(p)}" alt="" loading="lazy" width="88" height="88" decoding="async">
+    <span>${esc(monTitle(p, lang))}</span></a>`;
+}
+
 function monChip(id, fallbackName, lang) {
   const p = monById.get(id);
   if (!p) return `<span>${esc(fallbackName)}</span>`;

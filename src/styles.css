@@ -292,6 +292,15 @@ td.num { font-variant-numeric: tabular-nums; color: var(--muted); white-space: n
 .mon-chip img { width: 34px; height: 34px; object-fit: contain; flex: none; }
 .mon-chip:hover { color: var(--moss); }
 
+/* Pokemon shown large enough to recognise, for lists short enough to afford it. Uses the
+   official artwork rather than the 96px sprite, which would blur at this size. */
+.mon-tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(108px, 1fr)); gap: 10px; margin-top: 4px; }
+.mon-tile { display: grid; justify-items: center; gap: 5px; padding: 10px 6px;
+  border: 1px solid var(--line); border-radius: var(--r-sm); background: var(--surface); }
+.mon-tile img { width: 88px; height: 88px; object-fit: contain; }
+.mon-tile span { font-size: .86rem; font-weight: 600; line-height: 1.3; text-align: center; overflow-wrap: anywhere; }
+.mon-tile:hover { border-color: var(--moss); background: var(--moss-soft); color: var(--moss); }
+
 /* favourites block on a Pokémon page */
 .likes { display: grid; gap: 14px; margin-top: 12px; }
 .like-head { display: flex; align-items: baseline; gap: 8px; margin-bottom: 7px; }
