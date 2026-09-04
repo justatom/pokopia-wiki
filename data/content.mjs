@@ -101,10 +101,10 @@ export const CHARACTERS = [
   {
     id: 'chef-dente', natdex: 820, specialty: 'party',
     name: t('Chef Dente', 'เชฟเดนเต้'),
-    role: t('Cook Greedent · Rocky Ridges · Pokédex #192', 'กรีเดนต์พ่อครัว · Rocky Ridges · โปเกเด็กซ์ #192'),
+    role: t('Cook Greedent · Rocky Ridges · Pokédex #192', 'กรีเดนต์แม่ครัว · Rocky Ridges · โปเกเด็กซ์ #192'),
     desc: t(
-      `You first meet Chef Dente stuck inside a barrel in Rocky Ridges. Free it and it teaches you to cook, which is how you power up Leafage, Cut, Rock Smash, Water Gun and Surf. Cooking with Chef Dente as your partner often yields a second copy of the dish for free, and its Party specialty is what makes big celebrations possible.`,
-      `คุณจะเจอเชฟเดนเต้ครั้งแรกตอนที่มันติดอยู่ในถังไม้ที่ Rocky Ridges ช่วยมันออกมาแล้วมันจะสอนคุณทำอาหาร ซึ่งเป็นวิธีอัปเกรดท่า Leafage, Cut, Rock Smash, Water Gun และ Surf ถ้าทำอาหารโดยมีเชฟเดนเต้เป็นคู่หู บ่อยครั้งจะได้จานที่มันทำแถมมาอีกจานฟรี ๆ และความถนัด Party ของมันคือสิ่งที่ทำให้จัดงานฉลองใหญ่ ๆ ได้`
+      `You first meet Chef Dente stuck inside a barrel in Rocky Ridges. Free her and she teaches you to cook, which is how you power up Leafage, Cut, Rock Smash, Water Gun and Surf. Cooking with Chef Dente as your partner often yields a second copy of the dish for free, and her Party specialty is what makes big celebrations possible.`,
+      `คุณจะเจอเชฟเดนเต้ครั้งแรกตอนที่เธอติดอยู่ในถังไม้ที่ Rocky Ridges ช่วยเธอออกมาแล้วเธอจะสอนคุณทำอาหาร ซึ่งเป็นวิธีอัปเกรดท่า Leafage, Cut, Rock Smash, Water Gun และ Surf ถ้าทำอาหารโดยมีเชฟเดนเต้เป็นคู่หู บ่อยครั้งจะได้จานที่เธอทำแถมมาอีกจานฟรี ๆ และความถนัด Party ของเธอคือสิ่งที่ทำให้จัดงานฉลองใหญ่ ๆ ได้`
     ),
   },
   {

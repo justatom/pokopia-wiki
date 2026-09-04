@@ -484,6 +484,16 @@ a.fav-item:hover { background: var(--moss-soft); color: var(--moss); }
 @media (min-width: 720px) { .mon-head { grid-template-columns: 260px 1fr; gap: 30px; } }
 .mon-art { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-lg); padding: 18px; display: grid; place-items: center; }
 .mon-art img { width: 100%; max-width: 230px; }
+
+/* the story cast — one card each, artwork big enough to actually read the design */
+.cast { display: grid; grid-template-columns: 116px 1fr; gap: 18px; align-items: start; }
+.cast-pic { width: 116px; height: 116px; object-fit: contain; flex: none;
+  border-radius: var(--r); background: var(--paper-2); padding: 6px; }
+.cast h2 { font-size: 1.25rem; }
+.cast-role { font-size: .84rem; color: var(--muted); margin: 3px 0 12px; }
+.cast-desc { margin: 0; color: var(--ink-2); }
+@media (min-width: 560px) { .cast { grid-template-columns: 168px 1fr; gap: 24px; } .cast-pic { width: 168px; height: 168px; } }
+@media (min-width: 900px) { .cast { grid-template-columns: 208px 1fr; gap: 28px; } .cast-pic { width: 208px; height: 208px; padding: 10px; } }
 .kv { display: grid; grid-template-columns: minmax(88px, auto) 1fr; gap: 6px 16px; font-size: .92rem; }
 .kv dt { color: var(--muted); font-size: .82rem; }
 .kv dd { margin: 0; }

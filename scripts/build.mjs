@@ -873,14 +873,12 @@ function charactersPage(lang) {
       ? 'Pokopia ไม่มีตัวละครมนุษย์เลย — "นักแสดง" ทั้งหมดคือโปเกมอนร่างพิเศษเจ็ดตัวที่มีความถนัดเฉพาะตัวซึ่งหาจากตัวอื่นไม่ได้ บวกกับตัวคุณเอง'
       : 'Pokopia has no human cast. The story is carried by seven unique Pokémon with specialties no ordinary Pokémon has — plus you.'}</p>
   ${CHARACTERS.map(c => `
-  <article class="card" id="${c.id}">
-    <div class="mon-head" style="grid-template-columns:96px 1fr;gap:18px;align-items:start">
-      <img src="${art({ natdex: c.natdex })}" alt="" width="96" height="96" loading="lazy" style="border-radius:12px;background:var(--paper-2)">
-      <div>
-        <h2 style="font-size:1.2rem">${esc(L(lang, c.name))}</h2>
-        <p style="font-size:.82rem;color:var(--muted);margin:2px 0 10px">${esc(L(lang, c.role))}</p>
-        <p style="margin:0;color:var(--ink-2)">${esc(L(lang, c.desc))}</p>
-      </div>
+  <article class="card cast" id="${c.id}">
+    <img class="cast-pic" src="${art({ natdex: c.natdex })}" alt="${esc(L(lang, c.name))}" width="208" height="208" loading="lazy" decoding="async">
+    <div>
+      <h2>${esc(L(lang, c.name))}</h2>
+      <p class="cast-role">${esc(L(lang, c.role))}</p>
+      <p class="cast-desc">${esc(L(lang, c.desc))}</p>
     </div>
   </article>`).join('')}
 </div>`;
