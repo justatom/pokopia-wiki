@@ -27,6 +27,8 @@ Static site, **zero runtime dependencies**, mobile-first. Node 20+ is the only r
 | Crafting recipes — materials, quantities and how the recipe unlocks, shown on the item's own row | 883 |
 | Building kits — 55 with materials, helpers and build time; 50 with a residency, footprint and floors | 56 |
 | Shop unlocks by Environment Level, 520 linked to their item | 524 |
+| Area finds — terrain, respawning materials, loose items, Poké Balls, treasure, fishing | 1,562 |
+| Story events (Important Requests), each placed in its area and translated to Thai | 6 |
 | Toys, each with its categories and every Pokémon that likes it | 140 |
 | Furniture pieces | 140 |
 | Paint patterns, with where each is found and what it costs | 116 |
@@ -119,6 +121,11 @@ recurring ones:
   treasure box* against *Big treasure chest*. Pairing them would be a guess, so those rows
   say the recipe is missing rather than showing another item's. One material, mangled to
   `Pok&eacute` upstream inside the Decorative Poké Ball recipe, has no readable name at all.
+- **Area finds**: 1,560 of the 1,562 link to the item they name. The two that do not,
+  *Copper deposit* and *Farm soil*, name a family with one entry per area rather than a
+  single item, so they are left as plain text instead of pointing at the wrong area's.
+- **Story events**: Serebii documents six Important Requests. Palette Town has none, which
+  its page says rather than leaving the section out silently.
 - **Pictures**: 9 items and 4 shop unlocks have no image or entry upstream and fall back to
   a line icon or plain text.
 
@@ -137,6 +144,8 @@ The game has no official Thai localisation, so:
   492 items share their description with another item (every leaf kit opens the same way,
   every flower seed reads alike), so a translation is written once and reaches the rest
   through the English text. Anything left untranslated falls back to the original.
+- **Story events** — all six Important Requests, paragraph for paragraph, in
+  `data/th/requests.json`.
 - **Human Records** are translated in full — all 126, 37,304 characters, written in the
   game's warm, chatty register rather than word for word, so a seasick sailor's diary still
   trails off mid-sentence and a Team R grunt still sounds like one. See
@@ -189,6 +198,9 @@ scripts/
   buildkits.mjs     parses Bulbapedia's building-kit requirements
   records.mjs       parses Bulbapedia's Human Records
   habitatdex.mjs    parses the Dexerto habitat dex
+  locations.mjs     parses each area page: what grows, what lies about, what you dig up
+  habitatpages.mjs  per-habitat areas, rarity, time and weather, from Serebii
+  buildpages.mjs    per-kit residency, footprint and floors, from Serebii
 src/
   styles.css        design system (light + dark, mobile-first)
   app.js            search, list filtering, nav drawer, theme toggle

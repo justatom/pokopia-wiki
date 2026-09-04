@@ -240,7 +240,7 @@ a.card:hover { transform: translateY(-2px); box-shadow: var(--shadow); border-co
 
 /* Scrollbars inside the page were invisible on desktop, so a table that ran off the edge
    looked like it simply ended. Give every scrollable area a thin, always-visible one. */
-.table-scroll, .chips-open, .search-results, .island-finds, .spec-mons, .fav-scroll { scrollbar-width: thin; scrollbar-color: var(--line-2) transparent; }
+.table-scroll, .chips-open, .search-results, .island-finds, .finds, .spec-mons, .fav-scroll { scrollbar-width: thin; scrollbar-color: var(--line-2) transparent; }
 .table-scroll::-webkit-scrollbar, .chips-open::-webkit-scrollbar,
 .search-results::-webkit-scrollbar, .spec-mons::-webkit-scrollbar,
 .fav-scroll::-webkit-scrollbar { height: 10px; width: 10px; }
@@ -379,10 +379,13 @@ td .fav-items { gap: 4px; }
 .island-head h3 { margin: 0; font-size: 1rem; }
 .island-doll { width: 56px; height: 56px; object-fit: contain; flex: none; border-radius: 12px; background: var(--paper-2); }
 .island-sub { margin: 3px 0 0; font-size: .82rem; color: var(--muted); display: flex; align-items: center; gap: 5px; flex-wrap: wrap; }
-.island-finds { margin-top: 10px; border-top: 1px solid var(--line); padding-top: 10px; }
-.island-finds summary { cursor: pointer; font-size: .85rem; font-weight: 600; color: var(--ink-2); }
-.island-finds summary b { color: var(--clay); font-variant-numeric: tabular-nums; }
-.island-finds .fav-items { margin-top: 10px; }
+.island-finds, .finds { margin-top: 10px; border-top: 1px solid var(--line); padding-top: 10px; }
+.island-finds summary, .finds summary { cursor: pointer; font-size: .95rem; font-weight: 600; color: var(--ink-2); }
+.island-finds summary b, .finds summary b { color: var(--clay); font-variant-numeric: tabular-nums; }
+.island-finds .fav-items, .finds .fav-items { margin-top: 10px; }
+/* a whole area's terrain can run to 200 chips, so the long groups scroll in place */
+.finds .fav-items { max-height: 340px; overflow-y: auto; align-content: start; padding-right: 4px; }
+.finds-note { margin: 6px 0 0; font-size: .85rem; color: var(--muted); }
 @media (min-width: 700px) { .islands { grid-template-columns: 1fr 1fr; } }
 
 /* outfits */

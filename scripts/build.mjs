@@ -17,8 +17,13 @@ const pokemon = D('pokemon'), habitats = D('habitats'), items = D('items'), reci
   dreamislands = D('dreamislands'), cloudislands = D('cloudislands'), envlevel = D('envlevel'),
   patches = D('patches'), events = D('events'), water = D('water'), cooking = D('cooking'),
   stampcard = D('stampcard'), teamchallenge = D('teamchallenge'), gifts = D('gifts'), favorites = D('favorites'),
-  cookware = D('cookware'), outfits = D('outfits'), patterns = D('patterns'), toys = D('toys');
+  cookware = D('cookware'), outfits = D('outfits'), patterns = D('patterns'), toys = D('toys'),
+  locations = D('locations');
 const THRECORDS = fs.existsSync('data/th/records.json') ? D('th/records') : {};
+/* Serebii writes the Important Requests in English; data/th/requests.json carries the Thai
+   paragraph for paragraph, keyed by request id. */
+const THREQUESTS = fs.existsSync('data/th/requests.json') ? D('th/requests') : {};
+const requestParas = (r, lang) => (lang === 'th' && THREQUESTS[r.id]) || r.paras;
 
 /* Thai item descriptions, keyed by item id. 492 of the 1,776 descriptions are shared by
    more than one item — every flower seed colour reads the same — so a translation is
@@ -165,8 +170,17 @@ function listPage({ lang, rows, cats, catLabel }) {
    requirement, a favourite, a gift) can link straight to it; :target highlights it. */
 const itemById = new Map(items.map(i => [i.id, i]));
 const itemSquashed = new Map(items.map(i => [i.id.replace(/-/g, ''), i]));
-/* Serebii's Environment Level page names one kit differently from its own item list */
-const ITEM_ALIASES = { 'pokemon-center-rebuilding-kit': 'pokemon-center-rebuild-kit' };
+/* Names Serebii writes one way in a list and another way on the item itself. The area
+   pages account for most of them; "Copper deposit" and "Farm soil" are deliberately absent
+   because each names a family with one entry per area, not a single item. */
+const ITEM_ALIASES = {
+  'pokemon-center-rebuilding-kit': 'pokemon-center-rebuild-kit',
+  'sloped-tile-roof': 'sloped-tiled-roof',
+  'pecha-tree-seeds': 'pecha-seeds',
+  'pecha-tree-seed': 'pecha-seeds',
+  'public-chair': 'public-seat',
+  'altar-of-the-flame-kit': 'altar-of-flame-kit',
+};
 const itemSlug = s => String(s).normalize('NFD').replace(/[̀-ͯ]/g, '')
   .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
@@ -918,8 +932,26 @@ function unlockChip(text, lang) {
     : `<span class="fav-item" title="${esc(text)}">${inner}</span>`;
 }
 
+/* Serebii's headings for what an area holds, in its own order, with a line saying what the
+   group actually is — "Items Found in Area" alone does not tell you they are one-offs. */
+const FIND_GROUPS = {
+  materials: { th: 'วัสดุที่เกิดใหม่เรื่อย ๆ', en: 'Naturally occurring materials',
+    thNote: 'เก็บแล้วขึ้นใหม่ ไม่มีวันหมด', enNote: 'these respawn, so they never run out' },
+  blocks: { th: 'พื้นผิว ต้นไม้ และบล็อกในพื้นที่', en: 'Terrain, plants and blocks',
+    thNote: 'พื้นดิน หิน หญ้า และต้นไม้ที่ประกอบกันเป็นพื้นที่นี้ ขุดหรือตัดเอาไปใช้ได้', enNote: 'the ground, rock, grass and trees the area is built from — dig or cut them up and take them' },
+  lying: { th: 'ไอเทมที่วางอยู่ในพื้นที่', en: 'Items lying around the area',
+    thNote: 'วางอยู่กับที่ เก็บได้ครั้งเดียว', enNote: 'placed objects, picked up once' },
+  pokeballs: { th: 'ของในโปเกบอลที่ตกอยู่', en: 'What the Poké Balls hold',
+    thNote: 'โปเกบอลที่กระจายอยู่ทั่วพื้นที่ เปิดแล้วได้ของพวกนี้', enNote: 'the Poké Balls scattered about the area open on these' },
+  treasure: { th: 'สมบัติที่ขุดได้', en: 'Treasure you can dig up',
+    thNote: 'ได้จากการขุดตามแผนที่สมบัติ', enNote: 'what a treasure map digs up here' },
+  water: { th: 'ของที่ได้จากจุดตกปลา', en: 'From the fishing spots',
+    thNote: 'จุดน้ำวิบวับ — ที่อ่าวน้ำใสเรียกว่าน้ำวน', enNote: 'Sparkling Ripples, which Bubbly Basin calls Whirlpools' },
+};
+
 function locationPage(l, lang) {
-  const t = T[lang];
+  const t = T[lang], th = lang === 'th';
+  const here = locations.find(x => x.id === l.id);
   const unlocks = envlevel.filter(e => e.area.toLowerCase().replace(/\s+/g, '-') === l.id);
   const byLevel = {};
   unlocks.forEach(u => (byLevel[u.level] ||= []).push(u.item));
@@ -931,6 +963,45 @@ function locationPage(l, lang) {
     <p class="lede" style="margin-top:6px">${esc(L(lang, l.based))}</p>
   </div>
   <div class="prose"><p>${esc(L(lang, l.desc))}</p></div>
+
+  ${here && !here.requests.length ? `
+  <p class="note note-clay">${th
+      ? 'พื้นที่นี้ไม่มี Important Request ที่ Serebii บันทึกไว้ — เป็นช่องว่างของแหล่งข้อมูล ไม่ใช่ว่าเราไม่ได้ใส่'
+      : 'Serebii documents no Important Request for this area — that is a gap in the source, not an omission here.'}</p>` : ''}
+
+  ${here && here.requests.length ? `
+  <section>
+    <div class="sec-title"><h2>${th ? 'เหตุการณ์เนื้อเรื่องของพื้นที่นี้' : 'Story events here'}</h2><span>${here.requests.length}</span></div>
+    <div class="rows">${here.requests.map(r => `<div class="row">
+      ${rowIcon('star')}
+      <div><div class="row-name">${esc(r.name)}</div>
+      ${requestParas(r, lang).map(x => `<div class="row-desc">${esc(x)}</div>`).join('')}</div></div>`).join('')}</div>
+    <p class="note">${th
+      ? 'Important Request คือเควสต์เนื้อเรื่องที่ทำร่วมกับศาสตราจารย์โมจัมโบและโปเกมอนในพื้นที่ ทำสำเร็จแล้ว Environment Level ของพื้นที่และ Trainer Rank จะขึ้น'
+      : 'Important Requests are the story quests you work through with Professor Tangrowth and the area’s Pokémon. Finishing one raises the area’s Environment Level and your Trainer Rank.'}</p>
+  </section>` : ''}
+
+  ${here && here.exclusive.length ? `
+  <section>
+    <div class="sec-title"><h2>${th ? 'โปเกมอนที่เจอได้เฉพาะที่นี่' : 'Pokémon you only find here'}</h2><span>${here.exclusive.length}</span></div>
+    <div class="fav-items">${here.exclusive.map(m => m.id ? monChip(m.id, m.name, lang) : `<span class="fav-item">${esc(m.name)}</span>`).join('')}</div>
+    <p class="note">${th
+      ? `โปเกมอนส่วนใหญ่ย้ายเข้ามาได้ทุกพื้นที่ ขอแค่สร้างที่อยู่อาศัยที่มันชอบให้ รายชื่อนี้คือส่วนน้อยที่ผูกกับพื้นที่นี้จริง ๆ ${here.exclusiveFrom === 'serebii' ? 'ตามที่ Serebii ระบุไว้' : 'คำนวณจากถิ่นที่อยู่ของโปเกมอนแต่ละตัวในหน้าที่อยู่อาศัยของ Serebii'}`
+      : `Most Pokémon will move into any area once you build the habitat they like. These are the few genuinely tied to this one, ${here.exclusiveFrom === 'serebii' ? 'as Serebii lists them.' : 'worked out from the areas each Pokémon lives in on Serebii’s habitat pages.'}`}</p>
+  </section>` : ''}
+
+  ${here && here.finds.length ? `
+  <section>
+    <div class="sec-title"><h2>${th ? 'ของที่หาได้ในพื้นที่นี้' : 'What you can find here'}</h2><span>${here.finds.reduce((n, f) => n + f.items.length, 0)}</span></div>
+    ${here.finds.map(f => {
+      const g = FIND_GROUPS[f.key];
+      return `<details class="finds"${f.key === 'blocks' ? ' open' : ''}>
+      <summary>${esc(g ? (th ? g.th : g.en) : f.heading)} <b>${f.items.length}</b></summary>
+      ${g ? `<p class="finds-note">${esc(th ? g.thNote : g.enNote)}</p>` : ''}
+      <div class="fav-items">${f.items.map(x => unlockChip(x, lang)).join('')}</div></details>`;
+    }).join('')}
+  </section>` : ''}
+
   ${Object.keys(byLevel).length ? `
   <section>
     <div class="sec-title"><h2>${lang === 'th' ? 'ของที่ปลดล็อกตาม Environment Level' : 'Shop unlocks by Environment Level'}</h2><span>${unlocks.length}</span></div>

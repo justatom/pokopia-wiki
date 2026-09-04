@@ -772,3 +772,95 @@ W('gifts', gifts);
   console.log(`   ${toys.length} toys · ${pairs} Pokémon-likes-toy pairs`);
   W('toys', toys);
 }
+
+/* ---------- locations ---------- */
+/* Serebii's area pages were being read for one thing, the shop's Environment Level list.
+   Everything above it — what grows there, what the ground is made of, what is lying about,
+   what the Poke Balls hold, what a treasure map digs up, what the fishing spots give — was
+   going unused, and it is what you want when you are deciding where to go looking.
+
+   Two more things come from elsewhere. Which Pokemon are worth coming here for is not the
+   full list, because a habitat you build works almost anywhere: the useful answer is the
+   handful that appear in this area and almost nowhere else, which falls out of the
+   per-Pokemon locations on the habitat pages. And the story events are Serebii's Important
+   Requests, each of which names its area in its opening sentence. */
+{
+  const AREAS = ['Withered Wastelands', 'Bleak Beach', 'Rocky Ridges', 'Sparkling Skylands', 'Palette Town', 'Bubbly Basin'];
+
+  let pages = new Map();
+  if (fs.existsSync('_research/serebii')) {
+    const { default: parseLocationPages } = await import('./locations.mjs');
+    pages = parseLocationPages('_research/serebii');
+  }
+  let habPages = new Map();
+  if (fs.existsSync('_research/serebii/habitat')) {
+    const { default: parseHabitatPages } = await import('./habitatpages.mjs');
+    habPages = parseHabitatPages('_research/serebii/habitat');
+  }
+
+  /* Serebii's headings, mapped to keys the site can label in either language. The Basin
+     calls its fishing spots Whirlpools where the other areas say Sparkling Ripples. */
+  const KEY = [
+    [/Naturally Occuring Materials/i, 'materials'],
+    [/Naturally Occuring Plants/i, 'blocks'],
+    [/Items Found in Area/i, 'lying'],
+    [/Items Found in Pok.?.?Balls/i, 'pokeballs'],
+    [/Treasure Found in Area/i, 'treasure'],
+    [/Sparkling Ripples|Whirlpools/i, 'water'],
+    [/List of Exclusive Pok/i, 'exclusive'],
+  ];
+  const keyOf = h => (KEY.find(([re]) => re.test(h)) || [, null])[1];
+
+  /* Serebii writes regional forms the other way round from our records — "Paldean Wooper"
+     against Wooper + "Paldean Form" — so both orders are tried. */
+  const findMon = n => pokemon.find(p => slug(p.name) === slug(n))
+    || pokemon.find(p => slug(`${p.name} ${p.form || ''}`) === slug(n))
+    || pokemon.find(p => p.form && slug(`${p.form.replace(/\s*Form$/i, '')} ${p.name}`) === slug(n)) || null;
+
+  /* which buildable areas each Pokemon can turn up in, from the habitat pages */
+  const monAreas = new Map();
+  for (const [, rows] of habPages) for (const r of rows) {
+    if (!monAreas.has(r.name)) monAreas.set(r.name, new Set());
+    for (const a of r.locations) if (AREAS.includes(a)) monAreas.get(r.name).add(a);
+  }
+
+  /* Important Requests: a heading row, then a prose row naming the area it belongs to */
+  const requests = [];
+  if (R.importantrequests) {
+    const rows = R.importantrequests.secs.flatMap(s => s.rows || []);
+    for (let i = 0; i < rows.length - 1; i++) {
+      const head = (rows[i][0]?.t || []); const bodyCell = (rows[i + 1][0]?.t || []);
+      if (head.length !== 1 || bodyCell.length < 2) continue;
+      const name = head[0];
+      if (/^Important Requests$/i.test(name)) continue;
+      const paras = bodyCell.filter(x => !/^Click here/i.test(x.trim()));
+      const area = AREAS.filter(a => paras.join(' ').includes(a))
+        .sort((a, b) => paras.join(' ').indexOf(a) - paras.join(' ').indexOf(b))[0] || null;
+      requests.push({ id: slug(name), name, area, paras });
+    }
+  }
+
+  const locations = AREAS.map(area => {
+    const id = slug(area);
+    const groups = (pages.get(area.toLowerCase().replace(/\s+/g, '')) || [])
+      .map(g => ({ key: keyOf(g.heading), heading: g.heading, kind: g.kind, entries: g.entries }))
+      .filter(g => g.key);
+
+    const finds = groups.filter(g => g.kind === 'items')
+      .map(g => ({ key: g.key, heading: g.heading, items: g.entries.map(e => e.name) }));
+
+    /* Serebii's own exclusive list where it has one; otherwise the Pokemon whose only
+       buildable area is this one, worked out from the habitat pages. */
+    const listed = groups.find(g => g.key === 'exclusive');
+    const only = [...monAreas].filter(([, s]) => s.size === 1 && s.has(area)).map(([n]) => n);
+    const exclusive = (listed ? listed.entries.map(e => e.name) : only)
+      .map(n => { const p = findMon(n); return p ? { id: p.id, name: p.name, natdex: p.natdex } : { id: null, name: n, natdex: null }; });
+
+    return { id, area, finds, exclusive, exclusiveFrom: listed ? 'serebii' : 'habitats', requests: requests.filter(r => r.area === area) };
+  });
+
+  const total = locations.reduce((n, l) => n + l.finds.reduce((m, f) => m + f.items.length, 0), 0);
+  const placed = requests.filter(r => r.area).length;
+  console.log(`   ${locations.length} locations · ${total} finds · ${placed}/${requests.length} story requests placed · ${locations.reduce((n, l) => n + l.exclusive.length, 0)} area-limited Pokémon`);
+  W('locations', locations);
+}
