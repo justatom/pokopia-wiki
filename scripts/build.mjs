@@ -42,6 +42,8 @@ const THNAMES = D('th/pokemon-names'), TERMS = D('th/terms'),
 
 /* Thai overlays: fall back to the English source whenever no translation exists. */
 const thSpec = (id, i) => (THM.specialties[id] || [])[i];
+/* what a cooked meal adds to its move, phrase by phrase, as Serebii words them */
+const thBoost = (x, lang) => (lang === 'th' && (THM.moveBoosts || {})[x]) || x;
 const thMove = (id, i) => (THM.moves[id] || [])[i];
 const specName = (s, lang) => (lang === 'th' && thSpec(s.id, 0)) ? `${thSpec(s.id, 0)} · ${s.name}` : s.name;
 const specDesc = (s, lang) => (lang === 'th' && thSpec(s.id, 1)) || s.desc;
@@ -832,23 +834,25 @@ function movesPage(lang) {
   <div class="grid g-3">${moves.filter(m => m.group === grp).map(m => {
         const boost = boostFor(m.name);
         return `<div class="card move-card" id="${m.id}">
-      <div class="move-head">
+      <div class="move-art">
         ${(() => {
-            if (movePic(m.img)) return `<img class="move-ico" src="${movePic(m.img)}" alt="" loading="lazy" width="52" height="52" decoding="async">`;
+            // the icons are 250px square; they used to be drawn at 52
+            if (movePic(m.img)) return `<img src="${movePic(m.img)}" alt="" loading="lazy" width="250" height="250" decoding="async">`;
             // the five secondary moves have no icon upstream (Serebii 404s on them), so
-            // stand in the Pokémon the move is borrowed from — which is the same idea
+            // stand in the Pokémon the move is borrowed from — which is the same idea.
+            // Its artwork rather than its sprite, because this box is now 250px wide.
             const hit = unlockMon(m.unlock, 'en');
             return hit
-              ? `<a class="move-ico move-ico-mon" href="${monUrl(lang, hit.mon)}" title="${esc(monTitle(hit.mon, lang))}"><img src="${sprite(hit.mon)}" alt="${esc(monTitle(hit.mon, lang))}" loading="lazy" width="52" height="52" decoding="async"></a>`
-              : `<div class="move-ico move-ico-blank">${icon('bolt')}</div>`;
+              ? `<a href="${monUrl(lang, hit.mon)}" title="${esc(monTitle(hit.mon, lang))}"><img src="${art(hit.mon)}" alt="${esc(monTitle(hit.mon, lang))}" loading="lazy" width="250" height="250" decoding="async"></a>`
+              : `<div class="move-art-blank">${icon('bolt')}</div>`;
           })()}
-        <h3>${esc(moveName(m, lang))}</h3>
       </div>
-      <p style="font-size:.9rem;color:var(--ink-2);margin:10px 0 0">${esc(moveEffect(m, lang))}</p>
+      <h3 class="move-name">${esc(moveName(m, lang))}</h3>
+      <p class="move-effect">${esc(moveEffect(m, lang))}</p>
       <p class="move-unlock">${icon('sparkles')} <span>${linkMons(moveUnlock(m, lang), lang)}</span></p>
       ${boost ? `<div class="move-boost">
         <span class="tag tag-clay">${esc(thCookType(boost.meal, lang))}</span>
-        <span>${boost.effects.map(esc).join(' · ')}</span>
+        <span>${boost.effects.map(x => esc(thBoost(x, lang))).join(' · ')}</span>
       </div>` : ''}
     </div>`;
       }).join('')}</div>`).join('')}
@@ -864,7 +868,7 @@ function movesPage(lang) {
         return `<tr>
       <td><a class="tag tag-clay" href="${BASE}/${lang}/cooking/">${esc(thCookType(b.meal, lang))}</a></td>
       <td><div class="cell-item">${mv && movePic(mv.img) ? `<img class="cell-ico" src="${movePic(mv.img)}" alt="" loading="lazy" width="32" height="32" decoding="async">` : ''}<div><strong>${mv ? `<a href="${BASE}/${lang}/moves/#${mv.id}">${esc(moveName(mv, lang))}</a>` : esc(b.move)}</strong></div></div></td>
-      <td>${b.effects.map(e => `<div>${esc(e)}</div>`).join('')}</td></tr>`;
+      <td>${b.effects.map(e => `<div>${esc(thBoost(e, lang))}</div>`).join('')}</td></tr>`;
       }).join('')}</tbody>
   </table></div>
 </div>`;

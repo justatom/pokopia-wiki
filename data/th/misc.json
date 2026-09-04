@@ -348,5 +348,16 @@
   "Wobbly stuff": "ของโยกเยก",
   "Wooden stuff": "ของไม้",
   "Group Activities": "กิจกรรมกลุ่ม"
+ },
+ "moveBoosts": {
+  "Hold down to increase amount of grass unleashed": "กดค้างเพื่อเพิ่มปริมาณหญ้าที่ปล่อยออกมา",
+  "Can create Moss on rocks and Duckweed on water": "สร้างมอสบนหินและแหนบนผิวน้ำได้",
+  "Hold down to increase the size of the cut": "กดค้างเพื่อเพิ่มขนาดของรอยตัด",
+  "Can cut stronger items": "ตัดของที่แข็งกว่าเดิมได้",
+  "Works quicker on rocks": "ทุบหินได้เร็วขึ้น",
+  "Can break tougher rocks": "ทุบหินที่แข็งกว่าเดิมได้",
+  "Hold down to increase amount of water unleashed": "กดค้างเพื่อเพิ่มปริมาณน้ำที่ปล่อยออกมา",
+  "Surf as Lapras underwater": "โต้คลื่นในร่างลาปราสใต้น้ำได้",
+  "Can break rocks while Lapras": "ทุบหินได้ขณะอยู่ในร่างลาปราส"
  }
 }
