@@ -116,6 +116,21 @@ const itemImage = i => itemPic(i.img) || (ITEM_PICS.has(`${i.id}.png`) ? `${BASE
 const PATTERN_PICS = picsIn('patterns');
 const patternPic = img => img && PATTERN_PICS.has(img) ? `${BASE}/sprites/patterns/${encodeURIComponent(img)}` : null;
 const habPic = img => img && HAB_PICS.has(img) ? `${BASE}/sprites/habitats/${encodeURIComponent(img)}` : null;
+/* the in-game badge for a specialty, saved as <id>.png by scripts/sprites.mjs */
+const SPEC_PICS = picsIn('specialty');
+const specPic = id => id && SPEC_PICS.has(`${id}.png`) ? `${BASE}/sprites/specialty/${encodeURIComponent(id)}.png` : null;
+
+/** a specialty card: its badge beside the name and what it does */
+function specCard(s, lang, extra = '') {
+  const pic = specPic(s.id);
+  return `<div class="card spec-card" id="${esc(s.id)}">
+    ${pic ? `<img class="spec-badge" src="${pic}" alt="" loading="lazy" width="83" height="62" decoding="async">` : ''}
+    <div>
+      <h3>${esc(specName(s, lang))}</h3>
+      <p class="spec-desc">${esc(specDesc(s, lang))}</p>
+      ${extra}
+    </div></div>`;
+}
 
 const L = (lang, s) => (typeof s === 'string' ? s : s[lang]);
 
@@ -612,7 +627,7 @@ function pokemonPage(p, lang) {
   </div>
 
   ${specs.length ? `<section><div class="sec-title"><h2>${esc(t.nav.specialties)}</h2></div>
-    <div class="grid g-4">${specs.map(s => `<div class="card"><h3>${esc(specName(s, lang))}</h3><p style="font-size:.88rem;color:var(--ink-2);margin:6px 0 0">${esc(specDesc(s, lang))}</p></div>`).join('')}</div></section>` : ''}
+    <div class="grid g-4">${specs.map(s => specCard(s, lang)).join('')}</div></section>` : ''}
 
   ${monEnvironment(p, lang)}
   ${monLikes(p, lang)}
@@ -867,12 +882,8 @@ function specialtiesPage(lang) {
       : `A specialty is what a Pokémon does for you — generate power, chop logs, carry you to a Dream Island. There are ${specialties.length} of them; click any Pokémon to open its page.`}</p>
   <div class="grid g-4">${specialties.map(s => {
         const list = byspec(s.id);
-        return `<div class="card" id="${s.id}">
-      <h3>${esc(specName(s, lang))}</h3>
-      <p style="font-size:.9rem;color:var(--ink-2);margin:8px 0">${esc(specDesc(s, lang))}</p>
-      <p style="font-size:.78rem;color:var(--muted);margin:0">${list.length} ${lang === 'th' ? 'ตัว' : 'Pokémon'}</p>
-      ${list.length ? `<div class="spec-mons">${list.map(p => `<a class="spec-mon" href="${monUrl(lang, p)}" title="${esc(monTitle(p, lang))}"><img src="${sprite(p)}" alt="${esc(monTitle(p, lang))}" loading="lazy" width="40" height="40"><span>${esc(monTitle(p, lang))}</span></a>`).join('')}</div>` : ''}
-    </div>`;
+        return specCard(s, lang, `<p class="spec-count">${list.length} ${lang === 'th' ? 'ตัว' : 'Pokémon'}</p>
+      ${list.length ? `<div class="spec-mons">${list.map(p => `<a class="spec-mon" href="${monUrl(lang, p)}" title="${esc(monTitle(p, lang))}"><img src="${sprite(p)}" alt="${esc(monTitle(p, lang))}" loading="lazy" width="40" height="40"><span>${esc(monTitle(p, lang))}</span></a>`).join('')}</div>` : ''}`);
       }).join('')}</div>
 </div>`;
   return layout({ lang, base: BASE, title: t.nav.specialties, desc: 'Pokopia specialties', path: '/specialties/', body });

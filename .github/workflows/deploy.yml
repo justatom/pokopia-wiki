@@ -39,7 +39,7 @@ jobs:
             src/sprites/builds
             src/sprites/patterns
             src/sprites/records
-          key: pokopia-pictures-v6
+          key: pokopia-pictures-v7
 
       - name: Download missing pictures
         run: node scripts/sprites.mjs

@@ -156,8 +156,9 @@ The game has no official Thai localisation, so:
 ## Running it
 
 About 127 MB of pictures — Pokémon artwork, 1,697 item icons, 252 habitat photos, 203
-outfits, 116 patterns, 55 building renders, 18 record photographs, 3,137 files in all — are
-downloaded rather than committed, so the first build takes a few minutes. Later builds skip
+outfits, 116 patterns, 55 building renders, 32 specialty badges, 18 record photographs,
+3,169 files in all — are downloaded rather than committed, so the first build takes a few
+minutes. Later builds skip
 anything already on disk.
 
 ```bash

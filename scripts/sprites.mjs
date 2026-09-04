@@ -7,6 +7,7 @@
 //   habitats/  habitat-dex picture         downloaded  (~15 MB)
 //   outfits/   outfit thumbnail            downloaded
 //   moves/     Ditto's move icon           downloaded
+//   specialty/ specialty badge             downloaded
 //   builds/    finished-building render    downloaded
 //   patterns/  paint pattern swatch        downloaded
 //
@@ -98,6 +99,16 @@ const SB = { 'User-Agent': UA, Referer: `${SEREBII}/items.shtml` };
   const files = [...new Set(j('data/moves.json').map(m => m.img).filter(Boolean))];
   await run('moves   ', files.map(f =>
     () => grab(`${SEREBII}/ditto/${f}`, path.join(out, f), SB)), 4);
+}
+
+/* ---------- specialty badges ---------- */
+/* Serebii drops the hyphen from a specialty id in the filename: "hot-spring" is
+   hotspring.png. All 32 exist. */
+{
+  const out = dir('src/sprites/specialty');
+  const ids = j('data/specialties.json').map(x => x.id);
+  await run('specialty', ids.map(id =>
+    () => grab(`${SEREBII}/pokedex/specialty/${id.replace(/-/g, '')}.png`, path.join(out, `${id}.png`), SB)), 4);
 }
 
 /* ---------- paint patterns ---------- */

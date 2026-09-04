@@ -38,3 +38,6 @@ src/sprites/patterns/
 
 # Human Record photographs — re-downloaded by `npm run sprites`
 src/sprites/records/
+
+# specialty badges — re-downloaded by `npm run sprites`
+src/sprites/specialty/
