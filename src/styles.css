@@ -278,6 +278,17 @@ td.num { font-variant-numeric: tabular-nums; color: var(--muted); white-space: n
 .row { content-visibility: auto; contain-intrinsic-size: auto 120px; }
 :target.row { outline: 2px solid var(--moss); outline-offset: 3px; }
 .row { scroll-margin-top: 168px; }
+
+/* dataRow's content as a card, for lists dense enough that a full-width row per entry
+   would leave most of the line empty. */
+.data-card { display: flex; flex-direction: column; gap: 8px; content-visibility: auto; contain-intrinsic-size: auto 210px; }
+.data-card .dc-link { display: flex; flex-direction: column; gap: 8px; color: inherit; }
+.dc-head { display: grid; grid-template-columns: var(--ico) 1fr; gap: 12px; align-items: center; }
+.data-card .row-desc { margin-top: 0; }
+.data-card .row-meta { margin-top: 0; }
+.dc-foot { font-size: .8rem; color: var(--muted); line-height: 1.5; margin-top: auto; padding-top: 8px; border-top: 1px solid var(--line); }
+.data-card:hover { border-color: var(--line-2); }
+:target.data-card { outline: 2px solid var(--moss); outline-offset: 3px; }
 @media (min-width: 640px) { :root { --ico: 72px; } }
 .mat { font-size: .76rem; padding: 3px 9px; border-radius: 8px; background: var(--paper-2); color: var(--ink-2); white-space: nowrap; }
 .mat b { color: var(--clay); font-variant-numeric: tabular-nums; }

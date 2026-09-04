@@ -274,7 +274,10 @@
   "Relaxation": "ผ่อนคลาย",
   "Paint": "ทาสีได้",
   "Pattern": "ใส่ลายได้",
-  "No change possible": "เปลี่ยนสีไม่ได้"
+  "No change possible": "เปลี่ยนสีไม่ได้",
+  "Toy": "ของเล่น",
+  "Road": "ถนน",
+  "Variant when placing stnadard Arched berriers": "แบบที่ได้เมื่อวางรั้วโค้งมาตรฐาน"
  },
  "types": {
   "Normal": "ปกติ",

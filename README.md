@@ -146,6 +146,9 @@ The game has no official Thai localisation, so:
   through the English text. Anything left untranslated falls back to the original.
 - **Story events** — all six Important Requests, paragraph for paragraph, in
   `data/th/requests.json`.
+- **Where an item comes from** — all 200 source lines. 129 of them are five sentences with
+  a name slotted in ("Shop - Unlocked at *area* Lv. *n*", "*area* (Natural)"), which
+  `thSource()` builds; the remaining 71 are written out in `data/th/sources.json`.
 - **Human Records** are translated in full — all 126, 37,304 characters, written in the
   game's warm, chatty register rather than word for word, so a seasick sailor's diary still
   trails off mid-sentence and a Team R grunt still sounds like one. See

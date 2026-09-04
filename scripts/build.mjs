@@ -37,6 +37,10 @@ for (const [id, text] of Object.entries(THITEMS)) {
 }
 /** an item's description in the reading language, falling back to the original */
 const itemDesc = (i, lang) => (lang === 'th' && (THITEMS[i.id] || thDescByEnglish.get((i.desc || '').trim()))) || i.desc;
+/* Building kits, toys, Lost Relics and cooking equipment each have an item entry of their
+   own, so anything showing one of their descriptions can read it in the page's language
+   instead of falling back to Serebii's English. */
+const descOf = (x, lang) => { const it = itemById.get(x.id) || itemRef(x.name); return it ? itemDesc(it, lang) : x.desc; };
 const THNAMES = D('th/pokemon-names'), TERMS = D('th/terms'),
   THPATCH = D('th/patches'), THM = D('th/misc');
 
@@ -44,6 +48,31 @@ const THNAMES = D('th/pokemon-names'), TERMS = D('th/terms'),
 const thSpec = (id, i) => (THM.specialties[id] || [])[i];
 /* what a cooked meal adds to its move, phrase by phrase, as Serebii words them */
 const thBoost = (x, lang) => (lang === 'th' && (THM.moveBoosts || {})[x]) || x;
+
+/* Where an item comes from. Serebii writes 200 distinct source lines, but 129 of them are
+   five sentences with a name slotted in, so those are built rather than listed; the rest
+   are in data/th/sources.json. */
+const THSOURCES = fs.existsSync('data/th/sources.json') ? D('th/sources') : {};
+const SRC_QUAL_TH = { Natural: 'เกิดเองตามธรรมชาติ', Original: 'มีอยู่เดิมในพื้นที่', Treasure: 'ขุดเจอจากแผนที่สมบัติ' };
+const DOLL_TH = { Pikachu: 'ปิกาจู', Dragonite: 'คาอิริว', Arcanine: 'วินดี', Clefairy: 'ปิปปิ', Eevee: 'อีวุย', Starmie: 'สตาร์มี' };
+
+function thSource(text, lang) {
+  if (lang !== 'th') return text;
+  const s = String(text).trim();
+  if (THSOURCES[s]) return THSOURCES[s];
+  let m;
+  if ((m = s.match(/^Shop - Unlocked at (.+?) Lv\. (\d+)$/)) && AREA_TH[m[1]])
+    return `ร้านค้า${AREA_TH[m[1]]} ปลดล็อกที่เลเวล ${m[2]}`;
+  if ((m = s.match(/^(.+?) \((Natural|Original|Treasure)\)$/)) && AREA_TH[m[1]])
+    return `${AREA_TH[m[1]]} — ${SRC_QUAL_TH[m[2]]}`;
+  if ((m = s.match(/^(.+?) Doll Dream Island \((Natural|Original)\)$/)))
+    return `เกาะแห่งความฝันตุ๊กตา${DOLL_TH[m[1]] || m[1]} — ${SRC_QUAL_TH[m[2]]}`;
+  if ((m = s.match(/^(.+?) \(Build Kit\)$/)))
+    return `ได้จากการสร้างด้วย ${m[1]}`;
+  if ((m = s.match(/^Reach Rank (\d+) in (.+?)( and put in shop)?$/)) && AREA_TH[m[2]])
+    return `ไปให้ถึงแรงก์ ${m[1]} ที่${AREA_TH[m[2]]}${m[3] ? ' แล้วนำไปวางขายในร้าน' : ''}`;
+  return s;
+}
 const thMove = (id, i) => (THM.moves[id] || [])[i];
 const specName = (s, lang) => (lang === 'th' && thSpec(s.id, 0)) ? `${thSpec(s.id, 0)} · ${s.name}` : s.name;
 const specDesc = (s, lang) => (lang === 'th' && thSpec(s.id, 1)) || s.desc;
@@ -171,14 +200,14 @@ function chipBar(lang, cats, catLabel) {
   </div>`;
 }
 
-function listPage({ lang, rows, cats, catLabel }) {
+function listPage({ lang, rows, cats, catLabel, grid = false }) {
   const t = T[lang];
   return `<div class="toolbar"><div class="wrap">
   <input class="filter-input" id="listFilter" type="search" placeholder="${esc(t.filter)}" autocomplete="off">
   ${chipBar(lang, cats.map(c => [c, catLabel ? catLabel(c) : c]))}
   <div class="count" id="listCount">${esc(t.results(rows.length))}</div>
 </div></div>
-<div class="wrap"><div class="rows" id="listRows">${rows.map(r => r.html).join('')}</div>
+<div class="wrap"><div class="${grid ? 'grid g-3' : 'rows'}" id="listRows">${rows.map(r => r.html).join('')}</div>
 <p class="sr-empty" id="listEmpty" hidden>${esc(t.noResults)}</p></div>`;
 }
 
@@ -267,7 +296,7 @@ function recipeMaterial(m, lang) {
   // items keep their English name as the primary label everywhere on the site
   const inner = `${pic ? `<img src="${pic}" alt="" loading="lazy" width="34" height="34" decoding="async">` : ''}<span>${esc(m.name)}</span> <b>×${m.qty}</b>`;
   return it
-    ? `<a class="fav-item" href="${itemHref(lang, it.id)}" title="${esc(it.desc || m.name)}">${inner}</a>`
+    ? `<a class="fav-item" href="${itemHref(lang, it.id)}" title="${esc(itemDesc(it, lang) || m.name)}">${inner}</a>`
     : `<span class="fav-item">${inner}</span>`;
 }
 
@@ -487,6 +516,19 @@ ${pic
   ${h.req.length ? `<div class="mats">${h.req.map(r => `<span class="mat">${itemLink(lang, r, esc(r))}</span>`).join('')}</div>` : ''}
   ${mons.length ? `<div class="hab-mons">${mons.map(m => `<a href="${monUrl(lang, m)}" title="${esc(monTitle(m, lang))}"><img src="${sprite(m)}" alt="${esc(monTitle(m, lang))}" loading="lazy" width="40" height="40"><span>${esc(monTitle(m, lang))}</span></a>`).join('')}</div>` : ''}
 </div></article>`;
+}
+
+/** the same content as dataRow, laid out as a card so a long list tiles instead of
+    running one entry per full-width row with most of the width left empty */
+function dataCard({ name, gloss: gl, desc, meta, foot, cat, kind, pic, id, href, find, lang }) {
+  const inner = `<div class="dc-head">${rowIcon(kind, pic)}
+    <div><div class="row-name">${esc(name)}</div>
+    ${lang === 'th' && gl ? `<div class="row-th gloss">${esc(gl)}</div>` : ''}</div></div>
+  ${desc ? `<div class="row-desc">${esc(desc)}</div>` : ''}
+  ${meta ? `<div class="row-meta">${meta}</div>` : ''}
+  ${foot ? `<div class="dc-foot">${foot}</div>` : ''}`;
+  return `<div class="card data-card"${id ? ` id="${esc(id)}"` : ''} data-cat="${esc(cat || '')}" data-s="${esc((name + ' ' + (gl || '') + ' ' + (desc || '') + ' ' + (find || '')).toLowerCase())}">
+    ${href ? `<a class="dc-link" href="${href}">${inner}</a>` : inner}</div>`;
 }
 
 function dataRow({ name, gloss: gl, desc, meta, mats, cat, kind, pic, id, href, find, lang }) {
@@ -732,7 +774,7 @@ function itemsCatPage(cat, lang) {
       name: i.name, gloss: G(i.name), desc: itemDesc(i, lang), cat: i.tags[0] || '', kind: 'box', pic: itemImage(i), id: `i-${i.id}`, find: itemSearchText(i, lang), lang,
       mats: itemRecipe(i, lang) + itemLikedAs(i, lang),
       meta: i.tags.map(x => `<span class="tag tag-clay">${esc(x)}</span>`).join('') + itemFacts(i, lang) +
-        (i.sources.length ? `<span>${esc(i.sources.slice(0, 3).join(' · '))}${i.sources.length > 3 ? ' …' : ''}</span>` : ''),
+        (i.sources.length ? `<span>${esc(i.sources.slice(0, 3).map(x => thSource(x, lang)).join(' · '))}${i.sources.length > 3 ? ' …' : ''}</span>` : ''),
     })
   }));
   const tags = [...new Set(list.flatMap(i => i.tags))].filter(Boolean);
@@ -757,7 +799,7 @@ function recipesCatPage(cat, lang) {
     html: dataRow({
       name: r.name, gloss: G(r.name), cat: '', kind: 'package', pic: itemPic(r.img), href: itemHref(lang, r.id), lang,
       mats: `<div class="mats">${r.materials.map(m => `<span class="mat">${matPic(m)}${itemLink(lang, m.item, esc(m.name))} <b>×${m.qty}</b></span>`).join('')}</div>`,
-      meta: r.sources.length ? `<span>${esc(r.sources.join(' · '))}</span>` : '',
+      meta: r.sources.length ? `<span>${esc(r.sources.map(x => thSource(x, lang)).join(' · '))}</span>` : '',
     })
   }));
   const body = `${crumb(lang, [[t.nav.recipes, `${BASE}/${lang}/recipes/`], [cat]])}
@@ -770,12 +812,16 @@ ${listPage({ lang, rows, cats: [] })}`;
 
 function furniturePage(lang) {
   const t = T[lang];
+  /* every furniture id is also an item id, so the descriptions the Thai edition already
+     carries apply here too rather than falling back to Serebii's English */
   const rows = furniture.map(f => ({
-    html: dataRow({
-      name: f.name, gloss: G(f.name), desc: f.desc, cat: f.flags[0] || '', kind: 'home', pic: itemPic(f.img), href: itemHref(lang, f.id), lang,
-      meta: f.flags.map(x => `<span class="tag tag-moss">${esc(x)}</span>`).join('') +
-        f.colour.map(x => `<span class="tag">${esc(x)}</span>`).join('') +
-        (f.sources.length ? `<span>${esc(f.sources.slice(0, 4).join(' · '))}</span>` : ''),
+    html: dataCard({
+      name: f.name, gloss: G(f.name), desc: itemDesc(itemById.get(f.id) || f, lang),
+      cat: f.flags[0] || '', kind: 'home', pic: itemPic(f.img), href: itemHref(lang, f.id), lang,
+      find: [...f.flags, ...f.colour, ...f.sources].join(' '),
+      meta: f.flags.map(x => `<span class="tag tag-moss">${esc(thCat(x, lang))}</span>`).join('') +
+        f.colour.map(x => `<span class="tag">${esc(thCat(x, lang))}</span>`).join(''),
+      foot: f.sources.length ? esc(f.sources.slice(0, 4).map(x => thSource(x, lang)).join(' · ')) : '',
     })
   }));
   const cats = [...new Set(furniture.flatMap(f => f.flags))].filter(Boolean);
@@ -784,7 +830,7 @@ function furniturePage(lang) {
 <p class="lede">${lang === 'th'
       ? 'เฟอร์นิเจอร์ทุกชิ้นที่วางในบ้านได้ ชิ้นที่ติดแท็ก Relaxation หรือ Decoration คือชิ้นที่โปเกมอนมักขอเพื่อเพิ่ม Comfy Level'
       : 'Every placeable furniture piece. Items tagged Relaxation or Decoration are the ones Pokémon ask for to raise their Comfy Level.'}</p></div>
-${listPage({ lang, rows, cats })}`;
+${listPage({ lang, rows, cats, catLabel: c => thCat(c, lang), grid: true })}`;
   return layout({ lang, base: BASE, title: t.nav.furniture, desc: 'Pokopia furniture list', path: '/furniture/', body });
 }
 
@@ -943,7 +989,7 @@ function unlockChip(text, lang) {
   const pic = it && itemPic(it.img);
   const inner = `${pic ? `<img src="${pic}" alt="" loading="lazy" width="28" height="28" decoding="async">` : ''}<span>${esc(text.replace(/\s+Recipe$/i, ''))}</span>${recipe ? `<b class="unlock-recipe">${th ? 'สูตร' : 'recipe'}</b>` : ''}`;
   return it
-    ? `<a class="fav-item" href="${itemHref(lang, it.id)}" title="${esc(it.desc || text)}">${inner}</a>`
+    ? `<a class="fav-item" href="${itemHref(lang, it.id)}" title="${esc(itemDesc(it, lang) || text)}">${inner}</a>`
     : `<span class="fav-item" title="${esc(text)}">${inner}</span>`;
 }
 
@@ -1138,7 +1184,7 @@ function kitMaterial(m, lang) {
   const it = itemRef(m.name), pic = it && itemPic(it.img);
   const inner = `${pic ? `<img src="${pic}" alt="" loading="lazy" width="30" height="30" decoding="async">` : ''}<span>${esc(m.name)}</span>${m.qty ? ` <b>×${m.qty}</b>` : ''}`;
   return it
-    ? `<a class="fav-item" href="${itemHref(lang, it.id)}" title="${esc(it.desc || m.name)}">${inner}</a>`
+    ? `<a class="fav-item" href="${itemHref(lang, it.id)}" title="${esc(itemDesc(it, lang) || m.name)}">${inner}</a>`
     : `<span class="fav-item">${inner}</span>`;
 }
 
@@ -1155,7 +1201,7 @@ function buildingPage(lang) {
     <div>
       <div class="row-name">${itemLink(lang, k.id, esc(k.name))}</div>
       ${th && G(k.name) ? `<div class="row-th gloss">${esc(G(k.name))}</div>` : ''}
-      ${k.desc ? `<div class="row-desc">${esc(k.desc)}</div>` : ''}
+      ${k.desc ? `<div class="row-desc">${esc(descOf(k, lang))}</div>` : ''}
       <div class="kit-line">
         <span class="kit-label">${th ? 'อยู่อาศัยได้' : 'Houses'}</span>
         <div class="kit-helpers">${kitLive(k, lang)}</div></div>
@@ -1217,7 +1263,7 @@ function itemChip(name, lang, cls = 'fav-item') {
   const pic = it && itemPic(it.img);
   const inner = `${pic ? `<img src="${pic}" alt="" loading="lazy" width="34" height="34" decoding="async">` : ''}<span>${esc(name)}</span>`;
   return it
-    ? `<a class="${cls}" href="${itemHref(lang, it.id)}" title="${esc(it.desc || name)}">${inner}</a>`
+    ? `<a class="${cls}" href="${itemHref(lang, it.id)}" title="${esc(itemDesc(it, lang) || name)}">${inner}</a>`
     : `<span class="${cls}" title="${esc(name)}">${inner}</span>`;
 }
 const ingredient = (name, lang) => itemChip(name, lang);
@@ -1274,7 +1320,7 @@ function cookingPage(lang) {
     <div class="table-scroll"><table>
       <thead><tr><th>${th ? 'เมนู' : 'Dish'}</th><th>${timed ? (th ? 'ระยะเวลา' : 'Duration') : (th ? 'ฟื้น PP' : 'PP healed')}</th><th>${th ? 'วัตถุดิบหลัก' : 'Main'}</th><th>${th ? 'วัตถุดิบเสริม' : 'Secondary'}</th><th>${th ? 'ต้องมีผู้ช่วย' : 'Helper needed'}</th></tr></thead>
       <tbody>${list.map(c => `<tr>
-        <td><div class="cell-item">${cellPic(c.img)}<div><strong>${esc(c.name)}</strong>${th && G(c.name) ? `<div class="gloss">${esc(G(c.name))}</div>` : ''}<div style="font-size:.82rem;color:var(--muted)">${esc(c.desc)}</div></div></div></td>
+        <td><div class="cell-item">${cellPic(c.img)}<div><strong>${esc(c.name)}</strong>${th && G(c.name) ? `<div class="gloss">${esc(G(c.name))}</div>` : ''}<div style="font-size:.82rem;color:var(--muted)">${esc(descOf(c, lang))}</div></div></div></td>
         <td class="num">${esc(c.pp)}</td>
         <td>${ingredient(c.main, lang)}</td>
         <td>${c.secondary.map(x => ingredient(x, lang)).join('') || '—'}</td>
@@ -1285,7 +1331,7 @@ function cookingPage(lang) {
     <div class="sec-title"><h2>${lang === 'th' ? 'รสชาติของอาหารและเบอร์รี' : 'Food & berry flavours'}</h2><span>${flavors.length}</span></div>
     <div class="table-scroll"><table>
       <thead><tr><th>${lang === 'th' ? 'รส' : 'Flavour'}</th><th>${lang === 'th' ? 'ชื่อ' : 'Name'}</th><th>${lang === 'th' ? 'คำอธิบาย' : 'Description'}</th></tr></thead>
-      <tbody>${flavors.map(f => `<tr><td><span class="tag tag-clay">${esc(thFlavor(f.flavor, lang))}</span></td><td>${ingredient(f.name, lang)}</td><td>${esc(f.desc)}</td></tr>`).join('')}</tbody>
+      <tbody>${flavors.map(f => `<tr><td><span class="tag tag-clay">${esc(thFlavor(f.flavor, lang))}</span></td><td>${ingredient(f.name, lang)}</td><td>${esc(descOf(f, lang))}</td></tr>`).join('')}</tbody>
     </table></div>
   </section>
 </div>`;
@@ -1526,12 +1572,12 @@ function toyPage(toy, lang) {
     <div>
       <h1 style="font-size:1.35rem">${esc(toy.name)}</h1>
       ${th && G(toy.name) ? `<div class="row-th gloss">${esc(G(toy.name))}</div>` : ''}
-      ${toy.desc ? `<p class="row-desc">${esc(toy.desc)}</p>` : ''}
+      ${toy.desc ? `<p class="row-desc">${esc(descOf(toy, lang))}</p>` : ''}
     </div>
   </div>
   <div class="env">
     <div class="kit-line"><span class="kit-label">${th ? 'ได้มาจาก' : 'How to get'}</span>
-      <div class="kit-helpers">${toy.sources.map(x => `<span class="tag">${esc(x)}</span>`).join('')}</div></div>
+      <div class="kit-helpers">${toy.sources.map(x => `<span class="tag">${esc(thSource(x, lang))}</span>`).join('')}</div></div>
     <div class="kit-line"><span class="kit-label">${th ? 'นับเป็นหมวด' : 'Counts as'}</span>
       <div class="kit-helpers">${toy.categories.map(c => `<span class="tag tag-clay">${esc(thFav(c, lang))}</span>`).join('')}</div></div>
     <div class="kit-line"><span class="kit-label">${th ? 'ไอเทม' : 'Item'}</span>
@@ -1579,9 +1625,9 @@ function toysPage(lang) {
     <div>
       <div class="row-name">${itemLink(lang, toy.id, esc(toy.name))}</div>
       ${th && G(toy.name) ? `<div class="row-th gloss">${esc(G(toy.name))}</div>` : ''}
-      ${toy.desc ? `<div class="row-desc">${esc(toy.desc)}</div>` : ''}
+      ${toy.desc ? `<div class="row-desc">${esc(descOf(toy, lang))}</div>` : ''}
       <div class="kit-line"><span class="kit-label">${th ? 'ได้มาจาก' : 'How to get'}</span>
-        <div class="kit-helpers">${toy.sources.map(x => `<span class="tag">${esc(x)}</span>`).join('')}</div></div>
+        <div class="kit-helpers">${toy.sources.map(x => `<span class="tag">${esc(thSource(x, lang))}</span>`).join('')}</div></div>
       ${toy.categories.length ? `<div class="kit-line"><span class="kit-label">${th ? 'นับเป็นหมวด' : 'Counts as'}</span>
         <div class="kit-helpers">${toy.categories.map(c => `<span class="tag tag-clay">${esc(thFav(c, lang))}</span>`).join('')}</div></div>` : ''}
       ${liked.length ? `<div class="kit-line"><span class="kit-label">${th ? `โปเกมอนที่ชอบ ${liked.length} ตัว` : `${liked.length} like it`}</span>
@@ -1772,10 +1818,10 @@ function collectionsPage(lang) {
 
   ${sec(lang === 'th' ? 'ซีดีเพลง' : 'Music CDs', cds.length, `<div class="table-scroll"><table>
     <thead><tr><th>${lang === 'th' ? 'ชื่อ' : 'Track'}</th><th>${lang === 'th' ? 'จากเกม' : 'From'}</th><th>${lang === 'th' ? 'พบที่' : 'Found in'}</th></tr></thead>
-    <tbody>${cds.map(c => `<tr><td><div class="cell-item">${cellPic(c.img)}<div><strong>${esc(c.name)}</strong><div style="font-size:.8rem;color:var(--muted)">${esc(c.desc)}</div></div></div></td><td>${esc(c.game)}</td><td>${c.sources.map(esc).join('<br>')}</td></tr>`).join('')}</tbody></table></div>`)}
+    <tbody>${cds.map(c => `<tr><td><div class="cell-item">${cellPic(c.img)}<div><strong>${esc(c.name)}</strong><div style="font-size:.8rem;color:var(--muted)">${esc(descOf(c, lang))}</div></div></div></td><td>${esc(c.game)}</td><td>${c.sources.map(x => esc(thSource(x, lang))).join('<br>')}</td></tr>`).join('')}</tbody></table></div>`)}
 
   ${sec('Lost Relics', lostrelics.length, `<div class="rows">${lostrelics.map(r => dataRow({
-        name: r.name, gloss: G(r.name), desc: r.desc, kind: 'star', pic: itemPic(r.img), lang, cat: r.kind,
+        name: r.name, gloss: G(r.name), desc: descOf(r, lang), kind: 'star', pic: itemPic(r.img), lang, cat: r.kind,
         meta: `<span class="tag tag-clay">${esc(r.kind)}</span>`
       })).join('')}</div>`)}
 
