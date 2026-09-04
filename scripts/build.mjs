@@ -120,16 +120,16 @@ const habPic = img => img && HAB_PICS.has(img) ? `${BASE}/sprites/habitats/${enc
 const SPEC_PICS = picsIn('specialty');
 const specPic = id => id && SPEC_PICS.has(`${id}.png`) ? `${BASE}/sprites/specialty/${encodeURIComponent(id)}.png` : null;
 
-/** a specialty card: its badge beside the name and what it does */
+/** a specialty card: the badge next to the name, then what it does, then anything extra */
 function specCard(s, lang, extra = '') {
   const pic = specPic(s.id);
-  return `<div class="card spec-card" id="${esc(s.id)}">
-    ${pic ? `<img class="spec-badge" src="${pic}" alt="" loading="lazy" width="83" height="62" decoding="async">` : ''}
-    <div>
+  return `<div class="card" id="${esc(s.id)}">
+    <div class="spec-head">
+      ${pic ? `<img class="spec-badge" src="${pic}" alt="" loading="lazy" width="83" height="62" decoding="async">` : ''}
       <h3>${esc(specName(s, lang))}</h3>
-      <p class="spec-desc">${esc(specDesc(s, lang))}</p>
-      ${extra}
-    </div></div>`;
+    </div>
+    <p class="spec-desc">${esc(specDesc(s, lang))}</p>
+    ${extra}</div>`;
 }
 
 const L = (lang, s) => (typeof s === 'string' ? s : s[lang]);
