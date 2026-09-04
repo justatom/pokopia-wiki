@@ -76,6 +76,28 @@
       moreBtn.textContent = open ? moreBtn.dataset.more : moreBtn.dataset.less;
       chipBar.classList.toggle('chips-open', !open);
     });
+
+    /* List or grid. The rows are identical either way — only the container's class
+       changes — and the choice is remembered per reader, per page, in localStorage.
+       Storage can throw in a private window or with site data blocked, so every touch of
+       it is guarded and the page falls back to the layout it was built with. */
+    const viewSwitch = $('#viewSwitch');
+    if (viewSwitch) {
+      const KEY = 'pkp-view:' + location.pathname;
+      const setView = (v, remember) => {
+        rowsRoot.classList.toggle('as-grid', v === 'grid');
+        viewSwitch.querySelectorAll('button').forEach(b =>
+          b.setAttribute('aria-pressed', String(b.dataset.view === v)));
+        if (remember) { try { localStorage.setItem(KEY, v); } catch (e) { } }
+      };
+      let saved = null;
+      try { saved = localStorage.getItem(KEY); } catch (e) { }
+      if (saved === 'grid' || saved === 'rows') setView(saved, false);
+      viewSwitch.addEventListener('click', e => {
+        const b = e.target.closest('button[data-view]');
+        if (b) setView(b.dataset.view, true);
+      });
+    }
   }
 
   /* ---------- search overlay ---------- */

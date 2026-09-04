@@ -36,6 +36,8 @@ const P = {
   star: '<path d="m12 3.5 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-2.9L6.7 20l1.1-6L3.4 9.9l6-.8z"/>',
   globe: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/>',
   info: '<circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/>',
+  rows: '<path d="M9 6h11M9 12h11M9 18h11"/><path d="M4.5 6h.01M4.5 12h.01M4.5 18h.01"/>',
+  grid: '<rect x="3.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.5"/>',
 };
 
 export const icon = (name, cls = '') =>
@@ -201,6 +203,8 @@ export const EN = {
   fewerFilters: 'Show fewer',
   results: n => `${n} result${n === 1 ? '' : 's'}`,
   noResults: 'Nothing found',
+  viewRows: 'List view',
+  viewGrid: 'Grid view',
   all: 'All',
   filter: 'Filter…',
 };
@@ -227,6 +231,8 @@ export const TH = {
   moreFilters: n => `อีก ${n} หมวด`,
   fewerFilters: 'ย่อ',
   results: n => `${n} รายการ`,
+  viewRows: 'มุมมองรายการ',
+  viewGrid: 'มุมมองตาราง',
   noResults: 'ไม่พบข้อมูล',
   all: 'ทั้งหมด',
   filter: 'กรอง…',

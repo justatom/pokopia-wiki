@@ -279,16 +279,19 @@ td.num { font-variant-numeric: tabular-nums; color: var(--muted); white-space: n
 :target.row { outline: 2px solid var(--moss); outline-offset: 3px; }
 .row { scroll-margin-top: 168px; }
 
-/* dataRow's content as a card, for lists dense enough that a full-width row per entry
-   would leave most of the line empty. */
-.data-card { display: flex; flex-direction: column; gap: 8px; content-visibility: auto; contain-intrinsic-size: auto 210px; }
-.data-card .dc-link { display: flex; flex-direction: column; gap: 8px; color: inherit; }
-.dc-head { display: grid; grid-template-columns: var(--ico) 1fr; gap: 12px; align-items: center; }
-.data-card .row-desc { margin-top: 0; }
-.data-card .row-meta { margin-top: 0; }
-.dc-foot { font-size: .8rem; color: var(--muted); line-height: 1.5; margin-top: auto; padding-top: 8px; border-top: 1px solid var(--line); }
-.data-card:hover { border-color: var(--line-2); }
-:target.data-card { outline: 2px solid var(--moss); outline-offset: 3px; }
+/* Grid view. The rows are the same markup either way — only the container changes — so
+   the toggle costs no extra HTML and keeps every id, filter and :target working. */
+.rows.as-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 12px; }
+.rows.as-grid > .row, .rows.as-grid > .row-wide { align-content: start; }
+.rows.as-grid > .row-wide { grid-template-columns: 1fr; }
+.rows.as-grid .hab-pic { width: 100%; height: auto; aspect-ratio: 10 / 7; }
+
+.count-row { display: flex; align-items: center; gap: 12px; }
+.count-row .count { margin: 0; }
+.view-switch { display: flex; margin-left: auto; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; background: var(--surface); }
+.view-switch button { display: grid; place-items: center; width: 34px; height: 28px; border: 0; background: none; cursor: pointer; color: var(--muted); }
+.view-switch button svg { width: 16px; height: 16px; stroke: currentColor; fill: none; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.view-switch button[aria-pressed="true"] { background: var(--moss); color: var(--surface); }
 @media (min-width: 640px) { :root { --ico: 72px; } }
 .mat { font-size: .76rem; padding: 3px 9px; border-radius: 8px; background: var(--paper-2); color: var(--ink-2); white-space: nowrap; }
 .mat b { color: var(--clay); font-variant-numeric: tabular-nums; }

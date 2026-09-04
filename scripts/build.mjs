@@ -205,9 +205,15 @@ function listPage({ lang, rows, cats, catLabel, grid = false }) {
   return `<div class="toolbar"><div class="wrap">
   <input class="filter-input" id="listFilter" type="search" placeholder="${esc(t.filter)}" autocomplete="off">
   ${chipBar(lang, cats.map(c => [c, catLabel ? catLabel(c) : c]))}
-  <div class="count" id="listCount">${esc(t.results(rows.length))}</div>
+  <div class="count-row">
+    <div class="count" id="listCount">${esc(t.results(rows.length))}</div>
+    <div class="view-switch" id="viewSwitch" data-default="${grid ? 'grid' : 'rows'}">
+      <button type="button" data-view="rows" aria-pressed="${grid ? 'false' : 'true'}" title="${esc(t.viewRows)}" aria-label="${esc(t.viewRows)}">${icon('rows')}</button>
+      <button type="button" data-view="grid" aria-pressed="${grid ? 'true' : 'false'}" title="${esc(t.viewGrid)}" aria-label="${esc(t.viewGrid)}">${icon('grid')}</button>
+    </div>
+  </div>
 </div></div>
-<div class="wrap"><div class="${grid ? 'grid g-3' : 'rows'}" id="listRows">${rows.map(r => r.html).join('')}</div>
+<div class="wrap"><div class="rows${grid ? ' as-grid' : ''}" id="listRows">${rows.map(r => r.html).join('')}</div>
 <p class="sr-empty" id="listEmpty" hidden>${esc(t.noResults)}</p></div>`;
 }
 
@@ -518,19 +524,6 @@ ${pic
 </div></article>`;
 }
 
-/** the same content as dataRow, laid out as a card so a long list tiles instead of
-    running one entry per full-width row with most of the width left empty */
-function dataCard({ name, gloss: gl, desc, meta, foot, cat, kind, pic, id, href, find, lang }) {
-  const inner = `<div class="dc-head">${rowIcon(kind, pic)}
-    <div><div class="row-name">${esc(name)}</div>
-    ${lang === 'th' && gl ? `<div class="row-th gloss">${esc(gl)}</div>` : ''}</div></div>
-  ${desc ? `<div class="row-desc">${esc(desc)}</div>` : ''}
-  ${meta ? `<div class="row-meta">${meta}</div>` : ''}
-  ${foot ? `<div class="dc-foot">${foot}</div>` : ''}`;
-  return `<div class="card data-card"${id ? ` id="${esc(id)}"` : ''} data-cat="${esc(cat || '')}" data-s="${esc((name + ' ' + (gl || '') + ' ' + (desc || '') + ' ' + (find || '')).toLowerCase())}">
-    ${href ? `<a class="dc-link" href="${href}">${inner}</a>` : inner}</div>`;
-}
-
 function dataRow({ name, gloss: gl, desc, meta, mats, cat, kind, pic, id, href, find, lang }) {
   return `<div class="row"${id ? ` id="${esc(id)}"` : ''} data-cat="${esc(cat || '')}" data-s="${esc((name + ' ' + (gl || '') + ' ' + (desc || '') + ' ' + (find || '')).toLowerCase())}">
 ${rowIcon(kind, pic)}
@@ -815,13 +808,13 @@ function furniturePage(lang) {
   /* every furniture id is also an item id, so the descriptions the Thai edition already
      carries apply here too rather than falling back to Serebii's English */
   const rows = furniture.map(f => ({
-    html: dataCard({
+    html: dataRow({
       name: f.name, gloss: G(f.name), desc: itemDesc(itemById.get(f.id) || f, lang),
       cat: f.flags[0] || '', kind: 'home', pic: itemPic(f.img), href: itemHref(lang, f.id), lang,
       find: [...f.flags, ...f.colour, ...f.sources].join(' '),
       meta: f.flags.map(x => `<span class="tag tag-moss">${esc(thCat(x, lang))}</span>`).join('') +
-        f.colour.map(x => `<span class="tag">${esc(thCat(x, lang))}</span>`).join(''),
-      foot: f.sources.length ? esc(f.sources.slice(0, 4).map(x => thSource(x, lang)).join(' · ')) : '',
+        f.colour.map(x => `<span class="tag">${esc(thCat(x, lang))}</span>`).join('') +
+        (f.sources.length ? `<span>${esc(f.sources.slice(0, 4).map(x => thSource(x, lang)).join(' · '))}</span>` : ''),
     })
   }));
   const cats = [...new Set(furniture.flatMap(f => f.flags))].filter(Boolean);
