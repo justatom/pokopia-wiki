@@ -19,12 +19,26 @@
   document.querySelectorAll('#themeBtn, #themeBtn2').forEach(b => b.addEventListener('click', toggleTheme));
 
   /* ---------- nav drawer ---------- */
-  const menuBtn = $('#menuBtn'), navPanel = $('#navPanel');
-  if (menuBtn && navPanel) menuBtn.addEventListener('click', () => {
-    const open = navPanel.hasAttribute('data-open');
-    navPanel.toggleAttribute('data-open', !open);
-    menuBtn.setAttribute('aria-expanded', String(!open));
-  });
+  const menuBtn = $('#menuBtn'), navPanel = $('#navPanel'), headRow = $('.head-row');
+  if (menuBtn && navPanel) {
+    const setOpen = open => {
+      if (open && headRow) {
+        // the header row can wrap on a narrow screen, so its real height is measured
+        document.documentElement.style.setProperty('--head-h', Math.ceil(headRow.getBoundingClientRect().height + 1) + 'px');
+      }
+      navPanel.toggleAttribute('data-open', open);
+      menuBtn.setAttribute('aria-expanded', String(open));
+      document.body.classList.toggle('nav-open', open);
+      if (open) navPanel.scrollTop = 0;
+    };
+    menuBtn.addEventListener('click', () => setOpen(!navPanel.hasAttribute('data-open')));
+    // Escape closes it and hands focus back to the button that opened it
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && navPanel.hasAttribute('data-open')) { setOpen(false); menuBtn.focus(); }
+    });
+    // following a link closes it, which matters for links to a spot on the same page
+    navPanel.addEventListener('click', e => { if (e.target.closest('a[href]')) setOpen(false); });
+  }
 
   /* ---------- list filtering (items / recipes / habitats / dex …) ---------- */
   const filterInput = $('#listFilter'), chipBar = $('#listChips'),

@@ -162,7 +162,21 @@ p:last-child { margin-bottom: 0; }
 
 /* nav drawer */
 .nav-panel { display: none; border-top: 1px solid var(--line); padding: 12px 0 18px; }
-.nav-panel[data-open] { display: block; }
+.nav-panel[data-open] {
+  display: block;
+  /* The menu sits inside the sticky header, and a sticky element taller than the screen
+     cannot be scrolled past its bottom — on a phone the last sections were out of reach.
+     So the open panel is capped at the space below the header row and scrolls inside
+     itself. --head-h is measured by app.js when the menu opens; 100vh is the fallback for
+     browsers without dvh, which is the one that tracks a phone's collapsing URL bar. */
+  max-height: calc(100vh - var(--head-h, 59px));
+  max-height: calc(100dvh - var(--head-h, 59px));
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
+/* while the menu is open the page behind it stays put, so a swipe scrolls the menu */
+body.nav-open { overflow: hidden; }
 .nav-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 4px; }
 .nav-grid a { display: flex; align-items: center; gap: 9px; padding: 10px 12px; border-radius: var(--r-sm); font-family: var(--font-display); font-size: .92rem; color: var(--ink-2); }
 .nav-grid a:hover { background: var(--paper-2); color: var(--ink); }
