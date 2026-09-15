@@ -1433,6 +1433,15 @@ function housematesPage(lang) {
   const t = T[lang], th = lang === 'th';
   const favIndex = [...new Set(HOUSE_MONS.flatMap(p => p.favorites))].sort();
 
+  /* Every item in each favourite category. Written into each theme it would be about 10,800
+     chips — nearly 3 MB — for 43 lists that repeat across 68 themes, so each list ships once
+     as indexes into an item table and a theme's row fills itself in the first time it opens. */
+  const catItems = new Map(favIndex.map(c => [c, items.filter(i => (i.likedAs || []).includes(c))]));
+  const tableIds = [...new Set([...catItems.values()].flat().map(i => i.id))];
+  const tableIndex = new Map(tableIds.map((id, n) => [id, n]));
+  const itemTable = tableIds.map(id => { const i = itemById.get(id); return [i.name, itemHref(lang, i.id), itemPic(i.img) || '']; });
+  const catLists = favIndex.map(c => (catItems.get(c) || []).map(i => tableIndex.get(i.id)));
+
   /* The finder's data travels as indexes rather than names — about a tenth of the size. */
   const monIndex = new Map(HOUSE_MONS.map((p, i) => [p.id, i]));
   const labels = new Set();
@@ -1449,7 +1458,7 @@ function housematesPage(lang) {
   const finderMatches = HOUSE_MONS.map(p => HOUSE_MATCHES.get(p.id).map(m =>
     [monIndex.get(m.o.id), m.shared.map(c => favIndex.indexOf(c)), m.flavour]));
   const data = JSON.stringify({
-    m: finderMons, x: finderMatches, f: favIndex.map(c => thFav(c, lang)),
+    m: finderMons, x: finderMatches, f: favIndex.map(c => thFav(c, lang)), it: itemTable, cl: catLists,
     s: {
       none: th ? 'ไม่พบโปเกมอนชื่อนี้' : 'No Pokémon by that name',
       head: th ? 'เพื่อนร่วมบ้านที่เข้ากันที่สุด' : 'Best housemates',
@@ -1479,6 +1488,9 @@ function housematesPage(lang) {
           : 'This group mixes night-only Pokémon with others — to house them together, keep the home dark or underground.'}</p>` : ''}
         ${furn.length ? `<div class="kit-line"><span class="kit-label">${th ? 'ของแต่งบ้านที่เข้าธีม' : 'Furnish with'}</span>
           <div class="fav-items">${furn.map(x => itemChip(x.i.name, lang)).join('')}</div></div>` : ''}
+        ${theme.cats.map(c => catItems.has(c) ? `<details class="finds hm-catlist" data-cat="${favIndex.indexOf(c)}">
+          <summary>${esc(thFav(c, lang))} <b>${catItems.get(c).length}</b></summary>
+          <div class="fav-items"></div></details>` : '').join('')}
       </article>`;
     }).join('');
     return `<section id="amb-${amb.toLowerCase()}">
@@ -1547,6 +1559,15 @@ function housematesPage(lang) {
           + (r[2] ? '<span class="tag tag-moss">' + D.s.flavour + '</span>' : '') + '</div></div>').join('') + '</div>'
         : '<p class="count">' + D.s.empty + '</p>');
   };
+  document.querySelectorAll('.hm-catlist').forEach(d => d.addEventListener('toggle', () => {
+    if (!d.open || d.dataset.done) return;
+    d.dataset.done = '1';
+    d.querySelector('.fav-items').innerHTML = D.cl[+d.dataset.cat].map(n => {
+      const it = D.it[n];
+      return '<a class="fav-item" href="' + it[1] + '">' + (it[2] ? '<img src="' + it[2] + '" alt="" loading="lazy" width="34" height="34">' : '')
+        + '<span>' + esc(it[0]) + '</span></a>';
+    }).join('');
+  }));
   input.addEventListener('change', show);
   input.addEventListener('input', () => { if (byLabel.has(input.value.trim())) show(); });
 })();
