@@ -30,6 +30,7 @@ Static site, **zero runtime dependencies**, mobile-first. Node 20+ is the only r
 | Area finds — terrain, respawning materials, loose items, Poké Balls, treasure, fishing | 1,562 |
 | Story events (Important Requests), each placed in its area and translated to Thai | 6 |
 | Toys, each with its categories and every Pokémon that likes it | 140 |
+| Themed housemate groups (same ambience + three shared favourites), plus a per-Pokémon finder | 68 |
 | Furniture pieces | 140 |
 | Paint patterns, with where each is found and what it costs | 116 |
 | Outfits, hairstyles and accessories, with pictures and sources | 203 |
@@ -80,6 +81,22 @@ numbers are presented as the in-game order and not a ranking. And Serebii marks 
 per-category item lists as still being filled in — 715 of 1,777 items are catalogued — so
 counts render as a floor (`17+ items`) and each page states its own coverage rather than
 letting a blank read as "belongs to nothing".
+
+### Housemates
+
+`/housemates/` answers "who can share a home?". A house has one environment, so housemates
+must want the same ambience; every favourite category they share is furniture that pleases
+all of them at once; and a night-only Pokémon wants a dark home. None of this is a published
+table — it is worked out from each species' ambience, five favourites and time of day, and
+the page says so.
+
+Grouping every species by the same three favourites gives 236 heavily overlapping groups,
+so a group is kept only when at least half its members are not already in a bigger one for
+that ambience: 68 themed houses, each with the items that count as two of its three
+categories. About a third of Pokémon share three favourites with too few others to form a
+theme, which is why the page also has a finder — type any spelling of a name (English, either
+Thai transliteration, Japanese) and it lists the eight best matches. Every one of the 366 has
+at least one.
 
 ### Gifts
 

@@ -327,6 +327,29 @@ td.num { font-variant-numeric: tabular-nums; color: var(--muted); white-space: n
 .mon-tile span { font-size: .86rem; font-weight: 600; line-height: 1.3; text-align: center; overflow-wrap: anywhere; }
 .mon-tile:hover { border-color: var(--moss); background: var(--moss-soft); color: var(--moss); }
 
+/* housemates: themed houses, and the per-Pokémon finder */
+.mon-tile { position: relative; }
+.hm-badge { position: absolute; top: 6px; right: 6px; font-size: .7rem; padding: 1px 7px; border-radius: 999px; }
+.hm-night { background: var(--ink); color: var(--surface); }
+.hm-day { background: var(--clay-soft); color: var(--clay); }
+.hm-theme { display: grid; gap: 12px; margin-top: 12px; }
+.hm-cats { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.hm-plus { color: var(--muted); font-weight: 600; }
+.hm-count { margin-left: auto; font-size: .84rem; color: var(--muted); }
+.hm-note { margin: 0; font-size: .88rem; color: var(--clay); }
+.hm-finder { display: grid; gap: 12px; }
+.hm-finder h2 { font-size: 1.15rem; }
+.hm-me { display: flex; align-items: center; gap: 14px; }
+.hm-me .mon-tile { width: 120px; }
+.hm-head { margin: 6px 0 0; font-size: 1rem; }
+.hm-results { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; }
+.hm-result { display: grid; grid-template-columns: 112px 1fr; gap: 10px; align-items: start;
+  border: 1px solid var(--line); border-radius: var(--r-sm); padding: 8px; background: var(--surface); }
+.hm-result .mon-tile { border: 0; padding: 4px; }
+.hm-why { display: flex; flex-wrap: wrap; gap: 5px; align-content: start; }
+.hm-why .kit-label { width: 100%; }
+.hm-jump .chip b { color: var(--clay); margin-left: 4px; }
+
 /* favourites block on a Pokémon page */
 .likes { display: grid; gap: 14px; margin-top: 12px; }
 .like-head { display: flex; align-items: baseline; gap: 8px; margin-bottom: 7px; }

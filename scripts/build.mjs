@@ -1356,6 +1356,208 @@ function monChip(id, fallbackName, lang) {
   return `<a class="mon-chip" href="${monUrl(lang, p)}"><img src="${sprite(p)}" alt="" loading="lazy" width="34" height="34" decoding="async"><span>${esc(monTitle(p, lang))}</span></a>`;
 }
 
+/* ---------------- housemates ---------------- */
+/* Pokémon who can share a home. A house has one environment, so housemates must want the
+   same ambience; beyond that, every favourite category they share is furniture that pleases
+   all of them at once. Light is the third axis — a night-only Pokémon needs a dark home.
+   None of this is a published table: it is worked out from each species' own ambience, five
+   favourite categories and time of day, and the page says so. */
+const AMB_ORDER = ['Bright', 'Warm', 'Humid', 'Dry', 'Dark', 'Cool'];
+const nightOnly = p => Array.isArray(p.times) && !p.times.includes('Morning') && !p.times.includes('Day');
+const dayOnly = p => Array.isArray(p.times) && !p.times.includes('Night');
+const HOUSE_MONS = pokemon.filter(p => p.ambience && (p.favorites || []).length === 5);
+
+/* Themed houses: the same ambience and the same three favourite categories. Every species
+   sits in ten such triples, so the raw groups overlap heavily; a group is only kept if at
+   least half of its members are not already in a bigger one for that ambience. */
+const HOUSE_THEMES = Object.fromEntries(AMB_ORDER.map(amb => {
+  const list = HOUSE_MONS.filter(p => p.ambience === amb);
+  const groups = new Map();
+  for (const p of list) {
+    const f = [...p.favorites].sort();
+    for (let a = 0; a < 5; a++) for (let b = a + 1; b < 5; b++) for (let c = b + 1; c < 5; c++) {
+      const key = [f[a], f[b], f[c]].join('|');
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(p.id);
+    }
+  }
+  const kept = [], seen = new Set();
+  const ordered = [...groups].filter(([, v]) => v.length >= 3)
+    .sort((x, y) => y[1].length - x[1].length || x[0].localeCompare(y[0]));
+  for (const [key, ids] of ordered) {
+    if (ids.filter(id => !seen.has(id)).length * 2 < ids.length) continue;
+    kept.push({ cats: key.split('|'), ids });
+    ids.forEach(id => seen.add(id));
+  }
+  return [amb, { total: list.length, themes: kept, loose: list.length - seen.size }];
+}));
+
+/** the items that count as at least two of a theme's three categories — furniture for it */
+function themeItems(cats) {
+  const want = new Set(cats);
+  return items
+    .map(i => ({ i, n: (i.likedAs || []).filter(c => want.has(c)).length }))
+    .filter(x => x.n >= 2)
+    .sort((a, b) => b.n - a.n || a.i.name.localeCompare(b.i.name))
+    .slice(0, 10);
+}
+
+/** each Pokémon's best housemates: same ambience, most favourites in common, then flavour */
+const HOUSE_MATCHES = new Map(HOUSE_MONS.map(p => {
+  const mine = new Set(p.favorites);
+  const ranked = HOUSE_MONS
+    .filter(o => o !== p && o.ambience === p.ambience)
+    .map(o => ({
+      o,
+      shared: o.favorites.filter(f => mine.has(f)),
+      flavour: o.flavor === p.flavor ? 1 : 0,
+      light: nightOnly(p) === nightOnly(o) ? 1 : 0,
+    }))
+    .filter(x => x.shared.length >= 2)
+    .sort((a, b) => b.shared.length - a.shared.length || b.flavour - a.flavour || b.light - a.light || a.o.no - b.o.no)
+    .slice(0, 8);
+  return [p.id, ranked];
+}));
+
+/** a housemate tile: the artwork, the name, and a light badge where it matters */
+function houseTile(p, lang) {
+  const th = lang === 'th';
+  const badge = nightOnly(p) ? `<b class="hm-badge hm-night">${th ? 'กลางคืน' : 'Night'}</b>`
+    : dayOnly(p) ? `<b class="hm-badge hm-day">${th ? 'กลางวัน' : 'Day'}</b>` : '';
+  return `<a class="mon-tile" href="${monUrl(lang, p)}" title="${esc(monTitle(p, lang))}">
+    <img src="${art(p)}" alt="" loading="lazy" width="88" height="88" decoding="async">
+    <span>${esc(monTitle(p, lang))}</span>${badge}</a>`;
+}
+
+function housematesPage(lang) {
+  const t = T[lang], th = lang === 'th';
+  const favIndex = [...new Set(HOUSE_MONS.flatMap(p => p.favorites))].sort();
+
+  /* The finder's data travels as indexes rather than names — about a tenth of the size. */
+  const monIndex = new Map(HOUSE_MONS.map((p, i) => [p.id, i]));
+  const labels = new Set();
+  const finderMons = HOUSE_MONS.map(p => {
+    let label = th
+      ? `${monTitle(p, lang)} · ${p.name}${p.form ? ` (${p.form})` : ''}`
+      : `${monTitle(p, lang)}${p.form ? ` (${p.form})` : ''}`;
+    while (labels.has(label)) label += ` #${p.no}`;
+    labels.add(label);
+    const n = monNames(p);
+    const q = [n.en, n.form, n.alias, n.thEn, n.thJa, n.ja, label].filter(Boolean).join(' ').toLowerCase();
+    return [label, art(p), monUrl(lang, p), thAmb(p.ambience, lang), nightOnly(p) ? 1 : dayOnly(p) ? 2 : 0, q];
+  });
+  const finderMatches = HOUSE_MONS.map(p => HOUSE_MATCHES.get(p.id).map(m =>
+    [monIndex.get(m.o.id), m.shared.map(c => favIndex.indexOf(c)), m.flavour]));
+  const data = JSON.stringify({
+    m: finderMons, x: finderMatches, f: favIndex.map(c => thFav(c, lang)),
+    s: {
+      none: th ? 'ไม่พบโปเกมอนชื่อนี้' : 'No Pokémon by that name',
+      head: th ? 'เพื่อนร่วมบ้านที่เข้ากันที่สุด' : 'Best housemates',
+      amb: th ? 'บรรยากาศ' : 'Ambience',
+      shared: th ? 'ชอบเหมือนกัน' : 'Shared',
+      flavour: th ? 'รสเดียวกัน' : 'Same flavour',
+      night: th ? 'กลางคืน' : 'Night',
+      day: th ? 'กลางวัน' : 'Day',
+      empty: th ? 'ยังไม่มีตัวที่เข้ากันพอ' : 'No close match yet',
+    },
+  }).replace(/</g, '\\u003c');
+
+  const sections = AMB_ORDER.map(amb => {
+    const g = HOUSE_THEMES[amb];
+    if (!g || !g.total) return '';
+    const desc = (AMBIENCE_DESC[amb] || [])[th ? 0 : 1] || '';
+    const themes = g.themes.map(theme => {
+      const mons = theme.ids.map(id => monById.get(id)).filter(Boolean);
+      const furn = themeItems(theme.cats);
+      const mixedLight = mons.some(nightOnly) && mons.some(p => !nightOnly(p));
+      return `<article class="card hm-theme">
+        <div class="hm-cats">${theme.cats.map(c => `<span class="tag tag-clay">${esc(thFav(c, lang))}</span>`).join('<span class="hm-plus">+</span>')}
+          <span class="hm-count">${mons.length} ${th ? 'ตัว' : 'Pokémon'}</span></div>
+        <div class="mon-tiles">${mons.map(p => houseTile(p, lang)).join('')}</div>
+        ${mixedLight ? `<p class="hm-note">${th
+          ? 'กลุ่มนี้มีตัวที่ออกเฉพาะกลางคืนปนอยู่ ถ้าจะให้อยู่บ้านเดียวกัน บ้านควรมืดหรืออยู่ในถ้ำ'
+          : 'This group mixes night-only Pokémon with others — to house them together, keep the home dark or underground.'}</p>` : ''}
+        ${furn.length ? `<div class="kit-line"><span class="kit-label">${th ? 'ของแต่งบ้านที่เข้าธีม' : 'Furnish with'}</span>
+          <div class="fav-items">${furn.map(x => itemChip(x.i.name, lang)).join('')}</div></div>` : ''}
+      </article>`;
+    }).join('');
+    return `<section id="amb-${amb.toLowerCase()}">
+    <div class="sec-title"><h2>${esc(thAmb(amb, lang))}${th ? ` <span class="gloss">${esc(amb)}</span>` : ''}</h2><span>${g.total}</span></div>
+    ${desc ? `<p class="env-desc">${esc(desc)}</p>` : ''}
+    ${themes}
+    ${g.loose ? `<p class="note">${th
+      ? `อีก ${g.loose} ตัวในบรรยากาศนี้ไม่ได้อยู่ในกลุ่มธีมข้างบน เพราะของโปรดของมันไม่ซ้ำกับตัวอื่นมากพอถึงสามหมวด ใช้ช่องค้นหาด้านบนเพื่อดูว่าตัวไหนเข้ากับมันที่สุด`
+      : `${g.loose} more ${amb} Pokémon are in no theme above, because none shares three favourites with enough others — use the finder at the top to see who suits each one best.`}</p>` : ''}
+  </section>`;
+  }).join('');
+
+  const themeCount = AMB_ORDER.reduce((n, a) => n + HOUSE_THEMES[a].themes.length, 0);
+  const body = `${crumb(lang, [[t.nav.housemates]])}
+<div class="wrap stack" style="--gap:22px">
+  <h1>${esc(t.nav.housemates)}</h1>
+  <p class="lede">${th
+      ? 'จับคู่โปเกมอนที่ชอบสิ่งเดียวกันให้อยู่บ้านเดียวกัน บ้านหนึ่งหลังมีสภาพแวดล้อมเดียว ตัวที่อยู่ด้วยกันจึงต้องชอบบรรยากาศเดียวกัน และยิ่งชอบของหมวดเดียวกันมากเท่าไหร่ ของแต่งบ้านชิ้นเดียวก็ทำให้ทุกตัวมีความสุขได้พร้อมกัน'
+      : 'Put Pokémon who like the same things under one roof. A house has one environment, so housemates need the same ambience — and the more favourite categories they share, the more each piece of furniture pleases all of them at once.'}</p>
+  <div class="note">${th
+      ? `<strong>หลักการจับคู่</strong> — ① บรรยากาศต้องตรงกัน (สว่าง อบอุ่น ชื้น แห้ง มืด เย็น) ② ของโปรดที่ซ้ำกัน ยิ่งมากยิ่งดี ③ แสง: ตัวที่ออกเฉพาะกลางคืนต้องการบ้านที่มืด จำนวนที่อยู่ได้ขึ้นกับชุดก่อสร้าง ดูได้ที่<a href="${BASE}/${lang}/building/" style="text-decoration:underline">หน้าการสร้างบ้าน</a> — ข้อมูลนี้คำนวณจากบรรยากาศ ของโปรดห้าหมวด และช่วงเวลาของโปเกมอนแต่ละตัว ไม่ใช่ตารางทางการจากเกม`
+      : `<strong>How the matching works</strong> — ① the same ambience (Bright, Warm, Humid, Dry, Dark or Cool); ② as many shared favourite categories as possible; ③ light: a night-only Pokémon wants a dark home. How many fit depends on the kit — see <a href="${BASE}/${lang}/building/" style="text-decoration:underline">Building</a>. This is worked out from each species' ambience, five favourites and time of day, not an official table from the game.`}</div>
+
+  <section class="card hm-finder">
+    <h2>${th ? 'หาเพื่อนร่วมบ้านให้โปเกมอน' : 'Find housemates for a Pokémon'}</h2>
+    <input class="filter-input" id="hmInput" type="search" list="hmList" autocomplete="off" placeholder="${th ? 'พิมพ์ชื่อโปเกมอน เช่น ปิกาจู หรือ Pikachu' : 'Type a Pokémon, e.g. Pikachu'}">
+    <datalist id="hmList">${finderMons.map(m => `<option value="${esc(m[0])}"></option>`).join('')}</datalist>
+    <div id="hmOut" aria-live="polite"></div>
+  </section>
+
+  <div class="chips hm-jump">${AMB_ORDER.filter(a => HOUSE_THEMES[a].total).map(a => `<a class="chip" href="#amb-${a.toLowerCase()}">${esc(thAmb(a, lang))} <b>${HOUSE_THEMES[a].themes.length}</b></a>`).join('')}</div>
+  <p class="count">${th ? `${themeCount} บ้านธีม จากโปเกมอน ${HOUSE_MONS.length} ตัว` : `${themeCount} themed houses across ${HOUSE_MONS.length} Pokémon`}</p>
+  ${sections}
+</div>
+<script>
+(() => {
+  const D = ${data};
+  const byLabel = new Map(D.m.map((m, i) => [m[0], i]));
+  const input = document.getElementById('hmInput'), out = document.getElementById('hmOut');
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+  const badge = l => l === 1 ? '<b class="hm-badge hm-night">' + D.s.night + '</b>'
+    : l === 2 ? '<b class="hm-badge hm-day">' + D.s.day + '</b>' : '';
+  const tile = i => {
+    const m = D.m[i];
+    return '<a class="mon-tile" href="' + m[2] + '"><img src="' + m[1] + '" alt="" loading="lazy" width="88" height="88"><span>'
+      + esc(m[0].split(' · ')[0]) + '</span>' + badge(m[4]) + '</a>';
+  };
+  const show = () => {
+    const v = input.value.trim();
+    if (!v) { out.innerHTML = ''; return; }
+    let i = byLabel.get(v);
+    if (i === undefined) {
+      /* exact name first, so "Mew" is not answered with Mewtwo; then anything containing it */
+      const q = v.toLowerCase();
+      i = D.m.findIndex(m => m[5].split(' ').includes(q));
+      if (i < 0) i = D.m.findIndex(m => m[5].includes(q));
+    }
+    if (i < 0) { out.innerHTML = '<p class="count">' + D.s.none + '</p>'; return; }
+    const me = D.m[i], list = D.x[i];
+    out.innerHTML = '<div class="hm-me">' + tile(i) + '<div><div class="kit-label">' + D.s.amb + '</div><b>' + esc(me[3]) + '</b></div></div>'
+      + '<h3 class="hm-head">' + D.s.head + '</h3>'
+      + (list.length
+        ? '<div class="hm-results">' + list.map(r =>
+          '<div class="hm-result">' + tile(r[0]) + '<div class="hm-why"><div class="kit-label">' + D.s.shared + ' ' + r[1].length + '/5</div>'
+          + r[1].map(c => '<span class="tag tag-clay">' + esc(D.f[c]) + '</span>').join('')
+          + (r[2] ? '<span class="tag tag-moss">' + D.s.flavour + '</span>' : '') + '</div></div>').join('') + '</div>'
+        : '<p class="count">' + D.s.empty + '</p>');
+  };
+  input.addEventListener('change', show);
+  input.addEventListener('input', () => { if (byLabel.has(input.value.trim())) show(); });
+})();
+</script>`;
+  return layout({
+    lang, base: BASE, title: t.nav.housemates, path: '/housemates/', body,
+    desc: th ? 'จัดกลุ่มโปเกมอนที่ชอบบรรยากาศ ของโปรด และแสงแบบเดียวกัน เพื่อเลือกให้อยู่บ้านเดียวกัน'
+      : 'Pokémon grouped by shared ambience, favourite categories and light, for choosing who lives together.',
+  });
+}
+
 function giftsPage(lang) {
   const t = T[lang];
   const th = lang === 'th';
@@ -2050,6 +2252,7 @@ for (const lang of LANGS) {
   write(`${lang}/story`, storyPage(lang));
   write(`${lang}/building`, buildingPage(lang));
   write(`${lang}/cooking`, cookingPage(lang));
+  write(`${lang}/housemates`, housematesPage(lang));
   write(`${lang}/gifts`, giftsPage(lang));
   write(`${lang}/dream-islands`, dreamIslandsPage(lang));
   write(`${lang}/toys`, toysPage(lang));
