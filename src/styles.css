@@ -364,6 +364,23 @@ td.num { font-variant-numeric: tabular-nums; color: var(--muted); white-space: n
 .hm-why .kit-label { width: 100%; }
 .hm-jump .chip b { color: var(--clay); margin-left: 4px; }
 
+/* transport: the game's own Tips pictures, then steps, then the items each system uses */
+.tp-sec { display: grid; gap: 14px; scroll-margin-top: 80px; }
+.tp-lede { margin: 0; color: var(--ink-2); max-width: 70ch; }
+.tp-figs { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
+.tp-fig { margin: 0; border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; background: var(--surface); }
+.tp-fig img { width: 100%; height: auto; aspect-ratio: 804 / 410; object-fit: cover; background: var(--paper-2); }
+.tp-fig figcaption { padding: 10px 14px 12px; font-size: .92rem; color: var(--ink-2); }
+.tp-steps { margin: 0; padding-left: 1.4em; display: grid; gap: 6px; }
+.tp-items { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+.tp-item { display: grid; gap: 10px; align-content: start; }
+.tp-item-head { display: flex; align-items: center; gap: 12px; }
+.tp-item-head img { width: 64px; height: 64px; object-fit: contain; border-radius: 12px; background: var(--paper-2); padding: 4px; flex: none; }
+.tp-item-head h3 { font-size: 1.02rem; margin: 0; }
+.tp-item-desc { margin: 0; color: var(--ink-2); font-size: .94rem; }
+.tp-item-note { margin: 0; font-size: .86rem; color: var(--muted); }
+.tp-habitat { display: grid; gap: 10px; }
+
 /* favourites block on a Pokémon page */
 .likes { display: grid; gap: 14px; margin-top: 12px; }
 .like-head { display: flex; align-items: baseline; gap: 8px; margin-bottom: 7px; }

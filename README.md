@@ -31,6 +31,7 @@ Static site, **zero runtime dependencies**, mobile-first. Node 20+ is the only r
 | Story events (Important Requests), each placed in its area and translated to Thai | 6 |
 | Toys, each with its categories and every Pokémon that likes it | 140 |
 | Themed housemate groups (same ambience + three shared favourites), plus a per-Pokémon finder | 68 |
+| Transport guide — railways, handcars, railroad crossings, lifts, elevators and climbing, with the game's own Tips pictures | 1 page, 9 pictures |
 | Furniture pieces | 140 |
 | Paint patterns, with where each is found and what it costs | 116 |
 | Outfits, hairstyles and accessories, with pictures and sources | 203 |
@@ -97,6 +98,17 @@ categories. About a third of Pokémon share three favourites with too few others
 theme, which is why the page also has a finder — type any spelling of a name (English, either
 Thai transliteration, Japanese) and it lists the eight best matches. Every one of the 366 has
 at least one.
+
+### Getting around
+
+`/transport/` covers the ways across a map: railways and handcars, the railroad crossing a
+crossing gate makes, lifts, elevators, and climbing. The mechanics are the game's own Tips
+menu as Bulbapedia transcribes it, and the nine pictures are those Tips screenshots from the
+Bulbagarden Archives, converted to WebP (3.9 MB of PNG down to 283 KB) and committed under
+`src/sprites/tips/` so the CI build needs neither the Archives nor an image converter.
+Recipes come from our item data; how each recipe unlocks is from Game8. What no source
+documents — whether track curves, slopes, branches or crosses itself, handcar speed, and
+whether any of it needs power — the page says is undocumented.
 
 ### Gifts
 

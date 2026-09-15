@@ -1356,6 +1356,188 @@ function monChip(id, fallbackName, lang) {
   return `<a class="mon-chip" href="${monUrl(lang, p)}"><img src="${sprite(p)}" alt="" loading="lazy" width="34" height="34" decoding="async"><span>${esc(monTitle(p, lang))}</span></a>`;
 }
 
+/* ---------------- transport ---------------- */
+/* Getting around: rails and handcars, railroad crossings, lifts, elevators, and the ways
+   Ditto climbs and moves on its own. The mechanics are the game's own Tips menu, as
+   Bulbapedia transcribes it, with its pictures; recipes come from Serebii through our item
+   data, and how each recipe is unlocked from Game8. Anything no source documents — track
+   curves, junctions, speeds — is said to be undocumented rather than described. */
+const TIP_PICS = picsIn('tips');
+const tipPic = f => TIP_PICS.has(`${f}.webp`) ? `${BASE}/sprites/tips/${f}.webp` : null;
+
+/** one in-game tip: its picture and what the game says, in the reading language */
+function tipFigure(file, text, lang) {
+  const pic = tipPic(file);
+  return `<figure class="tp-fig">
+    ${pic ? `<img src="${pic}" alt="" loading="lazy" width="804" height="410" decoding="async">` : ''}
+    <figcaption>${esc(L(lang, text))}</figcaption></figure>`;
+}
+
+/** an item used by a transport system: icon, name, what it does, and its recipe */
+function transportItem(name, lang, note) {
+  const th = lang === 'th';
+  const it = itemRef(name);
+  if (!it) return '';
+  const pic = itemImage(it);
+  const r = recipeById.get(it.id);
+  return `<article class="card tp-item">
+    <div class="tp-item-head">
+      ${pic ? `<img src="${pic}" alt="" loading="lazy" width="64" height="64" decoding="async">` : ''}
+      <div><h3><a href="${itemHref(lang, it.id)}">${esc(it.name)}</a></h3>
+        ${th && G(it.name) ? `<div class="gloss">${esc(G(it.name))}</div>` : ''}</div>
+    </div>
+    <p class="tp-item-desc">${esc(itemDesc(it, lang))}</p>
+    ${r && r.materials.length ? `<div class="kit-line"><span class="kit-label">${th ? 'ใช้คราฟต์' : 'Crafted from'}</span>
+      <div class="fav-items">${r.materials.map(m => recipeMaterial(m, lang)).join('')}</div></div>` : ''}
+    ${note ? `<p class="tp-item-note">${esc(L(lang, note))}</p>` : ''}
+  </article>`;
+}
+
+const tl = (en, th) => ({ en, th });
+
+function transportPage(lang) {
+  const t = T[lang], th = lang === 'th';
+  const crossing = habitats.find(h => h.id === '132-railroad-crossing');
+  const sec = (id, title, lede, figs, steps, itemsHtml, extra = '') => `<section id="${id}" class="tp-sec">
+    <div class="sec-title"><h2>${esc(L(lang, title))}</h2></div>
+    <p class="tp-lede">${esc(L(lang, lede))}</p>
+    ${figs.length ? `<div class="tp-figs">${figs.join('')}</div>` : ''}
+    ${steps.length ? `<ol class="tp-steps">${steps.map(s => `<li>${esc(L(lang, s))}</li>`).join('')}</ol>` : ''}
+    ${itemsHtml ? `<div class="tp-items">${itemsHtml}</div>` : ''}
+    ${extra}
+  </section>`;
+
+  const rail = sec('rail',
+    tl('Railways and handcars', 'รางรถไฟและรถราง'),
+    tl('Lay track, put a handcar on it and ride. Link more handcars behind and small Pokémon come along — and once two railroad crossings are joined by track, Pokémon ride the line by themselves.',
+      'วางรางให้ต่อกัน วางรถรางลงบนราง แล้วขึ้นขี่ได้เลย ต่อรถรางเพิ่มด้านหลังก็พาโปเกมอนตัวเล็ก ๆ ไปด้วยได้ และถ้าเชื่อมทางข้ามทางรถไฟสองจุดด้วยราง โปเกมอนจะขึ้นรถรางวิ่งไปมาเองเลย'),
+    [
+      tipFigure('getting-a-handcar-working', tl(
+        'If you place a handcar on connected railway tracks, you can ride it to get around. If you connect additional handcars, you can bring small Pokémon with you on your ride.',
+        'ถ้าวางรถรางบนรางที่ต่อกันไว้ ก็ขี่ไปไหนมาไหนได้ และถ้าต่อรถรางเพิ่มเข้าไป ก็พาโปเกมอนตัวเล็ก ๆ นั่งไปด้วยได้'), lang),
+      tipFigure('getting-a-handcar-working-2', tl(
+        'Place a crossing gate near a line of railway tracks to make a railroad crossing where handcars will briefly stop. Connect two railroad crossings via railway tracks, and Pokémon will ride handcars on their own.',
+        'วางไม้กั้นทางรถไฟไว้ใกล้แนวราง จะกลายเป็นทางข้ามทางรถไฟที่รถรางจอดแวะสักครู่ ถ้าเชื่อมทางข้ามสองจุดด้วยราง โปเกมอนจะขึ้นรถรางวิ่งเองเลย'), lang),
+    ],
+    [
+      tl('Craft railway tracks and lay them so each piece connects to the next.', 'คราฟต์รางรถไฟ แล้ววางให้แต่ละท่อนต่อถึงกัน'),
+      tl('Place a handcar on the connected track and get on to ride.', 'วางรถรางบนรางที่ต่อกันแล้ว ขึ้นไปขี่ได้เลย'),
+      tl('Add more handcars behind the first to carry small Pokémon with you.', 'ต่อรถรางคันอื่นเพิ่มด้านหลังเพื่อพาโปเกมอนตัวเล็กไปด้วย'),
+      tl('Put a crossing gate beside the line to make a railroad crossing — handcars pause there. Join two crossings with track and Pokémon start riding between them on their own.',
+        'วางไม้กั้นทางรถไฟข้างแนวรางเพื่อทำทางข้าม รถรางจะจอดแวะตรงนั้น เชื่อมทางข้ามสองจุดด้วยราง แล้วโปเกมอนจะเริ่มนั่งรถรางไปมาระหว่างสองจุดเอง'),
+    ],
+    transportItem('Railway track', lang, tl(
+      'Recipe: in a yellow Poké Ball in the tunnel at the centre of Rocky Ridges — you need powered-up Cut to get through the wire mesh (Game8).',
+      'สูตร: อยู่ในโปเกบอลสีเหลืองในอุโมงค์กลางแผนที่ Rocky Ridges ต้องใช้ท่า Cut ที่บัฟแล้วตัดตาข่ายเหล็กที่ขวางทาง (Game8)')) +
+    transportItem('Handcar', lang, tl(
+      'Recipe: found at random in glowing water spots (more often on Sundays) or in the PC Shop’s daily stock. One stands in the middle of Rocky Ridges town (Game8).',
+      'สูตร: สุ่มได้จากจุดน้ำเรืองแสง (เจอบ่อยขึ้นวันอาทิตย์) หรือจากร้านค้าประจำวันใน PC และมีรถรางวางอยู่กลางเมือง Rocky Ridges ด้วย (Game8)')) +
+    transportItem('Crossing gate', lang, null),
+    crossing ? `<div class="card tp-habitat">
+      <div class="kit-line"><span class="kit-label">${th ? 'ที่อยู่อาศัยที่ใช้ของชุดนี้' : 'Habitat built from these'}</span>
+        <a class="tag tag-moss" href="${BASE}/${lang}/habitats/#h${crossing.dex}-${crossing.no}">#${crossing.no} ${esc(crossing.name)}${th && G(crossing.name) ? ` · ${esc(G(crossing.name))}` : ''}</a></div>
+      <p class="tp-item-note">${th
+        ? `รางรถไฟ 1 ท่อน + ไม้กั้นทางรถไฟ 1 อัน เป็นที่อยู่อาศัยที่ดึงดูดโปเกมอนเหล่านี้`
+        : `One railway track and one crossing gate make a habitat that brings these Pokémon.`}</p>
+      <div class="mon-tiles">${crossing.mons.map(id => monTile(id, id, lang)).join('')}</div>
+    </div>` : '');
+
+  const lift = sec('lift',
+    tl('Lifts', 'แท่นยก (Lift)'),
+    tl('A lift carries you across to somewhere there is no other way to reach, and other Pokémon can ride with you.',
+      'แท่นยกพาคุณข้ามไปยังที่ไกล ๆ ที่ไม่มีทางอื่นไปถึง และพาโปเกมอนตัวอื่นไปด้วยได้'),
+    [
+      tipFigure('setting-up-a-lift', tl(
+        'You can create a lift by placing two lift platforms facing each other at some distance. You can ride lifts to faraway places when no other path is available and bring other Pokémon with you too.',
+        'สร้างแท่นยกได้โดยวางแท่นยกสองอันหันหน้าเข้าหากันโดยเว้นระยะไว้ ใช้เดินทางไปที่ไกล ๆ ที่ไม่มีทางอื่นไปได้ และพาโปเกมอนตัวอื่นไปด้วยได้'), lang),
+      tipFigure('setting-up-a-lift-2', tl(
+        "You can't make a lift if the lift platforms are too far apart, if the angle between them is too steep, or if something is blocking the space between them.",
+        'จะสร้างแท่นยกไม่ได้ถ้าแท่นสองอันอยู่ห่างกันเกินไป ถ้ามุมระหว่างสองแท่นชันเกินไป หรือถ้ามีอะไรขวางอยู่ระหว่างทาง'), lang),
+    ],
+    [
+      tl('Craft two lift platforms.', 'คราฟต์แท่นยกสองอัน'),
+      tl('Place them facing each other with a gap between.', 'วางให้หันหน้าเข้าหากันและเว้นระยะไว้'),
+      tl('If it will not connect: move them closer, make the slope between them gentler, or clear whatever is in the way.',
+        'ถ้าเชื่อมไม่ติด ให้ขยับเข้ามาใกล้กัน ลดความชันระหว่างสองแท่น หรือเคลียร์ของที่ขวางทางออก'),
+    ],
+    transportItem('Lift platform', lang, tl(
+      'Recipe: learned during the “Follow Tinkmaster” request in the Sparkling Skylands story (Game8). Bulbapedia notes the Skylands islands are reached by flying or by lift.',
+      'สูตร: ได้ระหว่างคำขอ “Follow Tinkmaster” ในเนื้อเรื่อง Sparkling Skylands (Game8) และ Bulbapedia ระบุว่าเกาะต่าง ๆ ใน Skylands ไปถึงได้ด้วยการบินหรือนั่งแท่นยก')));
+
+  const elevator = sec('elevator',
+    tl('Elevators', 'ลิฟต์ (Elevator)'),
+    tl('Stack elevator platforms one above another, join them with ladders, and ride between floors.',
+      'วางแท่นลิฟต์ซ้อนกันในแนวตั้ง เชื่อมด้วยบันได แล้วขึ้นลงระหว่างชั้นได้'),
+    [
+      tipFigure('setting-up-an-elevator', tl(
+        'If you vertically place elevator platforms and connect them by ladders, you can make elevators to transport you up and down.',
+        'ถ้าวางแท่นลิฟต์ในแนวตั้งแล้วเชื่อมด้วยบันได ก็จะได้ลิฟต์ที่พาขึ้นลงได้'), lang),
+      tipFigure('setting-up-an-elevator-2', tl(
+        "You can summon an elevator by pressing the button on the platform. You'll have to wait a bit for the elevator to arrive. Once you're on the elevator, use the up or down button to move to the floor you want to go to.",
+        'เรียกลิฟต์ได้ด้วยการกดปุ่มบนแท่น รอสักครู่ลิฟต์จะมาถึง พอขึ้นลิฟต์แล้ว กดปุ่มขึ้นหรือลงเพื่อไปยังชั้นที่ต้องการ'), lang),
+    ],
+    [
+      tl('Place elevator platforms vertically, one per floor.', 'วางแท่นลิฟต์ในแนวตั้ง ชั้นละหนึ่งแท่น'),
+      tl('Connect the platforms with ladders.', 'เชื่อมแท่นแต่ละชั้นด้วยบันได'),
+      tl('Press the button on a platform to call the elevator, wait for it, then press up or down.', 'กดปุ่มบนแท่นเพื่อเรียกลิฟต์ รอให้มาถึง แล้วกดขึ้นหรือลง'),
+    ],
+    transportItem('Elevator platform', lang, tl(
+      'Recipe: learned during the “Elevator Repair Needed” request in Sparkling Skylands, which starts with Poliwrath below the old Silph Co. building (Game8).',
+      'สูตร: ได้ระหว่างคำขอ “Elevator Repair Needed” ใน Sparkling Skylands ซึ่งเริ่มจากนิวโรโบ้ที่อยู่ใต้ตึก Silph Co. เก่า (Game8)')) +
+    transportItem('Iron ladder', lang, null) +
+    transportItem('Wooden ladder', lang, null));
+
+  const climb = sec('climb',
+    tl('Climbing and moving on your own', 'ปีนป่ายและเดินทางด้วยตัวเอง'),
+    tl('Not every height needs a machine. Ladders, rope and chain climb, blocks placed under your feet lift you up, Glide carries you down and across, and Pokémon can travel with you.',
+      'ความสูงบางที่ไม่ต้องใช้เครื่องจักร บันได เชือก และโซ่ใช้ปีนได้ วางบล็อกใต้เท้าก็ยกตัวเองขึ้นได้ ท่า Glide พาร่อนลงและข้ามไปได้ และพาโปเกมอนเดินทางไปด้วยได้'),
+    [
+      tipFigure('placing-items-at-your-feet', tl(
+        "You can adjust where you place an object by moving the camera as you're placing it. If you point the camera straight down, you can place objects under your feet to lift yourself up one block at a time.",
+        'ปรับตำแหน่งวางของได้ด้วยการหมุนกล้องตอนวาง ถ้าหันกล้องลงตรง ๆ จะวางของใต้เท้าได้ และยกตัวเองขึ้นทีละหนึ่งบล็อก'), lang),
+      tipFigure('glide', tl(
+        "You can press R while you're in the air to transform into Dragonite and use Glide to move around. You can't ascend higher than you were when you started gliding, though!",
+        'กด R ขณะลอยอยู่กลางอากาศเพื่อแปลงร่างเป็นคาอิริวแล้วใช้ท่า Glide ร่อนไปไหนมาไหน แต่จะร่อนขึ้นสูงกว่าจุดที่เริ่มร่อนไม่ได้นะ!'), lang),
+      tipFigure('walking-with-pokemon-2', tl(
+        'Press Up to invite all the Pokémon in front of you to follow you. Up to five Pokémon can travel with you at a time.',
+        'กดปุ่มขึ้นเพื่อชวนโปเกมอนทุกตัวที่อยู่ตรงหน้าให้เดินตาม พาไปด้วยได้ครั้งละสูงสุดห้าตัว'), lang),
+    ],
+    [],
+    // the two ladders already have cards under Elevators, where the game's tip names them
+    ['Rope', 'Metal chain', 'Pulley'].map(n => transportItem(n, lang, null)).join(''),
+    `<p class="note"><a href="#elevator" style="text-decoration:underline">${th ? 'บันไดไม้และบันไดเหล็กอยู่ในหัวข้อลิฟต์ด้านบน' : 'The wooden and iron ladders are under Elevators, above'}</a> ·
+      <a href="${BASE}/${lang}/moves/#glide" style="text-decoration:underline">${th ? 'ดูท่า Glide, Surf และท่าอื่น ๆ ของดิตโต้' : 'See Glide, Surf and Ditto’s other moves'}</a></p>`);
+
+  const body = `${crumb(lang, [[t.nav.transport]])}
+<div class="wrap stack" style="--gap:22px">
+  <h1>${esc(t.nav.transport)}</h1>
+  <p class="lede">${th
+      ? 'รางรถไฟ รถราง ทางข้ามทางรถไฟ แท่นยก และลิฟต์ — วิธีสร้าง วิธีใช้ ของที่ต้องคราฟต์ และวิธีได้สูตร พร้อมภาพจากเมนูเคล็ดลับในเกม'
+      : 'Railways, handcars, railroad crossings, lifts and elevators — how to build and use each, what to craft, and where the recipe comes from, with the pictures from the game’s own Tips menu.'}</p>
+  <div class="chips">${[['rail', tl('Railways', 'รางรถไฟ')], ['lift', tl('Lifts', 'แท่นยก')], ['elevator', tl('Elevators', 'ลิฟต์')], ['climb', tl('Climbing', 'ปีนป่าย')]]
+      .map(([id, label]) => `<a class="chip" href="#${id}">${esc(L(lang, label))}</a>`).join('')}</div>
+  ${rail}
+  ${lift}
+  ${elevator}
+  ${climb}
+  <section class="tp-sec">
+    <div class="sec-title"><h2>${th ? 'สิ่งที่ยังไม่มีแหล่งไหนบันทึกไว้' : 'What no source documents yet'}</h2></div>
+    <p class="note note-clay">${th
+      ? 'ยังไม่มีแหล่งข้อมูลไหนอธิบายว่ารางทำทางโค้ง ทางลาด ทางแยก หรือสี่แยกได้แค่ไหน รถรางวิ่งเร็วเท่าไหร่ รางยาวได้สูงสุดเท่าไหร่ ลิฟต์สูงได้กี่ชั้น หรือระบบเหล่านี้ต้องใช้ไฟฟ้าหรือไม่ — เมนูเคล็ดลับในเกมไม่ได้พูดถึงเรื่องเหล่านี้ เราจึงไม่เดาให้ ทางข้ามที่มีบันทึกไว้คือทางข้ามทางรถไฟที่สร้างจากไม้กั้นด้านบน'
+      : 'No source explains whether track can curve, slope, branch or cross itself, how fast a handcar runs, how long a line or how tall an elevator can be, or whether any of these need electricity — the in-game Tips say nothing about them, so neither does this page. The one crossing that is documented is the railroad crossing made with a crossing gate, above.'}</p>
+  </section>
+  <p class="count">${th ? 'แหล่งข้อมูล' : 'Sources'}:
+    <a href="https://bulbapedia.bulbagarden.net/wiki/Tips_and_Tricks" rel="noopener">${th ? 'เมนูเคล็ดลับในเกม ผ่าน Bulbapedia (ข้อความและภาพ)' : 'the in-game Tips menu, via Bulbapedia (text and pictures)'}</a> ·
+    <a href="https://www.serebii.net/pokemonpokopia/" rel="noopener">Serebii</a> ${th ? '(สูตรและคำอธิบายไอเทม)' : '(recipes and item text)'} ·
+    <a href="https://game8.co/games/Pokemon-Pokopia/archives/587238" rel="noopener">Game8</a> ${th ? '(วิธีได้สูตร)' : '(how each recipe unlocks)'}</p>
+</div>`;
+  return layout({
+    lang, base: BASE, title: t.nav.transport, path: '/transport/', body,
+    desc: th ? 'ระบบขนส่งใน Pokémon Pokopia: รางรถไฟ รถราง ทางข้ามทางรถไฟ แท่นยก ลิฟต์ และการปีนป่าย พร้อมภาพจากเกม'
+      : 'Getting around in Pokémon Pokopia: railways, handcars, railroad crossings, lifts, elevators and climbing, with the game’s own pictures.',
+  });
+}
+
 /* ---------------- housemates ---------------- */
 /* Pokémon who can share a home. A house has one environment, so housemates must want the
    same ambience; beyond that, every favourite category they share is furniture that pleases
@@ -2273,6 +2455,7 @@ for (const lang of LANGS) {
   write(`${lang}/story`, storyPage(lang));
   write(`${lang}/building`, buildingPage(lang));
   write(`${lang}/cooking`, cookingPage(lang));
+  write(`${lang}/transport`, transportPage(lang));
   write(`${lang}/housemates`, housematesPage(lang));
   write(`${lang}/gifts`, giftsPage(lang));
   write(`${lang}/dream-islands`, dreamIslandsPage(lang));
