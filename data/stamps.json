@@ -1,0 +1,203 @@
+{
+ "rules": [
+  "The stamp rally (Japanese: スタンプあつめ collecting stamps) is a feature in Pokopia that rewards the player for checking in daily, unlocked once the player obtains the Wasteland Pokémon Center kit. The Stamp Card (Japanese: スタンプカード Stamp Card) appears when the player boots up the Pokémon Center PC for the first time every day, and can be accessed afterwards through the Stamp Card option on the PC menu.",
+  "A stamp can be added to the stamp card once a day by checking the PC, but additional stamps can be obtained through the PC in others' worlds or on Cloud Islands. If the stamp card is full, the player will be able to select an existing stamp to replace with the new one. These stamps can be exchanged for Life Coins on the Friday of the stamp rally's active week, with an additional 1,500 Life Coins earned with a full stamp card.",
+  "Stamps come in four rarities, each rewarding a different amount of Life Coins."
+ ],
+ "rarities": [
+  {
+   "rarity": "Common",
+   "kind": "First Stage Pokémon",
+   "coins": 50,
+   "img": "Pikachu Stamp Pokopia.png"
+  },
+  {
+   "rarity": "Uncommon",
+   "kind": "Fully Evolved Pokémon",
+   "coins": 100,
+   "img": "Charizard Stamp Pokopia.png"
+  },
+  {
+   "rarity": "Rare",
+   "kind": "Legendary Pokémon",
+   "coins": 200,
+   "img": "Mewtwo Stamp Pokopia.png"
+  },
+  {
+   "rarity": "Mythical",
+   "kind": "Mythical Pokémon",
+   "coins": 1000,
+   "img": "Mew Stamp Pokopia.png"
+  }
+ ],
+ "stamps": [
+  {
+   "name": "Bulbasaur",
+   "rarity": "Common",
+   "img": "Bulbasaur Stamp Pokopia.png",
+   "mon": "001-bulbasaur",
+   "natdex": 1
+  },
+  {
+   "name": "Charmander",
+   "rarity": "Common",
+   "img": "Charmander Stamp Pokopia.png",
+   "mon": "004-charmander",
+   "natdex": 4
+  },
+  {
+   "name": "Squirtle",
+   "rarity": "Common",
+   "img": "Squirtle Stamp Pokopia.png",
+   "mon": "007-squirtle",
+   "natdex": 7
+  },
+  {
+   "name": "Pikachu",
+   "rarity": "Common",
+   "img": "Pikachu Stamp Pokopia.png",
+   "mon": "079-pikachu",
+   "natdex": 25
+  },
+  {
+   "name": "Vulpix",
+   "rarity": "Common",
+   "img": "Vulpix Stamp Pokopia.png",
+   "mon": "207-vulpix",
+   "natdex": 37
+  },
+  {
+   "name": "Meowth",
+   "rarity": "Common",
+   "img": "Meowth Stamp Pokopia.png",
+   "mon": "084-meowth",
+   "natdex": 52
+  },
+  {
+   "name": "Abra",
+   "rarity": "Common",
+   "img": "Abra Stamp Pokopia.png",
+   "mon": "213-abra",
+   "natdex": 63
+  },
+  {
+   "name": "Slowpoke",
+   "rarity": "Common",
+   "img": "Slowpoke Stamp Pokopia.png",
+   "mon": "024-slowpoke",
+   "natdex": 79
+  },
+  {
+   "name": "Tangela",
+   "rarity": "Common",
+   "img": "Tangela Stamp Pokopia.png",
+   "mon": "040-tangela",
+   "natdex": 114
+  },
+  {
+   "name": "Pinsir",
+   "rarity": "Common",
+   "img": "Pinsir Stamp Pokopia.png",
+   "mon": "044-pinsir",
+   "natdex": 127
+  },
+  {
+   "name": "Eevee",
+   "rarity": "Common",
+   "img": "Eevee Stamp Pokopia.png",
+   "mon": "280-eevee",
+   "natdex": 133
+  },
+  {
+   "name": "Porygon",
+   "rarity": "Common",
+   "img": "Porygon Stamp Pokopia.png",
+   "mon": "218-porygon",
+   "natdex": 137
+  },
+  {
+   "name": "Venusaur",
+   "rarity": "Uncommon",
+   "img": "Venusaur Stamp Pokopia.png",
+   "mon": "003-venusaur",
+   "natdex": 3
+  },
+  {
+   "name": "Charizard",
+   "rarity": "Uncommon",
+   "img": "Charizard Stamp Pokopia.png",
+   "mon": "006-charizard",
+   "natdex": 6
+  },
+  {
+   "name": "Blastoise",
+   "rarity": "Uncommon",
+   "img": "Blastoise Stamp Pokopia.png",
+   "mon": "009-blastoise",
+   "natdex": 9
+  },
+  {
+   "name": "Arcanine",
+   "rarity": "Uncommon",
+   "img": "Arcanine Stamp Pokopia.png",
+   "mon": "089-arcanine",
+   "natdex": 59
+  },
+  {
+   "name": "Gengar",
+   "rarity": "Uncommon",
+   "img": "Gengar Stamp Pokopia.png",
+   "mon": "095-gengar",
+   "natdex": 94
+  },
+  {
+   "name": "Gyarados",
+   "rarity": "Uncommon",
+   "img": "Gyarados Stamp Pokopia.png",
+   "mon": "046-gyarados",
+   "natdex": 130
+  },
+  {
+   "name": "Dragonite",
+   "rarity": "Uncommon",
+   "img": "Dragonite Stamp Pokopia.png",
+   "mon": "223-dragonite",
+   "natdex": 149
+  },
+  {
+   "name": "Articuno",
+   "rarity": "Rare",
+   "img": "Articuno Stamp Pokopia.png",
+   "mon": "294-articuno",
+   "natdex": 144
+  },
+  {
+   "name": "Zapdos",
+   "rarity": "Rare",
+   "img": "Zapdos Stamp Pokopia.png",
+   "mon": "295-zapdos",
+   "natdex": 145
+  },
+  {
+   "name": "Moltres",
+   "rarity": "Rare",
+   "img": "Moltres Stamp Pokopia.png",
+   "mon": "296-moltres",
+   "natdex": 146
+  },
+  {
+   "name": "Mewtwo",
+   "rarity": "Rare",
+   "img": "Mewtwo Stamp Pokopia.png",
+   "mon": "299-mewtwo",
+   "natdex": 150
+  },
+  {
+   "name": "Mew",
+   "rarity": "Mythical",
+   "img": "Mew Stamp Pokopia.png",
+   "mon": "300-mew",
+   "natdex": 151
+  }
+ ]
+}

@@ -16,7 +16,7 @@ const pokemon = D('pokemon'), habitats = D('habitats'), items = D('items'), reci
   flavors = D('flavors'), humanrecords = D('humanrecords'), highlightreel = D('highlightreel'),
   dreamislands = D('dreamislands'), cloudislands = D('cloudislands'), envlevel = D('envlevel'),
   patches = D('patches'), events = D('events'), water = D('water'), cooking = D('cooking'),
-  stampcard = D('stampcard'), teamchallenge = D('teamchallenge'), gifts = D('gifts'), favorites = D('favorites'),
+  stamps = D('stamps'), teamchallenge = D('teamchallenge'), gifts = D('gifts'), favorites = D('favorites'),
   cookware = D('cookware'), outfits = D('outfits'), patterns = D('patterns'), toys = D('toys'),
   locations = D('locations');
 const THRECORDS = fs.existsSync('data/th/records.json') ? D('th/records') : {};
@@ -1356,6 +1356,133 @@ function monChip(id, fallbackName, lang) {
   return `<a class="mon-chip" href="${monUrl(lang, p)}"><img src="${sprite(p)}" alt="" loading="lazy" width="34" height="34" decoding="async"><span>${esc(monTitle(p, lang))}</span></a>`;
 }
 
+/* ---------------- stamps ---------------- */
+/* The stamp card: what each stamp is worth, every stamp there is, and how you come by them.
+   Bulbapedia's Stamp rally page supplies the rules, the four rarities and all 24 stamps with
+   the rarity each counts as; Serebii adds two rules nothing else records — that a full card
+   lets you swap a stamp for the day's, and that only ten unique visitors a day can take a
+   stamp from one island's PC. What the coins buy is from Bulbapedia's PC page. */
+const STAMP_PICS = picsIn('stamps');
+const stampPic = name => {
+  const f = `${String(name).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}.webp`;
+  return STAMP_PICS.has(f) ? `${BASE}/sprites/stamps/${f}` : null;
+};
+
+/* A stamp's grade, which is a different scale from a habitat's spawn rarity — that one
+   runs Common/Rare/Very Rare and is translated separately. */
+const STAMP_RARITY_TH = { Common: 'ธรรมดา', Uncommon: 'ค่อนข้างหายาก', Rare: 'หายาก', Mythical: 'หายากที่สุด' };
+const STAMP_KIND_TH = {
+  'First Stage Pokémon': 'โปเกมอนร่างแรก',
+  'Fully Evolved Pokémon': 'โปเกมอนร่างสุดท้าย',
+  'Legendary Pokémon': 'โปเกมอนในตำนาน',
+  'Mythical Pokémon': 'โปเกมอนลึกลับ',
+};
+
+/** one stamp as a tile: its picture, the Pokémon on it, and what it pays */
+function stampTile(st, lang, coins) {
+  const th = lang === 'th';
+  const p = st.mon ? monById.get(st.mon) : null;
+  const pic = stampPic(st.name);
+  const inner = `${pic
+    ? `<img src="${pic}" alt="" loading="lazy" width="120" height="120" decoding="async">`
+    : `<img src="${art({ natdex: st.natdex })}" alt="" loading="lazy" width="120" height="120" decoding="async">`}
+    <span>${esc(p ? monTitle(p, lang) : st.name)}</span>
+    <b class="stamp-coins">${coins} ${th ? 'เหรียญ' : 'coins'}</b>`;
+  return p
+    ? `<a class="stamp-tile" href="${monUrl(lang, p)}" title="${esc(monTitle(p, lang))}">${inner}</a>`
+    : `<span class="stamp-tile">${inner}</span>`;
+}
+
+function stampsPage(lang) {
+  const t = T[lang], th = lang === 'th';
+  const coinOf = new Map(stamps.rarities.map(r => [r.rarity, r.coins]));
+  const order = stamps.rarities.map(r => r.rarity);
+  const coinPic = stampPic('life coin');
+
+  const rarityCards = stamps.rarities.map(r => {
+    const pic = stampPic(String(r.img).replace(/ Stamp Pokopia\.png$/, ''));
+    const n = stamps.stamps.filter(s => s.rarity === r.rarity).length;
+    return `<article class="card stamp-rarity">
+      ${pic ? `<img src="${pic}" alt="" loading="lazy" width="120" height="120" decoding="async">` : ''}
+      <div>
+        <h3>${esc(th ? (STAMP_RARITY_TH[r.rarity] || r.rarity) : r.rarity)}${th ? ` <span class="gloss">${esc(r.rarity)}</span>` : ''}</h3>
+        <p class="stamp-kind">${esc(th ? (STAMP_KIND_TH[r.kind] || r.kind) : r.kind)}</p>
+        <p class="stamp-pay">${coinPic ? `<img src="${coinPic}" alt="" loading="lazy" width="22" height="22" decoding="async">` : ''}
+          <b>${r.coins.toLocaleString('en-US')}</b> ${th ? 'Life Coins' : 'Life Coins'}</p>
+        <p class="stamp-count">${n} ${th ? 'ดวง' : n === 1 ? 'stamp' : 'stamps'}</p>
+      </div></article>`;
+  }).join('');
+
+  const groups = order.map(rarity => {
+    const list = stamps.stamps.filter(s => s.rarity === rarity);
+    if (!list.length) return '';
+    return `<section class="stamp-group">
+      <div class="sec-title"><h3>${esc(th ? (STAMP_RARITY_TH[rarity] || rarity) : rarity)}</h3><span>${list.length}</span></div>
+      <div class="stamp-tiles">${list.map(s => stampTile(s, lang, coinOf.get(s.rarity) || 0)).join('')}</div>
+    </section>`;
+  }).join('');
+
+  const cardPic = stampPic('completed card');
+  const body = `${crumb(lang, [[t.nav.stamps]])}
+<div class="wrap stack" style="--gap:22px">
+  <h1>${esc(t.nav.stamps)}</h1>
+  <p class="lede">${th
+      ? 'เปิด PC ที่โปเกมอนเซ็นเตอร์ทุกวันจะได้สแตมป์วันละหนึ่งดวง สะสมลงการ์ดตลอดสัปดาห์ แล้วนำไปแลกเป็น Life Coins ในวันศุกร์ สแตมป์แต่ละดวงมีมูลค่าไม่เท่ากันตามความหายากของโปเกมอนบนดวงนั้น'
+      : 'Open the PC at a Pokémon Center each day and you get one stamp. Fill the card over the week and exchange it for Life Coins on Friday — and what each stamp pays depends on how rare the Pokémon on it is.'}</p>
+
+  <section class="stamp-how">
+    ${cardPic ? `<figure class="tp-fig"><img src="${cardPic}" alt="" loading="lazy" width="512" height="348" decoding="async">
+      <figcaption>${th ? 'สแตมป์การ์ดที่เก็บครบแล้ว' : 'A completed stamp card'}</figcaption></figure>` : ''}
+    <div>
+      <div class="sec-title"><h2>${th ? 'วิธีได้สแตมป์' : 'How you get them'}</h2></div>
+      <ol class="tp-steps">
+        <li>${th
+          ? 'ปลดล็อกเมื่อได้ชุดสร้างโปเกมอนเซ็นเตอร์ของ Withered Wastelands แล้วการ์ดจะโผล่มาเองตอนเปิด PC ครั้งแรกของวัน หลังจากนั้นเข้าดูได้จากเมนู Stamp Card ใน PC'
+          : 'It unlocks once you have the Withered Wasteland Pokémon Center kit. The card appears the first time you boot the PC each day, and afterwards sits under the Stamp Card option on the PC menu.'}</li>
+        <li>${th
+          ? 'เช็ก PC ได้วันละหนึ่งดวง อยากได้เพิ่มในวันเดียวกัน ให้ไปเช็ก PC บนเกาะของเพื่อนหรือบนเกาะเมฆ'
+          : 'Checking your own PC gives one stamp a day. For more on the same day, check the PC in someone else’s world or on a Cloud Island.'}</li>
+        <li>${th
+          ? 'ถ้าการ์ดเต็มก่อนถึงวันแลก เลือกสลับสแตมป์ดวงเดิมออกเพื่อรับดวงของวันนั้นแทนได้'
+          : 'If the card is already full, you can pick an existing stamp to replace with the day’s new one.'}</li>
+        <li>${th
+          ? 'นำไปแลกเป็น Life Coins ในวันศุกร์ของสัปดาห์นั้น และถ้าเก็บครบทั้งการ์ด จะได้โบนัสเพิ่มอีก 1,500 Life Coins'
+          : 'Exchange the card for Life Coins on the Friday of that week — and a full card pays an extra 1,500 Life Coins on top.'}</li>
+      </ol>
+      <p class="note">${th
+        ? 'ข้อควรรู้จาก Serebii: PC ของเกาะหนึ่งแจกสแตมป์ให้ผู้มาเยือนได้วันละ 10 คนที่ไม่ซ้ำกันเท่านั้น ดังนั้นการไล่เก็บจากเกาะเพื่อน 4 เกาะในวันเดียวจะเก็บการ์ดเต็มได้ภายในวันเดียว'
+        : 'From Serebii: one island’s PC only gives a stamp to ten unique visitors a day, and four friends’ islands in a day are enough to fill a card in one sitting.'}</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-title"><h2>${th ? 'มูลค่าของสแตมป์แต่ละระดับ' : 'What each stamp is worth'}</h2><span>${stamps.rarities.length}</span></div>
+    <div class="stamp-rarities">${rarityCards}</div>
+    <p class="note">${th
+      ? 'Life Coins ใช้ซื้อของในแท็บ Shop ของ PC เช่น ชุดก่อสร้าง ชุดย้ายอาคาร ส่วนขยายกระเป๋า PP Up และสูตรคราฟต์พิเศษ ซึ่งของแต่ละพื้นที่ไม่เหมือนกัน'
+      : 'Life Coins are spent in the PC’s Shop tab on things that are hard to get elsewhere — construction and relocation kits, bag upgrades, PP Ups and special crafting recipes, with a different selection per area.'}</p>
+  </section>
+
+  <section>
+    <div class="sec-title"><h2>${th ? 'สแตมป์ทั้งหมด' : 'Every stamp'}</h2><span>${stamps.stamps.length}</span></div>
+    <p class="tp-lede">${th
+      ? 'กดที่ดวงไหนก็ได้เพื่อเปิดหน้าโปเกมอนตัวนั้น ตัวเลขใต้ชื่อคือจำนวนเหรียญที่ได้เมื่อนำไปแลก'
+      : 'Tap any stamp to open that Pokémon’s page. The figure under each name is what it pays when the card is exchanged.'}</p>
+    ${groups}
+  </section>
+
+  <p class="count">${th ? 'แหล่งข้อมูล' : 'Sources'}:
+    <a href="https://bulbapedia.bulbagarden.net/wiki/Stamp_rally" rel="noopener">Bulbapedia — Stamp rally</a> ${th ? '(กฎ ระดับความหายาก รายชื่อสแตมป์ และรูป)' : '(rules, rarities, the stamp list and the pictures)'} ·
+    <a href="https://www.serebii.net/pokemonpokopia/stampcard.shtml" rel="noopener">Serebii</a> ${th ? '(ข้อจำกัด 10 คนต่อเกาะต่อวัน)' : '(the ten-visitors-a-day limit)'} ·
+    <a href="https://bulbapedia.bulbagarden.net/wiki/PC" rel="noopener">Bulbapedia — PC</a> ${th ? '(ของที่ซื้อได้ด้วยเหรียญ)' : '(what the coins buy)'}</p>
+</div>`;
+  return layout({
+    lang, base: BASE, title: t.nav.stamps, path: '/stamps/', body,
+    desc: th ? 'สแตมป์การ์ดใน Pokémon Pokopia: สแตมป์ทั้ง 24 ดวง มูลค่าเป็น Life Coins ของแต่ละดวง และวิธีได้มา'
+      : 'The Pokémon Pokopia stamp card: all 24 stamps, what each is worth in Life Coins, and how to get them.',
+  });
+}
+
 /* ---------------- transport ---------------- */
 /* Getting around: rails and handcars, railroad crossings, lifts, elevators, and the ways
    Ditto climbs and moves on its own. The mechanics are the game's own Tips menu, as
@@ -2256,9 +2383,10 @@ function collectionsPage(lang) {
     <thead><tr><th>${lang === 'th' ? 'เกาะ' : 'Island'}</th><th>${lang === 'th' ? 'โค้ด' : 'Code'}</th></tr></thead>
     <tbody>${cloudislands.map(c => `<tr><td>${esc(c.desc)}</td><td class="num"><strong>${esc(c.code)}</strong></td></tr>`).join('')}</tbody></table></div>`)}
 
-  ${sec(lang === 'th' ? 'สแตมป์การ์ด' : 'Stamp card', stampcard.length, `<div class="table-scroll"><table>
-    <thead><tr><th>${lang === 'th' ? 'สแตมป์' : 'Stamp'}</th><th>${lang === 'th' ? 'เหรียญ' : 'Coins'}</th></tr></thead>
-    <tbody>${stampcard.map(s => `<tr><td>${esc(s.name)}</td><td class="num">${esc(s.coins)}</td></tr>`).join('')}</tbody></table></div>`)}
+  ${sec(lang === 'th' ? 'สแตมป์การ์ด' : 'Stamp card', stamps.stamps.length, `<div class="table-scroll"><table>
+    <thead><tr><th>${lang === 'th' ? 'ความหายาก' : 'Rarity'}</th><th>${lang === 'th' ? 'โปเกมอนแบบไหน' : 'Which Pokémon'}</th><th>Life Coins</th></tr></thead>
+    <tbody>${stamps.rarities.map(r => `<tr><td>${esc(lang === 'th' ? (STAMP_RARITY_TH[r.rarity] || r.rarity) : r.rarity)}</td><td>${esc(lang === 'th' ? (STAMP_KIND_TH[r.kind] || r.kind) : r.kind)}</td><td class="num">${r.coins.toLocaleString('en-US')}</td></tr>`).join('')}</tbody></table></div>
+    <p class="note"><a href="${BASE}/${lang}/stamps/" style="text-decoration:underline">${lang === 'th' ? `ดูสแตมป์ทั้ง ${stamps.stamps.length} ดวง มูลค่าแต่ละดวง และวิธีได้มา` : `See all ${stamps.stamps.length} stamps, what each is worth and how to get them`}</a></p>`)}
 
   ${sec(lang === 'th' ? 'ชนิดของน้ำ' : 'Liquid types', water.length, `<div class="table-scroll"><table>
     <thead><tr><th>${lang === 'th' ? 'ชนิด' : 'Liquid'}</th><th>${lang === 'th' ? 'คุณสมบัติ' : 'Behaviour'}</th><th>${lang === 'th' ? 'ได้จากเครื่องดื่ม' : 'From drink'}</th></tr></thead>
@@ -2455,6 +2583,7 @@ for (const lang of LANGS) {
   write(`${lang}/story`, storyPage(lang));
   write(`${lang}/building`, buildingPage(lang));
   write(`${lang}/cooking`, cookingPage(lang));
+  write(`${lang}/stamps`, stampsPage(lang));
   write(`${lang}/transport`, transportPage(lang));
   write(`${lang}/housemates`, housematesPage(lang));
   write(`${lang}/gifts`, giftsPage(lang));

@@ -293,6 +293,7 @@ fs.writeFileSync(`${R}/likes.json`, JSON.stringify(likes, null, 1));
 /* Bulbapedia's Building page is the only source that records what each kit costs —
    materials and quantities, the Pokémon and specialties needed, and the build time. */
 await bulba('Building', `${R}/bulba_building.json`);
+await bulba('Stamp rally', `${R}/bulba_stamps.json`);
 console.log(`  ${Object.keys(likes).length} Pokémon with likes`);
 
 /* ------------------------------------------------------------------ */

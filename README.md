@@ -32,6 +32,7 @@ Static site, **zero runtime dependencies**, mobile-first. Node 20+ is the only r
 | Toys, each with its categories and every Pokémon that likes it | 140 |
 | Themed housemate groups (same ambience + three shared favourites), plus a per-Pokémon finder | 68 |
 | Transport guide — railways, handcars, railroad crossings, lifts, elevators and climbing, with the game's own Tips pictures | 1 page, 9 pictures |
+| Stamp card — every stamp with its rarity, what it pays in Life Coins, and its picture | 24 |
 | Furniture pieces | 140 |
 | Paint patterns, with where each is found and what it costs | 116 |
 | Outfits, hairstyles and accessories, with pictures and sources | 203 |
@@ -98,6 +99,20 @@ categories. About a third of Pokémon share three favourites with too few others
 theme, which is why the page also has a finder — type any spelling of a name (English, either
 Thai transliteration, Japanese) and it lists the eight best matches. Every one of the 366 has
 at least one.
+
+### The stamp card
+
+`/stamps/` is the daily stamp rally: what each stamp is worth and how to come by them.
+Serebii's table is four rows — a rarity and its payout. Bulbapedia's Stamp rally page is the
+only source that names all 24 stamps and the rarity each counts as, which is what you need
+when a full card makes you replace one, and `scripts/stamps.mjs` parses it into
+`data/stamps.json`. Serebii still supplies two rules nothing else records: a full card lets
+you swap a stamp for the day's, and one island's PC only gives a stamp to ten unique
+visitors a day. What the coins buy comes from Bulbapedia's PC page.
+
+The 26 pictures — 24 stamps, the Life Coin and a completed card — are Archives files
+converted to WebP (2.3 MB down to 365 KB) and committed under `src/sprites/stamps/`, so the
+CI build needs neither the Archives nor an image converter.
 
 ### Getting around
 

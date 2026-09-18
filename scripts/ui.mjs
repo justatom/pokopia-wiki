@@ -37,6 +37,7 @@ const P = {
   globe: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/>',
   info: '<circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/>',
   rows: '<path d="M9 6h11M9 12h11M9 18h11"/><path d="M4.5 6h.01M4.5 12h.01M4.5 18h.01"/>',
+  stamp: '<path d="M5 5h14v14H5z"/><path d="M9 9h6v6H9z"/><path d="M5 8H3M5 12H3M5 16H3M21 8h-2M21 12h-2M21 16h-2"/>',
   rail: '<rect x="6" y="3" width="12" height="13" rx="3"/><path d="M6 10h12M9.5 13h.01M14.5 13h.01M9 16l-3 5M15 16l3 5M7.5 19h9"/>',
   grid: '<rect x="3.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.5"/>',
 };
@@ -170,6 +171,7 @@ export const NAV = [
       { key: 'toys', href: '/toys/', icon: 'sparkles' },
       { key: 'cooking', href: '/cooking/', icon: 'chef' },
       { key: 'collections', href: '/collections/', icon: 'disc' },
+      { key: 'stamps', href: '/stamps/', icon: 'stamp' },
     ]
   },
   {
@@ -198,7 +200,7 @@ export const EN = {
     home: 'Home', basics: 'Guides', story: 'Story', pokedex: 'Pokédex', characters: 'Characters',
     specialties: 'Specialties', moves: 'Moves', locations: 'Locations', habitats: 'Habitats',
     building: 'Building', transport: 'Getting around', dreamIslands: 'Dream Islands', items: 'Items', recipes: 'Crafting', furniture: 'Furniture', toys: 'Toys',
-    cooking: 'Cooking', collections: 'Collectibles', housemates: 'Housemates', gifts: 'Gifts', outfits: 'Outfits', records: 'Human Records', events: 'Events', updates: 'Updates',
+    cooking: 'Cooking', collections: 'Collectibles', stamps: 'Stamp card', housemates: 'Housemates', gifts: 'Gifts', outfits: 'Outfits', records: 'Human Records', events: 'Events', updates: 'Updates',
     dlc: 'Expansion Pass', about: 'About',
   },
   showMore: 'Show more',
@@ -227,7 +229,7 @@ export const TH = {
     home: 'หน้าแรก', basics: 'คู่มือ', story: 'เนื้อเรื่อง', pokedex: 'โปเกเด็กซ์', characters: 'ตัวละคร',
     specialties: 'ความถนัด', moves: 'ท่าของดิตโต้', locations: 'สถานที่', habitats: 'ที่อยู่อาศัย',
     building: 'การสร้างบ้าน', transport: 'ระบบขนส่ง', dreamIslands: 'เกาะแห่งความฝัน', items: 'ไอเทม', recipes: 'สูตรคราฟต์', furniture: 'เฟอร์นิเจอร์', toys: 'ของเล่น',
-    cooking: 'การทำอาหาร', collections: 'ของสะสม', housemates: 'โปเกมอนที่อยู่ด้วยกันได้', gifts: 'ของขวัญจากโปเกมอน', outfits: 'เครื่องแต่งกาย', records: 'บันทึกของมนุษย์', events: 'อีเวนต์', updates: 'แพตช์อัปเดต',
+    cooking: 'การทำอาหาร', collections: 'ของสะสม', stamps: 'สแตมป์การ์ด', housemates: 'โปเกมอนที่อยู่ด้วยกันได้', gifts: 'ของขวัญจากโปเกมอน', outfits: 'เครื่องแต่งกาย', records: 'บันทึกของมนุษย์', events: 'อีเวนต์', updates: 'แพตช์อัปเดต',
     dlc: 'Expansion Pass', about: 'เกี่ยวกับเว็บนี้',
   },
   showMore: 'ดูเพิ่ม',

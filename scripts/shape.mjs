@@ -440,7 +440,25 @@ W('furniture', table(sec('furniture').rows, 6).map(r => ({
 W('cds', table(sec('cds').rows, 5).map(r => ({ name: cell(r[1]), desc: cell(r[2]), img: icon(cell(r[1])), sources: list(r[3]), game: cell(r[4]) })).filter(x => x.name && x.name !== 'Name'));
 const emotes = table(sec('emotes').rows, 2).map(r => ({ name: cell(r[0]), source: cell(r[1]) })).filter(x => x.name && x.name !== 'Emote');
 W('emotes', emotes);
-W('stampcard', table(sec('stampcard').rows, 3).map(r => ({ name: cell(r[1]), coins: cell(r[2]) })).filter(x => x.name && x.name !== 'Stamp'));
+
+/* ---------- stamps ---------- */
+/* Serebii's stamp card table is four rows: a rarity and what it pays. Bulbapedia's Stamp
+   rally page is the only source that names all 24 stamps and the rarity each counts as,
+   which is what you need when a full card forces you to replace one. Its rules paragraphs
+   come along too; Serebii adds two the other does not record, and those are written into
+   the page rather than parsed. */
+if (fs.existsSync('_research/bulba_stamps.json')) {
+  const { default: parseStamps } = await import('./stamps.mjs');
+  const got = parseStamps(j('_research/bulba_stamps.json').parse.wikitext);
+  const byName = new Map(pokemon.filter(p => p.dex === 'main' && !p.form).map(p => [slug(p.name), p]));
+  const stamps = got.stamps.map(st => {
+    const p = byName.get(slug(st.name));
+    return { ...st, mon: p ? p.id : null, natdex: p ? p.natdex : null };
+  });
+  const lost = stamps.filter(x => !x.mon).map(x => x.name);
+  console.log(`   ${stamps.length} stamps, ${got.rarities.length} rarities` + (lost.length ? `, no Pokémon for: ${lost.join(', ')}` : ''));
+  W('stamps', { rules: got.rules, rarities: got.rarities, stamps });
+}
 W('teamchallenge', table(sec('teaminitiationchallenge').rows, 4).map(r => ({ no: cell(r[0]), requirements: list(r[1]), notes: cell(r[2]), reward: cell(r[3]) })).filter(x => /^\d+$/.test(x.no)));
 W('events', table(sec('events').rows, 3).map(r => ({ name: cell(r[1]), duration: cell(r[2]) })).filter(x => x.name && x.name !== 'Name'));
 W('water', table(sec('water').rows, 4).map(r => ({ name: cell(r[1]), desc: cell(r[2]), item: cell(r[3]) })).filter(x => x.name && x.name !== 'Name'));
