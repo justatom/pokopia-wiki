@@ -33,6 +33,7 @@ Static site, **zero runtime dependencies**, mobile-first. Node 20+ is the only r
 | Themed housemate groups (same ambience + three shared favourites), plus a per-Pokémon finder | 68 |
 | Transport guide — railways, handcars, railroad crossings, lifts, elevators and climbing, with the game's own Tips pictures | 1 page, 9 pictures |
 | Stamp card — every stamp with its rarity, what it pays in Life Coins, and its picture | 24 |
+| Liquid flow — five liquids with their icons, a spread-distance table and Serebii's in-game diagrams | 10 pictures |
 | Furniture pieces | 140 |
 | Paint patterns, with where each is found and what it costs | 116 |
 | Outfits, hairstyles and accessories, with pictures and sources | 203 |
@@ -99,6 +100,20 @@ categories. About a third of Pokémon share three favourites with too few others
 theme, which is why the page also has a finder — type any spelling of a name (English, either
 Thai transliteration, Japanese) and it lists the eight best matches. Every one of the 366 has
 at least one.
+
+### Liquid flow
+
+The water guide already carried the numbers; what it lacked was anything to look at. A guide
+can now take an illustrated section (`GUIDE_EXTRA` in `build.mjs`), and the water one gets
+three: the five liquids with their in-game icons and the drink each is made from, a table of
+how far a liquid travels in each situation, and Serebii's own screenshots of a slope before
+and after the liquid settles.
+
+Serebii measures "water" as a whole and only separates lava, so the table has one water
+column covering Fresh, Ocean, Muddy and Hot Spring alike, and says so rather than inventing
+per-liquid figures. The 15 pictures are 522 KB of JPEG and PNG down to 345 KB, committed
+under `src/sprites/liquids/`; the flat-colour chart stays a PNG because WebP made it seven
+times bigger.
 
 ### The stamp card
 

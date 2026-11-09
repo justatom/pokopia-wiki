@@ -381,6 +381,15 @@ td.num { font-variant-numeric: tabular-nums; color: var(--muted); white-space: n
 .tp-item-note { margin: 0; font-size: .86rem; color: var(--muted); }
 .tp-habitat { display: grid; gap: 10px; }
 
+/* the five liquids and Serebii's flow screenshots, on the water guide */
+.liquids { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; }
+.liquid { display: grid; grid-template-columns: 72px 1fr; gap: 14px; align-items: start; }
+.liquid-ico { width: 72px; height: 72px; object-fit: contain; border-radius: 12px; background: var(--paper-2); padding: 6px; }
+.liquid h3 { margin: 0; font-size: 1.05rem; }
+.liquid-desc { margin: 6px 0 0; font-size: .92rem; color: var(--ink-2); white-space: pre-line; }
+/* these are 16:9 screenshots and one chart that is not — contain rather than crop */
+.liquid-figs .tp-fig img { aspect-ratio: 16 / 9; object-fit: contain; }
+
 /* the stamp card: how it works, what each rarity pays, and every stamp */
 .stamp-how { display: grid; gap: 18px; align-items: start; }
 @media (min-width: 860px) { .stamp-how { grid-template-columns: minmax(280px, 380px) 1fr; } }

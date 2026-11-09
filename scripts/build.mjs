@@ -1089,6 +1089,10 @@ function guidesPage(lang) {
   return layout({ lang, base: BASE, title: t.nav.basics, desc: 'Pokopia guides', path: '/guides/', body });
 }
 
+/* Sections a guide gets beyond its prose, where a source publishes the pictures or
+   figures for it. Only the water guide has any so far. */
+const GUIDE_EXTRA = { water: liquidsSection };
+
 function guidePage(g, lang) {
   const t = T[lang];
   const body = `${crumb(lang, [[t.nav.basics, `${BASE}/${lang}/guides/`], [L(lang, g.title)]])}
@@ -1101,6 +1105,7 @@ function guidePage(g, lang) {
   <div class="prose">
     ${g.blocks.map(bl => `<h2>${esc(L(lang, bl.h))}</h2>${bl.p.map(x => `<p>${esc(L(lang, x))}</p>`).join('')}`).join('')}
   </div>
+  ${(GUIDE_EXTRA[g.slug] || (() => ''))(lang)}
   <nav class="grid g-2">${GUIDES.filter(x => x.slug !== g.slug).slice(0, 4).map(x => `
     <a class="card" href="${BASE}/${lang}/guide/${x.slug}/"><div style="font-size:.8rem;color:var(--muted)">${esc(t.nav.basics)}</div><div style="font-weight:600">${esc(L(lang, x.title))}</div></a>`).join('')}</nav>
 </div>`;
@@ -1354,6 +1359,115 @@ function monChip(id, fallbackName, lang) {
   const p = monById.get(id);
   if (!p) return `<span>${esc(fallbackName)}</span>`;
   return `<a class="mon-chip" href="${monUrl(lang, p)}"><img src="${sprite(p)}" alt="" loading="lazy" width="34" height="34" decoding="async"><span>${esc(monTitle(p, lang))}</span></a>`;
+}
+
+/* ---------------- liquids ---------------- */
+/* The water guide carries the numbers; this adds the five liquids with their icons, a table
+   of how far each spreads, and Serebii's own screenshots of what that looks like in play.
+   Every figure here is from Serebii's water page, which is where the distances come from
+   too — no source gives separate distances for Ocean, Muddy and Hot Spring water, so the
+   table says "water" for all four and gives lava its own column. */
+const LIQUID_PICS = picsIn('liquids');
+const liquidPic = name => {
+  const base = String(name).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  /* the screenshots are WebP; the flat-colour chart stays a PNG, which is smaller for it */
+  const f = ['webp', 'png'].map(x => `${base}.${x}`).find(x => LIQUID_PICS.has(x));
+  return f ? `${BASE}/sprites/liquids/${f}` : null;
+};
+
+/** one picture from Serebii's water page, with what it shows */
+function liquidFigure(file, caption, lang) {
+  const pic = liquidPic(file);
+  if (!pic) return '';
+  return `<figure class="tp-fig">
+    <img src="${pic}" alt="" loading="lazy" width="900" height="506" decoding="async">
+    <figcaption>${esc(L(lang, caption))}</figcaption></figure>`;
+}
+
+/* Serebii's figures for how far a liquid travels. Water covers Fresh, Ocean, Muddy and Hot
+   Spring alike; only lava is measured separately. */
+const FLOW_ROWS = [
+  {
+    what: { en: 'Puddle on flat ground', th: 'แอ่งบนพื้นราบ' },
+    water: { en: 'a circle about 6 tiles out', th: 'วงกลมออกไปราว 6 ช่อง' },
+    lava: { en: 'half as far, and much slower', th: 'ครึ่งหนึ่งของน้ำ และช้ากว่ามาก' },
+  },
+  {
+    what: { en: 'Funnelled along a trench', th: 'ไหลในร่องที่มีผนังบังคับ' },
+    water: { en: '25 blocks', th: '25 บล็อก' },
+    lava: { en: '12 blocks', th: '12 บล็อก' },
+  },
+  {
+    what: { en: 'Puddle at low water level', th: 'แอ่งเมื่อตั้งระดับน้ำต่ำ' },
+    water: { en: 'a circle 7 blocks wide', th: 'วงกลมกว้าง 7 บล็อก' },
+    lava: { en: 'a circle 5 blocks wide', th: 'วงกลมกว้าง 5 บล็อก' },
+  },
+  {
+    what: { en: 'Trench at low water level', th: 'ไหลในร่องเมื่อตั้งระดับน้ำต่ำ' },
+    water: { en: '12 blocks', th: '12 บล็อก' },
+    lava: { en: '6 blocks', th: '6 บล็อก' },
+  },
+  {
+    what: { en: 'Within 4 tiles of a drop', th: 'อยู่ในระยะ 4 ช่องจากขอบตก' },
+    water: { en: 'stops spreading and runs straight for the edge, two tiles wide', th: 'หยุดแผ่ แล้วพุ่งตรงไปที่ขอบเป็นเส้นกว้างสองช่อง' },
+    lava: { en: 'heads for the edge but spreads again from the second tile', th: 'มุ่งไปที่ขอบ แต่เริ่มแผ่ตัวอีกครั้งตั้งแต่ช่องที่สอง' },
+  },
+];
+
+/** the five liquids, how far they spread, and Serebii's pictures of it */
+function liquidsSection(lang) {
+  const th = lang === 'th';
+
+  const cards = water.map(w => {
+    const thw = th ? THM.water[w.name] : null;
+    const pic = liquidPic(w.name);
+    return `<article class="card liquid">
+      ${pic ? `<img class="liquid-ico" src="${pic}" alt="" loading="lazy" width="72" height="72" decoding="async">` : ''}
+      <div>
+        <h3>${esc(thw ? thw[0] : w.name)}${th ? ` <span class="gloss">${esc(w.name)}</span>` : ''}</h3>
+        <p class="liquid-desc">${esc(thw ? thw[1] : w.desc)}</p>
+        <div class="kit-line"><span class="kit-label">${th ? 'ได้จากเครื่องดื่ม' : 'From the drink'}</span>
+          <div class="fav-items">${itemChip(w.item, lang)}</div></div>
+      </div></article>`;
+  }).join('');
+
+  return `
+  <section id="liquids" class="tp-sec">
+    <div class="sec-title"><h2>${th ? 'ของเหลวทั้งห้าชนิด' : 'The five liquids'}</h2><span>${water.length}</span></div>
+    <div class="liquids">${cards}</div>
+  </section>
+
+  <section id="spread" class="tp-sec">
+    <div class="sec-title"><h2>${th ? 'ไหลไปได้ไกลกี่ช่อง' : 'How far each one spreads'}</h2></div>
+    <div class="table-scroll"><table>
+      <thead><tr><th>${th ? 'สถานการณ์' : 'Situation'}</th><th>${th ? 'น้ำ (ทุกชนิด)' : 'Water (any kind)'}</th><th>${th ? 'ลาวา' : 'Lava'}</th></tr></thead>
+      <tbody>${FLOW_ROWS.map(r => `<tr><td><strong>${esc(L(lang, r.what))}</strong></td><td>${esc(L(lang, r.water))}</td><td>${esc(L(lang, r.lava))}</td></tr>`).join('')}</tbody>
+    </table></div>
+    <p class="note">${th
+      ? 'ตัวเลขเหล่านี้ Serebii ระบุไว้สำหรับ “น้ำ” โดยรวม ไม่ได้แยกตัวเลขของน้ำทะเล น้ำโคลน และน้ำพุร้อนออกจากน้ำจืด มีแต่ลาวาที่วัดแยก นอกจากนี้น้ำยังลอดช่องแนวทแยงระหว่างบล็อกได้ จึงไหลได้ครบทั้ง 8 ทิศ'
+      : 'Serebii gives these figures for “water” as a whole — it does not measure Ocean, Muddy or Hot Spring water separately from Fresh Water; only lava is counted on its own. Water also slips through diagonal gaps between blocks, so it flows in all eight directions.'}</p>
+    <p class="note note-clay">${th
+      ? 'จุดที่น้ำตกลงมากระทบพื้นจะกลายเป็นแหล่งน้ำรอง ซึ่งเริ่มนับระยะใหม่ทั้งหมด น้ำที่ไหลมาแล้ว 23 บล็อกแล้วตกลงขอบ จะไหลต่อได้เต็มระยะอีกครั้งจากจุดนั้น'
+      : 'Where falling liquid lands it becomes a secondary source and the distance resets: water that has already run 23 blocks and then drops off an edge starts again with its full reach.'}</p>
+  </section>
+
+  <section id="pictures" class="tp-sec">
+    <div class="sec-title"><h2>${th ? 'ภาพประกอบจากในเกม' : 'What it looks like in play'}</h2></div>
+    <div class="tp-figs liquid-figs">
+      ${liquidFigure('placement', { en: 'Placing a source on flat ground: the puddle spreads out in a circle.', th: 'วางแหล่งน้ำบนพื้นราบ แอ่งจะแผ่ออกเป็นวงกลม' }, lang)}
+      ${liquidFigure('drops', { en: 'A source placed within four tiles of a drop runs straight for the edge instead.', th: 'แหล่งน้ำที่อยู่ในระยะสี่ช่องจากขอบตก จะพุ่งตรงไปที่ขอบแทนการแผ่ออก' }, lang)}
+      ${liquidFigure('water-cliff', { en: 'Water at a cliff: a straight two-tile-wide line over the edge.', th: 'น้ำที่หน้าผา ไหลเป็นเส้นตรงกว้างสองช่องข้ามขอบลงไป' }, lang)}
+      ${liquidFigure('lava-cliff', { en: 'Lava at a cliff: it aims for the edge but spreads again from the second tile.', th: 'ลาวาที่หน้าผา มุ่งไปที่ขอบแต่แผ่ตัวอีกครั้งตั้งแต่ช่องที่สอง' }, lang)}
+      ${liquidFigure('water-start', { en: 'Water sources placed along the Sparkling Skylands peak — the starting points.', th: 'จุดเริ่มต้นของแหล่งน้ำที่วางไว้ตามยอดเขาใน Sparkling Skylands' }, lang)}
+      ${liquidFigure('water-coverage', { en: 'The same sources once the water has settled — how far it reached.', th: 'แหล่งน้ำชุดเดิมหลังน้ำไหลจนนิ่ง เห็นขอบเขตที่ไปถึงจริง' }, lang)}
+      ${liquidFigure('lava-start', { en: 'Lava sources placed the same way on the volcano.', th: 'จุดเริ่มต้นของลาวาที่วางแบบเดียวกันบนภูเขาไฟ' }, lang)}
+      ${liquidFigure('lava-coverage', { en: 'The lava once it has settled — shorter reach, but it finds more edges.', th: 'ลาวาหลังไหลจนนิ่ง ไปได้ระยะสั้นกว่า แต่กระจายไปเจอขอบตกได้มากกว่า' }, lang)}
+      ${liquidFigure('levels', { en: 'Standard against low water level: the low setting fills half the block.', th: 'เทียบระดับน้ำปกติกับระดับต่ำ ระดับต่ำจะกินความสูงครึ่งบล็อก' }, lang)}
+      ${liquidFigure('chart', { en: 'Serebii’s chart of how a source spreads tile by tile.', th: 'แผนภาพของ Serebii แสดงการแผ่ของแหล่งน้ำทีละช่อง' }, lang)}
+    </div>
+    <p class="count">${th ? 'ภาพทั้งหมดจาก' : 'All pictures from'}
+      <a href="https://www.serebii.net/pokemonpokopia/water.shtml" rel="noopener">Serebii — Water Mechanics</a></p>
+  </section>`;
 }
 
 /* ---------------- stamps ---------------- */
