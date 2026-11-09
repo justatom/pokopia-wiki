@@ -34,6 +34,7 @@ Static site, **zero runtime dependencies**, mobile-first. Node 20+ is the only r
 | Transport guide — railways, handcars, railroad crossings, lifts, elevators and climbing, with the game's own Tips pictures | 1 page, 9 pictures |
 | Stamp card — every stamp with its rarity, what it pays in Life Coins, and its picture | 24 |
 | Liquid flow — five liquids with their icons, a spread-distance table and Serebii's in-game diagrams | 10 pictures |
+| Expansion Pass — 4 packs with artwork, and all of Bubbly Basin: 52 Pokémon, 36 habitats, 9 kits, 259 items | 1 page |
 | Furniture pieces | 140 |
 | Paint patterns, with where each is found and what it costs | 116 |
 | Outfits, hairstyles and accessories, with pictures and sources | 203 |
@@ -100,6 +101,20 @@ categories. About a third of Pokémon share three favourites with too few others
 theme, which is why the page also has a finder — type any spelling of a name (English, either
 Thai transliteration, Japanese) and it lists the eight best matches. Every one of the 366 has
 at least one.
+
+### The Expansion Pass
+
+`/dlc/` was four hardcoded pack blurbs and a Pokédex grid. The packs now come from
+`data/dlc.json`, parsed out of Serebii's Expansion Pass page — release date, price and a
+blurb and picture per pack — so a fifth pack appears by re-scraping rather than by editing
+`build.mjs`.
+
+The page then covers what the pass actually gives you: what version 2.0.0 added, and all of
+Bubbly Basin — its 52 Pokédex entries across 50 species, 36 habitats, 9 building kits, and
+both halves of its item list. Serebii splits those in two and so does the page: 26 items
+arrived free for everyone with 2.0.0 (`addedIn: "2.0.0"`, no `dlc` flag) and 233 need the
+pass (`dlc: true`), the latter too many to list so they are counted per category with a link
+into each.
 
 ### Liquid flow
 

@@ -441,6 +441,42 @@ W('cds', table(sec('cds').rows, 5).map(r => ({ name: cell(r[1]), desc: cell(r[2]
 const emotes = table(sec('emotes').rows, 2).map(r => ({ name: cell(r[0]), source: cell(r[1]) })).filter(x => x.name && x.name !== 'Emote');
 W('emotes', emotes);
 
+/* ---------- expansion pass ---------- */
+/* Serebii's Expansion Pass page is a heading per pack followed by a two-column block of
+   "Release Date" and "Details". The page's own header block carries the price and the
+   summary of what the pass is, and each pack has a picture of its own. */
+{
+  const rows = secs('expansionpass').flatMap(s => s.rows || []);
+  const flat = rows.map(r => ({ t: r.flatMap(c => c.t || []), i: r.flatMap(c => c.i || []) }));
+  const field = (t, name) => { const k = t.indexOf(name); return k >= 0 ? t[k + 1] : null; };
+
+  const head = flat.find(x => x.t.includes('Price')) || { t: [], i: [] };
+  const packs = [];
+  for (let k = 0; k < flat.length - 1; k++) {
+    // a heading row is a single cell; the row after it holds that pack's fields
+    if (flat[k].t.length !== 1 || flat[k].i.length) continue;
+    const name = flat[k].t[0];
+    if (/Expansion Pass$/.test(name) || name === 'Details') continue;
+    const next = flat[k + 1];
+    if (!next.t.includes('Release Date')) continue;
+    packs.push({
+      name,
+      date: field(next.t, 'Release Date'),
+      details: field(next.t, 'Details'),
+      img: (next.i[0] || '').replace(/^.*\//, '') || null,
+    });
+  }
+  const dlc = {
+    releaseDate: field(head.t, 'Release Date'),
+    price: field(head.t, 'Price'),
+    summary: head.t.filter(x => x.length > 60),
+    img: (head.i[0] || '').replace(/^.*\//, '') || null,
+    packs,
+  };
+  console.log(`   expansion pass: ${packs.length} packs (${packs.map(p => p.name).join(', ')})`);
+  W('dlc', dlc);
+}
+
 /* ---------- stamps ---------- */
 /* Serebii's stamp card table is four rows: a rarity and what it pays. Bulbapedia's Stamp
    rally page is the only source that names all 24 stamps and the rarity each counts as,

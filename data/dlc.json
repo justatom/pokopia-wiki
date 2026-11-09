@@ -1,0 +1,35 @@
+{
+ "releaseDate": "August 2026",
+ "price": "£29.99 / €34.99 / $34.99",
+ "summary": [
+  "The Pokémon Pokopia Expansion Pass was revealed and released in June 2026 and features three additional packs released over time adding two new towns and a variety of new features",
+  "The purchase will provide players with all three packs as they release."
+ ],
+ "img": "expansionpass.jpg",
+ "packs": [
+  {
+   "name": "Dynamic Ditto",
+   "date": "June 9th 2026",
+   "details": "The Pokémon Pokopia Expansion pass released with a special item available. This item is the special Dynamic Ditto pattern for both block and wallpapers",
+   "img": "dynamicditto.jpg"
+  },
+  {
+   "name": "Bubbly Basin",
+   "date": "August 2026",
+   "details": "Bubbly Basin is a new area introduced in the first paid DLC pack for Pokémon Pokopia. This area is underwater and features a variety of underwater Pokémon and the Mythical Pokémon Manaphy",
+   "img": "bubblybasin.jpg"
+  },
+  {
+   "name": "Pack 2",
+   "date": "Late 2026",
+   "details": "Pack 2 features a variety of new features. Currently these features are not clear",
+   "img": "pack2.jpg"
+  },
+  {
+   "name": "Pack 3",
+   "date": "2027",
+   "details": "Pack 3 features anothuer new town for you all to explore",
+   "img": "pack3.jpg"
+  }
+ ]
+}

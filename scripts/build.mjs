@@ -16,7 +16,7 @@ const pokemon = D('pokemon'), habitats = D('habitats'), items = D('items'), reci
   flavors = D('flavors'), humanrecords = D('humanrecords'), highlightreel = D('highlightreel'),
   dreamislands = D('dreamislands'), cloudislands = D('cloudislands'), envlevel = D('envlevel'),
   patches = D('patches'), events = D('events'), water = D('water'), cooking = D('cooking'),
-  stamps = D('stamps'), teamchallenge = D('teamchallenge'), gifts = D('gifts'), favorites = D('favorites'),
+  stamps = D('stamps'), dlc = D('dlc'), teamchallenge = D('teamchallenge'), gifts = D('gifts'), favorites = D('favorites'),
   cookware = D('cookware'), outfits = D('outfits'), patterns = D('patterns'), toys = D('toys'),
   locations = D('locations');
 const THRECORDS = fs.existsSync('data/th/records.json') ? D('th/records') : {};
@@ -2544,32 +2544,153 @@ function updatesPage(lang) {
   return layout({ lang, base: BASE, title: t.nav.updates, desc: 'Pokopia patch notes', path: '/updates/', body });
 }
 
+/* ---------------- expansion pass ---------------- */
+/* Everything the pass adds, in one place: the packs and when they land, what version 2.0.0
+   brought with it, and the whole of Bubbly Basin — its Pokedex, habitats, building kits and
+   both halves of its item list. Serebii splits those items in two and so does this page: 26
+   came free for everyone alongside the DLC, the rest need the pass. The packs themselves are
+   parsed into data/dlc.json; Serebii writes their blurbs in English, so the Thai is here. */
+const DLC_PICS = picsIn('dlc');
+const dlcPic = name => {
+  const f = `${String(name).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}.webp`;
+  return DLC_PICS.has(f) ? `${BASE}/sprites/dlc/${f}` : null;
+};
+
+const PACK_TH = {
+  'Dynamic Ditto': {
+    date: '9 มิถุนายน 2026',
+    details: 'ของแถมที่ได้ทันทีที่ซื้อ Expansion Pass เป็นลาย Dynamic Ditto ใช้ได้ทั้งกับบล็อกและวอลเปเปอร์',
+  },
+  'Bubbly Basin': {
+    date: 'สิงหาคม 2026',
+    details: 'พื้นที่ใหม่ในแพ็กเสริมชุดแรกที่ต้องซื้อ เป็นพื้นที่ใต้น้ำ มีโปเกมอนทะเลหลากหลายชนิด และมีมานาฟีโปเกมอนลึกลับ',
+  },
+  'Pack 2': {
+    date: 'ปลายปี 2026',
+    details: 'มีระบบใหม่หลายอย่าง แต่ตอนนี้ยังไม่มีการเปิดเผยรายละเอียด',
+  },
+  'Pack 3': {
+    date: '2027',
+    details: 'เพิ่มเมืองใหม่อีกหนึ่งแห่งให้ออกไปสำรวจ',
+  },
+};
+
 function dlcPage(lang) {
-  const t = T[lang];
+  const t = T[lang], th = lang === 'th';
   const basin = LOCATIONS.find(l => l.id === 'bubbly-basin');
-  const packs = [
-    ['Dynamic Ditto', '9 June 2026', '', lang === 'th' ? 'ลาย Dynamic Ditto สำหรับบล็อกและวอลเปเปอร์ แถมให้ทันทีที่ซื้อแพ็ก' : 'A Dynamic Ditto pattern for both blocks and wallpaper, granted the moment you buy the pass.'],
-    ['Bubbly Basin', '5 August 2026', '', lang === 'th' ? 'พื้นที่ใต้น้ำแห่งใหม่ ปลดล็อกท่า Dive การสร้างใต้น้ำ และโปเกมอนลึกลับมานาฟี' : 'A new underwater area that unlocks the Dive move, underwater building and the Mythical Pokémon Manaphy.'],
-    ['Pack 2', lang === 'th' ? 'ปลายปี 2026' : 'Late 2026', '', lang === 'th' ? 'ยังไม่เปิดเผยรายละเอียด' : 'Contents not yet announced.'],
-    ['Pack 3', '2027', '', lang === 'th' ? 'เมืองใหม่อีกหนึ่งแห่ง' : 'Another new town.'],
-  ];
   const basinMons = pokemon.filter(p => p.dex === 'basin');
+  const basinHabs = habitats.filter(h => h.dex === 'basin');
+  const basinKits = buildkits.filter(k => /Basin|Ocean temple/i.test(k.group || ''));
+  const freeItems = items.filter(i => i.addedIn === '2.0.0' && !i.dlc);
+  const paidItems = items.filter(i => i.dlc);
+  const species = new Set(basinMons.map(p => p.no)).size;
+  const patch2 = patches.find(p => p.version === '2.0.0');
+  const patchTh = th ? THPATCH['2.0.0'] : null;
+  const patchLines = patchTh && patchTh.lines.length === patch2.lines.length ? patchTh.lines : patch2.lines;
+
+  /* the paid list is 233 items — far too many to print, so it is broken down by the
+     category page each one lives on */
+  const paidByCat = [...new Set(paidItems.map(i => i.cat))]
+    .map(cat => ({ cat, n: paidItems.filter(i => i.cat === cat).length }))
+    .sort((a, b) => b.n - a.n);
+
+  const stat = (n, label) => `<div class="dlc-stat"><b>${n}</b><span>${esc(L(lang, label))}</span></div>`;
+
+  const packCards = (dlc.packs || []).map(p => {
+    const pic = dlcPic(p.name);
+    const thp = PACK_TH[p.name];
+    return `<article class="card dlc-pack">
+      ${pic ? `<img src="${pic}" alt="" loading="lazy" width="900" height="506" decoding="async">` : ''}
+      <div class="dlc-pack-body">
+        <div class="chips"><span class="tag tag-clay">${esc(th && thp ? thp.date : p.date)}</span></div>
+        <h3>${esc(p.name)}</h3>
+        <p>${esc(th && thp ? thp.details : p.details)}</p>
+      </div></article>`;
+  }).join('');
+
   const body = `${crumb(lang, [[t.nav.dlc]])}
-<div class="wrap stack" style="--gap:18px">
+<div class="wrap stack" style="--gap:22px">
   <h1>Pokémon Pokopia Expansion Pass</h1>
-  <p class="lede">${lang === 'th'
-      ? 'ประกาศและเริ่มขายเดือนมิถุนายน 2026 ราคา $34.99 / €34.99 / £29.99 ประกอบด้วยแพ็กเสริมสามชุดที่ทยอยปล่อย เพิ่มเมืองใหม่สองแห่งและระบบใหม่ ซื้อครั้งเดียวได้ครบทั้งสามแพ็ก'
-      : 'Announced and released in June 2026 at $34.99 / €34.99 / £29.99. Three packs release over time, adding two new towns and a range of new features; one purchase covers all three.'}</p>
-  <div class="grid g-4">${packs.map(([name, date, _, desc]) => `
-    <div class="card"><div class="chips" style="margin-bottom:8px"><span class="tag tag-clay">${esc(date)}</span></div>
-    <h3>${esc(name)}</h3><p style="font-size:.88rem;color:var(--ink-2);margin:6px 0 0">${esc(desc)}</p></div>`).join('')}</div>
-  <div class="prose"><h2>${esc(L(lang, basin.name))}</h2><p>${esc(L(lang, basin.desc))}</p></div>
-  <section><div class="sec-title"><h2>${lang === 'th' ? 'โปเกมอนใน Bubbly Basin' : 'Bubbly Basin Pokédex'}</h2><span>${basinMons.length}</span></div>
-    <div class="dex-grid">${basinMons.map(p => monCard(p, lang)).join('')}</div></section>
-  <section><div class="sec-title"><h2>${lang === 'th' ? 'ที่อยู่อาศัยใน Bubbly Basin' : 'Bubbly Basin habitats'}</h2><span>${habitats.filter(h => h.dex === 'basin').length}</span></div>
-    <div class="rows">${habitats.filter(h => h.dex === 'basin').map(h => habitatCard(h, lang)).join('')}</div></section>
+  <p class="lede">${th
+      ? `ประกาศและเริ่มขายเดือนมิถุนายน 2026 ราคา ${dlc.price} ซื้อครั้งเดียวได้ครบทั้งสามแพ็กที่ทยอยปล่อยออกมา เพิ่มเมืองใหม่สองแห่งและระบบใหม่อีกหลายอย่าง`
+      : `Announced and released in June 2026 at ${dlc.price}. One purchase covers all three packs as they release, adding two new towns and a range of new features.`}</p>
+
+  <section class="tp-sec">
+    <div class="sec-title"><h2>${th ? 'แพ็กทั้งหมด' : 'The packs'}</h2><span>${(dlc.packs || []).length}</span></div>
+    <div class="dlc-packs">${packCards}</div>
+  </section>
+
+  <section class="tp-sec">
+    <div class="sec-title"><h2>${th ? 'เวอร์ชัน 2.0.0 เพิ่มอะไรเข้ามาบ้าง' : 'What version 2.0.0 brought'}</h2><span>${esc(th && patchTh ? patchTh.date : patch2.date)}</span></div>
+    <div class="dlc-stats">
+      ${stat(basinMons.length, { en: 'Pokédex entries', th: 'รายการในโปเกเด็กซ์' })}
+      ${stat(basinHabs.length, { en: 'habitats', th: 'ที่อยู่อาศัย' })}
+      ${stat(basinKits.length, { en: 'building kits', th: 'ชุดก่อสร้าง' })}
+      ${stat(freeItems.length, { en: 'items free for everyone', th: 'ไอเทมที่แถมให้ทุกคน' })}
+      ${stat(paidItems.length, { en: 'items needing the pass', th: 'ไอเทมที่ต้องมีแพส' })}
+    </div>
+    <ul class="dlc-lines">${patchLines.slice(1, 9).map(l => `<li>${esc(l)}</li>`).join('')}</ul>
+    <p class="note"><a href="${BASE}/${lang}/updates/" style="text-decoration:underline">${th
+      ? `อ่านบันทึกแพตช์ 2.0.0 ฉบับเต็ม ${patch2.lines.length} บรรทัด และประวัติแพตช์ทั้งหมด`
+      : `Read the full ${patch2.lines.length}-line 2.0.0 notes and every patch before it`}</a></p>
+  </section>
+
+  <section class="tp-sec">
+    <div class="sec-title"><h2>${esc(L(lang, basin.name))}</h2></div>
+    <p class="tp-lede">${esc(L(lang, basin.desc))}</p>
+    <p class="note"><a href="${BASE}/${lang}/location/${basin.id}/" style="text-decoration:underline">${th
+      ? 'ดูของที่หาได้ในพื้นที่ โปเกมอนเฉพาะถิ่น และร้านค้าของอ่าวน้ำใส'
+      : 'See what you can find there, its exclusive Pokémon and its shop'}</a></p>
+  </section>
+
+  <section class="tp-sec">
+    <div class="sec-title"><h2>${th ? 'โปเกมอนใน Bubbly Basin' : 'Bubbly Basin Pokédex'}</h2><span>${basinMons.length}</span></div>
+    <p class="tp-lede">${th
+      ? `${basinMons.length} รายการ จาก ${species} สายพันธุ์ — พูรุริลกับบูรุนเกลนับแยกตัวผู้ตัวเมีย ทุกตัวหาได้เฉพาะเมื่อมี Expansion Pass แต่สร้างที่อยู่อาศัยของมันในพื้นที่อื่นได้`
+      : `${basinMons.length} entries across ${species} species — Frillish and Jellicent are counted once per gender. They need the pass, but their habitats can be built anywhere.`}</p>
+    <div class="dex-grid">${basinMons.map(p => monCard(p, lang)).join('')}</div>
+  </section>
+
+  <section class="tp-sec">
+    <div class="sec-title"><h2>${th ? 'ชุดก่อสร้างของ Bubbly Basin' : 'Bubbly Basin building kits'}</h2><span>${basinKits.length}</span></div>
+    <div class="fav-items">${basinKits.map(k => itemChip(k.name, lang)).join('')}</div>
+    <p class="note"><a href="${BASE}/${lang}/building/" style="text-decoration:underline">${th
+      ? 'ดูวัสดุ ผู้ช่วย เวลาสร้าง และจำนวนโปเกมอนที่อยู่ได้ของแต่ละชุด'
+      : 'See the materials, helpers, build time and residency of each kit'}</a></p>
+  </section>
+
+  <section class="tp-sec">
+    <div class="sec-title"><h2>${th ? 'ไอเทมที่แถมให้ทุกคน' : 'Items free for everyone'}</h2><span>${freeItems.length}</span></div>
+    <p class="tp-lede">${th
+      ? 'ไอเทมชุดนี้มาพร้อมอัปเดต 2.0.0 และได้ทุกคนแม้ไม่ได้ซื้อ Expansion Pass'
+      : 'These arrived with update 2.0.0 and everyone gets them, pass or no pass.'}</p>
+    <div class="fav-items">${freeItems.map(i => itemChip(i.name, lang)).join('')}</div>
+  </section>
+
+  <section class="tp-sec">
+    <div class="sec-title"><h2>${th ? 'ไอเทมที่ต้องมี Expansion Pass' : 'Items that need the pass'}</h2><span>${paidItems.length}</span></div>
+    <p class="tp-lede">${th
+      ? 'มากเกินกว่าจะไล่ชื่อทั้งหมด ด้านล่างคือจำนวนแยกตามหมวด กดเข้าไปดูรายชื่อได้ ชิ้นที่ต้องใช้แพสจะมีป้าย Expansion Pass กำกับไว้'
+      : 'Too many to list; here is the count per category. Open any of them and the entries that need the pass carry an Expansion Pass tag.'}</p>
+    <div class="fav-items">${paidByCat.map(({ cat, n }) =>
+      `<a class="fav-item" href="${BASE}/${lang}/items/${catSlug(cat)}/"><span>${esc(thCat(cat, lang))}</span> <b>${n}</b></a>`).join('')}</div>
+  </section>
+
+  <section class="tp-sec">
+    <div class="sec-title"><h2>${th ? 'ที่อยู่อาศัยใน Bubbly Basin' : 'Bubbly Basin habitats'}</h2><span>${basinHabs.length}</span></div>
+    <div class="rows">${basinHabs.map(h => habitatCard(h, lang)).join('')}</div>
+  </section>
+
+  <p class="count">${th ? 'แหล่งข้อมูล' : 'Sources'}:
+    <a href="https://www.serebii.net/pokemonpokopia/expansionpass.shtml" rel="noopener">Serebii — Expansion Pass</a> ·
+    <a href="https://www.serebii.net/pokemonpokopia/expansionpass/bubblybasin.shtml" rel="noopener">Bubbly Basin</a> ·
+    <a href="https://www.serebii.net/pokemonpokopia/patch.shtml" rel="noopener">${th ? 'บันทึกแพตช์' : 'Patch notes'}</a></p>
 </div>`;
-  return layout({ lang, base: BASE, title: t.nav.dlc, desc: 'Pokopia Expansion Pass', path: '/dlc/', body });
+  return layout({
+    lang, base: BASE, title: t.nav.dlc, path: '/dlc/', body,
+    desc: th ? 'Pokémon Pokopia Expansion Pass: แพ็กทั้งหมด โปเกมอน ที่อยู่อาศัย ชุดก่อสร้าง และไอเทมของ Bubbly Basin'
+      : 'The Pokémon Pokopia Expansion Pass: every pack, and all of Bubbly Basin — Pokémon, habitats, kits and items.',
+  });
 }
 
 function aboutPage(lang) {

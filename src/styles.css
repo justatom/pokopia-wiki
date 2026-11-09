@@ -390,6 +390,20 @@ td.num { font-variant-numeric: tabular-nums; color: var(--muted); white-space: n
 /* these are 16:9 screenshots and one chart that is not — contain rather than crop */
 .liquid-figs .tp-fig img { aspect-ratio: 16 / 9; object-fit: contain; }
 
+/* the expansion pass: pack cards with their artwork, and what the update added */
+.dlc-packs { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 14px; }
+.dlc-pack { padding: 0; overflow: hidden; display: flex; flex-direction: column; }
+.dlc-pack img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; background: var(--paper-2); }
+.dlc-pack-body { padding: 14px; display: grid; gap: 6px; }
+.dlc-pack-body h3 { margin: 0; font-size: 1.05rem; }
+.dlc-pack-body p { margin: 0; font-size: .92rem; color: var(--ink-2); }
+.dlc-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+.dlc-stat { display: grid; gap: 2px; padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--r-sm); background: var(--surface); }
+.dlc-stat b { font-size: 1.5rem; color: var(--clay); font-variant-numeric: tabular-nums; line-height: 1.1; }
+.dlc-stat span { font-size: .84rem; color: var(--muted); }
+.dlc-lines { margin: 0; padding-left: 1.2em; display: grid; gap: 5px; color: var(--ink-2); }
+.fav-item b { color: var(--clay); font-variant-numeric: tabular-nums; }
+
 /* the stamp card: how it works, what each rarity pays, and every stamp */
 .stamp-how { display: grid; gap: 18px; align-items: start; }
 @media (min-width: 860px) { .stamp-how { grid-template-columns: minmax(280px, 380px) 1fr; } }
